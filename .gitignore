@@ -1,0 +1,5 @@
+# ongewenste mapjes
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+*.code-workspace
