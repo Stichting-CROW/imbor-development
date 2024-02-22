@@ -1,0 +1,16 @@
+{
+  "name": "gen-tsv-tables",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "mdb-reader": "^3.0.0",
+    "yargs": "^17.7.2"
+  }
+}

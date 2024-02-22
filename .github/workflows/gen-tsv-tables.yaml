@@ -1,0 +1,23 @@
+name: Generate TSV tables
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  commit-tsv-tables:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - run: npm ci
+        working-directory: src/gen-tsv-tables
+      - run: node main.js --database ../../data/*.accdb --datadir ../../data
+        working-directory: src/gen-tsv-tables
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: "*.tsv"
+          commit_message: Update TSV export
