@@ -1,0 +1,19 @@
+CollectieID	CollectieGUID	Term	Toelichting
+2	41ab4cca-c6d7-4bfb-9748-28def30e0a3f	Objecttype	Aanduiding voor de registratie van concrete klassen waar vaste gegevens in de vorm van attributen beschreven worden.
+3	9cec6048-0358-4d4e-82d7-7804fca70737	Attribuut	Registratie van de eigenschappen of kenmerken van een objecttype of informatieobject.
+4	f877efbb-4b6f-48de-9428-46afc0d0bedf	Domeinwaarde	Registratie van vaste waarden en waarden die per organisatie verschillend kunnen zijn.
+5	12895e0e-bcd4-4c0f-98fa-57a22e2fc7ee	Klasse	Registratie van informatiecomponenten voor het clusteren van attributen en het toekennen van attributen aan objecttypen.
+6	421c2f1a-f9ad-4924-98d7-74d42cb576a9	Vakdiscipline	Registratie van de vakdisciplines of zoekingangen binnen het informatiemodel voor het clusteren van objecttypen.
+8	05d4f9a3-f07b-4080-862d-8e7475278187	Datatype	Registratie van het gegevenstype waarmee de waarde van een attribuut vastgelegd moet worden.
+9	927ceca5-91de-463f-a67d-1f504fe51308	Eenheid	Registratie van de eenheden die gebruikt worden bij de waardes van attributen.
+10	7f59b597-89da-495f-b5c3-23ad695e0b1b	TypeAttribuut	Registratie van het soort attribuut wat gebruikt wordt, bijvoorbeeld onderscheid in gebruik van lijsten of vrije invoervelden.
+11	32d4c922-3f2e-4c85-8fa3-7425bc9068a8	Semantische relatie	Registratie van de relaties die tussen onderdelen (objecttypen en informatieobjecten) onderling gelegd kan worden op basis van betekenis.
+13	bb47b90b-2980-44e4-9778-2fb1796a69df	Multipliciteit	Registratie van de kardinaliteit tussen een klasse en een attribuut. Vastleggen of er 1 of meerdere domeinwaarden bij een attribuut geregistreerd kunnen worden.
+14	154d8a06-aaa5-435b-bebd-17c8a2e6760b	Versie	Registratrie van de versie van de informatiemodellen waar het IMBOR-model mee samenwerkt of op aansluit.
+18	e6bb6b38-9f9f-4204-a272-a815d575c1c5	Informatieobject	Aanduiding voor het benoemen en registreren van informatieobjecten.
+19	5784acdf-a937-4e15-85cc-8e3215995f88	RelatieInformatie	Verzameling van relaties voor het verder specificeren van de mapping van IMBOR op andere modellen of methodieken.
+20	707aaf61-b9ea-421a-8f75-fecf59a03ce1	KlasseType	Registratie of een onderdeel binnen het model concreet of abstract is.
+21	510136cc-4e34-4332-967b-6d951fd47755	Functie	Registratie van de functie van een object. Een functioneel object heeft de intentie om een functionele activiteit uit te voeren. Net als een activiteit heeft deze functie altijd de vorm van een werkwoord (geen zelfstandig naamwoord) zoals ‘verbinden’, ‘pompen’ of ‘kopen’.
+22	75cab35e-a3ad-4084-906a-a248d0f06540	Materie	Registratie van het materiaal waaruit een object opgebouwd is.
+23	9ff64cb5-2b40-4395-8be0-ee1bffe5cf0e	Topologisch element	Registratie van topologische elementen. Een configuratie die aangeeft hoe elementen verbonden of gepositioneerd zijn ten opzichte van elkaar. De topologie in termen van verbindingen verandert gewoonlijk niet als de posities van de elementen veranderen.
+24	ce768ba5-792d-4df9-a5d9-a308c8d6788b	Enumeratietype	Registratie van de specifieke domeinwaardensets voor vaste waarden en suggesties per klasse en attribuut.
