@@ -29,7 +29,7 @@ prefixes:
 jobs:
   converteer-accessdb:
     steps:
-      - shell: npx @rdmr-eu/rdfjs-source-msaccess --input data/IMBOR-2022-03.accdb --output .cache/imbor-latest.nq --mode csv
+      - shell: npx @rdmr-eu/rdfjs-source-msaccess --input data/IMBOR-2022-03.accdb --output .cache/imbor-latest.nq --mode csv --datatypes easy-sparql
 
   stap-1-data-opbouw:
     sources:
