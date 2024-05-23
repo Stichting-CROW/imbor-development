@@ -1,4 +1,6 @@
 # from file imbor/src/transformations/addendum-geometrie.rq
+# Target-Graph: <https://data.crow.nl/imbor/def>
+
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -21,7 +23,7 @@ insert {
             a sh:NodeShape ;
             sh:property ?propShapeUri .
         
-        ?propShapeUri 
+        ?propShapeUri
             a sh:PropertyShape ;
             skos:prefLabel ?propDesc ;
             sh:path nen2660:hasBoundary ;
@@ -33,7 +35,7 @@ insert {
 }
 WHERE {
     graph <csv:table/imborKern_K_ObjecttypenSemantischeRelaties> {
-        [] csv:IMBORGUID ?IMBORGUID ;
+        ?ANY1 csv:IMBORGUID ?IMBORGUID ;
             csv:Multipliciteit ?Multipliciteit ;
             csv:Objecttype1 ?Objecttype1 ;
             csv:SemantischeRelatie 15170 ;  # heeft begrenzing
@@ -49,11 +51,11 @@ WHERE {
         }
         
         graph <csv:table/imborVoc_Termen> {
-            [] csv:VocabulairID ?Objecttype1 ;
+            ?ANY2 csv:VocabulairID ?Objecttype1 ;
                csv:Term ?Objecttype1Naam ;
                csv:IMBORGUID ?Objecttype1GUID .
             
-            [] csv:VocabulairID ?Objecttype2 ;
+            ?ANY3 csv:VocabulairID ?Objecttype2 ;
                csv:Term ?Objecttype2Naam ;
                csv:IMBORGUID ?Objecttype2GUID .
 

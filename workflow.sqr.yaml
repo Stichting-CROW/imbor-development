@@ -29,38 +29,38 @@ prefixes:
 jobs:
   converteer-accessdb:
     steps:
-      - shell: npx @rdmr-eu/rdfjs-source-msaccess --input data/IMBOR-2022-03.accdb --output .cache/imbor-latest.nq --mode csv --datatypes easy-sparql
+      - shell: rdfjs-source-msaccess --input data/IMBOR-2022-03.accdb --output .cache/imbor-latest.nq --mode csv --datatypes easy-sparql
 
   stap-1-data-opbouw:
     sources:
       - file: .cache/imbor-latest.nq
     steps:
-      - update: src/transformations/addendum-geometrie.rq
-      - update: src/transformations/attributen.rq
-      - update: src/transformations/attribuutshapes.rq
-      - update: src/transformations/enumeratietypes-domeinwaarden.rq
-      - update: src/transformations/enumeratietypes-gesloten.rq
-      - update: src/transformations/enumeratietypes-klasses.rq
-      - update: src/transformations/imbor-metaontologie.rq
-      - update: src/transformations/informatiemodellen.rq
-      - update: src/transformations/klassen-definities.rq
-      - update: src/transformations/klassen-hierarchie.rq
-      - update: src/transformations/minimale-dataset.rq
-      - update: src/transformations/oagbd.rq
-      - update: src/transformations/referentiemodel-attributen.rq
-      - update: src/transformations/referentiemodel-domeinwaarden.rq
-      - update: src/transformations/referentiemodel-mapping.rq
-      - update: src/transformations/referentiemodel-mapping-delete.rq
-      - update: src/transformations/referentiemodel-mapping-delete-ref.rq
-      - update: src/transformations/referentiemodel-mapping-delete-all.rq
-      - update: src/transformations/referentiemodel-objecttypen.rq
-      - update: src/transformations/semantische-relaties.rq
-      - update: src/transformations/termen-en-collecties.rq
-      - update: src/transformations/klassen-hierarchie-skos.rq
-      - update: src/transformations/unit-quantity-kind.rq
-      - update: src/transformations/vakdisciplines.rq
-      - update: src/transformations/owl-ontologies.rq
-      - update: src/transformations/scheme-skos.rq
+      - update: src/transformations/addendum-geometrie.ru
+      - update: src/transformations/attributen.ru
+      - update: src/transformations/attribuutshapes.ru
+      - update: src/transformations/enumeratietypes-domeinwaarden.ru
+      - update: src/transformations/enumeratietypes-gesloten.ru
+      - update: src/transformations/enumeratietypes-klasses.ru
+      - update: src/transformations/imbor-metaontologie.ru
+      - update: src/transformations/informatiemodellen.ru
+      - update: src/transformations/klassen-definities.ru
+      - update: src/transformations/klassen-hierarchie.ru
+      - update: src/transformations/minimale-dataset.ru
+      - update: src/transformations/oagbd.ru
+      - update: src/transformations/referentiemodel-attributen.ru
+      - update: src/transformations/referentiemodel-domeinwaarden.ru
+      - update: src/transformations/referentiemodel-mapping.ru
+      - update: src/transformations/referentiemodel-mapping-delete.ru
+      - update: src/transformations/referentiemodel-mapping-delete-ref.ru
+      - update: src/transformations/referentiemodel-mapping-delete-all.ru
+      - update: src/transformations/referentiemodel-objecttypen.ru
+      - update: src/transformations/semantische-relaties.ru
+      - update: src/transformations/termen-en-collecties.ru
+      - update: src/transformations/klassen-hierarchie-skos.ru
+      - update: src/transformations/unit-quantity-kind.ru
+      - update: src/transformations/vakdisciplines.ru
+      - update: src/transformations/owl-ontologies.ru
+      - update: src/transformations/scheme-skos.ru
     targets:
       - file: .cache/post-stap-1-data-opbouw.nq
 
@@ -68,12 +68,12 @@ jobs:
     sources:
       - file: .cache/post-stap-1-data-opbouw.nq
     steps:
-      - update: src/transformations/hernoemen-refurls.rq
-      - update: src/transformations/hernoemen-refurls.rq
-      - update: src/transformations/hernoemen-refurls.rq
-      - update: src/transformations/vocab-hierarchie-1.rq
-      - update: src/transformations/vocab-hierarchie-2.rq
-      - update: src/transformations/vocab-hierarchie-3.rq
+      - update: src/transformations/hernoemen-refurls.ru
+      - update: src/transformations/hernoemen-refurls.ru
+      - update: src/transformations/hernoemen-refurls.ru
+      - update: src/transformations/vocab-hierarchie-1.ru
+      - update: src/transformations/vocab-hierarchie-2.ru
+      - update: src/transformations/vocab-hierarchie-3.ru
     targets:
       - file: .cache/post-stap-2-hernoemen.nq
 
@@ -81,13 +81,13 @@ jobs:
     sources:
       - file: .cache/post-stap-2-hernoemen.nq
     steps:
-      - update: src/transformations/mim-klasses.rq
-      - update: src/transformations/mim-attributen.rq
-      - update: src/transformations/mim-relaties.rq
-      - update: src/transformations/mim-enumeraties.rq
-      - update: src/transformations/mim-domeinwaarden.rq
-      - update: src/transformations/mim-datatype.rq
-      - update: src/transformations/mim-generalisaties.rq
+      - update: src/transformations/mim-klasses.ru
+      - update: src/transformations/mim-attributen.ru
+      - update: src/transformations/mim-relaties.ru
+      - update: src/transformations/mim-enumeraties.ru
+      - update: src/transformations/mim-domeinwaarden.ru
+      - update: src/transformations/mim-datatype.ru
+      - update: src/transformations/mim-generalisaties.ru
     targets:
       - file: .cache/post-stap-3-mim.nq
 
@@ -95,10 +95,10 @@ jobs:
     sources:
       - file: .cache/post-stap-3-mim.nq
     steps:
-      - update: src/transformations/versie-publicatie-graaf-info.rq
-      - update: src/transformations/shacl-messages&rules.rq
-      - update: src/transformations/qualifiedValueShape-replace-qualifiedMaxMin-991.rq
-      - update: src/transformations/qualifiedValueShape-min-constraint.rq
+      - update: src/transformations/versie-publicatie-graaf-info.ru
+      - update: src/transformations/shacl-messages&rules.ru
+      - update: src/transformations/qualifiedValueShape-replace-qualifiedMaxMin-991.ru
+      - update: src/transformations/qualifiedValueShape-min-constraint.ru
     targets:
       - file: .cache/stap-4-metadata.nq
 
