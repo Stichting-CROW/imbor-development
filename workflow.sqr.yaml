@@ -96,7 +96,7 @@ jobs:
       - file: .cache/post-stap-3-mim.nq
     steps:
       - update: src/transformations/versie-publicatie-graaf-info.ru
-      - update: src/transformations/shacl-messages&rules.ru
+      - update: src/transformations/shacl-messages-and-rules.ru
       - update: src/transformations/qualifiedValueShape-replace-qualifiedMaxMin-991.ru
       - update: src/transformations/qualifiedValueShape-min-constraint.ru
     targets:
