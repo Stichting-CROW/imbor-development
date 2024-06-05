@@ -35,7 +35,7 @@ insert {
 }
 WHERE {
     graph <csv:table/imborKern_K_ObjecttypenSemantischeRelaties> {
-        ?ANY1 csv:IMBORGUID ?IMBORGUID ;
+        [] csv:IMBORGUID ?IMBORGUID ;
             csv:Multipliciteit ?Multipliciteit ;
             csv:Objecttype1 ?Objecttype1 ;
             csv:SemantischeRelatie 15170 ;  # heeft begrenzing
@@ -51,11 +51,11 @@ WHERE {
         }
         
         graph <csv:table/imborVoc_Termen> {
-            ?ANY2 csv:VocabulairID ?Objecttype1 ;
+            [] csv:VocabulairID ?Objecttype1 ;
                csv:Term ?Objecttype1Naam ;
                csv:IMBORGUID ?Objecttype1GUID .
             
-            ?ANY3 csv:VocabulairID ?Objecttype2 ;
+            [] csv:VocabulairID ?Objecttype2 ;
                csv:Term ?Objecttype2Naam ;
                csv:IMBORGUID ?Objecttype2GUID .
 

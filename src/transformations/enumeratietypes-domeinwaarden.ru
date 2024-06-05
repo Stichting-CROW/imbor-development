@@ -37,9 +37,10 @@ WHERE {
                 [] csv:VocabulairID ?BovenliggendewaardeID ;
                     csv:Term ?bovenliggendeTerm .
             }
+            
+            BIND (STRLANG( ?bovenliggendeTerm, "nl" ) AS ?bovenliggendeTermNL)
         }
 
-        BIND (STRLANG( ?bovenliggendeTerm, "nl" ) AS ?bovenliggendeTermNL)
     }
 
     graph <csv:table/imborKern_K_KlassenAttributen> {
