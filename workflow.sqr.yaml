@@ -26,14 +26,32 @@ prefixes:
   dash: http://datashapes.org/dash#
   coll: https://data.crow.nl/rest-api/id#
   restapi: https://data.crow.nl/rest-api/def#
+
 jobs:
   converteer-accessdb:
     steps:
       - shell: rdfjs-source-msaccess --input data/IMBOR-2022-03.accdb --output .cache/imbor-latest.nq --mode csv --datatypes easy-sparql
 
+  stap-0-clear-all-graphs:
+    sources:
+      - sparql: http://localhost:7200/repositories/imbor-pipeline/statements
+    steps:
+      - update: >
+          CLEAR ALL
+
+  stap-0-upload-imbor-csv:
+    steps:
+      - shell: >
+          curl
+          -X PUT
+          --data-binary @.cache/imbor-latest.nq
+          -H 'Content-Type: application/n-quads;'
+          "http://localhost:7200/repositories/imbor-pipeline/statements"
+
   stap-1-data-opbouw:
     sources:
-      - file: .cache/imbor-latest.nq
+      # - file: .cache/imbor-latest.nq
+      - sparql: http://localhost:7200/repositories/imbor-pipeline/statements
     steps:
       - update: src/transformations/addendum-geometrie.ru
       - update: src/transformations/attributen.ru
@@ -61,12 +79,11 @@ jobs:
       - update: src/transformations/vakdisciplines.ru
       - update: src/transformations/owl-ontologies.ru
       - update: src/transformations/scheme-skos.ru
-    targets:
-      - file: .cache/post-stap-1-data-opbouw.nq
 
   stap-2-hernoemen:
     sources:
-      - file: .cache/post-stap-1-data-opbouw.nq
+      # - sparql: http://localhost:3030/ds/query
+      - sparql: http://localhost:7200/repositories/imbor-pipeline/statements
     steps:
       - update: src/transformations/hernoemen-refurls.ru
       - update: src/transformations/hernoemen-refurls.ru
@@ -74,12 +91,10 @@ jobs:
       - update: src/transformations/vocab-hierarchie-1.ru
       - update: src/transformations/vocab-hierarchie-2.ru
       - update: src/transformations/vocab-hierarchie-3.ru
-    targets:
-      - file: .cache/post-stap-2-hernoemen.nq
 
   stap-3-mim:
     sources:
-      - file: .cache/post-stap-2-hernoemen.nq
+      - sparql: http://localhost:7200/repositories/imbor-pipeline/statements
     steps:
       - update: src/transformations/mim-klasses.ru
       - update: src/transformations/mim-attributen.ru
@@ -88,23 +103,28 @@ jobs:
       - update: src/transformations/mim-domeinwaarden.ru
       - update: src/transformations/mim-datatype.ru
       - update: src/transformations/mim-generalisaties.ru
-    targets:
-      - file: .cache/post-stap-3-mim.nq
 
   stap-4-metadata:
     sources:
-      - file: .cache/post-stap-3-mim.nq
+      - sparql: http://localhost:7200/repositories/imbor-pipeline/statements
     steps:
       - update: src/transformations/versie-publicatie-graaf-info.ru
       - update: src/transformations/shacl-messages-and-rules.ru
       - update: src/transformations/qualifiedValueShape-replace-qualifiedMaxMin-991.ru
       - update: src/transformations/qualifiedValueShape-min-constraint.ru
-    targets:
-      - file: .cache/stap-4-metadata.nq
+
+  download-voor-gefilterde-export:
+    steps:
+      - shell: >
+          curl
+          -X GET
+          -H 'Accept: application/n-quads;'
+          -o .cache/post-stap-4-metadata.nq
+          "http://localhost:7200/repositories/imbor-pipeline/statements"
 
   stap-5-outputs-zonder-externe-ontologieen:
     sources:
-      - file: .cache/stap-4-metadata.nq
+      - file: .cache/post-stap-4-metadata.nq
     targets:
       - file: data/imbor-vocabulaire.ttl
         with:
@@ -149,9 +169,25 @@ jobs:
           only-graphs:
             - "https://data.crow.nl/imbor/addendum/rest-api"
 
+  stap-6-laad-externe-ontologieen:
+    sources:
+      - sparql: http://localhost:7200/repositories/imbor-pipeline/statements
+    steps:
+      - update: src/transformations/load-ext-ontologieen.ru
+      - update: src/transformations/clean-up-qudt-mess.ru
+
+  download-voor-export-incl-externe-ontologieen:
+    steps:
+      - shell: >
+          curl
+          -X GET
+          -H 'Accept: application/n-quads;'
+          -o .cache/post-stap-6-ext-onto.nq
+          "http://localhost:7200/repositories/imbor-pipeline/statements"
+
   stap-6-outputs-met-externe-ontologieen:
     sources:
-      - file: .cache/stap-4-metadata.nq
+      - file: .cache/post-stap-6-ext-onto.nq
     targets:
       - file: data/imbor-volledig-onto-verkenner.ttl
         with:
