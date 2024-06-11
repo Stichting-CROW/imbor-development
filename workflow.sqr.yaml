@@ -30,7 +30,12 @@ prefixes:
 jobs:
   converteer-accessdb:
     steps:
-      - shell: rdfjs-source-msaccess --input data/IMBOR-2022-03.accdb --output .cache/imbor-latest.nq --mode csv --datatypes easy-sparql
+      - shell: >
+          rdfjs-source-msaccess 
+          --input data/IMBOR-2022-03.accdb
+          --output .cache/imbor-latest.nq
+          --mode csv
+          --datatypes easy-sparql
 
   stap-0-clear-all-graphs:
     sources:
@@ -41,16 +46,15 @@ jobs:
 
   stap-0-upload-imbor-csv:
     steps:
-      - shell: >
-          curl
-          -X PUT
-          --data-binary @.cache/imbor-latest.nq
-          -H 'Content-Type: application/n-quads;'
-          "http://localhost:7200/repositories/imbor-pipeline/statements"
+      - http-request: http://localhost:7200/repositories/imbor-pipeline/statements
+        with:
+          method: PUT
+          body-file: .cache/imbor-latest.nq
+          headers:
+            Content-Type: application/n-quads
 
   stap-1-data-opbouw:
     sources:
-      # - file: .cache/imbor-latest.nq
       - sparql: http://localhost:7200/repositories/imbor-pipeline/statements
     steps:
       - update: src/transformations/addendum-geometrie.ru
@@ -82,7 +86,6 @@ jobs:
 
   stap-2-hernoemen:
     sources:
-      # - sparql: http://localhost:3030/ds/query
       - sparql: http://localhost:7200/repositories/imbor-pipeline/statements
     steps:
       - update: src/transformations/hernoemen-refurls.ru
@@ -115,12 +118,11 @@ jobs:
 
   download-voor-gefilterde-export:
     steps:
-      - shell: >
-          curl
-          -X GET
-          -H 'Accept: application/n-quads;'
-          -o .cache/post-stap-4-metadata.nq
-          "http://localhost:7200/repositories/imbor-pipeline/statements"
+      - http-request: http://localhost:7200/repositories/imbor-pipeline/statements
+        with:
+          headers:
+            Accept: application/n-quads
+          destination: .cache/post-stap-4-metadata.nq
 
   stap-5-outputs-zonder-externe-ontologieen:
     sources:
@@ -178,12 +180,11 @@ jobs:
 
   download-voor-export-incl-externe-ontologieen:
     steps:
-      - shell: >
-          curl
-          -X GET
-          -H 'Accept: application/n-quads;'
-          -o .cache/post-stap-6-ext-onto.nq
-          "http://localhost:7200/repositories/imbor-pipeline/statements"
+      - http-request: http://localhost:7200/repositories/imbor-pipeline/statements
+        with:
+          headers:
+            Accept: application/n-quads
+          destination: .cache/post-stap-6-ext-onto.nq
 
   stap-6-outputs-met-externe-ontologieen:
     sources:
