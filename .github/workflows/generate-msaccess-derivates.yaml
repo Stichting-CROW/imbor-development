@@ -8,18 +8,39 @@ on:
   workflow_dispatch:
 
 jobs:
-  commit-tsv-tables:
+  tsv-tables:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v3
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
+
+      # Install dependencies
       - run: npm ci
-        working-directory: src/gen-tsv-tables
-      - run: node main.js --database ../../data/*.accdb --datadir ../../data
-        working-directory: src/gen-tsv-tables
+        working-directory: bin/generate-msaccess-tsv-tables
+
+        # Run on database
+      - run: node generate-msaccess-tsv-tables.js --database ../../data/msaccess/*.accdb --datadir ../../data
+        working-directory: bin/generate-msaccess-tsv-tables
+
+        # Commit results
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           file_pattern: "*.tsv"
           commit_message: Update TSV export
+  rdf-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+
+      # Install SPARQL Query Runner
+      - run: ./bin/setup.sh
+
+      # Run SPARQL Query Runner
+      - run: sparql-query-runner run --exec-shell
+        working-directory: .
+
+      # Commit results
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update RDF export

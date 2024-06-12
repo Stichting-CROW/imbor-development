@@ -32,7 +32,7 @@ jobs:
     steps:
       - shell: >
           rdfjs-source-msaccess 
-          --input data/IMBOR-2022-03.accdb
+          --input data/msaccess/IMBOR-2022-03.accdb
           --output .cache/imbor-latest.nq
           --mode csv
           --datatypes easy-sparql
@@ -128,27 +128,27 @@ jobs:
     sources:
       - file: .cache/post-stap-4-metadata.nq
     targets:
-      - file: data/imbor-vocabulaire.ttl
+      - file: data/rdf/imbor-vocabulaire.ttl
         with:
           only-graphs:
             - "https://data.crow.nl/imbor/term/"
 
-      - file: data/imbor-kern.ttl
+      - file: data/rdf/imbor-kern.ttl
         with:
           only-graphs:
             - "https://data.crow.nl/imbor/def/"
 
-      - file: data/imbor-domeinwaarden.ttl
+      - file: data/rdf/imbor-domeinwaarden.ttl
         with:
           only-graphs:
             - "https://data.crow.nl/imbor/id/domeinwaarden/"
 
-      - file: data/imbor-aanvullend-metamodel.ttl
+      - file: data/rdf/imbor-aanvullend-metamodel.ttl
         with:
           only-graphs:
             - "https://data.crow.nl/imbor/aanvullend-metamodel"
 
-      - file: data/imbor-informatief.trig
+      - file: data/rdf/imbor-informatief.trig
         with:
           only-graphs:
             - "https://data.crow.nl/imbor/addendum/oagbd"
@@ -157,7 +157,7 @@ jobs:
             - "https://data.crow.nl/imbor/addendum/referentiemodellen"
             - "https://data.crow.nl/imbor/mim"
 
-      - file: data/imbor-informatief_LacesUpload.ttl
+      - file: data/rdf/imbor-informatief_LacesUpload.ttl
         with:
           only-graphs:
             - "https://data.crow.nl/imbor/addendum/oagbd"
@@ -166,7 +166,7 @@ jobs:
             - "https://data.crow.nl/imbor/addendum/referentiemodellen"
             - "https://data.crow.nl/imbor/mim"
 
-      - file: data/imbor-rest-api-linkset.ttl
+      - file: data/rdf/imbor-rest-api-linkset.ttl
         with:
           only-graphs:
             - "https://data.crow.nl/imbor/addendum/rest-api"
@@ -190,7 +190,7 @@ jobs:
     sources:
       - file: .cache/post-stap-6-ext-onto.nq
     targets:
-      - file: data/imbor-volledig-onto-verkenner.ttl
+      - file: data/rdf/imbor-volledig-onto-verkenner.ttl
         with:
           only-graphs:
             - https://data.crow.nl/imbor/term/
@@ -204,7 +204,7 @@ jobs:
             - https://data.crow.nl/imbor/addendum/referentiemodellen
             - https://data.crow.nl/imbor/mim
 
-      - file: data/imbor-gecombineerd-tbv-shaclvalidatie.ttl
+      - file: data/rdf/imbor-gecombineerd-tbv-shaclvalidatie.ttl
         with:
           only-graphs:
             - https://data.crow.nl/imbor/def/

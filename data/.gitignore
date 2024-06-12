@@ -1,4 +1,0 @@
-# Aparte bestanden worden niet los geupload omdat ze volgen uit de pipeline.
-*.laccdb
-*.trig
-*.ttl
