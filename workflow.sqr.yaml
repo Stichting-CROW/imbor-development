@@ -39,14 +39,14 @@ jobs:
 
   stap-0-clear-all-graphs:
     sources:
-      - sparql: http://localhost:7200/repositories/imbor-pipeline/statements
+      - sparql: http://localhost:7200/repositories/imbor-development/statements
     steps:
       - update: >
           CLEAR ALL
 
   stap-0-upload-imbor-csv:
     steps:
-      - http-request: http://localhost:7200/repositories/imbor-pipeline/statements
+      - http-request: http://localhost:7200/repositories/imbor-development/statements
         with:
           method: PUT
           body-file: .cache/imbor-latest.nq
@@ -55,7 +55,7 @@ jobs:
 
   stap-1-data-opbouw:
     sources:
-      - sparql: http://localhost:7200/repositories/imbor-pipeline/statements
+      - sparql: http://localhost:7200/repositories/imbor-development/statements
     steps:
       - update: src/transformations/addendum-geometrie.ru
       - update: src/transformations/attributen.ru
@@ -86,7 +86,7 @@ jobs:
 
   stap-2-hernoemen:
     sources:
-      - sparql: http://localhost:7200/repositories/imbor-pipeline/statements
+      - sparql: http://localhost:7200/repositories/imbor-development/statements
     steps:
       - update: src/transformations/hernoemen-refurls.ru
       - update: src/transformations/hernoemen-refurls.ru
@@ -97,7 +97,7 @@ jobs:
 
   stap-3-mim:
     sources:
-      - sparql: http://localhost:7200/repositories/imbor-pipeline/statements
+      - sparql: http://localhost:7200/repositories/imbor-development/statements
     steps:
       - update: src/transformations/mim-klasses.ru
       - update: src/transformations/mim-attributen.ru
@@ -109,7 +109,7 @@ jobs:
 
   stap-4-metadata:
     sources:
-      - sparql: http://localhost:7200/repositories/imbor-pipeline/statements
+      - sparql: http://localhost:7200/repositories/imbor-development/statements
     steps:
       - update: src/transformations/versie-publicatie-graaf-info.ru
       - update: src/transformations/shacl-messages-and-rules.ru
@@ -118,7 +118,7 @@ jobs:
 
   download-voor-gefilterde-export:
     steps:
-      - http-request: http://localhost:7200/repositories/imbor-pipeline/statements
+      - http-request: http://localhost:7200/repositories/imbor-development/statements
         with:
           headers:
             Accept: application/n-quads
@@ -173,14 +173,14 @@ jobs:
 
   stap-6-laad-externe-ontologieen:
     sources:
-      - sparql: http://localhost:7200/repositories/imbor-pipeline/statements
+      - sparql: http://localhost:7200/repositories/imbor-development/statements
     steps:
       - update: src/transformations/load-ext-ontologieen.ru
       - update: src/transformations/clean-up-qudt-mess.ru
 
   download-voor-export-incl-externe-ontologieen:
     steps:
-      - http-request: http://localhost:7200/repositories/imbor-pipeline/statements
+      - http-request: http://localhost:7200/repositories/imbor-development/statements
         with:
           headers:
             Accept: application/n-quads
