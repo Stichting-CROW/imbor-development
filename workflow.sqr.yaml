@@ -32,7 +32,7 @@ jobs:
     steps:
       - shell: >
           rdfjs-source-msaccess 
-          --input data/msaccess/IMBOR-2022-03.accdb
+          --input data/msaccess/IMBOR-development.accdb
           --output .cache/imbor-latest.nq
           --mode csv
           --datatypes easy-sparql
