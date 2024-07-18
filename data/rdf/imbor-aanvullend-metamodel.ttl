@@ -67,14 +67,6 @@
 @prefix coll: <https://data.crow.nl/rest-api/id#>.
 @prefix restapi: <https://data.crow.nl/rest-api/def#>.
 
-imbor-domeinwaarde:bovenliggendeWaarde a rdf:Property;
-    rdfs:range xsd:string;
-    skos:prefLabel "categorie domeinwaarde"@nl;
-    skos:definition "Domeinwaarden die in picklists van elkaar afhankelijk zijn."@nl.
-imbor:typeLijst a rdf:Property;
-    rdfs:range xsd:string;
-    skos:prefLabel "open/gesloten"@nl;
-    skos:definition "Of deze lijst een open suggestielijst is of een gesloten enumeratielijst."@nl.
 imbor-refmodels:levensfaseTypering a rdf:Property;
     rdfs:range xsd:string;
     skos:prefLabel "typering levensfase"@nl;
@@ -114,3 +106,11 @@ imbor:imborEenheid a rdf:Property;
     rdfs:range rdfs:Class;
     skos:prefLabel "eenheid (IMBOR)"@nl;
     skos:definition "De klasse van de IMBOR-specifieke eenheid waarin dit attribuut gemeten wordt."@nl.
+imbor-domeinwaarde:bovenliggendeWaarde a rdf:Property;
+    rdfs:range xsd:string;
+    skos:prefLabel "categorie domeinwaarde"@nl;
+    skos:definition "Domeinwaarden die in picklists van elkaar afhankelijk zijn."@nl.
+imbor:typeLijst a rdf:Property;
+    rdfs:range xsd:string;
+    skos:prefLabel "open/gesloten"@nl;
+    skos:definition "Of deze lijst een open suggestielijst is of een gesloten enumeratielijst."@nl.

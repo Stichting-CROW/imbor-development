@@ -1,10 +1,10 @@
-# IMBOR Pipeline
+# IMBOR Development
 
 Private repository to transform IMBOR Access file to RDF in Turtle
 
 ## Benodigdheden transformatie
 
-- Een beschikbaar GraphDB-endpoint op poort 7200, met een repository genaamd `imbor-pipeline`.
+- Een beschikbaar GraphDB-endpoint op poort 7200, met een repository genaamd `imbor-development`.
   - Script [`bin/setup.sh`](bin/setup.sh) beschrijf hoe je die met Docker lokaal opzet
 - Zorg ervoor dat `npm` en `npx` beschikbaar zijn in `$PATH`
 - Zorg ervoor dat de inputbestanden (sc. `IMBOR-2022*.accdb`) beschikbaar zijn.
@@ -14,3 +14,5 @@ Private repository to transform IMBOR Access file to RDF in Turtle
 ```sh
 $ npm install --global @rdmr-eu/sparql-query-runner
 ```
+
+## TODO: Uitleg over tsv

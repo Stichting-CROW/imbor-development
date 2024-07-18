@@ -67,6 +67,10 @@
 @prefix coll: <https://data.crow.nl/rest-api/id#>.
 @prefix restapi: <https://data.crow.nl/rest-api/def#>.
 
+<https://data.crow.nl/imbor/term/> a owl:Ontology;
+    owl:imports <http://www.w3.org/2004/02/skos/core#>, <https://w3id.org/nen2660/term#>;
+    rdfs:comment "Dit normatieve gedeelte betreft de vocabulair van IMBOR"@nl;
+    rdfs:label "IMBOR Vocabulaire"@nl.
 <https://data.crow.nl/imbor/term/6d4b5b9b-eed1-40f4-a0a7-e75f97a56d8f> a skos:Concept;
     skos:prefLabel "bereikbaarheid gedetailleerd"@nl;
     skos:definition "Mogelijkheid om één of meerdere opties voor het detailleren van de bereikbaarheid toe te voegen bij een objecttype."@nl;
@@ -34524,10 +34528,6 @@ imbor-term:d8ad1648-be6b-4675-aab7-bd5e2de436ad a skos:Concept;
     skos:definition "In of op het wegdek aangebrachte lichtelementen die voor de weggebruiker bij duisternis het verloop van de weg zichtbaar maken, ook buiten het bereik van koplampen. / Actieve wegmarkering is een vorm van verkeersgeleiding in en langs wegen op plaatsen waar geen of onvoldoende straatverlichting is."@nl;
     skos:broader <https://data.crow.nl/imbor/term/991bcca8-9c78-45ea-9af4-baa24d418f2f>;
     skos:inScheme imbor-term:term-schema.
-<https://data.crow.nl/imbor/term/> a owl:Ontology;
-    owl:imports <http://www.w3.org/2004/02/skos/core#>, <https://w3id.org/nen2660/term#>;
-    rdfs:comment "Dit normatieve gedeelte betreft de vocabulair van IMBOR"@nl;
-    rdfs:label "IMBOR Vocabulaire"@nl.
 <https://data.crow.nl/imbor/term/41ab4cca-c6d7-4bfb-9748-28def30e0a3f> a skos:Collection;
     skos:prefLabel "Objecttype"@nl;
     skos:note "Aanduiding voor de registratie van concrete klassen waar vaste gegevens in de vorm van attributen beschreven worden."@nl;
