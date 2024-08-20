@@ -27,20 +27,20 @@ jobs:
         with:
           file_pattern: "*.tsv"
           commit_message: Update TSV export
-  rdf-files:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/setup-node@v3
-      - uses: actions/checkout@v4
+  # rdf-files:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/setup-node@v3
+  #     - uses: actions/checkout@v4
 
-      # Install SPARQL Query Runner
-      - run: ./bin/setup.sh
+  #     # Install SPARQL Query Runner
+  #     - run: ./bin/setup.sh
 
-      # Run SPARQL Query Runner
-      - run: sparql-query-runner run --exec-shell
-        working-directory: .
+  #     # Run SPARQL Query Runner
+  #     - run: sparql-query-runner run --exec-shell
+  #       working-directory: .
 
-      # Commit results
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Update RDF export
+  #     # Commit results
+  #     - uses: stefanzweifel/git-auto-commit-action@v5
+  #       with:
+  #         commit_message: Update RDF export
