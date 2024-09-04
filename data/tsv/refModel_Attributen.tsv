@@ -1,5 +1,4 @@
 refAttribuutID	refAttribuutGUID	refInformatiemodel	refAttribuut	URI	Definitie	Toelichting	Wijzigingsdatum
-59	a5cde4ce-d42a-447f-97e6-4f5ab2eef255	10	geregistreerdMet	null	null	null	Tue Sep 03 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
 68	5e1a43f4-d3b0-4657-9b15-dccfd43796c2	10	eindGeldigheid	#http://modellen.geostandaarden.nl/def/nen3610-2022#eindGeldigheid	null	null	Tue Sep 03 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
 60	3efd1183-d5ce-417a-93b4-eb06a6ab51d0	10	beginGeldigheid	#http://modellen.geostandaarden.nl/def/nen3610-2022#beginGeldigheid	null	null	Tue Sep 03 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
 1	6714c8d9-ecc9-4a3e-83fd-5a724168ef94	5	typeOverbrugging	null	Nadere classificatie van het overbruggingsobject.	null	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)
@@ -63,3 +62,4 @@ refAttribuutID	refAttribuutGUID	refInformatiemodel	refAttribuut	URI	Definitie	To
 65	51d31814-fa18-4687-98a5-eeb434ce17cb	10	objectEindTijd	#http://modellen.geostandaarden.nl/def/nen3610-2022#objectEindTijd	null	null	Tue Sep 03 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
 66	936f46e1-afb6-43c9-92a7-975cedb26604	10	tijdstipRegistratie	#http://modellen.geostandaarden.nl/def/nen3610-2022#tijdstipRegistratie	null	null	Tue Sep 03 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
 67	12b5c86c-5445-488d-a949-f8d937d3e882	10	versie	#http://modellen.geostandaarden.nl/def/nen3610-2022#versie	null	null	Tue Sep 03 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
+59	a5cde4ce-d42a-447f-97e6-4f5ab2eef255	10	registratiegegevens	#http://modellen.geostandaarden.nl/def/nen3610-2022#registratiegegevens	null	null	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
