@@ -1,5 +1,7 @@
 refAttribuutID	refAttribuutGUID	refInformatiemodel	refAttribuut	URI	Definitie	Toelichting	Wijzigingsdatum
 68	5e1a43f4-d3b0-4657-9b15-dccfd43796c2	10	eindGeldigheid	#http://modellen.geostandaarden.nl/def/nen3610-2022#eindGeldigheid	null	null	Tue Sep 03 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
+69	b48c3ee9-2761-48b3-8907-db272051dcd1	18	net:Link.endNode	null	null	null	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
+70	6f88bc47-7fbf-4dbc-a4ec-334d7044b5b1	18	net:Link.startNode	null	null	null	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
 60	3efd1183-d5ce-417a-93b4-eb06a6ab51d0	10	beginGeldigheid	#http://modellen.geostandaarden.nl/def/nen3610-2022#beginGeldigheid	null	null	Tue Sep 03 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
 1	6714c8d9-ecc9-4a3e-83fd-5a724168ef94	5	typeOverbrugging	null	Nadere classificatie van het overbruggingsobject.	null	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)
 2	332ebf35-a5f0-4944-873d-7865e8ee8edf	5	hoortBijTypeOverbrugging	null	Nadere classificatie van de overbrugging waar het overbruggingsdeel een onderdeel van is.	null	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)
