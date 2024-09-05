@@ -1020,3 +1020,4 @@ refObjecttypeID	refObjecttypeGUID	refInformatiemodel	refObjecttype	URI	Definitie
 1047	a91207aa-daf7-48d2-a8e9-6fae74ff9884	19	Waterschap	https://identifier.overheid.nl/tooi/id/waterschap	null	null	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
 1048	a7832527-b695-4bb1-a954-53acfeb6775d	18	net:Link	http://inspire.ec.europa.eu/featureconcept/Link	null	null	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
 1049	dbca5e16-8999-4e57-b2bb-97821c272dde	18	net:Node	http://inspire.ec.europa.eu/featureconcept/Node	null	null	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
+1050	c8b359ed-44a6-48c2-bf62-e4d0ad30cedf	18	net:Network	http://inspire.ec.europa.eu/featureconcept/Network	null	null	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
