@@ -1,6 +1,11 @@
 HiërarchieID	Parent	Child	Wijzigingsdatum	HiërarchieType
 3576	709	4216	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 3575	4212	4215	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+3582	4213	4219	Thu Sep 05 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+3583	4213	4220	Thu Sep 05 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+3584	4213	4221	Thu Sep 05 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+3585	4213	4223	Thu Sep 05 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+3586	4213	4222	Thu Sep 05 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 3570	4213	4210	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 3569	4213	4209	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 3568	4213	4208	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
@@ -17,6 +22,7 @@ HiërarchieID	Parent	Child	Wijzigingsdatum	HiërarchieType
 3557	4213	4197	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 3556	4213	4196	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 3555	4213	4195	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+3587	4213	4224	Thu Sep 05 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 3530	4190	4187	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Semantische relatie
 8	598	597	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 10	597	351	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
@@ -1242,6 +1248,5 @@ HiërarchieID	Parent	Child	Wijzigingsdatum	HiërarchieType
 3532	4189	4186	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Semantische relatie
 3531	4189	4193	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Semantische relatie
 3574	4212	4214	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
-3573	2060	4213	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 3572	598	4212	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 3571	4213	4211	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
