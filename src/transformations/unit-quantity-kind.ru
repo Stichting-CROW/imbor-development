@@ -13,11 +13,15 @@ prefix skos: <http://www.w3.org/2004/02/skos/core#>
 prefix prov: <http://www.w3.org/ns/prov#>
 prefix csv: <csv:>
 
+prefix quantitykind:       <http://qudt.org/vocab/quantitykind/> 
+prefix qudt:               <http://qudt.org/schema/qudt/> 
+prefix unit:               <http://qudt.org/vocab/unit/> 
+
 insert {
     graph imbor: {
-        ?propShapeUri nen2660:hasUnit ?qudtUnit ;
+        ?propShapeUri qudt:unit ?qudtUnit ;
             imbor:imborEenheid ?eenheidUri .
-        ?attribuutUri nen2660:hasQuantityKind ?qudtQK .
+        ?attribuutUri qudt:hasQuantityKind ?qudtQK .
 
         ?eenheidUri a rdfs:Class ;
             skos:prefLabel ?EenheidNaamNL ;

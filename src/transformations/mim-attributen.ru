@@ -69,7 +69,7 @@ insert {
         BIND(COALESCE(?shmax,?shqmax,"*") AS ?max)
         BIND(CONCAT(STR(?min),"..",STR(?max)) AS ?Kardinaliteit)
         
-        OPTIONAL {?AttribuutShape nen2660:hasUnit ?Toelichting}.
+        OPTIONAL {?AttribuutShape qudt:unit ?Toelichting}.
         OPTIONAL {?AttribuutShape sh:datatype      ?Datatype}.
         OPTIONAL {?AttribuutShape sh:qualifiedValueShape/sh:class      ?EnumeratieType}.
 

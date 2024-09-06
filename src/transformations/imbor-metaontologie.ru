@@ -60,13 +60,6 @@ insert data {
             skos:prefLabel "Extern objecttype"@nl ;
             skos:definition "Representatie in de IMBOR-context van wat extern een objecttype is."@nl ;
             .
-
-        imbor:imborEenheid a rdf:Property ;
-            skos:prefLabel "eenheid (IMBOR)"@nl ;
-            skos:definition "De klasse van de IMBOR-specifieke eenheid waarin dit attribuut gemeten wordt."@nl ;
-            rdfs:range rdfs:Class ;
-            .
-
         imbor-domeinwaarde:bovenliggendeWaarde a rdf:Property ;
             skos:prefLabel "categorie domeinwaarde"@nl ;
             skos:definition "Domeinwaarden die in picklists van elkaar afhankelijk zijn."@nl ;
@@ -76,5 +69,39 @@ insert data {
             skos:prefLabel "open/gesloten"@nl ;
             skos:definition "Of deze lijst een open suggestielijst is of een gesloten enumeratielijst."@nl ;
             rdfs:range xsd:string .
+
+        nen2660:isPartOf a rdf:Property ;
+            rdfs:seeAlso nen2660-term:hasPart ;
+            skos:definition "A decomposition (isPartOf) relation between concrete concepts"@en, 
+                                    "Een decompositie (isPartOf) relatie tussen concrete concepten"@nl ;
+            skos:prefLabel "is part of"@en, 
+                                    "is deel van"@nl;
+            a owl:ObjectProperty ;
+            owl:inverseOf nen2660:hasPart ;
+            .
+
+        imbor:speelt a rdf:Property ;
+            skos:prefLabel "speelt"@nl ;
+            # skos:definition "TODO"@nl ;
+            rdfs:range imbor:Rol ;
+            .
+            
+        imbor:heeftBetrekkingOp a rdf:Property ;
+            skos:prefLabel "heeftBetrekkingOp"@nl ;
+            # skos:definition "TODO."@nl ;
+            rdfs:range nen2660:InformationObject, <http://modellen.geostandaarden.nl/def/nen3610-2022#GeoObject> ;
+            .
+
+        imbor:Rol a rdfs:Class ;
+            skos:prefLabel "Extern objecttype"@nl ;
+            # skos:definition "TODO"@nl ;
+            .
+
+        imbor:Actor a rdfs:Class ;
+            rdfs:subClassOf nen2660:PhysicalObject ;
+            skos:prefLabel "Actor"@nl ;
+            # skos:definition "TODO"@nl ;
+            .
+        
     }
 }
