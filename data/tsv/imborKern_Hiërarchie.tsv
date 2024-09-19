@@ -545,7 +545,6 @@ HiërarchieID	Parent	Child	Wijzigingsdatum	HiërarchieType
 589	343	634	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 592	360	345	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 593	401	373	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
-594	401	376	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 595	401	393	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 596	401	387	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 597	401	403	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
@@ -1295,7 +1294,6 @@ HiërarchieID	Parent	Child	Wijzigingsdatum	HiërarchieType
 3630	4273	3511	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 3631	4231	3921	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 3632	4273	3512	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
-3633	4273	3513	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 3634	4273	3514	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 3635	4231	3922	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 3636	4273	3515	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
@@ -1400,9 +1398,6 @@ HiërarchieID	Parent	Child	Wijzigingsdatum	HiërarchieType
 3735	4232	3573	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 3736	4259	3574	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 3737	4254	3575	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
-3738	4234	3576	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
-3739	4254	3577	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
-3740	4247	3955	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 3741	4273	3578	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 3742	4233	4166	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 3743	4233	3956	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
