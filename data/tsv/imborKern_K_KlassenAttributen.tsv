@@ -1732,5 +1732,7 @@ KlasseAttribuutID	IMBORGUID	Klasse	Multipliciteit	Attribuut	Informatiemodel	Eenh
 6975	dbee591b-3887-40a0-9939-d14bbe448826	100	15168	22508	4	null	22506	B	Mon Sep 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 6976	40b290a8-4971-4952-b4de-2de2bb7f6b6b	100	15167	22505	4	null	22507	B	Mon Sep 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 6977	06480436-d4a0-4a4a-8de2-1ad2ff458fef	163	15167	656	4	null	null	B	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
+6980	660791f7-81b6-4632-abb2-ab3f6a1d63e4	14818	15167	398	4	null	null	B	null	null
+6981	796e030f-2592-4db7-b80f-4cd31da1ddab	8917	15167	398	4	null	null	B	null	null
 6978	de7e0ce4-9f0c-4dab-9b11-6ae697c65d30	174	15167	745	4	null	null	A	Thu Sep 19 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 6979	72500f06-3cd8-4374-be62-5c93555d9ef7	265	15167	745	4	null	null	A	Thu Sep 19 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
