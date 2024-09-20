@@ -1,4 +1,5 @@
 refInformatiemodelID	refInformatiemodelGUID	refInformatiemodel	Definitie	URL	Beheerder	Versie	Wijzigingsdatum
+18	cf0eeda5-425c-4f71-877f-c59d9deeee6c	INSPIRE	null	https://github.com/inspire-eu-rdf/inspire-rdf-vocabularies/blob/7dde22fde631409957a445f97af5868299f2330e/net/net.ttl	null	null	Fri Sep 20 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
 1	13685f57-6727-419f-b209-a79d21f37efd	BAG	null	null	Geonovum	null	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)
 2	69d28f80-c953-4153-bb59-0db3ee40c6ba	BGT	null	null	Geonovum	null	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)
 3	7d1f9b9c-b30f-4b94-8ff2-756e3354a14a	GWSW	null	null	Rioned	1.6	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)
@@ -16,5 +17,4 @@ refInformatiemodelID	refInformatiemodelGUID	refInformatiemodel	Definitie	URL	Beh
 15	3e02c0c2-f15c-422d-9254-c8d50ef64df7	QUDT	QUDT CATALOG - Quantities, Units, Dimensions and Data Types Ontologies	http://www.qudt.org/2.1/catalog/qudt-catalog.html	QUDT.org	2.1	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)
 16	5c2fcc02-c73c-4336-8bdc-8e087d9ee0b0	SOR	null	null	null	null	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)
 17	6f83037c-e22e-41fc-a1fb-fe0189479611	NEN2660-2	Rules for information modelling of the built environment	https://w3id.org/nen2660/	NEN	NEN 2660-2:2021	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)
-18	cf0eeda5-425c-4f71-877f-c59d9deeee6c	INSPIRE	null	null	null	null	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
 19	315d380d-2eb4-4a64-9fbc-245ca0a65f04	TOOI	null	https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/	KOOP	null	Wed Sep 04 2024 00:00:00 GMT+0000 (Coordinated Universal Time)
