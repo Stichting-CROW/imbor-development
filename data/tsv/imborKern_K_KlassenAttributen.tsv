@@ -354,13 +354,13 @@ KlasseAttribuutID	IMBORGUID	Klasse	Multipliciteit	Attribuut	Informatiemodel	Eenh
 3421	547e82ea-151f-4782-82a7-0157caffef20	8922	15167	751	4	null	15812	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3423	2f4a60a2-9f9c-44eb-a971-8288df1a44c4	274	15167	739	4	null	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3424	755bd97d-44e1-43fc-b719-f750c53bad80	274	15167	740	4	null	15813	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
-3427	4a5d861d-648b-4bb9-a030-90df3aae05a4	274	15167	376	4	null	15814	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
+3427	4a5d861d-648b-4bb9-a030-90df3aae05a4	274	15167	23027	4	null	15814	O	Fri Sep 20 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3428	6c37ef8d-3f22-44db-9731-457139545eee	274	15167	375	4	null	15815	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3435	fb5e2045-8a69-4c35-805e-6bd14641e059	117	15167	376	4	null	15816	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3436	88448200-93e4-4fce-a66d-4181cd8744be	117	15167	375	4	null	15817	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3437	7dac4d32-7775-4092-af7e-373cf6c50a10	116	15167	376	4	null	15818	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3438	8fffa7ee-21af-4273-b6bc-03e36db503de	123	15167	375	4	null	15819	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
-3439	51e0423b-07b7-4d4b-9631-5013b81ba986	221	15167	376	4	null	15820	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
+3439	51e0423b-07b7-4d4b-9631-5013b81ba986	221	15167	23027	4	null	15820	O	Fri Sep 20 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3440	f19d6b15-4089-427d-9fd2-b1c48c68c928	221	15167	375	4	null	15821	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3441	d84591a1-8302-45ae-85db-93c6a2fc4183	208	15167	375	4	null	15822	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3444	19b54711-eada-4c54-95cc-a6011d0a0d15	1082	15168	738	4	null	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
