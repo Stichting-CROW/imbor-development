@@ -2072,6 +2072,7 @@ EnumeratieDomeinwaardeID	IMBORGUID	Enumeratietype	Domeinwaarde	Bovenliggendewaar
 2726	3de0b9cb-6332-43b3-be66-591c4b9ae0f5	2896	9155	null	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 2727	834443c8-2a11-4450-95a5-c695eec18354	2896	9156	null	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 2728	9b987761-0dc4-484d-bb4b-6bf0f957bb67	2896	9892	null	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
+16378	08b643dd-c833-4036-b170-3565a5070202	5568	23065	null	Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 2729	51803a98-94bb-48fa-a86d-c6e584d1bde7	2896	9889	null	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 2730	0ef6fa09-a8f4-4d63-8988-66e85a96f310	2896	9891	null	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 2731	50632a10-b3f8-431d-a588-caafe7f26439	2896	9888	null	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
@@ -2223,6 +2224,7 @@ EnumeratieDomeinwaardeID	IMBORGUID	Enumeratietype	Domeinwaarde	Bovenliggendewaar
 3067	6739203c-9db5-4f6c-8241-3bb75fab1ec2	3061	10213	277	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3070	9c554e6f-5476-404e-8252-7e366305d6ac	3061	10275	277	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3072	abac0b4b-02c8-44ce-a05a-d0fd1a64e26a	3061	10767	277	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
+16379	a9591290-0967-4d60-8f1a-66a525ee81d1	5568	23064	null	Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3074	f73720a2-49ca-4fcc-bcc7-8a948159abfc	3061	10764	277	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3076	f3f00161-4749-46df-9204-68f8ea1813f1	3061	10765	277	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 3077	5242c4a6-3bbf-41c9-86dc-baf6e65ce67e	3061	10763	277	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
@@ -5428,8 +5430,6 @@ EnumeratieDomeinwaardeID	IMBORGUID	Enumeratietype	Domeinwaarde	Bovenliggendewaar
 11989	a93432ba-f234-4410-99a7-1469c3738b11	5952	13536	12992	Tue Sep 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 11990	799e7611-23aa-4b0a-8c47-10b1aeac6f16	5952	13524	12992	Tue Sep 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 11991	50435938-ff65-46e1-b0b9-b37f2803d4ee	5952	13525	12992	Tue Sep 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
-11992	a0f254b7-4eff-4d4e-a105-dcaac0e0c0fe	5952	13518	12189	Tue Sep 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
-11993	7a4b0178-a571-4c71-970a-a23036c2175b	5952	13517	12189	Tue Sep 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 11994	dc062d62-bdf8-42a9-84eb-4775e83e29a9	5952	13473	8650	Tue Sep 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 11995	7a747515-0e54-442f-889b-cb6a9755b94c	5952	13553	12992	Tue Sep 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 11996	a561c8a3-eeca-4d2d-8b17-6116453539ab	5952	13693	12992	Tue Sep 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
