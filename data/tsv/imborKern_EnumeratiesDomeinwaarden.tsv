@@ -3138,7 +3138,6 @@ EnumeratieDomeinwaardeID	IMBORGUID	Enumeratietype	Domeinwaarde	Bovenliggendewaar
 4241	23eb50f4-52a4-41b6-be96-851bc43f38a4	3583	8941	14179	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 4242	1dc84577-34d9-4e92-a635-96123baf0476	3583	8958	14179	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 4243	1bffc6ea-86d3-4a2a-aad0-0b405714b23c	3583	8959	14179	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
-4244	fd82372b-9230-403a-b040-82d3071956b6	3583	8960	14179	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 4255	14f531cb-e600-453e-ba2c-b4392cbd49d5	3593	13420	11462	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 4256	1d3e41fb-e721-4933-8152-617029a1581e	3593	13447	13912	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 4257	9545f995-ab2e-43d8-8da3-9b3e5a9b9b05	3593	13448	13008	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
@@ -5918,7 +5917,7 @@ EnumeratieDomeinwaardeID	IMBORGUID	Enumeratietype	Domeinwaarde	Bovenliggendewaar
 12618	434c8f95-eb11-4210-991a-8d95e8e84ad0	6118	15005	14649	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12619	c2c05786-92a8-41fe-a2ed-e3ca7c3c1c42	6119	8775	228	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12620	ce8ef9a1-7511-47ca-b14c-7e342c9968ac	6119	8776	228	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
-12621	28f41de2-fbb5-43a1-acf2-1906f5692156	3583	12996	8960	Tue Sep 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
+12621	28f41de2-fbb5-43a1-acf2-1906f5692156	6983	12996	8960	Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12622	7d15592f-befb-465b-92e7-9a355401e32b	5223	10666	10273	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12623	649e6034-f9e7-4255-b259-103716b452d1	3385	13004	9407	Mon Sep 23 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12624	2ff76453-58a7-468a-9ff2-0239219f25a2	5212	10691	11882	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null

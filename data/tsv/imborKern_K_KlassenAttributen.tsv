@@ -1,5 +1,6 @@
 KlasseAttribuutID	IMBORGUID	Klasse	Multipliciteit	Attribuut	Informatiemodel	Enumeratietype	OAGBD	Wijzigingsdatum	Toelichting	Eenheid
 6981	796e030f-2592-4db7-b80f-4cd31da1ddab	8917	15167	398	4	null	B	null	null	null
+6983	c615c605-5434-48cc-a158-0a98cf6677d6	8960	15167	375	4	23060	O	Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null	null
 3460	1cb8c253-6d26-4153-be4d-e98341004d5e	186	15167	335	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
 3461	42bd86ae-9856-4f71-892b-33594e5188c4	193	15167	641	4	null	O	Mon Mar 27 2023 00:00:00 GMT+0000 (Coordinated Universal Time)	null	null
 3463	c88d1d6f-a652-4d42-a3fd-3e59d7cb3644	311	15167	689	4	15828	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	null
