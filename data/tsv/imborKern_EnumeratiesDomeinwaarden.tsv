@@ -1851,8 +1851,8 @@ EnumeratieDomeinwaardeID	IMBORGUID	Enumeratietype	Domeinwaarde	Bovenliggendewaar
 2443	4b986e1e-da36-4ba8-ab1e-42a7abcf2e17	2604	9802	243	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 2444	18e611fc-30df-4edf-bff0-2f1a5c775f61	2611	9347	192	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 2445	803b2361-061c-47ec-bac2-42843ee6aa9e	2611	9353	192	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
-2446	6dccfbaf-c580-40e3-921e-7410a2e9d6ba	2615	9973	16678	Tue Sep 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
-2447	65ba993f-3449-4727-8be8-98c1637423e9	2615	10408	16680	Tue Sep 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
+2446	6dccfbaf-c580-40e3-921e-7410a2e9d6ba	2615	9973	178	Tue Sep 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
+2447	65ba993f-3449-4727-8be8-98c1637423e9	2615	10408	178	Tue Sep 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 2448	57efc268-22d4-476b-82ae-ce5632a12bbf	2616	9445	177	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 2449	ce47baec-c047-410b-b10e-a0bf3b5ee0ad	2617	9415	176	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 2450	4c99fee0-1065-4e65-a20e-e9347af97573	2617	9414	176	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
@@ -6088,9 +6088,6 @@ EnumeratieDomeinwaardeID	IMBORGUID	Enumeratietype	Domeinwaarde	Bovenliggendewaar
 12827	fcb80238-a259-4bf4-97a6-c483bcccb8e4	3860	16671	33	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12828	63019df0-45b4-4d4d-8f3f-cbbbe3a6a8d0	3860	16672	33	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12831	adf1c622-168e-46f6-876a-bb69b14d5ccd	5941	16677	null	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
-12832	6f9fb75b-a0e4-466d-bd32-d5107932d8a1	2615	16678	178	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
-12833	de365032-7043-47e7-b4d5-1b64970c2f7f	2615	16679	178	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
-12834	ae13cce4-ebf1-4bad-82c1-1c977140840d	2615	16680	178	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12835	5646ece6-a59c-4df3-9370-43356e08aecb	3869	16683	8793	Tue Sep 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12837	799532c3-518d-40f1-88bf-d88a2759e306	6362	16686	9550	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12838	8bc64bf2-baab-4bcf-a3fa-da7e08b2491b	5967	16688	9006	Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
