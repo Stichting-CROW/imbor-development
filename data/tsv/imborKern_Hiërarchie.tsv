@@ -1974,3 +1974,6 @@ HiërarchieID	Parent	Child	Wijzigingsdatum	HiërarchieType
 4322	350	4283	Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 4323	303	4284	Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 4324	4271	4285	Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
+4325	345	4287	Thu Sep 26 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+4326	345	4286	Thu Sep 26 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+4327	4271	4288	Thu Sep 26 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
