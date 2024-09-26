@@ -5821,7 +5821,6 @@ EnumeratieDomeinwaardeID	IMBORGUID	Enumeratietype	Domeinwaarde	Bovenliggendewaar
 12486	663486f2-3e74-4c8f-b148-959f6e37b3c0	6080	11150	15507	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12487	6a91437f-ae1a-4f67-b4f1-4c56dc506b0d	6080	11149	15507	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12488	a3218ee6-534b-4b3e-ba9b-cf067fdfb812	6080	11140	15507	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
-12489	4bc3500c-1fd6-42c3-8384-21e18a331232	6080	11148	15507	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12490	e1e67020-93d0-4621-aa54-622c37a737c1	6080	11151	15507	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12491	8832ef1f-392b-41d1-ac1c-41132c0496d2	6080	11141	15507	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12492	81d99458-de96-4ea8-9e82-d4cb358b5854	6080	15516	15507	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
@@ -5843,9 +5842,7 @@ EnumeratieDomeinwaardeID	IMBORGUID	Enumeratietype	Domeinwaarde	Bovenliggendewaar
 12510	a3e30003-d590-4709-a7fb-c7ddf0d2ca21	6082	11160	11144	Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12511	0ccc6b0f-1c4b-4572-8f7b-54f9d0ed4f66	6082	11156	11155	Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12512	8723fc07-36f3-486d-ba0c-0a00e9e33e48	6082	11157	11155	Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
-12513	653e2ec1-13b4-46e0-87ec-0ad689e6537b	6082	11163	11158	Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12514	8c2b84a6-1361-428f-a1e8-a2489d3dbcf0	6082	11161	11158	Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
-12515	072c367f-fd9d-44ec-bbb4-d74e6ad10e69	6082	11162	11160	Wed Sep 25 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12517	283e8d46-9762-4990-927e-5dbbfc4c9a11	6087	15525	15519	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12521	1d88fb73-a39d-4f69-aa8a-4007385cca52	5219	15532	9731	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
 12522	077252df-f044-4c89-9d63-e713551453bf	3881	15533	91	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null
