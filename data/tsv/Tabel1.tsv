@@ -5,26 +5,36 @@ AUTONUMMER	veld
 1418adb1-25de-4c98-896a-51108399ee53	BeschermingVerschijningsvorm
 1c024f67-4652-4e96-bc77-0aac7c4a7044	Specifieke vormsnoei
 2aa69d06-e2fc-42b5-a904-153aa4e49f41	Coating
+3249f26f-9387-4714-9e2c-b3c457ac8068	Duikerput
+4c3daacf-c215-4200-afac-4b3b21307a5b	Rioolput met geleiding
+4fe3e0e1-ff1f-496f-9204-8beb3553cdeb	lateraal debiet HWA
 58adb6e6-2187-4597-bf9a-9f04754610f1	Ketting
 70aff118-ecc0-429a-a026-7a9f71d0bcf8	Geografische gebieden
 745e51d7-210e-452a-9051-d167eaef098b	Oppervlaktewatergemaal
+77b4707b-dfe5-4978-9337-e2add35fc220	Bolle bodem
 78a61dc6-0d08-4148-bd41-a56a4a639592	Bosvak
 7c7fb4c1-3998-43e8-841b-bd80ccb651a4	Afval en schoon
 85611c75-8f5e-40eb-b5d8-d64caf2667de	Boomspiegel afgewerkt met mulchlaag
 87bb7b13-dbf7-439b-ab56-ca519c1a6d3b	doorlaatbaarheid
 89f310c7-ada9-415b-82bc-1ae30df069e4	Reservoir
 8b1117b3-b3ee-4930-b94d-800bf72e0a6d	Stut
+8ccedc6b-6c64-4e03-9953-d0a91583c1e7	bodemprofiel
 8d6e6c0e-fd04-4501-8461-b891d84ebac4	energieverliescoefficient
+9b580f6b-eea8-4e4e-9062-ee7b55e554a4	Vlakke bodem met banken
 a07f8879-aeeb-4a73-ad5b-801a0f8e4b97	Technische installaties
 a91cd6cc-bbc6-434d-8362-b26ace8828c3	RepresentatieFysiekObjectVerschijningsvorm
+af3f7a2d-ced2-4f19-8700-5ddc77ea7cd7	Geulprofiel
 b3656979-b284-4337-9338-7281192d8871	Tui
 b5bdd095-1a20-4675-bd1b-b51120c742e0	Registratieve gebieden
+c6b95e06-8843-41ae-9b61-77685d64aa95	lateraal debiet DWA
+c995925a-2dd4-4fe9-b806-ebf11cd2c550	Vlakke bodem
 d3b024c6-8ff9-4b3e-848d-4375b761eafb	Doorlaat
 d61173aa-699e-4e24-b593-ab4af03e09e3	Begraafplaatsen
 d67d11d7-a9e5-4b5a-badc-bee9d4f960e2	Functionele gebieden
 d692f4ac-f617-4860-92a0-8d88d0a10d9d	Markten
 dbcff754-f43c-48ba-9a38-94b9498fd0f3	Parkeren
 ddcd2ad1-9a86-4d49-b4ca-abc24a0048c7	Meter per dag
+e5fad8e6-6f27-4738-ab48-5da8fda118cf	PutBodemprofiel
 ec50bd00-f149-4631-9b0e-a2e587dd32a6	Infiltratiereservoir
 f6985d67-860b-4605-899b-7694a530f7b2	DoorlaatVorm
 f8a24aec-dc0f-4c99-ba26-46690d88a763	Bescherming
