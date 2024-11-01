@@ -1,5 +1,4 @@
-# Als er in SHACL een qualifiedValueShape is, moet er blijkbaar een minimale (of maximale) hoeveelheid constraint aangegeven worden.
-# Deze query zorgt dat er expliciet een minimale multipliciteit wordt geintroduceerd.
+# Target-Graph: <https://data.crow.nl/imbor/def>
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
@@ -38,14 +37,32 @@ prefix coll: <https://data.crow.nl/rest-api/id#>
 prefix csv: <csv:>
 
 INSERT {
-     GRAPH imbor: {
-    ?s sh:qualifiedMinCount 0  
-     }
+    GRAPH imbor-term: {
+        ?childUri skos:broader ?parentUri .
+    }
 }
+WHERE {
+    graph <csv:table/imborKern_Hierarchie> {
+        [] csv:Parent ?Parent ;
+           csv:Child ?Child . 
+    }
 
-WHERE { 
-	?s sh:qualifiedValueShape ?o .
-    FILTER NOT EXISTS {?s sh:qualifiedMaxCount ?t}
-    FILTER NOT EXISTS {?s sh:qualifiedMinCount ?t2}
+    graph <csv:table/imborKern_HierarchieElementen> {
+        [] csv:HierarchieElementID ?Parent ;
+            csv:HierarchieElement ?parentVocabID .
 
-} 
+        [] csv:HierarchieElementID ?Child ;
+            csv:HierarchieElement ?childVocabID .
+    }
+
+    graph <csv:table/imborVoc_Termen> {
+        [] csv:VocabulairID ?parentVocabID ;
+           csv:VocabulairGUID ?VocabulairGUIDParent .
+
+        [] csv:VocabulairID ?childVocabID ;
+           csv:VocabulairGUID ?VocabulairGUIDChild .
+
+        BIND (URI(CONCAT(STR(imbor-term:), ?VocabulairGUIDParent)) AS ?parentUri)
+        BIND (URI(CONCAT(STR(imbor-term:), ?VocabulairGUIDChild)) AS ?childUri)
+    }
+}
