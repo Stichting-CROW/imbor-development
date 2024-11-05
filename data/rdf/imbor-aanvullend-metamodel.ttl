@@ -1,139 +1,98 @@
-@prefix as: <https://www.w3.org/ns/activitystreams#>.
-@prefix cc: <http://creativecommons.org/ns#>.
-@prefix csvw: <http://www.w3.org/ns/csvw#>.
-@prefix ctag: <http://commontag.org/ns#>.
-@prefix dc: <http://purl.org/dc/terms/>.
-@prefix dc11: <http://purl.org/dc/elements/1.1/>.
-@prefix dcat: <http://www.w3.org/ns/dcat#>.
-@prefix dcterms: <http://purl.org/dc/terms/>.
-@prefix dqv: <http://www.w3.org/ns/dqv#>.
-@prefix duv: <https://www.w3.org/ns/duv#>.
-@prefix foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix gr: <http://purl.org/goodrelations/v1#>.
-@prefix grddl: <http://www.w3.org/2003/g/data-view#>.
-@prefix ical: <http://www.w3.org/2002/12/cal/icaltzd#>.
-@prefix jsonld: <http://www.w3.org/ns/json-ld#>.
-@prefix ldp: <http://www.w3.org/ns/ldp#>.
-@prefix ma: <http://www.w3.org/ns/ma-ont#>.
-@prefix oa: <http://www.w3.org/ns/oa#>.
-@prefix odrl: <http://www.w3.org/ns/odrl/2/>.
-@prefix og: <http://ogp.me/ns#>.
-@prefix org: <http://www.w3.org/ns/org#>.
-@prefix owl: <http://www.w3.org/2002/07/owl#>.
-@prefix prov: <http://www.w3.org/ns/prov#>.
-@prefix qb: <http://purl.org/linked-data/cube#>.
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
-@prefix rdfa: <http://www.w3.org/ns/rdfa#>.
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix rev: <http://purl.org/stuff/rev#>.
-@prefix rif: <http://www.w3.org/2007/rif#>.
-@prefix rr: <http://www.w3.org/ns/r2rml#>.
-@prefix schema: <http://schema.org/>.
-@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
-@prefix sioc: <http://rdfs.org/sioc/ns#>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
-@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#>.
-@prefix sosa: <http://www.w3.org/ns/sosa/>.
-@prefix ssn: <http://www.w3.org/ns/ssn/>.
-@prefix time: <http://www.w3.org/2006/time#>.
-@prefix v: <http://rdf.data-vocabulary.org/#>.
-@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
-@prefix void: <http://rdfs.org/ns/void#>.
-@prefix wdr: <http://www.w3.org/2007/05/powder#>.
-@prefix wdrs: <http://www.w3.org/2007/05/powder-s#>.
-@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#>.
-@prefix xml: <http://www.w3.org/XML/1998/namespace>.
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix describedby: <http://www.w3.org/2007/05/powder-s#describedby>.
-@prefix license: <http://www.w3.org/1999/xhtml/vocab#license>.
-@prefix role: <http://www.w3.org/1999/xhtml/vocab#role>.
-@prefix sh: <http://www.w3.org/ns/shacl#>.
-@prefix dash: <http://datashapes.org/dash#>.
-@prefix dct: <http://purl.org/dc/terms/>.
-@prefix geo: <http://www.opengis.net/ont/geosparql#>.
-@prefix quantitykind: <http://qudt.org/vocab/quantitykind/>.
-@prefix qudt: <http://qudt.org/schema/qudt/>.
-@prefix unit: <http://qudt.org/vocab/unit/>.
+@prefix imbor: <https://data.crow.nl/imbor/def/>.
+@prefix imbor-domeinwaarde: <https://data.crow.nl/imbor/id/domeinwaarden/>.
+@prefix imbor-refmodels: <https://data.crow.nl/imbor-ref/def/>.
 @prefix nen2660: <https://w3id.org/nen2660/def#>.
 @prefix nen2660-term: <https://w3id.org/nen2660/term#>.
 @prefix nen3610: <http://modellen.geostandaarden.nl/def/nen3610-2022#>.
-@prefix nen3610-beg: <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/>.
-@prefix nen3610-col: <http://definities.geostandaarden.nl/nen3610-2022/id/collectie/>.
-@prefix nen3610-ont: <http://modellen.geostandaarden.nl/def/nen3610/>.
-@prefix nen3610-sh: <http://modellen.geostandaarden.nl/nen3610/id/shape/>.
-@prefix mim: <http://bp4mc2.org/def/mim#>.
-@prefix net: <http://inspire.ec.europa.eu/ont/net#>.
-@prefix tooi-ont: <https://identifier.overheid.nl/tooi/def/ont/>.
-@prefix imbor: <https://data.crow.nl/imbor/def/>.
-@prefix imbor-term: <https://data.crow.nl/imbor/term/>.
-@prefix imbor-refmodels: <https://data.crow.nl/imbor-ref/def/>.
-@prefix imbor-refmodels-id: <https://data.crow.nl/imbor-ref/id/>.
-@prefix imbor-domeinwaarde: <https://data.crow.nl/imbor/id/domeinwaarden/>.
-@prefix imbor-mim: <https://data.crow.nl/imbor/mim/>.
-@prefix imbor-meta: <https://data.crow.nl/imbor/aanvullend-metamodel/>.
-@prefix restapi: <https://data.crow.nl/rest-api/def#>.
-@prefix coll: <https://data.crow.nl/rest-api/id#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+imbor-refmodels:imborAttribuutDomeinwaarde a rdf:Property;
+  skos:definition "Relateert van een mapping naar een attribuut-domeinwaarde-combinatie."@nl;
+  skos:prefLabel "mapt naar IMBOR-attribuut-domeinwaarde"@nl.
+
+imbor-refmodels:imborObjecttype a rdf:Property;
+  skos:definition "Relateert van een mapping naar naar dit IMBOR-objecttype."@nl;
+  skos:prefLabel "mapt naar IMBOR-objecttype"@nl.
+
+imbor-refmodels:Informatiemodel a rdfs:Class;
+  skos:definition "Externe informatiebron (of ontologie) ten behoeve van IMBOR."@nl;
+  skos:prefLabel "Informatiemodel"@nl.
+
+imbor-refmodels:levensfaseTypering a rdf:Property;
+  rdfs:range xsd:string;
+  skos:definition "Dit attribuut is van toepassing op het (O)ntwerp, (A)anleg, (G)eovoorziening, (B)eheer, (D)ynamisch gegeven"@nl;
+  skos:prefLabel "typering levensfase"@nl.
+
+imbor-refmodels:RefAttribuut a rdfs:Class;
+  skos:definition "Representatie in de IMBOR-context van wat extern een attribuut is."@nl;
+  skos:prefLabel "Extern attribuut"@nl.
+
+imbor-refmodels:refAttribuutDomeinwaarde a rdf:Property;
+  skos:definition "Relateert van een mapping naar dit externe attribuut-domeinwaarde-combinatie."@nl;
+  skos:prefLabel "mapt naar extern attribuut-domeinwaarde"@nl.
+
+imbor-refmodels:RefDomeinwaarde a rdfs:Class;
+  skos:definition "Representatie in de IMBOR-context van wat extern een domeinwaarde is."@nl;
+  skos:prefLabel "Externe domeinwaarde"@nl.
+
+imbor-refmodels:RefMapping a rdfs:Class;
+  skos:definition "Mapping van een extern informatiemodel van of naar IMBOR."@nl;
+  skos:prefLabel "Externe mapping"@nl.
+
+imbor-refmodels:refObjecttype a rdf:Property;
+  skos:definition "Relateert van een mapping naar dit externe objecttype."@nl;
+  skos:prefLabel "mapt naar extern objecttype"@nl.
+
+imbor-refmodels:RefObjecttype a rdfs:Class;
+  skos:definition "Representatie in de IMBOR-context van wat extern een objecttype is."@nl;
+  skos:prefLabel "Extern objecttype"@nl.
+
+<https://data.crow.nl/imbor/aanvullend-metamodel> a owl:Ontology;
+  rdfs:comment "Een aantal metaconcepten worden specifiek voor IMBOR gedefinieerd. Dit wordt gedaan middels het 'IMBOR Aanvullend Metamodel'. Dit betreft een kleine ontologie van beschrijfende concepten die er voor zorgen dat alle IMBOR specifieke properties netjes en navolgbaar gedefinieerd zijn."@nl;
+  rdfs:label "IMBOR Aanvullend metamodel"@nl;
+  owl:imports skos:.
+
+imbor:Actor a rdfs:Class;
+  rdfs:subClassOf nen2660:PhysicalObject;
+  skos:definition "Een entiteit die in staat is om handelingen uit te voeren en een specifieke functie of positie te vervullen in een bepaalde context."@nl;
+  skos:prefLabel "Actor"@nl.
+
+imbor:heeftBetrekkingOp a rdf:Property;
+  rdfs:range
+    nen3610:GeoObject,
+    nen2660:InformationObject;
+  skos:definition "Een relatie die aangeeft dat een Rol alleen geldt in de context van een iets specifieks."@nl;
+  skos:prefLabel "heeftBetrekkingOp"@nl.
+
+imbor:Rol a rdfs:Class;
+  skos:definition "Een samenhangende verzameling van verwachtingen, verantwoordelijkheden, bevoegdheden en gedragingen die een Actor kan aannemen in relatie tot iets."@nl;
+  skos:prefLabel "Rol"@nl.
+
+imbor:speelt a rdf:Property;
+  rdfs:range imbor:Rol;
+  skos:definition "Een relatie die aangeeft dat een Actor een bepaalde Rol op zich neemt of uitvoert."@nl;
+  skos:prefLabel "speelt"@nl.
 
 imbor:typeLijst a rdf:Property;
-    rdfs:range xsd:string;
-    skos:prefLabel "open/gesloten"@nl;
-    skos:definition "Of deze lijst een open suggestielijst is of een gesloten enumeratielijst."@nl.
-imbor-refmodels:levensfaseTypering a rdf:Property;
-    rdfs:range xsd:string;
-    skos:prefLabel "typering levensfase"@nl;
-    skos:definition "Dit attribuut is van toepassing op het (O)ntwerp, (A)anleg, (G)eovoorziening, (B)eheer, (D)ynamisch gegeven"@nl.
-<https://data.crow.nl/imbor/aanvullend-metamodel> a owl:Ontology;
-    rdfs:comment "Een aantal metaconcepten worden specifiek voor IMBOR gedefinieerd. Dit wordt gedaan middels het 'IMBOR Aanvullend Metamodel'. Dit betreft een kleine ontologie van beschrijfende concepten die er voor zorgen dat alle IMBOR specifieke properties netjes en navolgbaar gedefinieerd zijn."@nl;
-    rdfs:label "IMBOR Aanvullend metamodel"@nl;
-    owl:imports <http://www.w3.org/2004/02/skos/core#>.
-imbor-refmodels:Informatiemodel a rdfs:Class;
-    skos:prefLabel "Informatiemodel"@nl;
-    skos:definition "Externe informatiebron (of ontologie) ten behoeve van IMBOR."@nl.
-imbor-refmodels:imborAttribuutDomeinwaarde a rdf:Property;
-    skos:prefLabel "mapt naar IMBOR-attribuut-domeinwaarde"@nl;
-    skos:definition "Relateert van een mapping naar een attribuut-domeinwaarde-combinatie."@nl.
-imbor-refmodels:imborObjecttype a rdf:Property;
-    skos:prefLabel "mapt naar IMBOR-objecttype"@nl;
-    skos:definition "Relateert van een mapping naar naar dit IMBOR-objecttype."@nl.
-imbor-refmodels:RefAttribuut a rdfs:Class;
-    skos:prefLabel "Extern attribuut"@nl;
-    skos:definition "Representatie in de IMBOR-context van wat extern een attribuut is."@nl.
-imbor-refmodels:refAttribuutDomeinwaarde a rdf:Property;
-    skos:prefLabel "mapt naar extern attribuut-domeinwaarde"@nl;
-    skos:definition "Relateert van een mapping naar dit externe attribuut-domeinwaarde-combinatie."@nl.
-imbor-refmodels:RefDomeinwaarde a rdfs:Class;
-    skos:prefLabel "Externe domeinwaarde"@nl;
-    skos:definition "Representatie in de IMBOR-context van wat extern een domeinwaarde is."@nl.
-imbor-refmodels:RefMapping a rdfs:Class;
-    skos:prefLabel "Externe mapping"@nl;
-    skos:definition "Mapping van een extern informatiemodel van of naar IMBOR."@nl.
-imbor-refmodels:refObjecttype a rdf:Property;
-    skos:prefLabel "mapt naar extern objecttype"@nl;
-    skos:definition "Relateert van een mapping naar dit externe objecttype."@nl.
-imbor-refmodels:RefObjecttype a rdfs:Class;
-    skos:prefLabel "Extern objecttype"@nl;
-    skos:definition "Representatie in de IMBOR-context van wat extern een objecttype is."@nl.
+  rdfs:range xsd:string;
+  skos:definition "Of deze lijst een open suggestielijst is of een gesloten enumeratielijst."@nl;
+  skos:prefLabel "open/gesloten"@nl.
+
 imbor-domeinwaarde:bovenliggendeWaarde a rdf:Property;
-    rdfs:range xsd:string;
-    skos:prefLabel "categorie domeinwaarde"@nl;
-    skos:definition "Domeinwaarden die in picklists van elkaar afhankelijk zijn."@nl.
+  rdfs:range xsd:string;
+  skos:definition "Domeinwaarden die in picklists van elkaar afhankelijk zijn."@nl;
+  skos:prefLabel "categorie domeinwaarde"@nl.
+
 nen2660:isPartOf a rdf:Property, owl:ObjectProperty;
-    owl:inverseOf nen2660:hasPart;
-    rdfs:seeAlso nen2660-term:hasPart;
-    skos:prefLabel "is part of"@en, "is deel van"@nl;
-    skos:definition "A decomposition (isPartOf) relation between concrete concepts"@en, "Een decompositie (isPartOf) relatie tussen concrete concepten"@nl.
-imbor:speelt a rdf:Property;
-    rdfs:range imbor:Rol;
-    skos:prefLabel "speelt"@nl;
-    skos:definition "Een relatie die aangeeft dat een Actor een bepaalde Rol op zich neemt of uitvoert."@nl.
-imbor:Rol a rdfs:Class;
-    skos:prefLabel "Rol"@nl;
-    skos:definition "Een samenhangende verzameling van verwachtingen, verantwoordelijkheden, bevoegdheden en gedragingen die een Actor kan aannemen in relatie tot iets."@nl.
-imbor:heeftBetrekkingOp a rdf:Property;
-    rdfs:range nen2660:InformationObject, nen3610:GeoObject;
-    skos:prefLabel "heeftBetrekkingOp"@nl;
-    skos:definition "Een relatie die aangeeft dat een Rol alleen geldt in de context van een iets specifieks."@nl.
-imbor:Actor a rdfs:Class;
-    rdfs:subClassOf nen2660:PhysicalObject;
-    skos:prefLabel "Actor"@nl;
-    skos:definition "Een entiteit die in staat is om handelingen uit te voeren en een specifieke functie of positie te vervullen in een bepaalde context."@nl.
+  rdfs:seeAlso nen2660-term:hasPart;
+  owl:inverseOf nen2660:hasPart;
+  skos:definition
+    "A decomposition (isPartOf) relation between concrete concepts"@en,
+    "Een decompositie (isPartOf) relatie tussen concrete concepten"@nl;
+  skos:prefLabel
+    "is part of"@en,
+    "is deel van"@nl.
