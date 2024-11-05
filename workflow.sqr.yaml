@@ -2,30 +2,37 @@
 version: v5
 prefixes:
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
   owl: http://www.w3.org/2002/07/owl#
-  imbor-domeinwaarde: https://data.crow.nl/imbor/id/domeinwaarden/
+  skos: http://www.w3.org/2004/02/skos/core#
+  sh: http://www.w3.org/ns/shacl#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  prov: http://www.w3.org/ns/prov#
+  dash: http://datashapes.org/dash#
+  dct: http://purl.org/dc/terms/
+  geo: http://www.opengis.net/ont/geosparql#
+  quantitykind: http://qudt.org/vocab/quantitykind/
+  qudt: http://qudt.org/schema/qudt/
+  unit: http://qudt.org/vocab/unit/
+  nen2660: https://w3id.org/nen2660/def#
+  nen2660-term: https://w3id.org/nen2660/term#
+  nen3610: http://modellen.geostandaarden.nl/def/nen3610-2022#
+  nen3610-beg: http://definities.geostandaarden.nl/nen3610-2022/id/begrip/
+  nen3610-col: http://definities.geostandaarden.nl/nen3610-2022/id/collectie/
+  nen3610-ont: http://modellen.geostandaarden.nl/def/nen3610/
+  nen3610-sh: http://modellen.geostandaarden.nl/nen3610/id/shape/
+  mim: http://bp4mc2.org/def/mim#
+  net: http://inspire.ec.europa.eu/ont/net#
+  tooi-ont: https://identifier.overheid.nl/tooi/def/ont/
   imbor: https://data.crow.nl/imbor/def/
   imbor-term: https://data.crow.nl/imbor/term/
   imbor-refmodels: https://data.crow.nl/imbor-ref/def/
-  imbor-meta: https://data.crow.nl/imbor/aanvullend-metamodel/
   imbor-refmodels-id: https://data.crow.nl/imbor-ref/id/
+  imbor-domeinwaarde: https://data.crow.nl/imbor/id/domeinwaarden/
   imbor-mim: https://data.crow.nl/imbor/mim/
-  quantitykind: http://qudt.org/vocab/quantitykind/
-  nen2660: https://w3id.org/nen2660/def#
-  nen2660-term: https://w3id.org/nen2660/term#
-  nen3610: http://definities.geostandaarden.nl/def/nen3610#
-  mim: http://bp4mc2.org/def/mim#
-  unit: http://qudt.org/vocab/unit/
-  rdfs: http://www.w3.org/2000/01/rdf-schema#
-  xsd: http://www.w3.org/2001/XMLSchema#
-  dct: http://purl.org/dc/terms/
-  dc: http://purl.org/dc/elements/1.1/
-  geo: http://www.opengis.net/ont/geosparql#
-  sh: http://www.w3.org/ns/shacl#
-  skos: http://www.w3.org/2004/02/skos/core#
-  dash: http://datashapes.org/dash#
-  coll: https://data.crow.nl/rest-api/id#
+  imbor-meta: https://data.crow.nl/imbor/aanvullend-metamodel/
   restapi: https://data.crow.nl/rest-api/def#
+  coll: https://data.crow.nl/rest-api/id#
 
 jobs:
   converteer-accessdb:
@@ -66,19 +73,11 @@ jobs:
       - update: src/transformations/imbor-metaontologie.ru
       - update: src/transformations/informatiemodellen.ru
       - update: src/transformations/klassen-definities.ru
-      - update: src/transformations/klassen-hierarchie.ru
-      - update: src/transformations/minimale-dataset.ru
+      - update: src/transformations/hierarchie.ru
       - update: src/transformations/oagbd.ru
-      - update: src/transformations/referentiemodel-attributen.ru
-      - update: src/transformations/referentiemodel-domeinwaarden.ru
-      - update: src/transformations/referentiemodel-mapping.ru
-      - update: src/transformations/referentiemodel-mapping-delete.ru
-      - update: src/transformations/referentiemodel-mapping-delete-ref.ru
-      - update: src/transformations/referentiemodel-mapping-delete-all.ru
-      - update: src/transformations/referentiemodel-objecttypen.ru
       - update: src/transformations/semantische-relaties.ru
       - update: src/transformations/termen-en-collecties.ru
-      - update: src/transformations/klassen-hierarchie-skos.ru
+      - update: src/transformations/hierarchie-skos.ru
       - update: src/transformations/unit-quantity-kind.ru
       - update: src/transformations/vakdisciplines.ru
       - update: src/transformations/owl-ontologies.ru
