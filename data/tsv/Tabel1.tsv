@@ -6,11 +6,17 @@ AUTONUMMER	veld
 1c024f67-4652-4e96-bc77-0aac7c4a7044	Specifieke vormsnoei
 2aa69d06-e2fc-42b5-a904-153aa4e49f41	Coating
 3249f26f-9387-4714-9e2c-b3c457ac8068	Duikerput
+3ee4ca09-fe0b-4ac3-a524-fc81262c3d71	Stuks
+3f7fa05c-5c29-4ec2-9cd9-0c782c215df3	Boomtaxatie
+41d7a8b8-8244-4917-b5a2-cef60f5b0e7f	lichtafschermingskap
+47cad6d7-4fe3-4808-b5c2-04ab0772e257	Inspectie boomonderhoud
 4c3daacf-c215-4200-afac-4b3b21307a5b	Rioolput met geleiding
 4fe3e0e1-ff1f-496f-9204-8beb3553cdeb	lateraal debiet HWA
+5498ca1d-4663-475a-accf-aeb3f2775f37	SoortnaamnGroenobjectEenheid
 58adb6e6-2187-4597-bf9a-9f04754610f1	Ketting
 70aff118-ecc0-429a-a026-7a9f71d0bcf8	Geografische gebieden
 745e51d7-210e-452a-9051-d167eaef098b	Oppervlaktewatergemaal
+77443bae-4781-472e-bd16-6ff4d2a42ba0	Boomveiligheidscontrole
 77b4707b-dfe5-4978-9337-e2add35fc220	Bolle bodem
 78a61dc6-0d08-4148-bd41-a56a4a639592	Bosvak
 7c7fb4c1-3998-43e8-841b-bd80ccb651a4	Afval en schoon
@@ -20,12 +26,17 @@ AUTONUMMER	veld
 8b1117b3-b3ee-4930-b94d-800bf72e0a6d	Stut
 8ccedc6b-6c64-4e03-9953-d0a91583c1e7	bodemprofiel
 8d6e6c0e-fd04-4501-8461-b891d84ebac4	energieverliescoefficient
+98301b46-bdb5-483d-a5d5-e683dd2f0822	Groeiplaatsinspectie
 9b580f6b-eea8-4e4e-9062-ee7b55e554a4	Vlakke bodem met banken
 a07f8879-aeeb-4a73-ad5b-801a0f8e4b97	Technische installaties
 a91cd6cc-bbc6-434d-8362-b26ace8828c3	RepresentatieFysiekObjectVerschijningsvorm
 af3f7a2d-ced2-4f19-8700-5ddc77ea7cd7	Geulprofiel
+af4be404-e76c-4fb1-ba43-43ccbe5727e0	m2
 b3656979-b284-4337-9338-7281192d8871	Tui
+b53b0505-89a6-40d8-aa9d-1178a9ea0ffc	Inspectie boombeleid
 b5bdd095-1a20-4675-bd1b-b51120c742e0	Registratieve gebieden
+c3be5fb9-4a28-4222-a82a-00460dae3e4f	Natte ruigte
+c5ba5857-5175-4c10-afdc-b9b4192fe6b0	Inventarisatie boomgegevens
 c6b95e06-8843-41ae-9b61-77685d64aa95	lateraal debiet DWA
 c995925a-2dd4-4fe9-b806-ebf11cd2c550	Vlakke bodem
 d3b024c6-8ff9-4b3e-848d-4375b761eafb	Doorlaat
@@ -33,23 +44,14 @@ d61173aa-699e-4e24-b593-ab4af03e09e3	Begraafplaatsen
 d67d11d7-a9e5-4b5a-badc-bee9d4f960e2	Functionele gebieden
 d692f4ac-f617-4860-92a0-8d88d0a10d9d	Markten
 dbcff754-f43c-48ba-9a38-94b9498fd0f3	Parkeren
+dc142b32-55a0-4390-9227-08af19eeb824	Grote zeggenvegetatie
+dc176c01-6424-4dcc-9975-3da9b34f0b21	Riet- en biezenverlandingsvegetatie
 ddcd2ad1-9a86-4d49-b4ca-abc24a0048c7	Meter per dag
+e15dff89-6000-43b2-8485-59c7c4c2b989	Afwateringssysteem
 e5fad8e6-6f27-4738-ab48-5da8fda118cf	PutBodemprofiel
 ec50bd00-f149-4631-9b0e-a2e587dd32a6	Infiltratiereservoir
 f6985d67-860b-4605-899b-7694a530f7b2	DoorlaatVorm
 f8a24aec-dc0f-4c99-ba26-46690d88a763	Bescherming
 fef0e5a5-e686-4f66-b0d6-0fd45a65adb7	Valleiding
-af4be404-e76c-4fb1-ba43-43ccbe5727e0	m2
-5498ca1d-4663-475a-accf-aeb3f2775f37	SoortnaamnGroenobjectEenheid
-3ee4ca09-fe0b-4ac3-a524-fc81262c3d71	Stuks
-3f7fa05c-5c29-4ec2-9cd9-0c782c215df3	Boomtaxatie
-77443bae-4781-472e-bd16-6ff4d2a42ba0	Boomveiligheidscontrole
-98301b46-bdb5-483d-a5d5-e683dd2f0822	Groeiplaatsinspectie
-b53b0505-89a6-40d8-aa9d-1178a9ea0ffc	Inspectie boombeleid
-47cad6d7-4fe3-4808-b5c2-04ab0772e257	Inspectie boomonderhoud
-c5ba5857-5175-4c10-afdc-b9b4192fe6b0	Inventarisatie boomgegevens
-41d7a8b8-8244-4917-b5a2-cef60f5b0e7f	lichtafschermingskap
-e15dff89-6000-43b2-8485-59c7c4c2b989	Afwateringssysteem
-dc176c01-6424-4dcc-9975-3da9b34f0b21	Riet- en biezenverlandingsvegetatie
-c3be5fb9-4a28-4222-a82a-00460dae3e4f	Natte ruigte
-dc142b32-55a0-4390-9227-08af19eeb824	Grote zeggenvegetatie
+5c574381-8a09-48a8-b159-eb26d12f8b44	FysiekObjectModelnaam
+b1be36e0-2003-4de9-8135-a511c159151e	Verordening
