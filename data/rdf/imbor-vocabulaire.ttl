@@ -390,7 +390,7 @@ imbor-term:01ef6af5-fca5-4395-ba10-ff1ee2451877 a skos:Concept;
   skos:prefLabel "Speelbollen"@nl.
 
 imbor-term:01fe64c4-d2e7-4274-a13a-eb4bd0758ebc a skos:Concept;
-  skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
+  skos:broader imbor-term:13fd95af-ba1e-41cc-8603-f9a6aa4a885d;
   skos:definition "Voor mensen toegankelijk deel van een gebouw, dat ten minste aan de onderzijde en/of de bovenzijde wordt begrensd door een scheidingsconstructie en dat een netto-hoogte heeft van tenminste 1,5 m."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Ruimte"@nl.
@@ -3289,6 +3289,7 @@ imbor-term:12895e0e-bcd4-4c0f-98fa-57a22e2fc7ee a skos:Collection;
     imbor-term:5b3f47ab-9657-400c-9a70-c8d5337e8fc4,
     imbor-term:5d5114ad-2b23-41b7-8fb3-fa1985f28153,
     imbor-term:5fd2a97d-4dc6-4b4c-8a11-ae5a07cdaa62,
+    imbor-term:6345f726-579f-470e-b3b1-9eb7807bcd5d,
     imbor-term:63db3a80-bdd1-48b1-8482-861520d4d9ea,
     imbor-term:655d3cfb-c37c-4030-832c-71ca11d2be1c,
     imbor-term:682b9434-cd22-4c44-b9c8-315ce4f8f68c,
@@ -4208,11 +4209,6 @@ imbor-term:16ed7e8f-ef12-4908-94f2-199fa3893cb3 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Kindertafel"@nl.
 
-imbor-term:16f111d3-f3da-44ce-8f70-f0471407f9c7 a skos:Concept;
-  skos:definition "Het enumeratietype BakModel is de naam voor de domeinwaardenlijst van de klasse Bak en het attribuut model."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "BakModelnaam"@nl.
-
 imbor-term:16f562f4-0885-4a7f-934a-a160e354fc8f a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "10 m."@nl.
@@ -4907,11 +4903,6 @@ imbor-term:1ac9b2bc-04f5-49a9-b6a5-8440258ed111 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Konijn"@nl.
 
-imbor-term:1ac9dc4f-8b56-482f-9c06-a36789850133 a skos:Concept;
-  skos:definition "Het enumeratietype InstallatieModel is de naam voor de domeinwaardenlijst van de klasse Installatie en het attribuut model."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "InstallatieModelnaam"@nl.
-
 imbor-term:1ad4669a-68fe-4d5c-983e-c99166f7b95e a skos:Concept;
   skos:definition "Een afmeting met een lengte van elf centimeter en een breedte van vijfentwintig centimeter."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -5384,11 +5375,6 @@ imbor-term:1de16770-71de-4828-aab0-aad5c5151836 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "L10-11r_C01t"@nl.
 
-imbor-term:1de203ca-cbef-4a98-a900-dea6f3555b34 a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Armatuur en het attribuut energie voor rekening van."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "ArmatuurEnergieVoorRekeningVan"@nl.
-
 imbor-term:1de86d82-3e08-4562-824c-46f964511b83 a skos:Concept;
   skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
   skos:definition "Afkorting van steenmastiekasfalt, een asfaltsoort die binnenstedelijk veel gebruik ziet en bestaat uit in grote mate gebroken materiaal dat grotendeels is opgevuld met mastiek, een materiaal dat wordt vervaardigd uit bitumen, zand en een vulstof. Equivalent aan oude naamgeving 0/11 type 1."@nl;
@@ -5509,6 +5495,11 @@ imbor-term:1e669239-79bf-4ebc-af02-8ff93f7cc04a a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:note "Voor het waterschap zijn in principe alleen de riooleindgemalen interessant, waar overdracht van afvalwater plaatsvindt naar een stelsel dat onder beheer van dit waterschap is."@nl;
   skos:prefLabel "Rioolgemaal"@nl.
+
+imbor-term:1e689c4f-7778-47ea-b3ee-382468f7325d a skos:Concept;
+  skos:definition "Een houtsingel, boomsingel of kortweg singel (in Nederland) of een houtkant (in Vlaanderen) is een brede strook met bomen en struiken als afscheiding tussen weilanden en akkers en ook wel langs beken en waterlopen. Een houtsingel is een lijnvormig landschapselement van 4 tot 20 meter breed en minimum 25 meter lang. Houtsingels lijken veel op houtwallen. Bij een houtwal is er sprake van een opgeworpen wal, waar de beplanting op staat."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Houtsingel"@nl.
 
 imbor-term:1e70cca6-70a5-4d6f-99ef-695c7603b0ef a skos:Concept;
   skos:definition "Eenmaal om een periode van tweeënzeventig kalendermaanden."@nl;
@@ -6786,6 +6777,12 @@ imbor-term:25bf9f6b-dd2c-4917-9bec-f6a74a9c6fc2 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "J16f"@nl.
 
+imbor-term:25c1726a-d322-4c1c-8f20-3382bfa6242b a skos:Concept;
+  skos:broader imbor-term:ce7b8a6f-33ba-47e1-9917-89e1c8cdc159;
+  skos:definition "De naam die het type elektriciteitsmeter waarop het object is aangesloten kenmerkt."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "metermodelnaam"@nl.
+
 imbor-term:25c5e244-80f4-4b5b-997e-84d9e92bbc5e a skos:Concept;
   skos:definition "Rijstrook die zich afsplitst van de hoofdrijbaan en overgaat in een rijstrook van de afbuigende rijbaan."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -6793,9 +6790,7 @@ imbor-term:25c5e244-80f4-4b5b-997e-84d9e92bbc5e a skos:Concept;
 
 imbor-term:25c5e3f4-3d5f-46bb-94ce-13c566d9f99e a skos:Concept;
   skos:altLabel "Procesbassin"@nl;
-  skos:broader
-    imbor-term:1efd6d95-90bd-443a-a12d-e3e04a8a01a5,
-    imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
+  skos:broader imbor-term:1efd6d95-90bd-443a-a12d-e3e04a8a01a5;
   skos:definition "Een reservoir voor het zuiveren van afvalwater."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Zuiveringsreservoir"@nl.
@@ -9156,7 +9151,8 @@ imbor-term:32d4c922-3f2e-4c85-8fa3-7425bc9068a8 a skos:Collection;
     imbor-term:caee0540-ca0a-46ba-8290-4865b12674a9,
     imbor-term:f2c4447e-e010-4ecd-9979-7929d0c0c1c2,
     imbor-term:f9f5adc8-a897-4fa5-af38-5a26dbb091ae,
-    imbor-term:fcaca44d-069c-4f11-8d4f-a161cd242ccb;
+    imbor-term:fcaca44d-069c-4f11-8d4f-a161cd242ccb,
+    imbor-term:ffe40b04-8d44-460f-bae6-a902edb203c3;
   skos:note "Registratie van de relaties die tussen onderdelen (objecttypen en informatieobjecten) onderling gelegd kan worden op basis van betekenis."@nl;
   skos:prefLabel "Semantische relatie"@nl.
 
@@ -9372,7 +9368,7 @@ imbor-term:340cdabb-98ab-47e2-b6a3-2492303a20e3 a skos:Concept;
 imbor-term:341104d1-1ba7-42bc-9620-32ad9485da52 a skos:Concept;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Bosplantsoen en het attribuut omgevingsrisicoklasse BVC."@nl;
   skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "BosplantsoenOmgevingsrisicoklasseBVC"@nl.
+  skos:prefLabel "BosplantsoenOmgevingsrisicoklasseVeiligheid"@nl.
 
 imbor-term:34111d95-9942-40b6-a160-0c74591ccc5b a skos:Concept;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Infiltratiestelsel en het attribuut verschijningsvorm."@nl;
@@ -11020,7 +11016,7 @@ imbor-term:3d61a881-7455-4f75-97d6-09f086a5cb17 a skos:Concept;
 
 imbor-term:3d638f4e-161e-4165-9bca-cd43ddfe893e a skos:Concept;
   skos:altLabel "Zuiveringscomplex, Rioolwaterzuiveringinrichting"@nl;
-  skos:broader imbor-term:4eefe7c8-997e-419f-8bf2-378caa556a86;
+  skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
   skos:definition "Het totaal van grond, bouwwerken en installaties ten behoeve van het zuiveren van afvalwater."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "RWZI"@nl.
@@ -11399,7 +11395,7 @@ imbor-term:3fd3d991-6bed-4497-aa49-411647d8acef a skos:Concept;
   skos:prefLabel "Paddenstoel"@nl.
 
 imbor-term:3fd935cb-3071-4f71-a3ff-41b9bcd02b59 a skos:Concept;
-  skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
+  skos:broader imbor-term:af1fff65-9a0a-46af-9fa6-304c7ed99304;
   skos:definition "Drijvende, dichte bak, waarover soms een dek is gelegd."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Ponton"@nl.
@@ -12002,6 +11998,7 @@ imbor-term:41ab4cca-c6d7-4bfb-9748-28def30e0a3f a skos:Collection;
     imbor-term:5c2d5fdb-92f5-4bd5-93c6-903e15d53773,
     imbor-term:5cad76a3-441e-4593-bbe0-5f291b09b644,
     imbor-term:5da422bd-c6fe-49fa-b5c5-fe3b45eb07e3,
+    imbor-term:5dbb5a94-7bc4-4f83-82b2-53cf1f773835,
     imbor-term:5e1364e9-f0e5-4f59-ac75-7ced8a042c06,
     imbor-term:5ea8bc06-b877-4b4e-9462-f5279f7c1f32,
     imbor-term:5f4a60c9-e4fd-4c5f-8810-30be99d289fe,
@@ -12036,6 +12033,7 @@ imbor-term:41ab4cca-c6d7-4bfb-9748-28def30e0a3f a skos:Collection;
     imbor-term:6c97c940-467d-4ee0-9db0-27fd94801e06,
     imbor-term:6d40d539-2020-44d4-a72a-9e5b7f2d7ca4,
     imbor-term:6da3ef0e-632d-4fce-b9c9-7b0dfa4d6fc2,
+    imbor-term:6f721f24-998f-4047-9aeb-f30fa22e8feb,
     imbor-term:6f9472dc-3e4f-4c0b-8640-60590e89ebb1,
     imbor-term:6ffd7471-0eb5-4919-be8e-609abb602cca,
     imbor-term:7074d64e-ead1-4413-b519-f0a1504a127c,
@@ -12690,7 +12688,7 @@ imbor-term:42f375f1-7b6f-44e0-a60e-3fee93b4dad2 a skos:Concept;
   skos:prefLabel "SK08"@nl.
 
 imbor-term:42fdd221-8407-4ca3-86ae-4935bfa480d5 a skos:Concept;
-  skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
+  skos:broader imbor-term:6345f726-579f-470e-b3b1-9eb7807bcd5d;
   skos:definition "Een toren die gebruikt wordt om vanuit een hoog punt de wijde omgeving te kunnen bekijken en bewaken."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Uitkijktoren"@nl.
@@ -13563,6 +13561,7 @@ imbor-term:47e07fc5-dbf9-419c-be0e-79061374f20b a skos:Concept;
 
 imbor-term:47e1494f-15e3-4beb-96d0-b2ba47ff2a28 a skos:Concept;
   skos:broader imbor-term:3a0d097b-541d-4127-bb75-f9fb367dc7b2;
+  skos:definition "Een entiteit die in staat is om handelingen uit te voeren en een specifieke functie of positie te vervullen in een bepaalde context."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Actor"@nl.
 
@@ -16859,7 +16858,7 @@ imbor-term:58abcc75-3cd9-4eb8-9706-75bfaa732ae3 a skos:Concept;
   skos:prefLabel "200x600x300"@nl.
 
 imbor-term:58b88c27-b7fa-4a5d-85be-8819a255b6e7 a skos:Concept;
-  skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
+  skos:broader imbor-term:6345f726-579f-470e-b3b1-9eb7807bcd5d;
   skos:definition "Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of werkplaats of als tijdelijk onderdak voor andere doeleinden."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Open loods"@nl.
@@ -17775,6 +17774,13 @@ imbor-term:5db93a1e-7b81-41c3-b94b-54b5a52fa12d a skos:Concept;
   skos:definition "Herhaling zone parkeergelegenheid alleen bestemd voor vergunninghouders."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "E09zh"@nl.
+
+imbor-term:5dbb5a94-7bc4-4f83-82b2-53cf1f773835 a skos:Concept;
+  skos:broader imbor-term:f5dcab2e-e768-4277-ba16-95542a77d2bd;
+  skos:definition "Een temperatuursensor, -voeler of -opnemer is een (apparaat- of machine-)onderdeel waarin de fysische grootheid temperatuur wordt omgezet in een uit te lezen elektrisch signaal."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:note "Een warmtesensor die ervoor zorgt dat het stoplicht voor fietsers vaker en langer op groen gaat."@nl;
+  skos:prefLabel "Warmtesensor"@nl.
 
 imbor-term:5dbe5aa9-1704-41b3-8fe9-0b9c2a18ae0a a skos:Concept;
   skos:definition "Route doorgaand gemotoriseerd verkeer; Volg pijl naar links."@nl;
@@ -18787,6 +18793,12 @@ imbor-term:6343fa15-667c-4d9b-89f9-bbaa7286219e a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Anodiseren"@nl.
 
+imbor-term:6345f726-579f-470e-b3b1-9eb7807bcd5d a skos:Concept;
+  skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
+  skos:definition "Afzonderlijk staande overdekking rustend op een constructie met kolommen met één of meerdere open gevels bedoeld voor het beschutten of stallen van mensen, dieren, objecten en/of voer- en vaartuigen."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Open bouwwerk"@nl.
+
 imbor-term:63470320-c159-46c5-a859-c1c241f9fb95 a skos:Concept;
   skos:definition "Verboden voor honden."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -18979,7 +18991,7 @@ imbor-term:647f1fd8-d867-4650-877f-348dba0655fc a skos:Concept;
   skos:prefLabel "Nationaal park"@nl.
 
 imbor-term:64881ef1-e7cc-43dc-a889-43c2a5a010a6 a skos:Concept;
-  skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
+  skos:broader imbor-term:2fcae4f5-5c55-4fd3-9deb-c4b55e3915d4;
   skos:definition "Een constructie die de afwezigheid van een vloer in een gedeelte van de openbare ruimte mogelijk maakt."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Videconstructie"@nl.
@@ -19010,6 +19022,7 @@ imbor-term:64a7b27a-97be-457f-b1e0-3763f391b1a8 a skos:Concept;
   skos:prefLabel "GroeiplaatsInhoudsklasse"@nl.
 
 imbor-term:64ad92e7-3231-4d31-b90c-4aa449765ead a skos:Concept;
+  skos:definition "Een relatie die aangeeft dat een Rol alleen geldt in de context van een iets specifieks."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "heeft betrekking op"@nl.
 
@@ -20816,6 +20829,12 @@ imbor-term:6f6d9744-c090-4119-9b38-5f36955f9942 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Uitwijkstrook"@nl.
 
+imbor-term:6f721f24-998f-4047-9aeb-f30fa22e8feb a skos:Concept;
+  skos:broader imbor-term:f5dcab2e-e768-4277-ba16-95542a77d2bd;
+  skos:definition "Apparaat om verkeer tegemoetkomend, wegrijdend of beide rijrichtingen te registreren."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Verkeersteller"@nl.
+
 imbor-term:6f800a99-ea80-4f82-9383-d6f8b62ae4b4 a skos:Concept;
   skos:broader imbor-term:d115bf9e-495e-4857-9516-2d0512563fd3;
   skos:definition "Het koppelen van media voor de voortgeleiding van materie die niet uit dezelfde bestanddelen zijn opgebouwd en niet op dezelfde manier aangesloten kunnen worden."@nl;
@@ -21411,7 +21430,7 @@ imbor-term:7345b858-fd4f-4d0c-9d8d-fb0daa419b21 a skos:Concept;
   skos:prefLabel "SK06"@nl.
 
 imbor-term:734bf247-f17b-4599-97d5-a6212157e485 a skos:Concept;
-  skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
+  skos:broader imbor-term:6345f726-579f-470e-b3b1-9eb7807bcd5d;
   skos:definition "Oplopende rij zitplaatsen voor het publiek."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Tribune"@nl.
@@ -21844,11 +21863,6 @@ imbor-term:75721884-da2d-4123-bbf6-c664b9dbf5a8 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Abri-met detectie"@nl.
 
-imbor-term:75728c8b-a1ee-4616-a76b-125c309747ab a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Put en het attribuut modelnaam."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "PutModelnaam"@nl.
-
 imbor-term:75730d45-bbb2-4799-b80d-0c9f19c81653 a skos:Concept;
   skos:broader imbor-term:4d2fdcc7-38c5-46ce-8b60-1338ab3ae731;
   skos:definition "Aanduiding voor de ruwheid van de buiswand."@nl;
@@ -22187,7 +22201,7 @@ imbor-term:75cd1296-b121-406f-a1b3-c9f13f44e032 a skos:Concept;
 
 imbor-term:75dbc715-fba9-496b-a43f-ed4a787dad2a a skos:Concept;
   skos:broader imbor-term:27513d25-8e38-453c-a51c-8d15cce619a5;
-  skos:definition "Richting van het bord ten opzichte van het noorden in graden met een nauwkeurigheid van 5 graden."@nl;
+  skos:definition "Richting van het bord ten opzichte van het noorden in graden met een nauwkeurigheid van 5 graden. De oriëntatierichting wordt met de klok mee van 0 tot 360 graden vastgelegd."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "oriëntatierichting"@nl.
 
@@ -23054,7 +23068,7 @@ imbor-term:7abebab4-10a0-4240-bc0c-6bba56b3067c a skos:Concept;
   skos:prefLabel "SV-station"@nl.
 
 imbor-term:7ace9966-adb0-41d0-b9a1-434a03df27e2 a skos:Concept;
-  skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
+  skos:broader imbor-term:6345f726-579f-470e-b3b1-9eb7807bcd5d;
   skos:definition "Open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van voertuigen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Parkeergarage"@nl.
@@ -24132,16 +24146,6 @@ imbor-term:81952cb8-7e44-4c95-be4f-0405202122c7 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Kritieke afslaglijn"@nl.
 
-imbor-term:819b99e8-3bd1-41d6-b5ce-94d3df528c88 a skos:Concept;
-  skos:definition "Het enumeratietype KastModel is de naam voor de domeinwaardenlijst van de klasse Kast en het attribuut model."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "KastModelnaam"@nl.
-
-imbor-term:81a1207a-a028-445e-abde-f2578fd18704 a skos:Concept;
-  skos:definition "Het enumeratietype ConstructieonderdeelModel is de naam voor de domeinwaardenlijst van de klasse Constructieonderdeel en het attribuut model."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "ConstructieonderdeelModelnaam"@nl.
-
 imbor-term:81a1ac8a-77ec-472a-8e9e-3b23e2d52b90 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Grondwater 1,0 tot 1,5 -m.v."@nl.
@@ -24874,7 +24878,7 @@ imbor-term:860caeff-7df2-4480-a62f-6b06944db5dd a skos:Concept;
 imbor-term:8618b5fc-8b7d-417a-969c-89ce58140d6e a skos:Concept;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Boom en het attribuut omgevingsrisicoklasse BVC."@nl;
   skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "BoomOmgevingsrisicoklasseBVC"@nl.
+  skos:prefLabel "BoomOmgevingsrisicoklasseVeiligheid"@nl.
 
 imbor-term:8619af49-07ae-4e30-9eb2-2a7fe422a19a a skos:Concept;
   skos:definition "Buisvormige hogedruk natriumlamp met een enkel eindstuk. De code is ontleend aan het LBS Lampcodesysteem van Zentralverband Elektrotechnik und Elecktronikindustrie. De equivalente ILCOS-code is: ST."@nl;
@@ -25359,12 +25363,6 @@ imbor-term:89007bc8-92df-4925-ac7a-d7b1d585420e a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Rookpaal"@nl.
 
-imbor-term:8909367e-40fb-4df7-87b2-81bce64b15a5 a skos:Concept;
-  skos:broader imbor-term:ce7b8a6f-33ba-47e1-9917-89e1c8cdc159;
-  skos:definition "De naam die het type elektriciteitsmeter waarop het object is aangesloten kenmerkt."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "metermodelnaam"@nl.
-
 imbor-term:89095171-2b4f-43a6-a582-75c5a6835267 a skos:Concept;
   skos:definition "Telefoon."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -25821,11 +25819,6 @@ imbor-term:8baf1698-8cc5-493b-9b66-4224c6c8187c a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "type brandbescherming"@nl.
 
-imbor-term:8bb2e13b-c16a-4000-97cb-ac90767334ab a skos:Concept;
-  skos:definition "Het enumeratietype PaalconstructieModel is de naam voor de domeinwaardenlijst van de klasse Paalconstructie en het attribuut model."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "PaalconstructieModelnaam"@nl.
-
 imbor-term:8bb66250-ff02-4445-b8f3-d95397e82da4 a skos:Concept;
   skos:definition "Zone gesloten voor motorvoertuigen op meer dan twee wielen."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -25841,7 +25834,7 @@ imbor-term:8bc7d80d-2c03-4ec8-a53f-fa235cd43170 a skos:Concept;
   skos:definition "Aanduiding van het omgevingsrisico van het beheerobject."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:note "Classificering voor de intensiteit van het gebruik van de omgeving van een boom en daarmee de mate waarin de omgeving van de boom risicoverhogend is voor eventuele schade bij stambreuk, takbreuk of instabiliteit. Aanvullende informatie: vast te stellen door de boomeigenaar."@nl;
-  skos:prefLabel "omgevingsrisicoklasse BVC"@nl.
+  skos:prefLabel "omgevingsrisicoklasse veiligheid"@nl.
 
 imbor-term:8bcfa429-4657-49e0-98db-0a1bb41a5f90 a skos:Concept;
   skos:definition "Een langwerpig, horizontaal of licht hellend gepositioneerd behendigheidstoestel dat bedoeld is om balancerend over te steken en op een bepaalde manier is opgehangen, bijvoorbeeld met behulp van kettingen, waardoor de balk boven de grond hangt."@nl;
@@ -26144,7 +26137,7 @@ imbor-term:8da2c15d-3d9c-473b-8b97-667803dbb539 a skos:Concept;
 imbor-term:8dac3598-96ab-4b45-81f9-0d845ce431c3 a skos:Concept;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Boom en het attribuut controlefrequentie BVC."@nl;
   skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "BoomControlefrequentieBVC"@nl.
+  skos:prefLabel "BoomControlefrequentieVeiligheid"@nl.
 
 imbor-term:8dbf6676-b4a9-4098-bb15-f4b224a21e12 a skos:Concept;
   skos:definition "De secundaire, geplande af te leggen weg te gebruiken door voertuigen voor agrarische doeleinden."@nl;
@@ -28844,6 +28837,7 @@ imbor-term:9cec6048-0358-4d4e-82d7-7804fca70737 a skos:Collection;
     imbor-term:2471ceb3-f322-43a6-85fa-ddadd04002d1,
     imbor-term:24ae24ce-3565-4d0d-8298-883dd56f5534,
     imbor-term:24d0364f-386e-4b5c-9e76-681d0cc979e6,
+    imbor-term:25c1726a-d322-4c1c-8f20-3382bfa6242b,
     imbor-term:26aacf2f-b47d-4d38-8afd-410a6813b43a,
     imbor-term:26ec67c1-49da-42f1-89e2-1a9a7c15df03,
     imbor-term:27513d25-8e38-453c-a51c-8d15cce619a5,
@@ -29099,7 +29093,6 @@ imbor-term:9cec6048-0358-4d4e-82d7-7804fca70737 a skos:Collection;
     imbor-term:885dfdd3-c594-4399-a148-bd49964de66e,
     imbor-term:887e8e2b-1404-414e-8a83-6c5e3caf5958,
     imbor-term:88878766-6d5a-4382-8f91-2275b0db94e7,
-    imbor-term:8909367e-40fb-4df7-87b2-81bce64b15a5,
     imbor-term:8925c043-9848-49cf-802a-c44a875dc6e0,
     imbor-term:8989be6c-5ded-4413-893f-01b2a25f1720,
     imbor-term:89a6ed12-de8d-4b00-bc17-8c85acb5ec5f,
@@ -30331,11 +30324,6 @@ imbor-term:a1848f04-8ddb-46ee-affc-fe63fc1aaea2 a skos:Concept;
   skos:definition "Categorisering van de overspanningsbeveiliging welke bij het object toegepast wordt."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "type overspanningsbeveiliging"@nl.
-
-imbor-term:a1896c3c-609a-4e3b-a037-6ad3cfc90071 a skos:Concept;
-  skos:definition "Het enumeratietype WaterinrichtingsobjectModel is de naam voor de domeinwaardenlijst van de klasse Waterinrichtingsobject en het attribuut model."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "WaterinrichtingsobjectModelnaam"@nl.
 
 imbor-term:a18c97f0-cfc9-4b71-bf67-9288d1f7dd62 a skos:Concept;
   skos:definition "Een oppervlaktebehandeling waarbij er op een object een laag zink wordt aangebracht die bij hoge temperatuur een legering vormt met het metalen materiaal van het object."@nl;
@@ -32150,11 +32138,6 @@ imbor-term:abbc2205-daf4-47c9-a7a8-a6126931e6bf a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Kleine elektrische apparaten"@nl.
 
-imbor-term:abc51608-0d0a-4e36-ad9b-1b738d46898a a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Tekstmarkering en het attribuut modelnaam."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "TekstmarkeringModelnaam"@nl.
-
 imbor-term:abcd78de-3e0a-439e-8e75-e0a0aaa9658b a skos:Concept;
   skos:definition "Een combinatie van een haarlemmermeeraansluiting, zijnde een aansluiting waarbij de afritten en de opritten van de kruisende wegen parallel liggen aan de hoofdweg, en een halfklaverbladaansluiting, waarbij twee bovenliggend kruisende wegen boven- en onderin één diagonaal van de kruising verbonden zijn door een verbindingsweg toe en een verbindingsweg af."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -32199,11 +32182,6 @@ imbor-term:abfb6ce3-3972-488e-9c0d-dba0dbe94d04 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:note "Dit geldt zowel voor het gemotoriseerd verkeer als voor het langzaam verkeer. Voorbeelden zijn: een gelijkwaardig kruispunt, een voorrangskruispunt, een geregeld ruispunt en een (turbo)rotonde."@nl;
   skos:prefLabel "Kruispunt"@nl.
-
-imbor-term:abfdb965-1e6f-484c-8146-1eaca27b512a a skos:Concept;
-  skos:definition "Het enumeratietype WeginrichtingsobjectModel is de naam voor de domeinwaardenlijst van de klasse Weginrichtingsobject en het attribuut model."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "WeginrichtingsobjectModelnaam"@nl.
 
 imbor-term:ac086afa-e7b0-4651-881a-da6a94d16644 a skos:Concept;
   skos:definition "Een sloot die is gesitueerd in het gebied achter de kade van een watergang."@nl;
@@ -34192,11 +34170,6 @@ imbor-term:b65e104d-1998-46ba-b6bf-49ba4f728512 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Hutje"@nl.
 
-imbor-term:b664bfd1-7f1d-4140-a2ec-3af1e57a11e6 a skos:Concept;
-  skos:definition "Het enumeratietype ApparaatModel is de naam voor de domeinwaardenlijst van de klasse Apparaat en het attribuut model."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "ApparaatModelnaam"@nl.
-
 imbor-term:b66eac91-ab8f-486b-8b7f-2a9a3e17c671 a skos:Concept;
   skos:definition "Het gebied buiten de green, tee, fairway, semi-rough en apron, de carry en waterpartijen."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -34972,11 +34945,6 @@ imbor-term:bac6decd-3a63-4d5f-9b4e-5e352388dc64 a skos:Concept;
   skos:definition "Weg, door de letter E en enkele cijfers aangeduid, die worden toegekend door de Europese economische commissie van de Verenigde Naties (UNECE). Het netwerk doorkruist Europa en overbrugt nationale grenzen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Europese route (E-route)"@nl.
-
-imbor-term:bacb99a7-bcf9-457f-84b1-67b35747a697 a skos:Concept;
-  skos:definition "Het enumeratietype StraatmeubilairModel is de naam voor de domeinwaardenlijst van de klasse Straatmeubilair en het attribuut model."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "StraatmeubilairModelnaam"@nl.
 
 imbor-term:bacca5c5-5c19-4cbe-a796-ef8fea00764c a skos:Concept;
   skos:definition "Anti-spookrijpijlen worden gebruikt om een spookrijder op een afrit duidelijk te maken dat hij in de verkeerde rijrichting rijdt. Deze pijl wijst in de juiste rijrichting: de spookrijder rijdt tegen de richting van de pijl in. Voor de ‘normale’ weggebruiker heeft de pijl geen toegevoegde waarde. De anti-spookrijpijl wordt toegepast op wegvakken met een horizontale boogstraal groter dan 75 meter."@nl;
@@ -36929,6 +36897,11 @@ imbor-term:c5f9e03c-67d8-4ed2-88ec-9e231f00b871 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Bokspringstammen"@nl.
 
+imbor-term:c60061a1-8c1f-4cfc-949a-09677280abfc a skos:Concept;
+  skos:definition "Enumeratietype voor de klasse Elementenverharding en het attribuut voegvulling."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "ElementenverhardingVoegvulling"@nl.
+
 imbor-term:c609e850-d395-4e22-b86a-91cf48e74e9e a skos:Concept;
   skos:definition "Verboden voor honden."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -38456,6 +38429,11 @@ imbor-term:ce48bcfe-18b4-4eab-8934-2a27cfc415b1 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Log hop"@nl.
 
+imbor-term:ce5b086f-0516-443c-9520-f881fbf375f3 a skos:Concept;
+  skos:definition "Enumeratietype voor de klasse FysiekObject en het attribuut modelnaam."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "FysiekObjectModelnaam"@nl.
+
 imbor-term:ce66fb0e-42d3-46ec-aa4e-6c2f00b5d9ae a skos:Concept;
   skos:definition "Het lichtdoorlatende deel van het object heeft een vertroebeld, licht wit visueel uiterlijk."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -38537,7 +38515,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:153767c8-5f3e-4753-ad2a-af630308a6fb,
     imbor-term:15bd5ff9-ecdd-4bc9-aa14-06d215b0ca60,
     imbor-term:160e2045-8dcb-4d24-b3f1-4b2b336db88c,
-    imbor-term:16f111d3-f3da-44ce-8f70-f0471407f9c7,
     imbor-term:170557d6-5625-4f0b-a4a3-d7859f2360fd,
     imbor-term:17a0b95e-e35b-4d8f-82e4-ac9e6cc78ad9,
     imbor-term:18949861-1ed4-401f-93be-1df008d15e16,
@@ -38545,7 +38522,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:1a234748-33f5-4c91-8b68-ca2389e9f7d9,
     imbor-term:1a5631a0-bef7-48c7-bc1e-bb89bf239576,
     imbor-term:1ab50c9e-3119-4beb-b93f-da2662b8ead7,
-    imbor-term:1ac9dc4f-8b56-482f-9c06-a36789850133,
     imbor-term:1b93aa21-a6d8-4191-87c6-7384fb8b6881,
     imbor-term:1bef9468-7265-4b7f-8b45-3ae63cd292ab,
     imbor-term:1c9c2009-5afd-421c-8e7a-41b73d1c147e,
@@ -38554,7 +38530,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:1d265583-a403-400e-8733-930faa896606,
     imbor-term:1d3b9cfe-856f-4e34-b006-2b6ff614cd14,
     imbor-term:1d3c4538-2bbc-415f-8afb-582c5e5532d2,
-    imbor-term:1de203ca-cbef-4a98-a900-dea6f3555b34,
     imbor-term:1f44f2cb-f942-4a7f-8733-70d616f26d8c,
     imbor-term:1f4fbd12-05fc-4957-bc46-731576eb3863,
     imbor-term:1f943d9f-5496-469d-84e7-9058c97d11dc,
@@ -38737,7 +38712,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:74ae1567-b829-4c71-9998-4cbf04c13288,
     imbor-term:752c6d26-71d8-4acd-956f-23b3e23ed708,
     imbor-term:75656ab2-b7b1-4213-b8fd-c1e521b68ac8,
-    imbor-term:75728c8b-a1ee-4616-a76b-125c309747ab,
     imbor-term:77c1bbf4-8fb6-415f-a53d-dd8d982b49fc,
     imbor-term:77c72f1b-8152-4bc6-a2e8-fddf2229e35d,
     imbor-term:7860c21d-2342-4c08-958e-75ad3106b5c8,
@@ -38761,8 +38735,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:80717a6b-f775-441e-a358-0b1c225f6fc9,
     imbor-term:808e9295-1387-4860-b19b-c56e0a403699,
     imbor-term:813bfd84-9d31-48b5-8f3b-39b719200c2a,
-    imbor-term:819b99e8-3bd1-41d6-b5ce-94d3df528c88,
-    imbor-term:81a1207a-a028-445e-abde-f2578fd18704,
     imbor-term:82e7ad22-6022-4e04-a7e5-3d999c8500eb,
     imbor-term:834714cc-4a87-42bc-ac42-750b4a484050,
     imbor-term:83d46d03-3102-40b2-80dd-3cd1b6dd44d4,
@@ -38784,7 +38756,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:8a8c4fec-ee90-49ee-9a41-d759308d32e5,
     imbor-term:8b11b56d-93f2-49f4-ad1e-c2c97e6c8119,
     imbor-term:8b73d83e-8d34-4fbd-940d-20f30bfe237a,
-    imbor-term:8bb2e13b-c16a-4000-97cb-ac90767334ab,
     imbor-term:8be72d20-ff9d-4baa-9367-eecc6f037276,
     imbor-term:8ca706e9-0551-4b35-9929-5fec259d5af6,
     imbor-term:8cb3b020-698f-442a-8d36-709aa2620b2e,
@@ -38844,7 +38815,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:9fe5b3c4-62df-4b20-835b-8ee2096da877,
     imbor-term:a00a3680-1ac5-4020-879d-ee6f811718a9,
     imbor-term:a0aae282-81c1-4e5d-9197-7c56815d1e89,
-    imbor-term:a1896c3c-609a-4e3b-a037-6ad3cfc90071,
     imbor-term:a1a05881-7e69-4b88-a68b-d95d434ace22,
     imbor-term:a2902c9a-a73e-4a51-8b41-72f0824db1da,
     imbor-term:a429ab55-b4e4-4be7-aa60-b5251ba3ce8c,
@@ -38874,8 +38844,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:ab15f89e-3631-4fbb-aeec-869762034955,
     imbor-term:ab23b762-3feb-475c-9ded-d9d106a6455b,
     imbor-term:ab85fd90-f489-4918-84f3-4fc549cfb7d4,
-    imbor-term:abc51608-0d0a-4e36-ad9b-1b738d46898a,
-    imbor-term:abfdb965-1e6f-484c-8146-1eaca27b512a,
     imbor-term:ac517d71-7504-4b7f-93b9-f6d08844c5d3,
     imbor-term:ac6869a8-bdb6-4be0-b327-528da8dec5f0,
     imbor-term:ad231c3e-c97a-4f3a-886a-a6c087c1281e,
@@ -38906,7 +38874,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:b45d0f77-d06e-42c1-b923-fe917e72e1a4,
     imbor-term:b5dd59c8-f60b-437e-9a07-7fa8ede3f144,
     imbor-term:b5e21e97-b9c3-4ff5-a02d-612226e41659,
-    imbor-term:b664bfd1-7f1d-4140-a2ec-3af1e57a11e6,
     imbor-term:b789e09d-3d44-420c-b3d9-284aa9994ebd,
     imbor-term:b7d8abb6-f18b-4581-a9b5-a0b1537535b2,
     imbor-term:b82058d2-e0a8-4893-80c0-cbe3e2d34d84,
@@ -38920,7 +38887,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:ba19df46-9196-4082-9114-7e30c35b7e5a,
     imbor-term:ba53264f-c61d-4a0c-a992-fffc4aba1190,
     imbor-term:ba6c5d0f-056b-4418-b44a-8ce1168d5f61,
-    imbor-term:bacb99a7-bcf9-457f-84b1-67b35747a697,
     imbor-term:bba61303-22ac-4809-9182-71a54250b11e,
     imbor-term:bbc77584-f01f-4216-9864-edf22251fa95,
     imbor-term:bcc04510-8e68-477d-868f-6196a805c075,
@@ -38942,6 +38908,7 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:c4bad6a3-dc8f-46ff-8ed9-e6d9d4898673,
     imbor-term:c4e2031b-6bd6-4148-a5ad-81f06556504c,
     imbor-term:c546649d-5c5c-42f3-8539-d75818eb0e91,
+    imbor-term:c60061a1-8c1f-4cfc-949a-09677280abfc,
     imbor-term:c644afd1-60d9-40e6-ac99-6d517c4f33c8,
     imbor-term:c65d4454-25b5-4d67-ace6-2ab12888e908,
     imbor-term:c65decbc-0383-432c-9260-2877da541946,
@@ -38957,6 +38924,7 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:cac22ab6-8b1b-4d76-b543-29db8e9150fd,
     imbor-term:cbac3406-2afe-455b-80da-3d77b55e1a5d,
     imbor-term:cc202b2b-183f-4d0f-8d98-c4b7122b14c6,
+    imbor-term:ce5b086f-0516-443c-9520-f881fbf375f3,
     imbor-term:ce97e7d1-6937-4755-8fbf-dd8d4103b6e9,
     imbor-term:cea17454-dd43-455f-81a1-f1767e8e2f14,
     imbor-term:cf274ffe-916f-4260-a2fc-77c59d432dd9,
@@ -38965,7 +38933,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:d13614c5-b62c-4f0b-b0da-9cd53298d698,
     imbor-term:d1a95d3c-6229-4315-8468-a97c0e830c0f,
     imbor-term:d31b134c-509f-44df-b212-18e0d7824472,
-    imbor-term:d3598bdb-f731-449f-aa78-a62804b4feb2,
     imbor-term:d41b3783-95a3-4ad7-99eb-a45ccde1c342,
     imbor-term:d4391894-b1cd-4d43-8036-719fb4820643,
     imbor-term:d4569103-0b71-407b-bcb3-55f974f2ec35,
@@ -38999,6 +38966,7 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:e28c286c-1b53-4d03-8c93-a443709a3a58,
     imbor-term:e314bc2f-7963-4be6-85dc-b6d288b77ca6,
     imbor-term:e35ed892-ba17-42c6-b94d-dc67b90f3584,
+    imbor-term:e36e4205-b525-4d9f-8e56-66326c9a4396,
     imbor-term:e386fd9d-56f1-4ed1-b60d-e2451e5be1b4,
     imbor-term:e388fd0e-c45a-42c2-9a83-9a7a216ba2d7,
     imbor-term:e3c88f7c-536f-4c6c-aae1-0e06e6eb6f11,
@@ -39036,7 +39004,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:ee65b55b-9332-4772-b1c9-6dcc92a875df,
     imbor-term:eff11bff-7ec5-4ddf-a10a-f61d93674811,
     imbor-term:f01c5419-820a-4fd0-8c8d-c23d24fbcb8d,
-    imbor-term:f0735569-05a2-418e-aeef-abfe480f5bd0,
     imbor-term:f0be51fb-16fa-4457-964d-7d8f041c640a,
     imbor-term:f0d06edf-4538-46a9-b173-3681e19eccf2,
     imbor-term:f195adaf-f4eb-44bf-a1f7-5dbd9224aad3,
@@ -39051,7 +39018,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:f4f74939-8c0b-4e21-99fa-d50c9e34a000,
     imbor-term:f5cfad96-ee0c-4869-92fc-dceb626f4978,
     imbor-term:f714d515-b9b3-40df-ae3a-b65090d0757b,
-    imbor-term:f802714c-7946-4753-9ab5-4b7cb04af6fb,
     imbor-term:f83cbd25-c2ab-46f1-a36e-7a0b5a6ad260,
     imbor-term:f8ba702c-5a31-429e-be79-66ce96b3bccd,
     imbor-term:f8f8edd3-1eb6-4218-94bc-d3ebfe615036,
@@ -39902,11 +39868,6 @@ imbor-term:d3539561-84a9-41e1-8913-ac9929288709 a skos:Concept;
   skos:definition "Onverhard, onbegroeid terreindeel met als deklaag zand. (Bron: definities.geostandaarden.nl)"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Zandvlakte"@nl.
-
-imbor-term:d3598bdb-f731-449f-aa78-a62804b4feb2 a skos:Concept;
-  skos:definition "Het enumeratietype LeidingModel is de naam voor de domeinwaardenlijst van de klasse Leiding en het attribuut model."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "LeidingModelnaam"@nl.
 
 imbor-term:d3606fea-3091-4f85-a91b-881b3ce416c0 a skos:Concept;
   skos:definition "Een draadloze verbinding voor apparaten die zich op korte afstand van elkaar bevinden."@nl;
@@ -41618,6 +41579,7 @@ imbor-term:dd32de45-9838-42b2-859e-a44a3089204f a skos:Concept;
   skos:prefLabel "RuimtelijkGebied"@nl.
 
 imbor-term:dd3de3cc-4b92-4a17-8ec9-16cd304e1ab2 a skos:Concept;
+  skos:definition "Een samenhangende verzameling van verwachtingen, verantwoordelijkheden, bevoegdheden en gedragingen die een Actor kan aannemen in relatie tot iets."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Rol"@nl.
 
@@ -42192,7 +42154,7 @@ imbor-term:e07800b5-a966-43ae-a104-a037289082bf a skos:Concept;
   skos:prefLabel "BoomBoomkroontype"@nl.
 
 imbor-term:e07cb74a-3f73-470b-a462-847a8369f6a3 a skos:Concept;
-  skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
+  skos:broader imbor-term:1c2e9d3b-8261-4ac5-83da-58d3926c11aa;
   skos:definition "Een diagonaal transportsysteem, bestaande uit een trap met omhoog- of omlaag schuivende treden."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Roltrap"@nl.
@@ -42736,6 +42698,11 @@ imbor-term:e35ed892-ba17-42c6-b94d-dc67b90f3584 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "MeetpuntVerschijningsvorm"@nl.
 
+imbor-term:e36e4205-b525-4d9f-8e56-66326c9a4396 a skos:Concept;
+  skos:definition "Enumeratietype voor de klasse Houtwal en het attribuut verschijningsvorm."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "HoutwalVerschijningsvorm"@nl.
+
 imbor-term:e37152fa-4bca-47d2-9c65-e20dc5324994 a skos:Concept;
   skos:definition "Doorgaand verkeer algemeen links."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -43084,7 +43051,7 @@ imbor-term:e55ca577-3d9d-48e4-b083-7837974dfae3 a skos:Concept;
   skos:prefLabel "Driehoeksmarkering"@nl.
 
 imbor-term:e56731d8-509d-4ac6-8bc8-c6ca8748b2d9 a skos:Concept;
-  skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
+  skos:broader imbor-term:6345f726-579f-470e-b3b1-9eb7807bcd5d;
   skos:definition "Een afzonderlijk staande overdekking rustend op kolommen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Overkapping"@nl.
@@ -43883,7 +43850,7 @@ imbor-term:e9e2d1b0-3080-42fb-8cd4-85452e624b30 a skos:Concept;
   skos:prefLabel "C14"@nl.
 
 imbor-term:e9e916d5-9ec4-48ff-8fd5-45804c30ade5 a skos:Concept;
-  skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
+  skos:broader imbor-term:839083ee-2433-4c81-b43c-4cf16432c5d3;
   skos:definition "Een constructie die een objecttype van de klasse Kast kan huisvesten."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Kastombouw"@nl.
@@ -44438,7 +44405,7 @@ imbor-term:ec8fcdf5-29c9-43f1-8a16-233353bcad29 a skos:Concept;
   skos:prefLabel "Middengeleider"@nl.
 
 imbor-term:ec902de5-0b02-4b97-9d0d-19c75a976727 a skos:Concept;
-  skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
+  skos:broader imbor-term:1c2e9d3b-8261-4ac5-83da-58d3926c11aa;
   skos:definition "Een verticaal transportsysteem met vaste stopplaatsen, bedoeld voor het vervoer van personen en/of goederen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Lift"@nl.
@@ -45288,11 +45255,6 @@ imbor-term:f06da0ff-1625-42c2-97b5-f076e3868429 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Station"@nl.
 
-imbor-term:f0735569-05a2-418e-aeef-abfe480f5bd0 a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Symboolmarkering en het attribuut modelnaam."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "SymboolmarkeringModelnaam"@nl.
-
 imbor-term:f083300a-e2d4-4471-997d-14b3a3ccc15d a skos:Concept;
   skos:definition "Voorziening die een gebouw of ander object moet beschermen tegen ramkraken door aanrijdingen."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -45379,6 +45341,11 @@ imbor-term:f0e59f29-27b7-4d7f-b2e8-e796e1693758 a skos:Concept;
   skos:definition "Sector betaald parkeren (bankpas)."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "E102sb"@nl.
+
+imbor-term:f0ec3af2-6f11-457d-b10a-51a57c605b1d a skos:Concept;
+  skos:definition "Een verordening is een overheidsbesluit van algemene strekking."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Verordening"@nl.
 
 imbor-term:f0fc266e-6b19-48ec-8248-c1d1484518b7 a skos:Concept;
   skos:definition "Nooduitgang voetganger naar beneden rechts."@nl;
@@ -46145,7 +46112,7 @@ imbor-term:f59e022b-8b9d-4cfc-92f1-2cfc6dd041db a skos:Concept;
   skos:prefLabel "Openbare ruimte wegknoop"@nl.
 
 imbor-term:f5a5d32a-702e-40ce-ae7a-d6091d288154 a skos:Concept;
-  skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
+  skos:broader imbor-term:2fcae4f5-5c55-4fd3-9deb-c4b55e3915d4;
   skos:definition "Een platform bij een halte, een metrostation of een spoorwegstation dat het reizigers makkelijker maakt om in een bus, tram, metro of trein te stappen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Perron"@nl.
@@ -46550,11 +46517,6 @@ imbor-term:f7e09a47-ae62-42fb-b825-668b04f8e46a a skos:Concept;
   skos:definition "Datum waarop de remplace (groepsvervanging) uitgevoerd is."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "remplacedatum"@nl.
-
-imbor-term:f802714c-7946-4753-9ab5-4b7cb04af6fb a skos:Concept;
-  skos:definition "Het enumeratietype SensorModel is de naam voor de domeinwaardenlijst van de klasse Sensor en het attribuut model."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "SensorModelnaam"@nl.
 
 imbor-term:f80f3eb7-58f7-4026-8687-1c75eef425d5 a skos:Concept;
   skos:definition "Buisvormige hogedruk natriumlamp met een enkel eindstuk. De code is ontleend aan het LBS Lampcodesysteem van Zentralverband Elektrotechnik und Elecktronikindustrie. De equivalente ILCOS-code is: ST."@nl;
@@ -47351,6 +47313,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:1e50bad8-d0bd-4354-9235-b8d091d28ffd,
     imbor-term:1e5269fa-ae32-4393-9802-ca92dc0738b0,
     imbor-term:1e669239-79bf-4ebc-af02-8ff93f7cc04a,
+    imbor-term:1e689c4f-7778-47ea-b3ee-382468f7325d,
     imbor-term:1e70cca6-70a5-4d6f-99ef-695c7603b0ef,
     imbor-term:1e7bf661-50b8-4464-9cc5-9519ddd6c707,
     imbor-term:1e7d9c3d-2b80-487b-a302-ff34a6d70f4c,
@@ -52301,6 +52264,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:f0cc988f-b959-4e95-bf8b-0a3ceed7f535,
     imbor-term:f0d29a44-9d4f-4e06-a7d8-5d9979e30899,
     imbor-term:f0e59f29-27b7-4d7f-b2e8-e796e1693758,
+    imbor-term:f0ec3af2-6f11-457d-b10a-51a57c605b1d,
     imbor-term:f0fc266e-6b19-48ec-8248-c1d1484518b7,
     imbor-term:f0fce85e-1bff-406a-93a9-5f15f74bf0ab,
     imbor-term:f10e556c-7405-44ef-ae42-1e70919c204a,
@@ -52877,6 +52841,7 @@ imbor-term:f9f54f8a-ed9a-40d9-89dc-1f216df58f12 a skos:Concept;
   skos:prefLabel "Veldafscheiding"@nl.
 
 imbor-term:f9f5adc8-a897-4fa5-af38-5a26dbb091ae a skos:Concept;
+  skos:definition "Een relatie die aangeeft dat een Actor een bepaalde Rol op zich neemt of uitvoert."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "speelt"@nl.
 
@@ -53900,6 +53865,12 @@ imbor-term:ffdf09ec-0e29-481a-a95b-6874bf845d07 a skos:Concept;
   skos:definition "Warmwaterleiding voor het verwarmen van panden met behulp van stadsverwarming."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Stadsverwarmingsleiding"@nl.
+
+imbor-term:ffe40b04-8d44-460f-bae6-a902edb203c3 a skos:Concept;
+  skos:altLabel "isContainedBy"@nl;
+  skos:definition "The real objects located in a spatial region, typically the gaseous amount of bulk matter present in that region."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "bevindt zich in"@nl.
 
 imbor-term:fff10d3a-d93c-4a99-bdcb-d5e4026901ae a skos:Concept;
   skos:definition "Drosera anglica, een overblijvende, vleesetende plant uit de zonnedauwfamilie. De plant wordt 5-20 cm hoog en heeft bladeren met talrijke, kleverige, klierweefsel bevattende, haardunne rode tentakels waarmee de plant kleine insecten vangt."@nl;

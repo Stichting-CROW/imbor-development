@@ -100,6 +100,16 @@ insert data {
             owl:inverseOf nen2660:hasPart ;
             .
 
+        nen2660:isContainedBy a rdf:Property ;
+            rdfs:seeAlso nen2660-term:contains ;
+            skos:definition "The real objects located in a spatial region, typically the gaseous amount of bulk matter present in that region"@en, 
+                                    "De reële objecten die zich in een ruimtelijk gebied bevinden, meestal de gasvormige hoeveelheid bulkmaterie die in dat gebied aanwezig isn"@nl ;
+            skos:prefLabel "is containd by"@en, 
+                                    "bevindt zich in"@nl;
+            a owl:ObjectProperty ;
+            owl:inverseOf nen2660:contains ;
+            .    
+
         imbor:speelt a rdf:Property ;
             skos:prefLabel "speelt"@nl ;
             skos:definition "Een relatie die aangeeft dat een Actor een bepaalde Rol op zich neemt of uitvoert."@nl ;
