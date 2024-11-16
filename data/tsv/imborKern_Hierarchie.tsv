@@ -509,7 +509,6 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 604	401	365	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 605	401	363	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 606	401	404	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
-609	401	369	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 612	385	635	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 615	120	631	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 616	120	632	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
@@ -1828,7 +1827,6 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 5164	4273	3865	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 5165	4273	3866	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 5166	4273	3867	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
-5167	4230	3868	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 5168	4269	4122	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 5169	4233	4123	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 5170	4233	4124	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
@@ -1957,3 +1955,6 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 5297	338	431	Mon Nov 11 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 5298	578	4318	Tue Nov 12 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 5299	578	4319	Tue Nov 12 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+5302	4291	4322	Sat Nov 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+5303	4291	4323	Sat Nov 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+5305	4271	4325	Sat Nov 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
