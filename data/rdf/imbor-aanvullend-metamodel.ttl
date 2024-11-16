@@ -87,6 +87,16 @@ imbor-domeinwaarde:bovenliggendeWaarde a rdf:Property;
   skos:definition "Domeinwaarden die in picklists van elkaar afhankelijk zijn."@nl;
   skos:prefLabel "categorie domeinwaarde"@nl.
 
+nen2660:isContainedBy a rdf:Property, owl:ObjectProperty;
+  rdfs:seeAlso nen2660-term:contains;
+  owl:inverseOf nen2660:contains;
+  skos:definition
+    "The real objects located in a spatial region, typically the gaseous amount of bulk matter present in that region"@en,
+    "De reële objecten die zich in een ruimtelijk gebied bevinden, meestal de gasvormige hoeveelheid bulkmaterie die in dat gebied aanwezig isn"@nl;
+  skos:prefLabel
+    "is containd by"@en,
+    "bevindt zich in"@nl.
+
 nen2660:isPartOf a rdf:Property, owl:ObjectProperty;
   rdfs:seeAlso nen2660-term:hasPart;
   owl:inverseOf nen2660:hasPart;
