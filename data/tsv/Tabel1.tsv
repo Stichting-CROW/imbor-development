@@ -1,12 +1,15 @@
 AUTONUMMER	veld
 027d61a6-1a59-4536-9fd7-b10215655894	Buffertoren
 05c869cc-f347-45b5-9b2b-1c9ed559d949	Kunst
+093a5b12-158c-4bea-ae56-24af64822723	pH
 11aefc3a-b552-4d8a-acbc-dac391648e20	Stellaag
 1418adb1-25de-4c98-896a-51108399ee53	BeschermingVerschijningsvorm
 15d134f8-9ce0-4990-8018-5fb541121809	bevindt zich in
 1c024f67-4652-4e96-bc77-0aac7c4a7044	Specifieke vormsnoei
+21109d8a-6eeb-403b-921e-b907ecb11821	zuurgraad
 22e2b8dc-91af-40a9-88a8-9f97baa07f3f	Grasbetonsteen met grond
 2aa69d06-e2fc-42b5-a904-153aa4e49f41	Coating
+30f5c90f-9c74-4a68-b008-8472e9bc4056	Matig voedselrijk
 3206780a-bae0-44e3-83cb-83d89fe634ef	Houtsingel
 3249f26f-9387-4714-9e2c-b3c457ac8068	Duikerput
 3ee4ca09-fe0b-4ac3-a524-fc81262c3d71	Stuks
@@ -15,9 +18,12 @@ AUTONUMMER	veld
 47cad6d7-4fe3-4808-b5c2-04ab0772e257	Inspectie boomonderhoud
 4c3daacf-c215-4200-afac-4b3b21307a5b	Rioolput met geleiding
 4fe3e0e1-ff1f-496f-9204-8beb3553cdeb	lateraal debiet HWA
+548194b4-dde7-45b6-a5b8-2d6eb6ecb2b0	Monumentale boom (Bomenstichting)
 5498ca1d-4663-475a-accf-aeb3f2775f37	SoortnaamnGroenobjectEenheid
+55ef69ca-e000-43cd-a7ac-49176350c1df	GroenobjectTypeBeplanting
 58adb6e6-2187-4597-bf9a-9f04754610f1	Ketting
 5c574381-8a09-48a8-b159-eb26d12f8b44	FysiekObjectModelnaam
+654b52ab-3705-44f9-9ff4-d357d2a24d3a	type beplanting
 70aff118-ecc0-429a-a026-7a9f71d0bcf8	Geografische gebieden
 745e51d7-210e-452a-9051-d167eaef098b	Oppervlaktewatergemaal
 77443bae-4781-472e-bd16-6ff4d2a42ba0	Boomveiligheidscontrole
@@ -25,6 +31,11 @@ AUTONUMMER	veld
 787f9137-1951-412b-bf92-08994a354820	Open bouwwerk
 78a61dc6-0d08-4148-bd41-a56a4a639592	Bosvak
 7c7fb4c1-3998-43e8-841b-bd80ccb651a4	Afval en schoon
+7eae9853-27d3-4deb-96aa-4895aea77000	Natuurontwikkeling
+80d16cd3-5f7d-4548-b357-ec365996fb3d	Overmatig voedselrijk
+835c0082-6f07-439d-85e4-e57b11967fea	BodemVoedselrijkdom
+842719c8-3bf5-487f-adf0-402fd00e4238	voedselrijkdom
+84f486d8-b670-4f16-afe1-e521adda117a	Natuurlijke beplanting
 85611c75-8f5e-40eb-b5d8-d64caf2667de	Boomspiegel afgewerkt met mulchlaag
 86495324-0496-44ca-90ee-3454bd47401c	ElementenverhardingVoegvulling
 87bb7b13-dbf7-439b-ab56-ca519c1a6d3b	doorlaatbaarheid
@@ -41,8 +52,11 @@ af3f7a2d-ced2-4f19-8700-5ddc77ea7cd7	Geulprofiel
 af4be404-e76c-4fb1-ba43-43ccbe5727e0	m2
 b1be36e0-2003-4de9-8135-a511c159151e	Verordening
 b3656979-b284-4337-9338-7281192d8871	Tui
+b3de749e-a637-46a4-8a1a-31c4e6c68fba	6 m. en groter
 b53b0505-89a6-40d8-aa9d-1178a9ea0ffc	Inspectie boombeleid
 b5bdd095-1a20-4675-bd1b-b51120c742e0	Registratieve gebieden
+b698370d-7239-4b04-bb7f-bcf7e41973dc	Voedselrijk
+bca9ab9a-f1c5-45d5-9790-ad354d024201	Voedselarm
 c3be5fb9-4a28-4222-a82a-00460dae3e4f	Natte ruigte
 c5ba5857-5175-4c10-afdc-b9b4192fe6b0	Inventarisatie boomgegevens
 c6b95e06-8843-41ae-9b61-77685d64aa95	lateraal debiet DWA
@@ -59,7 +73,9 @@ dc176c01-6424-4dcc-9975-3da9b34f0b21	Riet- en biezenverlandingsvegetatie
 ddcd2ad1-9a86-4d49-b4ca-abc24a0048c7	Meter per dag
 e15dff89-6000-43b2-8485-59c7c4c2b989	Afwateringssysteem
 e5fad8e6-6f27-4738-ab48-5da8fda118cf	PutBodemprofiel
+e6869ac8-f0a0-4f98-8b6f-454f2cb77a16	Cultuurlijke beplanting
 ec50bd00-f149-4631-9b0e-a2e587dd32a6	Infiltratiereservoir
+ec9a83ca-a490-4921-b849-9b361f6136ec	5,5 m.
 f6985d67-860b-4605-899b-7694a530f7b2	DoorlaatVorm
 f8a24aec-dc0f-4c99-ba26-46690d88a763	Bescherming
 fef0e5a5-e686-4f66-b0d6-0fd45a65adb7	Valleiding
