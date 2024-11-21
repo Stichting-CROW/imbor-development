@@ -1,0 +1,159 @@
+AID	GWSW
+1	Aansluitleiding
+2	Aansluitput
+3	Achtergrondschild
+4	Afdekplaat
+5	Afsluiteraandrijving
+6	Afsluitstuk
+7	Afvalwatersysteem
+8	Beerput
+9	Beluchter
+10	Bergbezinkbassin
+11	Bergingsbassin
+12	Bescherming
+13	Besturingskast
+14	Bezinkbassin
+15	Brandput
+16	Buisdeel
+17	Debietmeter
+18	Deelliner
+19	Deksel
+20	Diffusiescherm
+21	Doorvoergat
+22	Drain
+23	Drainageput
+24	Drainagestelsel
+25	Drijflaagschot
+26	Drukmeter
+27	Duiker
+28	Duikerput
+29	Duikerstelsel
+30	Duikschot
+31	Elektronisch component
+32	Filterput
+33	Flexibel zettingstuk
+34	Folie
+35	Functioneel rioleringsobject
+36	Fundering
+37	Gemaalcomplex
+38	Gescheiden systeem
+39	Grindkoffer
+40	Grondwatermeetnet
+41	Grondwatersysteem
+42	Hevel
+43	Hijsinrichting
+44	Infiltratiebassin
+45	Infiltratiegoot
+46	Infiltratiegoot
+47	Infiltratiekrat
+48	Infiltratieput
+49	Infiltratiereservoir
+50	Infiltratiestelsel
+51	Inlaat
+52	Inlaatconstructie
+53	Ketting
+54	Knevelvoorziening
+55	Kolk
+56	Kwaliteitssensor
+57	Lamellenafscheider
+58	Lanceerpunt
+59	Lavakoffer
+60	Ledigingsvoorziening
+61	Leidingomhulling
+62	Lijngoot
+63	Lijngoot
+64	Lining
+65	Loze leiding
+66	Loze put
+67	Luik
+68	Mangat
+69	Mechanische afsluiter
+70	Mechanische rioolleiding
+71	Mechanische transportleiding
+72	Meetinrichting
+73	Meetinrichting
+74	Molgoot
+75	Molgoot
+76	Olie-/benzineafscheider
+77	Ontlastput
+78	Ontluchter
+79	Ontluchtingsleiding
+80	Ontluchtingsunit
+81	Ontspanningsventiel
+82	Ontstoppingsstuk
+83	Onttrekkingsput
+84	Open leiding
+85	Open leiding
+86	Opening in wand
+87	Oppervlaktewatersysteem
+88	Oppervlaktewatersysteem
+89	Opvangput
+90	Overstortbemaling
+91	Overstortconstructie
+92	Overstortdrempel
+93	Overstortmeter
+94	Overstortput
+95	Peilbuis
+96	Pendelstuk
+97	Pigging-installatie
+98	Plaat
+99	Pomp
+100	Pompkast
+101	Pompput
+102	Regelinrichting
+103	Regelinrichting
+104	Regenmeter
+105	Regenwaterbuffer
+106	RioleringLink
+107	RioleringNode
+108	Rioolaansluiting
+109	Rioolafsluiter
+110	Rioolleiding
+111	Rioolput
+112	Rioolstelsel
+113	RTC-sturing
+114	RWZI
+115	Schildmuur
+116	Slibafscheider
+117	Slokop
+118	Slot
+119	Spoelvoorziening
+120	Standmeter
+121	Stankafsluiter
+122	Stankfilter
+123	Steenwolblok
+124	Steenwolkoffer
+125	Stellaag
+126	Stroomprofiel
+127	Stuwconstructie
+128	Stuwmuur
+129	Taludgoot
+130	Taludgoot
+131	Transportleiding
+132	Transportstelsel
+133	Transportsysteem
+134	Trekput
+135	Uithouder
+136	Uitklimvoorziening
+137	Uitlaatconstructie
+138	Vacuümopslagtank
+139	Valleiding
+140	Veiligheidsrooster
+141	Verbindingsstuk
+142	Verholen goot
+143	Verholen goot
+144	Vetafscheider
+145	Vrijverval rioolleiding
+146	Vrijverval transportleiding
+147	Vuilvangrooster
+148	Wandarm
+149	Waterbeheergebied
+150	Waterniveaumeter
+151	Waterslagvoorziening
+152	Weesleiding
+153	Wervelventiel
+154	Zadel
+155	Zakbaak
+156	Zandkoffer
+157	Zonk
+158	Zuiveringsreservoir
