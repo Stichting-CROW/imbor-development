@@ -2,6 +2,7 @@
 @prefix imbor-term: <https://data.crow.nl/imbor/term/>.
 @prefix nen2660-term: <https://w3id.org/nen2660/term#>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
@@ -341,7 +342,7 @@ imbor-term:01ba33f9-3c3e-4786-aa11-762b431fe77c a skos:Concept;
 imbor-term:01c31fc9-202b-4037-8e95-4ef7e6d0860d a skos:Concept;
   skos:definition "De kracht die een voorwerp op zijn ondersteuning of ophanging uitoefent."@nl;
   skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "gewicht-attributen"@nl.
+  skos:prefLabel "gewicht-attribuut"@nl.
 
 imbor-term:01c5792b-1b55-41ed-a504-7a0534bb1f11 a skos:Concept;
   skos:broader imbor-term:410dba9a-b928-4bf8-bae5-08debf19631f;
@@ -372,7 +373,7 @@ imbor-term:01e944c4-0f1a-4aae-9744-7d7880d8ace0 a skos:Concept;
     imbor-term:e1eead8a-377a-4a86-b91a-22217050c015;
   skos:definition "Verhouding tussen twee getallen."@nl;
   skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "percentage"@nl.
+  skos:prefLabel "percentage-attribuut"@nl.
 
 imbor-term:01ec752c-89ff-412f-8b5a-a707a31c740e a skos:Concept;
   skos:definition "Het lichtdoorlatende deel van het object heeft een structuur die wordt gekenmerkt door een geleidelijke overgang in de ruimte, bijvoorbeeld horizontaal-verticaal, over het oppervlak van het lichtdoorlatende deel."@nl;
@@ -444,6 +445,11 @@ imbor-term:0260235a-a97f-40c3-a4c9-dbb22ca48cd5 a skos:Concept;
   skos:definition "Nooduitgang voetganger rechtdoor voetganger rechts."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "BW13A"@nl.
+
+imbor-term:0265cc6b-cc38-4dfa-afad-51ec925b8a49 a skos:Concept;
+  skos:definition "Enumeratietype voor de klasse Groenobject en het attribuut type beplanting."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "GroenobjectTypeBeplanting"@nl.
 
 imbor-term:0265da6b-c0f1-410d-b8bc-5ed7e23d9b0a a skos:Concept;
   skos:definition "Caravanverhuur."@nl;
@@ -538,6 +544,10 @@ imbor-term:02f7b68a-1855-4472-beac-fd112bcc683b a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Splitter"@nl.
 
+imbor-term:0318ed2d-982f-46ca-aaa1-81a913b904c1 a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Taludblok"@nl.
+
 imbor-term:0319d008-a907-450e-a79f-29f36a1ce488 a skos:Concept;
   skos:definition "Let op! Camerabewaking."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -601,6 +611,7 @@ imbor-term:03432a2a-6d24-40d6-b52d-a57e870685f3 a skos:Concept;
 imbor-term:0349a774-f6e8-41fe-991c-ddf79a031b78 a skos:Concept;
   skos:definition "Volt is the SI unit of electric potential. Separating electric charges creates potential energy, which can be measured in energy units such as joules. Electric potential is defined as the amount of potential energy present per unit of charge. Electric potential is measured in volts, with one volt representing a potential of one joule per coulomb of charge. The name of the unit honors the Italian scientist Count Alessandro Volta (1745-1827), the inventor of the first battery.  The volt also may be expressed with a variety of other units. For example, a volt is also equal to one watt per ampere (W/A) and one joule per ampere per second (J/A/s)."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/EnergyPerElectricCharge"@nl;
   skos:prefLabel "Volt"@nl.
 
 imbor-term:0349d4f4-e6cd-483a-81fb-7f229f86750d a skos:Concept;
@@ -674,12 +685,6 @@ imbor-term:03d2d452-e179-44ac-891d-445b99a7e345 a skos:Concept;
   skos:definition "Een draaitoestel bestaand uit een horizontaal of hellend vlak met zitplaatsen die tijdens het draaien de inzittenden verheft tot (variërende) hoogte."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Vliegende draaimolen"@nl.
-
-imbor-term:03e6bcdd-a8a9-4036-bc7d-810a536e69f7 a skos:Concept;
-  skos:broader imbor-term:d3922e9f-e515-4efb-b7c8-ea97eca4b3bf;
-  skos:definition "Het aantal verkeerseenheden dat een bepaalde dwarsdoorsnede van de weg passeert gedurende een bepaalde tijdsduur."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "verkeersintensiteit"@nl.
 
 imbor-term:03eb8e90-05e4-43c0-a54e-99ded6906dc8 a skos:Concept;
   skos:definition "Maximumsnelheid 15 km per uur."@nl;
@@ -867,7 +872,7 @@ imbor-term:0508cc8d-c648-4a02-8b86-c64068ea036b a skos:Concept;
   skos:prefLabel "Hondenlosloopgebied"@nl.
 
 imbor-term:050ad64b-3d4c-420c-803e-3f2a1d9d587e a skos:Concept;
-  skos:definition "Een afmeting met een lengte van tien centimeter, een breedte van dertig centimeter en een hoogte van zeven centimeter  ."@nl;
+  skos:definition "Een afmeting met een lengte van honderd centimeter, een breedte van dertig centimeter en een hoogte van zeven centimeter."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "100x300x70"@nl.
 
@@ -1116,6 +1121,7 @@ imbor-term:062433ab-1df8-48ff-aaf8-1d8bd7ed5c70 a skos:Concept;
 imbor-term:0628e2fe-faf2-4c69-bf58-d4e798421bf6 a skos:Concept;
   skos:definition "A cubic metre per second, cumecs or cubic meter per second in American English) is a derived SI unit of flow rate equal to that of a stere or cube with sides of one metre ( u0303 39.37 in) in length exchanged or moving each second. It is popularly used for water flow, especially in rivers and streams, and fractions for HVAC values measuring air flow."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/VolumePerUnitTime"@nl;
   skos:prefLabel "Kubieke meter per seconde"@nl.
 
 imbor-term:06295fc6-c417-4f23-8969-5edf707ebeae a skos:Concept;
@@ -2028,6 +2034,11 @@ imbor-term:0b86c67f-d968-497a-a501-99aa316eb680 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Remmen van verkeerssnelheid met fysieke middelen"@nl.
 
+imbor-term:0b94bbec-4cda-4449-8c41-eba3263d85d2 a skos:Concept;
+  skos:definition "Enumeratietype voor de klasse Bodem en het attribuut voedselrijkdom."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "BodemVoedselrijkdom"@nl.
+
 imbor-term:0b98b149-3479-4a9f-b0f5-e3aa2f0154a9 a skos:Concept;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Begroeiing en het attribuut onderhoudsfrequentie."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -2102,6 +2113,7 @@ imbor-term:0bfbb4b3-8e9c-482e-be85-4a52362cf6e3 a skos:Concept;
 imbor-term:0bfc6580-0e1a-433d-976e-70fcd6364070 a skos:Concept;
   skos:definition "The metric and SI base unit of distance. The 17th General Conference on Weights and Measures in 1983 defined the meter as that distance that makes the speed of light in a vacuum equal to exactly 299 792 458 meters per second. The speed of light in a vacuum,  , is one of the fundamental constants of nature. The meter is equal to approximately 1.093 613 3 yards, 3.280 840 feet, or 39.370 079 inches."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Length"@nl;
   skos:prefLabel "Meter"@nl.
 
 imbor-term:0bfc8e22-b171-422e-99b2-d64e5fa624aa a skos:Concept;
@@ -2220,11 +2232,6 @@ imbor-term:0cac73b9-53df-43aa-bd6a-b747ae32d31d a skos:Concept;
   skos:definition "Locatie van de lozing bevindt zich in de bodem."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Lozingspunt bodem"@nl.
-
-imbor-term:0caec3da-8d61-4327-81f6-9edd07a2f936 a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Duin en het attribuut cultuurhistorisch waardevol."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "DuinCultuurhistorischWaardevol"@nl.
 
 imbor-term:0cb47859-4e90-45fb-83c9-5d79ebec4863 a skos:Concept;
   skos:definition "Schrikhek 2 planken 2 palen schuine strepen naar links en waarschuwingsbord."@nl;
@@ -2841,6 +2848,11 @@ imbor-term:103ddb92-cc3e-4506-adc3-b25a0ae899cb a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Wally"@nl.
 
+imbor-term:104bee38-b308-4b80-b2d4-dab3fe3b94e9 a skos:Concept;
+  skos:definition "Markering om een grotere verhoging van de weg, bedoeld om gemotoriseerd verkeer met lage(re) snelheid te laten rijden, veelal samenvallend met een kruispunt, waar bij de plaatsen van oprijden drempelblokken zijn aangebracht, aan te geven."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Verkeersplateaumarkering"@nl.
+
 imbor-term:105264e9-2680-4eea-894b-76966c45ea5e a skos:Concept;
   skos:definition "Sportveld ingericht voor hockey."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -3242,7 +3254,6 @@ imbor-term:12895e0e-bcd4-4c0f-98fa-57a22e2fc7ee a skos:Collection;
     imbor-term:0f8d2b48-cdfb-4164-9381-1f7ee7f93ca3,
     imbor-term:12e0333c-6e6c-4856-ac42-2e672de13602,
     imbor-term:12e770a0-981a-4fab-9245-60d5a4593260,
-    imbor-term:1352b856-7691-40f2-8ce0-1724a7987ae3,
     imbor-term:13fd95af-ba1e-41cc-8603-f9a6aa4a885d,
     imbor-term:198d661b-4fbc-4028-a4e3-aa379187a6ba,
     imbor-term:1a574bc2-75f2-467b-83e4-d16cc75a5caf,
@@ -3633,6 +3644,11 @@ imbor-term:13b88eab-88a9-4b90-ad66-395919ea7a75 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "relatieve hoogteligging"@nl.
 
+imbor-term:13bf07ca-c30c-4e1f-b894-26cce670ee96 a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Bamboe (Biobased)"@nl.
+
 imbor-term:13c2dcb5-04b1-4749-a400-a003231ad5a9 a skos:Concept;
   skos:definition "Einde stiltegebied."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -3879,6 +3895,16 @@ imbor-term:14ffc55a-f638-4c1b-bf95-204162b6174f a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Handbediende slagboom"@nl.
 
+imbor-term:15018139-fe12-4725-ae14-65d0d595fd24 a skos:Concept;
+  skos:definition "Een afmeting met een lengte van honderdzeventien en een halve centimeter, een breedte van zestig centimeter en een hoogte van tien centimeter."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "117,5x60x10"@nl.
+
+imbor-term:1506135e-336a-4696-a787-e0d9f067e7ba a skos:Concept;
+  skos:definition "Met de functie Natuurontwikkeling kan aangegeven worden welke grasvelden niet bedoeld zijn voor recreatief gebruik, maar waar beschermde en/of zeldzame soorten ontwikkeld worden."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Natuurontwikkeling"@nl.
+
 imbor-term:150ce141-1616-49e8-959a-d6db2d2a1cf1 a skos:Concept;
   skos:broader imbor-term:839083ee-2433-4c81-b43c-4cf16432c5d3;
   skos:definition "Een constructie om het vrijkomen van gassen uit het riool te voorkomen."@nl;
@@ -3894,11 +3920,6 @@ imbor-term:15151406-6cbc-41c9-a165-89e685c3389e a skos:Concept;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Bolder en het attribuut vorm."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "BolderVorm"@nl.
-
-imbor-term:152c2c10-7847-4203-a549-e00bb431be78 a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Moeras en het attribuut cultuurhistorisch waardevol."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "MoerasCultuurhistorischWaardevol"@nl.
 
 imbor-term:152eb0ea-7c5b-4b00-9d69-ef172c0bd028 a skos:Concept;
   skos:broader imbor-term:d3922e9f-e515-4efb-b7c8-ea97eca4b3bf;
@@ -4163,6 +4184,12 @@ imbor-term:1690945b-d09e-48b6-ad60-efab1ed79963 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Haarlemmermeer"@nl.
 
+imbor-term:1691e1ed-0f5a-4448-8af6-917d8cc030d9 a skos:Concept;
+  skos:altLabel "	Menstoegankelijke put"@nl;
+  skos:definition "Put met een verwijderbaar deksel, die aan personeel toegang geeft tot een aansluitleiding of riool. Dient minimaal 600mm doorsnede te hebben."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Mantoegankelijke put"@nl.
+
 imbor-term:1692ce90-b2f9-4e78-be62-33665f78a140 a skos:Concept;
   skos:definition "Een putdeksel met openingen aan het oppervlak zodat afval- of hemelwater er ten alle tijden in kan lopen."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -4208,10 +4235,6 @@ imbor-term:16ed7e8f-ef12-4908-94f2-199fa3893cb3 a skos:Concept;
   skos:definition "Een tafel die de juiste grootte is voor kinderen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Kindertafel"@nl.
-
-imbor-term:16f562f4-0885-4a7f-934a-a160e354fc8f a skos:Concept;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "10 m."@nl.
 
 imbor-term:16f69a94-d171-4e4a-a3fb-106c489f59ee a skos:Concept;
   skos:definition "Een stuw die gebruikmaakt van een buis om het water van de toestroom (gedeeltelijk) af te vangen en te herleiden."@nl;
@@ -4871,11 +4894,6 @@ imbor-term:1aae9dad-cdcf-42af-bff3-8f13b15b8c9e a skos:Concept;
   skos:definition "Een kort paaltje dat gebruikt kan worden als doel voor een recreatief balspel."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Pingelpaal"@nl.
-
-imbor-term:1ab50c9e-3119-4beb-b93f-da2662b8ead7 a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Heide en het attribuut cultuurhistorisch waardevol."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "HeideCultuurhistorischWaardevol"@nl.
 
 imbor-term:1aba724b-887f-466d-a70c-0e258323b5f1 a skos:Concept;
   skos:definition "Zonder een specifieke status: o.a. bomen met een “verkorte” omloop (tot circa 20 jaar) en bomen van de 3e grootte."@nl;
@@ -6558,12 +6576,6 @@ imbor-term:2443eb11-6324-4145-a3c6-f4f4eb024f3d a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "SS04"@nl.
 
-imbor-term:24526554-cbbe-4794-9a0f-46190d371b2c a skos:Concept;
-  skos:broader imbor-term:3b3efe39-8d7c-4d8e-b680-eef5eb38dbd4;
-  skos:definition "Het vastleggen van de verkeersintensiteit per prognosejaar bij een wegas."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "Verkeersintensiteit-informatie"@nl.
-
 imbor-term:2455b689-ce31-42d0-890d-db42a9a8de5c a skos:Concept;
   skos:definition "Legverband waarbij de klinkers recht op de opsluitrand en rijrichting zijn gelegd. Dit maakt de plaatsing eenvoudiger dan het visgraat- en keperverband. De bestrating is zowel liggend als staand."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -8100,6 +8112,7 @@ imbor-term:2c59ded5-2875-476d-90e9-cfa012d5c557 a skos:Concept;
 imbor-term:2c5eb5f2-f10c-46c5-86fa-b198b8f55a72 a skos:Concept;
   skos:definition "The kilowatt is a derived unit of power in the International System of Units (SI),  The unit, defined as 1,000 joule per second, measures the rate of energy conversion or transfer."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Power"@nl;
   skos:prefLabel "Kilowatt"@nl.
 
 imbor-term:2c69019b-3881-47fd-82be-d7d0f6ca2f16 a skos:Concept;
@@ -9577,7 +9590,9 @@ imbor-term:35163e39-7a47-4d4b-bacd-d7bdd0a5493d a skos:Concept;
   skos:prefLabel "Dekzerk"@nl.
 
 imbor-term:35206454-6890-496f-aa6e-7b7a400ff108 a skos:Concept;
+  skos:definition "Meter per Day"@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/LinearVelocity"@nl;
   skos:prefLabel "Meter per dag"@nl.
 
 imbor-term:35252207-a7d6-4360-9492-62a6b2806738 a skos:Concept;
@@ -9931,6 +9946,10 @@ imbor-term:372eab84-7954-48b2-829a-b37536d1cc71 a skos:Concept;
   skos:definition "Kenmerk dat een object groepeert op een manier die door processen met mensen als oorsprong tot stand is gekomen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "sociaal geconstrueerde indeling"@nl.
+
+imbor-term:372f7c24-1334-401d-b42f-32d84f05e5da a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "BGS-pad"@nl.
 
 imbor-term:372fe8a0-afca-4956-a871-205a7076df16 a skos:Concept;
   skos:definition "Hoogteschaal, hoogteaanduiding links van de vaarweg. Geel bord met zwarte opdruk. Bordpositie is staand."@nl;
@@ -10298,6 +10317,11 @@ imbor-term:39024556-e287-4aac-9b41-1a51ab49edbb a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Ontluchten mechanische leiding"@nl.
 
+imbor-term:3903cfc7-9f4c-4f4a-9b3a-6228dc097ae5 a skos:Concept;
+  skos:definition "Een afmeting met een lengte van honderdzeventien en een halve centimeter, een breedte van tachtig centimeter en een hoogte van tien centimeter."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "117,5x80x10"@nl.
+
 imbor-term:3906aed1-ebc8-4484-bb81-b62f662a768f a skos:Concept;
   skos:definition "De materie van het object betreft een materiaal dat voor de tweede keer is hergebruikt."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -10431,10 +10455,6 @@ imbor-term:39e45237-1eac-4369-8e72-516e3d96c88d a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Uitstroom van afvalwater naar oppervlaktewater"@nl.
 
-imbor-term:39ec9c0f-b4de-4b57-8f24-9aa73ca35be0 a skos:Concept;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "7 m."@nl.
-
 imbor-term:39ef89aa-645a-4ea9-9b20-d92901c751ad a skos:Concept;
   skos:broader imbor-term:dd3de3cc-4b92-4a17-8ec9-16cd304e1ab2;
   skos:definition "De partij of persoon die het vegetatieobject tot wasdom heeft gecultiveerd."@nl;
@@ -10539,6 +10559,7 @@ imbor-term:3a6d9371-96b7-481a-b539-598a5f29fb04 a skos:Concept;
 imbor-term:3a6d9c3f-5145-45c6-9269-68a29bdce8a2 a skos:Concept;
   skos:definition "Centimeter per Second is a C.G.S System unit for  'Linear Velocity' expressed as cm/s"@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/LinearVelocity"@nl;
   skos:prefLabel "Centimeter per seconde"@nl.
 
 imbor-term:3a755989-e59c-4d87-bfde-9fbe12d0e141 a skos:Concept;
@@ -10756,6 +10777,11 @@ imbor-term:3b940a58-fb02-43e0-b7fb-17f8499b7a42 a skos:Concept;
   skos:definition "Een langgerekte verlaging in het terrein van natuurlijke of kunstmatige oorsprong die permanent of periodiek stromend water bevat."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Primair"@nl.
+
+imbor-term:3bb90c7c-ec6f-4fa0-9979-84276010eedf a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Honingraat Bio Recycling"@nl.
 
 imbor-term:3bc22711-b909-41f4-9218-71c043c7524f a skos:Concept;
   skos:definition "Pijl schuin naar links."@nl;
@@ -11036,11 +11062,6 @@ imbor-term:3d8fa978-faa1-493e-8fee-5fb897045833 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Klapbrug"@nl.
 
-imbor-term:3d948166-8aa5-4b59-9d68-a33563799225 a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Zandvlakte en het attribuut cultuurhistorisch waardevol."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "ZandvlakteCultuurhistorischWaardevol"@nl.
-
 imbor-term:3da1d473-be13-4110-94b3-545ec7bf8b76 a skos:Concept;
   skos:definition "Een afkorting voor 'Digital Adressable Lighting Interface,' een digitaal systeem voor verlichting en energiebesparing waarbij de verschillende componenten met elkaar communiceren."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -11092,6 +11113,12 @@ imbor-term:3e1b9271-4632-40a7-8cc4-5b7aa612ba7f a skos:Concept;
   skos:definition "MS kabel bestaat uit hoofdnet en aansluitnet. MS = middenspanning (0,4 kV tot 30 kV). NB: De aansluitleiding kan ook alleen op (huis)aansluitschetsen voorkomen. Opmerking: In de praktijk kunnen netten van 400 Volt op de MS themakaart voorkomen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "middenspanning"@nl.
+
+imbor-term:3e21e80b-d4a2-4cd4-b205-935bb297c9f7 a skos:Concept;
+  skos:broader imbor-term:9294c781-3e15-40c9-8330-4eb3b97ac2de;
+  skos:definition "Jaar waarin het object geproduceerd is en deze kan verschillen van aanlegjaar of bouwjaar."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "productiejaar"@nl.
 
 imbor-term:3e459c09-aee1-4a5b-9b52-af8bd2945da5 a skos:Concept;
   skos:definition "Drainage die is gelegen tussen en aangesloten op rioolputten."@nl;
@@ -11800,6 +11827,7 @@ imbor-term:41ab4cca-c6d7-4bfb-9748-28def30e0a3f a skos:Collection;
     imbor-term:10f4ea25-70d7-4e3a-9a05-d7be8dfb0e36,
     imbor-term:11d197e5-8164-4956-85e5-2a3c75f364b8,
     imbor-term:1335bc3f-0c72-4f10-89c0-77ab5b43e627,
+    imbor-term:1352b856-7691-40f2-8ce0-1724a7987ae3,
     imbor-term:141ba706-c0cf-4c5c-84f4-13a92a5dcf06,
     imbor-term:14caa343-0116-4dfa-b686-0ace8bb2d934,
     imbor-term:150ce141-1616-49e8-959a-d6db2d2a1cf1,
@@ -12012,6 +12040,7 @@ imbor-term:41ab4cca-c6d7-4bfb-9748-28def30e0a3f a skos:Collection;
     imbor-term:634fefd7-381f-4e61-8112-4b4b4fa646c3,
     imbor-term:63f0f05f-e41b-4e5d-887a-798345203c42,
     imbor-term:64881ef1-e7cc-43dc-a889-43c2a5a010a6,
+    imbor-term:64e1d89f-4f0f-46e3-8f61-9add3d5441a0,
     imbor-term:64e2fac1-96d2-4f35-9efa-20ebc551e896,
     imbor-term:66160718-7ba7-4bf0-ae90-ccab2033d650,
     imbor-term:66749e75-c23e-45a3-8dce-71275cdcf8f7,
@@ -12303,6 +12332,7 @@ imbor-term:41ab4cca-c6d7-4bfb-9748-28def30e0a3f a skos:Collection;
     imbor-term:d8521bd9-546d-43de-bc93-cc09a259f340,
     imbor-term:d87fdf3a-d015-4f35-ad4d-f4ffbd79ecd3,
     imbor-term:d8e14379-e51d-4592-afba-58f6fa1fe1a5,
+    imbor-term:da859cff-1ae1-4433-bf8b-c3e331f6cd89,
     imbor-term:db4a1a2b-552e-4f4a-a6fd-d04edf2c8533,
     imbor-term:db61b024-6832-4406-8f82-7d8cba3775f6,
     imbor-term:db9f1ea8-c1e6-4912-aa1a-c0dec17ed6ea,
@@ -12985,7 +13015,9 @@ imbor-term:44bb671a-aabd-41e5-ad40-cd0493f54539 a skos:Concept;
   skos:prefLabel "ElementenverhardingLegverband"@nl.
 
 imbor-term:44c5b1b6-2b57-409c-978b-a6923e74bde0 a skos:Concept;
+  skos:definition "Metre per hour is a metric unit of both speed (scalar) and velocity (Vector (geometry)). Its symbol is m/h or mu00b7h-1 (not to be confused with the imperial unit symbol mph. By definition, an object travelling at a speed of 1 m/h for an hour would move 1 metre."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/LinearVelocity"@nl;
   skos:prefLabel "Meter per uur"@nl.
 
 imbor-term:44cd9683-afe7-45d0-921e-24b4afa65db8 a skos:Concept;
@@ -13443,6 +13475,7 @@ imbor-term:47401a22-a72d-4ab4-88ae-a4d52e30d0fb a skos:Concept;
 imbor-term:474bc520-8dcb-4aa4-955a-ae090cb03fc5 a skos:Concept;
   skos:definition "Percent is a unit for  'Dimensionless Ratio' expressed as %."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/DimensionlessRatio"@nl;
   skos:prefLabel "Percentage"@nl.
 
 imbor-term:47584e75-ae7b-4fff-825b-31836c246f97 a skos:Concept;
@@ -13552,6 +13585,7 @@ imbor-term:47d0cac2-899b-442c-9134-8031891410e1 a skos:Concept;
 imbor-term:47d72572-f34f-4496-9d80-98a3984c5cd5 a skos:Concept;
   skos:definition "The kilogram or kilogramme (SI symbol: kg), also known as the kilo, is the base unit of mass in the International System of Units and is defined as being equal to the mass of the International Prototype Kilogram (IPK), which is almost exactly equal to the mass of one liter of water. The avoirdupois (or international) pound, used in both the Imperial system and U.S. customary units, is defined as exactly 0.45359237 kg, making one kilogram approximately equal to 2.2046 avoirdupois pounds."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Mass"@nl;
   skos:prefLabel "Kilogram"@nl.
 
 imbor-term:47e07fc5-dbf9-419c-be0e-79061374f20b a skos:Concept;
@@ -13722,6 +13756,10 @@ imbor-term:48cd06f7-fc3c-4c2e-88fa-918de08e5eef a skos:Concept;
   skos:definition "Instrument dat de windsnelheid en de windrichting meet."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Windmeter"@nl.
+
+imbor-term:48da33af-fe16-424d-8764-e6593683e006 a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Achterhoeks Padvast"@nl.
 
 imbor-term:48e76c8e-b613-4ae2-bff0-c5a2c186b1db a skos:Concept;
   skos:broader imbor-term:d3922e9f-e515-4efb-b7c8-ea97eca4b3bf;
@@ -14167,6 +14205,7 @@ imbor-term:4b72be4c-e946-41e9-a2a2-438e473da468 a skos:Concept;
 imbor-term:4b759459-4f08-492e-9dfb-efe5ac3e43f7 a skos:Concept;
   skos:definition "The kilowatt hour, or kilowatt-hour, is a unit of energy equal to 1000 watt hours or 3.6 megajoules. For constant power, energy in watt hours is the product of power in watts and time in hours. The kilowatt hour is most commonly known as a billing unit for energy delivered to consumers by electric utilities."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Energy"@nl;
   skos:prefLabel "Kilowattuur"@nl.
 
 imbor-term:4b7eab83-5c31-4333-beeb-5b5188d76b87 a skos:Concept;
@@ -14219,6 +14258,12 @@ imbor-term:4be9e646-813f-496c-823f-4f115439dfba a skos:Concept;
   skos:definition "Protocol"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "0-20mA"@nl.
+
+imbor-term:4bef99cd-29f1-4363-a15c-5952f91f3f53 a skos:Concept;
+  skos:broader imbor-term:1e22f476-9fdf-44f8-bd07-7a908e40ff1f;
+  skos:definition "Aanduiding voor het registreren of een constructielaag als waterbuffer fungeert."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "waterbufferend"@nl.
 
 imbor-term:4c05c4e7-011c-4407-993e-b5024b10baf0 a skos:Concept;
   skos:broader imbor-term:19c00b05-4f9f-4bd2-9a4b-874bb5522671;
@@ -14610,6 +14655,7 @@ imbor-term:4dc10c63-5369-429f-a63b-1af204064cd9 a skos:Concept;
 imbor-term:4dc1e679-e74e-4cd6-a8df-91ff2d2bd16d a skos:Concept;
   skos:definition "A year is any of the various periods equated with one passage of Earth about the Sun, and hence of roughly 365 days. The familiar calendar has a mixture of 365- and 366-day years, reflecting the fact that the time for one complete passage takes about 365¼ days; the precise value for this figure depends on the manner of defining the year."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Time"@nl;
   skos:prefLabel "Jaar"@nl.
 
 imbor-term:4dc7cfb3-924d-4f4c-b066-ff0bcd1205e2 a skos:Concept;
@@ -15812,7 +15858,9 @@ imbor-term:533c4e16-a1e9-4efd-9d70-870a3ad4595e a skos:Concept;
   skos:prefLabel "U(S)ART"@nl.
 
 imbor-term:5342f078-d0fa-4d29-bebb-cf34e990eb7d a skos:Concept;
+  skos:definition "Centimeter per Year"@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/LinearVelocity"@nl;
   skos:prefLabel "Centimeter per jaar"@nl.
 
 imbor-term:536a7e70-a59f-43e2-9403-1c35774bd1df a skos:Concept;
@@ -15913,6 +15961,7 @@ imbor-term:53e9dc7f-1f59-46ce-a194-9d1a2621456e a skos:Concept;
 imbor-term:53eb8cc1-5fe6-4d6b-b6f8-8cbf51a8b1d2 a skos:Concept;
   skos:definition "The millimetre (International spelling as used by the International Bureau of Weights and Measures) or millimeter (American spelling) (SI unit symbol mm) is a unit of length in the metric system, equal to one thousandth of a metre, which is the SI base unit of length. It is equal to 1000 micrometres or 1000000 nanometres. A millimetre is equal to exactly 5/127 (approximately 0.039370) of an inch."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Length"@nl;
   skos:prefLabel "Millimeter"@nl.
 
 imbor-term:53efd65b-3ce1-4753-97f8-7ce7ca35e8cf a skos:Concept;
@@ -17257,7 +17306,7 @@ imbor-term:5ae35afb-a552-4271-99e2-89f4f302bc6f a skos:Concept;
 imbor-term:5aebce1f-acec-4c4b-b29b-25ee2185f457 a skos:Concept;
   skos:broader imbor-term:4d2fdcc7-38c5-46ce-8b60-1338ab3ae731;
   skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "boomstabiliteitskluitdiameter eindbeeld"@nl.
+  skos:prefLabel "stabiliteitskluitdiameter eindbeeld"@nl.
 
 imbor-term:5aecde56-adcd-4416-a783-f4b45a804a9c a skos:Concept;
   skos:broader imbor-term:8c32c7a9-5c2c-4120-8473-8733885ed46f;
@@ -17950,6 +17999,7 @@ imbor-term:5e8383bc-4c9d-49b1-a17a-8b686344c797 a skos:Concept;
 imbor-term:5e870d93-32e0-48ae-ae10-cc9b4df42c4c a skos:Concept;
   skos:definition "The SI unit of volume, equal to 1.0e6 cm3, 1000 liters, 35.3147 ft3, or 1.30795 yd3. A cubic meter holds about 264.17 U.S. liquid gallons or 219.99 British Imperial gallons."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Volume"@nl;
   skos:prefLabel "Kubieke meter"@nl.
 
 imbor-term:5e93e213-96e4-4bc9-9af7-44edf426624c a skos:Concept;
@@ -18061,6 +18111,10 @@ imbor-term:5f222ab3-8488-4062-8778-a51ff7f1f688 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "L1013"@nl.
 
+imbor-term:5f24434a-5394-4bd5-b09f-e2cb7a28b821 a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "5,5 m."@nl.
+
 imbor-term:5f268c6d-974a-4886-8ef3-6500888c5f36 a skos:Concept;
   skos:definition "Hoogteschaal, hoogteaanduiding rechts van de vaarweg. Zwart bord met gele opdruk. Bordpositie is staand."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -18137,6 +18191,7 @@ imbor-term:5f99b771-b0bc-49e4-b66c-42107fdc8d74 a skos:Concept;
 imbor-term:5fa11e52-e890-4ab6-bf82-418b37bd940a a skos:Concept;
   skos:definition "Common metric unit of length or distance. One kilometer equals exactly 1000 meters, about 0.621 371 19 mile, 1093.6133 yards, or 3280.8399 feet. Oddly, higher multiples of the meter are rarely used; even the distances to the farthest galaxies are usually measured in kilometers."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Length"@nl;
   skos:prefLabel "Kilometer"@nl.
 
 imbor-term:5fa42f20-db92-47e9-a47d-718273ad2130 a skos:Concept;
@@ -18418,11 +18473,6 @@ imbor-term:6101587b-8ba5-408f-8e9e-9136966509f1 a skos:Concept;
   skos:definition "Nat en vochtig grasland met primair een weidevogeldoelstelling."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Weidevogelgrasland"@nl.
-
-imbor-term:610c9eb3-8859-46bf-afd0-e65541266390 a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Bos en het attribuut cultuurhistorisch waardevol."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "BosCultuurhistorischWaardevol"@nl.
 
 imbor-term:6110121d-c610-4954-9dcb-f8eb30fc451c a skos:Concept;
   skos:definition "De actuele stand van de afsluiter is gesloten."@nl;
@@ -19057,6 +19107,7 @@ imbor-term:64d61e88-f32e-4177-af8f-73c3c2c39bb7 a skos:Concept;
   skos:prefLabel "Zit- en stappalen"@nl.
 
 imbor-term:64e1d89f-4f0f-46e3-8f61-9add3d5441a0 a skos:Concept;
+  skos:broader imbor-term:8af22f8b-a209-4924-8416-6783ab005373;
   skos:definition "Een plaats waar menselijke resten zijn begraven."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Grafveld"@nl.
@@ -20088,6 +20139,7 @@ imbor-term:6b07419f-4cc0-4482-b9f5-ba6da45728ed a skos:Concept;
 imbor-term:6b0ec9bf-c704-4d4c-95b3-67d134ad2809 a skos:Concept;
   skos:definition "A decimeter is a tenth of a meter."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Length"@nl;
   skos:prefLabel "Decimeter"@nl.
 
 imbor-term:6b0ff618-df80-4829-b7ed-5ae8e6769374 a skos:Concept;
@@ -21076,6 +21128,11 @@ imbor-term:70f2a0bf-c7a3-479f-aab2-cc380be465c3 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Moerasgamander"@nl.
 
+imbor-term:70f692b0-22c5-4ac9-a2b5-9142643fdec2 a skos:Concept;
+  skos:definition "Deze beplanting ontwikkelt zich niet op natuurlijke wijze en de beplanting moet intensief onderhouden worden om te zorgen dat de beplanting zijn vorm behoud."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Cultuurlijke beplanting"@nl.
+
 imbor-term:70fd6506-eeff-4a8c-8062-515184972761 a skos:Concept;
   skos:definition "Een olympische balsport waarbij twee teams gescheiden door een net tegen elkaar spelen en trachten om de bal in het vak van de tegenstander op de grond te krijgen of om een fout bij de tegenstander af te dwingen."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -21556,6 +21613,7 @@ imbor-term:73cc9501-452e-47bc-a2ba-5d60a01b0803 a skos:Concept;
 imbor-term:73da5f2f-ae57-4c2c-bcc5-71f08f167cd4 a skos:Concept;
   skos:definition "A centimetre is a unit of length in the metric system, equal to one hundredth of a metre, which is the SI base unit of length. Centi is the SI prefix for a factor of 10.  The centimetre is the base unit of length in the now deprecated centimetre-gram-second (CGS) system of units."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Length"@nl;
   skos:prefLabel "Centimeter"@nl.
 
 imbor-term:73e117d8-572b-4d32-8643-596d9b7c108e a skos:Concept;
@@ -21880,6 +21938,10 @@ imbor-term:75861f54-8ca0-4257-a586-b6bfc4ad5e8e a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "parallel"@nl.
 
+imbor-term:758b15a9-d09e-4700-88ba-bfba2383276f a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Monumentale boom (Bomenstichting)"@nl.
+
 imbor-term:7592505e-93fd-49af-ad12-f39d684f18a6 a skos:Concept;
   skos:altLabel "Erf"@nl;
   skos:broader
@@ -21962,6 +22024,7 @@ imbor-term:75cab35e-a3ad-4084-906a-a248d0f06540 a skos:Collection;
     imbor-term:10b3bc8a-3e79-40df-8d21-8d06cd480bb2,
     imbor-term:129ff500-d93c-4c5f-b153-727513bfa060,
     imbor-term:138d0091-f0f1-421c-ba89-5cab6fba16dc,
+    imbor-term:13bf07ca-c30c-4e1f-b894-26cce670ee96,
     imbor-term:14104e1e-c269-45fa-a30c-8e1d8738ac6b,
     imbor-term:14a67cc7-ce0c-4941-a0b5-001aab77d46e,
     imbor-term:165e4f95-a493-4ec9-aa49-02c79a17cc17,
@@ -21998,6 +22061,7 @@ imbor-term:75cab35e-a3ad-4084-906a-a248d0f06540 a skos:Collection;
     imbor-term:3656bafd-f9c5-4619-b795-d0d1f5bff48e,
     imbor-term:36e29dab-5852-425b-a128-9959a430a34b,
     imbor-term:37fcd7bb-8327-4ec5-840d-58e71c15bfba,
+    imbor-term:3bb90c7c-ec6f-4fa0-9979-84276010eedf,
     imbor-term:3cbaaaa8-796e-4299-a7a3-ff6e0ccb3dcf,
     imbor-term:3db01c0e-be8d-47dd-905a-ed694d19555d,
     imbor-term:3fa62e0c-f682-46aa-aa66-c015f58fc9c7,
@@ -22074,10 +22138,12 @@ imbor-term:75cab35e-a3ad-4084-906a-a248d0f06540 a skos:Collection;
     imbor-term:7f58cd4b-438b-44a4-b85f-e4e209854fb3,
     imbor-term:7f72d0f0-1441-45d7-818c-135b41368642,
     imbor-term:81e044bd-76ef-4a77-97d6-e5dd184bc562,
+    imbor-term:825ec182-32c7-4273-9553-01b5f06f00e6,
     imbor-term:85c3ee7d-9297-4f76-905d-2811702b3715,
     imbor-term:85e970a1-f4a2-4152-9a14-ffe1d9d92dea,
     imbor-term:868b37d3-588c-4add-9d03-010923bd3b28,
     imbor-term:871f8310-72a3-4d34-80aa-515e8ca02099,
+    imbor-term:87555304-f580-4b91-aa4d-11add992791f,
     imbor-term:879e6047-799e-4c91-b512-2f686e563cf0,
     imbor-term:89b01f88-8008-49a8-80c8-e0d38135d175,
     imbor-term:8b121b2f-2306-4a93-bdec-25b58d10f925,
@@ -22101,6 +22167,7 @@ imbor-term:75cab35e-a3ad-4084-906a-a248d0f06540 a skos:Collection;
     imbor-term:a1c119f5-3f4e-4aaf-a227-09d784ee9243,
     imbor-term:a2f694ae-0ec0-46ba-b5eb-8073a3745d61,
     imbor-term:a42edf3e-5a4b-48cc-8ad7-8ea3603956e3,
+    imbor-term:a4af1813-6fa2-4b5d-b947-fda6d744173c,
     imbor-term:a582532b-a9e8-43f6-b424-cc44fe3c5001,
     imbor-term:a5bf0ed8-4379-4647-9210-3ae2ffce3605,
     imbor-term:a60477c7-f527-45f4-b3f8-318ce06a301b,
@@ -22127,6 +22194,7 @@ imbor-term:75cab35e-a3ad-4084-906a-a248d0f06540 a skos:Collection;
     imbor-term:bca8a35f-776c-47eb-ade6-c0c0bba8a1a8,
     imbor-term:bcb3a263-5971-4def-a583-ccec93f0a953,
     imbor-term:c09b80b7-8175-46c7-856c-d8f79be43629,
+    imbor-term:c3fbd717-6643-42be-998c-52229c745168,
     imbor-term:c407e49d-ac20-495a-88f1-87babd01a62d,
     imbor-term:c7700db3-8bee-4d38-be0b-b1d4db73c8af,
     imbor-term:c8519a93-a991-4994-8f7a-df6820f54f89,
@@ -22139,6 +22207,7 @@ imbor-term:75cab35e-a3ad-4084-906a-a248d0f06540 a skos:Collection;
     imbor-term:ce90c17f-5aa3-4ee2-8333-bf8517a34a5d,
     imbor-term:cf22d1b6-9293-41a4-9b0c-3e8c27ee0522,
     imbor-term:d14e7952-49c1-4320-b2be-32468cbf1b70,
+    imbor-term:d2d2cb82-1c4a-4ebb-85ef-84ae131d7072,
     imbor-term:d409d9f3-7c16-4a49-a5a9-1a8dba893039,
     imbor-term:d444fe0c-756c-4371-8c49-e113979b652b,
     imbor-term:d66f3682-a81d-4bcc-aef2-79c15ed73958,
@@ -22167,6 +22236,7 @@ imbor-term:75cab35e-a3ad-4084-906a-a248d0f06540 a skos:Collection;
     imbor-term:ebc2ed5a-fefa-43a2-9e84-dd8e2cde4b1f,
     imbor-term:ebcf6404-6731-4557-8a6f-4785b4e75d95,
     imbor-term:ed27abfa-ceb9-4d30-8c1b-b25bee6d89ca,
+    imbor-term:ed29e15a-72c8-4786-8550-616ee7d2226f,
     imbor-term:edf02dff-57c2-41e5-aba0-18a4c2da05a5,
     imbor-term:ef484438-d939-4c53-b740-9ab09cf6ba25,
     imbor-term:f0bf1115-60f5-499b-9f3a-cf887d10c2aa,
@@ -22566,6 +22636,7 @@ imbor-term:77f2ec6d-145d-4688-8b41-dc066b118827 a skos:Concept;
 imbor-term:77f3632a-2d31-4f46-ac9e-5b7241d659d4 a skos:Concept;
   skos:definition "The OHM is the SI derived unit of electrical resistance, named after German physicist Georg Simon Ohm."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Impedance"@nl;
   skos:prefLabel "Ohm"@nl.
 
 imbor-term:77fcf319-a178-4f58-9560-2320102f80ec a skos:Concept;
@@ -23372,6 +23443,11 @@ imbor-term:7d0c2675-2cfb-4a54-a87f-478e40579f0c a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "ApparaatFysiekeAansluiting"@nl.
 
+imbor-term:7d10bcde-b5fe-4c6a-8b45-ce58cb8fe757 a skos:Concept;
+  skos:definition "Deze beplanting oogt zo natuurlijk mogelijk en de structuur van de beplanting komt zo veel mogelijk overeen met de structuur van een bos wat door successie is ontstaan."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Natuurlijke beplanting"@nl.
+
 imbor-term:7d12619a-4e8a-4ca0-aeb8-17e159affe7a a skos:Concept;
   skos:definition "Een schraalgrasland van opvallend kleurige bermbegroeiing met hoog opschietende bloeiende planten, dat gedomineerd wordt door de klaproos (Papaver), een geslacht van bloemplanten die worden gekenmerkt door bolstaande, vaak roodkleurige, bloembladeren, en de raket (Sisymbrium) een geslacht uit de kruisbloemenfamilie. Komt vrij algemeen voor, op recent vergraven bermen."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -23606,6 +23682,10 @@ imbor-term:7e6f4d4e-8361-400d-ab44-8f31971af75b a skos:Concept;
   skos:definition "Bescherming tegen stofafzetting aan de binnenzijde en bescherming tegen verticaal druppelend water."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "IP51"@nl.
+
+imbor-term:7e86e234-4cec-4e7a-b700-f0747927ea13 a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Sportcentrum"@nl.
 
 imbor-term:7e88ef47-daed-4633-b89c-5b0509c512f6 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
@@ -23923,6 +24003,10 @@ imbor-term:801d8b76-b118-42cb-83bc-1a79c1aa14e6 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "L1022"@nl.
 
+imbor-term:8021ba5a-4308-4b2d-9e66-bae19118cc8b a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Honkbalstadion"@nl.
+
 imbor-term:802254d6-d034-4841-bef7-5c5c5932a878 a skos:Concept;
   skos:definition "Een verzameling grofweg evenwijdige boomstammen die liggen op de helling van een talud die gebruikt kunnen worden als treden van een trap."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -24055,6 +24139,12 @@ imbor-term:80f933ac-104f-4f38-b503-ece06ff128cc a skos:Concept;
   skos:definition "Verkeersplateau."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Sinusvormig verkeersplateau"@nl.
+
+imbor-term:80faa8fb-03e3-4de7-8a23-d44de8e7f778 a skos:Concept;
+  skos:altLabel "Mesotroof"@nl;
+  skos:definition "Een bodem met met een middelmatige beschikbaarheid van minerale nutriënten (trofiegraad)."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Matig voedselrijk"@nl.
 
 imbor-term:8109eb86-9769-4267-b456-9b355f1f4b79 a skos:Concept;
   skos:definition "Een fitnesstoestel om een turnoefening uit te voeren waarbij men zich met twee handen afzet op het toestel en de benen zijdelings over het toestel zwaait."@nl;
@@ -24280,6 +24370,11 @@ imbor-term:82550504-ef1b-4194-b20a-20e38e773676 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "V2"@nl.
 
+imbor-term:825ec182-32c7-4273-9553-01b5f06f00e6 a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Sealwise PVC"@nl.
+
 imbor-term:82699c00-c2ac-4834-a139-8f402d415faf a skos:Concept;
   skos:definition "Uitgezonderd periode - weekdag(en) tijdsaanduiding."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -24438,6 +24533,10 @@ imbor-term:83484547-ed3b-4257-b1da-0636f3ea253e a skos:Concept;
   skos:definition "Een laag bij de grond geplaatst oppervlak op poten, soms met een opstaande rand om substanties zoals water of zand vast te kunnen houden, bedoeld voor kinderen om hun fantasie op uit te leven."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Kliedertafel"@nl.
+
+imbor-term:83486675-14a4-4269-a9d4-188ef3d1f109 a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Graulivijn"@nl.
 
 imbor-term:8348a5fb-68e0-42d6-bd85-796dd308d745 a skos:Concept;
   skos:definition "In , uit of doorvaren toegestaan."@nl;
@@ -25002,6 +25101,12 @@ imbor-term:87004471-c8ab-4f75-9c58-81fbeee21874 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "OB310"@nl.
 
+imbor-term:87013a3b-3dc9-44ee-aab8-8c618181018e a skos:Concept;
+  skos:altLabel "Eutroof"@nl;
+  skos:definition "Een toestand waarbij er veel minerale nutriënten beschikbaar zijn in een bepaald milieu of ecosysteem; de trofiegraad is dan hoog."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Voedselrijk"@nl.
+
 imbor-term:8708d6ea-0d68-43c0-abc8-a011713e16d3 a skos:Concept;
   skos:definition "Een afmeting met een lengte van zevenenveertig centimeter en een breedte van vijftig centimeter."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -25063,6 +25168,11 @@ imbor-term:875504b4-4df8-439b-bf94-8e840c16708a a skos:Concept;
   skos:definition "Het object wordt gebruikt als locatie waar vissers vis mogen vangen voor recreatieve doeleinden."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Visplek"@nl.
+
+imbor-term:87555304-f580-4b91-aa4d-11add992791f a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Cradle tot cradle aluminium"@nl.
 
 imbor-term:87646016-3d79-41e0-ab33-ffcbbafaf68e a skos:Concept;
   skos:definition "Twee horizontale palen met daartussen klimsporten en aan top een staaf om optrekoefeningen mee te doen."@nl;
@@ -25171,6 +25281,11 @@ imbor-term:87ee0ee1-b556-4dbd-806c-eba3506c2c72 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Reguliere lader"@nl.
 
+imbor-term:87f23df5-86a5-42ae-a371-c3b87f896fee a skos:Concept;
+  skos:definition "Markering van een verhard object, verhoging in de rijbaan, bedoeld om het gemotoriseerde verkeer met een lage(re) snelheid te laten rijden. Toelichting: Sinds ongeveer 2000 beschikt de Nederlandse wegenbouw over technische mogelijkheden om drempels uit te voeren in een doorlopende asfaltverharding en dan zodanig dat deze een specifieke snelheid uitlokken bij circa 80 procent van het gemotoriseerde verkeer."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Verkeersdrempelmarkering"@nl.
+
 imbor-term:87f574a0-6f90-4eb0-9c6d-ddb2940358d3 a skos:Concept;
   skos:definition "Van slechte tot uiterst slechte kwaliteit."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -25225,6 +25340,11 @@ imbor-term:881f3563-289e-49eb-8e5e-927cb7d0847e a skos:Concept;
   skos:definition "Constructie van de voet van een object."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "voetconstructie"@nl.
+
+imbor-term:882c1430-c204-4f7b-9d1b-79219dfcf947 a skos:Concept;
+  skos:definition "Maat voor de voedselrijkdom van de bodem onder begroeiing."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "voedselrijkdom"@nl.
 
 imbor-term:88428e2e-7dd3-45ae-9d8a-9c54469ddd5e a skos:Concept;
   skos:definition "Activiteiten gericht op het overbrengen van kennis, vaardigheden en attitudes met vooraf vastgelegde doelen."@nl;
@@ -25413,6 +25533,10 @@ imbor-term:8948386c-314e-45c0-946f-46c78a7ab8ea a skos:Concept;
   skos:definition "Afstandsaanduiding."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "OB401-1.5"@nl.
+
+imbor-term:894dbf74-f2a1-40f6-b905-e2264be8406a a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Atletiekstadion"@nl.
 
 imbor-term:8951dc3d-280a-48ff-8de2-d041ce8020e6 a skos:Concept;
   skos:definition "Schommelconstructie die is opgesteld in een zeshoek, waarbij aan elke zijde schommels (mogelijk verschillende) zijn bevestigd, type 4 - Contactschommel."@nl;
@@ -26032,6 +26156,7 @@ imbor-term:8d04e116-79f1-43e8-a259-28ce06ba428a a skos:Concept;
   skos:prefLabel "porositeit"@nl.
 
 imbor-term:8d08885d-36de-45d2-9cea-7ada6d41f7c0 a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Permanente markering type II"@nl.
 
@@ -26973,9 +27098,9 @@ imbor-term:927ceca5-91de-463f-a67d-1f504fe51308 a skos:Collection;
     imbor-term:b31dc142-9f24-4a6f-b5ec-43cbf1fc2f09,
     imbor-term:bde733c7-5be9-47e0-9f03-f7855d857fb1,
     imbor-term:bf417ed1-cb8c-4acd-98d4-95a4119a4730,
+    imbor-term:c13c455f-9caf-4717-8a87-152e9781f014,
     imbor-term:c5a1be73-f0fc-4663-b409-bc223ab0ad78,
     imbor-term:d068f396-ee9c-4a6f-a616-41fda01e389e,
-    imbor-term:d7c94d07-d1a2-4f77-b269-fa0b290653b9,
     imbor-term:e21f3f47-57ce-4506-bd43-409d7fccc920,
     imbor-term:e683f622-71d8-4813-b78f-d238ff6555f9,
     imbor-term:efece16c-6b0a-401c-9e5d-1b65eb7d6dd5;
@@ -27208,11 +27333,11 @@ imbor-term:93a299ad-0b50-4e0a-9295-193854bc72a2 a skos:Concept;
   skos:prefLabel "IBA Klasse II"@nl.
 
 imbor-term:93a709cd-ffcd-4ff4-b6c9-1e208585b1ba a skos:Concept;
-  skos:altLabel " Aanlegjaar, Plantjaar, Jaar van ontstaan, Jaar van aanleg"@nl;
+  skos:altLabel "Jaar constitutie, Plantjaar, Jaar van ontstaan, Jaar van aanleg"@nl;
   skos:broader imbor-term:9294c781-3e15-40c9-8330-4eb3b97ac2de;
   skos:definition "Het jaartal waarin het fysieke object tot stand gekomen is."@nl;
   skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "jaar constitutie"@nl.
+  skos:prefLabel "aanlegjaar"@nl.
 
 imbor-term:93deb413-cbab-43bf-8f94-5c388855b348 a skos:Concept;
   skos:broader imbor-term:8af22f8b-a209-4924-8416-6783ab005373;
@@ -27354,10 +27479,6 @@ imbor-term:94c5f336-048a-42e3-9447-81779acd5b2c a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Bosboterbloem"@nl.
 
-imbor-term:94d25651-a9ed-4e62-87f9-6481b3441938 a skos:Concept;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "8 m."@nl.
-
 imbor-term:94d2de20-507e-47f5-8ded-1be1c7f308cf a skos:Concept;
   skos:definition "Spitsstrook vrijmaken."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -27423,6 +27544,12 @@ imbor-term:95267662-ad82-419a-b7bd-5a33f5b0ed9c a skos:Concept;
   skos:definition "Tijdelijk bord, tekst: opmetingen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "OB806-T"@nl.
+
+imbor-term:9528204e-03da-47f2-b270-52f4e53b7dbb a skos:Concept;
+  skos:altLabel "Hypertroof"@nl;
+  skos:definition "Hypetroof is de overtreffende trap van eutroof. In een hypertrofe bodem is er een overaanbod aan voedingsstoffen."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Overmatig voedselrijk"@nl.
 
 imbor-term:952f1bd0-1729-4be2-8520-ea74e2f19185 a skos:Concept;
   skos:definition "Een uitlaatconstructie aan de onderkant voorzien van een bakconstructie, waar uitgelaten water op terecht komt."@nl;
@@ -27882,6 +28009,11 @@ imbor-term:974509f0-f2d2-45a3-89dd-bcaf4f9798b9 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Trampoline"@nl.
 
+imbor-term:975487ff-28ab-437e-aaa9-d3c4eac9025b a skos:Concept;
+  skos:definition "Een afmeting met een lengte van zevenentwintig en een nul komma twee centimeter, een breedte van vijfentwintig centimeter en een hoogte van twintig centimeter."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "27,2x25x20"@nl.
+
 imbor-term:9755e6fd-1e56-4fc1-99a6-92edd0d68bdf a skos:Concept;
   skos:definition "Gebouw dat onderdeel uitmaakt van een reeks aan elkaar verbonden gebouwen die onafhankelijk van elkaar zijn gerealiseerd."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -27930,6 +28062,7 @@ imbor-term:977af465-0c3a-4e6b-b402-cf34867f53a1 a skos:Concept;
 imbor-term:977e0568-1f8e-46fa-8200-3693b6e33168 a skos:Concept;
   skos:definition "The Ampere, often shortened to amp is the SI unit of electric current and is one of the seven SI base units.\n"@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/ElectricCurrent"@nl;
   skos:prefLabel "Ampère"@nl.
 
 imbor-term:977e0af7-84e3-4233-aebc-b751c17447a6 a skos:Concept;
@@ -28189,6 +28322,10 @@ imbor-term:995e2fd7-aa07-4c8e-bb5a-e73584b6a57b a skos:Concept;
   skos:definition "Een tunnel gemaakt van een netwerk van touwen waar kinderen door kunnen kruipen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Touwtunnel"@nl.
+
+imbor-term:996665ce-984a-4884-bebd-45461c7ada34 a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Voetbalstadion"@nl.
 
 imbor-term:996f1387-76b2-42b6-942e-8d1a15a9ff07 a skos:Concept;
   skos:definition "Rechthoekig bruin informatiebord pijl links en rechts."@nl;
@@ -28602,6 +28739,10 @@ imbor-term:9c3dd107-7ac5-42e7-99c1-e3dc290dbe66 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Modem"@nl.
 
+imbor-term:9c40e895-83f9-4d96-a844-a653dcc78b54 a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Gralux"@nl.
+
 imbor-term:9c40f6d2-6e28-4a01-86ae-6f1c77c46d3d a skos:Concept;
   skos:altLabel "Uitzichtdriehoek, Verkeerskop"@nl;
   skos:definition "De uitzichtdriehoek is het driehoekige gebied tussen twee takken van een kruispunt waarin zich geen objecten mogen bevinden die de bestuurder het uitzicht op de kruisende weg ontnemen."@nl;
@@ -28619,6 +28760,11 @@ imbor-term:9c5f399e-0a76-4622-8d28-ddd0ffceade6 a skos:Concept;
   skos:definition "Een licht metaal en een goede geleider dat vele toepassingen kent als constructiemateriaal. Het heeft atoomnummer 13."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Aluminium"@nl.
+
+imbor-term:9c605015-36f4-483d-b1bf-3fb75520f915 a skos:Concept;
+  skos:definition "Maat voor de zuurgraad van de bodem."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "zuurgraad"@nl.
 
 imbor-term:9c631f15-0b09-470f-8fd0-1af4e5845746 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
@@ -28738,7 +28884,6 @@ imbor-term:9cec6048-0358-4d4e-82d7-7804fca70737 a skos:Collection;
     imbor-term:03351a01-670c-45fc-8498-442c88769b80,
     imbor-term:033c0c58-a037-4590-ae6c-f008598a41e2,
     imbor-term:03704682-2ccd-4c28-b7c1-6aa1708b37a7,
-    imbor-term:03e6bcdd-a8a9-4036-bc7d-810a536e69f7,
     imbor-term:041e0e11-c190-4fc5-a6bf-4f057a473e7f,
     imbor-term:04375bf4-81d4-489f-a674-f9b6bffb56dc,
     imbor-term:047e463a-a296-4571-b4d8-e50f473cafbd,
@@ -28899,6 +29044,7 @@ imbor-term:9cec6048-0358-4d4e-82d7-7804fca70737 a skos:Collection;
     imbor-term:3c75736c-c09d-4cfa-86fb-629827e30158,
     imbor-term:3c9cc7eb-1e70-4646-8547-00c2e8148d36,
     imbor-term:3d0bea9c-92de-429a-9167-4b8eec6d600a,
+    imbor-term:3e21e80b-d4a2-4cd4-b205-935bb297c9f7,
     imbor-term:3ea528a5-54dc-4180-b2e9-684465770434,
     imbor-term:3ee30770-efae-4c61-8670-4443e145ffad,
     imbor-term:3f223b2d-da9a-46d3-9a7c-8e0f7fd2f8ca,
@@ -28943,6 +29089,7 @@ imbor-term:9cec6048-0358-4d4e-82d7-7804fca70737 a skos:Collection;
     imbor-term:4b4da8a9-682d-48e1-9603-7e21b7ff5dd0,
     imbor-term:4b671b00-7f17-4ea9-8e66-7f0f2b1a7584,
     imbor-term:4bd9d466-d6d8-4324-8525-4f887f9848be,
+    imbor-term:4bef99cd-29f1-4363-a15c-5952f91f3f53,
     imbor-term:4c05c4e7-011c-4407-993e-b5024b10baf0,
     imbor-term:4c54da75-8ca6-4095-ba74-106da59f78e7,
     imbor-term:4c69a8b0-b625-4e62-9171-535f26fb6910,
@@ -29090,6 +29237,7 @@ imbor-term:9cec6048-0358-4d4e-82d7-7804fca70737 a skos:Collection;
     imbor-term:86d431ca-5cee-43ec-8ce8-243da351d654,
     imbor-term:86e12c2d-fabc-4054-9838-40a5f3349620,
     imbor-term:881f3563-289e-49eb-8e5e-927cb7d0847e,
+    imbor-term:882c1430-c204-4f7b-9d1b-79219dfcf947,
     imbor-term:885dfdd3-c594-4399-a148-bd49964de66e,
     imbor-term:887e8e2b-1404-414e-8a83-6c5e3caf5958,
     imbor-term:88878766-6d5a-4382-8f91-2275b0db94e7,
@@ -29150,6 +29298,7 @@ imbor-term:9cec6048-0358-4d4e-82d7-7804fca70737 a skos:Collection;
     imbor-term:9ad649ea-568a-4f38-aeab-20f9e70ab247,
     imbor-term:9b55a42d-8e6f-4286-b20a-12a2f2beadb7,
     imbor-term:9bb1c072-8012-4bfb-b0bb-34cd1fb89de5,
+    imbor-term:9c605015-36f4-483d-b1bf-3fb75520f915,
     imbor-term:9c6de4ef-d45b-49d3-ad73-e2b2d5d3e2e3,
     imbor-term:9c735e86-77ea-40c7-a6f9-f8afd22382dc,
     imbor-term:9d7b2248-9bbe-4038-9982-d36449b81e17,
@@ -29297,6 +29446,7 @@ imbor-term:9cec6048-0358-4d4e-82d7-7804fca70737 a skos:Collection;
     imbor-term:d1ce509e-05ee-4561-b6bd-aa7ccea30b21,
     imbor-term:d1d53b88-060f-4fc3-890b-f4275eeff162,
     imbor-term:d25b7874-1d73-4529-b1d6-bb123e2545de,
+    imbor-term:d2be3dfe-f03d-4aa7-93d3-08aaf8676813,
     imbor-term:d3922e9f-e515-4efb-b7c8-ea97eca4b3bf,
     imbor-term:d393d36c-a3cd-4a45-a575-95eaefeb7b56,
     imbor-term:d3b97955-6a6e-4b8d-97fa-75128d16eb45,
@@ -29338,6 +29488,7 @@ imbor-term:9cec6048-0358-4d4e-82d7-7804fca70737 a skos:Collection;
     imbor-term:e0b75625-5666-4618-a3bc-77f1d515e860,
     imbor-term:e0efc7f5-3d4f-47f8-92d6-3290a1779f5b,
     imbor-term:e113c4ab-b5e1-427f-83a9-be0c3367727c,
+    imbor-term:e13f3ce0-05ce-44c4-82b9-3731b0c6806d,
     imbor-term:e16625bc-3ebd-4fc6-9321-196beb8c0d34,
     imbor-term:e1bc71db-6122-4977-8489-d45b0317bc78,
     imbor-term:e1eead8a-377a-4a86-b91a-22217050c015,
@@ -29487,6 +29638,7 @@ imbor-term:9d6999cd-0957-44d4-bf41-970c277c41e7 a skos:Concept;
 imbor-term:9d6d695e-a6a0-4f0b-92c3-d0455143c9c0 a skos:Concept;
   skos:definition "The SI unit for measuring the flux of light being produced by a light source or received by a surface. The intensity of a light source is measured in candelas. One lumen represents the total flux of light emitted, equal to the intensity in candelas multiplied by the solid angle in steradians into which the light is emitted."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/LuminousFlux"@nl;
   skos:prefLabel "Lumen"@nl.
 
 imbor-term:9d749e53-ede8-48c0-b61a-3d8ab59fa858 a skos:Concept;
@@ -30890,6 +31042,11 @@ imbor-term:a4af1700-b015-4193-a56a-ed0719bce476 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Zekering"@nl.
 
+imbor-term:a4af1813-6fa2-4b5d-b947-fda6d744173c a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Refurbished aluminium"@nl.
+
 imbor-term:a4c4952c-bdbf-4a69-8109-b911522125f1 a skos:Concept;
   skos:definition "Een duurzame conservering waarbij geen CO2 vrijkomt met een korte uithardingstijd en een zelf herstellend vermogen."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -31185,7 +31342,7 @@ imbor-term:a65a61d1-2a30-465d-8b27-910ac9c1771b a skos:Concept;
 imbor-term:a6685422-f24e-4a9a-b12f-4d783a081d8b a skos:Concept;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Boom en het attribuut boomstabiliteitskluitdiameter eindbeeld."@nl;
   skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "BoomBoomstabiliteitskluitdiameterEindbeeld"@nl.
+  skos:prefLabel "BoomStabiliteitskluitdiameterEindbeeld"@nl.
 
 imbor-term:a66f6e92-03c9-4a52-bc63-b25c9cbb609e a skos:Concept;
   skos:inScheme imbor-term:term-schema;
@@ -31306,6 +31463,7 @@ imbor-term:a7276934-9b9a-4235-a530-548bdf528461 a skos:Concept;
 imbor-term:a728a17c-c8e8-46db-b009-72ec3ae2940f a skos:Concept;
   skos:definition "Kilometer per Hour is a C.G.S System unit for  'Linear Velocity' expressed as km/hr"@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/LinearVelocity"@nl;
   skos:prefLabel "Kilometer per uur"@nl.
 
 imbor-term:a72dc962-ffcf-475d-9a22-2e0a77d2b47a a skos:Concept;
@@ -32755,6 +32913,10 @@ imbor-term:aed32602-b26c-4354-82e2-f7b56286cf7f a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "WatergangTypeWaterplanten"@nl.
 
+imbor-term:aed53941-e45f-43f7-9a7a-c69f84694e18 a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Kaatsstadion"@nl.
+
 imbor-term:aed5a0b1-8935-4c72-98fd-ad5dad37d7e3 a skos:Concept;
   skos:broader imbor-term:839083ee-2433-4c81-b43c-4cf16432c5d3;
   skos:definition "Beweegbaar constructiedeel voor het voorzien in, en het blokkeren van een doorgang."@nl;
@@ -32846,6 +33008,10 @@ imbor-term:af7f7054-41be-460c-94c8-d5d8760ce651 a skos:Concept;
   skos:definition "Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "D02lb"@nl.
+
+imbor-term:af910f8a-b16b-4ea5-b761-7f99bdf893c0 a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Graustabiel"@nl.
 
 imbor-term:af95a93f-883f-4da2-9dd0-1e1758a95421 a skos:Concept;
   skos:broader imbor-term:19c00b05-4f9f-4bd2-9a4b-874bb5522671;
@@ -33462,6 +33628,7 @@ imbor-term:b31afc80-d479-4277-8e20-ee4ac32d26a5 a skos:Concept;
 imbor-term:b31dc142-9f24-4a6f-b5ec-43cbf1fc2f09 a skos:Concept;
   skos:definition "One kelvin represents the same temperature difference as one degree Celsius. In 1967 the General Conference on Weights and Measures defined the temperature of the triple point of water (the temperature at which water exists simultaneously in the gaseous, liquid, and solid states) to be exactly 273.16 kelvins. Since this temperature is also equal to 0.01 u00b0C, the temperature in kelvins is always equal to 273.15 plus the temperature in degrees Celsius. The kelvin equals exactly 1.8 degrees Fahrenheit."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Temperature"@nl;
   skos:prefLabel "Kelvin"@nl.
 
 imbor-term:b31e3614-91e0-4f46-aeb4-6521f1145242 a skos:Concept;
@@ -33629,6 +33796,11 @@ imbor-term:b3dc0aac-2c34-48d2-a668-1947d0ef1f89 a skos:Concept;
 imbor-term:b3dcbe6b-7537-4bce-b43b-8f44c5081566 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "50 m3 (klasse 15 tot 75)"@nl.
+
+imbor-term:b3e10099-3603-42bb-946e-77c906f712cf a skos:Concept;
+  skos:definition "SAMI is een hoog gemodificeerde bitumenemulsie dat wordt toegepast als vloeistofdicht membraan. Dit zorgt voor waterdichte lagen."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Samilaag"@nl.
 
 imbor-term:b3e9c770-3502-4370-aac0-168a58171934 a skos:Concept;
   skos:definition "Informatiebord dat aangeeft welke lokale (gedrags)regels gelden binnen een buurt."@nl;
@@ -33926,6 +34098,7 @@ imbor-term:b546d2d1-c358-4851-8d22-93ff83d75875 a skos:Concept;
   skos:prefLabel "E102sh"@nl.
 
 imbor-term:b5485bbc-b456-432d-94a2-a5f8795823cd a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
   skos:definition "Een verzamelnaam voor alkaligeactiveerde aluminiumsilicaten. Het zijn anorganische bindmiddelen die meestal bestaan uit twee basiscomponenten, namelijk reactieve aluminium- en siliciumhoudende hoofdbestanddelen (bijv. vliegas, hoogovenslak of metakaoline) en een sterke alkalische activator (bijvoorbeeld waterglas of natriumhydroxide). (Bron: Betonlexicon.nl)"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Geopolymeer"@nl.
@@ -34832,11 +35005,6 @@ imbor-term:ba19d204-0870-4d14-8e4f-a01394415270 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "VlakmarkeringMarkeringToepassing"@nl.
 
-imbor-term:ba19df46-9196-4082-9114-7e30c35b7e5a a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Gras- en kruidachtigen en het attribuut cultuurhistorisch waardevol."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "Gras-EnKruidachtigenCultuurhistorischWaardevol"@nl.
-
 imbor-term:ba2a659a-7ed0-40aa-bf6f-6aced15fa0ff a skos:Concept;
   skos:definition "Een net dat het tennisveld in twee gelijke helften voorziet en tijdens de sport tennis functioneert als begrenzing voor de hoogte dat de tennisbal van de ene zijde van het veld naar de andere wordt geslagen."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -35487,6 +35655,7 @@ imbor-term:bdddbdb4-9685-4b4c-9475-df7478671668 a skos:Concept;
 imbor-term:bde733c7-5be9-47e0-9f03-f7855d857fb1 a skos:Concept;
   skos:definition "A degree (in full, a degree of arc, arc degree, or arcdegree), usually denoted by the degree symbol, is a measurement of plane angle, representing 1/360 of a full rotation; one degree is equivalent to  \\\\(2\\\\pi /360 rad\\\\), \\\\(0.017453 rad\\\\)."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Angle"@nl;
   skos:prefLabel "Booggraad"@nl.
 
 imbor-term:bdf66e10-a19d-4cb6-bd48-5fc991658d67 a skos:Concept;
@@ -35680,6 +35849,7 @@ imbor-term:bf3ba2cf-dbf3-48b5-9b0b-5242d8eb671b a skos:Concept;
 imbor-term:bf417ed1-cb8c-4acd-98d4-95a4119a4730 a skos:Concept;
   skos:definition "The bar is a non-SI unit of pressure, defined by the IUPAC as exactly equal to 100,000\\a. It is about equal to the atmospheric pressure on Earth at sea level, and since 1982 the IUPAC has recommended that the standard for atmospheric pressure should be harmonized to \\\\(100,000\\\\,Pa = 1 \\\\,bar \\\\approx 750.0616827\\\\, Torr\\\\). "@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/ForcePerArea"@nl;
   skos:prefLabel "Bar"@nl.
 
 imbor-term:bf5d9e76-ce70-4f41-9e16-d1901097db3d a skos:Concept;
@@ -35823,11 +35993,6 @@ imbor-term:c0394a01-7063-476e-b01f-854fb16a65d0 a skos:Concept;
   skos:definition "Bochtschild met enkele pijlfiguratie naar links fluorescerend."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "BB12lf"@nl.
-
-imbor-term:c03a892f-b085-434a-8eb7-89fd39791d9b a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Fruit- of kweekbomen en het attribuut cultuurhistorisch waardevol."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "Fruit-OfKweekbomenCultuurhistorischWaardevol"@nl.
 
 imbor-term:c03ae5f1-c5d4-4bac-947a-1dae76e25d89 a skos:Concept;
   skos:definition "Een digitale gas- en elektriciteitsmeter die een constructieonderdeel is van een ander object die zowel op locatie als op afstand kan worden uitgelezen."@nl;
@@ -36027,6 +36192,11 @@ imbor-term:c137d405-b503-4da1-96a8-fa561aa9ac84 a skos:Concept;
   skos:definition "Lijn die een bus of tram volgt door de stad en het buitengebied."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "OV-route"@nl.
+
+imbor-term:c13c455f-9caf-4717-8a87-152e9781f014 a skos:Concept;
+  skos:definition "De pH is een maat voor de zuurgraad."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "pH"@nl.
 
 imbor-term:c13ee1f7-b670-403d-817a-e60e798d1b49 a skos:Concept;
   skos:definition "Statusbeschrijving die aangeeft dat een object niet bruikbaar is voor zijn gebruikelijke functie."@nl;
@@ -36527,6 +36697,11 @@ imbor-term:c3f45eea-738c-4a37-906b-d872192e0c08 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "aantal i.e. recreatie"@nl.
 
+imbor-term:c3fbd717-6643-42be-998c-52229c745168 a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Rijstvlies (Biobased)"@nl.
+
 imbor-term:c407e49d-ac20-495a-88f1-87babd01a62d a skos:Concept;
   skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
   skos:definition "Een thermoplastisch polymeer van het monomeer styreen. Het is een kunststof van petrochemische oorsprong. Het is waterafstotend en het kan in beperkte hoeveelheid een bepaalde last dragen. In geëxtrudeerde of geëxpandeerde vorm wordt het gebruikt als isolatiemateriaal. (Bron: Wikipedia)"@nl;
@@ -36829,6 +37004,7 @@ imbor-term:c59b9af5-1b74-408a-8fcd-542ab2e9eeb2 a skos:Concept;
 imbor-term:c5a1be73-f0fc-4663-b409-bc223ab0ad78 a skos:Concept;
   skos:definition "The hour (common symbol: h or hr) is a unit of measurement of time. In modern usage, an hour comprises 60 minutes, or 3,600 seconds. It is approximately 1/24 of a mean solar day. An hour in the Universal Coordinated Time (UTC) time standard can include a negative or positive leap second, and may therefore have a duration of 3,599 or 3,601 seconds for adjustment purposes. Although it is not a standard defined by the International System of Units, the hour is a unit accepted for use with SI, represented by the symbol h."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Time"@nl;
   skos:prefLabel "Uur"@nl.
 
 imbor-term:c5ad67e8-b01b-4e4f-84e2-ec8f85d32686 a skos:Concept;
@@ -37722,10 +37898,6 @@ imbor-term:caadbea2-cb10-4800-b720-c8bf36591666 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "SportveldVerschijningsvorm"@nl.
 
-imbor-term:cab30d13-3841-4947-8764-a528fbe40d8e a skos:Concept;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "6 m."@nl.
-
 imbor-term:cabc315a-af89-4c26-bd34-4fa250035924 a skos:Concept;
   skos:definition "Element dat de scheiding verzorgt tussen twee oppervlakten die verschillen in fysiek voorkomen of gebruik."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -38465,6 +38637,7 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:016b74eb-d2c0-4d1c-bd9e-6d118cfafc8e,
     imbor-term:018ae020-ff75-42cc-81ef-53d2d5af402f,
     imbor-term:020078d5-782b-44d0-82da-3b892f949bd7,
+    imbor-term:0265cc6b-cc38-4dfa-afad-51ec925b8a49,
     imbor-term:02d51c47-1632-481d-b415-dffa821c01a7,
     imbor-term:0366f606-00a3-40c6-84d5-a5b52d43e537,
     imbor-term:03c36838-184d-4274-be92-a3511df423a6,
@@ -38485,13 +38658,13 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:0a892574-6ec9-4022-b48b-cea1d256cadb,
     imbor-term:0a943ce7-dab7-458a-bdfb-55873ad32c6a,
     imbor-term:0b2e123c-8b69-4453-a645-ff2c163dae15,
+    imbor-term:0b94bbec-4cda-4449-8c41-eba3263d85d2,
     imbor-term:0b98b149-3479-4a9f-b0f5-e3aa2f0154a9,
     imbor-term:0c0d150d-ea2b-42d9-88dd-206cd66f8836,
     imbor-term:0c31528e-6207-413b-9462-5d90eaf00d72,
     imbor-term:0c76ecec-e720-407d-9bf2-eae603d1e7c7,
     imbor-term:0c7cb2fc-927f-4892-aabc-88a421e4a50b,
     imbor-term:0c847e7d-cdf2-4363-8203-36a02619e859,
-    imbor-term:0caec3da-8d61-4327-81f6-9edd07a2f936,
     imbor-term:0d3d01a8-55f1-4005-a4b5-eadeb16f60ce,
     imbor-term:0d3ddb0d-899a-43d0-b7dd-23863884c0b8,
     imbor-term:0d781a57-eb2a-4b02-9a41-6ecdc557fcb6,
@@ -38511,7 +38684,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:13e6a763-3d36-4492-b758-5ed76beab347,
     imbor-term:14a96108-4250-4a65-9625-3691b19431b4,
     imbor-term:15151406-6cbc-41c9-a165-89e685c3389e,
-    imbor-term:152c2c10-7847-4203-a549-e00bb431be78,
     imbor-term:153767c8-5f3e-4753-ad2a-af630308a6fb,
     imbor-term:15bd5ff9-ecdd-4bc9-aa14-06d215b0ca60,
     imbor-term:160e2045-8dcb-4d24-b3f1-4b2b336db88c,
@@ -38521,7 +38693,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:190cc637-3117-49d1-9182-5b6f20e57f57,
     imbor-term:1a234748-33f5-4c91-8b68-ca2389e9f7d9,
     imbor-term:1a5631a0-bef7-48c7-bc1e-bb89bf239576,
-    imbor-term:1ab50c9e-3119-4beb-b93f-da2662b8ead7,
     imbor-term:1b93aa21-a6d8-4191-87c6-7384fb8b6881,
     imbor-term:1bef9468-7265-4b7f-8b45-3ae63cd292ab,
     imbor-term:1c9c2009-5afd-421c-8e7a-41b73d1c147e,
@@ -38598,7 +38769,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:3c40188e-7d26-4bcb-89f3-e0bf8a467bc4,
     imbor-term:3cf539f2-bceb-484c-9673-a5e6b2d314db,
     imbor-term:3d839d55-7044-4e86-9335-fbe51c6cff26,
-    imbor-term:3d948166-8aa5-4b59-9d68-a33563799225,
     imbor-term:3ea911af-c5d8-4cde-82e7-6fc6bcce068c,
     imbor-term:3f2921af-11fa-4174-b8c5-f557f525ede6,
     imbor-term:3f3ad9f0-7440-4268-b487-c1b371f718f1,
@@ -38670,7 +38840,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:605e5815-7d40-43b8-9234-d460e179f785,
     imbor-term:60bb3bdf-a4da-4d8c-b1b3-e49b9bd895b8,
     imbor-term:60e11eb9-3dd6-471c-b8ff-4ef7c086a3bd,
-    imbor-term:610c9eb3-8859-46bf-afd0-e65541266390,
     imbor-term:6121c945-21d0-4375-adc5-958b9ad11860,
     imbor-term:6166a991-45b6-4380-a3a7-3741913eb00e,
     imbor-term:61ad5ce2-2a91-41e3-bd46-cd07820175df,
@@ -38884,7 +39053,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:b9d26ad7-19e9-42a6-92a8-b623d4390e74,
     imbor-term:b9d530ba-4e33-413e-ba31-f787fe8b4506,
     imbor-term:ba19d204-0870-4d14-8e4f-a01394415270,
-    imbor-term:ba19df46-9196-4082-9114-7e30c35b7e5a,
     imbor-term:ba53264f-c61d-4a0c-a992-fffc4aba1190,
     imbor-term:ba6c5d0f-056b-4418-b44a-8ce1168d5f61,
     imbor-term:bba61303-22ac-4809-9182-71a54250b11e,
@@ -38895,7 +39063,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:be3c07dd-7f93-4d96-95af-b859af1260a4,
     imbor-term:be47c09a-0dfb-4b23-86ae-b8b7a5c54e29,
     imbor-term:bf98c5f5-88c6-484e-8498-989c05d371db,
-    imbor-term:c03a892f-b085-434a-8eb7-89fd39791d9b,
     imbor-term:c0bbfc32-2d6b-428b-875b-ad3673fa9b5f,
     imbor-term:c14a8559-87dc-4ff4-98e9-bc040d874386,
     imbor-term:c174aef0-1b73-4ed5-914f-90bf6736e2c7,
@@ -38925,7 +39092,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:cbac3406-2afe-455b-80da-3d77b55e1a5d,
     imbor-term:cc202b2b-183f-4d0f-8d98-c4b7122b14c6,
     imbor-term:ce5b086f-0516-443c-9520-f881fbf375f3,
-    imbor-term:ce97e7d1-6937-4755-8fbf-dd8d4103b6e9,
     imbor-term:cea17454-dd43-455f-81a1-f1767e8e2f14,
     imbor-term:cf274ffe-916f-4260-a2fc-77c59d432dd9,
     imbor-term:cf400435-1ed7-4955-95f7-8d5db7d929f4,
@@ -38959,7 +39125,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:e07800b5-a966-43ae-a104-a037289082bf,
     imbor-term:e096a493-a2ef-4e35-8b21-97da53601609,
     imbor-term:e09adb0c-b5a3-4ff9-a750-e20b96d9398b,
-    imbor-term:e0d44bca-c4df-458f-be6f-7297f52ccf69,
     imbor-term:e0e09701-766b-4bd8-81f7-a55f964f69ad,
     imbor-term:e1ec32cc-f7c2-430e-b943-ff0dee2a98ca,
     imbor-term:e275a485-e0e4-4035-b831-ad9817144434,
@@ -38994,7 +39159,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:ec4ea4ff-e2ec-4fe1-8aaf-a7751bd22c97,
     imbor-term:ec789d58-ac1a-4914-bdc9-be979e2316c7,
     imbor-term:ec856f6d-efcd-4e03-9d81-e29c9963cf5b,
-    imbor-term:eccda8de-cb46-483c-91e6-6967e668ad63,
     imbor-term:ed1ff3d0-bd74-42bf-a831-be7cd289de71,
     imbor-term:ed3dc65f-2003-473b-9410-523bfb60e0fc,
     imbor-term:ed5afbab-e82c-487c-b886-2bc516d65594,
@@ -39068,11 +39232,6 @@ imbor-term:ce90c17f-5aa3-4ee2-8333-bf8517a34a5d a skos:Concept;
   skos:definition "Een legering die bestaat uit ijzer en een geringe hoeveelheid koper, fosfor, silicium, nikkel en chroom zijn toegevoegd. zodanig dat staal gekarakteriseerd wordt door de eigenschap van vervormbaarheid bij verhitting."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Cortenstaal"@nl.
-
-imbor-term:ce97e7d1-6937-4755-8fbf-dd8d4103b6e9 a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Haag en het attribuut cultuurhistorisch waardevol."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "HaagCultuurhistorischWaardevol"@nl.
 
 imbor-term:ce99f9e9-599d-4131-9fe1-f2d61fbe66bd a skos:Concept;
   skos:definition "Einde maximumsnelheid 30 km per uur."@nl;
@@ -39376,6 +39535,7 @@ imbor-term:d06601a3-6161-448a-b524-c1da34363f0e a skos:Concept;
 imbor-term:d068f396-ee9c-4a6f-a616-41fda01e389e a skos:Concept;
   skos:definition "European Union Euro."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Currency"@nl;
   skos:prefLabel "Euro"@nl.
 
 imbor-term:d06a06bd-b4e6-4cb4-893d-beb06257df17 a skos:Concept;
@@ -39767,6 +39927,12 @@ imbor-term:d2ba7f4d-dd32-4c6e-8ee6-e9099b39e84a a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "L10t"@nl.
 
+imbor-term:d2be3dfe-f03d-4aa7-93d3-08aaf8676813 a skos:Concept;
+  skos:broader imbor-term:9294c781-3e15-40c9-8330-4eb3b97ac2de;
+  skos:definition "Jaar waarin de laatste baggerwerkzaamheden van het waterobject zijn uitgevoerd."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "laatste baggerjaar"@nl.
+
 imbor-term:d2c4e966-d556-459d-af79-3578a394e866 a skos:Concept;
   skos:definition "Bruin strookbord met symbool en tekst en pijl linksaf."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -39782,6 +39948,11 @@ imbor-term:d2d17c09-ed6c-40b3-81f2-5dcb788f4682 a skos:Concept;
   skos:definition "Onderdeel van een kunstmatig aangelegde, kokervormige onderdoorgang dat essentieel is voor de constructie."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Tunneldeel"@nl.
+
+imbor-term:d2d2cb82-1c4a-4ebb-85ef-84ae131d7072 a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Bermgras/hennep met Bio-composite (Biobased)"@nl.
 
 imbor-term:d2d56f82-37c0-4a7f-81b6-8155dc110838 a skos:Concept;
   skos:definition "Herhaling zone betaald parkeren (muntgeld)."@nl;
@@ -40538,6 +40709,10 @@ imbor-term:d6cc6933-a656-4d89-9e2e-4da56e825f52 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Onderdeel stedelijke groenstructuur"@nl.
 
+imbor-term:d6cfbb4e-2d1a-40a0-8a87-e42dab5d2a57 a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Crossbaan"@nl.
+
 imbor-term:d6d1bb9f-2409-4b2b-8776-05e27aa9769a a skos:Concept;
   skos:definition "De vervuilingsvorm is neerslag van in water stromende vaste deeltjes die zich in het object hebben opgehoopt."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -40694,10 +40869,6 @@ imbor-term:d7b7fe60-af2e-4cf1-9930-16fa17a83fca a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "OB07"@nl.
 
-imbor-term:d7c94d07-d1a2-4f77-b269-fa0b290653b9 a skos:Concept;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "Personenauto-equivalenten"@nl.
-
 imbor-term:d7cc8075-5e15-4b4a-a4ac-d1294505b872 a skos:Concept;
   skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
   skos:definition "Gestolde lava, het product van vloeibaar gesteente dat ten gevolge van vulkaanuitbarstingen aan het oppervlak komt en daar stolt. Om gebruikt te worden als halfverharding wordt het meestal gebroken."@nl;
@@ -40730,6 +40901,10 @@ imbor-term:d7ded6a4-5af2-497b-91a9-d96108317cde a skos:Concept;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Tunnelgang en het attribuut verschijningsvorm."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "TunnelgangVerschijningsvorm"@nl.
+
+imbor-term:d7f1661d-4c06-437c-97ec-89521c6cfa28 a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Secubricblok"@nl.
 
 imbor-term:d8069354-b92f-45b7-8ef0-699976890e49 a skos:Concept;
   skos:definition "8 m primair en 6 m secundair."@nl;
@@ -41082,6 +41257,7 @@ imbor-term:da84f1d6-76df-45e7-95ae-19930f9684b9 a skos:Concept;
   skos:prefLabel "Polsstokhoogspringbak"@nl.
 
 imbor-term:da859cff-1ae1-4433-bf8b-c3e331f6cd89 a skos:Concept;
+  skos:broader imbor-term:8af22f8b-a209-4924-8416-6783ab005373;
   skos:definition "Een pingo is een bolvormige heuvel die ontstaat in een gebied met permafrost waar door het uitzetten van bevroren / bevriezend grondwater een laag bevroren grond wordt opgetild."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Pingoruïne"@nl.
@@ -42219,11 +42395,6 @@ imbor-term:e0d23866-d815-43a3-8098-5d39cad5d8f5 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Ontstoppingsput"@nl.
 
-imbor-term:e0d44bca-c4df-458f-be6f-7297f52ccf69 a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Houtwal en het attribuut cultuurhistorisch waardevol."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "HoutwalCultuurhistorischWaardevol"@nl.
-
 imbor-term:e0d4da8e-fa9e-446c-8459-a11de48ba537 a skos:Concept;
   skos:definition "Park en ride linksboven."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -42269,6 +42440,10 @@ imbor-term:e0f0b65d-9c9b-44a6-aff9-1ce8f6e6c9d4 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Registratieve gebieden"@nl.
 
+imbor-term:e0fdf0f8-5d51-446e-962b-e97e7bf70391 a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "6 m. en groter"@nl.
+
 imbor-term:e104d60e-e714-412c-ae03-2d82f4db86d8 a skos:Concept;
   skos:definition "Een voorziening voor het openbaar vervoer bestaande uit een verharde verbreding aan de rechterkant van de rijbaan die een bus berijdt om passagiers die wachten bij een halte op te halen."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -42309,6 +42484,12 @@ imbor-term:e139c42f-815e-4df2-9fff-abbd77a90262 a skos:Concept;
   skos:definition "Omklapbare beugel voor het afschermen van een parkeerplaats."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Parkeerbeugel"@nl.
+
+imbor-term:e13f3ce0-05ce-44c4-82b9-3731b0c6806d a skos:Concept;
+  skos:broader imbor-term:1e22f476-9fdf-44f8-bd07-7a908e40ff1f;
+  skos:definition "Mogelijkheid om voor het beheer van groenobjecten aan te geven of het om cultuurlijke of natuurlijke beplanting gaat."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "type beplanting"@nl.
 
 imbor-term:e141c443-18ad-4f1a-bc42-b0383871766d a skos:Concept;
   skos:definition "Een korte balk van hout of beton die in een paalfundering het overgangsdeel vormt tussen heipaal en vloerhout."@nl;
@@ -42446,7 +42627,9 @@ imbor-term:e2161d9d-1b98-46d5-94c3-083cd8426796 a skos:Concept;
   skos:prefLabel "60/45 mm"@nl.
 
 imbor-term:e21f3f47-57ce-4506-bd43-409d7fccc920 a skos:Concept;
+  skos:definition "The metric and SI base unit of distance. The 17th General Conference on Weights and Measures in 1983 defined the meter as that distance that makes the speed of light in a vacuum equal to exactly 299 792 458 meters per second. The speed of light in a vacuum, , is one of the fundamental constants of nature. The meter is equal to approximately 1.093 613 3 yards, 3.280 840 feet, or 39.370 079 inches."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/ElevationRelativeToNAP"@nl;
   skos:prefLabel "Normaal Amsterdams Peil"@nl.
 
 imbor-term:e2311b9f-6b4c-4d0b-8dd3-44bf9ea2342b a skos:Concept;
@@ -43287,6 +43470,7 @@ imbor-term:e682aeb1-3685-4e58-be25-83189024f465 a skos:Concept;
 imbor-term:e683f622-71d8-4813-b78f-d238ff6555f9 a skos:Concept;
   skos:definition "The SI unit of area is the square metre."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/Area"@nl;
   skos:prefLabel "Vierkante meter"@nl.
 
 imbor-term:e689cbd0-63cb-4376-b87a-8582c019a0b1 a skos:Concept;
@@ -43332,7 +43516,6 @@ imbor-term:e6bb6b38-9f9f-4204-a272-a815d575c1c5 a skos:Collection;
     imbor-term:048b3010-0bd1-4a89-9f49-fe6d825da799,
     imbor-term:15879e3c-5b24-4e85-827a-4ad37c98e5d2,
     imbor-term:17d53f21-76eb-47d0-8ca9-985ce476b18c,
-    imbor-term:24526554-cbbe-4794-9a0f-46190d371b2c,
     imbor-term:5241a2fe-7ec8-4780-a021-24199e812df6,
     imbor-term:581ef36b-5b0a-412d-8e13-122bbad922e6,
     imbor-term:5c389053-c758-41b5-9a27-2c0b066ad243,
@@ -44064,6 +44247,12 @@ imbor-term:eaf3d5e7-4eee-48a7-86fb-9beb574fcb69 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "J37OB"@nl.
 
+imbor-term:eb005aa7-ec33-4e74-b7e4-2634f840dc5a a skos:Concept;
+  skos:altLabel "Oligotroof"@nl;
+  skos:definition "Er zijn binnen een bodem maar (zeer) weinig beschikbare minerale voedingsstoffen aanwezig."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Voedselarm"@nl.
+
 imbor-term:eb03c7ac-dc33-427f-87c1-5bb04874eefc a skos:Concept;
   skos:definition "Het object wordt gebruikt als aangewezen plaats om kampvuren te stoken."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -44239,6 +44428,7 @@ imbor-term:ebc2ed5a-fefa-43a2-9e84-dd8e2cde4b1f a skos:Concept;
   skos:prefLabel "Betonsteen"@nl.
 
 imbor-term:ebcf6404-6731-4557-8a6f-4785b4e75d95 a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Markeringstegels"@nl.
 
@@ -44458,11 +44648,6 @@ imbor-term:ecbe8458-d223-4457-93ed-63d0687a8f94 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "type bewerking"@nl.
 
-imbor-term:eccda8de-cb46-483c-91e6-6967e668ad63 a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Bosplantsoen en het attribuut cultuurhistorisch waardevol."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "BosplantsoenCultuurhistorischWaardevol"@nl.
-
 imbor-term:ecd130d9-111b-4977-9b3c-1bbb3fba0d2e a skos:Concept;
   skos:definition "Altijd bibeko (binnen de bebouwde kom)."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -44562,6 +44747,11 @@ imbor-term:ed280810-99b4-46c7-b86c-9566e7a4e4d1 a skos:Concept;
   skos:definition "Bevestiging op basis van een kromming die aan een muur is bevestigd of een plaat die aan een muur is geschroefd met daaraan een haak of een andersoortig uitsteeksel."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Muurbeugel"@nl.
+
+imbor-term:ed29e15a-72c8-4786-8550-616ee7d2226f a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Coil coating Aluminium"@nl.
 
 imbor-term:ed2a179f-902f-4cb3-8d84-d5696af23c02 a skos:Concept;
   skos:definition "Jeugdherberg."@nl;
@@ -45127,7 +45317,9 @@ imbor-term:efe72d57-449c-4752-8c4c-5fdd36b1d0a3 a skos:Concept;
   skos:prefLabel "L14_OB401"@nl.
 
 imbor-term:efece16c-6b0a-401c-9e5d-1b65eb7d6dd5 a skos:Concept;
+  skos:definition "Metre per second is an SI derived unit of both speed (scalar) and velocity (vector quantity which specifies both magnitude and a specific direction), defined by distance in metres divided by time in seconds. The official SI symbolic abbreviation is mu00b7s-1, or equivalently either m/s."@nl;
   skos:inScheme imbor-term:term-schema;
+  skos:note "http://qudt.org/vocab/quantitykind/LinearVelocity"@nl;
   skos:prefLabel "Meter per seconde"@nl.
 
 imbor-term:eff11bff-7ec5-4ddf-a10a-f61d93674811 a skos:Concept;
@@ -46687,6 +46879,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:02da06e0-3a50-43f7-9334-2335cb92a7c4,
     imbor-term:02e3019a-7ac2-4f2b-8108-c883d12a1eae,
     imbor-term:02e37d9d-af10-4e9f-b42c-00ce82c778f1,
+    imbor-term:0318ed2d-982f-46ca-aaa1-81a913b904c1,
     imbor-term:0319d008-a907-450e-a79f-29f36a1ce488,
     imbor-term:031ca847-5f5d-44c8-b659-5f313778ecfe,
     imbor-term:032147a6-3dcb-4416-9c79-3d9bf8e9c8f7,
@@ -46979,6 +47172,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:101f51c1-9bda-4577-a01d-bbd6aaf9fac9,
     imbor-term:1039a623-5d0c-400c-ba93-c3564dcca845,
     imbor-term:103ddb92-cc3e-4506-adc3-b25a0ae899cb,
+    imbor-term:104bee38-b308-4b80-b2d4-dab3fe3b94e9,
     imbor-term:105264e9-2680-4eea-894b-76966c45ea5e,
     imbor-term:1058f163-978e-4d2f-ae7d-b04788336b2e,
     imbor-term:1063235e-6f6c-4ab4-be3a-c3d87cd2479e,
@@ -47106,6 +47300,8 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:14d8e702-24ad-425f-abc4-72f99946ca56,
     imbor-term:14fd3a97-96f7-4ef7-9245-f60f7b78e572,
     imbor-term:14ffc55a-f638-4c1b-bf95-204162b6174f,
+    imbor-term:15018139-fe12-4725-ae14-65d0d595fd24,
+    imbor-term:1506135e-336a-4696-a787-e0d9f067e7ba,
     imbor-term:15101317-fff0-4bca-8cd4-8670f75c8d43,
     imbor-term:1536e6e8-7c3a-4102-8d30-7cc229dbe5ee,
     imbor-term:153d8e36-4fc3-47ca-a8ff-8b6a2a588b9a,
@@ -47148,6 +47344,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:166993d7-03fa-4128-bec4-7e78d996eddb,
     imbor-term:16714941-e3eb-47ef-a1fb-71bd0e10baf8,
     imbor-term:1690945b-d09e-48b6-ad60-efab1ed79963,
+    imbor-term:1691e1ed-0f5a-4448-8af6-917d8cc030d9,
     imbor-term:1692ce90-b2f9-4e78-be62-33665f78a140,
     imbor-term:169795d2-e276-45b2-8684-6bd639ec6e5f,
     imbor-term:16a763c6-7ad1-45dc-8e18-3bfea38d3bf0,
@@ -47156,7 +47353,6 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:16cb0e7e-2950-4139-8491-fedc032915cc,
     imbor-term:16d07851-e972-4b8f-8626-0fb691b52e70,
     imbor-term:16ed7e8f-ef12-4908-94f2-199fa3893cb3,
-    imbor-term:16f562f4-0885-4a7f-934a-a160e354fc8f,
     imbor-term:16f69a94-d171-4e4a-a3fb-106c489f59ee,
     imbor-term:1701932f-341f-4ba4-a4ee-a9e01788f6a7,
     imbor-term:17023213-ae8d-4d59-a967-1898b08e47e8,
@@ -47895,6 +48091,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:371bcb9e-bdee-4978-9720-f27dfe2be515,
     imbor-term:371fc08c-7269-49df-81f8-795ebd304c6a,
     imbor-term:37251cfd-530b-4871-9970-6ec59240898b,
+    imbor-term:372f7c24-1334-401d-b42f-32d84f05e5da,
     imbor-term:372fe8a0-afca-4956-a871-205a7076df16,
     imbor-term:3737ae88-c74b-4e75-a682-cc12004f22e7,
     imbor-term:373a049c-37d9-497c-9dd9-228d1c666b5d,
@@ -47947,6 +48144,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:38d6723e-0238-45bb-9680-99f135b37a7d,
     imbor-term:38df75ed-1a07-4308-848d-61e341d16515,
     imbor-term:38f7f86e-af83-435e-85dd-857af842ecd1,
+    imbor-term:3903cfc7-9f4c-4f4a-9b3a-6228dc097ae5,
     imbor-term:3906aed1-ebc8-4484-bb81-b62f662a768f,
     imbor-term:39119da8-c0b3-44ef-8b53-8e370f7ecb15,
     imbor-term:392001a4-88c3-4d16-a9c9-efe5e5ab9901,
@@ -47964,7 +48162,6 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:39ce938d-f1a5-495b-a787-bba50508d88d,
     imbor-term:39d5f64e-e1a7-4138-8e76-3fea07a22834,
     imbor-term:39db2504-d0c5-44f7-b3fa-ac39f2f73223,
-    imbor-term:39ec9c0f-b4de-4b57-8f24-9aa73ca35be0,
     imbor-term:39f52d99-84f8-47c1-b0ed-61eb14e3de87,
     imbor-term:39f9c017-e71c-451d-833d-6008d4892ec6,
     imbor-term:3a0332b2-c9b8-4975-a3ae-9dbdffb92ed4,
@@ -48302,6 +48499,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:48a6b38e-17af-4a07-8270-437c2d3fd37e,
     imbor-term:48b84637-9f14-4231-ab3b-0b7c9033ce28,
     imbor-term:48c8a34b-51c7-43a8-b4f5-5e9f45487ab9,
+    imbor-term:48da33af-fe16-424d-8764-e6593683e006,
     imbor-term:48f162bd-f092-419e-85af-6ff9b32618ec,
     imbor-term:49032461-ddb6-4f96-a9dd-2cd310269b12,
     imbor-term:491691dd-422b-46b7-993e-e7c0052b18f2,
@@ -48839,6 +49037,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:5f064f77-565f-4f17-97b1-8f16a01aeaa9,
     imbor-term:5f0bfc90-a648-40b7-bf7a-ab88b1a02664,
     imbor-term:5f222ab3-8488-4062-8778-a51ff7f1f688,
+    imbor-term:5f24434a-5394-4bd5-b09f-e2cb7a28b821,
     imbor-term:5f268c6d-974a-4886-8ef3-6500888c5f36,
     imbor-term:5f2855f6-6eb5-474c-8703-41a761368f13,
     imbor-term:5f2fba37-a24d-48a9-86c1-bfa9d5dea08e,
@@ -48972,7 +49171,6 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:64d3da36-0907-4616-a0e0-5d9f56cd3860,
     imbor-term:64d521ef-79fa-4f85-ab01-5b4934503780,
     imbor-term:64d61e88-f32e-4177-af8f-73c3c2c39bb7,
-    imbor-term:64e1d89f-4f0f-46e3-8f61-9add3d5441a0,
     imbor-term:64e51d88-88ee-4f55-8e21-0fd5e412582e,
     imbor-term:64eec3bd-3d60-4f3f-967a-5d9ff18a1fd6,
     imbor-term:65041c80-2a7f-4156-b33b-8cea33c50413,
@@ -49234,6 +49432,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:70dba697-6052-49b5-8653-c62f6a1e0bcf,
     imbor-term:70ec2b9e-466e-44cc-9e98-e12fcd046d01,
     imbor-term:70f2a0bf-c7a3-479f-aab2-cc380be465c3,
+    imbor-term:70f692b0-22c5-4ac9-a2b5-9142643fdec2,
     imbor-term:70fd6506-eeff-4a8c-8062-515184972761,
     imbor-term:710b5af5-618e-4bcb-a047-7077c534164a,
     imbor-term:711c6a34-f3b0-4c42-a869-fdfc9407415e,
@@ -49341,6 +49540,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:7565400f-ae32-463c-80fb-5d32f12a7703,
     imbor-term:75721884-da2d-4123-bbf6-c664b9dbf5a8,
     imbor-term:75826760-ba30-4b52-82b6-89e7f8966c9c,
+    imbor-term:758b15a9-d09e-4700-88ba-bfba2383276f,
     imbor-term:7592e99e-f738-42fb-891d-67d54eb0d835,
     imbor-term:75947c8a-b4d1-4a05-ab25-fdd2c42c6658,
     imbor-term:7596ced7-a78e-419a-88bc-45711925da31,
@@ -49530,6 +49730,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:7d046a55-4e98-4aab-8087-ada693390049,
     imbor-term:7d0738b0-da97-46ef-821a-cafd0d2979b4,
     imbor-term:7d08f4bd-5e08-4096-a55c-654d6f47e3bb,
+    imbor-term:7d10bcde-b5fe-4c6a-8b45-ce58cb8fe757,
     imbor-term:7d12619a-4e8a-4ca0-aeb8-17e159affe7a,
     imbor-term:7d177094-44a5-430d-b69a-5a5a58183224,
     imbor-term:7d30a749-a868-4c32-b67d-24693a5d3dde,
@@ -49565,6 +49766,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:7e6c77b2-a126-4598-8aef-4dc1303ba4b3,
     imbor-term:7e6f1c4e-9f73-4f6f-b15d-2aedd69fb181,
     imbor-term:7e6f4d4e-8361-400d-ab44-8f31971af75b,
+    imbor-term:7e86e234-4cec-4e7a-b700-f0747927ea13,
     imbor-term:7e88ef47-daed-4633-b89c-5b0509c512f6,
     imbor-term:7e91e1a8-9c67-47cf-8851-0838392bf743,
     imbor-term:7e9bb480-d8cc-49aa-bdeb-f3763fc0333c,
@@ -49600,6 +49802,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:8014daea-baa8-46cc-bad9-523afc5a46e8,
     imbor-term:8017d6e7-9492-4f20-abbf-dcb3bf1e03c0,
     imbor-term:801d8b76-b118-42cb-83bc-1a79c1aa14e6,
+    imbor-term:8021ba5a-4308-4b2d-9e66-bae19118cc8b,
     imbor-term:802254d6-d034-4841-bef7-5c5c5932a878,
     imbor-term:802d2cf9-f965-476a-872d-73e62ececdc9,
     imbor-term:8031a3c8-1d74-4d35-9cbb-957ae683b4d4,
@@ -49618,6 +49821,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:80e5dd80-f14c-4a98-930d-6e1b55997351,
     imbor-term:80eb1b21-8c34-4764-9fe2-8917626841cb,
     imbor-term:80f933ac-104f-4f38-b503-ece06ff128cc,
+    imbor-term:80faa8fb-03e3-4de7-8a23-d44de8e7f778,
     imbor-term:8109eb86-9769-4267-b456-9b355f1f4b79,
     imbor-term:810dbd86-296f-4ae7-a748-43a726a18b12,
     imbor-term:8119185d-f560-44d6-92a7-d0347ddfdbc8,
@@ -49675,6 +49879,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:832ab352-d231-47f8-a989-0b5c4ba9deee,
     imbor-term:83413654-e13e-4ced-8405-9922a3699bbd,
     imbor-term:83484547-ed3b-4257-b1da-0636f3ea253e,
+    imbor-term:83486675-14a4-4269-a9d4-188ef3d1f109,
     imbor-term:8348a5fb-68e0-42d6-bd85-796dd308d745,
     imbor-term:834e32c6-0bda-49e0-bb67-2a1629069530,
     imbor-term:837a06d2-033e-4a1e-a8b5-07ddcaa4e4a1,
@@ -49755,6 +49960,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:86f3bee7-5abe-4f0f-a312-44e484d86694,
     imbor-term:86ff0cc3-b907-44ce-8f1b-93824e710df1,
     imbor-term:87004471-c8ab-4f75-9c58-81fbeee21874,
+    imbor-term:87013a3b-3dc9-44ee-aab8-8c618181018e,
     imbor-term:8708d6ea-0d68-43c0-abc8-a011713e16d3,
     imbor-term:870cafbc-422f-4e88-b7ec-51ed4c4b614c,
     imbor-term:8713da7f-1aba-4acc-a63f-f0ccd9f32d3e,
@@ -49778,6 +49984,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:87dcafb9-bb2e-477f-b9bd-5dc4df734fec,
     imbor-term:87e6bb01-4b1f-45d7-8c57-766866df0b74,
     imbor-term:87ee0ee1-b556-4dbd-806c-eba3506c2c72,
+    imbor-term:87f23df5-86a5-42ae-a371-c3b87f896fee,
     imbor-term:87f574a0-6f90-4eb0-9c6d-ddb2940358d3,
     imbor-term:8805a592-861c-4ef9-82da-8e4188617c62,
     imbor-term:88110e31-597c-48aa-a1ce-d5c9833b0479,
@@ -49810,6 +50017,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:8932ac73-37b0-4b51-b170-cfbeb619c22a,
     imbor-term:893379d1-332b-4515-b376-61f43099c4d5,
     imbor-term:8948386c-314e-45c0-946f-46c78a7ab8ea,
+    imbor-term:894dbf74-f2a1-40f6-b905-e2264be8406a,
     imbor-term:8951dc3d-280a-48ff-8de2-d041ce8020e6,
     imbor-term:89533b48-a63a-48f4-a65a-74f228a4543c,
     imbor-term:8958e7e5-6216-46e5-a01b-86d044c76ac0,
@@ -50029,7 +50237,6 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:94aa4083-d4a6-4cf7-8519-84b8522ca7d0,
     imbor-term:94c06ca6-0e21-4fb9-b692-b5edb3a77c72,
     imbor-term:94c5f336-048a-42e3-9447-81779acd5b2c,
-    imbor-term:94d25651-a9ed-4e62-87f9-6481b3441938,
     imbor-term:94d2de20-507e-47f5-8ded-1be1c7f308cf,
     imbor-term:94e0853b-b280-4b3a-b460-b21fcc5b1eb2,
     imbor-term:94eafa0d-cfec-40ab-a481-deb1405b34ac,
@@ -50037,6 +50244,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:9505f3db-6e43-4496-9049-e8e4d86fb255,
     imbor-term:9516915f-810c-432b-9094-76471c869b90,
     imbor-term:95267662-ad82-419a-b7bd-5a33f5b0ed9c,
+    imbor-term:9528204e-03da-47f2-b270-52f4e53b7dbb,
     imbor-term:952f1bd0-1729-4be2-8520-ea74e2f19185,
     imbor-term:9533535a-81c0-473b-9c0d-18a61a4b3225,
     imbor-term:9537df68-2d5d-4019-a99c-f46814f06455,
@@ -50105,6 +50313,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:9736cc16-5cf4-41d9-b0bf-10d81b6b8f13,
     imbor-term:97375488-c71f-432f-aae7-fbda88411a98,
     imbor-term:974509f0-f2d2-45a3-89dd-bcaf4f9798b9,
+    imbor-term:975487ff-28ab-437e-aaa9-d3c4eac9025b,
     imbor-term:9755e6fd-1e56-4fc1-99a6-92edd0d68bdf,
     imbor-term:975aaea5-a6a4-4f56-9806-fb721f7f880d,
     imbor-term:9760ad09-2a01-4883-a674-2e8e219cd4a9,
@@ -50155,6 +50364,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:992dbb28-ec06-4e06-afde-5c8152147871,
     imbor-term:993c7bf2-416b-4810-9535-d1c02a2615fc,
     imbor-term:995e2fd7-aa07-4c8e-bb5a-e73584b6a57b,
+    imbor-term:996665ce-984a-4884-bebd-45461c7ada34,
     imbor-term:996f1387-76b2-42b6-942e-8d1a15a9ff07,
     imbor-term:99792263-f5d7-47c1-8f5b-503880cfcbca,
     imbor-term:9985fb7d-ddf5-4c7f-a05a-4f6d0d6e8c03,
@@ -50207,6 +50417,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:9c115f1d-4577-4321-8813-bbe48be9f1a1,
     imbor-term:9c21fab0-e38e-45ed-9730-253b383e66e7,
     imbor-term:9c33de40-01b3-4a0d-b6b7-68909e35d5fb,
+    imbor-term:9c40e895-83f9-4d96-a844-a653dcc78b54,
     imbor-term:9c40f6d2-6e28-4a01-86ae-6f1c77c46d3d,
     imbor-term:9c631f15-0b09-470f-8fd0-1af4e5845746,
     imbor-term:9c71e243-a9d2-41d7-a789-cda878158790,
@@ -50644,6 +50855,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:aea18cff-6527-419d-ae16-1f52ca6ccabb,
     imbor-term:aecb29e7-297a-4136-a250-17f4a485aa1e,
     imbor-term:aece365d-d52b-4859-8e18-a12a327b85cb,
+    imbor-term:aed53941-e45f-43f7-9a7a-c69f84694e18,
     imbor-term:aedc8c61-681d-48d5-956e-14f0c4b195ac,
     imbor-term:aee32597-98df-4f2b-8f27-8bc94f9d3234,
     imbor-term:af06c680-4efd-4b17-8b93-6e35d6753451,
@@ -50653,6 +50865,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:af5fc1aa-ab1c-46c6-97d9-9126211e24b1,
     imbor-term:af78ee1f-09fe-4aa7-8379-13734c5e5ea0,
     imbor-term:af7f7054-41be-460c-94c8-d5d8760ce651,
+    imbor-term:af910f8a-b16b-4ea5-b761-7f99bdf893c0,
     imbor-term:af9d1bee-6fa5-49ad-98f0-1a157604e2c0,
     imbor-term:afa269f3-9cc1-4de6-bf52-b159fc67a959,
     imbor-term:afac2e4f-8d59-4e4f-8487-09a90424828d,
@@ -50763,6 +50976,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:b3c9a110-8f64-4125-bd4b-3a51d1db3bc1,
     imbor-term:b3dc0aac-2c34-48d2-a668-1947d0ef1f89,
     imbor-term:b3dcbe6b-7537-4bce-b43b-8f44c5081566,
+    imbor-term:b3e10099-3603-42bb-946e-77c906f712cf,
     imbor-term:b3e9c770-3502-4370-aac0-168a58171934,
     imbor-term:b3ed5171-b022-4ade-a7e0-e1d6b4c8877d,
     imbor-term:b3f50952-cf77-4320-9ce9-4836d4b6a537,
@@ -51323,7 +51537,6 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:ca7fbd9f-9737-484d-bce2-6e2d2f029d7a,
     imbor-term:ca8b447b-ea70-4ced-9775-75163e3dd71d,
     imbor-term:ca9e132f-6d88-4105-ba28-7ba21f6ecaef,
-    imbor-term:cab30d13-3841-4947-8764-a528fbe40d8e,
     imbor-term:cabc315a-af89-4c26-bd34-4fa250035924,
     imbor-term:cabf6323-4e3b-40a2-bf48-4098330cd15b,
     imbor-term:cac20b5f-d4d8-4f28-bf4b-8c059668040a,
@@ -51637,6 +51850,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:d6b552e7-9b4d-472b-b008-f48d94048013,
     imbor-term:d6b56728-cab5-4d7f-9e7d-f13c92e9f7eb,
     imbor-term:d6cc6933-a656-4d89-9e2e-4da56e825f52,
+    imbor-term:d6cfbb4e-2d1a-40a0-8a87-e42dab5d2a57,
     imbor-term:d6d1bb9f-2409-4b2b-8776-05e27aa9769a,
     imbor-term:d6da8f06-5c76-4dd6-bc26-b5cf14e95247,
     imbor-term:d6f0ebf7-f3bb-4669-9db2-c73f40bf9314,
@@ -51658,6 +51872,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:d7ab7b0e-77cc-4a8f-8571-50f3e6de0c6e,
     imbor-term:d7b7fe60-af2e-4cf1-9930-16fa17a83fca,
     imbor-term:d7d0ba2e-0cae-4053-a4e7-f72c847b25fb,
+    imbor-term:d7f1661d-4c06-437c-97ec-89521c6cfa28,
     imbor-term:d8069354-b92f-45b7-8ef0-699976890e49,
     imbor-term:d810c4ae-bb5c-443e-bf2d-c98e88cfe4c5,
     imbor-term:d8126759-29dd-42bb-ac75-328070b25508,
@@ -51710,7 +51925,6 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:da619abe-5694-4584-9bad-971ecd12e115,
     imbor-term:da71165b-ab83-428c-a61c-5d97e152dc0b,
     imbor-term:da84f1d6-76df-45e7-95ae-19930f9684b9,
-    imbor-term:da859cff-1ae1-4433-bf8b-c3e331f6cd89,
     imbor-term:da91593b-8733-4ec5-898c-7eba617e4626,
     imbor-term:daaa67c4-a51d-4988-8a10-b0eb09a9c774,
     imbor-term:dab5314c-4bd1-451c-94d9-96fea769cde3,
@@ -51873,6 +52087,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:e0eb6a66-7d5d-4f55-8eeb-c81b3aa734f0,
     imbor-term:e0ebebdf-54ab-4cc9-8e40-3a7d09b4568f,
     imbor-term:e0ee4f23-66fa-4b86-8051-ae555b4290fe,
+    imbor-term:e0fdf0f8-5d51-446e-962b-e97e7bf70391,
     imbor-term:e104d60e-e714-412c-ae03-2d82f4db86d8,
     imbor-term:e10a38aa-9721-4a21-8c4f-109fc81a79cf,
     imbor-term:e10e6fbd-d319-4529-822c-a847ddc413df,
@@ -52111,6 +52326,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:eac87a28-6f01-466c-9308-815fc4fa7e98,
     imbor-term:eaf372c7-b3d8-4497-9c98-dccbe0e88ed6,
     imbor-term:eaf3d5e7-4eee-48a7-86fb-9beb574fcb69,
+    imbor-term:eb005aa7-ec33-4e74-b7e4-2634f840dc5a,
     imbor-term:eb03c7ac-dc33-427f-87c1-5bb04874eefc,
     imbor-term:eb0900fb-15c5-41b1-980e-cc8a33cb464e,
     imbor-term:eb19210f-6250-4f0e-b706-f7a3c78ee0a2,
@@ -52521,7 +52737,6 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:fc65edfd-267a-4fb2-86df-1f891de63c9f,
     imbor-term:fc6f9cd5-03c8-4e16-9517-902e67ac316c,
     imbor-term:fc72b9ea-c761-4d66-8a9a-c1e745f98ed8,
-    imbor-term:fc77db9e-5f10-46f3-b78b-b4e70c72d89c,
     imbor-term:fc7aed15-f46b-4fcf-87ba-8f32a9970b38,
     imbor-term:fc8ce189-c786-4ea8-bd67-5672ae7c84e2,
     imbor-term:fc94e4ee-f900-4032-8044-6b61bbcaeeae,
@@ -52556,6 +52771,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:fe885a24-cabf-433d-a9f7-7f3a48e3744d,
     imbor-term:fe919b09-d8b0-48ee-ac40-b9e03d7a9051,
     imbor-term:fe92c78b-f7a0-495e-a790-361fbe4d0344,
+    imbor-term:fe9b4bac-04b2-43f9-9108-63e2b08ff50a,
     imbor-term:feabf7ba-e4e9-46f6-8a0b-911d0e9dd97b,
     imbor-term:feae71d0-0afa-4246-a6c0-c67646f458fa,
     imbor-term:febb6977-749a-44a2-94cc-564e8e0e190d,
@@ -53247,11 +53463,6 @@ imbor-term:fc72b9ea-c761-4d66-8a9a-c1e745f98ed8 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "OB804-T"@nl.
 
-imbor-term:fc77db9e-5f10-46f3-b78b-b4e70c72d89c a skos:Concept;
-  skos:definition "Waarde van tien meter of groter."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "10 m. en groter"@nl.
-
 imbor-term:fc7aed15-f46b-4fcf-87ba-8f32a9970b38 a skos:Concept;
   skos:definition "Type gedetailleerd van struiken, struweel. Het zijn wilde, niet gekruiste of geënte rozensoorten. Veelal enkelvoudige bloemen, voorbeeld Rosa canina."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -53572,6 +53783,10 @@ imbor-term:fe9a70e0-a407-4f84-995d-009b75db5c2e a skos:Concept;
   skos:definition "Afkorting van steenmastiekasfalt, een asfaltsoort die binnenstedelijk veel gebruik ziet en bestaat uit in grote mate gebroken materiaal dat grotendeels is opgevuld met mastiek, een materiaal dat w0rdt vervaardigd uit bitumen, zand en een vulstof. Equivalent aan oude naamgeving 0/8 type 1."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "SMA-NL 8A"@nl.
+
+imbor-term:fe9b4bac-04b2-43f9-9108-63e2b08ff50a a skos:Concept;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Dolomiet"@nl.
 
 imbor-term:fe9d4d44-54f8-4e57-a340-05f11599d9d4 a skos:Concept;
   skos:broader imbor-term:f5dcab2e-e768-4277-ba16-95542a77d2bd;
