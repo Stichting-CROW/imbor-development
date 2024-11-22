@@ -1098,6 +1098,9 @@ imbor:00b69db6-977b-4502-9d7e-b8d4aa81fd2d
 imbor:00c0ff6c-d2df-416b-9e0a-bee0808db446
   mim:equivalent imbor-mim:mim-00c0ff6c-d2df-416b-9e0a-bee0808db446.
 
+imbor:00c87783-7909-4c4b-bc07-d555b771db9b
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:00cbfa6c-6009-42ec-ac37-649c09e35362
   imbor-refmodels:levensfaseTypering "A".
 
@@ -1849,6 +1852,9 @@ imbor:0b73d72f-f5d7-48d2-8092-5d7b2696343f
 imbor:0b7b9dd5-4735-4bdb-88ed-550566aa7b6d
   imbor-refmodels:levensfaseTypering "O".
 
+imbor:0b860294-2cb7-49d3-80fc-33c5d0b1a27e
+  mim:equivalent imbor-mim:mim-0b860294-2cb7-49d3-80fc-33c5d0b1a27e.
+
 imbor:0b94a164-ac72-4b72-85e9-029284fc9df4
   imbor-refmodels:levensfaseTypering "O".
 
@@ -1953,6 +1959,9 @@ imbor:0ccf3aaf-5f17-40e4-be9f-e84f6bff28a5
 
 imbor:0cd022c3-d556-4de9-845b-2b8d07fc247a
   mim:equivalent imbor-mim:mim-0cd022c3-d556-4de9-845b-2b8d07fc247a.
+
+imbor:0cefc4b7-28ab-462e-94b8-11500face4b3
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:0d106c20-8be5-4e73-92bc-5311822f7ae2
   mim:equivalent imbor-mim:mim-0d106c20-8be5-4e73-92bc-5311822f7ae2.
@@ -2662,9 +2671,6 @@ imbor:18779e16-6076-4cc4-980f-5af5c26e138e
 
 imbor:188d90ce-bdc4-4d17-834e-b51bb1ac0c49
   imbor-refmodels:levensfaseTypering "B".
-
-imbor:18973727-e14b-46ef-942a-a8bb190afe9d
-  mim:equivalent imbor-mim:mim-18973727-e14b-46ef-942a-a8bb190afe9d.
 
 imbor:189e80cc-321d-4ffd-8e23-dad7e96a4ccd
   mim:equivalent imbor-mim:mim-189e80cc-321d-4ffd-8e23-dad7e96a4ccd.
@@ -3609,9 +3615,6 @@ imbor:27d41dd0-48ea-488c-80d6-736db2064a3b
 imbor:27d7a4d5-ac88-44a3-864a-ba11f1491615
   mim:equivalent imbor-mim:mim-27d7a4d5-ac88-44a3-864a-ba11f1491615.
 
-imbor:27d7ccdd-e544-442d-9f23-7be5951a1f59
-  imbor-refmodels:levensfaseTypering "O".
-
 imbor:27edba14-b463-4444-908b-467a0c5229e1
   mim:equivalent imbor-mim:mim-27edba14-b463-4444-908b-467a0c5229e1.
 
@@ -3764,6 +3767,9 @@ imbor:2a5fd8cd-9580-40e1-9c82-1a9da4abb3c8
 
 imbor:2a6c7bcf-6a2c-48d9-9f79-dd5de10fe35d
   mim:equivalent imbor-mim:mim-2a6c7bcf-6a2c-48d9-9f79-dd5de10fe35d.
+
+imbor:2a7a1d7c-d2aa-4ec0-969b-50b8f844fc8f
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:2a7ecd8b-0ec6-4609-8994-d11b1efdee6d
   mim:equivalent imbor-mim:mim-2a7ecd8b-0ec6-4609-8994-d11b1efdee6d.
@@ -4386,9 +4392,6 @@ imbor:3476a450-36e1-448a-be67-3e058cc98331
 imbor:348108b9-e864-4226-84a5-c6e46e122284
   mim:equivalent imbor-mim:mim-348108b9-e864-4226-84a5-c6e46e122284.
 
-imbor:348524c5-de5e-42ff-9e8e-64c9f0e57e01
-  imbor-refmodels:levensfaseTypering "O".
-
 imbor:349193c3-e37a-4450-8b66-6439974dd1ac
   mim:equivalent imbor-mim:mim-349193c3-e37a-4450-8b66-6439974dd1ac.
 
@@ -4676,6 +4679,9 @@ imbor:38bb43c6-e768-4eeb-84bc-1725c29636a4
 
 imbor:38ec236f-210f-4d3a-85e2-95931d8ea468
   mim:equivalent imbor-mim:mim-38ec236f-210f-4d3a-85e2-95931d8ea468.
+
+imbor:38ec6a91-b356-4067-a4c8-b365103fb4fa
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:38f29be5-7390-441b-b01a-65fe49180d5e
   mim:equivalent imbor-mim:mim-38f29be5-7390-441b-b01a-65fe49180d5e.
@@ -6614,9 +6620,6 @@ imbor:56c5fd82-c17f-4184-a012-c603ba99eb2c
 imbor:56cc3b63-2f76-4603-839f-1caef494dd76
   mim:equivalent imbor-mim:mim-56cc3b63-2f76-4603-839f-1caef494dd76.
 
-imbor:56d95bad-ae19-461c-a20f-121d2247fe5e
-  imbor-refmodels:levensfaseTypering "O".
-
 imbor:56df67e5-e263-4f9f-a1f9-22e09a994343
   mim:equivalent imbor-mim:mim-56df67e5-e263-4f9f-a1f9-22e09a994343.
 
@@ -6811,9 +6814,6 @@ imbor:59ffa0b8-333f-46d9-a78e-5e6f08f31d32
 
 imbor:5a0a81b6-940f-43e0-9511-d0a4b7302f28
   mim:equivalent imbor-mim:mim-5a0a81b6-940f-43e0-9511-d0a4b7302f28.
-
-imbor:5a103946-a7a7-4f8a-8f1e-7798e3b4cf52
-  mim:equivalent imbor-mim:mim-5a103946-a7a7-4f8a-8f1e-7798e3b4cf52.
 
 imbor:5a158afb-ee27-4ed6-b5a4-9a1871d23f27
   mim:equivalent imbor-mim:mim-5a158afb-ee27-4ed6-b5a4-9a1871d23f27.
@@ -7224,9 +7224,6 @@ imbor:5f49e109-2459-4743-a965-6bdbfc6534b1
 imbor:5f4a9eaa-e61e-44cc-8218-79930e872a80
   mim:equivalent imbor-mim:mim-5f4a9eaa-e61e-44cc-8218-79930e872a80.
 
-imbor:5f4e6dc7-0094-4acc-aa26-f912e2971a75
-  mim:equivalent imbor-mim:mim-5f4e6dc7-0094-4acc-aa26-f912e2971a75.
-
 imbor:5f502712-e43d-4929-8afd-df23ea9a149a
   mim:equivalent imbor-mim:mim-5f502712-e43d-4929-8afd-df23ea9a149a.
 
@@ -7404,9 +7401,6 @@ imbor:6154842d-e9e8-428d-a571-8c9eada41171
 
 imbor:6156ad75-a23c-4b5f-8095-c773cd6ebffe
   mim:equivalent imbor-mim:mim-6156ad75-a23c-4b5f-8095-c773cd6ebffe.
-
-imbor:615f5819-f0d7-49e2-8381-cd3ff125ff45
-  imbor-refmodels:levensfaseTypering "O".
 
 imbor:616cca8f-dbaa-4d98-a42e-24aee28535a8
   mim:equivalent imbor-mim:mim-616cca8f-dbaa-4d98-a42e-24aee28535a8.
@@ -8817,6 +8811,9 @@ imbor:77b12664-3388-40dd-8259-b210117f7a46
 
 imbor:77cb88f8-83eb-4e74-94da-6f1587159a76
   mim:equivalent imbor-mim:mim-77cb88f8-83eb-4e74-94da-6f1587159a76.
+
+imbor:77d2a265-2bf1-4ee0-a37b-925f5d35eeb9
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:77ee836d-c2a8-432e-bdba-913944119a22
   imbor-refmodels:levensfaseTypering "O".
@@ -10454,6 +10451,9 @@ imbor:8f072943-3691-4b9b-9c11-5aa184feac5d
 
 imbor:8f0c0553-164e-4054-b203-b9d43e87aa7b
   mim:equivalent imbor-mim:mim-8f0c0553-164e-4054-b203-b9d43e87aa7b.
+
+imbor:8f223245-8049-4f04-80bb-521e765a79ee
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:8f249273-1a31-428e-9a89-2bc206b88289
   mim:equivalent imbor-mim:mim-8f249273-1a31-428e-9a89-2bc206b88289.
@@ -12329,9 +12329,6 @@ imbor:ac602161-16b9-49b0-bb23-ae94cc8af2bb
 imbor:ac603b06-c2db-4460-95ac-5b01f95e7b5d
   mim:equivalent imbor-mim:mim-ac603b06-c2db-4460-95ac-5b01f95e7b5d.
 
-imbor:ac75072e-b8fe-45ed-b750-09ca909cd1d6
-  imbor-refmodels:levensfaseTypering "O".
-
 imbor:ac7b3b7c-84b4-4f71-8530-bc61dfbf13d5
   imbor-refmodels:levensfaseTypering "O".
 
@@ -12544,6 +12541,9 @@ imbor:af85bece-fc4f-4f33-b1df-c0884566b883
 
 imbor:af922b03-43df-4d3d-8f4c-4d6786812a41
   mim:equivalent imbor-mim:mim-af922b03-43df-4d3d-8f4c-4d6786812a41.
+
+imbor:afa3cbdd-5613-442a-8fe8-c16b4c9609fa
+  mim:equivalent imbor-mim:mim-afa3cbdd-5613-442a-8fe8-c16b4c9609fa.
 
 imbor:afb5c423-7af2-4771-9181-e33c2f7d1cec
   imbor-refmodels:levensfaseTypering "O".
@@ -13236,6 +13236,9 @@ imbor:ba1d99f2-9ed9-43f0-9199-b15339ab5b03
 imbor:ba2278a8-94a4-4210-b635-d31c0a9dd9ae
   imbor-refmodels:levensfaseTypering "B".
 
+imbor:ba3cf22f-7360-4fe7-8786-7363571840f2
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:ba4693e8-04b3-438b-b654-66d1399960c2
   mim:equivalent imbor-mim:mim-ba4693e8-04b3-438b-b654-66d1399960c2.
 
@@ -13590,9 +13593,6 @@ imbor:befa1f56-4d68-454c-a775-197970f3494b
 
 imbor:befaedad-e835-499e-b5b5-d07ccc6b2174
   mim:equivalent imbor-mim:mim-befaedad-e835-499e-b5b5-d07ccc6b2174.
-
-imbor:befbf0cf-bbed-4c03-b633-de2089cffb63
-  mim:equivalent imbor-mim:mim-befbf0cf-bbed-4c03-b633-de2089cffb63.
 
 imbor:bf016f97-4c70-4791-a645-059e279aa632
   imbor-refmodels:levensfaseTypering "A".
@@ -14232,6 +14232,9 @@ imbor:c920868d-0552-46d7-8310-6feb9ea573e0
 
 imbor:c9261add-85b2-4241-bf21-cdf2a2e51dbd
   mim:equivalent imbor-mim:mim-c9261add-85b2-4241-bf21-cdf2a2e51dbd.
+
+imbor:c92cf20b-711e-44a3-a2a6-498df2fa3eba
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:c93175e6-209e-4d7a-b032-21d5f17d27fc
   mim:equivalent imbor-mim:mim-c93175e6-209e-4d7a-b032-21d5f17d27fc.
@@ -15269,6 +15272,9 @@ imbor:d929e371-b573-4daa-baa8-4d70a416df14
 imbor:d92e6993-5546-4b29-8cc5-25414e83c042
   mim:equivalent imbor-mim:mim-d92e6993-5546-4b29-8cc5-25414e83c042.
 
+imbor:d9369412-6a63-4bd1-888e-1759ebe10b18
+  mim:equivalent imbor-mim:mim-d9369412-6a63-4bd1-888e-1759ebe10b18.
+
 imbor:d94a55ba-8f55-4ab6-8f97-b5a3b0ea2fff
   mim:equivalent imbor-mim:mim-d94a55ba-8f55-4ab6-8f97-b5a3b0ea2fff.
 
@@ -15292,9 +15298,6 @@ imbor:d9863405-0fca-4920-80cb-da2e0dc6ea27
 
 imbor:d9901622-f897-44e4-a577-56e09ed55873
   mim:equivalent imbor-mim:mim-d9901622-f897-44e4-a577-56e09ed55873.
-
-imbor:d99ace24-79f7-4ed9-8c77-2e4b64a08999
-  imbor-refmodels:levensfaseTypering "O".
 
 imbor:d9a1befb-e599-4ccc-ae56-06414a646c24
   imbor-refmodels:levensfaseTypering "O".
@@ -17147,6 +17150,9 @@ imbor:f54037d9-a865-4fc4-a20a-404f92c738c4
 imbor:f545bafd-03fe-4a2c-89f8-69e62ff322c4
   mim:equivalent imbor-mim:mim-f545bafd-03fe-4a2c-89f8-69e62ff322c4.
 
+imbor:f5636f4b-bba1-4cac-940a-1ca8b7500387
+  mim:equivalent imbor-mim:mim-f5636f4b-bba1-4cac-940a-1ca8b7500387.
+
 imbor:f566c06f-6dea-4e60-8af6-4daf0a5a7851
   mim:equivalent imbor-mim:mim-f566c06f-6dea-4e60-8af6-4daf0a5a7851.
 
@@ -17836,6 +17842,9 @@ imbor:ffb1e0c0-7bb2-4147-aabb-2a09923e4073
 
 imbor:ffb7311e-ade9-46e4-bd4a-4eec7ce10789
   mim:equivalent imbor-mim:mim-ffb7311e-ade9-46e4-bd4a-4eec7ce10789.
+
+imbor:ffc6133b-e3ff-46ab-a74d-0880472c6d95
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:ffdfe802-feb5-4868-b21d-2627ed6c4156
   mim:equivalent imbor-mim:mim-ffdfe802-feb5-4868-b21d-2627ed6c4156.
@@ -20400,6 +20409,23 @@ imbor-mim:mim-0b73d72f-f5d7-48d2-8092-5d7b2696343f_ a mim:Generalisatie;
   mim:naam "Functie is generalisatie van Afsluiten in twee stroomrichtingen";
   mim:subtype imbor-mim:mim-0b73d72f-f5d7-48d2-8092-5d7b2696343f;
   mim:supertype "?".
+
+imbor-mim:mim-0b860294-2cb7-49d3-80fc-33c5d0b1a27e a mim:Objecttype;
+  mim:begrip imbor-term:d668dfe0-1420-4de7-97c4-d8d4cff54641;
+  mim:begripsterm "Stelconplaat"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Een Stelconplaat is een betonnen vloerplaat van gestandaardiseerde afmetingen die veel gebruikt wordt als tijdelijke of permanente verharding van bijvoorbeeld inpandige bedrijfsvloeren, opslagterreinen of wegen."@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:indicatieAbstractObject false;
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "Stelconplaat"@nl.
+
+imbor-mim:mim-0b860294-2cb7-49d3-80fc-33c5d0b1a27e_mim-Matter a mim:Generalisatie;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:naam "Materie is generalisatie van Stelconplaat";
+  mim:subtype imbor-mim:mim-0b860294-2cb7-49d3-80fc-33c5d0b1a27e;
+  mim:supertype imbor-mim:mim-Matter.
 
 imbor-mim:mim-0bad00f4-e00d-4680-b6e8-0effe606987b a mim:Relatiesoort;
   mim:bron imbor-mim:mim-b574854e-aa53-4d69-954d-47252cbd6cea;
@@ -23003,6 +23029,10 @@ imbor-mim:mim-16fefe2d-e579-4d55-8161-6c90f65feb0c_mim-a57c92d8-2139-45c8-b96f-4
   mim:supertype imbor-mim:mim-a57c92d8-2139-45c8-b96f-471106f6af2e.
 
 imbor-mim:mim-17036cd0-5b49-4923-a3f7-856ce8275dc2 a mim:Objecttype;
+  mim:attribuut
+    imbor-mim:mim-afa3cbdd-5613-442a-8fe8-c16b4c9609fa,
+    imbor-mim:mim-d9369412-6a63-4bd1-888e-1759ebe10b18,
+    imbor-mim:mim-f5636f4b-bba1-4cac-940a-1ca8b7500387;
   mim:begrip imbor-term:26db2dab-684b-4f76-85fe-78f1eebd81a6;
   mim:begripsterm "Band"@nl;
   mim:datumOpname "2023-01-01"^^xsd:date;
@@ -23293,16 +23323,6 @@ imbor-mim:mim-18779e16-6076-4cc4-980f-5af5c26e138e a mim:Enumeratie;
   mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "UithouderVerschijningsvorm"@nl.
-
-imbor-mim:mim-18973727-e14b-46ef-942a-a8bb190afe9d a mim:Referentielijst;
-  mim:begrip imbor-term:7fef57aa-a120-49b9-881e-9b268e4f5c73;
-  mim:begripsterm "ElementenverhardingAfmeting"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het enumeratietype voor de domeinwaardenlijst van de klasse Elementenverharding en het attribuut afmeting."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:locatie "Voorlopig gedefinieerd binnen IMBOR op https://data.crow.nl/imbor/def"@nl;
-  mim:naam "ElementenverhardingAfmeting"@nl.
 
 imbor-mim:mim-189e80cc-321d-4ffd-8e23-dad7e96a4ccd a mim:Relatiesoort;
   mim:bron imbor-mim:mim-1ea4ee45-672d-477d-9bb4-6961418fe601;
@@ -25206,8 +25226,11 @@ imbor-mim:mim-21e19973-ba96-4711-a92f-32c57989aa37 a mim:Objecttype;
     imbor-mim:mim-5d80d795-c1aa-4bc2-953e-7bce768446b3,
     imbor-mim:mim-9ed37d83-3f33-4345-8ebc-cc2b5135c1f5,
     imbor-mim:mim-a7f28906-7d73-4a08-b28e-20e0c4275ac8,
+    imbor-mim:mim-afa3cbdd-5613-442a-8fe8-c16b4c9609fa,
     imbor-mim:mim-b42e4395-3e8a-4ee5-b343-81b80db9fc59,
-    imbor-mim:mim-ec2c7b91-3d05-489f-859a-9bd8c03724da;
+    imbor-mim:mim-d9369412-6a63-4bd1-888e-1759ebe10b18,
+    imbor-mim:mim-ec2c7b91-3d05-489f-859a-9bd8c03724da,
+    imbor-mim:mim-f5636f4b-bba1-4cac-940a-1ca8b7500387;
   mim:begrip imbor-term:2d772615-214c-46e0-9c1d-2b4749b5ecaf;
   mim:begripsterm "Elementenverharding"@nl;
   mim:datumOpname "2023-01-01"^^xsd:date;
@@ -36558,16 +36581,6 @@ imbor-mim:mim-5a0a81b6-940f-43e0-9511-d0a4b7302f28 a mim:Relatiesoort;
   mim:naam "Hek voert uit Afscheiden van veld of terrein"@nl;
   mim:unidirectioneel true.
 
-imbor-mim:mim-5a103946-a7a7-4f8a-8f1e-7798e3b4cf52 a mim:Referentielijst;
-  mim:begrip imbor-term:b959e644-a833-410a-9337-06db7865a4f6;
-  mim:begripsterm "BandAfmeting"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het enumeratietype voor de domeinwaardenlijst van de klasse Band en het attribuut afmeting."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:locatie "Voorlopig gedefinieerd binnen IMBOR op https://data.crow.nl/imbor/def"@nl;
-  mim:naam "BandAfmeting"@nl.
-
 imbor-mim:mim-5a158afb-ee27-4ed6-b5a4-9a1871d23f27 a mim:Attribuutsoort;
   mim:begrip imbor-term:085c3807-6a51-426c-bf70-defc32af4949;
   mim:begripsterm "stopcode stroomgroep"@nl;
@@ -37015,8 +37028,11 @@ imbor-mim:mim-5b5aa0eb-7900-479e-b2a0-02ae98a4eebb_mim-61526934-9d0c-4a07-8c5d-1
 
 imbor-mim:mim-5b5f0762-d8ca-4b00-bea0-022aeb187fc6 a mim:Objecttype;
   mim:attribuut
+    imbor-mim:mim-29ec4228-7a32-41db-ac73-b80db66ea743,
     imbor-mim:mim-2b1b2ffa-6cdd-4c54-b8c3-475757e347ff,
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
+    imbor-mim:mim-4e8676a3-a629-49a7-a289-142f6c040863,
+    imbor-mim:mim-b57606c1-c336-439a-a7f3-aaf89921133f,
     imbor-mim:mim-f46c02ba-18ac-4f9f-856a-64dd56591700;
   mim:begrip imbor-term:8772bdfb-f026-4204-a8b1-98cbdea6635b;
   mim:begripsterm "Vegetatiedak"@nl;
@@ -38058,32 +38074,6 @@ imbor-mim:mim-5f4a9eaa-e61e-44cc-8218-79930e872a80_mim-Matter a mim:Generalisati
   mim:naam "Materie is generalisatie van Gietijzer";
   mim:subtype imbor-mim:mim-5f4a9eaa-e61e-44cc-8218-79930e872a80;
   mim:supertype imbor-mim:mim-Matter.
-
-imbor-mim:mim-5f4e6dc7-0094-4acc-aa26-f912e2971a75 a mim:Attribuutsoort;
-  mim:begrip imbor-term:3e21e80b-d4a2-4cd4-b205-935bb297c9f7;
-  mim:begripsterm "productiejaar"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Jaar waarin het object geproduceerd is en deze kan verschillen van aanlegjaar of bouwjaar."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:kardinaliteit
-    "1..*",
-    "1..1";
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "productiejaar"@nl;
-  mim:toelichting
-    unit:Euro,
-    unit:MilliM;
-  mim:type
-    imbor-mim:mim-anyURI,
-    imbor-mim:mim-boolean,
-    imbor-mim:mim-date,
-    imbor-mim:mim-dateTime,
-    imbor-mim:mim-decimal,
-    imbor-mim:mim-integer,
-    imbor-mim:mim-positiveInteger,
-    imbor-mim:mim-string,
-    imbor-mim:mim-wktLiteral.
 
 imbor-mim:mim-5f502712-e43d-4929-8afd-df23ea9a149a a mim:Objecttype;
   mim:begrip imbor-term:3115e47e-a91e-4974-a3be-6d098f1cd702;
@@ -55744,6 +55734,20 @@ imbor-mim:mim-af922b03-43df-4d3d-8f4c-4d6786812a41 a mim:Enumeratie;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "ReëelObjectTypeBewerking"@nl.
 
+imbor-mim:mim-afa3cbdd-5613-442a-8fe8-c16b4c9609fa a mim:Attribuutsoort;
+  mim:begrip imbor-term:d50ca3bf-d17a-44df-8893-dd111b7c153f;
+  mim:begripsterm "hoogte verhardingselement"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Vastleggen van de hoogte van een verhardingselement als onderdeel van de afmeting."@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:indicatieClassificerend false;
+  mim:kardinaliteit "0..1";
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "hoogte verhardingselement"@nl;
+  mim:toelichting unit:CentiM;
+  mim:type imbor-mim:mim-decimal.
+
 imbor-mim:mim-afcf6548-b47d-4570-bd45-cd3cd3fda512 a mim:Objecttype;
   mim:attribuut imbor-mim:mim-360383a6-7c47-4e44-87a2-e35df0cdb6e7;
   mim:begrip imbor-term:85b25a28-7a0f-46b6-9ac3-0f50ab95d082;
@@ -59443,32 +59447,6 @@ imbor-mim:mim-befaedad-e835-499e-b5b5-d07ccc6b2174_mim-b7168388-9eb9-4c95-b35e-1
   mim:naam "Put is generalisatie van Brandput";
   mim:subtype imbor-mim:mim-befaedad-e835-499e-b5b5-d07ccc6b2174;
   mim:supertype imbor-mim:mim-b7168388-9eb9-4c95-b35e-1ba2660849e8.
-
-imbor-mim:mim-befbf0cf-bbed-4c03-b633-de2089cffb63 a mim:Attribuutsoort;
-  mim:begrip imbor-term:2b5eafde-c4a4-4c68-bc41-532392b0df43;
-  mim:begripsterm "afmeting"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Aanduiding voor de extensie van een object in lengte, breedte en hoogte."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:kardinaliteit
-    "1..*",
-    "1..1";
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "afmeting"@nl;
-  mim:toelichting
-    unit:Euro,
-    unit:MilliM;
-  mim:type
-    imbor-mim:mim-anyURI,
-    imbor-mim:mim-boolean,
-    imbor-mim:mim-date,
-    imbor-mim:mim-dateTime,
-    imbor-mim:mim-decimal,
-    imbor-mim:mim-integer,
-    imbor-mim:mim-positiveInteger,
-    imbor-mim:mim-string,
-    imbor-mim:mim-wktLiteral.
 
 imbor-mim:mim-Begroeiing a mim:Objecttype;
   mim:begrip imbor-term:b6360f30-f81a-4c37-92ac-f6b310fd32f4;
@@ -64956,6 +64934,20 @@ imbor-mim:mim-d92e6993-5546-4b29-8cc5-25414e83c042_mim-5bd18572-9b3d-4de4-bd87-4
   mim:naam "Waterstaatkundig kunstwerk is generalisatie van Aanleginrichting";
   mim:subtype imbor-mim:mim-d92e6993-5546-4b29-8cc5-25414e83c042;
   mim:supertype imbor-mim:mim-5bd18572-9b3d-4de4-bd87-407cc4ca826f.
+
+imbor-mim:mim-d9369412-6a63-4bd1-888e-1759ebe10b18 a mim:Attribuutsoort;
+  mim:begrip imbor-term:44dd6ff7-6afb-457b-9f8c-34cfb6101068;
+  mim:begripsterm "breedte verhardingselement"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Vastleggen van de breedte van een verhardingselement als onderdeel van de afmeting."@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:indicatieClassificerend false;
+  mim:kardinaliteit "0..1";
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "breedte verhardingselement"@nl;
+  mim:toelichting unit:CentiM;
+  mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-d94a55ba-8f55-4ab6-8f97-b5a3b0ea2fff a mim:Enumeratie;
   mim:begrip imbor-term:23766295-4c5a-4869-ac4a-9a746c51c981;
@@ -71450,6 +71442,20 @@ imbor-mim:mim-f545bafd-03fe-4a2c-89f8-69e62ff322c4 a mim:Enumeratie;
   mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "LijnmarkeringMarkeringsbreedte"@nl.
+
+imbor-mim:mim-f5636f4b-bba1-4cac-940a-1ca8b7500387 a mim:Attribuutsoort;
+  mim:begrip imbor-term:df7e364a-47ee-46f1-a6cc-9f48e945c4ca;
+  mim:begripsterm "lengte verhardingselement"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Vastleggen van de lengte van een verhardingselement als onderdeel van de afmeting."@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:indicatieClassificerend false;
+  mim:kardinaliteit "0..1";
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "lengte verhardingselement"@nl;
+  mim:toelichting unit:CentiM;
+  mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-f566c06f-6dea-4e60-8af6-4daf0a5a7851 a mim:Relatiesoort;
   mim:bron imbor-mim:mim-3252585c-4fab-4ec1-9ba6-f51eaff271d1;

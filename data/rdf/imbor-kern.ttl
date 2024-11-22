@@ -382,6 +382,9 @@ nen3610:Wegverkeerruimte a rdfs:Class, sh:NodeShape;
 unit:A
   skos:prefLabel "Ampère"@nl.
 
+unit:CentiM
+  skos:prefLabel "Centimeter"@nl.
+
 unit:CentiM-PER-YR
   skos:prefLabel "Centimeter per jaar"@nl.
 
@@ -568,6 +571,13 @@ imbor:00c0ff6c-d2df-416b-9e0a-bee0808db446 a sh:PropertyShape;
   sh:qualifiedValueShape [
       sh:class imbor:b572dae1-fc8c-43e9-b31c-7123abd151d8
     ].
+
+imbor:00c87783-7909-4c4b-bc07-d555b771db9b a sh:PropertyShape;
+  qudt:unit unit:M2;
+  skos:prefLabel "bergend oppervlak vastgezet op Vegetatiedak"@nl;
+  sh:datatype xsd:decimal;
+  sh:maxCount 1;
+  sh:path imbor:b57606c1-c336-439a-a7f3-aaf89921133f.
 
 imbor:00cbfa6c-6009-42ec-ac37-649c09e35362 a sh:PropertyShape;
   skos:prefLabel "toelichting vastgezet op Software"@nl;
@@ -2583,6 +2593,13 @@ imbor:0b7b9dd5-4735-4bdb-88ed-550566aa7b6d a sh:PropertyShape;
   sh:maxCount 1;
   sh:path imbor:60cc339b-db7d-439f-9f12-1482e3501b5a.
 
+imbor:0b860294-2cb7-49d3-80fc-33c5d0b1a27e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:d668dfe0-1420-4de7-97c4-d8d4cff54641;
+  rdfs:subClassOf nen2660:Matter;
+  skos:definition "Een Stelconplaat is een betonnen vloerplaat van gestandaardiseerde afmetingen die veel gebruikt wordt als tijdelijke of permanente verharding van bijvoorbeeld inpandige bedrijfsvloeren, opslagterreinen of wegen."@nl;
+  skos:prefLabel "Stelconplaat"@nl.
+
 imbor:0b94a164-ac72-4b72-85e9-029284fc9df4 a sh:PropertyShape;
   qudt:unit unit:M;
   skos:prefLabel "doorvaartbreedte vastgezet op Sluis doorvaart"@nl;
@@ -2845,6 +2862,13 @@ imbor:0cd022c3-d556-4de9-845b-2b8d07fc247a a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf imbor:2c9f194d-2ea6-494d-89eb-33b1743fe4af;
   skos:definition "Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering."@nl;
   skos:prefLabel "Sloof"@nl.
+
+imbor:0cefc4b7-28ab-462e-94b8-11500face4b3 a sh:PropertyShape;
+  qudt:unit unit:M3;
+  skos:prefLabel "bergend vermogen vastgezet op Vegetatiedak"@nl;
+  sh:datatype xsd:decimal;
+  sh:maxCount 1;
+  sh:path imbor:4e8676a3-a629-49a7-a289-142f6c040863.
 
 imbor:0d106c20-8be5-4e73-92bc-5311822f7ae2 a rdf:Property;
   qudt:hasQuantityKind unit:M;
@@ -3252,7 +3276,7 @@ imbor:0fbb03d2-e5b7-4a83-ac36-260046d728d5 a rdfs:Class, sh:NodeShape;
   rdfs:seeAlso imbor-term:24212bd8-5948-4afc-9554-8046b6fff6f1;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een natuursteen waaruit leien gekliefd worden"@nl;
-  skos:note "Leisteen ontstaat door metamorfose (omvorming) van kleisteen wat weer uit klei is gevormd.\""@nl;
+  skos:note "Leisteen ontstaat door metamorfose (omvorming) van kleisteen wat weer uit klei is gevormd."@nl;
   skos:prefLabel "Leisteen"@nl.
 
 imbor:0fd9bd6f-b841-4e9d-aab5-fc2cec86c2fe a sh:PropertyShape;
@@ -4375,11 +4399,14 @@ imbor:17036cd0-5b49-4923-a3f7-856ce8275dc2 a rdfs:Class, sh:NodeShape;
   skos:note "Een band is een element dat de scheiding verzorgt tussen een rijbaan en het meestal hoger gelegen object. De band maakt deel uit van een wegconstructie en voorkomt dat water en vuil van de weg in de bermen, tuinen, of huizen terechtkomt. De band voorkomt tevens dat motorvoertuigen op het hoger gelegen object rijden. (GLD)"@nl;
   skos:prefLabel "Band"@nl;
   sh:property
+    imbor:2a7a1d7c-d2aa-4ec0-969b-50b8f844fc8f,
     imbor:58898b27-62c0-4eca-a0d7-d2ce8ebc06b7,
     imbor:66686862-8a26-4511-a743-c55c9642c865,
     imbor:888f69e1-9a29-4880-9e98-ed9490e81765,
     imbor:a21d3fdb-c906-49af-80c6-5b4fb85ac911,
-    imbor:f2776a61-0294-4598-af2e-d64ecf1e0806.
+    imbor:c92cf20b-711e-44a3-a2a6-498df2fa3eba,
+    imbor:f2776a61-0294-4598-af2e-d64ecf1e0806,
+    imbor:ffc6133b-e3ff-46ab-a74d-0880472c6d95.
 
 imbor:17038d4a-7317-491d-9848-ad59132c3886 a rdf:Property;
   rdfs:seeAlso imbor-term:77847b5e-cba6-47ae-9e58-5faa163f41f9;
@@ -4626,13 +4653,6 @@ imbor:188d90ce-bdc4-4d17-834e-b51bb1ac0c49
   sh:qualifiedValueShape [
       sh:class imbor:dad7447b-d1dc-466d-bbd0-f8065bcaf4ac
     ].
-
-imbor:18973727-e14b-46ef-942a-a8bb190afe9d a rdfs:Class;
-  rdfs:seeAlso imbor-term:7fef57aa-a120-49b9-881e-9b268e4f5c73;
-  rdfs:subClassOf nen2660:EnumerationType;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Elementenverharding en het attribuut afmeting."@nl;
-  skos:prefLabel "ElementenverhardingAfmeting"@nl;
-  imbor:typeLijst "Suggestielijst"@nl.
 
 imbor:189e80cc-321d-4ffd-8e23-dad7e96a4ccd a sh:PropertyShape;
   skos:prefLabel "Weg heeft deel Rijbaan"@nl;
@@ -6135,12 +6155,15 @@ imbor:21e19973-ba96-4711-a92f-32c57989aa37 a rdfs:Class, sh:NodeShape;
   sh:property
     imbor:186339ab-1a94-471d-8838-27396cd805ce,
     imbor:2006d829-bf20-4e77-aa51-e96ed29846d0,
+    imbor:38ec6a91-b356-4067-a4c8-b365103fb4fa,
     imbor:44e36442-30d1-42e3-989e-edc9c0d469e2,
     imbor:69688752-6b20-412b-9cdc-bcfcc440b8dd,
+    imbor:77d2a265-2bf1-4ee0-a37b-925f5d35eeb9,
     imbor:7dd40dee-218d-4d61-87b9-46d642c9f1e1,
     imbor:8afff1e2-67e3-4bec-99cd-9f332e2e10ae,
     imbor:9926a509-164c-4652-80f5-49f17633f898,
     imbor:9b6d2a0c-179c-4994-b367-2465b145306e,
+    imbor:ba3cf22f-7360-4fe7-8786-7363571840f2,
     imbor:bcb3a51f-b5af-4920-b364-d5007a8c5c68,
     imbor:c6b56554-0374-4e8e-8a45-d50f484da594,
     imbor:d9fc2b39-cb15-4841-acf2-aa3359945fde,
@@ -7045,12 +7068,6 @@ imbor:27d7a4d5-ac88-44a3-864a-ba11f1491615 a sh:PropertyShape;
       sh:class imbor:38641ca5-36d2-4ee3-993e-19dfd06fc765
     ].
 
-imbor:27d7ccdd-e544-442d-9f23-7be5951a1f59
-  sh:qualifiedMinCount 0;
-  sh:qualifiedValueShape [
-      sh:class imbor:5a103946-a7a7-4f8a-8f1e-7798e3b4cf52
-    ].
-
 imbor:27edba14-b463-4444-908b-467a0c5229e1 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:c288b1b1-e07c-4132-9a75-d22327b7d211;
@@ -7480,6 +7497,13 @@ imbor:2a6c7bcf-6a2c-48d9-9f79-dd5de10fe35d a rdf:Property;
   rdfs:subPropertyOf imbor:e8f12ca1-ea58-4964-b7cc-d0f2a0713840;
   skos:definition "(Combinatie van) woorden om een individu aan te duiden."@nl;
   skos:prefLabel "naam"@nl.
+
+imbor:2a7a1d7c-d2aa-4ec0-969b-50b8f844fc8f a sh:PropertyShape;
+  qudt:unit unit:CentiM;
+  skos:prefLabel "breedte verhardingselement vastgezet op Band"@nl;
+  sh:datatype xsd:decimal;
+  sh:maxCount 1;
+  sh:path imbor:d9369412-6a63-4bd1-888e-1759ebe10b18.
 
 imbor:2a7ecd8b-0ec6-4609-8994-d11b1efdee6d a sh:PropertyShape;
   skos:prefLabel "Duin is beschreven door Soortnaam groenobject"@nl;
@@ -9127,13 +9151,6 @@ imbor:348108b9-e864-4226-84a5-c6e46e122284 a rdfs:Class, sh:NodeShape;
   skos:definition "Zand dat vanwege de uitstekende valdemping wordt gebruikt onder speeltoestellen. Het zand heeft een grove structuur en is daardoor dus niet geschikt als zandbakzand. Door de grove structuur plakt het zand onvoldoende om figuren van te kunnen maken."@nl;
   skos:prefLabel "Valzand"@nl.
 
-imbor:348524c5-de5e-42ff-9e8e-64c9f0e57e01 a sh:PropertyShape;
-  qudt:unit unit:YR;
-  skos:prefLabel "productiejaar vastgezet op Sensor"@nl;
-  sh:datatype xsd:gYear;
-  sh:maxCount 1;
-  sh:path imbor:7d504c5c-405a-4291-a7bd-4c559a3749ef.
-
 imbor:349193c3-e37a-4450-8b66-6439974dd1ac a rdfs:Class;
   rdfs:seeAlso imbor-term:260283d9-f8bc-4cb4-9057-5f33ce983868;
   rdfs:subClassOf nen2660:EnumerationType;
@@ -10055,6 +10072,13 @@ imbor:38ec236f-210f-4d3a-85e2-95931d8ea468 a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf <https://w3id.org/sml/def#Function>;
   skos:definition "Objecten t.b.v. recreatie-activiteiten. Hier worden niet bedoeld de specifieke sportterreinen."@nl;
   skos:prefLabel "Faciliteren van recreatie"@nl.
+
+imbor:38ec6a91-b356-4067-a4c8-b365103fb4fa a sh:PropertyShape;
+  qudt:unit unit:CentiM;
+  skos:prefLabel "hoogte verhardingselement vastgezet op Elementenverharding"@nl;
+  sh:datatype xsd:decimal;
+  sh:maxCount 1;
+  sh:path imbor:afa3cbdd-5613-442a-8fe8-c16b4c9609fa.
 
 imbor:38f29be5-7390-441b-b01a-65fe49180d5e a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -11303,7 +11327,6 @@ imbor:40bd01ed-180a-4644-ab10-4c94c891a452 a rdfs:Class, sh:NodeShape;
     imbor:522efe58-2fea-45a3-9b66-07392a4061df,
     imbor:72ffbe1f-4de0-484e-b67d-a2fdec787700,
     imbor:abf6f99a-11aa-4005-9154-c37b5649473b,
-    imbor:ac75072e-b8fe-45ed-b750-09ca909cd1d6,
     imbor:c3d3133c-ffd7-4553-a273-ea214d72caa1,
     imbor:d0dd7eb1-1466-43ca-a240-b5dcb7dff5e3,
     imbor:d689ed2e-a481-47ff-ab69-2c372b3321da,
@@ -14776,7 +14799,6 @@ imbor:54a69715-c34a-4303-9682-eb51e8887f36 a rdfs:Class, sh:NodeShape;
     imbor:b0da6388-c94d-4987-afdf-ef2247c751d9,
     imbor:bfc26a2a-de94-4cac-8018-edf9df05abb4,
     imbor:c5f105d5-f2f9-4983-9482-86902caeb034,
-    imbor:d99ace24-79f7-4ed9-8c77-2e4b64a08999,
     imbor:e7a45725-0984-4035-b4d5-9245a026d54f.
 
 imbor:54a9760c-fffc-4db2-85f7-9da32b0fbfba a sh:PropertyShape;
@@ -15066,13 +15088,6 @@ imbor:56cc3b63-2f76-4603-839f-1caef494dd76 a sh:PropertyShape;
   sh:qualifiedValueShape [
       sh:class imbor:5b5978a7-d2e2-46ec-94b0-d4f4a27eaf70
     ].
-
-imbor:56d95bad-ae19-461c-a20f-121d2247fe5e a sh:PropertyShape;
-  qudt:unit unit:YR;
-  skos:prefLabel "productiejaar vastgezet op Paalconstructie"@nl;
-  sh:datatype xsd:gYear;
-  sh:maxCount 1;
-  sh:path imbor:7d504c5c-405a-4291-a7bd-4c559a3749ef.
 
 imbor:56df67e5-e263-4f9f-a1f9-22e09a994343 a sh:PropertyShape;
   skos:prefLabel "Gemaal heeft deel Hijsinrichting"@nl;
@@ -15537,13 +15552,6 @@ imbor:5a0a81b6-940f-43e0-9511-d0a4b7302f28 a sh:PropertyShape;
       sh:class imbor:7572a2e9-0b04-4fb7-814e-37cafb80702e
     ].
 
-imbor:5a103946-a7a7-4f8a-8f1e-7798e3b4cf52 a rdfs:Class;
-  rdfs:seeAlso imbor-term:b959e644-a833-410a-9337-06db7865a4f6;
-  rdfs:subClassOf nen2660:EnumerationType;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Band en het attribuut afmeting."@nl;
-  skos:prefLabel "BandAfmeting"@nl;
-  imbor:typeLijst "Suggestielijst"@nl.
-
 imbor:5a158afb-ee27-4ed6-b5a4-9a1871d23f27 a rdf:Property;
   rdfs:seeAlso imbor-term:085c3807-6a51-426c-bf70-defc32af4949;
   rdfs:subPropertyOf imbor:5d1b1603-2172-4d0d-b8b3-f15e3b7c997c;
@@ -15876,10 +15884,13 @@ imbor:5b5f0762-d8ca-4b00-bea0-022aeb187fc6 a rdfs:Class, sh:NodeShape;
   skos:definition "Vegetatie die is aangelegd op het dak van een gebouw."@nl;
   skos:prefLabel "Vegetatiedak"@nl;
   sh:property
+    imbor:00c87783-7909-4c4b-bc07-d555b771db9b,
     imbor:04ceacf1-76ea-4e58-8831-6bb125b7d184,
+    imbor:0cefc4b7-28ab-462e-94b8-11500face4b3,
     imbor:1cb83d91-9d84-4f5c-b1e2-435a2149bb21,
     imbor:61db1c52-62f0-4bf0-8496-f2b5514566ec,
     imbor:7e482a3a-78e7-416b-a5fb-8cea230a1d6a,
+    imbor:8f223245-8049-4f04-80bb-521e765a79ee,
     imbor:b6f16e59-3bd5-42b8-96b9-be44745e5428,
     imbor:dbd7489f-04bd-465d-a156-8341ff694952.
 
@@ -16599,12 +16610,6 @@ imbor:5f4a9eaa-e61e-44cc-8218-79930e872a80 a rdfs:Class, sh:NodeShape;
   skos:definition "Een in vormen gegoten legering van ijzer, koolstof, mangaan en silicium."@nl;
   skos:prefLabel "Gietijzer"@nl.
 
-imbor:5f4e6dc7-0094-4acc-aa26-f912e2971a75 a rdf:Property;
-  rdfs:seeAlso imbor-term:3e21e80b-d4a2-4cd4-b205-935bb297c9f7;
-  rdfs:subPropertyOf imbor:1fe4582b-b7d6-4fe3-85d3-d1463458c37e;
-  skos:definition "Jaar waarin het object geproduceerd is en deze kan verschillen van aanlegjaar of bouwjaar."@nl;
-  skos:prefLabel "productiejaar"@nl.
-
 imbor:5f502712-e43d-4929-8afd-df23ea9a149a a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:3115e47e-a91e-4974-a3be-6d098f1cd702;
@@ -17089,12 +17094,6 @@ imbor:6156ad75-a23c-4b5f-8095-c773cd6ebffe a rdfs:Class, sh:NodeShape;
     imbor:e4b27fb2-7eed-4565-b5a7-66ce11451c64,
     imbor:fc65f1b8-c88e-40cc-83ad-3a7bac0c0ef5,
     imbor:fcc8ad8d-4f2d-4443-8164-e82d8fcdbad5.
-
-imbor:615f5819-f0d7-49e2-8381-cd3ff125ff45
-  sh:qualifiedMinCount 0;
-  sh:qualifiedValueShape [
-      sh:class imbor:18973727-e14b-46ef-942a-a8bb190afe9d
-    ].
 
 imbor:616cca8f-dbaa-4d98-a42e-24aee28535a8 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -20603,6 +20602,13 @@ imbor:77cb88f8-83eb-4e74-94da-6f1587159a76 a rdfs:Class;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Kruispunt en het attribuut verschijningsvorm."@nl;
   skos:prefLabel "KruispuntVerschijningsvorm"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
+
+imbor:77d2a265-2bf1-4ee0-a37b-925f5d35eeb9 a sh:PropertyShape;
+  qudt:unit unit:CentiM;
+  skos:prefLabel "lengte verhardingselement vastgezet op Elementenverharding"@nl;
+  sh:datatype xsd:decimal;
+  sh:maxCount 1;
+  sh:path imbor:f5636f4b-bba1-4cac-940a-1ca8b7500387.
 
 imbor:77ee836d-c2a8-432e-bdba-913944119a22
   sh:qualifiedMinCount 0;
@@ -24878,6 +24884,13 @@ imbor:8f0c0553-164e-4054-b203-b9d43e87aa7b a rdf:Property;
   skos:definition "Aanduiding voor de plaats waar een wegvak begint."@nl;
   skos:prefLabel "wegvak van"@nl.
 
+imbor:8f223245-8049-4f04-80bb-521e765a79ee a sh:PropertyShape;
+  qudt:unit unit:M2;
+  skos:prefLabel "oppervlakte vastgezet op Vegetatiedak"@nl;
+  sh:datatype xsd:decimal;
+  sh:maxCount 1;
+  sh:path imbor:29ec4228-7a32-41db-ac73-b80db66ea743.
+
 imbor:8f249273-1a31-428e-9a89-2bc206b88289 a sh:PropertyShape;
   skos:prefLabel "Beregeningsput voert uit Toegang geven tot een leiding"@nl;
   sh:path nen2660:executes;
@@ -27282,7 +27295,6 @@ imbor:9da972d3-03dd-4ccf-ae66-fb712a2a6908 a rdfs:Class, sh:NodeShape;
     imbor:2e0583be-cb63-469c-b237-a743319216e3,
     imbor:333d3855-bd0c-4a28-9ea9-3b967bb4e4ad,
     imbor:46e3699a-bc24-46fd-9376-9ffa027940bd,
-    imbor:56d95bad-ae19-461c-a20f-121d2247fe5e,
     imbor:69da6ba0-9bf1-4e30-bbfb-df37c8dadb53,
     imbor:69f2b388-f6c7-42a7-87be-b216c6b6c54b,
     imbor:e7b61eb1-8862-469f-beec-f968a8e16e20,
@@ -29974,13 +29986,6 @@ imbor:ac603b06-c2db-4460-95ac-5b01f95e7b5d a sh:PropertyShape;
       sh:class imbor:5495d019-5a34-4602-b408-59b6fdcb9aea
     ].
 
-imbor:ac75072e-b8fe-45ed-b750-09ca909cd1d6 a sh:PropertyShape;
-  qudt:unit unit:YR;
-  skos:prefLabel "productiejaar vastgezet op Bord"@nl;
-  sh:datatype xsd:gYear;
-  sh:maxCount 1;
-  sh:path imbor:7d504c5c-405a-4291-a7bd-4c559a3749ef.
-
 imbor:ac7b3b7c-84b4-4f71-8530-bc61dfbf13d5 a sh:PropertyShape;
   qudt:unit unit:M;
   skos:prefLabel "breedte vastgezet op Gebouw"@nl;
@@ -30523,6 +30528,13 @@ imbor:af922b03-43df-4d3d-8f4c-4d6786812a41 a rdfs:Class;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Reëel object en het attribuut type bewerking."@nl;
   skos:prefLabel "ReëelObjectTypeBewerking"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
+
+imbor:afa3cbdd-5613-442a-8fe8-c16b4c9609fa a rdf:Property;
+  qudt:hasQuantityKind unit:CentiM;
+  rdfs:seeAlso imbor-term:d50ca3bf-d17a-44df-8893-dd111b7c153f;
+  rdfs:subPropertyOf imbor:0dac7828-b6e7-46eb-b538-dd6ac0005eca;
+  skos:definition "Vastleggen van de hoogte van een verhardingselement als onderdeel van de afmeting."@nl;
+  skos:prefLabel "hoogte verhardingselement"@nl.
 
 imbor:afb5c423-7af2-4771-9181-e33c2f7d1cec a sh:PropertyShape;
   qudt:unit unit:M;
@@ -32320,6 +32332,13 @@ imbor:ba2278a8-94a4-4210-b635-d31c0a9dd9ae
       sh:class imbor:ae7bd5ed-7468-4fb0-b3dd-c52f9c17cc31
     ].
 
+imbor:ba3cf22f-7360-4fe7-8786-7363571840f2 a sh:PropertyShape;
+  qudt:unit unit:CentiM;
+  skos:prefLabel "breedte verhardingselement vastgezet op Elementenverharding"@nl;
+  sh:datatype xsd:decimal;
+  sh:maxCount 1;
+  sh:path imbor:d9369412-6a63-4bd1-888e-1759ebe10b18.
+
 imbor:ba4693e8-04b3-438b-b654-66d1399960c2 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:acb77b12-43a3-46ec-959c-97d7bb65188b;
@@ -33226,12 +33245,6 @@ imbor:befaedad-e835-499e-b5b5-d07ccc6b2174 a rdfs:Class, sh:NodeShape;
     imbor:4a2012bf-2f6a-4964-9449-119f79cbb5e9,
     imbor:592e71af-94c7-41fa-a5a9-be89225b740a,
     imbor:afe9f7ae-de0c-4834-8d15-6523cf4dc731.
-
-imbor:befbf0cf-bbed-4c03-b633-de2089cffb63 a rdf:Property;
-  rdfs:seeAlso imbor-term:2b5eafde-c4a4-4c68-bc41-532392b0df43;
-  rdfs:subPropertyOf imbor:cf50ce2a-f839-43fc-b769-4eb7c394e0da;
-  skos:definition "Aanduiding voor de extensie van een object in lengte, breedte en hoogte."@nl;
-  skos:prefLabel "afmeting"@nl.
 
 imbor:bf016f97-4c70-4791-a645-059e279aa632 a sh:PropertyShape;
   qudt:unit unit:M2;
@@ -34834,6 +34847,13 @@ imbor:c9261add-85b2-4241-bf21-cdf2a2e51dbd a rdfs:Class;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse APV-bord en het attribuut letterhoogteklasse ondertekst."@nl;
   skos:prefLabel "Apv-BordLetterhoogteklasseOndertekst"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
+
+imbor:c92cf20b-711e-44a3-a2a6-498df2fa3eba a sh:PropertyShape;
+  qudt:unit unit:CentiM;
+  skos:prefLabel "lengte verhardingselement vastgezet op Band"@nl;
+  sh:datatype xsd:decimal;
+  sh:maxCount 1;
+  sh:path imbor:f5636f4b-bba1-4cac-940a-1ca8b7500387.
 
 imbor:c93175e6-209e-4d7a-b032-21d5f17d27fc a rdf:Property;
   rdfs:seeAlso imbor-term:6948b2b6-45ea-4a4f-8478-738b2a3f6e2d;
@@ -37572,6 +37592,13 @@ imbor:d92e6993-5546-4b29-8cc5-25414e83c042 a rdfs:Class, sh:NodeShape;
   skos:prefLabel "Aanleginrichting"@nl;
   sh:property imbor:69c41193-a892-4cf5-b9a3-0863705309fb.
 
+imbor:d9369412-6a63-4bd1-888e-1759ebe10b18 a rdf:Property;
+  qudt:hasQuantityKind unit:CentiM;
+  rdfs:seeAlso imbor-term:44dd6ff7-6afb-457b-9f8c-34cfb6101068;
+  rdfs:subPropertyOf imbor:0dac7828-b6e7-46eb-b538-dd6ac0005eca;
+  skos:definition "Vastleggen van de breedte van een verhardingselement als onderdeel van de afmeting."@nl;
+  skos:prefLabel "breedte verhardingselement"@nl.
+
 imbor:d94a55ba-8f55-4ab6-8f97-b5a3b0ea2fff a rdfs:Class;
   rdfs:seeAlso imbor-term:23766295-4c5a-4869-ac4a-9a746c51c981;
   rdfs:subClassOf nen2660:EnumerationType;
@@ -37627,13 +37654,6 @@ imbor:d9901622-f897-44e4-a577-56e09ed55873 a rdf:Property;
   rdfs:subPropertyOf imbor:a498a632-bb10-4d61-a080-f5a2544961bd;
   skos:definition "Aanduiding voor de bovenkant van de kademuur."@nl;
   skos:prefLabel "type bovenkant kademuur"@nl.
-
-imbor:d99ace24-79f7-4ed9-8c77-2e4b64a08999 a sh:PropertyShape;
-  qudt:unit unit:YR;
-  skos:prefLabel "productiejaar vastgezet op Installatie"@nl;
-  sh:datatype xsd:gYear;
-  sh:maxCount 1;
-  sh:path imbor:7d504c5c-405a-4291-a7bd-4c559a3749ef.
 
 imbor:d9a1befb-e599-4ccc-ae56-06414a646c24
   sh:qualifiedMinCount 0;
@@ -41645,7 +41665,6 @@ imbor:f15d86c3-ef9c-4a31-a43e-de3b3f70fbbe a rdfs:Class, sh:NodeShape;
   sh:property
     imbor:1c4a6429-0af0-406f-8ddb-07cfda1fbe75,
     imbor:1f74d63e-42a7-492c-83d3-7440dc899c1a,
-    imbor:348524c5-de5e-42ff-9e8e-64c9f0e57e01,
     imbor:46c4284d-ce2e-4c10-aa0a-55dd2aeb8407,
     imbor:582c2b22-c1ed-4405-b4d0-747aa47e8b08,
     imbor:5d9df15c-8af9-47dc-9e30-9e7a5b72f3de,
@@ -42360,6 +42379,13 @@ imbor:f545bafd-03fe-4a2c-89f8-69e62ff322c4 a rdfs:Class;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Lijnmarkering en het attribuut markeringsbreedte."@nl;
   skos:prefLabel "LijnmarkeringMarkeringsbreedte"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
+
+imbor:f5636f4b-bba1-4cac-940a-1ca8b7500387 a rdf:Property;
+  qudt:hasQuantityKind unit:CentiM;
+  rdfs:seeAlso imbor-term:df7e364a-47ee-46f1-a6cc-9f48e945c4ca;
+  rdfs:subPropertyOf imbor:0dac7828-b6e7-46eb-b538-dd6ac0005eca;
+  skos:definition "Vastleggen van de lengte van een verhardingselement als onderdeel van de afmeting."@nl;
+  skos:prefLabel "lengte verhardingselement"@nl.
 
 imbor:f566c06f-6dea-4e60-8af6-4daf0a5a7851 a sh:PropertyShape;
   skos:prefLabel "Waterbeheergebied bevat Loze leiding"@nl;
@@ -44046,6 +44072,13 @@ imbor:ffb7311e-ade9-46e4-bd4a-4eec7ce10789 a rdf:Property;
   rdfs:subPropertyOf imbor:1c3eb254-6658-4b2f-a9a1-18417c6518a1;
   skos:definition "Aantal inwonerequivalenten afkomstig van recreatie."@nl;
   skos:prefLabel "aantal i.e. recreatie"@nl.
+
+imbor:ffc6133b-e3ff-46ab-a74d-0880472c6d95 a sh:PropertyShape;
+  qudt:unit unit:CentiM;
+  skos:prefLabel "hoogte verhardingselement vastgezet op Band"@nl;
+  sh:datatype xsd:decimal;
+  sh:maxCount 1;
+  sh:path imbor:afa3cbdd-5613-442a-8fe8-c16b4c9609fa.
 
 imbor:ffdfe802-feb5-4868-b21d-2627ed6c4156 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
