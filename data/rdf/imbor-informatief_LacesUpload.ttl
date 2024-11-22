@@ -53,12 +53,11 @@ nen3610:Begroeiing
   mim:equivalent imbor-mim:mim-Begroeiing.
 
 nen3610:Bodem
+  mim:attribuut imbor-mim:mim-21109d8a-6eeb-403b-921e-b907ecb11821;
   mim:equivalent imbor-mim:mim-Bodem.
 
 nen3610:Constructie
-  mim:attribuut
-    imbor-mim:mim-d70fd28a-a989-4697-8547-938be6019b5f,
-    imbor-mim:mim-dc1d1d42-b5d4-4efb-9b9d-761651b29759;
+  mim:attribuut imbor-mim:mim-d70fd28a-a989-4697-8547-938be6019b5f;
   mim:equivalent imbor-mim:mim-Constructie.
 
 nen3610:domein a mim:Attribuutsoort;
@@ -120,6 +119,7 @@ nen3610:Gebouw a sh:NodeShape;
     imbor-mim:mim-60cc339b-db7d-439f-9f12-1482e3501b5a,
     imbor-mim:mim-7ecb3a41-3c0c-40fc-bf43-83dadbd5638e,
     imbor-mim:mim-a6482382-af5c-4e18-a2db-a353004051f0,
+    imbor-mim:mim-dc1d1d42-b5d4-4efb-9b9d-761651b29759,
     imbor-mim:mim-ec4c0301-8414-4ca3-ac33-0ff0f5baa70e,
     imbor-mim:mim-f46c02ba-18ac-4f9f-856a-64dd56591700;
   mim:equivalent imbor-mim:mim-Gebouw;
@@ -163,6 +163,7 @@ nen3610:Kunstwerk a sh:NodeShape;
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
     imbor-mim:mim-60cc339b-db7d-439f-9f12-1482e3501b5a,
     imbor-mim:mim-b5ebc81d-849c-43f1-b461-3d3595a572ad,
+    imbor-mim:mim-dc1d1d42-b5d4-4efb-9b9d-761651b29759,
     imbor-mim:mim-f46c02ba-18ac-4f9f-856a-64dd56591700;
   mim:equivalent imbor-mim:mim-Kunstwerk;
   sh:property
@@ -175,6 +176,7 @@ nen3610:Leiding a sh:NodeShape;
     imbor-mim:mim-2b1b2ffa-6cdd-4c54-b8c3-475757e347ff,
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
     imbor-mim:mim-638eff22-a320-43ae-889a-0a0b5f83dceb,
+    imbor-mim:mim-7d504c5c-405a-4291-a7bd-4c559a3749ef,
     imbor-mim:mim-80bb59ca-a4dd-4d1b-bcba-fb74b8c6e191,
     imbor-mim:mim-f46c02ba-18ac-4f9f-856a-64dd56591700,
     imbor-mim:mim-fc2c974f-5a13-43fa-9a60-58fca342a91e;
@@ -260,6 +262,7 @@ nen3610:Verharding a sh:NodeShape;
     imbor-mim:mim-33e22597-696f-43d5-9916-8446909e1dc5,
     imbor-mim:mim-387834db-ae6a-4a26-8187-0f8bc330edfc,
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
+    imbor-mim:mim-7d504c5c-405a-4291-a7bd-4c559a3749ef,
     imbor-mim:mim-7dea9044-6e9b-4978-880c-f6988c068684,
     imbor-mim:mim-bc8d3dc1-3688-4748-91a3-7ab63d790292,
     imbor-mim:mim-d9532327-793b-4de2-bf30-aba06870500f,
@@ -1441,6 +1444,9 @@ imbor:05d729a2-ce88-4279-83b4-593feb8601f7
 imbor:05da70be-ff78-4916-a866-69df506776bb
   imbor-refmodels:levensfaseTypering "O".
 
+imbor:05e2e10e-9271-435d-850c-61b192e971c5
+  mim:equivalent imbor-mim:mim-05e2e10e-9271-435d-850c-61b192e971c5.
+
 imbor:05ed1a12-9352-4758-aaaa-8a633e14846d
   imbor-refmodels:levensfaseTypering "O".
 
@@ -2027,6 +2033,9 @@ imbor:0e4a95fc-f152-4488-8cd1-b3394e34b09e
 imbor:0e4e3d11-2e7f-4479-bf6c-af8d94ed32ba
   mim:equivalent imbor-mim:mim-0e4e3d11-2e7f-4479-bf6c-af8d94ed32ba.
 
+imbor:0e5305ee-7dc3-4e01-9cc6-89d25bd289fb
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:0e775e22-d30a-4d05-a68e-140f7580f23a
   mim:equivalent imbor-mim:mim-0e775e22-d30a-4d05-a68e-140f7580f23a.
 
@@ -2101,6 +2110,9 @@ imbor:0fa9f6b5-bcd2-45f9-a20f-b696adf2b241
 
 imbor:0faccc66-e03d-43c0-9799-a3e707eb00f0
   mim:equivalent imbor-mim:mim-0faccc66-e03d-43c0-9799-a3e707eb00f0.
+
+imbor:0fb4a0c0-a380-42b9-8db9-64d99ec2d298
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:0fbb03d2-e5b7-4a83-ac36-260046d728d5
   mim:equivalent imbor-mim:mim-0fbb03d2-e5b7-4a83-ac36-260046d728d5.
@@ -2336,6 +2348,9 @@ imbor:13af1bcc-1413-4e7f-b092-f11c83c61269
 imbor:13c344c4-9120-4918-b7ae-6c6b293378d9
   mim:equivalent imbor-mim:mim-13c344c4-9120-4918-b7ae-6c6b293378d9.
 
+imbor:13ddc3be-13c2-4b85-bcea-4f1e15682a68
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:13df22f1-ee84-4186-8a2b-b25023c48aa0
   mim:equivalent imbor-mim:mim-13df22f1-ee84-4186-8a2b-b25023c48aa0.
 
@@ -2432,6 +2447,9 @@ imbor:15050fa6-1492-42a2-bf29-edb333d15d20
 imbor:15108cae-8560-4163-904e-b54f55e4094c
   mim:equivalent imbor-mim:mim-15108cae-8560-4163-904e-b54f55e4094c.
 
+imbor:152bbba1-0736-4be5-aa67-a623738c8490
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:1531ddc1-56d3-4248-b3fe-773450b5fc71
   mim:equivalent imbor-mim:mim-1531ddc1-56d3-4248-b3fe-773450b5fc71.
 
@@ -2525,9 +2543,6 @@ imbor:16b8c776-40b8-42e4-8177-9ad32767e50a
 imbor:16c6a0f1-0766-4484-a02f-243f21cf09fc
   mim:equivalent imbor-mim:mim-16c6a0f1-0766-4484-a02f-243f21cf09fc.
 
-imbor:16cd1e9e-aee3-4526-bee3-3fa5038dc678
-  imbor-refmodels:levensfaseTypering "B".
-
 imbor:16ce0662-115c-407f-88f8-948d587e04d6
   mim:equivalent imbor-mim:mim-16ce0662-115c-407f-88f8-948d587e04d6.
 
@@ -2560,9 +2575,6 @@ imbor:170d2a0b-f75b-46e4-8f72-f2b4fd0c45e1
 
 imbor:170ea97e-26fd-4b4a-8f7b-2ba5994159fe
   mim:equivalent imbor-mim:mim-170ea97e-26fd-4b4a-8f7b-2ba5994159fe.
-
-imbor:17194880-82a8-46f7-9a08-10959818fcc3
-  mim:equivalent imbor-mim:mim-17194880-82a8-46f7-9a08-10959818fcc3.
 
 imbor:1725ffad-23e9-4d10-b6d9-4f6428d2059c
   imbor-refmodels:levensfaseTypering "B".
@@ -2852,6 +2864,9 @@ imbor:1ba86fd7-336b-414c-b728-3f4942d53aba
 imbor:1bb25a2a-8008-4523-aac5-936cd7f08f2f a sh:NodeShape;
   mim:equivalent imbor-mim:mim-1bb25a2a-8008-4523-aac5-936cd7f08f2f;
   sh:property imbor-refmodels:c5db7b69-e41f-4770-9ccc-4bee69735b9d.
+
+imbor:1bb965c3-e32a-457c-b382-341041bfbdc5
+  imbor-refmodels:levensfaseTypering "B".
 
 imbor:1bda1e91-863b-4747-bfa4-6cbaec2271d3
   mim:equivalent imbor-mim:mim-1bda1e91-863b-4747-bfa4-6cbaec2271d3.
@@ -3171,6 +3186,9 @@ imbor:20b74a16-3945-4cee-ab24-cd896cd73b49
 imbor:2102f563-baab-4662-a2ee-083648604766
   imbor-refmodels:levensfaseTypering "O".
 
+imbor:21109d8a-6eeb-403b-921e-b907ecb11821
+  mim:equivalent imbor-mim:mim-21109d8a-6eeb-403b-921e-b907ecb11821.
+
 imbor:211dc79c-6502-4794-82ac-950250062905
   mim:equivalent imbor-mim:mim-211dc79c-6502-4794-82ac-950250062905.
 
@@ -3471,9 +3489,6 @@ imbor:25bdb9bc-85ed-493f-a3cd-b559fffa5133
 imbor:25c00047-d34f-4aba-a2dd-dd5edf14c8e7
   mim:equivalent imbor-mim:mim-25c00047-d34f-4aba-a2dd-dd5edf14c8e7.
 
-imbor:25e2cff2-2b8e-408b-9d6e-bfc3609396b7
-  imbor-refmodels:levensfaseTypering "B".
-
 imbor:25ebc55a-44b7-4b74-9528-ec7601b83440
   mim:equivalent imbor-mim:mim-25ebc55a-44b7-4b74-9528-ec7601b83440.
 
@@ -3509,9 +3524,6 @@ imbor:26785906-fe1d-437b-aecd-9312da08cde6
 
 imbor:26950799-7d8b-4b79-a169-1709eb6af4b7
   mim:equivalent imbor-mim:mim-26950799-7d8b-4b79-a169-1709eb6af4b7.
-
-imbor:26a483b7-e60e-4a5e-be09-de34d451cc3c
-  mim:equivalent imbor-mim:mim-26a483b7-e60e-4a5e-be09-de34d451cc3c.
 
 imbor:26a72f0a-095e-4a96-8479-9774a72d0bd3
   imbor-refmodels:levensfaseTypering "O".
@@ -3699,9 +3711,6 @@ imbor:29781d12-293d-4665-94f1-ec847ed964fb
 imbor:299a0186-0e48-4336-8967-a590bdfa2b5a
   mim:equivalent imbor-mim:mim-299a0186-0e48-4336-8967-a590bdfa2b5a.
 
-imbor:29a1a2bc-df2d-4ab1-ad37-d21dd00ef631
-  mim:equivalent imbor-mim:mim-29a1a2bc-df2d-4ab1-ad37-d21dd00ef631.
-
 imbor:29a1f54f-7a6b-4d07-a8c7-729f8b3e5e3e
   mim:equivalent imbor-mim:mim-29a1f54f-7a6b-4d07-a8c7-729f8b3e5e3e.
 
@@ -3800,9 +3809,6 @@ imbor:2b23386b-e63a-4401-bec7-c3a5ac1256bb
 
 imbor:2b2466a0-03e4-4509-8999-ca708d1e2935
   imbor-refmodels:levensfaseTypering "O".
-
-imbor:2b2ae028-1822-4339-be9d-79e51030f50a
-  mim:equivalent imbor-mim:mim-2b2ae028-1822-4339-be9d-79e51030f50a.
 
 imbor:2b3b762b-87b2-40f0-b1f3-c0885495c4b2
   mim:equivalent imbor-mim:mim-2b3b762b-87b2-40f0-b1f3-c0885495c4b2.
@@ -3966,6 +3972,12 @@ imbor:2d829a1f-0eeb-481f-a2de-f8dcc71894e2
 imbor:2d8e6ee4-8c49-4e2a-9074-5dd72acc60c7
   imbor-refmodels:levensfaseTypering "B".
 
+imbor:2d958319-2b6c-4b57-af03-9a20d3affd88
+  imbor-refmodels:levensfaseTypering "O".
+
+imbor:2d9b70be-51ce-4a01-b4bb-e02c12969ac2
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:2d9cc0a1-dfea-4525-82e1-87ee233bd679
   imbor-refmodels:levensfaseTypering "O".
 
@@ -3986,9 +3998,6 @@ imbor:2dc05e93-49af-4c5c-bc65-8fdae13ff04a
 
 imbor:2dc91655-0360-40c6-9223-25556c6ed93f
   mim:equivalent imbor-mim:mim-2dc91655-0360-40c6-9223-25556c6ed93f.
-
-imbor:2dd94387-3255-41c7-abdb-4f9ebaa1d8c6
-  imbor-refmodels:levensfaseTypering "B".
 
 imbor:2df810e3-91f8-4e67-a542-4215d96a434c
   mim:equivalent imbor-mim:mim-2df810e3-91f8-4e67-a542-4215d96a434c.
@@ -4040,9 +4049,6 @@ imbor:2eb9bd5d-ae1d-4d65-9bff-a8fbbcb07eba
 
 imbor:2ed435ee-c07f-4277-82c3-fec11233f67f
   mim:equivalent imbor-mim:mim-2ed435ee-c07f-4277-82c3-fec11233f67f.
-
-imbor:2ee53749-fb7a-4a68-ae5e-8636d121517e
-  imbor-refmodels:levensfaseTypering "B".
 
 imbor:2efa5eb2-1a06-461d-a108-7c52155acbcc
   mim:equivalent imbor-mim:mim-2efa5eb2-1a06-461d-a108-7c52155acbcc.
@@ -4118,9 +4124,6 @@ imbor:300fcdeb-168f-42d8-b9dd-274f0254b116
 
 imbor:3016adc0-4adf-45e3-bcd5-d633ff15763f
   mim:equivalent imbor-mim:mim-3016adc0-4adf-45e3-bcd5-d633ff15763f.
-
-imbor:3024d1eb-9052-46c0-a051-8156a01cef72
-  mim:equivalent imbor-mim:mim-3024d1eb-9052-46c0-a051-8156a01cef72.
 
 imbor:3043f302-4920-4ab0-8864-6c12900347e7
   imbor-refmodels:levensfaseTypering "O".
@@ -4382,6 +4385,9 @@ imbor:3476a450-36e1-448a-be67-3e058cc98331
 
 imbor:348108b9-e864-4226-84a5-c6e46e122284
   mim:equivalent imbor-mim:mim-348108b9-e864-4226-84a5-c6e46e122284.
+
+imbor:348524c5-de5e-42ff-9e8e-64c9f0e57e01
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:349193c3-e37a-4450-8b66-6439974dd1ac
   mim:equivalent imbor-mim:mim-349193c3-e37a-4450-8b66-6439974dd1ac.
@@ -4647,6 +4653,9 @@ imbor:388d9688-84a7-4dfb-8abe-d1ad4b6b9169
 imbor:3893ef21-8b60-4ec6-a1de-d21d764a8dd1
   imbor-refmodels:levensfaseTypering "B".
 
+imbor:3894db58-ad03-440d-be0a-8b9cb376e4f8
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:389e81d2-75bd-468d-a6cf-0d43eb73de87
   imbor-refmodels:levensfaseTypering "O".
 
@@ -4673,9 +4682,6 @@ imbor:38f29be5-7390-441b-b01a-65fe49180d5e
 
 imbor:39066c48-7d44-48de-b95d-d18244c80fba
   mim:equivalent imbor-mim:mim-39066c48-7d44-48de-b95d-d18244c80fba.
-
-imbor:390b0a20-9624-4536-9c43-73573cd1f172
-  imbor-refmodels:levensfaseTypering "O".
 
 imbor:391bab75-9782-4c41-8753-4bb35a27c49a
   imbor-refmodels:levensfaseTypering "O".
@@ -4835,6 +4841,9 @@ imbor:3bb78686-2f0e-4e19-a24f-1a0f56b43670
 
 imbor:3bb8e4a3-529c-41a4-a24e-b734f3d87f2e
   imbor-refmodels:levensfaseTypering "B".
+
+imbor:3bbab9b5-d07c-4478-b309-63ee8d639674
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:3bc17e0c-437c-4819-873b-d6521c13815f
   mim:equivalent imbor-mim:mim-3bc17e0c-437c-4819-873b-d6521c13815f.
@@ -5007,6 +5016,9 @@ imbor:3e5e3a72-ee55-444d-a261-02473bd1c011
 imbor:3e694712-b4b9-4ac5-94c5-372b70d1d369
   mim:equivalent imbor-mim:mim-3e694712-b4b9-4ac5-94c5-372b70d1d369.
 
+imbor:3e6c894c-26f6-4c21-b3fc-f82440281962
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:3e750a68-9574-4e38-a760-d72b44bc091f
   imbor-refmodels:levensfaseTypering "O".
 
@@ -5147,9 +5159,6 @@ imbor:40492899-8039-457e-92f6-44bee5c8c219
 
 imbor:4063c86a-10f0-4101-95d6-f26354f9762c
   mim:equivalent imbor-mim:mim-4063c86a-10f0-4101-95d6-f26354f9762c.
-
-imbor:406d0c01-a8e8-4041-8ea9-bc9a6f683cf0
-  mim:equivalent imbor-mim:mim-406d0c01-a8e8-4041-8ea9-bc9a6f683cf0.
 
 imbor:406d1567-dd4d-4f62-a6e5-380531b40178
   mim:equivalent imbor-mim:mim-406d1567-dd4d-4f62-a6e5-380531b40178.
@@ -5491,6 +5500,9 @@ imbor:45ac6f07-7f89-4bb4-8999-253f45c815fc
 imbor:45b4d06c-6089-4470-bb45-0d9f3b81c88e
   mim:equivalent imbor-mim:mim-45b4d06c-6089-4470-bb45-0d9f3b81c88e.
 
+imbor:45cd6d6b-a058-4215-aada-feebdd0caa00
+  imbor-refmodels:levensfaseTypering "B".
+
 imbor:45cdb7ef-abfd-4e14-aa65-7befabe3b0d5
   mim:equivalent imbor-mim:mim-45cdb7ef-abfd-4e14-aa65-7befabe3b0d5.
 
@@ -5566,9 +5578,6 @@ imbor:468cc40a-253a-424d-a95d-539686bbbd34
 imbor:4690b2b0-c472-4f29-912b-91ec1d2462c6
   imbor-refmodels:levensfaseTypering "B".
 
-imbor:469e5e02-a406-4cb3-9e0c-73855b4e5b11
-  imbor-refmodels:levensfaseTypering "B".
-
 imbor:46a33b78-75bc-42f5-adef-049044e22b74
   mim:equivalent imbor-mim:mim-46a33b78-75bc-42f5-adef-049044e22b74.
 
@@ -5634,6 +5643,9 @@ imbor:47733ff4-3a09-471f-bb0f-a7e5bd8f30af
 
 imbor:47850297-9171-487d-a881-4434463cb418
   mim:equivalent imbor-mim:mim-47850297-9171-487d-a881-4434463cb418.
+
+imbor:4787aa49-2a37-4913-9a5e-3f57ca0f663a
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:479dd461-31be-4344-863c-a83ab2453dc4
   imbor-refmodels:levensfaseTypering "O".
@@ -6024,9 +6036,6 @@ imbor:4dede84a-56de-4ecf-9214-f8e4e34ac21c
 
 imbor:4df06f4f-90ba-4344-82c8-0f4519c2bc70
   mim:equivalent imbor-mim:mim-4df06f4f-90ba-4344-82c8-0f4519c2bc70.
-
-imbor:4dff3ade-daf6-423e-9e53-0f641a748b14
-  imbor-refmodels:levensfaseTypering "B".
 
 imbor:4e13bed4-2e3b-482c-885e-9d88ee442414
   mim:equivalent imbor-mim:mim-4e13bed4-2e3b-482c-885e-9d88ee442414.
@@ -6554,6 +6563,9 @@ imbor:55e3bf25-170b-40ff-8c6b-7b6aaa74ffd8
 imbor:55ecdb51-98d1-4426-af58-a1fa1399a264
   mim:equivalent imbor-mim:mim-55ecdb51-98d1-4426-af58-a1fa1399a264.
 
+imbor:55ef69ca-e000-43cd-a7ac-49176350c1df
+  mim:equivalent imbor-mim:mim-55ef69ca-e000-43cd-a7ac-49176350c1df.
+
 imbor:55f0f1c7-6897-49d3-9293-2b095b459f96
   imbor-refmodels:levensfaseTypering "O".
 
@@ -6601,6 +6613,9 @@ imbor:56c5fd82-c17f-4184-a012-c603ba99eb2c
 
 imbor:56cc3b63-2f76-4603-839f-1caef494dd76
   mim:equivalent imbor-mim:mim-56cc3b63-2f76-4603-839f-1caef494dd76.
+
+imbor:56d95bad-ae19-461c-a20f-121d2247fe5e
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:56df67e5-e263-4f9f-a1f9-22e09a994343
   mim:equivalent imbor-mim:mim-56df67e5-e263-4f9f-a1f9-22e09a994343.
@@ -6757,9 +6772,6 @@ imbor:592e71af-94c7-41fa-a5a9-be89225b740a
 
 imbor:594fb67b-355e-4901-bc96-d53be9116427
   mim:equivalent imbor-mim:mim-594fb67b-355e-4901-bc96-d53be9116427.
-
-imbor:5958a2c7-0c3b-480f-9128-540af27e726f
-  mim:equivalent imbor-mim:mim-5958a2c7-0c3b-480f-9128-540af27e726f.
 
 imbor:59687507-fb10-4a17-980b-d49d6dcd0180
   mim:equivalent imbor-mim:mim-59687507-fb10-4a17-980b-d49d6dcd0180.
@@ -7092,6 +7104,9 @@ imbor:5da747b8-5c11-4927-99a9-f131ec652bd1
 imbor:5dbc2cee-32cd-435f-a51a-10a7557f2045
   mim:equivalent imbor-mim:mim-5dbc2cee-32cd-435f-a51a-10a7557f2045.
 
+imbor:5de5cd9e-22ed-447a-979a-9d93bcd51d0a
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:5dea9239-6184-4deb-8c85-b576710ffe0a
   mim:equivalent imbor-mim:mim-5dea9239-6184-4deb-8c85-b576710ffe0a.
 
@@ -7208,6 +7223,9 @@ imbor:5f49e109-2459-4743-a965-6bdbfc6534b1
 
 imbor:5f4a9eaa-e61e-44cc-8218-79930e872a80
   mim:equivalent imbor-mim:mim-5f4a9eaa-e61e-44cc-8218-79930e872a80.
+
+imbor:5f4e6dc7-0094-4acc-aa26-f912e2971a75
+  mim:equivalent imbor-mim:mim-5f4e6dc7-0094-4acc-aa26-f912e2971a75.
 
 imbor:5f502712-e43d-4929-8afd-df23ea9a149a
   mim:equivalent imbor-mim:mim-5f502712-e43d-4929-8afd-df23ea9a149a.
@@ -7591,6 +7609,9 @@ imbor:650ea0d3-4424-4ce8-b330-185669e4e4fe
 imbor:6511779f-a8d2-4a86-b66c-37cf1df1dc3a
   mim:equivalent imbor-mim:mim-6511779f-a8d2-4a86-b66c-37cf1df1dc3a.
 
+imbor:654b52ab-3705-44f9-9ff4-d357d2a24d3a
+  mim:equivalent imbor-mim:mim-654b52ab-3705-44f9-9ff4-d357d2a24d3a.
+
 imbor:654ea923-c8ac-4c00-80eb-d53c3409b38f
   mim:equivalent imbor-mim:mim-654ea923-c8ac-4c00-80eb-d53c3409b38f.
 
@@ -7635,6 +7656,9 @@ imbor:65db79f7-4d20-4b59-be6d-b67a490fe2a9
 
 imbor:65dc1584-7182-4c2f-8c55-7b9aaddbcbc1
   imbor-refmodels:levensfaseTypering "O".
+
+imbor:65dc3492-be5e-4961-9d1b-581341e37fe2
+  imbor-refmodels:levensfaseTypering "B".
 
 imbor:65dd433d-030c-40c7-8887-b290e821906e
   mim:equivalent imbor-mim:mim-65dd433d-030c-40c7-8887-b290e821906e.
@@ -7945,6 +7969,9 @@ imbor:6a9c9bf1-1c12-4e36-8caf-c35b2d262ae2
 imbor:6aba3807-2575-49ec-a7e5-4ddcd50c416d
   imbor-refmodels:levensfaseTypering "O".
 
+imbor:6ad13406-a2c3-4b69-b753-5fe2ce5288b0
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:6ae2ccd7-76c1-4057-b0c0-e0c39aea06f3
   imbor-refmodels:levensfaseTypering "O".
 
@@ -8062,6 +8089,9 @@ imbor:6c7965b7-d0d3-4d53-b64a-8d4004094c7b
 imbor:6c917be9-1bd2-46c3-8144-966877158361
   mim:equivalent imbor-mim:mim-6c917be9-1bd2-46c3-8144-966877158361.
 
+imbor:6cb717bb-5a35-4bd1-b8a0-630a3ab63462
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:6cbf4d8e-0315-47b6-87c1-9ed242684323
   mim:equivalent imbor-mim:mim-6cbf4d8e-0315-47b6-87c1-9ed242684323.
 
@@ -8113,6 +8143,9 @@ imbor:6dcdd0be-4f35-41d1-ad0b-afd4df44f51f
 imbor:6dd67783-a017-4ca3-9708-b96b4dd867ef
   mim:equivalent imbor-mim:mim-6dd67783-a017-4ca3-9708-b96b4dd867ef.
 
+imbor:6de5e761-ad81-46ca-aeb8-e08c3596db1c
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:6dfef49b-87b6-4630-a5e9-781d900ca381
   imbor-refmodels:levensfaseTypering "O".
 
@@ -8121,6 +8154,9 @@ imbor:6e0036b7-32c2-4e39-ace2-f3dd87922325
 
 imbor:6e039423-10da-4be7-82ae-1dfd4b372223
   imbor-refmodels:levensfaseTypering "O".
+
+imbor:6e07d796-7d7c-4023-a29b-edb2b8270aec
+  mim:equivalent imbor-mim:mim-6e07d796-7d7c-4023-a29b-edb2b8270aec.
 
 imbor:6e1f4955-42a0-4b20-a556-023e946284db
   imbor-refmodels:levensfaseTypering "O".
@@ -8445,9 +8481,6 @@ imbor:72c2a234-dc1a-4d87-8f04-2b907dd94884
 
 imbor:72c43168-c58c-4aa8-9f85-6d18fc54860c
   mim:equivalent imbor-mim:mim-72c43168-c58c-4aa8-9f85-6d18fc54860c.
-
-imbor:72c99d1f-954b-4d0e-8a32-ab9a749368cf
-  mim:equivalent imbor-mim:mim-72c99d1f-954b-4d0e-8a32-ab9a749368cf.
 
 imbor:72cdfb3e-e5db-4f6b-b2d9-cc684a395390
   mim:equivalent imbor-mim:mim-72cdfb3e-e5db-4f6b-b2d9-cc684a395390.
@@ -9348,6 +9381,9 @@ imbor:7f66a228-de94-4d14-95fd-af9922198985
 imbor:7f6c9b5d-8c7c-4fe7-9ddf-b9907418bb1d
   mim:equivalent imbor-mim:mim-7f6c9b5d-8c7c-4fe7-9ddf-b9907418bb1d.
 
+imbor:7f78d565-d16d-4ccd-a0b9-644e5eceb13f
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:7f7feec7-649c-494b-b11d-a9695ba87dfa
   mim:equivalent imbor-mim:mim-7f7feec7-649c-494b-b11d-a9695ba87dfa.
 
@@ -9603,6 +9639,9 @@ imbor:83550189-cbe6-43d4-aa99-fc29f668b9fa
 imbor:835a695f-b5cf-4a98-8726-d85b379791cd
   mim:equivalent imbor-mim:mim-835a695f-b5cf-4a98-8726-d85b379791cd.
 
+imbor:835c0082-6f07-439d-85e4-e57b11967fea
+  mim:equivalent imbor-mim:mim-835c0082-6f07-439d-85e4-e57b11967fea.
+
 imbor:83615ca0-69d2-4b0d-bd5f-bedc08900c85
   imbor-refmodels:levensfaseTypering "O".
 
@@ -9663,6 +9702,9 @@ imbor:8414f5a0-7ea6-4c76-80bf-b0038648733d
 
 imbor:841d1961-f69f-4e4e-8477-47cb3a9f501a
   mim:equivalent imbor-mim:mim-841d1961-f69f-4e4e-8477-47cb3a9f501a.
+
+imbor:842719c8-3bf5-487f-adf0-402fd00e4238
+  mim:equivalent imbor-mim:mim-842719c8-3bf5-487f-adf0-402fd00e4238.
 
 imbor:843e4b2d-0ef0-4ea7-9108-48dae16bc571
   mim:equivalent imbor-mim:mim-843e4b2d-0ef0-4ea7-9108-48dae16bc571.
@@ -9981,6 +10023,9 @@ imbor:88c08e74-e29b-40c1-8aa3-89c43919e036
 
 imbor:88c56473-462a-4e65-b7d3-0989b2d2d85c
   mim:equivalent imbor-mim:mim-88c56473-462a-4e65-b7d3-0989b2d2d85c.
+
+imbor:88c9291f-c72b-4783-992e-ddbd7c784a76
+  mim:equivalent imbor-mim:mim-88c9291f-c72b-4783-992e-ddbd7c784a76.
 
 imbor:88d02b2d-9373-4a27-96ef-049c088a410a
   mim:equivalent imbor-mim:mim-88d02b2d-9373-4a27-96ef-049c088a410a.
@@ -10338,6 +10383,9 @@ imbor:8dbedeee-7000-455c-8e43-d1a9fde2472b
 imbor:8dbfe023-a36b-4df3-bd8f-b84db81dcdb9
   imbor-refmodels:levensfaseTypering "O".
 
+imbor:8dc52376-dd8f-49e3-a5e0-2e168cf1a3f5
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:8dcf6bcb-4a5f-4869-adb5-9a67a569a97d
   mim:equivalent imbor-mim:mim-8dcf6bcb-4a5f-4869-adb5-9a67a569a97d.
 
@@ -10493,6 +10541,9 @@ imbor:9070e8e3-cda2-42a5-85ae-6eb9b7dae91d
 
 imbor:90734408-375a-4559-a790-35db08e75a0c
   mim:equivalent imbor-mim:mim-90734408-375a-4559-a790-35db08e75a0c.
+
+imbor:9076aef7-d040-4e99-8826-9b2be0e7bd9b
+  mim:equivalent imbor-mim:mim-9076aef7-d040-4e99-8826-9b2be0e7bd9b.
 
 imbor:9086722b-17e4-4aeb-b247-80c6c450d26b
   mim:equivalent imbor-mim:mim-9086722b-17e4-4aeb-b247-80c6c450d26b.
@@ -10751,9 +10802,6 @@ imbor:941743cf-b655-4a6c-ba4d-d14eed70b4ec
 
 imbor:941a17c1-a2b2-4cd1-8991-08b0ebcf0c2a
   mim:equivalent imbor-mim:mim-941a17c1-a2b2-4cd1-8991-08b0ebcf0c2a.
-
-imbor:94333c88-8240-47de-8040-3a3f158282e0
-  mim:equivalent imbor-mim:mim-94333c88-8240-47de-8040-3a3f158282e0.
 
 imbor:943b5825-b8d7-4bb1-a4e3-779790af835b
   mim:equivalent imbor-mim:mim-943b5825-b8d7-4bb1-a4e3-779790af835b.
@@ -11131,6 +11179,9 @@ imbor:9ab0e653-0721-4ade-8652-64627596c100
 imbor:9abe36e3-5e6f-4baf-b0c5-48ad73dd3493
   imbor-refmodels:levensfaseTypering "B".
 
+imbor:9aca6cdb-6ea1-41f4-a998-0222dccb11a6
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:9ae16b2e-b0fe-41b1-a76b-7a11295b9c5f
   mim:equivalent imbor-mim:mim-9ae16b2e-b0fe-41b1-a76b-7a11295b9c5f.
 
@@ -11193,9 +11244,6 @@ imbor:9bbe35bc-4c9f-455c-b615-6a55d7394ad4
 
 imbor:9bbf74bf-892b-4d15-ade4-f3c02a9c5a16
   mim:equivalent imbor-mim:mim-9bbf74bf-892b-4d15-ade4-f3c02a9c5a16.
-
-imbor:9be5c002-5e53-43ec-ae3f-a58d98c00af4
-  mim:equivalent imbor-mim:mim-9be5c002-5e53-43ec-ae3f-a58d98c00af4.
 
 imbor:9bede460-5f22-419f-b5c2-860699f0d51a
   imbor-refmodels:levensfaseTypering "O".
@@ -11374,6 +11422,9 @@ imbor:9e4b4201-7623-4607-94c8-603ae1a41d7a
 
 imbor:9e4eadf7-1ef6-4970-8dba-7b7d9c9d81e7
   mim:equivalent imbor-mim:mim-9e4eadf7-1ef6-4970-8dba-7b7d9c9d81e7.
+
+imbor:9e7e9c20-41f3-4ba5-bbcf-47d36310c618
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:9e898a94-8aa9-4807-b385-8b6cb7acf1ae
   imbor-refmodels:levensfaseTypering "O".
@@ -11572,9 +11623,6 @@ imbor:a185a2e8-e983-4e34-ab8e-81e1fddf1999
 
 imbor:a1877af2-6e94-48c5-9760-8b94fd1286a2
   mim:equivalent imbor-mim:mim-a1877af2-6e94-48c5-9760-8b94fd1286a2.
-
-imbor:a189cb1d-cbc9-4f24-a30e-4f8a846ec280
-  imbor-refmodels:levensfaseTypering "B".
 
 imbor:a18d6631-cf78-4af4-a186-94599e43287e
   mim:equivalent imbor-mim:mim-a18d6631-cf78-4af4-a186-94599e43287e.
@@ -11858,9 +11906,6 @@ imbor:a6827add-5633-41b7-b067-980e553ab758
 imbor:a687eadf-9649-4c88-985e-4f005170dd64
   mim:equivalent imbor-mim:mim-a687eadf-9649-4c88-985e-4f005170dd64.
 
-imbor:a6939ae9-d275-4674-8fb5-a9de7842806d
-  imbor-refmodels:levensfaseTypering "O".
-
 imbor:a69c87ef-0ffa-457e-ab70-a84fd5a96455
   imbor-refmodels:levensfaseTypering "O".
 
@@ -12122,6 +12167,9 @@ imbor:a9bc59fc-2cd8-4594-b5cb-66c75eef4678
 imbor:a9c100cf-70b9-4687-a50f-8f1e25a45fbf
   mim:equivalent imbor-mim:mim-a9c100cf-70b9-4687-a50f-8f1e25a45fbf.
 
+imbor:a9de03ea-26aa-4c82-9484-cd85dfda75e3
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:a9df70fd-e059-4290-be44-30f3e1b9e696
   imbor-refmodels:levensfaseTypering "B".
 
@@ -12281,6 +12329,9 @@ imbor:ac602161-16b9-49b0-bb23-ae94cc8af2bb
 imbor:ac603b06-c2db-4460-95ac-5b01f95e7b5d
   mim:equivalent imbor-mim:mim-ac603b06-c2db-4460-95ac-5b01f95e7b5d.
 
+imbor:ac75072e-b8fe-45ed-b750-09ca909cd1d6
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:ac7b3b7c-84b4-4f71-8530-bc61dfbf13d5
   imbor-refmodels:levensfaseTypering "O".
 
@@ -12373,9 +12424,6 @@ imbor:adad6d7e-4ffb-496c-b562-6d81cbca1f12
 
 imbor:adb26a5d-def9-4b7d-857c-9642a9e38ebe
   mim:equivalent imbor-mim:mim-adb26a5d-def9-4b7d-857c-9642a9e38ebe.
-
-imbor:adb74a12-7441-437e-abbb-ca9ef7b1013d
-  imbor-refmodels:levensfaseTypering "O".
 
 imbor:addf24bb-0596-4fd2-8af9-041f2a3cf67c
   imbor-refmodels:levensfaseTypering "O".
@@ -12475,9 +12523,6 @@ imbor:af5d2221-c318-486a-9cb8-cd0df93d416b
 
 imbor:af6e72bc-1a50-4a43-8d42-2a0224662897
   mim:equivalent imbor-mim:mim-af6e72bc-1a50-4a43-8d42-2a0224662897.
-
-imbor:af71db00-bd18-4ce6-9097-2ff525443769
-  mim:equivalent imbor-mim:mim-af71db00-bd18-4ce6-9097-2ff525443769.
 
 imbor:af72c358-b5e6-4460-ba45-edd815c8d51e
   mim:equivalent imbor-mim:mim-af72c358-b5e6-4460-ba45-edd815c8d51e.
@@ -12746,6 +12791,9 @@ imbor:b434453d-9638-45bd-bfcc-568f40eb2c89
 imbor:b4388cb9-775b-47dd-b413-4e44162f296b
   mim:equivalent imbor-mim:mim-b4388cb9-775b-47dd-b413-4e44162f296b.
 
+imbor:b43fc271-c559-4780-a32e-6216bcfdfe6b
+  imbor-refmodels:levensfaseTypering "B".
+
 imbor:b443540b-0f30-433a-9031-273b1d715ee1
   mim:equivalent imbor-mim:mim-b443540b-0f30-433a-9031-273b1d715ee1.
 
@@ -12760,9 +12808,6 @@ imbor:b45f3cc5-b18a-40a4-9b6c-a654f7d66346
 
 imbor:b464c700-6a0c-42a7-b433-1563de076ba9
   imbor-refmodels:levensfaseTypering "O".
-
-imbor:b4696231-6485-4c37-94b1-a7668f58e092
-  mim:equivalent imbor-mim:mim-b4696231-6485-4c37-94b1-a7668f58e092.
 
 imbor:b46c9bd1-a971-4869-b84e-6d244d6b7a9d
   mim:equivalent imbor-mim:mim-b46c9bd1-a971-4869-b84e-6d244d6b7a9d.
@@ -13242,9 +13287,6 @@ imbor:bab61658-da9f-424a-b766-0c314032d6d8
 imbor:bacc9bfb-fea9-449c-a3c2-faddc1dbf1ad
   mim:equivalent imbor-mim:mim-bacc9bfb-fea9-449c-a3c2-faddc1dbf1ad.
 
-imbor:bad456c3-623e-4c5a-b996-eb3d83966508
-  imbor-refmodels:levensfaseTypering "O".
-
 imbor:baf4b397-525f-48f8-8af6-6cc0d68726dd
   mim:equivalent imbor-mim:mim-baf4b397-525f-48f8-8af6-6cc0d68726dd.
 
@@ -13495,9 +13537,6 @@ imbor:be40290a-6bf1-47a4-bde1-4f129aa8fd82 a sh:NodeShape;
 imbor:be435e2b-4ccc-4fda-8449-6f8e9f307286
   imbor-refmodels:levensfaseTypering "O".
 
-imbor:be44200d-9cab-49c4-a0cc-36e372d86bc7
-  imbor-refmodels:levensfaseTypering "B".
-
 imbor:be47f89f-03d8-4368-80c7-b06a7c9ef3d7
   mim:equivalent imbor-mim:mim-be47f89f-03d8-4368-80c7-b06a7c9ef3d7.
 
@@ -13659,6 +13698,9 @@ imbor:c06d08e7-945a-4cb5-b228-62152f8bf3c3
 
 imbor:c075920b-0660-43a4-82df-9b415b649c48
   mim:equivalent imbor-mim:mim-c075920b-0660-43a4-82df-9b415b649c48.
+
+imbor:c0962817-dfef-46fe-90ef-fa534d9b4857
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:c0c44a07-29cc-4df8-bb1f-dcd57185bc8a
   mim:equivalent imbor-mim:mim-c0c44a07-29cc-4df8-bb1f-dcd57185bc8a.
@@ -14026,9 +14068,6 @@ imbor:c6566885-a061-45bc-a59b-09430746a010
 imbor:c686a652-0ff8-45fe-acc0-04ee779b1cb0
   imbor-refmodels:levensfaseTypering "B".
 
-imbor:c68efccc-f9c4-4d9a-94a3-8de49469836e
-  imbor-refmodels:levensfaseTypering "D".
-
 imbor:c696d29d-4d98-4ec9-bae2-fa2e1a23ba1f
   mim:equivalent imbor-mim:mim-c696d29d-4d98-4ec9-bae2-fa2e1a23ba1f.
 
@@ -14166,6 +14205,9 @@ imbor:c8bf14df-dc9b-4017-9d63-4ee09d44fab8
 
 imbor:c8dab759-13ba-417e-9a8a-23335235baee
   mim:equivalent imbor-mim:mim-c8dab759-13ba-417e-9a8a-23335235baee.
+
+imbor:c8dc6f81-f8c8-4a31-8aec-45d221879ee8
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:c8e65613-cc9d-4a24-9e25-e6f10b0152d2
   mim:equivalent imbor-mim:mim-c8e65613-cc9d-4a24-9e25-e6f10b0152d2.
@@ -14549,6 +14591,9 @@ imbor:ce445e25-93c2-4f20-9491-d5a8b66db831
   mim:equivalent imbor-mim:mim-ce445e25-93c2-4f20-9491-d5a8b66db831.
 
 imbor:ce5d125f-1fd5-460f-b87d-5afb8dfc02ba
+  imbor-refmodels:levensfaseTypering "O".
+
+imbor:ce5f04e2-1323-4161-8c6a-b3021669953e
   imbor-refmodels:levensfaseTypering "O".
 
 imbor:ce6954ce-deaa-46d2-8091-aba291e76177
@@ -14965,9 +15010,6 @@ imbor:d5098738-76c0-48b7-a318-faeb9ed7b468
 imbor:d50ae77b-dbc3-4c9c-940e-65953a58393a
   mim:equivalent imbor-mim:mim-d50ae77b-dbc3-4c9c-940e-65953a58393a.
 
-imbor:d5189651-4a8b-499e-b186-b98cc726a617
-  imbor-refmodels:levensfaseTypering "B".
-
 imbor:d524a462-b43a-4410-844e-9afbfe5edf9a
   mim:equivalent imbor-mim:mim-d524a462-b43a-4410-844e-9afbfe5edf9a.
 
@@ -15199,6 +15241,9 @@ imbor:d8d7d3a3-b6a2-4160-be3f-4a665d44ec6c
 imbor:d8df6adf-9320-495c-86be-b02661e33a02
   mim:equivalent imbor-mim:mim-d8df6adf-9320-495c-86be-b02661e33a02.
 
+imbor:d8e49267-cd9b-4a50-b7e3-46e00cf75b70
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:d8ea6737-2f44-4b0c-aa47-39473f027823 a sh:NodeShape;
   mim:equivalent imbor-mim:mim-d8ea6737-2f44-4b0c-aa47-39473f027823;
   sh:property imbor-refmodels:132b1120-f3f9-4ef0-8f71-25c0bd381230.
@@ -15247,6 +15292,9 @@ imbor:d9863405-0fca-4920-80cb-da2e0dc6ea27
 
 imbor:d9901622-f897-44e4-a577-56e09ed55873
   mim:equivalent imbor-mim:mim-d9901622-f897-44e4-a577-56e09ed55873.
+
+imbor:d99ace24-79f7-4ed9-8c77-2e4b64a08999
+  imbor-refmodels:levensfaseTypering "O".
 
 imbor:d9a1befb-e599-4ccc-ae56-06414a646c24
   imbor-refmodels:levensfaseTypering "O".
@@ -15690,9 +15738,6 @@ imbor:e00f3c11-3b00-4036-a531-469e586df700
 imbor:e013aa36-3d83-45fa-a98a-b058c674cb73
   mim:equivalent imbor-mim:mim-e013aa36-3d83-45fa-a98a-b058c674cb73.
 
-imbor:e01447f6-5f2c-4bcf-99c9-91ef221e253b
-  mim:equivalent imbor-mim:mim-e01447f6-5f2c-4bcf-99c9-91ef221e253b.
-
 imbor:e024cc57-b72f-4ee5-a24f-8fd9664f5cf1
   imbor-refmodels:levensfaseTypering "O".
 
@@ -16002,6 +16047,9 @@ imbor:e4f3a526-edd5-4719-984c-11dffcaa256a
 imbor:e4f50859-4e8a-48ee-b120-f024a4b43ccf
   mim:equivalent imbor-mim:mim-e4f50859-4e8a-48ee-b120-f024a4b43ccf.
 
+imbor:e4f7f2c2-2c33-4385-a52d-7e0d3e1c3baf
+  imbor-refmodels:levensfaseTypering "O".
+
 imbor:e4fbe347-bc4b-4014-b155-0ca1415cf222
   mim:equivalent imbor-mim:mim-e4fbe347-bc4b-4014-b155-0ca1415cf222.
 
@@ -16166,9 +16214,6 @@ imbor:e6f3ea93-7a82-494c-a41b-db2be966b564
 
 imbor:e70c3a62-a298-436a-b72c-a79a96061a6e
   mim:equivalent imbor-mim:mim-e70c3a62-a298-436a-b72c-a79a96061a6e.
-
-imbor:e715f1b9-d4fd-4952-9a22-cc4ae9860ae3
-  imbor-refmodels:levensfaseTypering "B".
 
 imbor:e7182788-f573-425f-8620-19fb562ca87b
   mim:equivalent imbor-mim:mim-e7182788-f573-425f-8620-19fb562ca87b.
@@ -16728,6 +16773,9 @@ imbor:eff0badb-c386-4c3d-a8a4-2480f442e6ea
 imbor:f010381e-1511-4770-9fe6-c9c77636d246
   mim:equivalent imbor-mim:mim-f010381e-1511-4770-9fe6-c9c77636d246.
 
+imbor:f0110dd0-27ad-4079-bb19-bc0899da81aa
+  mim:equivalent imbor-mim:mim-f0110dd0-27ad-4079-bb19-bc0899da81aa.
+
 imbor:f01298b8-27dd-46d1-9d0a-f533f5e9393f
   imbor-refmodels:levensfaseTypering "B".
 
@@ -17114,9 +17162,6 @@ imbor:f5917025-b496-47ec-ad87-bdde99fbace9
 imbor:f591bb58-2761-4568-b8b3-9dea37a076c7
   mim:equivalent imbor-mim:mim-f591bb58-2761-4568-b8b3-9dea37a076c7.
 
-imbor:f5c2cca4-3864-4d22-9d3d-85666abd777d
-  mim:equivalent imbor-mim:mim-f5c2cca4-3864-4d22-9d3d-85666abd777d.
-
 imbor:f5d8985b-f2d5-4a5b-9478-17cbadae08ef
   mim:equivalent imbor-mim:mim-f5d8985b-f2d5-4a5b-9478-17cbadae08ef.
 
@@ -17294,9 +17339,6 @@ imbor:f873a1c5-984e-430c-81b7-afa702b4977e
 
 imbor:f8875bca-ea70-42f3-aec9-67e7de543216
   imbor-refmodels:levensfaseTypering "O".
-
-imbor:f88b18dc-0a8e-4ee4-8706-062addfc13f1
-  imbor-refmodels:levensfaseTypering "B".
 
 imbor:f88b4983-a5d8-4409-acca-c0a40ee0a80e
   mim:equivalent imbor-mim:mim-f88b4983-a5d8-4409-acca-c0a40ee0a80e.
@@ -18169,6 +18211,7 @@ imbor-mim:mim-01375b53-5cdf-4edd-a257-9a3800e70e5d a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "afslagniveau benedenstrooms"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-0144d607-0f9b-4bbe-973b-1ead5fed6a74 a mim:Objecttype;
@@ -18968,6 +19011,7 @@ imbor-mim:mim-05878201-c7a6-4b1a-9d7c-e3791cfff024 a mim:Objecttype;
     imbor-mim:mim-721aa6e1-cec4-4cce-8eea-38ee4399da06,
     imbor-mim:mim-79a6b8d9-ac9e-47c0-8490-d31e0805d3b8,
     imbor-mim:mim-7a8a6627-8150-4adb-94ae-a7f4e5d7a50e,
+    imbor-mim:mim-7d504c5c-405a-4291-a7bd-4c559a3749ef,
     imbor-mim:mim-87907a18-21ff-4cf8-875c-794eaa9b7242,
     imbor-mim:mim-b88203e7-abcf-48f5-85ae-d61be4686df1,
     imbor-mim:mim-ce445e25-93c2-4f20-9491-d5a8b66db831,
@@ -19069,6 +19113,23 @@ imbor-mim:mim-05d729a2-ce88-4279-83b4-593feb8601f7 a mim:Relatiesoort;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "Waterbeheergebied bevat Inlaatconstructie"@nl;
   mim:unidirectioneel true.
+
+imbor-mim:mim-05e2e10e-9271-435d-850c-61b192e971c5 a mim:Objecttype;
+  mim:begrip imbor-term:b5485bbc-b456-432d-94a2-a5f8795823cd;
+  mim:begripsterm "Geopolymeer"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Een verzamelnaam voor alkaligeactiveerde aluminiumsilicaten. Het zijn anorganische bindmiddelen die meestal bestaan uit twee basiscomponenten, namelijk reactieve aluminium- en siliciumhoudende hoofdbestanddelen (bijv. vliegas, hoogovenslak of metakaoline) en een sterke alkalische activator (bijvoorbeeld waterglas of natriumhydroxide). (Bron: Betonlexicon.nl)"@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:indicatieAbstractObject false;
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "Geopolymeer"@nl.
+
+imbor-mim:mim-05e2e10e-9271-435d-850c-61b192e971c5_mim-Matter a mim:Generalisatie;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:naam "Materie is generalisatie van Geopolymeer";
+  mim:subtype imbor-mim:mim-05e2e10e-9271-435d-850c-61b192e971c5;
+  mim:supertype imbor-mim:mim-Matter.
 
 imbor-mim:mim-06295adb-95ee-47df-bad8-e82239f8ea20 a mim:Attribuutsoort;
   mim:begrip imbor-term:f712e397-2a45-48f9-a29d-83a5f76a0650;
@@ -19917,6 +19978,7 @@ imbor-mim:mim-092c0fd0-cb1c-4161-9d52-2a182bcae7a9 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "maaiveldhoogte"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-0957b95d-159f-4c76-ae85-ffd7a0484cde a mim:Objecttype;
@@ -20097,6 +20159,9 @@ imbor-mim:mim-0a2c7c1c-899b-4505-b0b8-e12882ca4a63 a mim:Relatiesoort;
   mim:unidirectioneel true.
 
 imbor-mim:mim-0a305e60-c715-4d3c-a7b6-918b41c6900c a mim:Objecttype;
+  mim:attribuut
+    imbor-mim:mim-cabe7411-de50-482e-b179-d943287ff859,
+    imbor-mim:mim-ef27456a-311f-4b57-9c93-c639ed4e15c4;
   mim:begrip imbor-term:d2f3b895-dced-43ae-b6c2-1eb3164bfd30;
   mim:begripsterm "Transportleiding"@nl;
   mim:datumOpname "2023-01-01"^^xsd:date;
@@ -20240,6 +20305,17 @@ imbor-mim:mim-0ae74ac6-e315-47b8-8ef7-df6d56036281 a mim:Enumeratie;
   mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "BolderVorm"@nl.
+
+imbor-mim:mim-0af3ac1f-9a9d-428a-b570-374f39e96241
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:locatie "https://data.crow.nl/imbor/def".
+
+imbor-mim:mim-0af3ac1f-9a9d-428a-b570-374f39e96241_mim-Matter a mim:Generalisatie;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:naam "Materie is generalisatie van Bermgras/hennep met Bio-composite (Biobased)";
+  mim:subtype imbor-mim:mim-0af3ac1f-9a9d-428a-b570-374f39e96241;
+  mim:supertype imbor-mim:mim-Matter.
 
 imbor-mim:mim-0b1d9513-a625-49ba-ae45-7281ab749848 a mim:Relatiesoort;
   mim:bron imbor-mim:mim-5d70e69a-2a35-4088-886e-32c0b07275c6;
@@ -20874,6 +20950,7 @@ imbor-mim:mim-0dcee6c7-87bc-498c-a02a-25271db1bc9a a mim:Objecttype;
     imbor-mim:mim-29ec4228-7a32-41db-ac73-b80db66ea743,
     imbor-mim:mim-2b1b2ffa-6cdd-4c54-b8c3-475757e347ff,
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
+    imbor-mim:mim-7d504c5c-405a-4291-a7bd-4c559a3749ef,
     imbor-mim:mim-f46c02ba-18ac-4f9f-856a-64dd56591700;
   mim:begrip imbor-term:f72f0ed9-4b6c-4fdf-bb92-56f18a8d3170;
   mim:begripsterm "Waterinrichtingsobject"@nl;
@@ -21364,6 +21441,7 @@ imbor-mim:mim-0fe546c6-2acd-4d1f-8cb2-ff589cdd6449 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "waterpeil zomer"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-1009458f-7eec-4d13-827e-b9d6638d07c3 a mim:Attribuutsoort;
@@ -22907,6 +22985,7 @@ imbor-mim:mim-16f28e17-d9b1-44a5-a638-6ff93afc1aed a mim:Relatiesoort;
   mim:unidirectioneel true.
 
 imbor-mim:mim-16fefe2d-e579-4d55-8161-6c90f65feb0c a mim:Objecttype;
+  mim:attribuut imbor-mim:mim-ef27456a-311f-4b57-9c93-c639ed4e15c4;
   mim:begrip imbor-term:7d0623bb-a70a-4055-a5a1-c9440f46ea59;
   mim:begripsterm "Rioolleiding"@nl;
   mim:datumOpname "2023-01-01"^^xsd:date;
@@ -22975,16 +23054,6 @@ imbor-mim:mim-170ea97e-26fd-4b4a-8f7b-2ba5994159fe a mim:Attribuutsoort;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "doorvaartnummer"@nl;
   mim:type imbor-mim:mim-positiveInteger.
-
-imbor-mim:mim-17194880-82a8-46f7-9a08-10959818fcc3 a mim:Enumeratie;
-  mim:begrip imbor-term:3ea911af-c5d8-4cde-82e7-6fc6bcce068c;
-  mim:begripsterm "PutToegankelijk"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het enumeratietype voor de domeinwaardenlijst van de klasse Put en het attribuut Toegankelijk."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "PutToegankelijk"@nl.
 
 imbor-mim:mim-1758ed25-7589-4979-bb04-7b9ab13fc142 a mim:Objecttype;
   mim:begrip imbor-term:4e062e36-a8f5-4c72-8bb3-ae35090ad269;
@@ -24857,6 +24926,20 @@ imbor-mim:mim-20b74a16-3945-4cee-ab24-cd896cd73b49_mim-GeografischeRuimte a mim:
   mim:subtype imbor-mim:mim-20b74a16-3945-4cee-ab24-cd896cd73b49;
   mim:supertype imbor-mim:mim-GeografischeRuimte.
 
+imbor-mim:mim-21109d8a-6eeb-403b-921e-b907ecb11821 a mim:Attribuutsoort;
+  mim:begrip imbor-term:9c605015-36f4-483d-b1bf-3fb75520f915;
+  mim:begripsterm "zuurgraad"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Maat voor de zuurgraad van de bodem."@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:indicatieClassificerend false;
+  mim:kardinaliteit "0..1";
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "zuurgraad"@nl;
+  mim:toelichting unit:PH;
+  mim:type imbor-mim:mim-decimal.
+
 imbor-mim:mim-211dc79c-6502-4794-82ac-950250062905 a mim:Relatiesoort;
   mim:bron imbor-mim:mim-a3aaec95-5131-4128-acd8-85ab714c6aec;
   mim:datumOpname "2023-01-01"^^xsd:date;
@@ -26021,16 +26104,6 @@ imbor-mim:mim-26950799-7d8b-4b79-a169-1709eb6af4b7 a mim:Relatiesoort;
   mim:naam "Vrijverval rioolleiding heeft deel Inlaat"@nl;
   mim:unidirectioneel true.
 
-imbor-mim:mim-26a483b7-e60e-4a5e-be09-de34d451cc3c a mim:Enumeratie;
-  mim:begrip imbor-term:e0d44bca-c4df-458f-be6f-7297f52ccf69;
-  mim:begripsterm "HoutwalCultuurhistorischWaardevol"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het enumeratietype voor de domeinwaardenlijst van de klasse Houtwal en het attribuut cultuurhistorisch waardevol."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "HoutwalCultuurhistorischWaardevol"@nl.
-
 imbor-mim:mim-26a9575f-e9ed-4eb0-9154-bcb3d4b4c71b a mim:Attribuutsoort;
   mim:begrip imbor-term:5de9a2cf-034e-460a-bc5b-583214bb0c0e;
   mim:begripsterm "bewerkingspercentage"@nl;
@@ -26155,7 +26228,7 @@ imbor-mim:mim-271bc864-2f2f-4f1a-8d79-0cfa26db1b24 a mim:Attribuutsoort;
 
 imbor-mim:mim-273a1a3d-dbbc-4bb4-9c6b-8eccaafdc662 a mim:Attribuutsoort;
   mim:begrip imbor-term:01c31fc9-202b-4037-8e95-4ef7e6d0860d;
-  mim:begripsterm "gewicht-attributen"@nl;
+  mim:begripsterm "gewicht-attribuut"@nl;
   mim:datumOpname "2023-01-01"^^xsd:date;
   mim:definitie "De kracht die een voorwerp op zijn ondersteuning of ophanging uitoefent."@nl;
   mim:herkomst "IMBOR - Stichting CROW"@nl;
@@ -26164,7 +26237,7 @@ imbor-mim:mim-273a1a3d-dbbc-4bb4-9c6b-8eccaafdc662 a mim:Attribuutsoort;
     "1..*",
     "1..1";
   mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "gewicht-attributen"@nl;
+  mim:naam "gewicht-attribuut"@nl;
   mim:toelichting
     unit:Euro,
     unit:MilliM;
@@ -26658,16 +26731,6 @@ imbor-mim:mim-299a0186-0e48-4336-8967-a590bdfa2b5a a mim:Enumeratie;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "PutVorm"@nl.
 
-imbor-mim:mim-29a1a2bc-df2d-4ab1-ad37-d21dd00ef631 a mim:Enumeratie;
-  mim:begrip imbor-term:610c9eb3-8859-46bf-afd0-e65541266390;
-  mim:begripsterm "BosCultuurhistorischWaardevol"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het enumeratietype voor de domeinwaardenlijst van de klasse Bos en het attribuut cultuurhistorisch waardevol."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "BosCultuurhistorischWaardevol"@nl.
-
 imbor-mim:mim-29a1f54f-7a6b-4d07-a8c7-729f8b3e5e3e a mim:Enumeratie;
   mim:begrip imbor-term:2a73ef34-ee69-437b-90e9-c174e6984eeb;
   mim:begripsterm "BebouwingskernVerschijningsvorm"@nl;
@@ -26908,6 +26971,7 @@ imbor-mim:mim-2ae073b0-12f4-4697-b856-715ea2220ba4 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "doorlaatniveau"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-2af0e997-735d-4365-9a4a-70248921cc8b a mim:Relatiesoort;
@@ -26970,17 +27034,6 @@ imbor-mim:mim-2b23386b-e63a-4401-bec7-c3a5ac1256bb_mim-Matter a mim:Generalisati
   mim:naam "Materie is generalisatie van Plexiglas";
   mim:subtype imbor-mim:mim-2b23386b-e63a-4401-bec7-c3a5ac1256bb;
   mim:supertype imbor-mim:mim-Matter.
-
-imbor-mim:mim-2b2ae028-1822-4339-be9d-79e51030f50a a mim:Relatiesoort;
-  mim:bron imbor-mim:mim-66eeeae8-0696-4a21-84cd-8afc4d438a92;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:doel imbor-mim:mim-3024d1eb-9052-46c0-a051-8156a01cef72;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:kardinaliteit "0..*";
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "Wegas is beschreven door Verkeersintensiteit-informatie"@nl;
-  mim:unidirectioneel true.
 
 imbor-mim:mim-2b3b762b-87b2-40f0-b1f3-c0885495c4b2 a mim:Relatiesoort;
   mim:bron imbor-mim:mim-a3aaec95-5131-4128-acd8-85ab714c6aec;
@@ -27963,23 +28016,6 @@ imbor-mim:mim-3016adc0-4adf-45e3-bcd5-d633ff15763f_mim-f15d86c3-ef9c-4a31-a43e-d
   mim:naam "Sensor is generalisatie van Radar";
   mim:subtype imbor-mim:mim-3016adc0-4adf-45e3-bcd5-d633ff15763f;
   mim:supertype imbor-mim:mim-f15d86c3-ef9c-4a31-a43e-de3b3f70fbbe.
-
-imbor-mim:mim-3024d1eb-9052-46c0-a051-8156a01cef72 a mim:Objecttype;
-  mim:begrip imbor-term:24526554-cbbe-4794-9a0f-46190d371b2c;
-  mim:begripsterm "Verkeersintensiteit-informatie"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het vastleggen van de verkeersintensiteit per prognosejaar bij een wegas."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:indicatieAbstractObject false;
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "Verkeersintensiteit-informatie"@nl.
-
-imbor-mim:mim-3024d1eb-9052-46c0-a051-8156a01cef72_mim-InformationObject a mim:Generalisatie;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:naam "InformatieObject is generalisatie van Verkeersintensiteit-informatie";
-  mim:subtype imbor-mim:mim-3024d1eb-9052-46c0-a051-8156a01cef72;
-  mim:supertype imbor-mim:mim-InformationObject.
 
 imbor-mim:mim-3051e460-0599-406d-bd22-b7d2ce7cc8ee a mim:Objecttype;
   mim:begrip imbor-term:85eba6a8-59af-41ce-a656-90dbdd0629b2;
@@ -31359,19 +31395,6 @@ imbor-mim:mim-4063c86a-10f0-4101-95d6-f26354f9762c a mim:Relatiesoort;
   mim:naam "Compartiment bevat Regenmeter"@nl;
   mim:unidirectioneel true.
 
-imbor-mim:mim-406d0c01-a8e8-4041-8ea9-bc9a6f683cf0 a mim:Attribuutsoort;
-  mim:begrip imbor-term:03e6bcdd-a8a9-4036-bc7d-810a536e69f7;
-  mim:begripsterm "verkeersintensiteit"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het aantal verkeerseenheden dat een bepaalde dwarsdoorsnede van de weg passeert gedurende een bepaalde tijdsduur."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:indicatieClassificerend false;
-  mim:kardinaliteit "0..1";
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "verkeersintensiteit"@nl;
-  mim:type imbor-mim:mim-decimal.
-
 imbor-mim:mim-406d1567-dd4d-4f62-a6e5-380531b40178 a mim:Relatiesoort;
   mim:bron imbor-mim:mim-b2b0b46e-cc1f-45ae-a22a-f6d0b8b04ae9;
   mim:datumOpname "2023-01-01"^^xsd:date;
@@ -31480,7 +31503,6 @@ imbor-mim:mim-40c0d299-acca-42d9-8a08-e84dc78645b1 a mim:Enumeratie;
 imbor-mim:mim-40d30de7-5f7e-4a16-8f2e-85f305be18fb a mim:Objecttype;
   mim:attribuut
     imbor-mim:mim-1f568845-fe9d-4c85-8e6f-1d5ce1fc2976,
-    imbor-mim:mim-387834db-ae6a-4a26-8187-0f8bc330edfc,
     imbor-mim:mim-f78cd6c8-95ec-4319-a698-7ec24959a9ed;
   mim:begrip imbor-term:3672cd3a-e1ed-4544-ad13-b07e476a0842;
   mim:begripsterm "Planten"@nl;
@@ -33057,6 +33079,7 @@ imbor-mim:mim-47fe7bb3-88a9-4654-b275-e39d807a7e9e a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "gemeten bodempeil"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-482fdc3b-879b-4ec3-b838-f8ba4a9b6701 a mim:Relatiesoort;
@@ -33422,6 +33445,7 @@ imbor-mim:mim-4a289683-4a94-4f66-82ed-b70ff764852d a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "ontwerp bodempeil"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-4a34cc0b-8b28-4214-8fc5-cf47209f8d77 a mim:Attribuutsoort;
@@ -35239,7 +35263,7 @@ imbor-mim:mim-533a9e1a-3f98-4e9d-935a-cbb2b8e1c78f a mim:Enumeratie;
 
 imbor-mim:mim-534f07b8-9243-4848-a3d0-6ebeb321784c a mim:Attribuutsoort;
   mim:begrip imbor-term:93a709cd-ffcd-4ff4-b6c9-1e208585b1ba;
-  mim:begripsterm "jaar constitutie"@nl;
+  mim:begripsterm "aanlegjaar"@nl;
   mim:datumOpname "2023-01-01"^^xsd:date;
   mim:definitie "Het jaartal waarin het fysieke object tot stand gekomen is."@nl;
   mim:herkomst "IMBOR - Stichting CROW"@nl;
@@ -35247,7 +35271,7 @@ imbor-mim:mim-534f07b8-9243-4848-a3d0-6ebeb321784c a mim:Attribuutsoort;
   mim:indicatieClassificerend false;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "jaar constitutie"@nl;
+  mim:naam "aanlegjaar"@nl;
   mim:type imbor-mim:mim-gYear.
 
 imbor-mim:mim-536a97d0-30f5-4cc3-8563-7b73824ded8f a mim:Attribuutsoort;
@@ -35589,6 +35613,7 @@ imbor-mim:mim-547be48d-f575-4ad1-91eb-5093b3ac3ed0 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "streefdiepte"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-5494b14a-4b5f-47c4-850c-97dd4d75be5e a mim:Relatiesoort;
@@ -35654,6 +35679,17 @@ imbor-mim:mim-54a69715-c34a-4303-9682-eb51e8887f36_mim-Constructie a mim:General
   mim:naam "Constructie is generalisatie van Installatie";
   mim:subtype imbor-mim:mim-54a69715-c34a-4303-9682-eb51e8887f36;
   mim:supertype imbor-mim:mim-Constructie.
+
+imbor-mim:mim-54acdf14-a14d-42ac-9cb8-258cae8646d9
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:locatie "https://data.crow.nl/imbor/def".
+
+imbor-mim:mim-54acdf14-a14d-42ac-9cb8-258cae8646d9_mim-Matter a mim:Generalisatie;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:naam "Materie is generalisatie van Rijstvlies (Biobased)";
+  mim:subtype imbor-mim:mim-54acdf14-a14d-42ac-9cb8-258cae8646d9;
+  mim:supertype imbor-mim:mim-Matter.
 
 imbor-mim:mim-54b459ed-77fe-4b4a-a2d4-351500a06bdf a mim:Attribuutsoort;
   mim:begrip imbor-term:03348f67-e32b-44c0-8212-fbde7d73940d;
@@ -35835,6 +35871,16 @@ imbor-mim:mim-55ecdb51-98d1-4426-af58-a1fa1399a264 a mim:Enumeratie;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "WatergangLengteklasseDroogTalud"@nl.
 
+imbor-mim:mim-55ef69ca-e000-43cd-a7ac-49176350c1df a mim:Enumeratie;
+  mim:begrip imbor-term:0265cc6b-cc38-4dfa-afad-51ec925b8a49;
+  mim:begripsterm "GroenobjectTypeBeplanting"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Enumeratietype voor de klasse Groenobject en het attribuut type beplanting."@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "GroenobjectTypeBeplanting"@nl.
+
 imbor-mim:mim-55fc2f78-9879-4512-8030-b8ad663293a8 a mim:Referentielijst;
   mim:begrip imbor-term:29877425-40b5-425e-bc96-537fd145dc73;
   mim:begripsterm "InformatiepaneelBordcode"@nl;
@@ -35854,6 +35900,7 @@ imbor-mim:mim-55ff100d-4b17-4807-a700-a1954151efec a mim:Objecttype;
     imbor-mim:mim-2b1b2ffa-6cdd-4c54-b8c3-475757e347ff,
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
     imbor-mim:mim-60cc339b-db7d-439f-9f12-1482e3501b5a,
+    imbor-mim:mim-7d504c5c-405a-4291-a7bd-4c559a3749ef,
     imbor-mim:mim-f46c02ba-18ac-4f9f-856a-64dd56591700;
   mim:begrip imbor-term:76dbd6d9-3b4c-47b3-baac-fa322562e0e3;
   mim:begripsterm "Mast"@nl;
@@ -36410,16 +36457,6 @@ imbor-mim:mim-594fb67b-355e-4901-bc96-d53be9116427 a mim:Relatiesoort;
   mim:naam "Rioolput voert uit Lozen binnen het stelsel"@nl;
   mim:unidirectioneel true.
 
-imbor-mim:mim-5958a2c7-0c3b-480f-9128-540af27e726f a mim:Enumeratie;
-  mim:begrip imbor-term:152c2c10-7847-4203-a549-e00bb431be78;
-  mim:begripsterm "MoerasCultuurhistorischWaardevol"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het enumeratietype voor de domeinwaardenlijst van de klasse Moeras en het attribuut cultuurhistorisch waardevol."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "MoerasCultuurhistorischWaardevol"@nl.
-
 imbor-mim:mim-59687507-fb10-4a17-980b-d49d6dcd0180 a mim:Relatiesoort;
   mim:bron imbor-mim:mim-e4f50859-4e8a-48ee-b120-f024a4b43ccf;
   mim:datumOpname "2023-01-01"^^xsd:date;
@@ -36565,6 +36602,7 @@ imbor-mim:mim-5a329bf8-97ef-4f17-a252-8e4cfbc6ef01 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "niveau buitenwater"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-5a3519aa-701c-46f9-995a-b13071481199 a mim:Attribuutsoort;
@@ -37343,6 +37381,17 @@ imbor-mim:mim-5cf310f9-0699-45df-960f-546f70662b15 a mim:Relatiesoort;
   mim:naam "Rietland is beschreven door Soortnaam groenobject"@nl;
   mim:unidirectioneel true.
 
+imbor-mim:mim-5cf93da5-36cd-406c-9f91-dc8cf5f429ac
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:locatie "https://data.crow.nl/imbor/def".
+
+imbor-mim:mim-5cf93da5-36cd-406c-9f91-dc8cf5f429ac_mim-Matter a mim:Generalisatie;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:naam "Materie is generalisatie van Refurbished aluminium";
+  mim:subtype imbor-mim:mim-5cf93da5-36cd-406c-9f91-dc8cf5f429ac;
+  mim:supertype imbor-mim:mim-Matter.
+
 imbor-mim:mim-5d1b1603-2172-4d0d-b8b3-f15e3b7c997c a mim:Attribuutsoort;
   mim:begrip imbor-term:410dba9a-b928-4bf8-bae5-08debf19631f;
   mim:begripsterm "nummer"@nl;
@@ -38010,6 +38059,32 @@ imbor-mim:mim-5f4a9eaa-e61e-44cc-8218-79930e872a80_mim-Matter a mim:Generalisati
   mim:subtype imbor-mim:mim-5f4a9eaa-e61e-44cc-8218-79930e872a80;
   mim:supertype imbor-mim:mim-Matter.
 
+imbor-mim:mim-5f4e6dc7-0094-4acc-aa26-f912e2971a75 a mim:Attribuutsoort;
+  mim:begrip imbor-term:3e21e80b-d4a2-4cd4-b205-935bb297c9f7;
+  mim:begripsterm "productiejaar"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Jaar waarin het object geproduceerd is en deze kan verschillen van aanlegjaar of bouwjaar."@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:kardinaliteit
+    "1..*",
+    "1..1";
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "productiejaar"@nl;
+  mim:toelichting
+    unit:Euro,
+    unit:MilliM;
+  mim:type
+    imbor-mim:mim-anyURI,
+    imbor-mim:mim-boolean,
+    imbor-mim:mim-date,
+    imbor-mim:mim-dateTime,
+    imbor-mim:mim-decimal,
+    imbor-mim:mim-integer,
+    imbor-mim:mim-positiveInteger,
+    imbor-mim:mim-string,
+    imbor-mim:mim-wktLiteral.
+
 imbor-mim:mim-5f502712-e43d-4929-8afd-df23ea9a149a a mim:Objecttype;
   mim:begrip imbor-term:3115e47e-a91e-4974-a3be-6d098f1cd702;
   mim:begripsterm "Grond"@nl;
@@ -38307,6 +38382,7 @@ imbor-mim:mim-6076fb72-7a81-4ff1-acb4-eba54bcab1df a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "aanslagniveau benedenstrooms"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-608dd661-9289-49ec-8fd5-c56dd41e4b07 a mim:Attribuutsoort;
@@ -38545,6 +38621,7 @@ imbor-mim:mim-61526934-9d0c-4a07-8c5d-17f60e1a467a a mim:Objecttype;
     imbor-mim:mim-2b1b2ffa-6cdd-4c54-b8c3-475757e347ff,
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
     imbor-mim:mim-721aa6e1-cec4-4cce-8eea-38ee4399da06,
+    imbor-mim:mim-7d504c5c-405a-4291-a7bd-4c559a3749ef,
     imbor-mim:mim-8276eb2e-c459-4369-a564-cd15c57c8309,
     imbor-mim:mim-b5ebc81d-849c-43f1-b461-3d3595a572ad,
     imbor-mim:mim-e4ddc50f-ce1e-4236-b65d-dba38e10196a,
@@ -39254,6 +39331,32 @@ imbor-mim:mim-6511779f-a8d2-4a86-b66c-37cf1df1dc3a a mim:Attribuutsoort;
   mim:toelichting unit:Euro;
   mim:type imbor-mim:mim-decimal.
 
+imbor-mim:mim-654b52ab-3705-44f9-9ff4-d357d2a24d3a a mim:Attribuutsoort;
+  mim:begrip imbor-term:e13f3ce0-05ce-44c4-82b9-3731b0c6806d;
+  mim:begripsterm "type beplanting"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Mogelijkheid om voor het beheer van groenobjecten aan te geven of het om cultuurlijke of natuurlijke beplanting gaat."@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:kardinaliteit
+    "1..*",
+    "1..1";
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "type beplanting"@nl;
+  mim:toelichting
+    unit:Euro,
+    unit:MilliM;
+  mim:type
+    imbor-mim:mim-anyURI,
+    imbor-mim:mim-boolean,
+    imbor-mim:mim-date,
+    imbor-mim:mim-dateTime,
+    imbor-mim:mim-decimal,
+    imbor-mim:mim-integer,
+    imbor-mim:mim-positiveInteger,
+    imbor-mim:mim-string,
+    imbor-mim:mim-wktLiteral.
+
 imbor-mim:mim-654ea923-c8ac-4c00-80eb-d53c3409b38f a mim:Attribuutsoort;
   mim:begrip imbor-term:1b989ac7-fda9-4808-b483-0067f12b617f;
   mim:begripsterm "productspecificatie"@nl;
@@ -39914,6 +40017,17 @@ imbor-mim:mim-681d26d7-57e6-4b03-858e-21fdbd89afb6_ a mim:Generalisatie;
   mim:subtype imbor-mim:mim-681d26d7-57e6-4b03-858e-21fdbd89afb6;
   mim:supertype "?".
 
+imbor-mim:mim-68233f08-a1d9-417c-8d42-0386babd37cf
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:locatie "https://data.crow.nl/imbor/def".
+
+imbor-mim:mim-68233f08-a1d9-417c-8d42-0386babd37cf_mim-Matter a mim:Generalisatie;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:naam "Materie is generalisatie van Coil coating Aluminium";
+  mim:subtype imbor-mim:mim-68233f08-a1d9-417c-8d42-0386babd37cf;
+  mim:supertype imbor-mim:mim-Matter.
+
 imbor-mim:mim-6825dc45-a7ea-492a-bc54-592497ec40e9 a mim:Relatiesoort;
   mim:bron imbor-mim:mim-182484aa-51e1-4ac3-a411-188faa86063e;
   mim:datumOpname "2023-01-01"^^xsd:date;
@@ -40503,6 +40617,7 @@ imbor-mim:mim-6b54fe2f-9897-47da-863c-5a931e89b2de a mim:Objecttype;
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
     imbor-mim:mim-62d58e09-c698-4d8b-93f0-09e4f0f41860,
     imbor-mim:mim-721aa6e1-cec4-4cce-8eea-38ee4399da06,
+    imbor-mim:mim-7d504c5c-405a-4291-a7bd-4c559a3749ef,
     imbor-mim:mim-8276eb2e-c459-4369-a564-cd15c57c8309,
     imbor-mim:mim-a6482382-af5c-4e18-a2db-a353004051f0,
     imbor-mim:mim-e4ddc50f-ce1e-4236-b65d-dba38e10196a,
@@ -40922,6 +41037,19 @@ imbor-mim:mim-6e0036b7-32c2-4e39-ace2-f3dd87922325 a mim:Relatiesoort;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "Oppervlaktewatersysteem voert uit Transport van oppervlaktewater"@nl;
   mim:unidirectioneel true.
+
+imbor-mim:mim-6e07d796-7d7c-4023-a29b-edb2b8270aec a mim:Attribuutsoort;
+  mim:begrip imbor-term:d2be3dfe-f03d-4aa7-93d3-08aaf8676813;
+  mim:begripsterm "laatste baggerjaar"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Jaar waarin de laatste baggerwerkzaamheden van het waterobject zijn uitgevoerd."@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:indicatieClassificerend false;
+  mim:kardinaliteit "0..1";
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "laatste baggerjaar"@nl;
+  mim:type imbor-mim:mim-gYear.
 
 imbor-mim:mim-6e1f7b1d-78ec-47fb-b17b-cdb08783cfe7 a mim:Relatiesoort;
   mim:bron imbor-mim:mim-668ebe59-1e36-4b84-a83c-c72a7a6633c6;
@@ -41422,6 +41550,7 @@ imbor-mim:mim-7082d3c1-80cc-440c-b9ae-b78922149151 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "niveau bovenstrooms openen"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-709a1003-8128-4c3e-8ae7-d792142544b1 a mim:Enumeratie;
@@ -41843,16 +41972,6 @@ imbor-mim:mim-72c43168-c58c-4aa8-9f85-6d18fc54860c a mim:Relatiesoort;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "Informatiepaneel voert uit Dynamisch remmen van verkeerssnelheid"@nl;
   mim:unidirectioneel true.
-
-imbor-mim:mim-72c99d1f-954b-4d0e-8a32-ab9a749368cf a mim:Enumeratie;
-  mim:begrip imbor-term:0caec3da-8d61-4327-81f6-9edd07a2f936;
-  mim:begripsterm "DuinCultuurhistorischWaardevol"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het enumeratietype voor de domeinwaardenlijst van de klasse Duin en het attribuut cultuurhistorisch waardevol."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "DuinCultuurhistorischWaardevol"@nl.
 
 imbor-mim:mim-72cdfb3e-e5db-4f6b-b2d9-cc684a395390 a mim:Enumeratie;
   mim:begrip imbor-term:df19c00a-1502-4367-8410-1b0aa4cba811;
@@ -42405,6 +42524,7 @@ imbor-mim:mim-75b4c00c-e709-48d7-aa9d-9757103666aa a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "niveau bovenstrooms sluiten"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-75bcf434-9787-4fdc-8d8b-610efe2e6dec a mim:Objecttype;
@@ -43766,7 +43886,6 @@ imbor-mim:mim-7c3addd3-7c29-45de-bf66-3fb3ed084750 a mim:Objecttype;
     imbor-mim:mim-04b3d4ef-132d-42d9-b773-7e2a2ebf89d1,
     imbor-mim:mim-2b1b2ffa-6cdd-4c54-b8c3-475757e347ff,
     imbor-mim:mim-33e22597-696f-43d5-9916-8446909e1dc5,
-    imbor-mim:mim-406d0c01-a8e8-4041-8ea9-bc9a6f683cf0,
     imbor-mim:mim-65cbf178-e828-45f2-9567-b0d55cd90f55,
     imbor-mim:mim-8f0c0553-164e-4054-b203-b9d43e87aa7b,
     imbor-mim:mim-b1528bb6-8ea5-4e57-81e0-50d9db16ec11,
@@ -44023,6 +44142,7 @@ imbor-mim:mim-7d504c5c-405a-4291-a7bd-4c559a3749ef a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "productiejaar"@nl;
+  mim:toelichting unit:YR;
   mim:type imbor-mim:mim-gYear.
 
 imbor-mim:mim-7d532bf3-74a7-4601-908a-f2ac5c82296e a mim:Relatiesoort;
@@ -44509,6 +44629,7 @@ imbor-mim:mim-7f3202b1-9a3b-4e02-b4f4-31ebce6b8def a mim:Objecttype;
     imbor-mim:mim-29ec4228-7a32-41db-ac73-b80db66ea743,
     imbor-mim:mim-2b1b2ffa-6cdd-4c54-b8c3-475757e347ff,
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
+    imbor-mim:mim-7d504c5c-405a-4291-a7bd-4c559a3749ef,
     imbor-mim:mim-f46c02ba-18ac-4f9f-856a-64dd56591700;
   mim:begrip imbor-term:991bcca8-9c78-45ea-9af4-baa24d418f2f;
   mim:begripsterm "Weginrichtingsobject"@nl;
@@ -44570,6 +44691,7 @@ imbor-mim:mim-7f573337-00f1-41a0-98e0-1936837802fa a mim:Objecttype;
     imbor-mim:mim-2bef0429-a0ad-408a-a8fc-6e1e7a2651c9,
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
     imbor-mim:mim-721aa6e1-cec4-4cce-8eea-38ee4399da06,
+    imbor-mim:mim-7d504c5c-405a-4291-a7bd-4c559a3749ef,
     imbor-mim:mim-f46c02ba-18ac-4f9f-856a-64dd56591700;
   mim:begrip imbor-term:839083ee-2433-4c81-b43c-4cf16432c5d3;
   mim:begripsterm "Constructieonderdeel"@nl;
@@ -44598,6 +44720,7 @@ imbor-mim:mim-7f618373-2299-47ab-812f-76341a338593 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "uitstroomniveau"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-7f629852-f13d-4502-8206-241417624a12 a mim:Relatiesoort;
@@ -45501,6 +45624,16 @@ imbor-mim:mim-835a695f-b5cf-4a98-8726-d85b379791cd a mim:Relatiesoort;
   mim:naam "Luchtscherm voert uit Verbeteren van luchtkwaliteit"@nl;
   mim:unidirectioneel true.
 
+imbor-mim:mim-835c0082-6f07-439d-85e4-e57b11967fea a mim:Enumeratie;
+  mim:begrip imbor-term:0b94bbec-4cda-4449-8c41-eba3263d85d2;
+  mim:begripsterm "BodemVoedselrijkdom"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Enumeratietype voor de klasse Bodem en het attribuut voedselrijkdom."@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "BodemVoedselrijkdom"@nl.
+
 imbor-mim:mim-83911a33-e8df-47da-a95d-b499b1f7f547 a mim:Objecttype;
   mim:begrip imbor-term:bca8a35f-776c-47eb-ade6-c0c0bba8a1a8;
   mim:begripsterm "Glasvezel"@nl;
@@ -45730,6 +45863,32 @@ imbor-mim:mim-841d1961-f69f-4e4e-8477-47cb3a9f501a a mim:Attribuutsoort;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "uitvoeringsjaar"@nl;
   mim:type imbor-mim:mim-gYear.
+
+imbor-mim:mim-842719c8-3bf5-487f-adf0-402fd00e4238 a mim:Attribuutsoort;
+  mim:begrip imbor-term:882c1430-c204-4f7b-9d1b-79219dfcf947;
+  mim:begripsterm "voedselrijkdom"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Maat voor de voedselrijkdom van de bodem onder begroeiing."@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:kardinaliteit
+    "1..*",
+    "1..1";
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "voedselrijkdom"@nl;
+  mim:toelichting
+    unit:Euro,
+    unit:MilliM;
+  mim:type
+    imbor-mim:mim-anyURI,
+    imbor-mim:mim-boolean,
+    imbor-mim:mim-date,
+    imbor-mim:mim-dateTime,
+    imbor-mim:mim-decimal,
+    imbor-mim:mim-integer,
+    imbor-mim:mim-positiveInteger,
+    imbor-mim:mim-string,
+    imbor-mim:mim-wktLiteral.
 
 imbor-mim:mim-843e4b2d-0ef0-4ea7-9108-48dae16bc571 a mim:Objecttype;
   mim:begrip imbor-term:d883483a-08e3-47a9-b2c9-469a60d696e5;
@@ -46813,6 +46972,23 @@ imbor-mim:mim-88c56473-462a-4e65-b7d3-0989b2d2d85c a mim:Relatiesoort;
   mim:naam "Rioolleiding voert uit Overstortgebeurtenis registreren"@nl;
   mim:unidirectioneel true.
 
+imbor-mim:mim-88c9291f-c72b-4783-992e-ddbd7c784a76 a mim:Objecttype;
+  mim:begrip imbor-term:da859cff-1ae1-4433-bf8b-c3e331f6cd89;
+  mim:begripsterm "Pingoruïne"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Een pingo is een bolvormige heuvel die ontstaat in een gebied met permafrost waar door het uitzetten van bevroren / bevriezend grondwater een laag bevroren grond wordt opgetild."@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:indicatieAbstractObject false;
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "Pingoruïne"@nl.
+
+imbor-mim:mim-88c9291f-c72b-4783-992e-ddbd7c784a76_mim-6f2725be-2a7b-4d94-8f53-513459f52147 a mim:Generalisatie;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:naam "Beheerzone is generalisatie van Pingoruïne";
+  mim:subtype imbor-mim:mim-88c9291f-c72b-4783-992e-ddbd7c784a76;
+  mim:supertype imbor-mim:mim-6f2725be-2a7b-4d94-8f53-513459f52147.
+
 imbor-mim:mim-88d02b2d-9373-4a27-96ef-049c088a410a a mim:Relatiesoort;
   mim:bron imbor-mim:mim-bc95b473-af2c-4916-ad9e-5c7c525948ed;
   mim:datumOpname "2023-01-01"^^xsd:date;
@@ -47398,6 +47574,7 @@ imbor-mim:mim-8a955bf5-0944-46d7-9dc1-f1fdfa0c1be9 a mim:Objecttype;
     imbor-mim:mim-38671d89-49a9-4c3b-9f52-04c4fdecbc5e,
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
     imbor-mim:mim-721aa6e1-cec4-4cce-8eea-38ee4399da06,
+    imbor-mim:mim-7d504c5c-405a-4291-a7bd-4c559a3749ef,
     imbor-mim:mim-8c6889f5-04b8-4b60-981b-67e93e02a32b,
     imbor-mim:mim-b1387a0e-dc3a-4614-b915-5431c6a0506b,
     imbor-mim:mim-c489a7f0-1f29-49b1-b212-68dbfb3b62d0,
@@ -47934,6 +48111,7 @@ imbor-mim:mim-8ccf65b9-cfc3-4d9f-8de8-864c9b123925 a mim:Objecttype;
     imbor-mim:mim-2b1b2ffa-6cdd-4c54-b8c3-475757e347ff,
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
     imbor-mim:mim-60cc339b-db7d-439f-9f12-1482e3501b5a,
+    imbor-mim:mim-dc1d1d42-b5d4-4efb-9b9d-761651b29759,
     imbor-mim:mim-f46c02ba-18ac-4f9f-856a-64dd56591700;
   mim:begrip imbor-term:2fcae4f5-5c55-4fd3-9deb-c4b55e3915d4;
   mim:begripsterm "Gebouwcomponent"@nl;
@@ -48732,6 +48910,19 @@ imbor-mim:mim-90734408-375a-4559-a790-35db08e75a0c a mim:Relatiesoort;
   mim:naam "Transferium voert uit Opslaan van materialen"@nl;
   mim:unidirectioneel true.
 
+imbor-mim:mim-9076aef7-d040-4e99-8826-9b2be0e7bd9b a mim:Attribuutsoort;
+  mim:begrip imbor-term:4bef99cd-29f1-4363-a15c-5952f91f3f53;
+  mim:begripsterm "waterbufferend"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Aanduiding voor het registreren of een constructielaag als waterbuffer fungeert."@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:indicatieClassificerend false;
+  mim:kardinaliteit "0..1";
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "waterbufferend"@nl;
+  mim:type imbor-mim:mim-boolean.
+
 imbor-mim:mim-9086722b-17e4-4aeb-b247-80c6c450d26b a mim:Relatiesoort;
   mim:bron imbor-mim:mim-a4211f0f-ef80-498e-9170-410d60d177dc;
   mim:datumOpname "2023-01-01"^^xsd:date;
@@ -48813,6 +49004,7 @@ imbor-mim:mim-90be9b21-845b-4b56-b1c9-d1cef6debb0c a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "kerende hoogte onder waterlijn"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-90c47fe0-0f7a-42fb-a437-be9cb8c233e1 a mim:Attribuutsoort;
@@ -49636,6 +49828,7 @@ imbor-mim:mim-941743cf-b655-4a6c-ba4d-d14eed70b4ec a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "slagwaterpeil"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-941a17c1-a2b2-4cd1-8991-08b0ebcf0c2a a mim:Objecttype;
@@ -49659,16 +49852,6 @@ imbor-mim:mim-941a17c1-a2b2-4cd1-8991-08b0ebcf0c2a_mim-9726b37e-8766-43ec-a07e-5
   mim:naam "Recreatiezone is generalisatie van Speelterrein";
   mim:subtype imbor-mim:mim-941a17c1-a2b2-4cd1-8991-08b0ebcf0c2a;
   mim:supertype imbor-mim:mim-9726b37e-8766-43ec-a07e-55c51c23d11b.
-
-imbor-mim:mim-94333c88-8240-47de-8040-3a3f158282e0 a mim:Enumeratie;
-  mim:begrip imbor-term:eccda8de-cb46-483c-91e6-6967e668ad63;
-  mim:begripsterm "BosplantsoenCultuurhistorischWaardevol"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het enumeratietype voor de domeinwaardenlijst van de klasse Bosplantsoen en het attribuut cultuurhistorisch waardevol."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "BosplantsoenCultuurhistorischWaardevol"@nl.
 
 imbor-mim:mim-943b5825-b8d7-4bb1-a4e3-779790af835b a mim:Relatiesoort;
   mim:bron imbor-mim:mim-16fefe2d-e579-4d55-8161-6c90f65feb0c;
@@ -50666,6 +50849,7 @@ imbor-mim:mim-999c662a-cdcc-4feb-8ec6-8818a2ca44e4 a mim:Objecttype;
     imbor-mim:mim-4e8676a3-a629-49a7-a289-142f6c040863,
     imbor-mim:mim-547be48d-f575-4ad1-91eb-5093b3ac3ed0,
     imbor-mim:mim-5d80d795-c1aa-4bc2-953e-7bce768446b3,
+    imbor-mim:mim-6e07d796-7d7c-4023-a29b-edb2b8270aec,
     imbor-mim:mim-7014ca79-cc9f-4078-907e-43f914b7a4e0,
     imbor-mim:mim-7f618373-2299-47ab-812f-76341a338593,
     imbor-mim:mim-8503c487-9198-42ca-99d2-862454f3630b,
@@ -50759,6 +50943,7 @@ imbor-mim:mim-99f64a7c-21ad-4b69-b6b2-b08cf4b23b18 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "afslagniveau bovenstrooms"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-99f6d325-f917-4152-947c-b153b8f57dee a mim:Objecttype;
@@ -51111,16 +51296,6 @@ imbor-mim:mim-9bbf74bf-892b-4d15-ade4-f3c02a9c5a16 a mim:Attribuutsoort;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "tekst"@nl;
   mim:type imbor-mim:mim-string.
-
-imbor-mim:mim-9be5c002-5e53-43ec-ae3f-a58d98c00af4 a mim:Enumeratie;
-  mim:begrip imbor-term:ba19df46-9196-4082-9114-7e30c35b7e5a;
-  mim:begripsterm "Gras-EnKruidachtigenCultuurhistorischWaardevol"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het enumeratietype voor de domeinwaardenlijst van de klasse Gras- en kruidachtigen en het attribuut cultuurhistorisch waardevol."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "Gras-EnKruidachtigenCultuurhistorischWaardevol"@nl.
 
 imbor-mim:mim-9c16790d-7e55-4aed-9263-e40a32a35fba a mim:Relatiesoort;
   mim:bron imbor-mim:mim-ef57e931-d003-4182-8c85-7ba0d62d834c;
@@ -51675,6 +51850,7 @@ imbor-mim:mim-9e4eadf7-1ef6-4970-8dba-7b7d9c9d81e7 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "streefpeil"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-9ea62293-5337-482a-a057-990aef6872d3 a mim:Relatiesoort;
@@ -52965,9 +53141,7 @@ imbor-mim:mim-a57c92d8-2139-45c8-b96f-471106f6af2e a mim:Objecttype;
     imbor-mim:mim-b57584d3-ea66-47d8-a4ad-df63ce13bcd9,
     imbor-mim:mim-b8fce52d-fc87-428f-a745-f8029c4f158e,
     imbor-mim:mim-b91d02d7-08ae-4a09-b898-065b31069a54,
-    imbor-mim:mim-cabe7411-de50-482e-b179-d943287ff859,
-    imbor-mim:mim-dd0b0be6-3dfd-4af8-a973-433eece9d15f,
-    imbor-mim:mim-ef27456a-311f-4b57-9c93-c639ed4e15c4;
+    imbor-mim:mim-dd0b0be6-3dfd-4af8-a973-433eece9d15f;
   mim:begrip imbor-term:943bbe5d-3483-43ae-abe3-7b52b054343b;
   mim:begripsterm "Holle leiding"@nl;
   mim:datumOpname "2023-01-01"^^xsd:date;
@@ -53676,6 +53850,7 @@ imbor-mim:mim-a7eab893-361f-460e-bf83-746a9bffc9f6 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "lozingsniveau"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-a7eb0cdd-5e2b-4cd7-9f1d-6afe527e2d25 a mim:Relatiesoort;
@@ -54382,6 +54557,7 @@ imbor-mim:mim-aaad83eb-d568-4cf3-8f76-a26e51cc0714 a mim:Objecttype;
     imbor-mim:mim-5d80d795-c1aa-4bc2-953e-7bce768446b3,
     imbor-mim:mim-63e53466-ce68-40a5-be0c-b6cbf54c9306,
     imbor-mim:mim-6bd7f8d8-f1cb-4b21-9023-bb5ad11eec1d,
+    imbor-mim:mim-6e07d796-7d7c-4023-a29b-edb2b8270aec,
     imbor-mim:mim-7014ca79-cc9f-4078-907e-43f914b7a4e0,
     imbor-mim:mim-76af5418-8323-4864-8662-d431f97b511f,
     imbor-mim:mim-7f618373-2299-47ab-812f-76341a338593,
@@ -55486,16 +55662,6 @@ imbor-mim:mim-af6e72bc-1a50-4a43-8d42-2a0224662897_mim-InformationObject a mim:G
   mim:subtype imbor-mim:mim-af6e72bc-1a50-4a43-8d42-2a0224662897;
   mim:supertype imbor-mim:mim-InformationObject.
 
-imbor-mim:mim-af71db00-bd18-4ce6-9097-2ff525443769 a mim:Enumeratie;
-  mim:begrip imbor-term:3d948166-8aa5-4b59-9d68-a33563799225;
-  mim:begripsterm "ZandvlakteCultuurhistorischWaardevol"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het enumeratietype voor de domeinwaardenlijst van de klasse Zandvlakte en het attribuut cultuurhistorisch waardevol."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "ZandvlakteCultuurhistorischWaardevol"@nl.
-
 imbor-mim:mim-af72c358-b5e6-4460-ba45-edd815c8d51e a mim:Relatiesoort;
   mim:bron imbor-mim:mim-3252585c-4fab-4ec1-9ba6-f51eaff271d1;
   mim:datumOpname "2023-01-01"^^xsd:date;
@@ -56421,13 +56587,13 @@ imbor-mim:mim-b443540b-0f30-433a-9031-273b1d715ee1 a mim:Relatiesoort;
 
 imbor-mim:mim-b44dc579-3b94-42a1-bc1e-ac65a743e7c4 a mim:Enumeratie;
   mim:begrip imbor-term:a6685422-f24e-4a9a-b12f-4d783a081d8b;
-  mim:begripsterm "BoomBoomstabiliteitskluitdiameterEindbeeld"@nl;
+  mim:begripsterm "BoomStabiliteitskluitdiameterEindbeeld"@nl;
   mim:datumOpname "2023-01-01"^^xsd:date;
   mim:definitie "Het enumeratietype voor de domeinwaardenlijst van de klasse Boom en het attribuut boomstabiliteitskluitdiameter eindbeeld."@nl;
   mim:herkomst "IMBOR - Stichting CROW"@nl;
   mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
   mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "BoomBoomstabiliteitskluitdiameterEindbeeld"@nl.
+  mim:naam "BoomStabiliteitskluitdiameterEindbeeld"@nl.
 
 imbor-mim:mim-b45a9106-b251-44a4-8a1a-a3c5cf72ba8a a mim:Relatiesoort;
   mim:bron imbor-mim:mim-57a2225b-0494-4bc9-bac6-188bc9863777;
@@ -56439,16 +56605,6 @@ imbor-mim:mim-b45a9106-b251-44a4-8a1a-a3c5cf72ba8a a mim:Relatiesoort;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "Roltrap heeft deel Armatuur"@nl;
   mim:unidirectioneel true.
-
-imbor-mim:mim-b4696231-6485-4c37-94b1-a7668f58e092 a mim:Enumeratie;
-  mim:begrip imbor-term:c03a892f-b085-434a-8eb7-89fd39791d9b;
-  mim:begripsterm "Fruit-OfKweekbomenCultuurhistorischWaardevol"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het enumeratietype voor de domeinwaardenlijst van de klasse Fruit- of kweekbomen en het attribuut cultuurhistorisch waardevol."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "Fruit-OfKweekbomenCultuurhistorischWaardevol"@nl.
 
 imbor-mim:mim-b46c9bd1-a971-4869-b84e-6d244d6b7a9d a mim:Relatiesoort;
   mim:bron imbor-mim:mim-6156ad75-a23c-4b5f-8095-c773cd6ebffe;
@@ -57174,6 +57330,7 @@ imbor-mim:mim-b7168388-9eb9-4c95-b35e-1ba2660849e8 a mim:Objecttype;
     imbor-mim:mim-2b1b2ffa-6cdd-4c54-b8c3-475757e347ff,
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
     imbor-mim:mim-638eff22-a320-43ae-889a-0a0b5f83dceb,
+    imbor-mim:mim-7d504c5c-405a-4291-a7bd-4c559a3749ef,
     imbor-mim:mim-7de601b9-df68-4dae-a877-5b602aa6ce19,
     imbor-mim:mim-851c0d3e-c015-4e9b-8556-75fd0a498d22,
     imbor-mim:mim-f46c02ba-18ac-4f9f-856a-64dd56591700;
@@ -57264,6 +57421,17 @@ imbor-mim:mim-b7371cb3-2db0-4013-8ffc-563440a38604 a mim:Attribuutsoort;
   mim:naam "binnendiameter"@nl;
   mim:toelichting unit:MilliM;
   mim:type imbor-mim:mim-decimal.
+
+imbor-mim:mim-b75129e0-2515-47e8-9db4-04dba562891b
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:locatie "https://data.crow.nl/imbor/def".
+
+imbor-mim:mim-b75129e0-2515-47e8-9db4-04dba562891b_mim-Matter a mim:Generalisatie;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:naam "Materie is generalisatie van Permanente markering type II";
+  mim:subtype imbor-mim:mim-b75129e0-2515-47e8-9db4-04dba562891b;
+  mim:supertype imbor-mim:mim-Matter.
 
 imbor-mim:mim-b7660555-703b-4723-9067-d78b6fe4256c a mim:Attribuutsoort;
   mim:begrip imbor-term:6ae1f78f-4566-49cd-918e-ae9ede0ea456;
@@ -57396,6 +57564,7 @@ imbor-mim:mim-b8119d9c-67e6-4ec0-9ef4-b872a7526535 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "niveau benedenstrooms openen"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-b8138f95-6ed1-4329-96da-9802a31a02b0 a mim:Objecttype;
@@ -60052,6 +60221,7 @@ imbor-mim:mim-c1dd6eb8-58b0-4f4c-8c3f-0a7248bbfdce a mim:Enumeratie;
   mim:naam "LaadpuntVerschijningsvorm"@nl.
 
 imbor-mim:mim-c20a97e2-ba6d-4955-b470-e43f19659c4c a mim:Objecttype;
+  mim:attribuut imbor-mim:mim-c3082f88-42ca-49b3-b179-2f7d6b792364;
   mim:begrip imbor-term:d8e14379-e51d-4592-afba-58f6fa1fe1a5;
   mim:begripsterm "Stuw"@nl;
   mim:datumOpname "2023-01-01"^^xsd:date;
@@ -60192,6 +60362,17 @@ imbor-mim:mim-c2d82886-8a19-466e-aebd-072eb234a740 a mim:Attribuutsoort;
     imbor-mim:mim-string,
     imbor-mim:mim-wktLiteral.
 
+imbor-mim:mim-c2f49747-11bc-4d7c-9992-00339775332f
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:locatie "https://data.crow.nl/imbor/def".
+
+imbor-mim:mim-c2f49747-11bc-4d7c-9992-00339775332f_mim-Matter a mim:Generalisatie;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:naam "Materie is generalisatie van Markeringstegels";
+  mim:subtype imbor-mim:mim-c2f49747-11bc-4d7c-9992-00339775332f;
+  mim:supertype imbor-mim:mim-Matter.
+
 imbor-mim:mim-c3022241-7cf7-41f0-8b2b-f9301850e100 a mim:Enumeratie;
   mim:begrip imbor-term:78b8945e-06fa-4aae-a3bd-df1fd5cfc66c;
   mim:begripsterm "RoosterVerschijningsvorm"@nl;
@@ -60213,6 +60394,7 @@ imbor-mim:mim-c3082f88-42ca-49b3-b179-2f7d6b792364 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "kerende hoogte boven waterlijn"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-c30b9108-2a0a-4d35-b458-7faf1ac4a312 a mim:Objecttype;
@@ -60616,6 +60798,8 @@ imbor-mim:mim-c538c222-0fa4-43ee-bf06-9512a484a57b a mim:Objecttype;
     imbor-mim:mim-29ec4228-7a32-41db-ac73-b80db66ea743,
     imbor-mim:mim-2b1b2ffa-6cdd-4c54-b8c3-475757e347ff,
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
+    imbor-mim:mim-7d504c5c-405a-4291-a7bd-4c559a3749ef,
+    imbor-mim:mim-dc1d1d42-b5d4-4efb-9b9d-761651b29759,
     imbor-mim:mim-f46c02ba-18ac-4f9f-856a-64dd56591700;
   mim:begrip imbor-term:cd28ebe0-6a13-4cc6-a037-c4a3e4b3b969;
   mim:begripsterm "Scheiding"@nl;
@@ -61294,6 +61478,17 @@ imbor-mim:mim-c8b73ba2-4dec-4ce3-be7b-ea0e65fe2d7b a mim:Enumeratie;
   mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "LichtbronOptieksoort"@nl.
+
+imbor-mim:mim-c8d8da5f-9bd6-4283-a683-b8e90ebd90d2
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:locatie "https://data.crow.nl/imbor/def".
+
+imbor-mim:mim-c8d8da5f-9bd6-4283-a683-b8e90ebd90d2_mim-Matter a mim:Generalisatie;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:naam "Materie is generalisatie van Bamboe (Biobased)";
+  mim:subtype imbor-mim:mim-c8d8da5f-9bd6-4283-a683-b8e90ebd90d2;
+  mim:supertype imbor-mim:mim-Matter.
 
 imbor-mim:mim-c8dab759-13ba-417e-9a8a-23335235baee a mim:Objecttype;
   mim:attribuut
@@ -62146,6 +62341,7 @@ imbor-mim:mim-cc9fef12-0382-4fa1-a57d-85fe156057c7 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "maximum streefpeil"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-ccd581be-b8f8-4fa3-b347-2d29248f64f7 a mim:Objecttype;
@@ -62522,7 +62718,7 @@ imbor-mim:mim-ceb1b8d7-d0d2-4c79-aaf5-fd834449731b a mim:Attribuutsoort;
 
 imbor-mim:mim-cee4240f-3ba4-4de0-9d8f-ac164b807062 a mim:Attribuutsoort;
   mim:begrip imbor-term:01e944c4-0f1a-4aae-9744-7d7880d8ace0;
-  mim:begripsterm "percentage"@nl;
+  mim:begripsterm "percentage-attribuut"@nl;
   mim:datumOpname "2023-01-01"^^xsd:date;
   mim:definitie "Verhouding tussen twee getallen."@nl;
   mim:herkomst "IMBOR - Stichting CROW"@nl;
@@ -62531,7 +62727,7 @@ imbor-mim:mim-cee4240f-3ba4-4de0-9d8f-ac164b807062 a mim:Attribuutsoort;
     "1..*",
     "1..1";
   mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "percentage"@nl;
+  mim:naam "percentage-attribuut"@nl;
   mim:toelichting
     unit:Euro,
     unit:MilliM;
@@ -63253,6 +63449,7 @@ imbor-mim:mim-d28f3b70-ecaa-4feb-b7af-9f4e2176be2b a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "maximaal bodempeil"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-d2d52b2d-a1ee-437f-a44f-ab6c42379bce a mim:Relatiesoort;
@@ -63853,6 +64050,17 @@ imbor-mim:mim-d524a462-b43a-4410-844e-9afbfe5edf9a a mim:Attribuutsoort;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "gewijzigd door"@nl;
   mim:type imbor-mim:mim-string.
+
+imbor-mim:mim-d52c74d9-2253-4a48-8742-5f417a568dbf
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:locatie "https://data.crow.nl/imbor/def".
+
+imbor-mim:mim-d52c74d9-2253-4a48-8742-5f417a568dbf_mim-Matter a mim:Generalisatie;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:naam "Materie is generalisatie van Cradle tot cradle aluminium";
+  mim:subtype imbor-mim:mim-d52c74d9-2253-4a48-8742-5f417a568dbf;
+  mim:supertype imbor-mim:mim-Matter.
 
 imbor-mim:mim-d52e1d78-3b70-421a-9f17-1427a5331161 a mim:Relatiesoort;
   mim:bron imbor-mim:mim-69d814ef-d785-42d2-89aa-aaa43179db6b;
@@ -65397,6 +65605,7 @@ imbor-mim:mim-dbf04bcc-51c3-4b06-a0f1-eed5c9d02d33 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "niveau benedenstrooms sluiten"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-dbf397aa-4fd9-4183-a782-87ae30ed2144 a mim:Attribuutsoort;
@@ -65447,6 +65656,7 @@ imbor-mim:mim-dc1d1d42-b5d4-4efb-9b9d-761651b29759 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "bouwjaar"@nl;
+  mim:toelichting unit:YR;
   mim:type imbor-mim:mim-gYear.
 
 imbor-mim:mim-dc23672c-b29b-4916-928c-b899e422f5ba a mim:Attribuutsoort;
@@ -66423,16 +66633,6 @@ imbor-mim:mim-e013aa36-3d83-45fa-a98a-b058c674cb73 a mim:Attribuutsoort;
     imbor-mim:mim-positiveInteger,
     imbor-mim:mim-string,
     imbor-mim:mim-wktLiteral.
-
-imbor-mim:mim-e01447f6-5f2c-4bcf-99c9-91ef221e253b a mim:Enumeratie;
-  mim:begrip imbor-term:1ab50c9e-3119-4beb-b93f-da2662b8ead7;
-  mim:begripsterm "HeideCultuurhistorischWaardevol"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het enumeratietype voor de domeinwaardenlijst van de klasse Heide en het attribuut cultuurhistorisch waardevol."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "HeideCultuurhistorischWaardevol"@nl.
 
 imbor-mim:mim-e05b1558-ac50-4137-9c89-d183ab06618f a mim:Objecttype;
   mim:begrip imbor-term:7ace9966-adb0-41d0-b9a1-434a03df27e2;
@@ -69503,6 +69703,7 @@ imbor-mim:mim-edd529d0-801d-4796-b94f-6794a88660dc a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "minimum streefpeil"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-edfe8078-c2d9-49d7-ad03-aaacc99aa474 a mim:Enumeratie;
@@ -69894,6 +70095,17 @@ imbor-mim:mim-eff0badb-c386-4c3d-a8a4-2480f442e6ea a mim:Relatiesoort;
   mim:naam "Beerput is verbonden met Aansluitleiding"@nl;
   mim:unidirectioneel true.
 
+imbor-mim:mim-f00bf4de-0fd8-4806-8d84-a14241730842
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:locatie "https://data.crow.nl/imbor/def".
+
+imbor-mim:mim-f00bf4de-0fd8-4806-8d84-a14241730842_mim-Matter a mim:Generalisatie;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:naam "Materie is generalisatie van Sealwise PVC";
+  mim:subtype imbor-mim:mim-f00bf4de-0fd8-4806-8d84-a14241730842;
+  mim:supertype imbor-mim:mim-Matter.
+
 imbor-mim:mim-f010381e-1511-4770-9fe6-c9c77636d246 a mim:Relatiesoort;
   mim:bron imbor-mim:mim-21e19973-ba96-4711-a92f-32c57989aa37;
   mim:datumOpname "2023-01-01"^^xsd:date;
@@ -69904,6 +70116,23 @@ imbor-mim:mim-f010381e-1511-4770-9fe6-c9c77636d246 a mim:Relatiesoort;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "Elementenverharding voert uit Omgeven van deksel of kolk"@nl;
   mim:unidirectioneel true.
+
+imbor-mim:mim-f0110dd0-27ad-4079-bb19-bc0899da81aa a mim:Objecttype;
+  mim:begrip imbor-term:64e1d89f-4f0f-46e3-8f61-9add3d5441a0;
+  mim:begripsterm "Grafveld"@nl;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:definitie "Een plaats waar menselijke resten zijn begraven."@nl;
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:indicatieAbstractObject false;
+  mim:locatie "https://data.crow.nl/imbor/def";
+  mim:naam "Grafveld"@nl.
+
+imbor-mim:mim-f0110dd0-27ad-4079-bb19-bc0899da81aa_mim-6f2725be-2a7b-4d94-8f53-513459f52147 a mim:Generalisatie;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:naam "Beheerzone is generalisatie van Grafveld";
+  mim:subtype imbor-mim:mim-f0110dd0-27ad-4079-bb19-bc0899da81aa;
+  mim:supertype imbor-mim:mim-6f2725be-2a7b-4d94-8f53-513459f52147.
 
 imbor-mim:mim-f02aa7d0-d4b5-4374-aabd-38ecd56c542a a mim:Relatiesoort;
   mim:bron imbor-mim:mim-16fefe2d-e579-4d55-8161-6c90f65feb0c;
@@ -71033,6 +71262,7 @@ imbor-mim:mim-f49c84a4-f7b9-44c5-9dbc-d9f63f552415 a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "waterpeil winter"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-f4aac329-5f98-4d65-9a86-ef184516a1ed a mim:Relatiesoort;
@@ -71252,16 +71482,6 @@ imbor-mim:mim-f591bb58-2761-4568-b8b3-9dea37a076c7 a mim:Relatiesoort;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "Debietmeter is verbonden met Elektriciteitskast"@nl;
   mim:unidirectioneel true.
-
-imbor-mim:mim-f5c2cca4-3864-4d22-9d3d-85666abd777d a mim:Enumeratie;
-  mim:begrip imbor-term:ce97e7d1-6937-4755-8fbf-dd8d4103b6e9;
-  mim:begripsterm "HaagCultuurhistorischWaardevol"@nl;
-  mim:datumOpname "2023-01-01"^^xsd:date;
-  mim:definitie "Het enumeratietype voor de domeinwaardenlijst van de klasse Haag en het attribuut cultuurhistorisch waardevol."@nl;
-  mim:herkomst "IMBOR - Stichting CROW"@nl;
-  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-  mim:locatie "https://data.crow.nl/imbor/def";
-  mim:naam "HaagCultuurhistorischWaardevol"@nl.
 
 imbor-mim:mim-f5d8985b-f2d5-4a5b-9478-17cbadae08ef a mim:Objecttype;
   mim:begrip imbor-term:3ffc3a75-68c7-45a2-b447-75cbe2b11389;
@@ -71546,6 +71766,17 @@ imbor-mim:mim-f6b9ca23-26e0-4dd6-b532-77777e3d50eb a mim:Attribuutsoort;
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "richtingnummer"@nl;
   mim:type imbor-mim:mim-string.
+
+imbor-mim:mim-f6cbad6c-1357-4954-aa6c-734fdbbe71b2
+  mim:herkomst "IMBOR - Stichting CROW"@nl;
+  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
+  mim:locatie "https://data.crow.nl/imbor/def".
+
+imbor-mim:mim-f6cbad6c-1357-4954-aa6c-734fdbbe71b2_mim-Matter a mim:Generalisatie;
+  mim:datumOpname "2023-01-01"^^xsd:date;
+  mim:naam "Materie is generalisatie van Honingraat Bio Recycling";
+  mim:subtype imbor-mim:mim-f6cbad6c-1357-4954-aa6c-734fdbbe71b2;
+  mim:supertype imbor-mim:mim-Matter.
 
 imbor-mim:mim-f6f68fff-961b-42cf-b183-80be46948310 a mim:Relatiesoort;
   mim:bron imbor-mim:mim-9cbafabd-ef5f-4121-a63a-57da752300e5;
@@ -72189,6 +72420,8 @@ imbor-mim:mim-f9dec4a8-3b9b-4ac7-8128-6c3c78cbb736 a mim:Objecttype;
   mim:attribuut
     imbor-mim:mim-2b1b2ffa-6cdd-4c54-b8c3-475757e347ff,
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
+    imbor-mim:mim-7d504c5c-405a-4291-a7bd-4c559a3749ef,
+    imbor-mim:mim-9076aef7-d040-4e99-8826-9b2be0e7bd9b,
     imbor-mim:mim-e3e7679f-3d71-4f75-a647-6729380ddcd4,
     imbor-mim:mim-e55a9f55-2e78-495e-9f60-f2feff4daa5a,
     imbor-mim:mim-f46c02ba-18ac-4f9f-856a-64dd56591700;
@@ -72219,6 +72452,7 @@ imbor-mim:mim-f9e61410-a721-4f46-99b7-b0b425e1cc8d a mim:Attribuutsoort;
   mim:kardinaliteit "0..1";
   mim:locatie "https://data.crow.nl/imbor/def";
   mim:naam "aanslagniveau bovenstrooms"@nl;
+  mim:toelichting unit:M;
   mim:type imbor-mim:mim-decimal.
 
 imbor-mim:mim-f9e7234f-a487-4ad4-ae12-cd78dd97f12d a mim:Relatiesoort;
@@ -73399,6 +73633,7 @@ imbor-mim:mim-ffa16bb2-fa5a-49f1-b3e8-794499b02785 a mim:Objecttype;
     imbor-mim:mim-2b1b2ffa-6cdd-4c54-b8c3-475757e347ff,
     imbor-mim:mim-4af7d3cc-a139-4c7e-83c0-67ea8b628001,
     imbor-mim:mim-a6482382-af5c-4e18-a2db-a353004051f0,
+    imbor-mim:mim-dc1d1d42-b5d4-4efb-9b9d-761651b29759,
     imbor-mim:mim-f46c02ba-18ac-4f9f-856a-64dd56591700;
   mim:begrip imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
   mim:begripsterm "Bouwwerk"@nl;
