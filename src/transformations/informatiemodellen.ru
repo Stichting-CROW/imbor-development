@@ -43,10 +43,13 @@ insert {
             rdfs:seeAlso ?urlAnyURI ;
             dct:publisher ?Beheerder ;
             <https://schema.org/version> ?Versie .
+
+        ?propShapeUri dct:source  ?imUri .
     }
 } where {
     graph <csv:table/refModel_Informatiemodellen> {
-        ?im csv:refInformatiemodelGUID ?refInformatiemodelGUID ;
+        ?im csv:refInformatiemodelID ?refInformatiemodelID ;
+            csv:refInformatiemodelGUID ?refInformatiemodelGUID ;
             csv:refInformatiemodel ?refInformatiemodel .
         
         optional {?im csv:Definitie ?Definitie .}
@@ -55,7 +58,15 @@ insert {
         optional {?im csv:URL ?URL .}
     }
 
+    graph <csv:table/imborKern_K_KlassenAttributen> {
+        [] csv:Informatiemodel ?refInformatiemodelID ;
+            csv:IMBORGUID ?IMBORGUID ;  # guid van de property shape
+        	.
+    }
+
     BIND (STRDT(?URL, xsd:anyURI) as ?urlAnyURI)
     BIND (STRLANG(?Definitie, "nl") as ?DefinitieNL)
     BIND (URI(CONCAT(STR(imbor-refmodels-id:), ?refInformatiemodelGUID)) AS ?imUri)
+
+    BIND (URI(CONCAT(STR(imbor:), ?IMBORGUID)) AS ?propShapeUri)
 }

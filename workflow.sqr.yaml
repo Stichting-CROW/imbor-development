@@ -147,22 +147,24 @@ jobs:
           only-graphs:
             - "https://data.crow.nl/imbor/aanvullend-metamodel"
 
-      - file: data/rdf/imbor-informatief.trig
+      - file: data/rdf/imbor-addendum-referentiemodellen.ttl
         with:
           only-graphs:
-            - "https://data.crow.nl/imbor/addendum/oagbd"
-            - "https://data.crow.nl/imbor/addendum/geometrie"
-            - "https://data.crow.nl/imbor/addendum/minimale-dataset"
             - "https://data.crow.nl/imbor/addendum/referentiemodellen"
-            - "https://data.crow.nl/imbor/mim"
 
-      - file: data/rdf/imbor-informatief_LacesUpload.ttl
+      - file: data/rdf/imbor-addendum-oagbd.ttl
         with:
           only-graphs:
             - "https://data.crow.nl/imbor/addendum/oagbd"
+
+      - file: data/rdf/imbor-addendum-geometrie.ttl
+        with:
+          only-graphs:
             - "https://data.crow.nl/imbor/addendum/geometrie"
-            - "https://data.crow.nl/imbor/addendum/minimale-dataset"
-            - "https://data.crow.nl/imbor/addendum/referentiemodellen"
+
+      - file: data/rdf/imbor-mim.ttl
+        with:
+          only-graphs:
             - "https://data.crow.nl/imbor/mim"
 
       - file: data/rdf/imbor-rest-api-linkset.ttl
@@ -199,7 +201,6 @@ jobs:
             - https://data.crow.nl/imbor/aanvullend-metamodel
             - https://data.crow.nl/imbor/addendum/oagbd
             - https://data.crow.nl/imbor/addendum/geometrie
-            - https://data.crow.nl/imbor/addendum/minimale-dataset
             - https://data.crow.nl/imbor/addendum/referentiemodellen
             - https://data.crow.nl/imbor/mim
 

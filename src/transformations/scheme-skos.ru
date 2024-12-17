@@ -39,6 +39,7 @@ prefix csv: <csv:>
 INSERT {
     graph imbor-term: {
         imbor-term:term-schema a skos:ConceptScheme;
+            owl:versionInfo "IMBOR2025" ;
             skos:prefLabel "IMBOR Vocabulaire (Begrippenkader voor IMBOR)"@nl ;
             skos:hasTopConcept ?broader ;
             dct:creator "IMBOR - Stichting CROW"@nl ;
