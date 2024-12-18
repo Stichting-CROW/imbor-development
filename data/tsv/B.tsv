@@ -1,0 +1,111 @@
+BID	B	IMBOR
+1	aanslagniveau benedenstrooms	false
+2	aanslagniveau bovenstrooms	false
+3	aansluitingszijde	false
+4	aantal i.e. bedrijven	false
+5	aantal i.e. per woning	false
+6	aantal i.e. recreatie	false
+7	aantal pompen	false
+8	aantal woningen	false
+9	aanwezigheid afsluitklep	false
+10	afslagniveau benedenstrooms	false
+11	afslagniveau bovenstrooms	false
+12	afsluiterstand	false
+13	afstand tot beginpunt	false
+14	afstand tot bovenzijde put	false
+15	afstand tot eindpunt	false
+16	afvoercoëfficiënt	false
+17	afvoerend oppervlak	false
+18	anti-graffiti voorziening	true
+19	beginstand draaiurenteller	false
+20	belastingklasse DIN19580/EN1433	false
+21	bergend oppervlak	false
+22	bergend vermogen	false
+23	bodemprofiel	false
+24	breedte	true
+25	breedte toegang	false
+26	continue lozing	false
+27	contractiecoëfficiënt doorlaatprofiel	false
+28	diameter	true
+29	dikte	true
+30	doorlaatbaarheid	false
+31	doorlaatniveau	false
+32	doorloophoogte	true
+33	doorvaartbreedte	true
+34	doorvaarthoogte	true
+35	drempelniveau	false
+36	drukklasse	false
+37	energieverliescoefficient	false
+38	frequentie uitspuiten	false
+39	gemaalcapaciteit	false
+40	gemeentenaam	true
+41	gewicht	true
+42	herbeoordeelde belastingklasse	false
+43	hoofdgemaal	false
+44	huisnummer	true
+45	infiltrerend oppervlak	false
+46	infiltrerend vermogen	false
+47	invoer	false
+48	kathodische bescherming	false
+49	kilometrering begin	false
+50	kilometrering eind	false
+51	laatste stand draaiurenteller	false
+52	laatste stand kwh-teller	false
+53	lateraal afvoerend oppervlak	false
+54	lateraal debiet	false
+55	lateraal debiet DWA	false
+56	lateraal debiet HWA	false
+57	lengte	true
+58	lengte toegang	false
+59	lozingseisen	false
+60	lozingsniveau	false
+61	lozingsvergunningnummer	false
+62	maaiveldhoogte	true
+63	maaiveldschematisering	false
+64	maximale asbelasting	false
+65	maximale capaciteit doorlaat	false
+66	minimaal doorstroomoppervlak	false
+67	modaliteit	true
+68	motorvermogen	false
+69	niveau benedenstrooms openen	false
+70	niveau benedenstrooms sluiten	false
+71	niveau bovenstrooms openen	false
+72	niveau bovenstrooms sluiten	false
+73	niveau buitenwater	false
+74	omtreklocatie	false
+75	onderhoudsregime	false
+76	ontwerpcapaciteit	false
+77	op talud	true
+78	oppervlakte	true
+79	opvangcapaciteit	false
+80	originele belastingklasse	false
+81	overstortputtype	false
+82	parallel	true
+83	pompcapaciteit	false
+84	pompschakeling	false
+85	porositeit	false
+86	profiel leiding	false
+87	profiel open leiding	false
+88	relatieve hoogteligging	true
+89	retentiewaarde	false
+90	SDR-waarde	false
+91	soortnaam	true
+92	stopcode stroomgroep	true
+93	stromingsrichting	false
+94	tandem	false
+95	telemetriesysteem-identificatie	true
+96	type aansluitpunt	false
+97	type bediening	true
+98	type reiniging	false
+99	type waaier	false
+100	uitstroomniveau	false
+101	vegen	true
+102	verbindingstype	false
+103	verfoppervlakte	true
+104	verplaatsbaar	true
+105	verschijningsvorm	true
+106	vigerend	true
+107	voltage	true
+108	vorm	true
+109	vrije overstorthoogte	false
+110	wanddikte	false

@@ -24,4 +24,5 @@ imbor-domeinwaarde: a owl:Ontology;
     imbor:,
     imbor-term:,
     nen2660:,
-    nen2660-term:.
+    nen2660-term:;
+  owl:versionInfo "IMBOR2025".

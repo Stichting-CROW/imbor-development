@@ -47,39 +47,6 @@ insert data {
             skos:prefLabel "Informatiemodel"@nl ;
             skos:definition "Externe informatiebron (of ontologie) ten behoeve van IMBOR."@nl ;
             .
-
-        imbor-refmodels:imborAttribuutDomeinwaarde a rdf:Property ;
-            skos:prefLabel "mapt naar IMBOR-attribuut-domeinwaarde"@nl ;
-            skos:definition "Relateert van een mapping naar een attribuut-domeinwaarde-combinatie."@nl ;
-            .
-        imbor-refmodels:imborObjecttype a rdf:Property ;
-            skos:prefLabel "mapt naar IMBOR-objecttype"@nl ;
-            skos:definition "Relateert van een mapping naar naar dit IMBOR-objecttype."@nl ;
-            .
-        imbor-refmodels:RefAttribuut a rdfs:Class ;
-            skos:prefLabel "Extern attribuut"@nl ;
-            skos:definition "Representatie in de IMBOR-context van wat extern een attribuut is."@nl ;
-            .
-        imbor-refmodels:refAttribuutDomeinwaarde a rdf:Property ;
-            skos:prefLabel "mapt naar extern attribuut-domeinwaarde"@nl ;
-            skos:definition "Relateert van een mapping naar dit externe attribuut-domeinwaarde-combinatie."@nl ;
-            .
-        imbor-refmodels:RefDomeinwaarde a rdfs:Class ;
-            skos:prefLabel "Externe domeinwaarde"@nl ;
-            skos:definition "Representatie in de IMBOR-context van wat extern een domeinwaarde is."@nl ;
-            .
-        imbor-refmodels:RefMapping a rdfs:Class ;
-            skos:prefLabel "Externe mapping"@nl ;
-            skos:definition "Mapping van een extern informatiemodel van of naar IMBOR."@nl ;
-            .
-        imbor-refmodels:refObjecttype a rdf:Property ;
-            skos:prefLabel "mapt naar extern objecttype"@nl ;
-            skos:definition "Relateert van een mapping naar dit externe objecttype."@nl ;
-            .
-        imbor-refmodels:RefObjecttype a rdfs:Class ;
-            skos:prefLabel "Extern objecttype"@nl ;
-            skos:definition "Representatie in de IMBOR-context van wat extern een objecttype is."@nl ;
-            .
         imbor-domeinwaarde:bovenliggendeWaarde a rdf:Property ;
             skos:prefLabel "categorie domeinwaarde"@nl ;
             skos:definition "Domeinwaarden die in picklists van elkaar afhankelijk zijn."@nl ;

@@ -10,14 +10,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-imbor-refmodels:imborAttribuutDomeinwaarde a rdf:Property;
-  skos:definition "Relateert van een mapping naar een attribuut-domeinwaarde-combinatie."@nl;
-  skos:prefLabel "mapt naar IMBOR-attribuut-domeinwaarde"@nl.
-
-imbor-refmodels:imborObjecttype a rdf:Property;
-  skos:definition "Relateert van een mapping naar naar dit IMBOR-objecttype."@nl;
-  skos:prefLabel "mapt naar IMBOR-objecttype"@nl.
-
 imbor-refmodels:Informatiemodel a rdfs:Class;
   skos:definition "Externe informatiebron (of ontologie) ten behoeve van IMBOR."@nl;
   skos:prefLabel "Informatiemodel"@nl.
@@ -27,34 +19,11 @@ imbor-refmodels:levensfaseTypering a rdf:Property;
   skos:definition "Dit attribuut is van toepassing op het (O)ntwerp, (A)anleg, (G)eovoorziening, (B)eheer, (D)ynamisch gegeven"@nl;
   skos:prefLabel "typering levensfase"@nl.
 
-imbor-refmodels:RefAttribuut a rdfs:Class;
-  skos:definition "Representatie in de IMBOR-context van wat extern een attribuut is."@nl;
-  skos:prefLabel "Extern attribuut"@nl.
-
-imbor-refmodels:refAttribuutDomeinwaarde a rdf:Property;
-  skos:definition "Relateert van een mapping naar dit externe attribuut-domeinwaarde-combinatie."@nl;
-  skos:prefLabel "mapt naar extern attribuut-domeinwaarde"@nl.
-
-imbor-refmodels:RefDomeinwaarde a rdfs:Class;
-  skos:definition "Representatie in de IMBOR-context van wat extern een domeinwaarde is."@nl;
-  skos:prefLabel "Externe domeinwaarde"@nl.
-
-imbor-refmodels:RefMapping a rdfs:Class;
-  skos:definition "Mapping van een extern informatiemodel van of naar IMBOR."@nl;
-  skos:prefLabel "Externe mapping"@nl.
-
-imbor-refmodels:refObjecttype a rdf:Property;
-  skos:definition "Relateert van een mapping naar dit externe objecttype."@nl;
-  skos:prefLabel "mapt naar extern objecttype"@nl.
-
-imbor-refmodels:RefObjecttype a rdfs:Class;
-  skos:definition "Representatie in de IMBOR-context van wat extern een objecttype is."@nl;
-  skos:prefLabel "Extern objecttype"@nl.
-
 <https://data.crow.nl/imbor/aanvullend-metamodel> a owl:Ontology;
   rdfs:comment "Een aantal metaconcepten worden specifiek voor IMBOR gedefinieerd. Dit wordt gedaan middels het 'IMBOR Aanvullend Metamodel'. Dit betreft een kleine ontologie van beschrijfende concepten die er voor zorgen dat alle IMBOR specifieke properties netjes en navolgbaar gedefinieerd zijn."@nl;
   rdfs:label "IMBOR Aanvullend metamodel"@nl;
-  owl:imports skos:.
+  owl:imports skos:;
+  owl:versionInfo "IMBOR2025".
 
 imbor:Actor a rdfs:Class;
   rdfs:subClassOf nen2660:PhysicalObject;
@@ -94,7 +63,7 @@ nen2660:isContainedBy a rdf:Property, owl:ObjectProperty;
     "The real objects located in a spatial region, typically the gaseous amount of bulk matter present in that region"@en,
     "De reële objecten die zich in een ruimtelijk gebied bevinden, meestal de gasvormige hoeveelheid bulkmaterie die in dat gebied aanwezig isn"@nl;
   skos:prefLabel
-    "is containd by"@en,
+    "is contained by"@en,
     "bevindt zich in"@nl.
 
 nen2660:isPartOf a rdf:Property, owl:ObjectProperty;
