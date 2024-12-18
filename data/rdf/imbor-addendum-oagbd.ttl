@@ -1,30 +1,14 @@
 @prefix imbor: <https://data.crow.nl/imbor/def/>.
 @prefix imbor-meta: <https://data.crow.nl/imbor/aanvullend-metamodel/>.
 @prefix imbor-refmodels: <https://data.crow.nl/imbor-ref/def/>.
-@prefix imbor-term: <https://data.crow.nl/imbor/term/>.
-@prefix nen2660: <https://w3id.org/nen2660/def#>.
-@prefix nen2660-term: <https://w3id.org/nen2660/term#>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
-@prefix quantitykind: <http://qudt.org/vocab/quantitykind/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix sh: <http://www.w3.org/ns/shacl#>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
-@prefix unit: <http://qudt.org/vocab/unit/>.
 
 <https://data.crow.nl/imbor/addendum/oagbd> a owl:Ontology;
   rdfs:comment "Dit informatieve gedeelte van IMBOR geeft aan bij elke combinatie van klasse en attribuut in welke fase van de levenscyclus van het object de informatie doorgaans bekend is."@nl;
   rdfs:label "IMBOR addendum OAGBD"@nl;
-  owl:imports
-    quantitykind:,
-    unit:,
-    skos:,
-    sh:,
-    imbor-meta:,
-    imbor:,
-    imbor-term:,
-    nen2660:,
-    nen2660-term:;
+  owl:imports imbor-meta:;
   owl:versionInfo "IMBOR2025".
 
 imbor:00231ddd-6d95-4255-be25-d20faf6900b7

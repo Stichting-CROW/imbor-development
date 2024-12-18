@@ -1,17 +1,12 @@
 @prefix imbor: <https://data.crow.nl/imbor/def/>.
-@prefix imbor-meta: <https://data.crow.nl/imbor/aanvullend-metamodel/>.
 @prefix imbor-refmodels: <https://data.crow.nl/imbor-ref/def/>.
-@prefix imbor-term: <https://data.crow.nl/imbor/term/>.
 @prefix nen2660: <https://w3id.org/nen2660/def#>.
-@prefix nen2660-term: <https://w3id.org/nen2660/term#>.
 @prefix nen3610: <http://modellen.geostandaarden.nl/def/nen3610-2022#>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
-@prefix quantitykind: <http://qudt.org/vocab/quantitykind/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix sh: <http://www.w3.org/ns/shacl#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
-@prefix unit: <http://qudt.org/vocab/unit/>.
 
 nen3610:Gebouw a sh:NodeShape;
   sh:property imbor-refmodels:9613b244-ba3b-4289-afe8-9d27b45e3214.
@@ -643,16 +638,6 @@ imbor-refmodels:feff22ee-c8d9-4fe4-b631-c95d25cf8ea3 a sh:PropertyShape;
 <https://data.crow.nl/imbor/addendum/geometrie> a owl:Ontology;
   rdfs:comment "Dit informatieve gedeelte van IMBOR geeft aan welke soort geometrische vastlegging de voorkeur heeft en welke er meer mogelijk zijn."@nl;
   rdfs:label "IMBOR addendum Geometrie"@nl;
-  owl:imports
-    quantitykind:,
-    unit:,
-    skos:,
-    sh:,
-    imbor-meta:,
-    imbor:,
-    imbor-term:,
-    nen2660:,
-    nen2660-term:;
   owl:versionInfo "IMBOR2025".
 
 imbor:0379b919-1cf8-4546-8091-0a6d0cab3197 a sh:NodeShape;

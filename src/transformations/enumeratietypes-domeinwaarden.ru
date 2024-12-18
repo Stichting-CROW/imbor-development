@@ -65,7 +65,7 @@ WHERE {
     }
 
     graph <csv:table/imborKern_K_KlassenAttributen> {
-        [] csv:HierarchieElementAttribuutID ?Enumeratietype ;  # koppeling met EnumeratiesDomeinwaarden.Enumeratie
+        [] csv:KlasseAttribuutID ?Enumeratietype ;  # koppeling met EnumeratiesDomeinwaarden.Enumeratie
             csv:Enumeratietype ?EnumeratietypeVocabID .
     }
     

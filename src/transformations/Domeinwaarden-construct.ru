@@ -1,10 +1,12 @@
+#TODO: Checken waarom deze nodig is
+
 CONSTRUCT {
     ?tgtList a rdf:List .
     ?tgtList rdf:first ?tgtElementUri .
     ?tgtElementUri a ?tgtEnumeratieType .
     ?tgtElementUri rdfs:label ?domeinwaarde .
     ?tgtList rdf:rest ?tgtRestList .
-    ?tgtEnumeratieType rdfs:subClassOf base:EnumerationType .
+    ?tgtEnumeratieType rdfs:subClassOf nen2660:EnumerationType .
     ?tgtEnumeratieType a sh:NodeShape .
     ?tgtEnumeratieType sh:in ?tgtListFirst .
 }

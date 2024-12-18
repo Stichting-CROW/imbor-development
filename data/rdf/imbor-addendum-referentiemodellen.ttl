@@ -3,16 +3,10 @@
 @prefix imbor-meta: <https://data.crow.nl/imbor/aanvullend-metamodel/>.
 @prefix imbor-refmodels: <https://data.crow.nl/imbor-ref/def/>.
 @prefix imbor-refmodels-id: <https://data.crow.nl/imbor-ref/id/>.
-@prefix imbor-term: <https://data.crow.nl/imbor/term/>.
-@prefix nen2660: <https://w3id.org/nen2660/def#>.
-@prefix nen2660-term: <https://w3id.org/nen2660/term#>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
-@prefix quantitykind: <http://qudt.org/vocab/quantitykind/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix sh: <http://www.w3.org/ns/shacl#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
-@prefix unit: <http://qudt.org/vocab/unit/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 imbor-refmodels-id:0eaa87b3-9450-4766-8130-cedd306116a3 a imbor-refmodels:Informatiemodel;
@@ -36,16 +30,7 @@ imbor-refmodels-id:7d1f9b9c-b30f-4b94-8ff2-756e3354a14a a imbor-refmodels:Inform
 <https://data.crow.nl/imbor/addendum/referentiemodellen> a owl:Ontology;
   rdfs:comment "Dit informatieve gedeelte van IMBOR bevat de modellen waar vanuit IMBOR aan gerefereerd kan worden. Tevens bevat het waar van toepassing de 'bron' van een IMBOR concept."@nl;
   rdfs:label "IMBOR addendum Referentiemodellen"@nl;
-  owl:imports
-    quantitykind:,
-    unit:,
-    skos:,
-    sh:,
-    imbor-meta:,
-    imbor:,
-    imbor-term:,
-    nen2660:,
-    nen2660-term:;
+  owl:imports imbor-meta:;
   owl:versionInfo "IMBOR2025".
 
 imbor:00231ddd-6d95-4255-be25-d20faf6900b7
@@ -2209,7 +2194,7 @@ imbor:69680a82-4b2b-4ec1-ae45-69c2ad547e6b
   dc:source imbor-refmodels-id:0eaa87b3-9450-4766-8130-cedd306116a3.
 
 imbor:69ba2ca6-186b-460b-b6e2-909eb1d7a858
-  dc:source imbor-refmodels-id:7d1f9b9c-b30f-4b94-8ff2-756e3354a14a.
+  dc:source imbor-refmodels-id:0eaa87b3-9450-4766-8130-cedd306116a3.
 
 imbor:69da6ba0-9bf1-4e30-bbfb-df37c8dadb53
   dc:source imbor-refmodels-id:0eaa87b3-9450-4766-8130-cedd306116a3.
@@ -2554,7 +2539,7 @@ imbor:7764f7ef-b128-4e69-a7f3-ad15906523a0
   dc:source imbor-refmodels-id:0eaa87b3-9450-4766-8130-cedd306116a3.
 
 imbor:77729e90-001c-4c92-ad51-baaffcdc1c03
-  dc:source imbor-refmodels-id:7d1f9b9c-b30f-4b94-8ff2-756e3354a14a.
+  dc:source imbor-refmodels-id:0eaa87b3-9450-4766-8130-cedd306116a3.
 
 imbor:77d2a265-2bf1-4ee0-a37b-925f5d35eeb9
   dc:source imbor-refmodels-id:0eaa87b3-9450-4766-8130-cedd306116a3.
@@ -4195,7 +4180,7 @@ imbor:cb9faea1-bd1b-4543-97a8-4c183b43585f
   dc:source imbor-refmodels-id:0eaa87b3-9450-4766-8130-cedd306116a3.
 
 imbor:cbb52a6d-4b00-4e7f-863a-fa0de8d3c44e
-  dc:source imbor-refmodels-id:7d1f9b9c-b30f-4b94-8ff2-756e3354a14a.
+  dc:source imbor-refmodels-id:0eaa87b3-9450-4766-8130-cedd306116a3.
 
 imbor:cbc79ca6-35fc-45ee-9ee7-72b311057c1e
   dc:source imbor-refmodels-id:0eaa87b3-9450-4766-8130-cedd306116a3.
