@@ -31,8 +31,11 @@ prefixes:
   imbor-domeinwaarde: https://data.crow.nl/imbor/id/domeinwaarden/
   imbor-mim: https://data.crow.nl/imbor/mim/
   imbor-meta: https://data.crow.nl/imbor/aanvullend-metamodel/
+  crow_change: https://data.crow.nl/change/def/
+  imbor_change_log: https://data.crow.nl/change/log/imbor/id/
   restapi: https://data.crow.nl/rest-api/def#
   coll: https://data.crow.nl/rest-api/id#
+  as: https://www.w3.org/ns/activitystreams/
 
 jobs:
   converteer-accessdb:
@@ -114,6 +117,7 @@ jobs:
       - update: src/transformations/shacl-messages-and-rules.ru
       - update: src/transformations/qualifiedValueShape-replace-qualifiedMaxMin-991.ru
       - update: src/transformations/qualifiedValueShape-min-constraint.ru
+      - update: src/transformations/logging.ru
 
   download-voor-gefilterde-export:
     steps:
@@ -171,6 +175,11 @@ jobs:
         with:
           only-graphs:
             - "https://data.crow.nl/imbor/addendum/rest-api"
+
+      - file: data/rdf/change_log_imbor.ttl
+        with:
+          only-graphs:
+            - "https://data.crow.nl/change/log/imbor"
 
   stap-6-laad-externe-ontologieen:
     sources:

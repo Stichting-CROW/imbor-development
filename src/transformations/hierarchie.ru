@@ -31,6 +31,8 @@ prefix imbor-refmodels-id: <https://data.crow.nl/imbor-ref/id/>
 prefix imbor-domeinwaarde: <https://data.crow.nl/imbor/id/domeinwaarden/>
 prefix imbor-mim: <https://data.crow.nl/imbor/mim/>
 prefix imbor-meta: <https://data.crow.nl/imbor/aanvullend-metamodel/>
+prefix crow_change: <https://data.crow.nl/change/def/> 
+prefix imbor_change_log: <https://data.crow.nl/change/log/imbor/id/> 
 prefix restapi: <https://data.crow.nl/rest-api/def#>
 prefix coll: <https://data.crow.nl/rest-api/id#>
 

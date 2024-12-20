@@ -82,14 +82,14 @@ _, removed_triples, added_triples = graph_diff(iso_graph1, iso_graph2)
 formatted_added_triples = sorted([format_triple(t) for t in added_triples])
 formatted_removed_triples = sorted([format_triple(t) for t in removed_triples])
 
-write_to_tsv(formatted_added_triples, ADDED_TRIPLES_TSV, "+")
-write_to_tsv(formatted_removed_triples, REMOVED_TRIPLES_TSV, "-")
+write_to_tsv(formatted_added_triples, TTL_FILE_2 + "_" + ADDED_TRIPLES_TSV, "+")
+write_to_tsv(formatted_removed_triples, TTL_FILE_2 + "_" +  REMOVED_TRIPLES_TSV, "-")
 
-write_to_ttl(added_triples, ADDED_TRIPLES_TTL, "Create")
-write_to_ttl(removed_triples, REMOVED_TRIPLES_TTL, "Delete")
+write_to_ttl(added_triples, TTL_FILE_2 + "_" + ADDED_TRIPLES_TTL, "Create")
+write_to_ttl(removed_triples, TTL_FILE_2 + "_" + REMOVED_TRIPLES_TTL, "Delete")
 
-pretty_print_turtle_file(ADDED_TRIPLES_TTL, "pretty_" + ADDED_TRIPLES_TTL)
-pretty_print_turtle_file(REMOVED_TRIPLES_TTL, "pretty_" + REMOVED_TRIPLES_TTL)
+pretty_print_turtle_file(TTL_FILE_2 + "_" + ADDED_TRIPLES_TTL, TTL_FILE_2 + "_pretty_" + ADDED_TRIPLES_TTL)
+pretty_print_turtle_file(TTL_FILE_2 + "_" + REMOVED_TRIPLES_TTL, TTL_FILE_2 + "_pretty_" + REMOVED_TRIPLES_TTL)
 
 ## Notify completion
 print(f"Added triples (TSV): {ADDED_TRIPLES_TSV}")
