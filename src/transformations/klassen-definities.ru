@@ -51,13 +51,6 @@ INSERT {
     }
 }
 WHERE {
-    graph <csv:table/imborKern_HierarchieElementen> {
-        ?row 
-            csv:HierarchieElement ?Klasse ;  # vocabulairID
-            csv:HierarchieElementID ?KlasseID ;  # tabel 
-            .
-    }
-
     graph <csv:table/imborVoc_Termen> {
         VALUES (?KlasseType ?KlasseTypeNL ?KlasseTypeBool) {
             (14795 "Abstract"@nl true  )
@@ -76,9 +69,12 @@ WHERE {
         optional { ?rowTerm csv:Definitie ?Definitie . }
         optional { ?rowTerm csv:Toelichting ?Toelichting . }
 
-        FILTER (?Collectie NOT IN (3, 11, 24)) # 3=Attribuut, 11=Semantische relatie, 24=Enumeratietype
-        #TODO domeinwaarde?
-    }
+        FILTER (?Collectie IN (2, 5, 18, 21, 22, 23, 25, 27)) 
+        # 3=Attribuut in: attributen.ru
+        # 4=Domeinwaarde in: enumeraties-domeinwaarden.ru
+        # 6=Vakdisciplines in: vakdisciplines.ru
+        # 24=Enumeratietypen in: enumeratietypes-klassen.ru
+       }
 
     BIND (URI(CONCAT(STR(imbor:), ?IMBORGUID)) AS ?klasseUri)
     BIND (URI(CONCAT(STR(imbor-term:), ?VocabulairGUID)) AS ?termUri)

@@ -49,11 +49,6 @@ insert data {
             skos:prefLabel "Informatiemodel"@nl ;
             skos:definition "Externe informatiebron (of ontologie) ten behoeve van IMBOR."@nl ;
             .
-        imbor-domeinwaarde:bovenliggendeWaarde a rdf:Property ;
-            skos:prefLabel "categorie domeinwaarde"@nl ;
-            skos:definition "Domeinwaarden die in picklists van elkaar afhankelijk zijn."@nl ;
-            rdfs:range xsd:string .
-
         imbor:typeLijst a rdf:Property ;
             skos:prefLabel "open/gesloten"@nl ;
             skos:definition "Of deze lijst een open suggestielijst is of een gesloten enumeratielijst."@nl ;

@@ -59,6 +59,7 @@ INSERT {
                                 rdfs:label  "Log-item"@nl, "Change-item"@en .
 
    }
+
 }
 WHERE {
     graph <csv:table/imbor_logging> {
@@ -78,12 +79,12 @@ WHERE {
         
 # TODO: Kijken of dit later nodig is, als de kolom URI gebruikt gaat worden.
     # graph <csv:table/imborVoc_Termen> {
-    #     []     
+        # ?row1     
     #         csv:VocabulairID ?Vakdiscipline ;
     #         csv:Term ?Term ;
     #         csv:VocabulairGUID ?VocabulairGUID ;
-    #         csv:IMBORGUID ?VakdisciplineIMBORGUID .
-              
+            # csv:IMBORGUID ?IMBORGUID ;
+            # csv:Wijzingsdatum ?Wijzingsdatum .
     # }
 
     graph <csv:table/imbor_loggingStatus> {
@@ -129,5 +130,6 @@ WHERE {
     REPLACE(?tempDate, "Dec", "12"))))))))))))
     AS ?formattedDate)
     BIND(STRDT(?formattedDate, xsd:dateTime) AS ?ChangeDateTime)
+
   
 }

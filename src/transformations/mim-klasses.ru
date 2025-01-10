@@ -45,7 +45,6 @@ insert {
             mim:definitie ?KlasseDef ;
             mim:begrip ?Begrip ;
             mim:begripsterm ?BegripsTerm ;
-            mim:datumOpname "2023-01-01"^^xsd:date ;
             mim:indicatieAbstractObject ?abstract ;
             .
         
@@ -65,15 +64,21 @@ insert {
         IRI(REPLACE(STR(?Klasse),"https://w3id.org/nen2660/def#","https://data.crow.nl/imbor/mim/mim-")),
         IF(
         CONTAINS(STR(?Klasse),STR(nen3610:)), 
-        IRI(REPLACE(STR(?Klasse),"http://modellen.geostandaarden.nl/def/nen3610-2022#","https://data.crow.nl/imbor/mim/mim-")),   
+        IRI(REPLACE(STR(?Klasse),"http://modellen.geostandaarden.nl/def/nen3610-2022#","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?Klasse),STR(tooi-ont:)),
+        IRI(REPLACE(STR(?Klasse),"https://identifier.overheid.nl/tooi/def/ont/","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?Klasse),STR(net:)),
+        IRI(REPLACE(STR(?Klasse),"http://inspire.ec.europa.eu/ont/net#","https://data.crow.nl/imbor/mim/mim-")),      
         IF(
         CONTAINS(STR(?Klasse),STR(imbor:)),
         IRI(REPLACE(STR(?Klasse),"https://data.crow.nl/imbor/def/","https://data.crow.nl/imbor/mim/mim-")), 
-        "?" ))) 
+        "?" )))))
         AS ?MIMKlasse)
         
     }    
-    ?Begrip skos:prefLabel ?BegripsTerm . 
+    ?Begrip skos:prefLabel ?BegripsTerm .
 }
 
 ;

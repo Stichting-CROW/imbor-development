@@ -44,7 +44,7 @@ insert {
             skos:prefLabel ?TermNL ;
             skos:definition ?DefinitieNL ;
             rdfs:seeAlso ?termUri ;
-            imbor-domeinwaarde:bovenliggendeWaarde ?bovenliggendeTermNL .
+            skos:broader ?bovenliggendeGUID .
     }
 }
 WHERE {
@@ -58,10 +58,10 @@ WHERE {
 
             graph <csv:table/imborVoc_Termen> {
                 [] csv:VocabulairID ?BovenliggendewaardeID ;
+                    csv:IMBORGUID ?bovenliggendeTermIMBORGUID ;
                     csv:Term ?bovenliggendeTerm .
             }
-            
-            BIND (STRLANG( ?bovenliggendeTerm, "nl" ) AS ?bovenliggendeTermNL)
+            BIND (URI(CONCAT(STR(imbor:), ?bovenliggendeTermIMBORGUID)) AS ?bovenliggendeGUID)
         }
 
     }

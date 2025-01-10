@@ -99,6 +99,8 @@ WHERE {
                     ( 14586  xsd:positiveInteger )
                     ( 14587  xsd:string )
                     ( 21778  xsd:integer )
+                    ( 14481  UNDEF )
+                    ( 14484  UNDEF )
                 }
             }
         }
