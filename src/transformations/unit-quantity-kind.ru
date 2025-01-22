@@ -55,7 +55,7 @@ WHERE {
             ?row3 csv:VocabulairID ?Eenheid ;
                csv:Term ?EenheidNaam ;
                csv:URI ?EenheidURI ;
-               csv:URI ?Toelichting .
+               csv:Toelichting ?Toelichting .
             
             [] csv:VocabulairID ?Attribuut ;
                csv:Term ?AttribuutNaam ;

@@ -75,6 +75,7 @@ jobs:
       - update: src/transformations/enumeratietypes-klasses.ru
       - update: src/transformations/imbor-metaontologie.ru
       - update: src/transformations/informatiemodellen.ru
+      - update: src/transformations/informatiemodellen-imborguid.ru
       - update: src/transformations/klassen-definities.ru
       - update: src/transformations/hierarchie.ru
       - update: src/transformations/oagbd.ru
@@ -108,6 +109,7 @@ jobs:
       - update: src/transformations/mim-domeinwaarden.ru
       - update: src/transformations/mim-datatype.ru
       - update: src/transformations/mim-generalisaties.ru
+      - update: src/transformations/mim-datumopname.ru
 
   stap-4-metadata:
     sources:

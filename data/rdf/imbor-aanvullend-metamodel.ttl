@@ -1,5 +1,4 @@
 @prefix imbor: <https://data.crow.nl/imbor/def/>.
-@prefix imbor-domeinwaarde: <https://data.crow.nl/imbor/id/domeinwaarden/>.
 @prefix imbor-refmodels: <https://data.crow.nl/imbor-ref/def/>.
 @prefix nen2660: <https://w3id.org/nen2660/def#>.
 @prefix nen2660-term: <https://w3id.org/nen2660/term#>.
@@ -50,11 +49,6 @@ imbor:typeLijst a rdf:Property;
   rdfs:range xsd:string;
   skos:definition "Of deze lijst een open suggestielijst is of een gesloten enumeratielijst."@nl;
   skos:prefLabel "open/gesloten"@nl.
-
-imbor-domeinwaarde:bovenliggendeWaarde a rdf:Property;
-  rdfs:range xsd:string;
-  skos:definition "Domeinwaarden die in picklists van elkaar afhankelijk zijn."@nl;
-  skos:prefLabel "categorie domeinwaarde"@nl.
 
 nen2660:isContainedBy a rdf:Property, owl:ObjectProperty;
   rdfs:seeAlso nen2660-term:contains;
