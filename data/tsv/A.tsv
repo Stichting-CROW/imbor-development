@@ -1,13 +1,32 @@
 AID	A
 07246b70-084f-4f7a-9db9-9a137d4477a0	Hybride drukriolering
+09843a9c-f315-43d7-8efd-3ca5ffd633b8	FaunaUittreedplaatsVerschijningsvorm
 0d60b114-9260-46b4-b5e4-1e50fbd0bc4a	Stelsel
+30c6ca30-2c1a-436b-b2c8-0c82fea17953	IJsvogelwandVerschijningsvorm
+375460e9-46f0-4506-a764-81b7d273db5a	WinterverblijfVerschijningsvorm
+49950a27-80a2-45dd-9b81-cf16a72a527a	ObjectSoortnaam
+5007b34b-3266-4a2c-8283-0d48293eb445	SlootVerschijningsvorm
+5646c4c3-2b9f-4bc1-8836-948449f32901	FaunatunnelVerschijningsvorm
+60d7d58c-4a28-4c29-9adb-fbc28b2927b9	OeverzwaluwwandVerschijningsvorm
+65367a56-aee2-4761-9847-a016d76f30cc	RivierVerschijningsvorm
+65dcbc19-cbb8-44a1-8e76-6b90c1b5484d	Voegenkit, niet asbesthoudend
+66da567d-6182-4084-b611-d2ac77b66c16	Waterpeil-informatie
+6899bb54-3be5-4629-af5b-b1d0cb731569	Oppervlaktewater
 7dcbdbbe-4173-4f3f-bf06-0fdf2bccab89	Systeem
 7df5aca6-8734-49ce-9e86-bffbc01280e6		Openbaar vuilwaterstelsel
 80bcbc27-c6fe-4255-acf1-6dd792a242c7	Openbaar ontwateringsstelsel
+886403dd-212c-4ec3-a276-93ad4b3bebc3	Groenbeheer-informatie
+8f2ea7f3-95ac-4680-a5e0-258576171c35	Watergang-dimensionering
+8f47ba4f-23aa-41a2-aeb5-8b610f626f70	KanaalVerschijningsvorm
+90223bfd-82cb-4c41-81d9-e40ff716c151	Voegenkit, (mogelijk) teerhoudend
+9eb8c3ae-4e9c-425b-a472-2b62608b5031	VijverVerschijningsvorm
+ac102ca9-cdb4-4e7a-a5ce-de1f59700b14	FysiekObjectTypeBediening
 b6a34cd3-0760-4a68-a219-fb5c07d41645	Baggeren-informatie
+b7bbc65a-900b-4575-a544-e0c08fc20813	Voegenkit, asbesthoudend
+b8549207-380b-4073-ab3c-26156ab592de	VogeltilVerschijningsvorm
 c0cc175f-e46a-4a58-adb8-aedef9eb2b70		Openbaar hemelwaterstelsel
 c6c9442d-bb6d-4f7e-bbd3-9fb9004ad3dd	Persleidingstelsel
 e5833578-27f3-4ed4-b2b4-6b9436263dba	BeekVerschijningsvorm
-8f47ba4f-23aa-41a2-aeb5-8b610f626f70	KanaalVerschijningsvorm
-65367a56-aee2-4761-9847-a016d76f30cc	RivierVerschijningsvorm
-5007b34b-3266-4a2c-8283-0d48293eb445	SlootVerschijningsvorm
+ecae2880-1d37-4949-b590-d698fd06f034	NestkastVerschijningsvorm
+fa20c406-2dca-46c6-9cf8-c2d77a629f61	Watergangbeheer-informatie
+ff4b1619-fd58-478b-bf28-4dcd2dbffa4c	Watervlaktebeheer-informatie
