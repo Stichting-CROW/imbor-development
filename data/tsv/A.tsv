@@ -1,0 +1,99 @@
+AID	A
+07246b70-084f-4f7a-9db9-9a137d4477a0	Hybride drukriolering
+09843a9c-f315-43d7-8efd-3ca5ffd633b8	FaunaUittreedplaatsVerschijningsvorm
+0d60b114-9260-46b4-b5e4-1e50fbd0bc4a	Stelsel
+1b2a2e03-dc8f-4412-b10d-87bf01ab2954	VerkeerseilandVerschijningsvorm
+2d27895a-bd5c-4bdc-8ef2-92ac47a2d10d	Natuurlijk spelen
+30c6ca30-2c1a-436b-b2c8-0c82fea17953	IJsvogelwandVerschijningsvorm
+375460e9-46f0-4506-a764-81b7d273db5a	WinterverblijfVerschijningsvorm
+397b2c51-d1d1-47a0-aaa3-a4138d518fe3	BankVerschijningsvorm
+49950a27-80a2-45dd-9b81-cf16a72a527a	ObjectSoortnaam
+5007b34b-3266-4a2c-8283-0d48293eb445	SlootVerschijningsvorm
+5646c4c3-2b9f-4bc1-8836-948449f32901	FaunatunnelVerschijningsvorm
+60d7d58c-4a28-4c29-9adb-fbc28b2927b9	OeverzwaluwwandVerschijningsvorm
+65367a56-aee2-4761-9847-a016d76f30cc	RivierVerschijningsvorm
+65dcbc19-cbb8-44a1-8e76-6b90c1b5484d	Voegenkit, niet asbesthoudend
+66da567d-6182-4084-b611-d2ac77b66c16	Waterpeil-informatie
+6899bb54-3be5-4629-af5b-b1d0cb731569	Oppervlaktewater
+6ea40bcb-13cc-476a-a9a4-8221b7751967	kunstmatig
+7dcbdbbe-4173-4f3f-bf06-0fdf2bccab89	Systeem
+7df5aca6-8734-49ce-9e86-bffbc01280e6		Openbaar vuilwaterstelsel
+80bcbc27-c6fe-4255-acf1-6dd792a242c7	Openbaar ontwateringsstelsel
+886403dd-212c-4ec3-a276-93ad4b3bebc3	Groenbeheer-informatie
+8f2ea7f3-95ac-4680-a5e0-258576171c35	Watergang-dimensionering
+8f47ba4f-23aa-41a2-aeb5-8b610f626f70	KanaalVerschijningsvorm
+90223bfd-82cb-4c41-81d9-e40ff716c151	Voegenkit, (mogelijk) teerhoudend
+97885b61-c713-4a59-a7d2-c163893c43f6	natuurbos
+987e1a62-a9e4-486c-b54f-c38889ac330f	Amfibieënverblijfsgebied
+9eb8c3ae-4e9c-425b-a472-2b62608b5031	VijverVerschijningsvorm
+ac102ca9-cdb4-4e7a-a5ce-de1f59700b14	FysiekObjectTypeBediening
+ac159646-07b5-4b37-9d94-eedaa1c67bcd	Parkeren
+b6a34cd3-0760-4a68-a219-fb5c07d41645	Baggeren-informatie
+b7bbc65a-900b-4575-a544-e0c08fc20813	Voegenkit, asbesthoudend
+b8549207-380b-4073-ab3c-26156ab592de	VogeltilVerschijningsvorm
+b8d517fc-c458-4b59-afe0-0f231d342a3a	WegbermVerschijningsvorm
+bc44e9a8-6f20-4e9a-b658-d53e2529d6e7	Recreatief gebruik
+bfad6237-0c14-49fe-a82f-7c2d703eb2a5	Natuurontwikkeling
+c0cc175f-e46a-4a58-adb8-aedef9eb2b70		Openbaar hemelwaterstelsel
+c6c9442d-bb6d-4f7e-bbd3-9fb9004ad3dd	Persleidingstelsel
+d44dee1e-115e-4daa-b89c-453ede7d2d46	Tiny forest
+e5833578-27f3-4ed4-b2b4-6b9436263dba	BeekVerschijningsvorm
+ecae2880-1d37-4949-b590-d698fd06f034	NestkastVerschijningsvorm
+fa20c406-2dca-46c6-9cf8-c2d77a629f61	Watergangbeheer-informatie
+ff4b1619-fd58-478b-bf28-4dcd2dbffa4c	Watervlaktebeheer-informatie
+25cd7ea1-86d1-4d65-a2bd-c3778eafe032	Stedelijk waterleiding
+7d421d94-47db-499c-b4d2-292c3ec4701f	Apparatuuroriëntatie
+a6a04d6a-3354-4a51-8e0d-397f53bfd896	Constructieonderdeeloriëntatie
+46271734-c1d2-47fa-b993-0ea65b929d6f	Knooppunt
+b8dd6b19-7118-4be3-8f7c-6404782aa535	Beton met stalen kern
+b6c732f8-dc33-4e47-b29a-be7eac0e264e	Glad staal
+93203866-dd5a-4ba1-938c-caeb6f388445	Kasseien
+a628d390-9789-43f2-be4e-ee8b59d9d358	Mager beton
+cb9bdf63-edff-4a07-9b53-55525b2b66f1	Voorgespannen Beton
+5d02462e-4994-46b9-b1ef-204a734200fb	Polymeerbeton
+5a567b59-1cd2-48eb-a95a-49d78d1e8618	BAG-identicatie
+486fda16-349b-4fd4-b06a-33962cf99f90	AHN1
+1fe19e13-873a-441e-acaf-577076a041e0	AHN2
+ef75ad27-ff3d-4f1c-bf19-08dca1eb4a2d	AHN3
+a653f9a9-f9e3-40f4-8432-5fb2821261c0	AHN4
+b2844a2f-09d4-418b-b28b-de8ea5cfc4cb	Aantal i.e.
+5d7f4523-d67a-49dc-a244-0889377c4746	Afvalwaterakkoord
+035e46dd-6e80-4d0b-bad6-3ad828b74dc6	Basisregistratie Adressen en Gebouwen (BAG)
+7ad180e8-f3d6-4000-8e87-be31576406e7	Bruto vloeroppervlak
+6699e90f-1260-4d77-a2fe-5f9a78af38c4	CBS
+7857a30b-8dc0-4ed7-9f84-db135f58ab95	Debietmeter
+db93db5c-15a2-4656-8ccd-55cac8f87294	Drinkwaterverbruik
+27ffa371-ce2f-44a0-b194-a93f46ba4644	GBKN
+dbbb7104-4f6b-457a-9827-305ebda42ccb	Niet kunnen achterhalen
+644ceb85-c0f9-48ab-a901-e94e8ccbc496	Vergunning
+ed1537d8-221e-4a50-822a-0e248b82efcf	Meetinstrument
+3704fdde-4d32-4e32-9658-84e0703da829	Adres
+891124ea-606b-4d40-9eb1-4342826f5faa	straatnaam
+28cfd579-329d-4ff5-8a0e-509194a2375b	plaatsnaam
+e6588086-4d39-42dd-a9fd-9cb46abfff37	Afdekking
+8a273ca4-327d-4eec-bdb3-afb636adc967	Weren van honden
+fe433a2a-f68d-415c-b2b8-17bd46cbc53c	Bekabeling
+4e3837f1-b2e2-43fa-95cd-2065cf30d811	Inzamelen hemelwater en afgifte aan ondergrond
+f92be0e6-cfa6-4961-8b0d-9b1a759966cc	Zonder toestandswijziging
+5a88df5b-01fb-4dae-94f4-4c2b9070b47a	dakoppervlak hellend
+067c1c4b-ac8b-4ee7-a173-a857ad973a4a	gesloten verhard oppervlak hellend
+f2d2b041-b9bf-4814-9265-b10f454ade07	onverhard oppervlak hellend
+da61f792-000a-4bd2-a831-a65213b3bfaf	open verhard oppervlak hellend
+01cf26fa-e4c8-4ea9-b957-9f69b7f18b2f	dakoppervlak vlak
+4d43be4e-272d-4587-b59c-1b8c0ad50918	gesloten verhard oppervlak vlak
+fab28cdb-f3e1-4048-afc4-fd07258159db	onverhard oppervlak vlak
+ece501f9-3c7c-4e5b-9b87-2dd3f486e1b9	open verhard oppervlak vlak
+c4f17eae-9b54-4ee0-b3f7-64ea3a1f710c	dakoppervlak uitgestrekt
+ed0d8190-bc64-4aca-938c-036d6c002807	gesloten verhard oppervlak uitgestrekt
+650a3714-acbd-4a8a-a6b9-8048e4ad15f8	onverhard oppervlak uitgestrekt
+5b262d7c-f3f6-4ffb-a7fb-66725ed2aecb	open verhard oppervlak uitgestrekt
+181e6593-70d7-4d7e-91a7-df6b93b4cd89	Pneumatisch
+0024cbe0-4709-477a-9275-c96ea7e5027a	Perceel
+40418592-3339-493a-b250-4919fe3ca299	Bedrijfslocatie
+f4e9a4e4-e21e-48c4-9c2d-3935eb9c5b41	Recreatiebedrijf
+d17de48e-3d08-4e55-a959-74cbf057a771	Woninglocatie
+467cf47b-9d99-4295-bda0-cd6e614e4919	Hulpstuk
+dec63e11-3e4c-4321-88bd-7a514849eb6f	Mof
+696ca156-faea-4e4b-b3e6-c2d9a57d8e78	Wand
+f01e1df7-14c6-422b-9179-b4baafada882	Terugslagklep
+673be5d0-3977-44a2-90e8-653b45ecbca2	Schuif
