@@ -1,0 +1,962 @@
+ABID	A	B
+1	5G-antenne	Sensor
+2	Aalpijp	Faunavoorziening
+3	Aanleginrichting	Kunstwerk
+4	Aansluitvoorziening	Apparaat
+5	Aansturingsput	Put
+6	Aardolieleiding	Holle leiding
+7	Abri	Bouwwerk
+8	Absoluut rioolstelsel	Stelsel
+9	Achtergrondschild	Constructieonderdeel
+10	Actieve wegmarkering	Weginrichtingsobject
+11	Afdak	Gebouwcomponent
+12	Afdekplaat	Constructieonderdeel
+13	Afscheiding	Beheerzone
+14	Afslagmat	Straatmeubilair
+15	Afsluiter	Installatie
+16	Afsluiteraandrijving	Constructieonderdeel
+17	Afsluitpaal	Straatmeubilair
+18	Afsluitstuk	Constructieonderdeel
+19	Afstandsmarkering	Straatmeubilair
+20	Afvalbak	Bak
+21	Afvalscheidingslocatie	Beheerzone
+22	Afvalsensor	Sensor
+23	Afvalwatersysteem	Systeem
+24	Agrarisch gebied	Geografische ruimte
+25	Akoestische signaalgever	Apparaat
+26	Amfibieënfuik	Faunavoorziening
+27	Antenne	Apparaat
+28	Antivandalismevoorziening	Straatmeubilair
+29	APV-bord	Bord
+30	Aquaduct	Overbrugging
+31	Armatuur	Apparaat
+32	Asbak	Straatmeubilair
+33	Asfaltverharding	Verharding
+34	Baan voor vliegverkeer	Luchtvaartruimte
+35	Balkon	Gebouwcomponent
+36	Ballenautomaat	Straatmeubilair
+37	Ballenkist	Straatmeubilair
+38	Ballenwasser	Straatmeubilair
+39	Balspiraal	Straatmeubilair
+40	Balustrade	Weginrichtingsobject
+41	Band	Weginrichtingsobject
+42	Bank	Straatmeubilair
+43	Bebakeningsstrook	Wegzone
+44	Bebouwingskern	Geografische ruimte
+45	Bedrijfslocatie	Registratieve ruimte
+46	Beek	Watergang
+47	Beekriool	Overbrugging
+48	Beerput	Put
+49	Begraafplaats	Complex
+50	Beheergebied	Beheerzone
+51	Beheervak	Beheerzone
+52	Bekabeling	Constructieonderdeel
+53	Bekkentrap	Faunavoorziening
+54	Belangenstrook	Beheerzone
+55	Bellenscherm	Waterinrichtingsobject
+56	Beluchter	Constructieonderdeel
+57	Beluchtingsrooster	Weginrichtingsobject
+58	Beluchtingsventiel	Constructieonderdeel
+59	Benedenstrooms eindriool	Stedelijk waterleiding
+60	Benoemde plaats	Registratieve ruimte
+61	Benzine- of olieput	Put
+62	Beregeningsbron	Put
+63	Beregeningsinstallatie	Installatie
+64	Beregeningskast	Kast
+65	Beregeningsleiding	Holle leiding
+66	Beregeningspomp	Installatie
+67	Beregeningsput	Put
+68	Bergbezinkbassin	Reservoir
+69	Bergbezinkleiding	Stedelijk waterleiding
+70	Bergingsbassin	Reservoir
+71	Bergingsleiding	Stedelijk waterleiding
+72	Bescherming	Constructieonderdeel
+73	Beschoeiing	Kunstwerk
+74	Besturingskast	Kast
+75	Betaalautomaat	Straatmeubilair
+76	Betonning	Waterinrichtingsobject
+77	Betonverharding	Verharding
+78	Beugel	Straatmeubilair
+79	Beweegbare brug	Overbrugging
+80	Bewegingssensor	Sensor
+81	Bewegwijzeringsbord	Bord
+82	Bezinkbassin	Reservoir
+83	Bierleiding	Holle leiding
+84	Bijenhotel	Faunaverblijfplaats
+85	Bijenwand	Faunaverblijfplaats
+86	Bijzonder putdeksel	Constructieonderdeel
+87	Bijzondere putconstructie	Rioolput
+88	Bijzondere tegel	Weginrichtingsobject
+89	Bilgepomp	Installatie
+90	Biofilter	Reservoir
+91	Blinde inlaat	Constructieonderdeel
+92	Bloemblok	Vegetatieobject
+93	Blok	Weginrichtingsobject
+94	Blusriool	Stedelijk waterleiding
+95	Bochtstuk	Constructieonderdeel
+96	Bodem	ReëelObject
+97	Bodemval	Kunstwerk
+98	Bolder	Straatmeubilair
+99	Boom	Vegetatieobject
+100	Boombeschermer	Straatmeubilair
+101	Boomrooster	Straatmeubilair
+102	Boomspiegel	Weginrichtingsobject
+103	Boomstam	Straatmeubilair
+104	Booster	Apparaat
+105	Boostergemaal	Gemaal
+106	Bordes	Gebouwcomponent
+107	Bos	Groenobject
+108	Bosplantsoen	Groenobject
+109	Botanische tuin	Recreatiezone
+110	Bouwblokdrainage	Stelsel
+111	Bouwlaag	Gebouwcomponent
+112	Bouwland	Groenobject
+113	Brandblusinstallatie	Installatie
+114	Brandgang	Wegzone
+115	Brandkraan	Put
+116	Brandput	Put
+117	Brievenbus	Straatmeubilair
+118	Broeihoop	Faunaverblijfplaats
+119	Bron	Water
+120	Buffertoren	Constructieonderdeel
+121	Buisdeel	Constructieonderdeel
+122	Buitengrens	Hulpobject
+123	Buitenopstellingskast	Kast
+124	Bungalowpark	Recreatiezone
+125	Busperron	Verkeerskundige zone
+126	Bussluis	Wegzone
+127	Busstation	Verkeerskundige zone
+128	Buurtgrens	Registratieve ruimte
+129	CAI-kast	Kast
+130	Calamiteitendoorsteek	Verkeerskundige zone
+131	Camera	Sensor
+132	Camping	Recreatiezone
+133	Carpoolplaats	Verkeerskundige zone
+134	Centrale verdeelkast	Kast
+135	Centrale voedingskast	Kast
+136	Centrifugaalpomp	Installatie
+137	Centrumgebied	Geografische ruimte
+138	Chemicaliënleiding	Holle leiding
+139	Chipping doel	Straatmeubilair
+140	Clubwasser	Straatmeubilair
+141	Coating	Constructieonderdeel
+142	Combikabel	Kabel
+143	Combikast	Kast
+144	Combinatiebord	Bord
+145	Communicatiemodule	Apparaat
+146	Compartiment	Beheerzone
+147	Compensator	Constructieonderdeel
+148	Computer	Apparaat
+149	Constructielaag	Constructie
+150	Contact	Apparaat
+151	Container	Bak
+152	Containerput	Put
+153	Controller	Apparaat
+154	Converter	Apparaat
+155	Coupure	Kunstwerk
+156	Coupurecomplex	Complex
+157	Cunetdrainage	Stelsel
+158	Dakkapel	Gebouwcomponent
+159	Dam	Kunstwerk
+160	Damwand	Kunstwerk
+161	Dassenburcht	Faunaverblijfplaats
+162	Datakabel	Kabel
+163	Debietmeter	Sensor
+164	Deelliner	Constructieonderdeel
+165	Deelsportcomplex	Complex
+166	Dek	Kunstwerkdeel
+167	Deniltrap	Faunavoorziening
+168	Detectielus	Sensor
+169	Detector	Sensor
+170	Deur	Constructieonderdeel
+171	Dierenweide	Recreatiezone
+172	Diffusiescherm	Constructieonderdeel
+173	Dijkkruin	Waterbeheerzone
+174	Dijklichaam	Kunstwerk
+175	Dijknol	Geografische ruimte
+176	Dispenser hondenpoepzakjes	Straatmeubilair
+177	DIT-riool	Stedelijk waterleiding
+178	Dobbe	Oppervlaktewater
+179	Dok	Bouwwerk
+180	Doorspoelput	Rioolput
+181	Doorspuitput	Rioolput
+182	Doorsteek	Verkeerskundige zone
+183	Doorvoergat	Put
+184	Douche	Straatmeubilair
+185	Drain	Stedelijk waterleiding
+186	Drainaansluitleiding	Stedelijk waterleiding
+187	Drainage transportstelsel	Stelsel
+188	Drainage/infiltratie transportstelsel	Stelsel
+189	Drainagegemaal	Gemaal
+190	Drainageput	Put
+191	Drainputdeksel	Constructieonderdeel
+192	Drijflaagschot	Constructieonderdeel
+193	Drijflijn	Waterinrichtingsobject
+194	Drijvende constructie	Vegetatieobject
+195	Drinkbak	Bak
+196	Drinkwaterinlaat	Kunstwerk
+197	Drinkwaterpunt	Straatmeubilair
+198	Drukknop	Sensor
+199	Drukleiding	Stedelijk waterleiding
+200	Drukmeter	Sensor
+201	Drukriolering	Stedelijk waterleiding
+202	Drukrioleringspomp	Installatie
+203	DT-riool	Stedelijk waterleiding
+204	Dubbelkerende spindelschuif	Constructieonderdeel
+205	Dugout	Straatmeubilair
+206	Duiker	Stedelijk waterleiding
+207	Duikerput	Put
+208	Duikerstelsel	Stelsel
+209	Duikschot	Constructieonderdeel
+210	Duin	Groenobject
+211	Duinmeer	Oppervlaktewater
+212	DWA gemaal	Gemaal
+213	DWA perceelaansluitleiding	Stedelijk waterleiding
+214	DWA+HWA gemaal	Gemaal
+215	Dwarsbuis	Kunstwerk
+216	Ecoduct	Overbrugging
+217	Ecologisch perceel	Ecologische zone
+218	Eekhoornbrug	Faunavoorziening
+219	Eendenkorf	Faunaverblijfplaats
+220	Effluentleiding	Holle leiding
+221	Elementenverharding	Verharding
+222	Emplacement	Spoorzone
+223	Enkelkerende spindelschuif	Constructieonderdeel
+224	Erfafscheidingsput	Put
+225	Evenementenkast	Kast
+226	Evenemententerrein	Recreatiezone
+227	Explosievrije kolk	Put
+228	Externe overstortconstructie	Constructieonderdeel
+229	Externe overstortput	Rioolput
+230	Faunaduiker	Faunavoorziening
+231	Faunagoot	Faunavoorziening
+232	Fauna-inspectieput	Put
+233	Faunameubilair	Straatmeubilair
+234	Faunarichel	Faunavoorziening
+235	Faunatunnel	Faunavoorziening
+236	Fauna-uittreedplaats	Faunavoorziening
+237	Fietsabri	Straatmeubilair
+238	Fietsbeugel	Straatmeubilair
+239	Fietsenkluis	Straatmeubilair
+240	Fietsenrek	Straatmeubilair
+241	Fietsenstalling	Straatmeubilair
+242	Fietsklem	Straatmeubilair
+243	Fietspad	Verkeerskundige zone
+244	Fietspomp	Straatmeubilair
+245	Fietssleuf	Straatmeubilair
+246	Fietssnelheidsindicator	Sensor
+247	Fietstrommel	Straatmeubilair
+248	Fijnstofsensor	Sensor
+249	Filterput	Put
+250	First flush gemaal	Gemaal
+251	Flexibel zettingstuk	Constructieonderdeel
+252	Flyover	Overbrugging
+253	Folie	Constructieonderdeel
+254	Fontein	Kunstwerk
+255	Foutaansluiting	Aansluiting
+256	Frequentie-omvormer	Constructieonderdeel
+257	Fruit- of kweekbomen	Groenobject
+258	Ganzennest	Faunaverblijfplaats
+259	Gaskast	Kast
+260	Gasleiding	Holle leiding
+261	Gasput	Put
+262	Geboortebos	Beheerzone
+263	Gebouw	Bouwwerk
+264	Gebouwzone	Functioneel gebouwobject
+265	Gecombineerde straat-trottoirkolk	Put
+266	Geleideconstructie	Weginrichtingsobject
+267	Geleidewerk	Waterinrichtingsobject
+268	Geluidskast	Kast
+269	Geluidsscherm	Scheiding
+270	Geluidssensor	Sensor
+271	Gemaal droge opstelling	Gemaal
+272	Gemaal natte opstelling	Gemaal
+273	Gemaalcomplex	Complex
+274	Gemeentegrens	Registratieve ruimte
+275	Gemengd riool	Stedelijk waterleiding
+276	Gemengde perceelaansluitleiding	Stedelijk waterleiding
+277	Gereedschapsrek	Straatmeubilair
+278	Gescheiden systeem	Systeem
+279	Gestuwd rioolstelsel	Stelsel
+280	Getijdengebied	Water
+281	Gevarenzone	Spoorzone
+282	Gevelgroen	Vegetatieobject
+283	Geveltuin	Vegetatieobject
+284	GMS-kast	Kast
+285	GMS-sensor	Sensor
+286	Golfdoel	Straatmeubilair
+287	Gootstrook	Weginrichtingsobject
+288	Gracht	Watergang
+289	Graf	Straatmeubilair
+290	Grafsteen	Straatmeubilair
+291	Grafvak	Beheerzone
+292	Grafveld	Beheerzone
+293	Gras- en kruidachtigen	Groenobject
+294	Grasafslaggeleider	Straatmeubilair
+295	Gravelbak	Straatmeubilair
+296	Greppel	Water
+297	Grindkoffer	Reservoir
+298	Groeiplaats	ReëelObject
+299	Groep	Apparaat
+300	Grondkering	Kering
+301	Grondsoort	Geografische ruimte
+302	Grondwatermeetnet	Systeem
+303	Grondwatersysteem	Systeem
+304	Haag	Groenobject
+305	Haagas	Hulpobject
+306	Halfverharding	Verharding
+307	Half-way house	Straatmeubilair
+308	Halte voetpad	Verkeerskundige zone
+309	Halte-eiland	Verkeerskundige zone
+310	Haltekom	Verkeerskundige zone
+311	Halteplaats	Verkeerskundige zone
+312	Handhavingssysteem	Installatie
+313	Haven	Oppervlaktewater
+314	Havencomplex	Complex
+315	Heide	Groenobject
+316	Hek	Scheiding
+317	Hellingbaan	Gebouwcomponent
+318	Helofytenfilter	Reservoir
+319	Hemelwaterriool	Stedelijk waterleiding
+320	Herdenkingsmonument	Straatmeubilair
+321	Hevel	Holle leiding
+322	Hijsinrichting	Constructieonderdeel
+323	Holevlag	Straatmeubilair
+324	Hondenbeleidsgebied	Beheerzone
+325	Hondenhokput	Rioolput
+326	Hondenrooster	Weginrichtingsobject
+327	Hoofdpost	Installatie
+328	Hoofdweg	Geografische ruimte
+329	Hoogspanningskabel	Kabel
+330	Hoogspanningsmast	Mast
+331	Hoogtebegrenzer	Straatmeubilair
+332	Hoogtemerk	Waterinrichtingsobject
+333	Hoogzit	Straatmeubilair
+334	Hop-over	Faunavoorziening
+335	Horizontale drainage	Stelsel
+336	Hotspot	Beheerzone
+337	Houtsingel	Groenobject
+338	Houtwal	Groenobject
+339	Huisnummerbord	Bord
+340	Hulppost	Kast
+341	HWA gemaal	Gemaal
+342	HWA perceelaansluitleiding	Stedelijk waterleiding
+343	Hybride drukriolering	Stedelijk waterleiding
+344	Hydrant	Installatie
+345	IBA Klasse I	Reservoir
+346	IBA Klasse II	Reservoir
+347	IBA Klasse IIIa	Reservoir
+348	IBA Klasse IIIb	Reservoir
+349	IJskelder	Bouwwerk
+350	IJsvogelwand	Faunavoorziening
+351	Infiltratiebassin	Reservoir
+352	Infiltratiegoot	Open leiding
+353	Infiltratiekolk	Put
+354	Infiltratiekrat	Constructieonderdeel
+355	Infiltratieput	Put
+356	Infiltratieriool	Stedelijk waterleiding
+357	Infiltratiestelsel	Stelsel
+358	Informatiebord	Bord
+359	Informatiepaneel	Bord
+360	Informatiezuil	Straatmeubilair
+361	Injectieput	Put
+362	Inlaag	Beheerzone
+363	Inlaat leiding	Constructieonderdeel
+364	Inlaat oppervlaktewater	Kunstwerk
+365	Inlaat rioolput	Constructieonderdeel
+366	Inlaatplaats	Beheerzone
+367	Inrit	Verkeerskundige zone
+368	Insectenhotel	Faunaverblijfplaats
+369	Inspectieput	Rioolput
+370	Instroomvoorziening	Weginrichtingsobject
+371	Interne overstortconstructie	Constructieonderdeel
+372	Interne overstortput	Rioolput
+373	Kaartlezer	Sensor
+374	Kabeldraagsysteem	Constructieonderdeel
+375	Kabelgeul	Functioneel ondergronds object
+376	Kabels- en leidingenbord	Bord
+377	Kade	Wegzone
+378	Kademuur	Kunstwerk
+379	Kanaal	Watergang
+380	Karreveld	Beheerzone
+381	Kastombouw	Constructieonderdeel
+382	Kathodische beschermingspaal	Straatmeubilair
+383	Kerngebied	Ecologische zone
+384	Ketting	Constructieonderdeel
+385	Keverbank	Vegetatieobject
+386	Kinderboerderij	Recreatiezone
+387	Klimijzer	Straatmeubilair
+388	Klimplant	Vegetatieobject
+389	Klok	Bord
+390	Knevelvoorziening	Constructieonderdeel
+391	Kolkaansluiting	Aansluiting
+392	Kolkaansluitleiding	Stedelijk waterleiding
+393	Komgrens	Registratieve ruimte
+394	Kooldioxideleiding	Holle leiding
+395	Kraamverblijf	Faunaverblijfplaats
+396	Kraanbaan	Wegzone
+397	Krib	Kunstwerk
+398	Kruisingsput	Rioolput
+399	Kruispunt	Verkeerskundige zone
+400	Kruisstuk	Constructieonderdeel
+401	Kunstobject	Straatmeubilair
+402	Kunststofverharding	Verharding
+403	Kwaliteitsniveau	Beheerzone
+404	Kwaliteitssensor	Sensor
+405	Kwelscherm	Scheiding
+406	Laadbrug	Straatmeubilair
+407	Laadperron	Gebouwcomponent
+408	Laadplein	Verkeerskundige zone
+409	Laadportaal	Installatie
+410	Laadpunt	Installatie
+411	Laadverdeelkast	Kast
+412	Laagspanningskabel	Kabel
+413	Lamellenafscheider	Constructieonderdeel
+414	Lanceerpunt	Constructieonderdeel
+415	Landhoofd	Kunstwerkdeel
+416	Landschappelijk gebied	Geografische ruimte
+417	Lavakoffer	Reservoir
+418	Ledigingsvoorziening	Constructieonderdeel
+419	Leidingbrug	Bouwwerk
+420	Leidingomhulling	Constructieonderdeel
+421	Leidingsegment	Stedelijk waterleiding
+422	Leuning	Straatmeubilair
+423	Lichtbaken	Waterinrichtingsobject
+424	Lichtbron	Apparaat
+425	Lichtkoker	Constructieonderdeel
+426	Lichtsensor	Sensor
+427	Lichtsturing	Apparaat
+428	Lift	Installatie
+429	Ligplaats	Registratieve ruimte
+430	Ligplaatsstrook	Beheerzone
+431	Lijngoot	Open leiding
+432	Lijnmarkering	Wegmarkering
+433	Lining	Constructieonderdeel
+434	Loopbrug	Gebouwcomponent
+435	Loopdek	Gebouwcomponent
+436	Loswal	Wegzone
+437	Loze put	Put
+438	Lozingsput	Rioolput
+439	Luchthaven	Luchtvaartruimte
+440	Luchtinjectie-unit	Apparaat
+441	Luchtkwaliteitssensor	Sensor
+442	Luchtpersgemaal	Gemaal
+443	Luchtpersleiding	Stedelijk waterleiding
+444	Luchtpersriolering	Stedelijk waterleiding
+445	Luchtscherm	Scheiding
+446	Luidspreker	Sensor
+447	Luifel	Gebouwcomponent
+448	Luik	Constructieonderdeel
+449	Mangat	Constructieonderdeel
+450	Mantelbuis	Holle leiding
+451	Mantoegankelijke put	Rioolput
+452	Markeringspaal	Straatmeubilair
+453	Marktstandplaats	Beheerzone
+454	Marshall-huisje	Straatmeubilair
+455	Marterhoop	Faunaverblijfplaats
+456	Mechanisch drainagestelsel	Stelsel
+457	Mechanische perceelaansluiting	Aansluiting
+458	Meer	Oppervlaktewater
+459	Meerpaal	Waterinrichtingsobject
+460	Meerstoel	Waterinrichtingsobject
+461	Meetbuis	Sensor
+462	Meetinrichting	Systeem
+463	Meetspijker	Weginrichtingsobject
+464	Meetstation	Sensor
+465	Meldpaal	Straatmeubilair
+466	Metrobaan	Verkeerskundige zone
+467	Middenspanningskabel	Kabel
+468	Mistbaken	Waterinrichtingsobject
+469	Mobiele waterkering	Kering
+470	Modem	Apparaat
+471	Moeras	Groenobject
+472	Mof	Constructieonderdeel
+473	Molgoot	Open leiding
+474	Mosselbank	Faunavoorziening
+475	Multifunctioneel gebied	Geografische ruimte
+476	Muur	Scheiding
+477	Natuurgebied	Geografische ruimte
+478	Nederlandse aansluitende zone	Registratieve ruimte
+479	Nederlandse continentaal plat	Registratieve ruimte
+480	Nederlandse exclusieve economische zone	Registratieve ruimte
+481	Nederlandse territoriale zee	Registratieve ruimte
+482	Nestkast	Faunaverblijfplaats
+483	Nestplaats	Faunaverblijfplaats
+484	Noodoverstortput	Rioolput
+485	Nooduitlaat	Kunstwerk
+486	Nummeraanduiding	Registratieve ruimte
+487	Nutsaansluiting	Installatie
+488	Obstakelbeveiliger	Weginrichtingsobject
+489	Oeverzone	Waterbeheerzone
+490	Oeverzwaluwwand	Faunavoorziening
+491	Olie-/benzineafscheider	Constructieonderdeel
+492	Olie-/benzineafvangput	Put
+493	Onbepaald terrein	ReëelObject
+494	Onderbemaling	Stelsel
+495	Onderdoorgang	Ondertunneling
+496	Ondergrondse laadoplossing	Straatmeubilair
+497	Ontlastput	Put
+498	Ontluchter	Constructieonderdeel
+499	Ontluchtingsleiding	Holle leiding
+500	Ontluchtingsunit	Constructieonderdeel
+501	Ontluchtingsventiel	Constructieonderdeel
+502	Ontstoppingsput	Put
+503	Ontstoppingsstuk	Constructieonderdeel
+504	Onttrekkingsput	Put
+505	Onverhard	Verharding
+506	Ooievaarsnest	Faunaverblijfplaats
+507	Open berging	Reservoir
+508	Open loods	Bouwwerk
+509	Open tunnelbak	Kunstwerk
+510	Openbaar hemelwaterstelsel	Stelsel
+511	Openbaar ontwateringsstelsel	Stelsel
+512	Openbaar vuilwaterstelsel	Stelsel
+513	Openbare ruimtegrens	Registratieve ruimte
+514	Opening in wand	Constructieonderdeel
+515	Openluchtzwembad	Bouwwerk
+516	Ophangconstructie	Constructieonderdeel
+517	Opkuilhoek	Beheerzone
+518	Oplaadpaal	Straatmeubilair
+519	Oppervlaktewatergemaal	Gemaal
+520	Oppervlaktewatersysteem	Systeem
+521	Opslagbak	Bak
+522	Opslagcontainer	Straatmeubilair
+523	Opslagtank	Bak
+524	Opstelplaats	Beheerzone
+525	Opvangput	Put
+526	Opvangzone	Beheerzone
+527	Opvoergemaal	Gemaal
+528	Opzetstuk	Constructieonderdeel
+529	Overgangsstuk	Constructieonderdeel
+530	Overkapping	Bouwwerk
+531	Overkluizing	Overbrugging
+532	Overstap	Straatmeubilair
+533	Overstortbemaling	Constructieonderdeel
+534	Overstortdrempel	Constructieonderdeel
+535	Overstortleiding	Stedelijk waterleiding
+536	Overstortmeter	Sensor
+537	Overweg	Spoorzone
+538	OVL-kast	Kast
+539	Paal	Paalconstructie
+540	Paarverblijf	Faunaverblijfplaats
+541	Paddenstoel	Straatmeubilair
+542	Pakketautomaat	Straatmeubilair
+543	Paneel	Kunstwerkdeel
+544	Parallelriool	Stedelijk waterleiding
+545	Park	Recreatiezone
+546	Parkeerautomaat	Straatmeubilair
+547	Parkeerbeheersensor	Sensor
+548	Parkeerbeugel	Straatmeubilair
+549	Parkeerdek	Gebouwcomponent
+550	Parkeergarage	Bouwwerk
+551	Parkeerterrein	Wegzone
+552	Parkeervak	Verkeerskundige zone
+553	Peilbuis	Sensor
+554	Peilbuisdeksel	Constructieonderdeel
+555	Pendelstuk	Stedelijk waterleiding
+556	Perceelaansluiting	Aansluiting
+557	Pergola	Straatmeubilair
+558	Perron	Gebouwcomponent
+559	Persleiding	Stedelijk waterleiding
+560	Persleidingstelsel	Stelsel
+561	Persluchtpomp	Installatie
+562	Pigging-installatie	Installatie
+563	Pijler	Kunstwerkdeel
+564	Pingoruïne	Beheerzone
+565	Plaat	Constructieonderdeel
+566	Plantaarn	Straatmeubilair
+567	Planten	Groenobject
+568	Plantenbak	Bak
+569	Plantensoortlocatie	Ecologische zone
+570	Plas	Oppervlaktewater
+572	PLC	Constructieonderdeel
+573	PLC-kast	Kast
+574	Plein	Wegzone
+575	Poef	Straatmeubilair
+576	Poel	Oppervlaktewater
+577	Poller	Straatmeubilair
+578	Pompkast	Kast
+579	Pompput	Rioolput
+580	Pompunit	Rioolput
+581	Ponton	Kunstwerk
+582	Portaal	Paalconstructie
+583	Postcodegebied	Registratieve ruimte
+584	Privédrainage	Stelsel
+585	Productieput	Put
+586	Profiel leiding	Hulpobject
+587	Profiellijn	Hulpobject
+588	Project	Geografische ruimte
+589	Provinciegrens	Registratieve ruimte
+590	Punaise	Straatmeubilair
+591	Putbuis	Rioolput
+592	Putdeksel - licht verkeer	Constructieonderdeel
+593	Putdeksel - zwaar verkeer	Constructieonderdeel
+594	Putdeksel met instroomvoorziening	Constructieonderdeel
+595	Pyloon	Kunstwerkdeel
+596	Raaipaal	Straatmeubilair
+597	Radar	Sensor
+598	Radarmast	Mast
+599	Rattenval	Straatmeubilair
+600	Rayon	Registratieve ruimte
+601	Reclamebord	Bord
+602	Recreatiebedrijf	Registratieve ruimte
+603	Recreatiegebied	Geografische ruimte
+604	Reducering	Beheerzone
+605	Referentiemicrofoon	Sensor
+606	Regelinrichting	Systeem
+607	Regenmeter	Sensor
+608	Regenwatertuin	Reservoir
+609	Reinigende put	Rioolput
+610	Reliëfzone	Geografische ruimte
+611	Remmingswerk	Waterinrichtingsobject
+612	Rietland	Groenobject
+613	Rijbaan	Verkeerskundige zone
+614	Rijk	Registratieve ruimte
+615	Rijstrookscheiding	Weginrichtingsobject
+616	Rioolafsluiter	Constructieonderdeel
+617	Riooldrainage	Stelsel
+618	Riooleindgemaal	Gemaal
+619	Rioolput met geleiding	Rioolput
+620	Rivier	Watergang
+621	Roltrap	Installatie
+622	Rookpaal	Straatmeubilair
+623	Rooster	Constructieonderdeel
+624	Roostergoot	Open leiding
+625	Rotatiepaneel	Bord
+626	Routepaal	Straatmeubilair
+627	Router	Apparaat
+628	Rozenboog	Straatmeubilair
+629	RTC-sturing	Systeem
+630	Ruimte	Constructie
+631	Ruiterpad	Verkeerskundige zone
+632	RWS kolk	Put
+633	RWZI	Bouwwerk
+634	Schakelgebied	Beheerzone
+635	Scheepvaartbord	Bord
+636	Schietterrein	Beheerzone
+637	Schildmuur	Constructieonderdeel
+638	Schoenborstel	Straatmeubilair
+639	Schoolterrein	Complex
+640	Schoolzonepaal	Straatmeubilair
+641	Schoonloopmat	Straatmeubilair
+642	Schoonlooprooster	Straatmeubilair
+643	Schot	Kunstwerk
+644	Schouwpad	Verkeerskundige zone
+645	Schroefcentrifugaalpomp	Installatie
+646	Schroefpomp	Installatie
+647	Schuilhut	Straatmeubilair
+648	Schutkolk	Kunstwerkdeel
+649	Scootmobielberging	Straatmeubilair
+650	Sensormodule	Apparaat
+651	Septictank	Reservoir
+652	Sifon	Holle leiding
+653	Sirene	Sensor
+654	Slagboominstallatie	Straatmeubilair
+655	Slangsifon	Constructieonderdeel
+656	Slibafscheider	Constructieonderdeel
+657	Slibvanger	Constructieonderdeel
+658	Slokop	Put
+659	Sloof	Kunstwerkdeel
+660	Sloot	Watergang
+661	Slot	Constructieonderdeel
+662	Sluis	Kunstwerk
+663	Sluiscomplex	Complex
+664	Sluisdeur	Kunstwerkdeel
+665	Snellaadstation	Verkeerskundige zone
+666	Solitaire plant	Vegetatieobject
+667	Spaarbekken	Oppervlaktewater
+668	Spandraad	Kabel
+669	Speelheuvel	Recreatiezone
+670	Speelterrein	Recreatiezone
+671	Speeltoestel	Straatmeubilair
+672	Spindel	Constructieonderdeel
+673	Splitter	Apparaat
+674	Spoelgemaal	Gemaal
+675	Spoelklep	Constructieonderdeel
+676	Spoelleiding	Stedelijk waterleiding
+677	Spoelvoorziening	Constructieonderdeel
+678	Spooras	Edge
+679	Spoorbaan	Spoorzone
+680	Spoorberm	Spoorzone
+681	Spoorlijn	Kunstwerk
+682	Spoorwegknoop	Vertex
+683	Sport- en speldrainage	Stelsel
+684	Sportterrein	Recreatiezone
+685	Sporttoestel	Straatmeubilair
+686	Sportveld	Recreatiezone
+687	Sproeikop	Installatie
+688	Stadsverwarming	Functioneel ondergronds object
+689	Stadsverwarmingsleiding	Holle leiding
+690	Standmeter	Constructieonderdeel
+691	Standpijp	Stedelijk waterleiding
+692	Stankfilter	Constructieonderdeel
+693	Stankscherm	Constructieonderdeel
+694	Stapsteen	Straatmeubilair
+695	Stasteun	Straatmeubilair
+696	Stationaire batterij	Installatie
+697	Steenwolblok	Constructieonderdeel
+698	Steenwolkoffer	Reservoir
+699	Steiger	Kunstwerk
+700	Stellaag	Constructieonderdeel
+701	Stiltegebied	Geografische ruimte
+702	Stobbenwal	Faunavoorziening
+703	Stormanker	Straatmeubilair
+704	Straalzender	Mast
+705	Straatkolk	Put
+706	Straatnaambord	Bord
+707	Straatpot	Constructieonderdeel
+708	Strandoriëntatiepaal	Straatmeubilair
+709	Strandpaal	Straatmeubilair
+710	Streek	Geografische ruimte
+711	Strekdam	Kunstwerk
+712	Strooiveld	Beheerzone
+713	Strook	Verkeerskundige zone
+714	Struiken	Groenobject
+715	Stuurdraagsysteem	Straatmeubilair
+716	Stuw	Kunstwerk
+717	Stuwbak	Kunstwerk
+718	Stuwcomplex	Complex
+719	Stuwconstructie	Constructieonderdeel
+720	Stuwklep	Constructieonderdeel
+721	Stuwmuur	Constructieonderdeel
+722	Stuwput	Rioolput
+723	Stuwrioolleiding	Stedelijk waterleiding
+724	Swinghulp	Straatmeubilair
+725	Switch	Apparaat
+726	Symboolmarkering	Wegmarkering
+727	Tafel	Straatmeubilair
+728	Takkenril	Faunaverblijfplaats
+729	Taludgoot	Open leiding
+730	Tandemriool	Stedelijk waterleiding
+731	Tankstation	Verkeerskundige zone
+732	Tassteun	Straatmeubilair
+733	Teemarker	Straatmeubilair
+734	Tekstmarkering	Wegmarkering
+735	Telecomkast	Kast
+736	Telefooncel	Straatmeubilair
+737	Telkast	Kast
+738	Telpaal	Installatie
+739	Terras	Beheerzone
+740	Terreinriolering	Stelsel
+741	Terugslagklep	Constructieonderdeel
+742	Thermische pijpleiding	Holle leiding
+743	Tiny forest	Groenobject
+744	Toegangshekinstallatie	Installatie
+745	Toegangspad	Verkeerskundige zone
+746	Toegangstrap	Gebouwcomponent
+747	Toeritdoseerinstallatie	Installatie
+748	Toiletvoorziening	Straatmeubilair
+749	Tolplaats	Verkeerskundige zone
+750	Tracé	Ecologische zone
+751	Trailerhelling	Wegzone
+752	Trambaan	Verkeerskundige zone
+753	Tramheuvel	Verkeerskundige zone
+754	Transferium	Verkeerskundige zone
+755	Transportrioolleiding	Stelsel
+756	Transportsysteem	Systeem
+757	Trap	Gebouwcomponent
+758	Trekput	Put
+759	Tribune	Bouwwerk
+760	Trottoirkolk	Put
+761	T-stuk	Constructieonderdeel
+762	Tubelure	Constructieonderdeel
+763	Tunnel	Ondertunneling
+764	Tunnelbak	Kunstwerk
+765	Tunnelbuis	Kunstwerk
+766	Tunnelgang	Kunstwerk
+767	Tunnelgemaal	Gemaal
+768	Tunnelsegment	Verkeerskundige zone
+769	Tunnelventilatie	Installatie
+770	Tunnelwand	Kunstwerk
+771	Tussengemaal	Gemaal
+772	Tuunwal	Vegetatieobject
+773	TV-toren	Mast
+774	Uiterwaard	Waterbeheerzone
+775	Uithouder	Constructieonderdeel
+776	Uitkijkpunt	Recreatiezone
+777	Uitkijktoren	Bouwwerk
+778	Uitklimvoorziening	Faunavoorziening
+779	Uitlegger	Stedelijk waterleiding
+780	Uitstroombak	Kunstwerk
+781	Uitstroomband	Weginrichtingsobject
+782	Uitstroomvoorziening	Weginrichtingsobject
+783	Urnengraf	Straatmeubilair
+784	Urnenmuur	Straatmeubilair
+785	Urnennis	Straatmeubilair
+786	Utiliteitsnet	Functioneel ondergronds object
+787	Vaarweg	Gebruikszone water
+788	Vaarwegzone	Gebruikszone water
+789	Vacuümleiding	Stedelijk waterleiding
+790	Vacuümopslagtank	Put
+791	Vacuümpompstation	Gemaal
+792	Vacuümriolering	Stedelijk waterleiding
+793	Valleiding	Stedelijk waterleiding
+794	Valput	Rioolput
+795	Vangkooi	Straatmeubilair
+796	Vaste brug	Overbrugging
+797	Vastzetvoorziening	Straatmeubilair
+798	Veerooster	Weginrichtingsobject
+799	Veerverbinding	Gebruikszone water
+800	Vegetatiedak	Vegetatieobject
+801	Veiligheidsregio	Registratieve ruimte
+802	Veiligheidsrooster	Constructieonderdeel
+803	Veiligheidsvoorziening	Straatmeubilair
+804	Veldbelijning	Hulpobject
+805	Veldverlichtingmast	Mast
+806	Ven	Oppervlaktewater
+807	Verbeterd gemengd rioolstelsel	Stelsel
+808	Verbeterd gescheiden systeem	Systeem
+809	Verbeterd hemelwaterstelsel	Stelsel
+810	Verbeterde overstortput	Rioolput
+811	Verbindingszone	Ecologische zone
+812	Verblijfsobject	Functioneel gebouwobject
+813	Verblindingswering	Weginrichtingsobject
+814	Verholen goot	Open leiding
+815	Verkeersaansluiting	Verkeerskundige zone
+816	Verkeersbord	Bord
+817	Verkeersdrempel	Wegzone
+818	Verkeerseiland	Wegzone
+819	Verkeersknooppunt	Verkeerskundige zone
+820	Verkeerslantaarn	Installatie
+821	Verkeersplateau	Wegzone
+822	Verkeersregelinstallatie	Complex
+823	Verkeersspiegel	Bord
+824	Verkeersteller	Sensor
+825	Verkeerszone	Verkeerskundige zone
+826	Verloopstuk	Constructieonderdeel
+827	Vertikale drainage	Stelsel
+828	Verzameldrainage	Stelsel
+829	Verzamelplaats	Put
+830	Verzamelput	Rioolput
+831	Verzinkbare piramide	Straatmeubilair
+832	Verzorgingsplaats	Verkeerskundige zone
+833	Vetafscheider	Constructieonderdeel
+834	Vetvangput	Put
+835	Viaduct	Overbrugging
+836	Videconstructie	Gebouwcomponent
+837	Vijver	Oppervlaktewater
+838	Vijzelgemaal	Gemaal
+839	Vijzelpomp	Installatie
+840	Vislift	Faunavoorziening
+841	Visoverwinteringsplek	Faunaverblijfplaats
+842	Vispaaiplaats	Faunaverblijfplaats
+843	Visserijzone	Gebruikszone water
+844	Vissluis	Faunavoorziening
+845	Vistrap	Faunavoorziening
+846	Vitrinekast	Straatmeubilair
+847	Vlaggenmast	Straatmeubilair
+848	Vlaggenmastput	Straatmeubilair
+849	Vlakmarkering	Wegmarkering
+850	Vleermuiskelder	Faunaverblijfplaats
+851	Vleermuisportaal	Faunavoorziening
+852	Vlinderklep	Constructieonderdeel
+853	Vlindertuin	Recreatiezone
+854	Vlonder	Kunstwerk
+855	Vochtmeter	Sensor
+856	Voedersilo	Bouwwerk
+857	Voegovergang	Weginrichtingsobject
+858	Voetpad	Verkeerskundige zone
+859	Vogeleiland	Beheerzone
+860	Vogeltil	Faunaverblijfplaats
+861	Volgeschuimde leiding	Stedelijk waterleiding
+862	Volgeschuimde put	Put
+863	Volgezande leiding	Stedelijk waterleiding
+864	Volkstuin	Recreatiezone
+865	Voorde	Kunstwerk
+866	Voorschakelapparaat	Apparaat
+867	Voorzieningenpaal	Straatmeubilair
+868	Vrijverval drainagestelsel	Stelsel
+869	Vrijverval leidingsegment	Stedelijk waterleiding
+870	Vrijverval transportstelsel	Stelsel
+871	VRI-kast	Kast
+872	VRI-netwerk	Complex
+873	Vuilvang	Kunstwerk
+874	Vuilvangrooster	Constructieonderdeel
+875	Vuilwaterinnamestation	Installatie
+876	Vuilwaterriool	Stedelijk waterleiding
+877	Vulpunt	Installatie
+878	Vuurplek	Beheerzone
+879	Wachtplaatsvoorziening	Waterinrichtingsobject
+880	Wachttijdvoorspeller	Installatie
+881	Wadi	Reservoir
+882	Walstroomkast	Kast
+883	Wandarm	Constructieonderdeel
+884	Wandelpad	Verkeerskundige zone
+885	Warmte- en koudeopslag	Functioneel ondergronds object
+886	Warmtebron	Installatie
+887	Warmtecamera	Sensor
+888	Warmtepomp	Installatie
+889	Warmtesensor	Sensor
+890	Warmtewinningsnet	Stelsel
+891	Warmtewisselaar	Installatie
+892	Water onder duiker	Oppervlaktewater
+893	Waterbeheergebied	Waterbeheerzone
+894	Waterkast	Kast
+895	Waterkering	Kering
+896	Waterkoeler	Straatmeubilair
+897	Waterkwaliteitssensor	Sensor
+898	Waterleiding	Holle leiding
+899	Waterleidingput	Put
+900	Waterloopas	Edge
+901	Watermeterput	Put
+902	Waterniveaumeter	Sensor
+903	Waterplein	Reservoir
+904	Waterschapgrens	Registratieve ruimte
+905	Watersportzone	Gebruikszone water
+906	Watertrap	Kunstwerk
+907	Waterval	Kunstwerk
+908	Waterweg	Geografische ruimte
+909	Weegpunt	Sensor
+910	Weerstation	Sensor
+911	Weesleiding	Holle leiding
+912	Weg	Wegzone
+913	Wegas	Edge
+914	Wegberm	Wegzone
+915	Wegdekreflector	Weginrichtingsobject
+916	Wegknoop	Vertex
+917	Wegvak	Wegzone
+918	Werkgebied	Geografische ruimte
+919	Werkpad	Verkeerskundige zone
+920	Werveloverstortput	Rioolput
+921	Wervelput	Rioolput
+922	Wervelventiel	Constructieonderdeel
+923	Wiel	Oppervlaktewater
+924	Wifi-antenne	Sensor
+925	Wifi-sensor	Sensor
+926	Wijkgrens	Registratieve ruimte
+927	Wildrooster	Weginrichtingsobject
+928	Wildsignalering	Sensor
+929	Windketel	Constructieonderdeel
+930	Windmeter	Sensor
+931	Windmolen	Bouwwerk
+932	Windsingel	Groenobject
+933	Windturbine	Bouwwerk
+934	Windzak	Straatmeubilair
+935	Winkelgebied	Geografische ruimte
+936	Winterverblijf	Faunaverblijfplaats
+937	Woninglocatie	Registratieve ruimte
+938	Woongebied	Geografische ruimte
+939	Woonplaatsgrens	Registratieve ruimte
+940	Wrijfgording	Waterinrichtingsobject
+941	Y-stuk	Constructieonderdeel
+942	Zadel	Constructieonderdeel
+943	Zakbaak	Constructieonderdeel
+944	Zandhouder	Straatmeubilair
+945	Zandkoffer	Reservoir
+946	Zandvangput	Put
+947	Zandvlakte	Groenobject
+948	Zee	Oppervlaktewater
+949	Zendmast	Mast
+950	Zichthoek	Beheerzone
+951	Zichtmeter	Sensor
+952	Zinker	Stedelijk waterleiding
+953	Zinkerput	Rioolput
+954	Zitmuur	Straatmeubilair
+955	Zitrand	Straatmeubilair
+956	Zitsteen	Straatmeubilair
+957	Zonk	Constructieonderdeel
+958	Zonnepaneel	Installatie
+959	Zoutwaterleiding	Holle leiding
+960	Zuigerpomp	Installatie
+961	Zweepmast	Paalconstructie
+962	Afwateringssysteem	Systeem

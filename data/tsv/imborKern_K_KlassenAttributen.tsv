@@ -1581,10 +1581,10 @@ KlasseAttribuutID	IMBORGUID	Klasse	Multipliciteit	Attribuut	Informatiemodel	Enum
 7334	269ee3ae-6eb9-4765-85b5-34bd6f33bfb9	193	15167	540	4	null	B	Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	null
 7335	29ca33c5-efb0-4e17-93ed-55cc68b74d62	276	15167	375	4	23615	O	Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	null
 7336	ea34f4f5-3e2a-4333-b132-36268b9509d2	14818	15167	23616	4	null	B	Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	null
-7337	a26e80da-146d-4e22-825a-6ce84c144b3a	23622	15167	487	4	null	O	Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23032
-7338	46b12044-9f5a-444e-a324-e90469caf3fc	23622	15167	488	4	null	O	Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23032
-7339	a7f44898-1107-4239-b9f7-ad436e0f7170	23622	15167	489	4	null	O	Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23032
-7340	963975c4-585d-4678-8cc7-c1d934ca37e6	23622	15167	490	4	null	O	Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23032
+7337	a26e80da-146d-4e22-825a-6ce84c144b3a	23622	15167	487	4	null	O	Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
+7338	46b12044-9f5a-444e-a324-e90469caf3fc	23622	15167	488	4	null	O	Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
+7339	a7f44898-1107-4239-b9f7-ad436e0f7170	23622	15167	489	4	null	O	Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
+7340	963975c4-585d-4678-8cc7-c1d934ca37e6	23622	15167	490	4	null	O	Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
 7341	726ad88f-c684-4e88-82dd-985580a5670e	23622	15167	893	4	15671	A	Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	null
 7342	b0eb7666-1e91-482d-8643-a73ccc054c6e	23622	15167	486	4	null	O	Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23032
 7343	eef4336b-12d0-45b9-9cdd-65fc8277722d	23622	15167	873	4	null	B	Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23032

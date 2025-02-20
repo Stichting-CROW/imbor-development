@@ -1,0 +1,459 @@
+CID	C
+1	Aalpijp
+2	Aalpijp
+3	Aansturingsput
+4	Afslagmat
+5	Afstandsmarkering
+6	Amfibieënfuik
+7	Amfibieënfuik
+8	Ballenautomaat
+9	Ballenkist
+10	Ballenwasser
+11	Balspiraal
+12	Bank
+13	Bebakeningsstrook
+14	Bedrijfslocatie
+15	Beekriool
+16	Beekriool
+17	Bekabeling
+18	Bekkentrap
+19	Bekkentrap
+20	Beluchtingsrooster
+21	Beluchtingsventiel
+22	Benedenstrooms eindriool
+23	Beregeningspomp
+24	Bergbezinkleiding
+25	Bergbezinkleiding
+26	Bergbezinkleiding
+27	Bergbezinkleiding
+28	Bergingsleiding
+29	Bergingsleiding
+30	Bergingsleiding
+31	Bergingsleiding
+32	Bijenhotel
+33	Bijenhotel
+34	Bijenwand
+35	Bijenwand
+36	Bijzonder putdeksel
+37	Bijzondere putconstructie
+38	Bijzondere putconstructie
+39	Bilgepomp
+40	Biofilter
+41	Biofilter
+42	Blinde inlaat
+43	Bloemblok
+44	Blusriool
+45	Blusriool
+46	Blusriool
+47	Blusriool
+48	Bochtstuk
+49	Boomspiegel
+50	Boostergemaal
+51	Boostergemaal
+52	Brandgang
+53	Broeihoop
+54	Broeihoop
+55	Buffertoren
+56	Buitengrens
+57	Busperron
+58	Bussluis
+59	Calamiteitendoorsteek
+60	Centrale verdeelkast
+61	Centrale voedingskast
+62	Centrifugaalpomp
+63	Chipping doel
+64	Clubwasser
+65	Coating
+66	Dassenburcht
+67	Dassenburcht
+68	Deniltrap
+69	Deniltrap
+70	Dijknol
+71	DIT-riool
+72	DIT-riool
+73	DIT-riool
+74	DIT-riool
+75	Doorspoelput
+76	Doorspoelput
+77	Doorspuitput
+78	Doorspuitput
+79	Doorsteek
+80	Drainaansluitleiding
+81	Drainaansluitleiding
+82	Drainagegemaal
+83	Drainagegemaal
+84	Drainputdeksel
+85	Drukleiding
+86	Drukleiding
+87	Drukleiding
+88	Drukleiding
+89	Drukrioleringspomp
+90	DT-riool
+91	DT-riool
+92	DT-riool
+93	DT-riool
+94	Dubbelkerende spindelschuif
+95	Dubbelkerende spindelschuif
+96	Dugout
+97	DWA gemaal
+98	DWA gemaal
+99	DWA perceelaansluitleiding
+100	DWA perceelaansluitleiding
+101	DWA+HWA gemaal
+102	DWA+HWA gemaal
+103	Eekhoornbrug
+104	Eekhoornbrug
+105	Eendenkorf
+106	Eendenkorf
+107	Enkelkerende spindelschuif
+108	Enkelkerende spindelschuif
+109	Erfafscheidingsput
+110	Explosievrije kolk
+111	Externe overstortconstructie
+112	Externe overstortput
+113	Externe overstortput
+114	Faunaduiker
+115	Faunaduiker
+116	Faunagoot
+117	Faunagoot
+118	Faunarichel
+119	Faunarichel
+120	Faunatunnel
+121	Faunatunnel
+122	Fauna-uittreedplaats
+123	Fauna-uittreedplaats
+124	Fietsabri
+125	Fietsbeugel
+126	Fietsenkluis
+127	Fietsenrek
+128	Fietsenstalling
+129	Fietsklem
+130	Fietssleuf
+131	Fietstrommel
+132	First flush gemaal
+133	First flush gemaal
+134	Foutaansluiting
+135	Frequentie-omvormer
+136	Ganzennest
+137	Ganzennest
+138	Geboortebos
+139	Gecombineerde straat-trottoirkolk
+140	Gemaal droge opstelling
+141	Gemaal droge opstelling
+142	Gemaal natte opstelling
+143	Gemaal natte opstelling
+144	Gemengd riool
+145	Gemengd riool
+146	Gemengd riool
+147	Gemengd riool
+148	Gemengde perceelaansluitleiding
+149	Gemengde perceelaansluitleiding
+150	Golfdoel
+151	Grafsteen
+152	Grasafslaggeleider
+153	Gravelbak
+154	Half-way house
+155	Halte voetpad
+156	Halte-eiland
+157	Haltekom
+158	Helofytenfilter
+159	Helofytenfilter
+160	Hemelwaterriool
+161	Hemelwaterriool
+162	Hemelwaterriool
+163	Hemelwaterriool
+164	Holevlag
+165	Hondenhokput
+166	Hondenhokput
+167	Hondenrooster
+168	Hoogspanningskabel
+169	Hoogspanningskabel
+170	Hoogzit
+171	Hop-over
+172	Houtsingel
+173	HWA gemaal
+174	HWA gemaal
+175	HWA perceelaansluitleiding
+176	HWA perceelaansluitleiding
+177	IBA Klasse I
+178	IBA Klasse I
+179	IBA Klasse II
+180	IBA Klasse II
+181	IBA Klasse IIIa
+182	IBA Klasse IIIa
+183	IBA Klasse IIIb
+184	IBA Klasse IIIb
+185	IJsvogelwand
+186	IJsvogelwand
+187	Infiltratiekolk
+188	Infiltratieriool
+189	Infiltratieriool
+190	Infiltratieriool
+191	Infiltratieriool
+192	Inlaat leiding
+193	Inlaat oppervlaktewater
+194	Inlaat rioolput
+195	Insectenhotel
+196	Insectenhotel
+197	Inspectieput
+198	Inspectieput
+199	Instroomvoorziening
+200	Interne overstortconstructie
+201	Interne overstortput
+202	Interne overstortput
+203	Kade
+204	Keverbank
+205	Kolkaansluiting
+206	Kolkaansluitleiding
+207	Kolkaansluitleiding
+208	Kraamverblijf
+209	Kraamverblijf
+210	Kraanbaan
+211	Kruisingsput
+212	Kruisingsput
+213	Kruisstuk
+214	Laadverdeelkast
+215	Laagspanningskabel
+216	Laagspanningskabel
+217	Leidingsegment
+218	Leidingsegment
+219	Leidingsegment
+220	Leidingsegment
+221	Lichtkoker
+222	Loswal
+223	Lozingsput
+224	Lozingsput
+225	Luchtpersgemaal
+226	Luchtpersgemaal
+227	Luchtpersleiding
+228	Luchtpersleiding
+229	Luchtpersleiding
+230	Luchtpersleiding
+231	Mantoegankelijke put
+232	Mantoegankelijke put
+233	Marshall-huisje
+234	Marterhoop
+235	Marterhoop
+236	Mechanische perceelaansluiting
+237	Metrobaan
+238	Middenspanningskabel
+239	Middenspanningskabel
+240	Mof
+241	Mosselbank
+242	Mosselbank
+243	Nestkast
+244	Nestkast
+245	Nestplaats
+246	Nestplaats
+247	Noodoverstortput
+248	Noodoverstortput
+249	Nooduitlaat
+250	Oeverzwaluwwand
+251	Oeverzwaluwwand
+252	Olie-/benzineafvangput
+253	Ontluchtingsventiel
+254	Ontstoppingsput
+255	Ooievaarsnest
+256	Ooievaarsnest
+257	Open berging
+258	Open berging
+259	Openbaar vuilwaterstelsel
+260	Opkuilhoek
+261	Oppervlaktewatergemaal
+262	Oppervlaktewatergemaal
+263	Opvoergemaal
+264	Opvoergemaal
+265	Overgangsstuk
+266	Overstortleiding
+267	Overstortleiding
+268	Overstortleiding
+269	Overstortleiding
+270	Paarverblijf
+271	Paarverblijf
+272	Parallelriool
+273	Parallelriool
+274	Parallelriool
+275	Parallelriool
+276	Parkeerbeugel
+277	Parkeerterrein
+278	Peilbuisdeksel
+279	Perceelaansluiting
+280	Persleiding
+281	Persleiding
+282	Persleiding
+283	Persleiding
+284	Persluchtpomp
+285	PLC
+286	Plein
+287	Poef
+288	Pompunit
+289	Pompunit
+290	Profiel leiding
+291	Putbuis
+292	Putbuis
+293	Putdeksel - licht verkeer
+294	Putdeksel - zwaar verkeer
+295	Putdeksel met instroomvoorziening
+296	Recreatiebedrijf
+297	Regenwatertuin
+298	Regenwatertuin
+299	Reinigende put
+300	Reinigende put
+301	Rijstrookscheiding
+302	Riooleindgemaal
+303	Riooleindgemaal
+304	Rioolput met geleiding
+305	Rioolput met geleiding
+306	Roostergoot
+307	Roostergoot
+308	Ruiterpad
+309	RWS kolk
+310	Schoenborstel
+311	Schoonloopmat
+312	Schoonlooprooster
+313	Schouwpad
+314	Schroefcentrifugaalpomp
+315	Schroefpomp
+316	Schuilhut
+317	Scootmobielberging
+318	Septictank
+319	Septictank
+320	Slangsifon
+321	Slibvanger
+322	Speelheuvel
+323	Spindel
+324	Spoelgemaal
+325	Spoelgemaal
+326	Spoelklep
+327	Spoelklep
+328	Spoelleiding
+329	Spoelleiding
+330	Spoelleiding
+331	Spoelleiding
+332	Standpijp
+333	Standpijp
+334	Stankscherm
+335	Stasteun
+336	Stobbenwal
+337	Stobbenwal
+338	Straatkolk
+339	Straatpot
+340	Stuurdraagsysteem
+341	Stuwbak
+342	Stuwklep
+343	Stuwklep
+344	Stuwput
+345	Stuwput
+346	Stuwrioolleiding
+347	Stuwrioolleiding
+348	Stuwrioolleiding
+349	Stuwrioolleiding
+350	Swinghulp
+351	Takkenril
+352	Takkenril
+353	Tandemriool
+354	Tandemriool
+355	Tandemriool
+356	Tandemriool
+357	Tassteun
+358	Teemarker
+359	Terugslagklep
+360	Terugslagklep
+361	Tiny forest
+362	Toegangspad
+363	Trailerhelling
+364	Trambaan
+365	Tramheuvel
+366	Transportrioolleiding
+367	Trottoirkolk
+368	T-stuk
+369	Tubelure
+370	Tunnelgemaal
+371	Tunnelgemaal
+372	Tussengemaal
+373	Tussengemaal
+374	Uitlegger
+375	Uitlegger
+376	Uitstroombak
+377	Uitstroomvoorziening
+378	Urnenmuur
+379	Urnennis
+380	Vacuümleiding
+381	Vacuümleiding
+382	Vacuümleiding
+383	Vacuümleiding
+384	Vacuümpompstation
+385	Vacuümpompstation
+386	Valput
+387	Valput
+388	Vangkooi
+389	Vastzetvoorziening
+390	Veerooster
+391	Verbeterde overstortput
+392	Verbeterde overstortput
+393	Verloopstuk
+394	Verzamelput
+395	Vetvangput
+396	Vijzelgemaal
+397	Vijzelgemaal
+398	Vijzelpomp
+399	Vislift
+400	Vislift
+401	Visoverwinteringsplek
+402	Visoverwinteringsplek
+403	Vispaaiplaats
+404	Vispaaiplaats
+405	Vissluis
+406	Vissluis
+407	Vistrap
+408	Vistrap
+409	Vleermuiskelder
+410	Vleermuiskelder
+411	Vleermuisportaal
+412	Vlinderklep
+413	Vogeleiland
+414	Vogeltil
+415	Vogeltil
+416	Volgeschuimde leiding
+417	Volgeschuimde leiding
+418	Volgeschuimde put
+419	Volgezande leiding
+420	Volgezande leiding
+421	Vrijverval leidingsegment
+422	Vuilwaterriool
+423	Vuilwaterriool
+424	Vuilwaterriool
+425	Vuilwaterriool
+426	Vuurplek
+427	Walstroomkast
+428	Wandelpad
+429	Water onder duiker
+430	Water onder duiker
+431	Waterkoeler
+432	Waterplein
+433	Waterplein
+434	Werkpad
+435	Werveloverstortput
+436	Werveloverstortput
+437	Wervelput
+438	Wervelput
+439	Wildrooster
+440	Windketel
+441	Windsingel
+442	Winterverblijf
+443	Winterverblijf
+444	Woninglocatie
+445	Y-stuk
+446	Zandhouder
+447	Zandvangput
+448	Zichthoek
+449	Zinker
+450	Zinker
+451	Zinker
+452	Zinker
+453	Zinkerput
+454	Zinkerput
+455	Zitmuur
+456	Zitrand
+457	Zitsteen
+458	Zuigerpomp
