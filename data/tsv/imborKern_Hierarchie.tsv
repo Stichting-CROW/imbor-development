@@ -61,7 +61,7 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 72	338	7	Mon Feb 17 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 73	531	8	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 74	4621	466	Fri Feb 14 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
-75	608	398	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+75	531	398	Thu Feb 20 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 76	531	467	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 77	344	9	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 78	531	468	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
@@ -188,7 +188,7 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 212	619	561	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 214	2072	102	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 216	101	550	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
-217	629	104	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+217	708	104	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 218	273	534	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 219	603	105	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 220	608	106	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
@@ -1196,8 +1196,8 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 4377	4214	4299	Mon Oct 21 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 4378	596	100	Thu Oct 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 4379	4291	3414	Thu Oct 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
-4381	705	660	Sat Oct 26 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
-4382	705	659	Sat Oct 26 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+4381	587	660	Sat Oct 26 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+4382	588	659	Wed Feb 19 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 4383	708	232	Sat Oct 26 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 4384	708	311	Sat Oct 26 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 4385	708	300	Sat Oct 26 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
@@ -1378,7 +1378,6 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 4718	4257	3584	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 4719	4273	4162	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 4722	4234	4146	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
-4723	4234	3586	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 4724	4255	3587	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 4725	4237	3588	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 4726	4237	3589	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
@@ -1728,7 +1727,6 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 5103	4261	3848	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 5104	4255	3849	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 5105	4271	4076	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
-5106	4271	4077	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 5107	4271	4078	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 5108	4271	4079	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 5109	4271	4080	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
@@ -2380,3 +2378,7 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 5824	522	4653	Wed Feb 19 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 5825	482	4645	Wed Feb 19 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 5826	482	4644	Wed Feb 19 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+5827	719	4377	Wed Feb 19 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+5828	79	4424	Wed Feb 19 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+5829	10	4815	Thu Feb 20 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+5830	4213	4816	Thu Feb 20 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Rol
