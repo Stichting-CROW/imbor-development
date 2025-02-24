@@ -1,4 +1,4 @@
-VakdisciplineObjecttypeID	IMBORGUID	Zoekingang	Klasse	Objecttype	Wijzigingsdatum
+ZoekingangObjecttypeID	IMBORGUID	Zoekingang	Klasse	Objecttype	Wijzigingsdatum
 1	a9b148c6-33f5-415b-89f9-6cd222d252ff	14391	1089	38	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)
 2	ff9b460a-c75d-4644-abe4-168596cfd86c	14391	1089	39	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)
 8	57920298-cba5-4e3f-a856-f8db2de88a75	14391	1093	37	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)
@@ -1605,3 +1605,5 @@ VakdisciplineObjecttypeID	IMBORGUID	Zoekingang	Klasse	Objecttype	Wijzigingsdatum
 2229	9c8566f9-6fea-4499-abac-81afd5196300	14397	120	12697	null
 2230	b7306a37-0324-4e63-9038-f0277b0394cf	14397	14808	13356	null
 2231	82bee80a-9faf-4388-8764-9a26728590ce	14397	1090	10479	null
+2232	f7be2c4b-f076-4b21-92d7-14a156f5d658	14394	79	10507	null
+2233	10abba10-10df-4f8e-9994-2d97ed578a68	23121	1080	23726	null
