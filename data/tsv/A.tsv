@@ -1,18 +1,24 @@
 AID	A
 0024cbe0-4709-477a-9275-c96ea7e5027a	Perceel
+007c74b2-d025-4cc5-96e4-8beb1169ce54	Perceelaansluitpunt met inlaat verbinden
 00d6a985-3f2c-4639-a876-3080803c3d5a	Benedenstrooms eindriool
 01cf26fa-e4c8-4ea9-b957-9f69b7f18b2f	dakoppervlak vlak
 035e46dd-6e80-4d0b-bad6-3ad828b74dc6	Basisregistratie Adressen en Gebouwen (BAG)
+0375be29-9b51-478a-99bd-f8868ec87de8	Drainage en transport van hemel- en grondwater
 067c1c4b-ac8b-4ee7-a173-a857ad973a4a	gesloten verhard oppervlak hellend
 071c17ee-3016-48c9-a962-627ce2424325	Eurocode NEN-EN 1991-2+C1/NB CC1 klasse3 BM1
 07246b70-084f-4f7a-9db9-9a137d4477a0	Hybride drukriolering
+07dcae4a-8914-4822-b381-b4feeee806b9	Afsluiten
 09843a9c-f315-43d7-8efd-3ca5ffd633b8	FaunaUittreedplaatsVerschijningsvorm
+0aac5299-af78-4640-997e-b2836abc08b8	Afvoer van afvalwater naar een RWZI
 0b9923d1-5e68-4f77-8e10-650163979f1f	BallenvangerVerschijningsvorm
 0d60b114-9260-46b4-b5e4-1e50fbd0bc4a	Stelsel
 0f67b1b0-5290-4fb3-b8c3-d5af2f2ed2c1	Eurocode NEN-EN 1991-2+C1/NB CC3 klasse4 BM4
 11050224-c095-4dc7-a4f2-fa9d91601771	Driekleurige verkeerslantaarn
+1228d10e-ff94-4a10-b458-6b6649e2eb0c	Verpompt spoelwater
 14357e3b-2d74-4132-8469-c7d00b2e205c	Brandwerend rooster
 154e4d11-dcb5-4391-b417-535f755fe1e7	ToegangspoortVerschijningsvorm
+15cc537b-6561-4a7c-b06d-c04f31e72784	Bovenstrooms waterpeil regelen
 181e6593-70d7-4d7e-91a7-df6b93b4cd89	Pneumatisch
 1b2a2e03-dc8f-4412-b10d-87bf01ab2954	VerkeerseilandVerschijningsvorm
 1cbf5a98-aa91-4876-8f75-16d8c9a304a0	Eurocode NEN-EN 1991-2+C1/NB CC1 klasse3 BM2
@@ -23,34 +29,49 @@ AID	A
 21d391e6-dcee-4ac0-b4b6-646187766e62	NEN6706:2009
 24058f74-cc1d-4574-8e36-8fbb80a1146f	Brandwerende verf
 24621907-41d6-4088-9bee-ed0846d66747	Tandemriool
+25c9839b-6da4-4bb2-9fc5-97cec388ae57	Drijvend materiaal opvangen
 25cd7ea1-86d1-4d65-a2bd-c3778eafe032	Stedelijk waterleiding
 27ffa371-ce2f-44a0-b194-a93f46ba4644	GBKN
+28c50f94-8525-4442-b61c-446a6612ad05	Meten van natuurkundige grootheid
 28cfd579-329d-4ff5-8a0e-509194a2375b	plaatsnaam
+297fbfd8-fca9-4648-9e8a-249c57fe0df5	Ander geïnjecteerd dichtingsmateriaal
 2bccdb8f-fcff-45c0-ac82-856e153fc20b	Infiltratievoorziening
 2d27895a-bd5c-4bdc-8ef2-92ac47a2d10d	Natuurlijk spelen
 30c6ca30-2c1a-436b-b2c8-0c82fea17953	IJsvogelwandVerschijningsvorm
+335a4aac-bd91-423c-8dea-15bc42417f92	type lining
+3403f187-8d7c-4fcb-8f98-b12f5be74434	Transporteert vooral
 352c2136-909c-4e4d-8457-7cec9a88a818	Bijzondere putconstructie
+36c8032b-699b-412f-afee-7d4a952598d1	Door bemaling geregelde afvoer
 3704fdde-4d32-4e32-9658-84e0703da829	Adres
 375460e9-46f0-4506-a764-81b7d273db5a	WinterverblijfVerschijningsvorm
 379ac083-c9b7-4d95-9f2c-05b4c06cbdb7	Verkeerstuin
 397b2c51-d1d1-47a0-aaa3-a4138d518fe3	BankVerschijningsvorm
 3b5f3069-8e69-4bd4-afec-96f25ce59c94	Blikvanger
+3c227a9a-2a48-4062-b559-ef37c9222960	putdekselniveau
+3c4a3def-085a-469f-90d4-11b472ef1a2d	Geïnjecteerde specie (put)
 3dbd685c-4004-40b1-bf30-63433ce67e35	Vormboom blok
 3f4e48cc-0b62-47e9-9a4b-e123e5f6e690	Vormboom geknot
 40418592-3339-493a-b250-4919fe3ca299	Bedrijfslocatie
+426125b1-e7fb-4e98-8841-56ea9155c94e	Geleiden van treinen
 46271734-c1d2-47fa-b993-0ea65b929d6f	Knooppunt
 467cf47b-9d99-4295-bda0-cd6e614e4919	Hulpstuk
 486fda16-349b-4fd4-b06a-33962cf99f90	AHN1
+488f0fb2-1670-4c52-b67f-bc654458c930	Rotatie omzetten naar translatie
 49950a27-80a2-45dd-9b81-cf16a72a527a	ObjectSoortnaam
+49997f84-12e7-45aa-aa64-c55f2b67ab95	Buis is vervangen
+49d1db91-f1ef-414e-ac65-b6e13fb34a92	grondwaterniveau
+4a3ec0bb-6671-4b73-830b-de4fa4fdc9cf	type reparatie
 4c39692c-d10b-44ce-b7f6-6fd82afc8ade	GolfbaanVerschijningsvorm
 4d43be4e-272d-4587-b59c-1b8c0ad50918	gesloten verhard oppervlak vlak
 4e3837f1-b2e2-43fa-95cd-2065cf30d811	Inzamelen hemelwater en afgifte aan ondergrond
 5007b34b-3266-4a2c-8283-0d48293eb445	SlootVerschijningsvorm
+50a4a0a4-4560-47ac-8127-26e62d7c22cc	aanlegdiepte
 53448406-0b31-4799-8665-dacc3ea6ca92	Vormboom geleid
 5455eeb7-f5a7-48d6-aff1-40bedcc004b1	Eurocode NEN-EN 1991-2+C1/NB CC2 klasse4 BM4
 55e2e668-1ad4-4132-a5d2-ed1a932edf98	Vormboom gekandelaberd
 5646c4c3-2b9f-4bc1-8836-948449f32901	FaunatunnelVerschijningsvorm
 58230b4e-0d6b-4f50-9e16-7923637e3098	Brandwerende kit
+597a2623-d8af-4c4b-b281-57120bc7cf6a	Tijdelijke opslag afvalwater perceel
 5a567b59-1cd2-48eb-a95a-49d78d1e8618	BAG-identicatie
 5a88df5b-01fb-4dae-94f4-4c2b9070b47a	dakoppervlak hellend
 5b262d7c-f3f6-4ffb-a7fb-66725ed2aecb	open verhard oppervlak uitgestrekt
@@ -60,6 +81,7 @@ AID	A
 5fa2cec0-821a-4bd3-8be0-cd87291e0469	Voorwaarschuwingssein Veerpont
 60d7d58c-4a28-4c29-9adb-fbc28b2927b9	OeverzwaluwwandVerschijningsvorm
 61a88ac1-38b0-43be-bf98-0ec2c0212dd2	identificatie geovoorziening
+61b961d8-d47a-430f-8b4e-1b5d12cc5dc1	Stromingsenergie verlagen
 6254895f-89d9-4ffc-8722-0520c6f0bcaf	WildspiegelVerschijningsvorm
 6341cfec-ff4f-4ff1-9878-5ac952ea5abb	Standaard voetgangerslicht
 644ceb85-c0f9-48ab-a901-e94e8ccbc496	Vergunning
@@ -67,8 +89,10 @@ AID	A
 65367a56-aee2-4761-9847-a016d76f30cc	RivierVerschijningsvorm
 65dcbc19-cbb8-44a1-8e76-6b90c1b5484d	Voegenkit, niet asbesthoudend
 6699e90f-1260-4d77-a2fe-5f9a78af38c4	CBS
+669c56a9-a120-42b0-8e6b-611048cc378c	Opvangen axiale beweging
 66da567d-6182-4084-b611-d2ac77b66c16	Waterpeil-informatie
 673be5d0-3977-44a2-90e8-653b45ecbca2	Schuif
+67ad875d-9b5a-49ff-8ef0-c56532e7bfb1	Leidingen over een object geleiden
 67cbf12e-0ae9-43f2-9908-0ff6420f1b2a	ConstructieBelastingklasse
 6899bb54-3be5-4629-af5b-b1d0cb731569	Oppervlaktewater
 696ca156-faea-4e4b-b3e6-c2d9a57d8e78	Wand
@@ -77,9 +101,11 @@ AID	A
 6acd5626-119f-4353-943f-207c10c83a25	VoetgangerslichtVerschijningsvorm
 6c3e4b6b-4f0d-43ba-940c-e4f3ff4c6a2c	Gegevensbeheerder
 6ea40bcb-13cc-476a-a9a4-8221b7751967	kunstmatig
+6eddf3dc-df04-4c0a-bbee-daf83565f3e3	Verpompt tunnelwater
 6fc45a55-1cd7-4574-b2d0-da09b94cb0b8	FaunarasterVerschijningsvorm
 729ef617-6e64-469c-af1e-46ffca377793	Eurocode NEN-EN 1991-2+C1/NB CC1 klasse3 BM4
 747b6f9d-5977-4e23-9966-39844dd0f9bc	Drainaansluitleiding
+772b1a61-1158-4c88-8a6c-c54adfee57de	Lanceren van een pig
 7743ded0-a262-43ae-bad3-2673f6612978	Goot
 7857a30b-8dc0-4ed7-9f84-db135f58ab95	Debietmeter
 7a06eedb-447b-48a1-b65a-bed18a76a682	Eurocode NEN-EN 1991-2+C1/NB CC2 klasse4 BM1
@@ -91,31 +117,43 @@ AID	A
 7d421d94-47db-499c-b4d2-292c3ec4701f	Apparatuuroriëntatie
 7dcbdbbe-4173-4f3f-bf06-0fdf2bccab89	Systeem
 7df5aca6-8734-49ce-9e86-bffbc01280e6		Openbaar vuilwaterstelsel
+7e8a8109-c828-4d1c-84ce-428ac39566e3	code
+806d5d5d-a0c3-402e-b48a-2d3cee972898	Deelliner bij een aansluiting (bijv. hoedje)
+8078236c-48c5-40ed-8ada-9f79b2b47b03	Geleiden van elektronen
 80bcbc27-c6fe-4255-acf1-6dd792a242c7	Openbaar ontwateringsstelsel
 82e4fde2-a884-473d-a5c5-f91ccec74e97	Vormboom bol
+84912fd8-f885-478b-89be-661a2b74be20	Toegang belemmeren
 853fed4d-86ed-4461-8a81-c934f3007ac3	GroeneGolfSignaalgeverVerschijningsvorm
 85af0683-7931-4137-b709-3c5aa43cf6da	Voorwaarschuwingssein brug 1 licht
+85c7ac39-517a-47ad-ba9c-933742c8799f	binnenonderkant onderdeel
 886403dd-212c-4ec3-a276-93ad4b3bebc3	Groenbeheer-informatie
 891124ea-606b-4d40-9eb1-4342826f5faa	straatnaam
+89ebf686-5b8c-4cd0-80a8-32e13efdaef7	Door stuwing geregelde afvoer
 8a273ca4-327d-4eec-bdb3-afb636adc967	Weren van honden
 8f2ea7f3-95ac-4680-a5e0-258576171c35	Watergang-dimensionering
 8f47ba4f-23aa-41a2-aeb5-8b610f626f70	KanaalVerschijningsvorm
 8f883dd1-727b-4dca-891c-e7d38cd32511	SportEnSpelregelbordVerschijningsvorm
 90223bfd-82cb-4c41-81d9-e40ff716c151	Voegenkit, (mogelijk) teerhoudend
 93203866-dd5a-4ba1-938c-caeb6f388445	Kasseien
+9324b9be-3a95-4a5b-877b-749779b9266f	Aansluitmogelijkheid bieden
 97885b61-c713-4a59-a7d2-c163893c43f6	natuurbos
 982a2ee8-c2cb-4ebc-a8e7-7cad95b163b1	Eurocode NEN-EN 1991-2+C1/NB CC2 klasse4 BM3
 987e1a62-a9e4-486c-b54f-c38889ac330f	Amfibieënverblijfsgebied
 990b05af-0a75-4397-9f83-d77bfd3c20d8	type funderingsmateriaal
 99ecdf53-b396-45ca-801b-502e9673a4a6	BuitenfitnessterreinVerschijningsvorm
 9b35059a-e315-4231-bb4a-9e139e1f143a	Verkeerslantaarn
+9c8582f5-ff77-448a-970d-fcbc740c84e1	Injecteren van lucht
 9e0c8064-5fd6-4185-84e8-a0ce148946a4	Eurocode NEN-EN 1991-2+C1/NB CC3 klasse4 BM3
 9eb8c3ae-4e9c-425b-a472-2b62608b5031	VijverVerschijningsvorm
+9f287390-eb0c-4bc8-8a41-39855b1a8a3b	Water spuiten
 a2dc6fe5-4f8e-4592-b2f5-8ea968d68aa6	Vormboom geschoren
 a2eefda5-2c3b-4a92-976d-9b62a747ab9b	Vormboom gekandelaard
+a518191c-fc4c-4e75-87ef-8ca3fd6e25bf	Dragen van licht verkeer
+a60f29bd-92c5-4eed-a76c-1caed0df8744	Amfibieën en zoogdieren redden
 a628d390-9789-43f2-be4e-ee8b59d9d358	Mager beton
 a653f9a9-f9e3-40f4-8432-5fb2821261c0	AHN4
 a6a04d6a-3354-4a51-8e0d-397f53bfd896	Constructieonderdeeloriëntatie
+a861da07-b782-4bd7-a025-4b057d2ba176	Verpompt grondwater
 a9bb827e-7239-4bea-92fb-565807a98060	Brandmanchet
 ac102ca9-cdb4-4e7a-a5ce-de1f59700b14	FysiekObjectTypeBediening
 ac159646-07b5-4b37-9d94-eedaa1c67bcd	Parkeren
@@ -125,6 +163,7 @@ ae09aecb-779a-4551-902f-9c00ebbeaf92	Zwak brak
 ae8456db-ff2a-4e6f-93b8-3bf1c30df93e	FunderingTypeFunderingsmateriaal
 aece1b3c-0318-4f02-8e6e-5067eee98508	Eurocode NEN-EN 1991-2+C1/NB CC1 klasse3 BM3
 b05f67b0-3ba9-445b-bb9e-5665099eee76	Grondverbetering
+b06bfcf8-278b-4fd7-bd2b-ef4c131697b6	Gerepareerd gat
 b19ab39a-db45-4d70-86fd-3544139a89c1	StaafmathekVerschijningsvorm
 b2844a2f-09d4-418b-b28b-de8ea5cfc4cb	Aantal i.e.
 b665c088-57ed-4277-b0d2-ff03c135d8c5	AtletiekbaanonderdeelVerschijningsvorm
@@ -132,13 +171,18 @@ b6a34cd3-0760-4a68-a219-fb5c07d41645	Baggeren-informatie
 b6c732f8-dc33-4e47-b29a-be7eac0e264e	Glad staal
 b6ccea6a-f7be-451e-be44-a72a6d866182	Brandkap
 b7bbc65a-900b-4575-a544-e0c08fc20813	Voegenkit, asbesthoudend
+b7d5e082-c107-418d-abe1-6814fbd48120	Verpompt oppervlaktewater
 b8206098-b879-48f0-aff9-2464bcb7113c	Rioleringsbeheerder
 b8549207-380b-4073-ab3c-26156ab592de	VogeltilVerschijningsvorm
 b8d517fc-c458-4b59-afe0-0f231d342a3a	WegbermVerschijningsvorm
 b8dd6b19-7118-4be3-8f7c-6404782aa535	Beton met stalen kern
+b9536af5-5073-4d34-bb7e-e6e54ea074c2	Toegankelijk houden
+b9c8b5bc-522d-43bd-9be6-786d65e1eece	Verwijderen van water 
 ba141470-4e0b-4215-bbdc-e1fbcee24a47	Eurocode NEN-EN 1991-2+C1/NB CC2 klasse4 BM2
+ba6485b8-92f0-4a7a-a0d7-fffc288b084d	Beschermen tegen vallen
 bb721668-626e-4ffc-ac2e-9411086e8d04	Voorwaarschuwingssein brug 2 lichten
 bb78563e-6a30-4728-a71f-f97e6a982fe9	Eurocode NEN-EN 1991-2+C1/NB CC3 klasse4 BM1
+bb806a62-fb2b-4019-b7b0-cc6dee33bceb	Lucht en water zuiveren
 bc44e9a8-6f20-4e9a-b658-d53e2529d6e7	Recreatief gebruik
 bfad6237-0c14-49fe-a82f-7c2d703eb2a5	Natuurontwikkeling
 c0cc175f-e46a-4a58-adb8-aedef9eb2b70		Openbaar hemelwaterstelsel
@@ -147,24 +191,36 @@ c19dea0d-1f3c-4b68-8999-c2c1ad85056b	Driekleurig fietslicht met groenvoorspeller
 c223f8e7-2f49-4573-9866-62300ee02bea	Matig zoet
 c28dc59c-6ec0-4abc-a3f7-710443b1ac40	VerkeerslantaarnVerschijningsvorm
 c2f665e2-be51-43a0-9a4d-e7e9378dd59a	Inlaat oppervlaktewater
+c4dd59bc-a9ed-4f2d-b021-de47d8f9830d	Andere reparatie bij aansluiting
 c4f17eae-9b54-4ee0-b3f7-64ea3a1f710c	dakoppervlak uitgestrekt
 c6c9442d-bb6d-4f7e-bbd3-9fb9004ad3dd	Persleidingstelsel
 c95983d1-27f4-4ff6-9280-b057ba11cbb8	Tweekleurige verkeerslantaarn
 cb9bdf63-edff-4a07-9b53-55525b2b66f1	Voorgespannen Beton
 ccfc7a22-6ec6-49ce-bcb6-2c2f9a242312	Brandwerende deur
 ceb3f33c-c04a-45c0-93e9-3cd74e08b24e	GolfterreinVerschijningsvorm
+cef20ce7-12c4-400f-a863-093dd1ed2041	Gerepareerd gat (put)
+d008cd96-7160-4b91-967a-4e21e8f2d695	Constructie beschermen
+d039d253-cecf-4ccc-a91c-bac42c088535	ReparatieTypeReparatie
+d09c1232-5999-4fd0-8783-428e315721d8	Leidingaansluiting verstevigen
 d17de48e-3d08-4e55-a959-74cbf057a771	Woninglocatie
 d44dee1e-115e-4daa-b89c-453ede7d2d46	Tiny forest
+d5fa1854-a0b8-49b2-9218-146997229543	Voorkomen van explosie
 da61f792-000a-4bd2-a831-a65213b3bfaf	open verhard oppervlak hellend
 db3760a4-4581-423f-be66-841ff6f3f31f	Brandwerende spuitmortel
 db93db5c-15a2-4656-8ccd-55cac8f87294	Drinkwaterverbruik
 dbbb7104-4f6b-457a-9827-305ebda42ccb	Niet kunnen achterhalen
 de3277d7-26d2-4d64-bb69-043395be7f93	Parallelriool
 dec63e11-3e4c-4321-88bd-7a514849eb6f	Mof
+df3b1a62-8a01-45fc-9e9c-9ebbcc7fe745	Dragen van zwaar verkeer
+df55c93a-428e-4d72-bd04-a9d3a54e1ce8	Reparatie
+df81bccb-bbf3-452f-b57d-11317852e2c4	Onbekende functie
 e195cdd0-4f28-4478-bb63-fdb3f62bd227	BuurtbordVerschijningsvorm
+e1ab7ac7-6b50-4501-b782-484eba29cdbf	Meerdere drainageleidingen aansluiten
 e5833578-27f3-4ed4-b2b4-6b9436263dba	BeekVerschijningsvorm
 e6588086-4d39-42dd-a9fd-9cb46abfff37	Afdekking
 e7b2e655-0dce-4e83-b21c-f190c1fb4e4e	GolfbaanonderdeelVerschijningsvorm
+e81295f9-89c9-4ff4-8d81-ba91b53b909d	Fixeren putdeksel
+e8ed4aa1-dab4-48dc-9a52-48d1572bdd0d	Hijsen
 ecae2880-1d37-4949-b590-d698fd06f034	NestkastVerschijningsvorm
 ece501f9-3c7c-4e5b-9b87-2dd3f486e1b9	open verhard oppervlak vlak
 ed0d8190-bc64-4aca-938c-036d6c002807	gesloten verhard oppervlak uitgestrekt
@@ -176,7 +232,11 @@ f19ba973-ee7d-4e3a-bc39-8cbce313656f	Brandwerend band
 f2d2b041-b9bf-4814-9265-b10f454ade07	onverhard oppervlak hellend
 f4c0d7bc-68df-49e2-a2c6-1082d100d069	OnderlichtVerschijningsvorm
 f4e9a4e4-e21e-48c4-9c2d-3935eb9c5b41	Recreatiebedrijf
+f4eb8037-8757-4059-b0db-9166df246c16	Hemelwater afvoeren naar ondergrond
+f77e9853-5a52-4b1d-ba15-9445afa6ce36	Opvangen horizontale verschuiving
+f785bb26-c344-4f58-83e6-aa7ead7be8f2	Deelliner
 f92be0e6-cfa6-4961-8b0d-9b1a759966cc	Zonder toestandswijziging
+f994e977-677b-4d39-9f2d-dd18d37956b5	Afdekken van peilbuis
 fa20c406-2dca-46c6-9cf8-c2d77a629f61	Watergangbeheer-informatie
 fab28cdb-f3e1-4048-afc4-fd07258159db	onverhard oppervlak vlak
 fe433a2a-f68d-415c-b2b8-17bd46cbc53c	Bekabeling

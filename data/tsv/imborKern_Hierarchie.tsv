@@ -1326,8 +1326,6 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 4666	4273	3555	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 4667	4253	3556	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 4668	4253	3557	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
-4669	4253	3558	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
-4670	4253	3559	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 4672	4233	3944	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 4673	4268	3945	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
 4674	4233	4160	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
@@ -2606,3 +2604,11 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 6077	277	5051	Mon Feb 24 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 6078	277	5052	Mon Feb 24 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 6079	277	5053	Mon Feb 24 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+6080	4253	5054	Mon Feb 24 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
+6081	4271	5055	Mon Feb 24 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
+6082	531	5056	Mon Feb 24 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+6083	4271	5057	Mon Feb 24 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+6084	4261	5058	Mon Feb 24 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
+6085	4253	5059	Mon Feb 24 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
+6086	4253	5060	Tue Feb 25 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
+6087	4253	5061	Tue Feb 25 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Eigenschap
