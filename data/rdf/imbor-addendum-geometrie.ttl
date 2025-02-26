@@ -283,15 +283,6 @@ imbor-refmodels:65d1207c-b435-449a-93b3-5bcf134943a7 a sh:PropertyShape;
       sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
     ].
 
-imbor-refmodels:6acd0ce0-51b4-481b-80b1-9ad388d455fd a sh:PropertyShape;
-  skos:prefLabel "Duikerstelsel heeft begrenzing GM_Surface";
-  sh:path nen2660:hasBoundary;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
-
 imbor-refmodels:76c1a300-8b2e-49bd-9680-5bd9d0b36ea1 a sh:PropertyShape;
   skos:prefLabel "Leiding heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
@@ -675,9 +666,6 @@ imbor:55ff100d-4b17-4807-a700-a1954151efec a sh:NodeShape;
   sh:property
     imbor-refmodels:ea72bc8f-82a5-42b8-8666-367d381ad739,
     imbor-refmodels:f7eaa78f-767e-41d3-9a37-27cf84f1621a.
-
-imbor:5ae4e836-7733-4df3-b8ed-fec43162d152 a sh:NodeShape;
-  sh:property imbor-refmodels:6acd0ce0-51b4-481b-80b1-9ad388d455fd.
 
 imbor:5b5f0762-d8ca-4b00-bea0-022aeb187fc6 a sh:NodeShape;
   sh:property
