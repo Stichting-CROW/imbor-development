@@ -34,6 +34,8 @@ prefix crow_change: <https://data.crow.nl/change/def/>
 prefix imbor_change_log: <https://data.crow.nl/change/log/imbor/id/> 
 prefix restapi: <https://data.crow.nl/rest-api/def#>
 prefix coll: <https://data.crow.nl/rest-api/id#>
+prefix gwsw: <http://data.gwsw.nl/1.6/totaal/>
+prefix sml: <https://w3id.org/sml/def#>
 
 prefix csv: <csv:>
 
@@ -44,8 +46,6 @@ insert {
             mim:definitie "Zie corresponderende specificatie"@nl ;
             mim:herkomst ?MIMModelDatatypeHerkomst ;
             mim:locatie ?MIMModelDatatypeHerkomst ;
-            mim:datumOpname "2023-01-01"^^xsd:date ;
-            
             .
         
         ?AttributeShape mim:equivalent ?MIMAttribuutSoort .

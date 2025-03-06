@@ -34,6 +34,8 @@ prefix crow_change: <https://data.crow.nl/change/def/>
 prefix imbor_change_log: <https://data.crow.nl/change/log/imbor/id/> 
 prefix restapi: <https://data.crow.nl/rest-api/def#>
 prefix coll: <https://data.crow.nl/rest-api/id#>
+prefix gwsw: <http://data.gwsw.nl/1.6/totaal/>
+prefix sml: <https://w3id.org/sml/def#>
 
 prefix csv: <csv:>
 
@@ -47,7 +49,6 @@ insert {
             mim:begripsterm ?BegripsTerm ;
             mim:herkomst "IMBOR - Stichting CROW"@nl ;
             mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-            mim:datumOpname "2023-01-01"^^xsd:date ;
             mim:locatie ?TypeLocatie ;
             .
 
@@ -63,8 +64,59 @@ insert {
             skos:definition ?WaardeDef ;
             rdfs:seeAlso ?Begrip ;
             .
-        BIND(IRI(REPLACE(STR(?Waarde),"https://data.crow.nl/imbor/id/domeinwaarden/","https://data.crow.nl/imbor/mim/mim-")) AS ?MIMWaarde)  
-        BIND(IRI(REPLACE(STR(?EnumeratieType),"https://data.crow.nl/imbor/def/","https://data.crow.nl/imbor/mim/mim-")) AS ?MIMEnumeratieType)  
+
+        BIND(
+        IF(
+        CONTAINS(STR(?EnumeratieType),STR(nen2660:)),
+        IRI(REPLACE(STR(?EnumeratieType),"https://w3id.org/nen2660/def#","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?EnumeratieType),STR(nen3610:)), 
+        IRI(REPLACE(STR(?EnumeratieType),"http://modellen.geostandaarden.nl/def/nen3610-2022#","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?EnumeratieType),STR(tooi-ont:)),
+        IRI(REPLACE(STR(?EnumeratieType),"https://identifier.overheid.nl/tooi/def/ont/","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?EnumeratieType),STR(net:)),
+        IRI(REPLACE(STR(?EnumeratieType),"http://inspire.ec.europa.eu/ont/net#","https://data.crow.nl/imbor/mim/mim-")),      
+        IF(
+        CONTAINS(STR(?EnumeratieType),STR(gwsw:)),
+        IRI(REPLACE(STR(?EnumeratieType),"http://data.gwsw.nl/1.6/totaal/","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?EnumeratieType),STR(sml:)),
+        IRI(REPLACE(STR(?EnumeratieType),"https://w3id.org/sml/def#","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?EnumeratieType),STR(imbor:)),
+        IRI(REPLACE(STR(?EnumeratieType),"https://data.crow.nl/imbor/def/","https://data.crow.nl/imbor/mim/mim-")), 
+        "?" )))))))
+        AS ?MIMEnumeratieType)  
+
+        BIND(
+        IF(
+        CONTAINS(STR(?Waarde),STR(nen2660:)),
+        IRI(REPLACE(STR(?Waarde),"https://w3id.org/nen2660/def#","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?Waarde),STR(nen3610:)), 
+        IRI(REPLACE(STR(?Waarde),"http://modellen.geostandaarden.nl/def/nen3610-2022#","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?Waarde),STR(tooi-ont:)),
+        IRI(REPLACE(STR(?Waarde),"https://identifier.overheid.nl/tooi/def/ont/","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?Waarde),STR(net:)),
+        IRI(REPLACE(STR(?Waarde),"http://inspire.ec.europa.eu/ont/net#","https://data.crow.nl/imbor/mim/mim-")),      
+        IF(
+        CONTAINS(STR(?Waarde),STR(gwsw:)),
+        IRI(REPLACE(STR(?Waarde),"http://data.gwsw.nl/1.6/totaal/","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?Waarde),STR(sml:)),
+        IRI(REPLACE(STR(?Waarde),"https://w3id.org/sml/def#","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?Waarde),STR(imbor:)),
+        IRI(REPLACE(STR(?Waarde),"https://data.crow.nl/imbor/def/","https://data.crow.nl/imbor/mim/mim-")), 
+        IF(
+        CONTAINS(STR(?Waarde),STR(imbor-domeinwaarde:)),
+        IRI(REPLACE(STR(?Waarde),"https://data.crow.nl/imbor/id/domeinwaarden/","https://data.crow.nl/imbor/mim/mim-")), 
+        "?" ))))))))
+        AS ?MIMWaarde)  
     }  
 
     ?Begrip skos:prefLabel ?BegripsTerm .

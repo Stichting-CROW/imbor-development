@@ -34,105 +34,97 @@ prefix crow_change: <https://data.crow.nl/change/def/>
 prefix imbor_change_log: <https://data.crow.nl/change/log/imbor/id/> 
 prefix restapi: <https://data.crow.nl/rest-api/def#>
 prefix coll: <https://data.crow.nl/rest-api/id#>
+prefix gwsw: <http://data.gwsw.nl/1.6/totaal/>
+prefix sml: <https://w3id.org/sml/def#>
 
 prefix csv: <csv:>
 
-insert {
-    graph <https://data.crow.nl/imbor/mim> {
+INSERT {
+    GRAPH <https://data.crow.nl/imbor/mim> {
         ?MIM_URI	mim:datumOpname	?ChangeDate .
     }
 }
 
-where {
+WHERE {
+    # First subquery: Get MIM URIs and their local names
+    {
+        SELECT ?MIM_URI ?Type ?MIM_URI_localName WHERE {
+            GRAPH <https://data.crow.nl/imbor/mim> {
+                ?MIM_URI a ?Type
+                VALUES ?Type { 
+                    mim:Attribuutsoort
+                    mim:Objecttype
+                    mim:CharacterString
+                    mim:Decimal
+                    mim:Integer
+                    mim:Boolean
+                    mim:Date
+                    mim:URI
+                    mim:DateTime
+                    mim:Year
+                    mim:Datatype
+                    mim:Enumeratiewaarde
+                    mim:Referentielijst
+                    mim:Enumeratie
+                    mim:Generalisatie
+                    mim:ReferentieElement
+                }
+                # Create normalized local name for matching
+                BIND(LCASE(REPLACE(REPLACE(STR(?MIM_URI), "^.*[/#]", ""), "^mim-", "")) AS ?MIM_URI_localName)
+            }
+        }
+    }
     
- ?IMBOR_URI mim:equivalent ?MIM_URI .
-         
-    GRAPH <csv:table/imborVoc_Termen> {
-        [] 	csv:URI ?IMBOR_URI_U ;
-        	csv:Wijzigingsdatum ?Loggingsdatum .
-        BIND(URI(LCASE(STR(?IMBOR_URI_U))) AS ?IMBOR_URI)
+    # Second subquery: Get IMBOR data with transformed dates
+    {
+        SELECT ?IMBORGUID ?IMBOR_URI ?IMBOR_URI_localName ?ChangeDate WHERE {
+            GRAPH <csv:table/imborVoc_Termen> {
+                []  csv:URI ?IMBOR_URI ;
+                    csv:IMBORGUID ?IMBORGUID ;
+                    csv:Wijzigingsdatum ?Loggingsdatum .
+                
+                # Create normalized local name for matching (replace by ?IMBORGUID)
+                # BIND(LCASE(REPLACE(REPLACE(STR(?IMBOR_URI), "^.*[/#]", ""), "^mim-", "")) AS ?IMBOR_URI_localName)
+                
+                # Transform date string to standard format
+                BIND(REPLACE(?Loggingsdatum, 
+                     "^\\w+ (\\w+) (\\d+) (\\d{4}) (\\d{2}:\\d{2}:\\d{2}) GMT\\+(\\d{2})00.*$", 
+                     "$3-$1-$2") AS ?tempDate)
+                
+                # Convert month names to numbers
+                BIND(
+                    REPLACE(
+                        REPLACE(
+                            REPLACE(
+                                REPLACE(
+                                    REPLACE(
+                                        REPLACE(
+                                            REPLACE(
+                                                REPLACE(
+                                                    REPLACE(
+                                                        REPLACE(
+                                                            REPLACE(
+                                                                REPLACE(?tempDate, 
+                                                                    "Dec", "12"),
+                                                                "Nov", "11"),
+                                                            "Oct", "10"),
+                                                        "Sep", "09"),
+                                                    "Aug", "08"),
+                                                "Jul", "07"),
+                                            "Jun", "06"),
+                                        "May", "05"),
+                                    "Apr", "04"),
+                                "Mar", "03"),
+                            "Feb", "02"),
+                        "Jan", "01"
+                    ) AS ?formattedDate)
+                
+                # Convert to xsd:date
+                BIND(STRDT(?formattedDate, xsd:date) AS ?ChangeDate)
+            }
+        }
+    }
+    
+    # Join the subqueries on local names
+    FILTER(?MIM_URI_localName = ?IMBORGUID)
 }
-    
-    BIND(REPLACE(?Loggingsdatum, "^\\w+ (\\w+) (\\d+) (\\d{4}) (\\d{2}:\\d{2}:\\d{2}) GMT\\+(\\d{2})00.*$", "$3-$1-$2") AS ?tempDate)
-    BIND(IF(CONTAINS(?tempDate, "Jan"), REPLACE(?tempDate, "Jan", "01"),
-    IF(CONTAINS(?tempDate, "Feb"), REPLACE(?tempDate, "Feb", "02"),
-    IF(CONTAINS(?tempDate, "Mar"), REPLACE(?tempDate, "Mar", "03"),
-    IF(CONTAINS(?tempDate, "Apr"), REPLACE(?tempDate, "Apr", "04"),
-    IF(CONTAINS(?tempDate, "May"), REPLACE(?tempDate, "May", "05"),
-    IF(CONTAINS(?tempDate, "Jun"), REPLACE(?tempDate, "Jun", "06"),
-    IF(CONTAINS(?tempDate, "Jul"), REPLACE(?tempDate, "Jul", "07"),
-    IF(CONTAINS(?tempDate, "Aug"), REPLACE(?tempDate, "Aug", "08"),
-    IF(CONTAINS(?tempDate, "Sep"), REPLACE(?tempDate, "Sep", "09"),
-    IF(CONTAINS(?tempDate, "Oct"), REPLACE(?tempDate, "Oct", "10"),
-    IF(CONTAINS(?tempDate, "Nov"), REPLACE(?tempDate, "Nov", "11"),
-    REPLACE(?tempDate, "Dec", "12"))))))))))))
-    AS ?formattedDate)
-    BIND(STRDT(?formattedDate, xsd:date) AS ?ChangeDate)
- 
-} 
-
-
-### TODO: Zoiets moet het eigenlijk worden
-
-# insert {
-#     graph <https://data.crow.nl/imbor/mim> {
-#         ?MIM_URI	mim:datumOpname	?ChangeDate .
-#     }
-# }
-
-# where {
-    
-#   	GRAPH <https://data.crow.nl/imbor/mim> {
-#         ?MIM_URI	a ?Type
-#         VALUES ?Type { 
-#             mim:Attribuutsoort
-#             mim:Objecttype
-#             mim:CharacterString
-#             mim:Decimal
-#             mim:Integer
-#             mim:Boolean
-#             mim:Date
-#             mim:URI
-#             mim:DateTime
-#             mim:Year
-#             mim:Datatype
-#             mim:Relatiesoort
-#             mim:Enumeratiewaarde
-#             mim:Referentielijst
-#             mim:Enumeratie
-#             mim:Generalisatie
-#             mim:ReferentieElement
-#         }
-        
-#         BIND(LCASE(REPLACE(REPLACE(STR(?MIM_URI), "^.*[/#]", ""), "^mim-", "")) AS ?MIM_URI_localName)
-#     }                
-#         GRAPH <csv:table/imborVoc_Termen> {
-#         [] 	csv:URI ?IMBOR_URI ;
-#         	csv:Wijzigingsdatum ?Loggingsdatum .
-    
-#         BIND(LCASE(REPLACE(REPLACE(STR(?IMBOR_URI), "^.*[/#]", ""), "^mim-", "")) AS ?IMBOR_URI_localName)
-    
-    
-    
-#     }     
-    
-# FILTER(?MIM_URI_localName = ?IMBOR_URI_localName)
-    
-    
-#     BIND(REPLACE(?Loggingsdatum, "^\\w+ (\\w+) (\\d+) (\\d{4}) (\\d{2}:\\d{2}:\\d{2}) GMT\\+(\\d{2})00.*$", "$3-$1-$2") AS ?tempDate)
-#     BIND(IF(CONTAINS(?tempDate, "Jan"), REPLACE(?tempDate, "Jan", "01"),
-#     IF(CONTAINS(?tempDate, "Feb"), REPLACE(?tempDate, "Feb", "02"),
-#     IF(CONTAINS(?tempDate, "Mar"), REPLACE(?tempDate, "Mar", "03"),
-#     IF(CONTAINS(?tempDate, "Apr"), REPLACE(?tempDate, "Apr", "04"),
-#     IF(CONTAINS(?tempDate, "May"), REPLACE(?tempDate, "May", "05"),
-#     IF(CONTAINS(?tempDate, "Jun"), REPLACE(?tempDate, "Jun", "06"),
-#     IF(CONTAINS(?tempDate, "Jul"), REPLACE(?tempDate, "Jul", "07"),
-#     IF(CONTAINS(?tempDate, "Aug"), REPLACE(?tempDate, "Aug", "08"),
-#     IF(CONTAINS(?tempDate, "Sep"), REPLACE(?tempDate, "Sep", "09"),
-#     IF(CONTAINS(?tempDate, "Oct"), REPLACE(?tempDate, "Oct", "10"),
-#     IF(CONTAINS(?tempDate, "Nov"), REPLACE(?tempDate, "Nov", "11"),
-#     REPLACE(?tempDate, "Dec", "12"))))))))))))
-#     AS ?formattedDate)
-#     BIND(STRDT(?formattedDate, xsd:date) AS ?ChangeDate)
- 
-# } 

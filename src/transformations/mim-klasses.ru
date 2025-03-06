@@ -34,6 +34,8 @@ prefix crow_change: <https://data.crow.nl/change/def/>
 prefix imbor_change_log: <https://data.crow.nl/change/log/imbor/id/> 
 prefix restapi: <https://data.crow.nl/rest-api/def#>
 prefix coll: <https://data.crow.nl/rest-api/id#>
+prefix gwsw: <http://data.gwsw.nl/1.6/totaal/>
+prefix sml: <https://w3id.org/sml/def#>
 
 prefix csv: <csv:>
 
@@ -54,10 +56,10 @@ insert {
     GRAPH <https://data.crow.nl/imbor/def/> {
         ?Klasse a rdfs:Class , sh:NodeShape ;
             skos:prefLabel ?KlasseNaam ;
-            skos:definition ?KlasseDef ;
             rdfs:seeAlso ?Begrip ;
             dash:abstract ?abstract ;
             .
+        OPTIONAL {?Klasse skos:definition ?KlasseDef .}
         BIND(
         IF(
         CONTAINS(STR(?Klasse),STR(nen2660:)),
@@ -72,9 +74,15 @@ insert {
         CONTAINS(STR(?Klasse),STR(net:)),
         IRI(REPLACE(STR(?Klasse),"http://inspire.ec.europa.eu/ont/net#","https://data.crow.nl/imbor/mim/mim-")),      
         IF(
+        CONTAINS(STR(?Klasse),STR(gwsw:)),
+        IRI(REPLACE(STR(?Klasse),"http://data.gwsw.nl/1.6/totaal/","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?Klasse),STR(sml:)),
+        IRI(REPLACE(STR(?Klasse),"https://w3id.org/sml/def#","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
         CONTAINS(STR(?Klasse),STR(imbor:)),
         IRI(REPLACE(STR(?Klasse),"https://data.crow.nl/imbor/def/","https://data.crow.nl/imbor/mim/mim-")), 
-        "?" )))))
+        "?" )))))))
         AS ?MIMKlasse)
         
     }    

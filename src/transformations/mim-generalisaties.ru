@@ -34,6 +34,8 @@ prefix crow_change: <https://data.crow.nl/change/def/>
 prefix imbor_change_log: <https://data.crow.nl/change/log/imbor/id/> 
 prefix restapi: <https://data.crow.nl/rest-api/def#>
 prefix coll: <https://data.crow.nl/rest-api/id#>
+prefix gwsw: <http://data.gwsw.nl/1.6/totaal/>
+prefix sml: <https://w3id.org/sml/def#>
 
 prefix csv: <csv:>
 
@@ -42,7 +44,6 @@ insert {
     graph <https://data.crow.nl/imbor/mim> {
         ?MIMGeneralisatie   a   mim:Generalisatie ;
                             mim:naam    ?MIMGeneralisatieLabel ;
-                            mim:datumOpname "2023-01-01"^^xsd:date ;
                             mim:supertype   ?MIMSuperKlasse ;
                             mim:subtype  ?MIMKlasse ;
         .
@@ -60,11 +61,23 @@ insert {
         IRI(REPLACE(STR(?Klasse),"https://w3id.org/nen2660/def#","https://data.crow.nl/imbor/mim/mim-")),
         IF(
         CONTAINS(STR(?Klasse),STR(nen3610:)), 
-        IRI(REPLACE(STR(?Klasse),"http://modellen.geostandaarden.nl/def/nen3610-2022#","https://data.crow.nl/imbor/mim/mim-")),   
+        IRI(REPLACE(STR(?Klasse),"http://modellen.geostandaarden.nl/def/nen3610-2022#","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?Klasse),STR(tooi-ont:)),
+        IRI(REPLACE(STR(?Klasse),"https://identifier.overheid.nl/tooi/def/ont/","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?Klasse),STR(net:)),
+        IRI(REPLACE(STR(?Klasse),"http://inspire.ec.europa.eu/ont/net#","https://data.crow.nl/imbor/mim/mim-")),      
+        IF(
+        CONTAINS(STR(?Klasse),STR(gwsw:)),
+        IRI(REPLACE(STR(?Klasse),"http://data.gwsw.nl/1.6/totaal/","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?Klasse),STR(sml:)),
+        IRI(REPLACE(STR(?Klasse),"https://w3id.org/sml/def#","https://data.crow.nl/imbor/mim/mim-")),
         IF(
         CONTAINS(STR(?Klasse),STR(imbor:)),
         IRI(REPLACE(STR(?Klasse),"https://data.crow.nl/imbor/def/","https://data.crow.nl/imbor/mim/mim-")), 
-        "?" ))) 
+        "?" )))))))
         AS ?MIMKlasse)
 
         BIND(
@@ -73,11 +86,23 @@ insert {
         IRI(REPLACE(STR(?SuperKlasse),"https://w3id.org/nen2660/def#","https://data.crow.nl/imbor/mim/mim-")),
         IF(
         CONTAINS(STR(?SuperKlasse),STR(nen3610:)), 
-        IRI(REPLACE(STR(?SuperKlasse),"http://modellen.geostandaarden.nl/def/nen3610-2022#","https://data.crow.nl/imbor/mim/mim-")),   
+        IRI(REPLACE(STR(?SuperKlasse),"http://modellen.geostandaarden.nl/def/nen3610-2022#","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?SuperKlasse),STR(tooi-ont:)),
+        IRI(REPLACE(STR(?SuperKlasse),"https://identifier.overheid.nl/tooi/def/ont/","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?SuperKlasse),STR(net:)),
+        IRI(REPLACE(STR(?SuperKlasse),"http://inspire.ec.europa.eu/ont/net#","https://data.crow.nl/imbor/mim/mim-")),      
+        IF(
+        CONTAINS(STR(?SuperKlasse),STR(gwsw:)),
+        IRI(REPLACE(STR(?SuperKlasse),"http://data.gwsw.nl/1.6/totaal/","https://data.crow.nl/imbor/mim/mim-")),
+        IF(
+        CONTAINS(STR(?SuperKlasse),STR(sml:)),
+        IRI(REPLACE(STR(?SuperKlasse),"https://w3id.org/sml/def#","https://data.crow.nl/imbor/mim/mim-")),
         IF(
         CONTAINS(STR(?SuperKlasse),STR(imbor:)),
         IRI(REPLACE(STR(?SuperKlasse),"https://data.crow.nl/imbor/def/","https://data.crow.nl/imbor/mim/mim-")), 
-        "?" ))) 
+        "?" )))))))
         AS ?MIMSuperKlasse)
 
         BIND(IRI(CONCAT("https://data.crow.nl/imbor/mim/",STRAFTER(STR(?MIMKlasse),"https://data.crow.nl/imbor/mim/"),"_",STRAFTER(STR(?MIMSuperKlasse),"https://data.crow.nl/imbor/mim/"))) AS ?MIMGeneralisatie)

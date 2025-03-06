@@ -6,3 +6,5 @@ __pycache__/
 node_modules
 .cache
 *.laccdb
+*src/scripts/input
+*src/scripts/output

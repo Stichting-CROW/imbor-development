@@ -36,12 +36,14 @@ prefixes:
   restapi: https://data.crow.nl/rest-api/def#
   coll: https://data.crow.nl/rest-api/id#
   as: https://www.w3.org/ns/activitystreams/
+  gwsw: http://data.gwsw.nl/1.6/totaal/
+  sml: https://w3id.org/sml/def#
 
 jobs:
   converteer-accessdb:
     steps:
       - shell: >
-          rdfjs-source-msaccess 
+          rdfjs-source-msaccess
           --input data/msaccess/IMBOR-development.accdb
           --output .cache/imbor-latest.nq
           --mode csv
@@ -110,6 +112,7 @@ jobs:
       - update: src/transformations/mim-datatype.ru
       - update: src/transformations/mim-generalisaties.ru
       - update: src/transformations/mim-datumopname.ru
+      - update: src/transformations/mim-datumopname_relaties.ru
 
   stap-4-metadata:
     sources:
