@@ -1291,7 +1291,6 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 4633	4256	3539	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
 4634	4234	3540	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
 4635	4234	3541	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
-4636	4261	3542	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
 4637	4250	3543	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
 4638	4256	3929	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
 4639	4271	4177	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
@@ -1405,7 +1404,6 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 4756	4251	3615	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
 4757	4234	3616	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
 4758	4234	3617	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
-4759	4261	3618	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
 4760	4234	3619	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
 4761	4256	3620	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
 4762	4273	3621	Tue Sep 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
@@ -2895,3 +2893,10 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 6420	2962	5363	Wed Mar 05 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Functie
 6421	2962	5364	Wed Mar 05 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Functie
 6422	2962	5365	Wed Mar 05 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Functie
+6423	238	5366	Thu Mar 06 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+6424	238	5367	Thu Mar 06 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+6425	238	5368	Thu Mar 06 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+6426	238	5369	Thu Mar 06 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+6427	238	5370	Thu Mar 06 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+6428	238	5371	Thu Mar 06 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+6429	238	5372	Thu Mar 06 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
