@@ -34,6 +34,8 @@ prefix crow_change: <https://data.crow.nl/change/def/>
 prefix imbor_change_log: <https://data.crow.nl/change/log/imbor/id/> 
 prefix restapi: <https://data.crow.nl/rest-api/def#>
 prefix coll: <https://data.crow.nl/rest-api/id#>
+prefix gwsw: <http://data.gwsw.nl/1.6/totaal/>
+prefix sml: <https://w3id.org/sml/def#>
 
 prefix csv: <csv:>
 
@@ -103,6 +105,14 @@ insert data {
             mim:informatiedomein "Beheer openbare ruimte"@nl ;
             mim:mimversie "1.1"@nl ;
             .
+    }
+
+     graph <https://data.crow.nl/change/log/imbor> {
+        <https://data.crow.nl/change/log/imbor> a owl:Ontology ;
+            owl:imports imbor-meta: ;
+            owl:versionInfo "IMBOR2025" ;
+            rdfs:comment "Dit onderdeel van IMBOR beschrijft de complete historie van de changelog."@nl ;
+            rdfs:label "IMBOR Change-log"@nl .
     }
 }
 

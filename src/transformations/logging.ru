@@ -42,7 +42,7 @@ prefix csv: <csv:>
 INSERT {
    GRAPH <https://data.crow.nl/change/log/imbor> {
         ?loggingUri
-            a crow_change:change-item, ?TypeChange ;
+            a crow_change:ChangeItem, ?TypeChange ;
             as:to           ?SubjectURI, ?Subject2URI ;
             rdfs:seeAlso    ?githubURL ;
             rdfs:label      ?OmschrijvingNL ;
@@ -55,7 +55,7 @@ INSERT {
             as:target       ?ToURI ;
             .
 
-    crow_change:change-item    rdfs:subClassOf nen2660:Event ;
+    crow_change:ChangeItem    rdfs:subClassOf nen2660:Event ;
                                 rdfs:label  "Log-item"@nl, "Change-item"@en .
 
    }

@@ -1,100 +1,98 @@
+# Script om twee versie van een TTL file te vergelijken en TSV en TTL output diffs te krijgen.
+# Pas de file pairs aan welke je wilt vergelijken
+
 from hashlib import sha256
 import rdflib
 from rdflib.compare import graph_diff, to_isomorphic
+import os
 
-# Define input and output file paths
-TTL_FILE_1 = "am-2022.ttl"
-TTL_FILE_2 = "am-2025.ttl"
-ADDED_TRIPLES_TSV = "added_triples.tsv"
-REMOVED_TRIPLES_TSV = "removed_triples.tsv"
-ADDED_TRIPLES_TTL = "added_triples.ttl"
-REMOVED_TRIPLES_TTL = "removed_triples.ttl"
+# Define input and output folder paths
+INPUT_FOLDER = "input"
+OUTPUT_FOLDER = "output"
 
-# Define functions 
+# Ensure the output folder exists
+if not os.path.exists(OUTPUT_FOLDER):
+    os.makedirs(OUTPUT_FOLDER)
+
+# Define input file pairs (relative to the input folder)
+FILE_PAIRS = [
+    ("2022_imbor-aanvullend-metamodel.ttl", "2025c_imbor-aanvullend-metamodel.ttl"),
+    ("2022_imbor-kern.ttl", "2025c_imbor-kern.ttl"),
+    ("2022_imbor-domeinwaarden.ttl", "2025c_imbor-domeinwaarden.ttl"),  # Add more pairs as needed
+]
+
+# Define functions
 ## Function to format a triple for TSV output
 def format_triple(triple):
-    # Formats an RDF triple as a tuple of N3-encoded strings.
     return tuple(t.n3() for t in triple)
 
 ## Function to write triples to a TSV file
-def write_to_tsv(triples, filename, prefix):
-    # Writes triples to a TSV file with a specified prefix.
-    with open(filename, "w", newline="\n", encoding="utf-8") as tsvfile:
-        for triple in triples:
-            tsvfile.write(f"{prefix} {triple[0]} {triple[1]} {triple[2]} .\n")
+def write_to_tsv(triples, tsvfile, prefix):
+    for triple in triples:
+        tsvfile.write(f"{prefix} {triple[0]} {triple[1]} {triple[2]} .\n")
 
 ## Function to generate a subject URI for a change statement
 def generate_change_subject(triple):
-    # Generates a unique URI for a change statement based on the triple's hash.
     hash_value = sha256(" ".join(triple).encode()).hexdigest()
-    return rdflib.URIRef(f"https://data.crow.nl/change/id/{hash_value}")
+    return rdflib.URIRef(f"https://data.crow.nl/change/imbor/id/{hash_value}")
 
 ## Function to write prefixes to a Turtle file
-def write_prefixes(filename):
-    # Writes standard prefixes to a Turtle file.
+def write_prefixes(ttlfile):
     prefixes = f"""@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix as: <https://www.w3.org/ns/activitystreams#>.
-@prefix crow_change: <https://data.crow.nl/change/id/>.
+@prefix crow_change: <https://data.crow.nl/change/imbor/id/>.
 
 """
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write(prefixes)
+    ttlfile.write(prefixes)
 
 ## Function to write triples to a Turtle file as change statements
-def write_to_ttl(triples, filename, change_type):
-    # Writes triples to a Turtle file as ActivityStreams Create/Delete statements.
-    write_prefixes(filename)
-    with open(filename, "a", encoding="utf-8") as f:
-        for triple in triples:
-            subj = generate_change_subject(format_triple(triple))
-            formatted_triple = format_triple(triple)
-            f.write(f"""{subj.n3()} a rdf:Statement , as:{change_type} ;
+def write_to_ttl(triples, ttlfile, change_type):
+    for triple in triples:
+        subj = generate_change_subject(format_triple(triple))
+        formatted_triple = format_triple(triple)
+        ttlfile.write(f"""{subj.n3()} a rdf:Statement , as:{change_type} ;
     rdf:subject {formatted_triple[0]} ;
     rdf:predicate {formatted_triple[1]} ;
     rdf:object {formatted_triple[2]} .
 
 """)
-            
-## Separate function for pretty printing
-def pretty_print_turtle_file(input_filename, output_filename):
-    # Serialize a turtle file with improved formatting
-    g = rdflib.Graph()
-    g.parse(input_filename, format="turtle")
-    
-    # Serialize with pretty formatting
-    pretty_turtle = g.serialize(format="turtle", indent=4)
-    
-    # Write to a new file
-    with open(output_filename, "w", encoding="utf-8") as f:
-        f.write(pretty_turtle)
 
-# Actions/steps
-## Load graphs
-graph1 = rdflib.Graph().parse(TTL_FILE_1, format="turtle")
-graph2 = rdflib.Graph().parse(TTL_FILE_2, format="turtle")
+# Process each pair of files
+for ttl_file_1, ttl_file_2 in FILE_PAIRS:
+    # Construct full paths for input files
+    input_file_1 = os.path.join(INPUT_FOLDER, ttl_file_1)
+    input_file_2 = os.path.join(INPUT_FOLDER, ttl_file_2)
 
-## Compute isomorphic graphs and diff
-iso_graph1 = to_isomorphic(graph1)
-iso_graph2 = to_isomorphic(graph2)
-_, removed_triples, added_triples = graph_diff(iso_graph1, iso_graph2)
+    # Load graphs
+    graph1 = rdflib.Graph().parse(input_file_1, format="turtle")
+    graph2 = rdflib.Graph().parse(input_file_2, format="turtle")
 
-## Format and write changes
-formatted_added_triples = sorted([format_triple(t) for t in added_triples])
-formatted_removed_triples = sorted([format_triple(t) for t in removed_triples])
+    # Compute isomorphic graphs and diff
+    iso_graph1 = to_isomorphic(graph1)
+    iso_graph2 = to_isomorphic(graph2)
+    _, removed_triples, added_triples = graph_diff(iso_graph1, iso_graph2)
 
-write_to_tsv(formatted_added_triples, TTL_FILE_2 + "_" + ADDED_TRIPLES_TSV, "+")
-write_to_tsv(formatted_removed_triples, TTL_FILE_2 + "_" +  REMOVED_TRIPLES_TSV, "-")
+    # Format triples
+    formatted_added_triples = sorted([format_triple(t) for t in added_triples])
+    formatted_removed_triples = sorted([format_triple(t) for t in removed_triples])
 
-write_to_ttl(added_triples, TTL_FILE_2 + "_" + ADDED_TRIPLES_TTL, "Create")
-write_to_ttl(removed_triples, TTL_FILE_2 + "_" + REMOVED_TRIPLES_TTL, "Delete")
+    # Construct output filenames based on input filenames
+    base_name_1 = os.path.splitext(os.path.basename(ttl_file_1))[0]
+    base_name_2 = os.path.splitext(os.path.basename(ttl_file_2))[0]
+    changes_tsv = os.path.join(OUTPUT_FOLDER, f"diff_{base_name_1}_vs_{base_name_2}.tsv")
+    changes_ttl = os.path.join(OUTPUT_FOLDER, f"diff_{base_name_1}_vs_{base_name_2}.ttl")
 
-pretty_print_turtle_file(TTL_FILE_2 + "_" + ADDED_TRIPLES_TTL, TTL_FILE_2 + "_pretty_" + ADDED_TRIPLES_TTL)
-pretty_print_turtle_file(TTL_FILE_2 + "_" + REMOVED_TRIPLES_TTL, TTL_FILE_2 + "_pretty_" + REMOVED_TRIPLES_TTL)
+    # Write to TSV file
+    with open(changes_tsv, "w", encoding="utf-8") as tsvfile:
+        write_to_tsv(formatted_added_triples, tsvfile, "+")
+        write_to_tsv(formatted_removed_triples, tsvfile, "-")
 
-## Notify completion
-print(f"Added triples (TSV): {ADDED_TRIPLES_TSV}")
-print(f"Removed triples (TSV): {REMOVED_TRIPLES_TSV}")
-print(f"Added triples (TTL): {ADDED_TRIPLES_TTL}")
-print(f"Removed triples (TTL): {REMOVED_TRIPLES_TTL}")
-print(f"Pretty Added triples (TTL): pretty_{ADDED_TRIPLES_TTL}")
-print(f"Pretty Removed triples (TTL): pretty_{REMOVED_TRIPLES_TTL}")
+    # Write to TTL file
+    with open(changes_ttl, "w", encoding="utf-8") as ttlfile:
+        write_prefixes(ttlfile)
+        write_to_ttl(added_triples, ttlfile, "Create")
+        write_to_ttl(removed_triples, ttlfile, "Delete")
+
+    # Notify completion for this pair
+    print(f"Changes in TSV: {changes_tsv}")
+    print(f"Changes in TTL: {changes_ttl}")

@@ -35,6 +35,8 @@ prefix crow_change: <https://data.crow.nl/change/def/>
 prefix imbor_change_log: <https://data.crow.nl/change/log/imbor/id/> 
 prefix restapi: <https://data.crow.nl/rest-api/def#>
 prefix coll: <https://data.crow.nl/rest-api/id#>
+prefix gwsw: <http://data.gwsw.nl/1.6/totaal/>
+prefix sml: <https://w3id.org/sml/def#>
 
 prefix csv: <csv:>
 
@@ -50,8 +52,8 @@ insert {
 WHERE {
     graph <csv:table/imborKern_EnumeratiesDomeinwaarden> {
         ?row2 #csv:EnumeratieDomeinwaardeID ?EnumeratieDomeinwaardeID ;
-            csv:Enumeratietype ?Enumeratietype ;
-            csv:Domeinwaarde ?Domeinwaarde .
+            csv:Enumeratietype ?EnumeratietypeVocabID ;
+            csv:Domeinwaarde ?DomeinwaardeVocabID .
 
         optional {
             ?row2 csv:Bovenliggendewaarde ?BovenliggendewaardeID . 
@@ -65,11 +67,6 @@ WHERE {
         }
 
     }
-
-    graph <csv:table/imborKern_K_KlassenAttributen> {
-        [] csv:KlasseAttribuutID ?Enumeratietype ;  # koppeling met EnumeratiesDomeinwaarden.Enumeratie
-            csv:Enumeratietype ?EnumeratietypeVocabID .
-    }
     
     graph <csv:table/imborVoc_Termen> {
         [] csv:VocabulairID ?EnumeratietypeVocabID ;
@@ -77,7 +74,7 @@ WHERE {
         
         BIND (URI(CONCAT(STR(imbor:), ?enumTypeIMBORGUID)) AS ?enumTypeUri)
 
-        ?row1 csv:VocabulairID ?Domeinwaarde ;
+        ?row1 csv:VocabulairID ?DomeinwaardeVocabID ;
             csv:IMBORGUID ?domeinwaardeIMBORGUID ;
             csv:Term ?Term ;
             csv:VocabulairGUID ?VocabulairGUID .
