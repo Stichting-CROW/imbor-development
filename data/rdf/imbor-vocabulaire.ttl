@@ -1440,6 +1440,7 @@ imbor-term:07d09364-ee49-40ad-aec4-805c053a58fb a skos:Concept;
   skos:prefLabel "SD09"@nl.
 
 imbor-term:07d520d6-8692-4491-acb2-c9cb423439d8 a skos:Concept;
+  skos:broader imbor-term:084a9b91-6c72-4055-8add-0f61d05beda8;
   skos:definition "Ruimtelijk van omliggende bebouwing te onderscheiden historische bebouwingskern, die is gelegen binnen een andere bebouwingskern."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Deelkern"@nl.
@@ -3112,6 +3113,7 @@ imbor-term:1100d626-9b9c-4fff-84d4-bbb354de7b53 a skos:Concept;
   skos:prefLabel "Rolcontainer"@nl.
 
 imbor-term:110d04a2-ea2b-439a-8252-cce96dc963f7 a skos:Concept;
+  skos:broader imbor-term:084a9b91-6c72-4055-8add-0f61d05beda8;
   skos:definition "Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor wonen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Woonkern"@nl.
@@ -3388,6 +3390,7 @@ imbor-term:12895e0e-bcd4-4c0f-98fa-57a22e2fc7ee a skos:Collection;
     imbor-term:057bcad7-81c6-40d8-ac0f-42bb77188a16,
     imbor-term:059a13c5-6973-4de7-bb76-379f5694cdfb,
     imbor-term:07b21cd8-9d8d-479c-9c91-fb02f70d0919,
+    imbor-term:084a9b91-6c72-4055-8add-0f61d05beda8,
     imbor-term:0863cb63-f240-40f6-b442-313b7cbc3012,
     imbor-term:08eb80c0-232b-4c4b-bdb4-18d908d172b0,
     imbor-term:099c4c75-b063-4993-9dac-53155dfcf0d4,
@@ -5170,6 +5173,7 @@ imbor-term:1a97ff84-1eae-4bec-ab85-495c11e67ba2 a skos:Concept;
   skos:prefLabel "Vochtmeter"@nl.
 
 imbor-term:1a9abc60-c379-450a-adfe-9080cb97f78c a skos:Concept;
+  skos:broader imbor-term:084a9b91-6c72-4055-8add-0f61d05beda8;
   skos:definition "Bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor (verblijfs)recreatie."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Recreatiekern"@nl.
@@ -6381,6 +6385,7 @@ imbor-term:218b206e-dd33-425d-8060-e340fe836ac7 a skos:Concept;
   skos:prefLabel "A0260"@nl.
 
 imbor-term:2196aa9a-4657-426e-9ce8-80726397dd72 a skos:Concept;
+  skos:broader imbor-term:084a9b91-6c72-4055-8add-0f61d05beda8;
   skos:definition "Lintbebouwing of verspreid staande bebouwing in landelijk gebied met een zekere mate van sociale samenhang die gezamenlijk een bebouwingskern vormen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Buurtschap"@nl.
@@ -8100,11 +8105,6 @@ imbor-term:2a6f893b-d29d-49d5-81eb-8c5d7a6a0889 a skos:Concept;
   skos:definition "Stacaravanverhuur."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "SS19"@nl.
-
-imbor-term:2a73ef34-ee69-437b-90e9-c174e6984eeb a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Bebouwingskern en het attribuut verschijningsvorm."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "BebouwingskernVerschijningsvorm"@nl.
 
 imbor-term:2a8632c6-7eaa-40b3-b372-75b9f8ecf386 a skos:Concept;
   skos:definition "Aansluiting voor walstroom beschikbaar."@nl;
@@ -12302,9 +12302,9 @@ imbor-term:41ab4cca-c6d7-4bfb-9748-28def30e0a3f a skos:Collection;
     imbor-term:07664411-a378-46ae-8165-437364890aa2,
     imbor-term:0794aefe-7cfa-429d-a8a0-85dd121d41b1,
     imbor-term:07cbf854-19d0-49c3-84d6-200536254272,
+    imbor-term:07d520d6-8692-4491-acb2-c9cb423439d8,
     imbor-term:081787af-168e-448a-a95c-def86696b927,
     imbor-term:082a567b-0150-49e2-82bc-ae48c800d7ab,
-    imbor-term:084a9b91-6c72-4055-8add-0f61d05beda8,
     imbor-term:088c6eed-a2fa-4deb-a4b0-134d07559a07,
     imbor-term:08a7fb85-a066-4cf3-a8e5-894942260276,
     imbor-term:08b22c1a-8a24-481c-854f-28364addff01,
@@ -12345,6 +12345,7 @@ imbor-term:41ab4cca-c6d7-4bfb-9748-28def30e0a3f a skos:Collection;
     imbor-term:105264e9-2680-4eea-894b-76966c45ea5e,
     imbor-term:1082a577-312b-4fb0-8255-a514f30b7c34,
     imbor-term:1100d626-9b9c-4fff-84d4-bbb354de7b53,
+    imbor-term:110d04a2-ea2b-439a-8252-cce96dc963f7,
     imbor-term:110d1d91-4c15-441f-a1bc-a5744240d8d5,
     imbor-term:112709b9-e0c5-4dd5-ac28-f06e788b1b96,
     imbor-term:11971033-0882-4849-9f50-5ca45ad3e0db,
@@ -12399,6 +12400,7 @@ imbor-term:41ab4cca-c6d7-4bfb-9748-28def30e0a3f a skos:Collection;
     imbor-term:19c8843a-4dd0-47be-a093-a319f2ee9d41,
     imbor-term:19feead7-1df7-4dd7-b3fa-681de0eab7c5,
     imbor-term:1a97ff84-1eae-4bec-ab85-495c11e67ba2,
+    imbor-term:1a9abc60-c379-450a-adfe-9080cb97f78c,
     imbor-term:1ac641aa-3788-4842-80b2-b6fcdd63b37f,
     imbor-term:1acc6c32-5c91-4d26-b1d3-0e5a2a68645d,
     imbor-term:1b45f6a0-816d-4c45-86ce-363d83d58595,
@@ -12433,6 +12435,7 @@ imbor-term:41ab4cca-c6d7-4bfb-9748-28def30e0a3f a skos:Collection;
     imbor-term:20f19958-6b41-42d7-82b9-7d9efeadd0c8,
     imbor-term:216e7c27-4924-4d69-9ad4-cad52a11c26d,
     imbor-term:217f9146-236b-4189-97e8-e366b5e5ef95,
+    imbor-term:2196aa9a-4657-426e-9ce8-80726397dd72,
     imbor-term:21a82ac4-b868-4857-8786-4056ceb1b4af,
     imbor-term:21f0a708-ac43-447a-aee3-c41949624268,
     imbor-term:21ff4220-a70e-4321-a8f3-0dc9311af56e,
@@ -12803,6 +12806,7 @@ imbor-term:41ab4cca-c6d7-4bfb-9748-28def30e0a3f a skos:Collection;
     imbor-term:641ad1c3-1f8c-4508-85cc-76aea5656948,
     imbor-term:6458eca6-213f-48ef-9fe5-cdb10f539c12,
     imbor-term:64881ef1-e7cc-43dc-a889-43c2a5a010a6,
+    imbor-term:64c23eb2-137f-401a-8b8c-196bb9effd58,
     imbor-term:64e1d89f-4f0f-46e3-8f61-9add3d5441a0,
     imbor-term:64e2fac1-96d2-4f35-9efa-20ebc551e896,
     imbor-term:65b7db1e-42d5-4009-ae3a-e16c4addf281,
@@ -12891,6 +12895,7 @@ imbor-term:41ab4cca-c6d7-4bfb-9748-28def30e0a3f a skos:Collection;
     imbor-term:77d330fa-ddc8-4355-8265-4787b55803a7,
     imbor-term:77d3dc1d-be62-4c94-8f63-6c903c4f95a8,
     imbor-term:785a2776-a65d-4536-94f4-c366688edf8f,
+    imbor-term:786ece74-aea0-4c88-aaeb-612bfe449337,
     imbor-term:788bb357-3776-45e6-9ef2-cd64fe81f560,
     imbor-term:7896d443-b6d8-4f5f-b7bb-b48d9454e4fd,
     imbor-term:78ab102e-b816-4db5-8559-07a8cb387e2f,
@@ -13302,6 +13307,7 @@ imbor-term:41ab4cca-c6d7-4bfb-9748-28def30e0a3f a skos:Collection;
     imbor-term:c67dfbd5-1815-4e86-a7c7-e8b2a4eb3986,
     imbor-term:c6b28920-5aa4-4688-a3ca-43a3f99471b6,
     imbor-term:c6c7d483-f92a-4bc7-b140-66af2ab68372,
+    imbor-term:c6e459bf-8d94-4b88-9497-7883e509e40a,
     imbor-term:c728cba8-05ec-49b4-a66f-68d097d9511c,
     imbor-term:c74a93f3-def3-4ea1-8ba1-f302c4e1ca3b,
     imbor-term:c77ea50f-d4c4-40a9-a7f5-776d7c3cef93,
@@ -17268,12 +17274,6 @@ imbor-term:53cd707a-60e6-4fc2-ae24-fa70dbbffbef a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Tengere veldmuur"@nl.
 
-imbor-term:53d02856-ad81-4e89-b883-3ef99976e187 a skos:Concept;
-  skos:broader imbor-term:89a6ed12-de8d-4b00-bc17-8c85acb5ec5f;
-  skos:definition "ID van het laatstee knooppunt waar de leiding of kabel mee verbonden is."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "eindpunt"@nl.
-
 imbor-term:53d47453-70f9-484c-8e0b-822d15ebea4b a skos:Concept;
   skos:definition "Landbouwvoertuigen eerst a.u.b."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -20477,6 +20477,7 @@ imbor-term:64ad92e7-3231-4d31-b90c-4aa449765ead a skos:Concept;
   skos:prefLabel "heeft betrekking op"@nl.
 
 imbor-term:64c23eb2-137f-401a-8b8c-196bb9effd58 a skos:Concept;
+  skos:broader imbor-term:084a9b91-6c72-4055-8add-0f61d05beda8;
   skos:definition "Kleine bebouwingskern die bestaat uit een concentratie van aaneengesloten bebouwing."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Gehucht"@nl.
@@ -21466,12 +21467,6 @@ imbor-term:6aa41551-50e7-4ddb-808b-d008dea2fc66 a skos:Concept;
   skos:definition "Plaatsnaambord met of zonder rijrichting."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "T104"@nl.
-
-imbor-term:6aaae85d-b993-443c-b724-0d9094bbb0cd a skos:Concept;
-  skos:broader imbor-term:89a6ed12-de8d-4b00-bc17-8c85acb5ec5f;
-  skos:definition "ID van het eerste knooppunt waar de leiding of kabel mee verbonden is."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "beginpunt"@nl.
 
 imbor-term:6aad3391-2275-43f5-ad6f-a913e24d5e22 a skos:Concept;
   skos:broader imbor-term:d2d17c09-ed6c-40b3-81f2-5dcb788f4682;
@@ -24273,6 +24268,7 @@ imbor-term:78682783-7903-4df6-8813-1fefe400c422 a skos:Concept;
   skos:prefLabel "TC-LEL LL"@nl.
 
 imbor-term:786ece74-aea0-4c88-aaeb-612bfe449337 a skos:Concept;
+  skos:broader imbor-term:084a9b91-6c72-4055-8add-0f61d05beda8;
   skos:definition "Binnen een andere bebouwingskern gelegen ruimtelijk samenhangend en van een overkoepelende naam voorzien gebied."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Stadsdeelgrens"@nl.
@@ -30844,7 +30840,6 @@ imbor-term:9cec6048-0358-4d4e-82d7-7804fca70737 a skos:Collection;
     imbor-term:536a7e70-a59f-43e2-9403-1c35774bd1df,
     imbor-term:53706c3d-ab4a-4b10-bf74-5ac3bdf806ef,
     imbor-term:53b01780-b4b4-45dc-8030-7722b94a4ef8,
-    imbor-term:53d02856-ad81-4e89-b883-3ef99976e187,
     imbor-term:5458ddf8-5988-47ef-be83-767ec2893cd1,
     imbor-term:54e510ca-4d1a-42fb-8cac-0dcdc3d92658,
     imbor-term:5508a43d-33cf-405c-a5fe-f94eae771c77,
@@ -30910,7 +30905,6 @@ imbor-term:9cec6048-0358-4d4e-82d7-7804fca70737 a skos:Collection;
     imbor-term:69e4dcc4-dabc-466e-af54-4f8aa1050c39,
     imbor-term:6a1b4c30-a480-4c68-9b5c-611926ef14e3,
     imbor-term:6a613658-c7ce-4b94-a768-9669b9539586,
-    imbor-term:6aaae85d-b993-443c-b724-0d9094bbb0cd,
     imbor-term:6bf8d363-6b54-49ff-b274-d20ef7d9fba8,
     imbor-term:6c0120e3-6aff-459e-b00f-930ce7962cb1,
     imbor-term:6c8684aa-3a02-47d4-ba7a-0902e6525c32,
@@ -39336,6 +39330,7 @@ imbor-term:c6cdc7fd-6e61-4ab1-976d-fc41fab8c600 a skos:Concept;
   skos:prefLabel "Lux"@nl.
 
 imbor-term:c6e459bf-8d94-4b88-9497-7883e509e40a a skos:Concept;
+  skos:broader imbor-term:084a9b91-6c72-4055-8add-0f61d05beda8;
   skos:definition "Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor bedrijfsmatige activiteiten."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Industriekern"@nl.
@@ -40828,7 +40823,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:29877425-40b5-425e-bc96-537fd145dc73,
     imbor-term:298fc8de-b1d3-4577-8920-12313f563511,
     imbor-term:2a58c035-4f6e-4600-891e-8625590e24fa,
-    imbor-term:2a73ef34-ee69-437b-90e9-c174e6984eeb,
     imbor-term:2aa955dd-71b7-4153-8028-6ba1307b85dd,
     imbor-term:2acc9e80-ab77-41fd-9ee4-1a7516769a41,
     imbor-term:2c85ad07-f5ce-4e73-9254-3b7c050ec3d3,
@@ -49290,7 +49284,6 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:07bbea6b-3114-4ebb-920c-8048e9b77f63,
     imbor-term:07ca4608-fdc6-48c8-a123-ecfd936aeea3,
     imbor-term:07d09364-ee49-40ad-aec4-805c053a58fb,
-    imbor-term:07d520d6-8692-4491-acb2-c9cb423439d8,
     imbor-term:07e4e169-7f3a-4f53-b53e-4a185f7d81df,
     imbor-term:080840a8-175b-43f9-aeda-053a6eb6dcbe,
     imbor-term:0822fbb8-410f-4071-ac88-0827aa4fc97a,
@@ -49490,7 +49483,6 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:10edf42a-5cb5-4608-bc3b-56e4c0ca2ee8,
     imbor-term:10eff686-ea6a-4827-ac05-c5d5b8a7d1fe,
     imbor-term:10fc4889-55b0-4ef6-a7dc-11f40c6fc079,
-    imbor-term:110d04a2-ea2b-439a-8252-cce96dc963f7,
     imbor-term:1111f9ba-9f79-41a4-bf1f-61a234e74491,
     imbor-term:11126433-fa84-4aea-b086-de709fed742d,
     imbor-term:1129a454-8ab4-4f92-a980-034f87b03269,
@@ -49702,7 +49694,6 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:1a84f67f-9422-4249-b941-e26a1505ead0,
     imbor-term:1a8d9a7e-5cb8-4078-9667-a18d120e3ef6,
     imbor-term:1a8f1ee8-9195-43cb-940d-952ea382a377,
-    imbor-term:1a9abc60-c379-450a-adfe-9080cb97f78c,
     imbor-term:1a9cc596-2eba-4105-a742-b5d9a6e70ad0,
     imbor-term:1aa60c33-dbd3-49d1-b9bc-63bd8eaa18cf,
     imbor-term:1aa7ff1e-f3f6-4a4c-93e8-bef7493b87a9,
@@ -49836,7 +49827,6 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:2175611e-3bb8-47c6-8482-f316afe5ad45,
     imbor-term:21788fe0-5e20-4548-ab51-61e2520090e9,
     imbor-term:218b206e-dd33-425d-8060-e340fe836ac7,
-    imbor-term:2196aa9a-4657-426e-9ce8-80726397dd72,
     imbor-term:219a812e-3db8-4125-9dfa-3e6e5644dcf8,
     imbor-term:219c24b3-e3d1-49c7-8900-dbc1f7ace69e,
     imbor-term:219c26d7-26e5-4fa0-a0dd-4c1bbbc1f3c4,
@@ -51222,7 +51212,6 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:647f1fd8-d867-4650-877f-348dba0655fc,
     imbor-term:649dac63-a055-44b5-9765-149514ff9b81,
     imbor-term:64a0c67f-2dc5-4302-a530-798432523524,
-    imbor-term:64c23eb2-137f-401a-8b8c-196bb9effd58,
     imbor-term:64c38027-e814-4e3d-b113-a903c889a4ed,
     imbor-term:64cdb0d9-7c96-46a6-a4f4-dc3b6735d834,
     imbor-term:64d3da36-0907-4616-a0e0-5d9f56cd3860,
@@ -51631,7 +51620,6 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:783b566a-06c2-4e88-aa69-2d95d62add9b,
     imbor-term:784c1116-a8a2-4b07-b9de-e7dbfd10ed25,
     imbor-term:78682783-7903-4df6-8813-1fefe400c422,
-    imbor-term:786ece74-aea0-4c88-aaeb-612bfe449337,
     imbor-term:7874fef6-0f2a-498c-917c-c47ee7fdd794,
     imbor-term:7877e5b9-b445-43cd-b971-39dcd654f286,
     imbor-term:787f2d60-14f8-4dae-a28c-c20899a50bad,
@@ -53283,7 +53271,6 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:c6cc08a1-e491-4e29-9c02-2582c7f465e2,
     imbor-term:c6ccd284-2a72-4a28-a030-930a0f4276f2,
     imbor-term:c6cdc7fd-6e61-4ab1-976d-fc41fab8c600,
-    imbor-term:c6e459bf-8d94-4b88-9497-7883e509e40a,
     imbor-term:c6f8b5a8-3f7e-4c94-8b12-ca9c7ca83a77,
     imbor-term:c6fabe55-9750-4e66-87df-a402ac7cb602,
     imbor-term:c705efff-e858-469e-985f-353d14ab8190,

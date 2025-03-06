@@ -57,7 +57,7 @@ nen2660:isContainedBy a rdf:Property, owl:ObjectProperty;
     "The real objects located in a spatial region, typically the gaseous amount of bulk matter present in that region"@en,
     "De reële objecten die zich in een ruimtelijk gebied bevinden, meestal de gasvormige hoeveelheid bulkmaterie die in dat gebied aanwezig isn"@nl;
   skos:prefLabel
-    "is contained by"@en,
+    "is containd by"@en,
     "bevindt zich in"@nl.
 
 nen2660:isPartOf a rdf:Property, owl:ObjectProperty;

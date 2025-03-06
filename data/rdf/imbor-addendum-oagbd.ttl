@@ -2474,9 +2474,6 @@ imbor:809c7cbd-e733-4021-98e0-6e64f48fb667
 imbor:809d50c7-9ea1-4187-9c0f-8d61e8ca0d0e
   imbor-refmodels:levensfaseTypering "O".
 
-imbor:80d7a2e0-d852-403d-b477-57c41be52071
-  imbor-refmodels:levensfaseTypering "G".
-
 imbor:80e90bc8-a59b-423c-a429-6da0d680ef71
   imbor-refmodels:levensfaseTypering "G".
 

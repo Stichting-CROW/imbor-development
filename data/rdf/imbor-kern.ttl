@@ -5867,11 +5867,9 @@ nen3610:Leiding a rdfs:Class, sh:NodeShape;
   skos:definition "Een geheel van geleiders of ruimte welke voorzien zijn van één manteling en bestemd is voor transport van materie, data of energie."@nl;
   skos:prefLabel "Leiding"@nl;
   sh:property
-    imbor:01cde423-fcaa-4665-ac35-5e86989c3f99,
     imbor:13ddc3be-13c2-4b85-bcea-4f1e15682a68,
     imbor:4c4475e8-aedd-488b-a5cb-999debdfaf48,
     imbor:60e0a285-8e82-4862-9a13-2c45f2413b21,
-    imbor:7640248b-abfd-475e-9e19-e6960e11cb4d,
     imbor:7f7feec7-649c-494b-b11d-a9695ba87dfa,
     imbor:86fce473-0a6e-4f23-9157-2b8fffbe4af3,
     imbor:8a17ef70-2dc2-4c91-bea2-2acb34c552fb,
@@ -6421,12 +6419,6 @@ imbor:01c893ea-845b-49c9-ab59-aa2bfe17a2e8 a rdf:Property;
   rdfs:seeAlso imbor-term:d6b70114-fd63-4384-b06d-229f1793b3d7;
   skos:definition "Aanduiding of het object niet permanent of maar voor korte tijd geplaatst is."@nl;
   skos:prefLabel "tijdelijk"@nl.
-
-imbor:01cde423-fcaa-4665-ac35-5e86989c3f99 a sh:PropertyShape;
-  skos:prefLabel "eindpunt vastgezet op Leiding"@nl;
-  sh:datatype xsd:string;
-  sh:maxCount 1;
-  sh:path imbor:80bb59ca-a4dd-4d1b-bcba-fb74b8c6e191.
 
 imbor:01e1cd77-7b08-40a5-b8ba-772349de906a a sh:PropertyShape;
   skos:prefLabel "contractiecoëfficiënt doorlaatprofiel vastgezet op Doorlaat"@nl;
@@ -11248,15 +11240,13 @@ imbor:1cdc8b3e-cdec-43b5-862e-b0b44f82d858 a rdfs:Class;
   imbor:typeLijst "Suggestielijst"@nl.
 
 imbor:1cdcc6aa-16ce-4acc-a6c3-991ed1202ab0 a rdfs:Class, sh:NodeShape;
-  dash:abstract false;
+  dash:abstract true;
   rdfs:seeAlso imbor-term:084a9b91-6c72-4055-8add-0f61d05beda8;
   rdfs:subClassOf nen3610:GeografischeRuimte;
   skos:definition "Geografische ruimte die gekenmerkt wordt door een concentratie van gebouwen en die vanuit besluitvorming, historie of in de volksmond bekend staat onder een bepaalde naam."@nl;
   skos:note "Met bebouwingskernen kan een algemeen toepasbaar onderscheid worden aangebracht tussen bebouwd gebied en het buitengebied. Tot het buitengebied kan dan worden gerekend al het gebied dat niet behoort tot een bebouwingskern, De bebouwingskern (zonder juridische status) moet niet worden verward met bebouwde kommen (die wel een juridische grondslag kennen in specifieke wetgeving). Hierbij kan worden gedacht aan de bebouwde kom in het kader van Wegenverkeerswet, Wegenwet, Wet natuurbescherming en Omgevingswet. De diversiteit in achterliggende doelstellingen van genoemde wetgeving maakt het op dit moment niet mogelijk te komen tot één uniform en breed bruikbaar begrip bebouwde kom. Deze bebouwde kommen maken dan ook geen onderdeel uit van de SOR. De regels voor de afbakening zullen worden vastgelegd in registratievoorschriften. Hierbij kan worden gedacht aan voorschriften dat alleen van een bebouwingskern sprake is bij aaneengesloten bebouwing waarbij de gebouwen maximaal 50 meter van elkaar liggen en deze minimaal 5 verschillende gebouwen met een verblijfsobject bevatten."@nl;
   skos:prefLabel "Bebouwingskern"@nl;
-  sh:property
-    imbor:35df96a6-d9da-4469-b7cb-753867399e29,
-    imbor:80d7a2e0-d852-403d-b477-57c41be52071.
+  sh:property imbor:35df96a6-d9da-4469-b7cb-753867399e29.
 
 imbor:1cdfe10a-786f-49f3-8c20-1698f3ca4aeb a sh:PropertyShape;
   skos:prefLabel "Zinkerput voert uit Toegang geven tot zinker"@nl;
@@ -11471,6 +11461,13 @@ imbor:1e09d5ad-f53a-4d29-afd5-7c05d6aa127f a sh:PropertyShape;
   sh:qualifiedValueShape [
       sh:class gwsw:KerenVanWater
     ].
+
+imbor:1e10d3ac-26b0-404f-b305-1275132e1b1c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:110d04a2-ea2b-439a-8252-cce96dc963f7;
+  rdfs:subClassOf imbor:1cdcc6aa-16ce-4acc-a6c3-991ed1202ab0;
+  skos:definition "Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor wonen."@nl;
+  skos:prefLabel "Woonkern"@nl.
 
 imbor:1e22446a-123a-476e-8b79-6918365b2fe2 a rdfs:Class;
   rdfs:seeAlso imbor-term:48666b7f-6eaa-4405-afaa-d4f7f8c26b9e;
@@ -12113,6 +12110,13 @@ imbor:216af933-8c55-4ff7-aca0-93afbf4b3dc5 a sh:PropertyShape;
   sh:qualifiedValueShape [
       sh:class gwsw:Perceelaansluitleiding
     ].
+
+imbor:216dcd2f-3ce6-45a9-9352-a6c65bcfa7b8 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:c6e459bf-8d94-4b88-9497-7883e509e40a;
+  rdfs:subClassOf imbor:1cdcc6aa-16ce-4acc-a6c3-991ed1202ab0;
+  skos:definition "Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor bedrijfsmatige activiteiten."@nl;
+  skos:prefLabel "Industriekern"@nl.
 
 imbor:217ac6d6-7c34-4c89-9986-1786dd719c9e a rdfs:Class;
   rdfs:seeAlso imbor-term:a1a05881-7e69-4b88-a68b-d95d434ace22;
@@ -13557,13 +13561,6 @@ imbor:299cd419-7c3b-4294-838c-10fa5e40b47b a sh:PropertyShape;
   sh:qualifiedValueShape [
       sh:class gwsw:Rioolgemaal
     ].
-
-imbor:29a1f54f-7a6b-4d07-a8c7-729f8b3e5e3e a rdfs:Class;
-  rdfs:seeAlso imbor-term:2a73ef34-ee69-437b-90e9-c174e6984eeb;
-  rdfs:subClassOf nen2660:EnumerationType;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Bebouwingskern en het attribuut verschijningsvorm."@nl;
-  skos:prefLabel "BebouwingskernVerschijningsvorm"@nl;
-  imbor:typeLijst "Enumeratielijst"@nl.
 
 imbor:29a487a3-13ad-493e-b25c-ad48280c5e80 a sh:PropertyShape;
   skos:prefLabel "Beregeningsinstallatie is verbonden met Hoofdpost"@nl;
@@ -20815,6 +20812,13 @@ imbor:4d7afa9f-c672-44b2-90f2-352b4b7bb5f0 a rdfs:Class, sh:NodeShape;
   skos:note "Materiaal uit de sportvloerenlijst van NOCNSF"@nl;
   skos:prefLabel "Ongebonden mineraal op kunststof, gebonden onderbouw"@nl.
 
+imbor:4d845bf6-5267-417e-ba19-87aadd86aa5d a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:786ece74-aea0-4c88-aaeb-612bfe449337;
+  rdfs:subClassOf imbor:1cdcc6aa-16ce-4acc-a6c3-991ed1202ab0;
+  skos:definition "Binnen een andere bebouwingskern gelegen ruimtelijk samenhangend en van een overkoepelende naam voorzien gebied."@nl;
+  skos:prefLabel "Stadsdeelgrens"@nl.
+
 imbor:4d896d9d-1577-4bdc-8356-8c0638f13586 a sh:PropertyShape;
   skos:prefLabel "toesteltype vastgezet op Speeltoestel"@nl;
   sh:path imbor:14dfa044-8496-4a17-9f9f-c024e3a7299a;
@@ -23932,6 +23936,13 @@ imbor:5e39dabb-0772-45ad-82d9-94265ef69c3b a rdfs:Class, sh:NodeShape;
   skos:definition "Kunstwerk dat geheel of gedeeltelijk verdiept in het terrein is aangebracht, bestaande uit een vloer met wanden."@nl;
   skos:prefLabel "Tunnelbak"@nl;
   sh:property imbor:89fb533d-eb07-4ae6-bcc0-dab80c3e0e41.
+
+imbor:5e3ea510-cf3c-4865-8552-d4a9ef48c96d a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:64c23eb2-137f-401a-8b8c-196bb9effd58;
+  rdfs:subClassOf imbor:1cdcc6aa-16ce-4acc-a6c3-991ed1202ab0;
+  skos:definition "Kleine bebouwingskern die bestaat uit een concentratie van aaneengesloten bebouwing."@nl;
+  skos:prefLabel "Gehucht"@nl.
 
 imbor:5e42cbe1-8c13-4848-b5af-eec9dc97eb1f a rdfs:Class;
   rdfs:seeAlso imbor-term:851fc135-28b8-49a1-8501-6655d45009ae;
@@ -27477,22 +27488,28 @@ imbor:70aff118-ecc0-429a-a026-7a9f71d0bcf8 a rdfs:Container;
   rdfs:member
     imbor:031798a7-4935-4764-b7be-c1b3ee7ee581,
     imbor:14571ed0-89fc-4d77-9e27-980698045183,
-    imbor:1cdcc6aa-16ce-4acc-a6c3-991ed1202ab0,
     imbor:1db7315a-2687-4679-bf09-7cc2b2cd20ad,
+    imbor:1e10d3ac-26b0-404f-b305-1275132e1b1c,
     imbor:20b74a16-3945-4cee-ab24-cd896cd73b49,
+    imbor:216dcd2f-3ce6-45a9-9352-a6c65bcfa7b8,
     imbor:220b6cfb-9737-451b-a353-974ff6a6929f,
     imbor:24adb07a-8a5e-435b-852f-5c034eafcceb,
     imbor:34031da3-19f6-450d-9849-59b2a80b9bcf,
     imbor:40e5bfd4-f071-466b-a8a7-c1a0ac092ba9,
+    imbor:4d845bf6-5267-417e-ba19-87aadd86aa5d,
+    imbor:5e3ea510-cf3c-4865-8552-d4a9ef48c96d,
     imbor:5edad64e-5fd7-4692-bc5c-b7b12fecfbb7,
     imbor:6111cf53-56ec-439c-9fe4-022ec25aeae8,
     imbor:7d41fa00-6bb5-4b66-a5c7-1af15e35bc8c,
+    imbor:9133a1fb-efe9-4f85-8045-a1725ebd1713,
     imbor:9d233559-4783-424f-843b-9a387482f6f1,
     imbor:aa28383d-3f96-4688-ad5e-91c85cbc4221,
     imbor:bd2fd05d-9d00-4c84-b05c-12e3e22b79ae,
     imbor:c865f974-092b-4ca2-94a9-99cd4b30c915,
+    imbor:ce47396f-a2bc-4f75-974b-46f77b65d0a9,
     imbor:f1bd4ce7-58f5-480f-bd1e-09e2388b1211,
-    imbor:f5dddf76-4234-427b-b497-8b2abcc98336;
+    imbor:f5dddf76-4234-427b-b497-8b2abcc98336,
+    imbor:f879e7c1-9e31-41fa-bd5e-14065bf8ccce;
   rdfs:seeAlso imbor-term:91e684b1-bad8-4f6f-b349-6f87e33f21ae;
   skos:prefLabel "Geografische gebieden"@nl.
 
@@ -28571,12 +28588,6 @@ imbor:76244afa-1e8b-4320-85e2-e871fb4e07be a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf imbor:c20a97e2-ba6d-4955-b470-e43f19659c4c;
   skos:definition "Een stuw waarvan het schut, een kunstwerkdeel dat het waterniveau aan een zijde van de stuw, wordt bepaald door schotbalken."@nl;
   skos:prefLabel "Schotbalkstuw"@nl.
-
-imbor:7640248b-abfd-475e-9e19-e6960e11cb4d a sh:PropertyShape;
-  skos:prefLabel "beginpunt vastgezet op Leiding"@nl;
-  sh:datatype xsd:string;
-  sh:maxCount 1;
-  sh:path imbor:fc2c974f-5a13-43fa-9a60-58fca342a91e.
 
 imbor:76473fa1-f468-4149-b909-292e174a68ed a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -30854,11 +30865,6 @@ imbor:80aa03dd-901b-4f89-bcb8-3035ff91ac33 a sh:PropertyShape;
       sh:class gwsw:Hemelwaterstelsel
     ].
 
-imbor:80bb59ca-a4dd-4d1b-bcba-fb74b8c6e191 a rdf:Property;
-  rdfs:seeAlso imbor-term:53d02856-ad81-4e89-b883-3ef99976e187;
-  skos:definition "ID van het laatstee knooppunt waar de leiding of kabel mee verbonden is."@nl;
-  skos:prefLabel "eindpunt"@nl.
-
 imbor:80bcbc27-c6fe-4255-acf1-6dd792a242c7 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:c2019ae5-07ee-4183-a34c-98daaacf65dc;
@@ -30877,14 +30883,6 @@ imbor:80ca81d5-3866-4629-80e9-0f710f0d152a a rdf:Property;
   rdfs:seeAlso imbor-term:4076e98d-8e84-4978-acdc-f85dd54f9bc0;
   skos:definition "Indeling in wegtypen conform de CROW Systematiek Wegbeheer."@nl;
   skos:prefLabel "wegtype"@nl.
-
-imbor:80d7a2e0-d852-403d-b477-57c41be52071 a sh:PropertyShape;
-  skos:prefLabel "verschijningsvorm vastgezet op Bebouwingskern"@nl;
-  sh:path imbor:e3e112b3-e46f-45c4-b2c9-b152e6f805a1;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:29a1f54f-7a6b-4d07-a8c7-729f8b3e5e3e
-    ].
 
 imbor:80e36691-5de0-4628-9020-7716e57b1558 a sh:PropertyShape;
   skos:prefLabel "Vuilwaterstelsel is onderdeel van Gescheiden systeem"@nl;
@@ -34095,6 +34093,13 @@ imbor:912d3985-44bb-4630-9df9-2badf585fcfc a rdfs:Class;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Warmtebron en het attribuut type geothermie."@nl;
   skos:prefLabel "WarmtebronTypeGeothermie"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
+
+imbor:9133a1fb-efe9-4f85-8045-a1725ebd1713 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:07d520d6-8692-4491-acb2-c9cb423439d8;
+  rdfs:subClassOf imbor:1cdcc6aa-16ce-4acc-a6c3-991ed1202ab0;
+  skos:definition "Ruimtelijk van omliggende bebouwing te onderscheiden historische bebouwingskern, die is gelegen binnen een andere bebouwingskern."@nl;
+  skos:prefLabel "Deelkern"@nl.
 
 imbor:913f66f1-a6bd-4fa6-ad9e-fea6ca37c443 a sh:PropertyShape;
   qudt:unit unit:MilliM;
@@ -45460,6 +45465,13 @@ imbor:ce445e25-93c2-4f20-9491-d5a8b66db831 a rdf:Property;
   skos:definition "Nadere specificatie van de positie van de deur of de deurindeling."@nl;
   skos:prefLabel "positie deur"@nl.
 
+imbor:ce47396f-a2bc-4f75-974b-46f77b65d0a9 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:2196aa9a-4657-426e-9ce8-80726397dd72;
+  rdfs:subClassOf imbor:1cdcc6aa-16ce-4acc-a6c3-991ed1202ab0;
+  skos:definition "Lintbebouwing of verspreid staande bebouwing in landelijk gebied met een zekere mate van sociale samenhang die gezamenlijk een bebouwingskern vormen."@nl;
+  skos:prefLabel "Buurtschap"@nl.
+
 imbor:ce5d125f-1fd5-460f-b87d-5afb8dfc02ba a sh:PropertyShape;
   qudt:unit unit:M;
   skos:prefLabel "doorrijbreedte vastgezet op Onderdoorgang"@nl;
@@ -53537,6 +53549,13 @@ imbor:f861fc02-98de-4796-b151-4e78c36359f9 a sh:PropertyShape;
       sh:class imbor:e4421555-04d3-4667-91ac-74d3ba314381
     ].
 
+imbor:f879e7c1-9e31-41fa-bd5e-14065bf8ccce a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:1a9abc60-c379-450a-adfe-9080cb97f78c;
+  rdfs:subClassOf imbor:1cdcc6aa-16ce-4acc-a6c3-991ed1202ab0;
+  skos:definition "Bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor (verblijfs)recreatie."@nl;
+  skos:prefLabel "Recreatiekern"@nl.
+
 imbor:f8875bca-ea70-42f3-aec9-67e7de543216 a sh:PropertyShape;
   skos:prefLabel "anti-graffiti voorziening vastgezet op Gebouw"@nl;
   sh:datatype xsd:boolean;
@@ -54191,11 +54210,6 @@ imbor:fc2c47c3-01f1-447e-a3af-4277034067ab a rdfs:Class;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Duin en het attribuut verschijningsvorm."@nl;
   skos:prefLabel "DuinVerschijningsvorm"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
-
-imbor:fc2c974f-5a13-43fa-9a60-58fca342a91e a rdf:Property;
-  rdfs:seeAlso imbor-term:6aaae85d-b993-443c-b724-0d9094bbb0cd;
-  skos:definition "ID van het eerste knooppunt waar de leiding of kabel mee verbonden is."@nl;
-  skos:prefLabel "beginpunt"@nl.
 
 imbor:fc2f0da6-572a-4697-9994-f6bdb68e91b6 a sh:PropertyShape;
   skos:prefLabel "Opvangzone is verbonden met Speeltoestel"@nl;

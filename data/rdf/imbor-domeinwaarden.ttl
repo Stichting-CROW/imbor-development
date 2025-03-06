@@ -3331,11 +3331,6 @@ imbor-domeinwaarde:1e0601ea-82dc-45d8-90ef-259c73bb0052 a imbor:10767178-80d1-4d
   skos:definition " "@nl;
   skos:prefLabel "6,5 m +m.v. rondom"@nl.
 
-imbor-domeinwaarde:1e10d3ac-26b0-404f-b305-1275132e1b1c a imbor:29a1f54f-7a6b-4d07-a8c7-729f8b3e5e3e;
-  rdfs:seeAlso imbor-term:110d04a2-ea2b-439a-8252-cce96dc963f7;
-  skos:definition "Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor wonen."@nl;
-  skos:prefLabel "Woonkern"@nl.
-
 imbor-domeinwaarde:1e1464e0-8516-4581-9c76-c864e4509ce5 a imbor:e47ccd4f-61fa-4054-8ac2-550c57e7416b;
   rdfs:seeAlso imbor-term:ac597511-ad0f-42ac-90b7-f75fe75f7882;
   skos:broader imbor:a4f5f594-3db2-46e6-88c6-303c3cceb75e;
@@ -3653,11 +3648,6 @@ imbor-domeinwaarde:214c2ce5-7c85-43ff-b6d9-f653ad37e52f a imbor:bfe6e719-b83c-47
   skos:broader imbor:7ac7a2c0-7444-4175-8204-01600dcd336e;
   skos:definition "Waarnemingen in de ruimte."@nl;
   skos:prefLabel "Observatorium"@nl.
-
-imbor-domeinwaarde:216dcd2f-3ce6-45a9-9352-a6c65bcfa7b8 a imbor:29a1f54f-7a6b-4d07-a8c7-729f8b3e5e3e;
-  rdfs:seeAlso imbor-term:c6e459bf-8d94-4b88-9497-7883e509e40a;
-  skos:definition "Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor bedrijfsmatige activiteiten."@nl;
-  skos:prefLabel "Industriekern"@nl.
 
 imbor-domeinwaarde:2176f245-136a-4a93-b2bc-f06fa065987f a imbor:96855297-c02b-473d-9307-4a2f23dc60a5;
   rdfs:seeAlso imbor-term:11780d14-bbb6-4a6c-84a8-dad126724719;
@@ -8770,11 +8760,6 @@ imbor-domeinwaarde:4d6b8d41-9864-4727-94c7-d923f55ca135 a imbor:e29de60f-1400-41
   skos:definition "Distributiecentrum."@nl;
   skos:prefLabel "SD09"@nl.
 
-imbor-domeinwaarde:4d845bf6-5267-417e-ba19-87aadd86aa5d a imbor:29a1f54f-7a6b-4d07-a8c7-729f8b3e5e3e;
-  rdfs:seeAlso imbor-term:786ece74-aea0-4c88-aaeb-612bfe449337;
-  skos:definition "Binnen een andere bebouwingskern gelegen ruimtelijk samenhangend en van een overkoepelende naam voorzien gebied."@nl;
-  skos:prefLabel "Stadsdeelgrens"@nl.
-
 imbor-domeinwaarde:4d9bbf63-e4d3-4a1a-a083-69faed03fac2 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:24cc5709-7d81-48e3-8a2c-695f87f5ab47;
   skos:broader imbor:67bbf997-e98a-4935-8eb2-b600ea02a85f;
@@ -10444,11 +10429,6 @@ imbor-domeinwaarde:5e3b7df3-b9fd-4ed1-b815-f9313baf9f43 a imbor:b94246d0-c583-49
   skos:broader imbor:0b71bffe-cfb7-4ba2-92f4-77dd48b79586;
   skos:definition "Waarschuwing voor zijwind."@nl;
   skos:prefLabel "J31"@nl.
-
-imbor-domeinwaarde:5e3ea510-cf3c-4865-8552-d4a9ef48c96d a imbor:29a1f54f-7a6b-4d07-a8c7-729f8b3e5e3e;
-  rdfs:seeAlso imbor-term:64c23eb2-137f-401a-8b8c-196bb9effd58;
-  skos:definition "Kleine bebouwingskern die bestaat uit een concentratie van aaneengesloten bebouwing."@nl;
-  skos:prefLabel "Gehucht"@nl.
 
 imbor-domeinwaarde:5e43d665-a02b-40ed-8159-49ff0242e07f a imbor:f48b75d0-2ec1-4a27-850c-657879a6fe4e;
   rdfs:seeAlso imbor-term:4b0413a7-7b22-4952-a36e-ecd16313d1e5;
@@ -16187,11 +16167,6 @@ imbor-domeinwaarde:911db4f1-92c2-4459-9ba4-83d179e8bbe3 a imbor:52a732f0-574a-4a
   skos:broader imbor:a67cf158-e508-428b-bada-50d00d69d02b;
   skos:definition "Scheepvaartbord Ligplaatsen voor schepen met één kegel, geen duwvaart zijnde."@nl;
   skos:prefLabel "E.5.9"@nl.
-
-imbor-domeinwaarde:9133a1fb-efe9-4f85-8045-a1725ebd1713 a imbor:29a1f54f-7a6b-4d07-a8c7-729f8b3e5e3e;
-  rdfs:seeAlso imbor-term:07d520d6-8692-4491-acb2-c9cb423439d8;
-  skos:definition "Ruimtelijk van omliggende bebouwing te onderscheiden historische bebouwingskern, die is gelegen binnen een andere bebouwingskern."@nl;
-  skos:prefLabel "Deelkern"@nl.
 
 imbor-domeinwaarde:913c161f-4fb7-4051-ac66-e5a8045f4eb6 a imbor:e71ccc0f-bd70-4854-9011-2dfc87e962fa;
   rdfs:seeAlso imbor-term:7035db3f-945c-497a-9467-7c58763fbcc4;
@@ -23018,11 +22993,6 @@ imbor-domeinwaarde:ce264413-8fd0-4859-a260-398a67d99de9 a imbor:b94246d0-c583-49
   skos:definition "Actieraam."@nl;
   skos:prefLabel "T301"@nl.
 
-imbor-domeinwaarde:ce47396f-a2bc-4f75-974b-46f77b65d0a9 a imbor:29a1f54f-7a6b-4d07-a8c7-729f8b3e5e3e;
-  rdfs:seeAlso imbor-term:2196aa9a-4657-426e-9ce8-80726397dd72;
-  skos:definition "Lintbebouwing of verspreid staande bebouwing in landelijk gebied met een zekere mate van sociale samenhang die gezamenlijk een bebouwingskern vormen."@nl;
-  skos:prefLabel "Buurtschap"@nl.
-
 imbor-domeinwaarde:ce4f978e-23eb-4a59-a693-117ec342567d a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:098c4433-8441-4022-b21f-9cb8c0513adc;
   skos:broader imbor:c6f5fa03-204a-4f21-83ee-69c3f1b48897;
@@ -27549,11 +27519,6 @@ imbor-domeinwaarde:f87082f5-aa9f-493a-aa99-3695b807d941 a imbor:83e51cae-6dfd-40
   rdfs:seeAlso imbor-term:dfee9707-dcde-4526-a0a6-f3659def7429;
   skos:definition "Einde rijstrook met asverlegging van 2 rijstroken naar rechts met voor 1 rijstrook breedtebeperking."@nl;
   skos:prefLabel "T21-2r_C18-2"@nl.
-
-imbor-domeinwaarde:f879e7c1-9e31-41fa-bd5e-14065bf8ccce a imbor:29a1f54f-7a6b-4d07-a8c7-729f8b3e5e3e;
-  rdfs:seeAlso imbor-term:1a9abc60-c379-450a-adfe-9080cb97f78c;
-  skos:definition "Bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor (verblijfs)recreatie."@nl;
-  skos:prefLabel "Recreatiekern"@nl.
 
 imbor-domeinwaarde:f889b9bd-7530-41c8-bc33-683590faa525 a imbor:530c20c3-34a7-4d37-af27-1be3da0bb9dd;
   rdfs:seeAlso imbor-term:2ec8b153-92d4-48ab-b70a-91f626e56e6e;
