@@ -205,7 +205,7 @@ jobs:
     sources:
       - file: .cache/post-stap-6-ext-onto.nq
     targets:
-      - file: data/rdf/imbor-volledig-onto-verkenner.ttl
+      - file: data/rdf/imbor-volledig-combigraph.ttl
         with:
           only-graphs:
             - https://data.crow.nl/imbor/term/
