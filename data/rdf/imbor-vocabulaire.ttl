@@ -4746,7 +4746,7 @@ imbor-term:184c904c-66e2-442c-8972-a6c341478bbc a skos:Concept;
 
 imbor-term:1851f9be-c475-40e4-9044-e32f5bc01aca a skos:Concept;
   skos:broader imbor-term:4a641b48-0850-43d0-bb99-29134f5741ac;
-  skos:definition "Registratie van de verschillende verkeersdeelnemers die gebruik maken van het objecttype."@nl;
+  skos:definition "Verkeersdeelnemers, of vervoermiddel, die gebruik maakt van of zich voortbeweegt over het object."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:note "Een vervoermiddel, vervoersmodaliteit of transportmiddel is een technische constructie of inrichting die vooral dient om personen of goederen te verplaatsen, veelal in het verkeer, ook de voetganger wordt onder vervoersmodaliteit verstaan."@nl;
   skos:prefLabel "modaliteit"@nl.
@@ -6287,6 +6287,7 @@ imbor-term:2130a2a7-2191-4406-a8b0-78670451e725 a skos:Concept;
   skos:prefLabel "Bruin glas"@nl.
 
 imbor-term:2136af34-744c-4c12-817a-c260161f3362 a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Flowblock"@nl.
 
@@ -11703,6 +11704,7 @@ imbor-term:3eae9121-4282-4ebe-ae86-007b20a2fd47 a skos:Concept;
   skos:prefLabel "L301a"@nl.
 
 imbor-term:3ec1e17f-7727-44ee-ad6c-6651d66c90e0 a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Geotextiel"@nl.
 
@@ -12254,6 +12256,7 @@ imbor-term:418f4fdb-3e4b-4788-abf9-e6a25c70a304 a skos:Concept;
   skos:prefLabel "Parkeerdek"@nl.
 
 imbor-term:41982a78-b6e6-4833-aaad-8b3c2b7f056a a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Bentoniet"@nl.
 
@@ -22175,6 +22178,7 @@ imbor-term:6e6a356e-e11e-4fe7-b4a9-b4509f6068b7 a skos:Concept;
   skos:prefLabel "Natuurgras/ongebonden mineraal"@nl.
 
 imbor-term:6e6d76c8-376a-4008-9334-b70f9e390750 a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "EPS hardschuim"@nl.
 
@@ -31436,6 +31440,7 @@ imbor-term:9d91de3e-1790-40fe-868f-825674b82182 a skos:Concept;
   skos:prefLabel "OB04"@nl.
 
 imbor-term:9d9c6bbf-9d34-4de0-99a1-36f1b6100f24 a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Isolatiemateriaal"@nl.
 
@@ -34456,6 +34461,7 @@ imbor-term:ad5d0c74-3b84-480a-a8f1-9d2ad0e87c7d a skos:Concept;
   skos:prefLabel "Beheervak"@nl.
 
 imbor-term:ad604095-2899-4b24-aa3a-72f1ff9ecb29 a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Basalton"@nl.
 
@@ -37609,6 +37615,7 @@ imbor-term:bdbf3553-8896-492d-8784-59d0e095a76c a skos:Concept;
   skos:prefLabel "E102zhks"@nl.
 
 imbor-term:bdca79d5-ba84-4013-916b-70c4829e92a1 a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "AVI-slakken"@nl.
 
@@ -43872,6 +43879,7 @@ imbor-term:dd240942-4d81-42d5-840d-6c4b108e15cf a skos:Concept;
   skos:prefLabel "SB02"@nl.
 
 imbor-term:dd3143d7-416c-456b-8e00-82d96837ef26 a skos:Concept;
+  skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "EPS"@nl.
 
@@ -55840,6 +55848,7 @@ imbor-term:ffb92594-32d2-4380-89c3-1c51c8d24440 a skos:Concept;
 
 imbor-term:ffba6a37-9075-4d10-b7f4-a0d5eaa6b737 a skos:Concept;
   skos:broader imbor-term:3b3efe39-8d7c-4d8e-b680-eef5eb38dbd4;
+  skos:definition "Registratie van de verschillende verkeersdeelnemers die gebruik maken van het objecttype."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Modaliteit-informatie"@nl.
 

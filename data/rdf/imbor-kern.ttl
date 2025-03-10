@@ -8879,6 +8879,7 @@ imbor:0f8eafe4-b794-4265-baed-36737e1cf129 a rdfs:Class, sh:NodeShape;
 imbor:0fa48940-d32c-462f-a4cf-0b056709dd4c a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:2136af34-744c-4c12-817a-c260161f3362;
+  rdfs:subClassOf nen2660:Matter;
   skos:prefLabel "Flowblock"@nl.
 
 imbor:0fa883ce-7a59-42da-a2b7-eca695dc4c7f a rdfs:Class, sh:NodeShape;
@@ -24991,6 +24992,7 @@ imbor:63085295-6500-44d3-b96a-1860c908c951 a rdf:Property;
 imbor:6314493f-9b59-49c1-9792-129aecb447a1 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:3ec1e17f-7727-44ee-ad6c-6651d66c90e0;
+  rdfs:subClassOf nen2660:Matter;
   skos:prefLabel "Geotextiel"@nl.
 
 imbor:633768da-23e6-4299-bf8a-f0e687e2de3b a rdf:Property;
@@ -28713,6 +28715,7 @@ imbor:76c74447-0325-4276-9809-bdc7215380a1 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:ffba6a37-9075-4d10-b7f4-a0d5eaa6b737;
   rdfs:subClassOf nen2660:InformationObject;
+  skos:definition "Registratie van de verschillende verkeersdeelnemers die gebruik maken van het objecttype."@nl;
   skos:prefLabel "Modaliteit-informatie"@nl;
   sh:property imbor:afa7fecf-daca-4126-a906-c91c8c7f1c8a.
 
@@ -34995,7 +34998,7 @@ imbor:960588a1-3b10-4236-a145-78b33bd44eab a rdfs:Class, sh:NodeShape;
 
 imbor:962110b3-46ad-46b8-85c6-f40539a21ee3 a rdf:Property;
   rdfs:seeAlso imbor-term:1851f9be-c475-40e4-9044-e32f5bc01aca;
-  skos:definition "Registratie van de verschillende verkeersdeelnemers die gebruik maken van het objecttype."@nl;
+  skos:definition "Verkeersdeelnemers, of vervoermiddel, die gebruik maakt van of zich voortbeweegt over het object."@nl;
   skos:prefLabel "modaliteit"@nl.
 
 imbor:9629db97-72c9-4971-8690-e1af92cae6b8 a sh:PropertyShape;
@@ -36949,6 +36952,7 @@ imbor:9fb255d8-15b0-4913-a569-13680706d574 a sh:PropertyShape;
 imbor:9fb796a0-0c5c-46e6-b816-a59211ad62d8 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:41982a78-b6e6-4833-aaad-8b3c2b7f056a;
+  rdfs:subClassOf nen2660:Matter;
   skos:prefLabel "Bentoniet"@nl.
 
 imbor:9fc78e49-3100-442b-8172-2a507ad90be2 a rdfs:Class, sh:NodeShape;
@@ -41191,6 +41195,7 @@ imbor:b60c0655-73b1-483d-a003-718e23bc64b2 a rdfs:Class, sh:NodeShape;
 imbor:b60c3a53-6496-44cb-b539-c0f4f80b2a0a a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:bdca79d5-ba84-4013-916b-70c4829e92a1;
+  rdfs:subClassOf nen2660:Matter;
   skos:prefLabel "AVI-slakken"@nl.
 
 imbor:b62593e4-a9b6-42ef-bd66-644391e37afa a rdf:Property;
@@ -41466,6 +41471,7 @@ imbor:b7800383-6436-4f09-9a50-643057dc713e a sh:PropertyShape;
 imbor:b781733e-1f7e-4368-a969-2e8535be9b19 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:6e6d76c8-376a-4008-9334-b70f9e390750;
+  rdfs:subClassOf nen2660:Matter;
   skos:prefLabel "EPS hardschuim"@nl.
 
 imbor:b78c036a-95b8-4f0b-a0eb-5b91c0ab9be2 a sh:PropertyShape;
@@ -47649,6 +47655,7 @@ imbor:d857c019-c4fe-4783-a71c-a6b08f7e48cd a rdfs:Class, sh:NodeShape;
 imbor:d86096ff-f42e-4049-ba98-edfdb66e6838 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:dd3143d7-416c-456b-8e00-82d96837ef26;
+  rdfs:subClassOf nen2660:Matter;
   skos:prefLabel "EPS"@nl.
 
 imbor:d867ff65-b24e-4bce-964b-2f038d72ce10 a rdfs:Class, sh:NodeShape;
@@ -52211,6 +52218,7 @@ imbor:f0d38eed-15cb-4b2a-89de-d7fb18b52d98 a rdf:Property;
 imbor:f0f62c99-6394-468d-841d-2f0ca52c915b a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:ad604095-2899-4b24-aa3a-72f1ff9ecb29;
+  rdfs:subClassOf nen2660:Matter;
   skos:prefLabel "Basalton"@nl.
 
 imbor:f10c932e-c42a-45bf-a75a-bddec6d04494 a rdf:Property;
@@ -54053,6 +54061,7 @@ imbor:fb5a106e-edf8-4172-b1b5-4bbf4db366d2 a sh:PropertyShape;
 imbor:fb5a71f6-a433-4a3c-9ff8-b64d7d5f3a60 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:9d9c6bbf-9d34-4de0-99a1-36f1b6100f24;
+  rdfs:subClassOf nen2660:Matter;
   skos:prefLabel "Isolatiemateriaal"@nl.
 
 imbor:fb6c79f8-067c-455c-9d87-fe20da425cf6 a rdfs:Class, sh:NodeShape;
