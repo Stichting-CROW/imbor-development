@@ -2463,7 +2463,6 @@ gwsw:LozeLeiding a rdfs:Class, sh:NodeShape;
   skos:prefLabel "Loze leiding"@nl;
   sh:property
     imbor:4833cb85-ef7c-448c-acc9-29869af9248e,
-    imbor:6d18e68d-eb33-4b7d-b6ab-bba21412c959,
     imbor:83f1e222-1f8f-491e-88d6-c3c20b85aceb.
 
 gwsw:LozenAfvalwater a rdfs:Class, sh:NodeShape;
@@ -3084,7 +3083,6 @@ gwsw:Ontluchtingsleiding a rdfs:Class, sh:NodeShape;
     imbor:a1ddb1d4-b82e-44ce-9cd6-f99017f70d41,
     imbor:aadae945-5e04-4edd-84e3-a30450c14514,
     imbor:e147912c-df72-407b-b791-84549b4cf5d9,
-    imbor:ea8ec06d-f785-4391-88e0-3ec8bd076211,
     imbor:f825fd59-19fb-4196-b5d1-fa1206c00eee.
 
 gwsw:Ontluchtingsunit a rdfs:Class, sh:NodeShape;
@@ -3486,8 +3484,7 @@ gwsw:Pendelstuk a rdfs:Class, sh:NodeShape;
   sh:property
     imbor:07a7e875-1950-4e2d-b2ea-dbb8cdd94b90,
     imbor:232e5c3d-a976-4d85-9c59-2dd7c6a4c61f,
-    imbor:53fb596e-a492-4515-b26c-8046b5934ba1,
-    imbor:d9722b4e-41e6-420b-823e-40991d9986cb.
+    imbor:53fb596e-a492-4515-b26c-8046b5934ba1.
 
 gwsw:Perceel a rdfs:Class, sh:NodeShape;
   dash:abstract true;
@@ -3948,7 +3945,6 @@ gwsw:Rioolleiding a rdfs:Class, sh:NodeShape;
     imbor:5fafedf6-0065-490f-a6d7-f301dabb0a71,
     imbor:603483aa-b1f4-4174-821b-e07f1a1faeb3,
     imbor:6664a71e-3760-4546-9727-ce0f511c2e93,
-    imbor:68d45d2b-184e-410f-9b73-94305bc8acef,
     imbor:68eeea0f-2aed-4718-8533-7c716277fbaa,
     imbor:6a3ab2a2-f225-4b9f-9a27-42c3e9e63960,
     imbor:6a3f4e6c-9344-4471-a586-5338c75d2cb6,
@@ -4649,8 +4645,7 @@ gwsw:Transportleiding a rdfs:Class, sh:NodeShape;
     imbor:b6b7bda1-5b8f-47f5-b6a7-0a72e9880557,
     imbor:c8dc6f81-f8c8-4a31-8aec-45d221879ee8,
     imbor:ee58787f-164c-491f-86dd-b850d40c7dc7,
-    imbor:f74da2e7-eb45-4d4e-9038-1dcca6062736,
-    imbor:fb70b1ae-5c0c-4ccb-b870-105ebada836f.
+    imbor:f74da2e7-eb45-4d4e-9038-1dcca6062736.
 
 gwsw:Transportrioolleiding a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -5715,7 +5710,7 @@ nen3610:Bodem a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf
     nen3610:ReeelObject,
     nen2660:DiscreteObject;
-  skos:definition "Bovenste begrenzing van het aardoppervlak, exclusief oppervlaktewater."@nl;
+  skos:definition "Bovenste deel van de aarde, exclusief oppervlaktewater."@nl;
   skos:note "Het object wordt gebruikt als het stuk grond direct onder het aardoppervlak waar zich pedogenetische processen plaatsvinden."@nl;
   skos:prefLabel "Bodem"@nl;
   sh:property
@@ -5729,7 +5724,7 @@ nen3610:Constructie a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf
     nen3610:ReeelObject,
     nen2660:DiscreteObject;
-  skos:definition "Gebouwd object dat direct of indirect met de grond is verbonden en bedoeld is om ter plaatse te functioneren."@nl;
+  skos:definition "Gebouwd object dat direct of indirect met de bodem is verbonden en bedoeld is om ter plaatse te functioneren."@nl;
   skos:prefLabel "Constructie"@nl;
   sh:property
     imbor:35c349f3-4f9f-483b-a911-d354b4387491,
@@ -5768,7 +5763,7 @@ nen3610:Gebouw a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:928508de-47e4-417b-b1c9-c8cffc847a9b;
   rdfs:subClassOf nen3610:Constructie;
-  skos:definition "Overdekte en geheel of gedeeltelijk met wanden omsloten constructief zelfstandige eenheid bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen."@nl;
+  skos:definition "Overdekte en geheel of gedeeltelijk met wanden omsloten constructie bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen."@nl;
   skos:prefLabel "Gebouw"@nl;
   sh:property
     imbor:09703d98-5562-4e19-bcb2-afe4e6056849,
@@ -5805,7 +5800,7 @@ nen3610:GeografischeRuimte a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:f266d1be-a634-4d8e-8da9-14618a40b705;
   rdfs:subClassOf nen3610:VirtueleRuimte;
-  skos:definition "Ruimte die bekend staat onder een vanuit de historie of in de volksmond bekende benaming of een fysisch-geografische samenhang kent."@nl;
+  skos:definition "	Ruimte die bekendstaat onder een vanuit de historie of het gebruik bekende benaming of een fysisch-geografische samenhang, al dan niet met zijn omgeving, kent."@nl;
   skos:prefLabel "Geografische ruimte"@nl;
   sh:property imbor:f4aac329-5f98-4d65-9a86-ef184516a1ed.
 
@@ -5813,7 +5808,7 @@ nen3610:GeoObject a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:8801f4ed-494b-456e-9f3e-cf328c51b017;
   rdfs:subClassOf nen2660:PhysicalObject;
-  skos:definition "Een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde."@nl;
+  skos:definition "Een fenomeen in de werkelijkheid dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde."@nl;
   skos:prefLabel "Geo-object"@nl;
   sh:property
     imbor:09c2f08f-6193-4f53-981d-ace7ece478c0,
@@ -5825,7 +5820,7 @@ nen3610:GeoObject a rdfs:Class, sh:NodeShape;
 
 nen3610:identificatie a rdf:Property;
   rdfs:seeAlso imbor-term:7a70040f-37bf-4eb6-9011-ccda7b22d779;
-  skos:definition "Unieke aanduiding van het object (GUID)."@nl;
+  skos:definition "Unieke aanduiding van het object."@nl;
   skos:prefLabel "identificatie"@nl.
 
 nen3610:JuridischeRuimte a rdfs:Class, sh:NodeShape;
@@ -5839,7 +5834,7 @@ nen3610:Kunstwerk a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:98938ba8-b702-4fbd-93bf-37664ffc4049;
   rdfs:subClassOf nen3610:Constructie;
-  skos:definition "Civieltechnische constructie voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen."@nl;
+  skos:definition "Civiel-technische constructie voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen."@nl;
   skos:prefLabel "Kunstwerk"@nl;
   sh:property
     imbor:1637ecf4-d291-4929-b349-cf778d92576e,
@@ -5864,7 +5859,7 @@ nen3610:Leiding a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:2fd8d570-e15e-42ea-b6fb-d93f44d82051;
   rdfs:subClassOf nen3610:Constructie;
-  skos:definition "Een geheel van geleiders of ruimte welke voorzien zijn van één manteling en bestemd is voor transport van materie, data of energie."@nl;
+  skos:definition "Een geheel van geleiders of een ruimte die voorzien is van één ommanteling en bestemd is voor transport van materie, data en/of energie."@nl;
   skos:prefLabel "Leiding"@nl;
   sh:property
     imbor:13ddc3be-13c2-4b85-bcea-4f1e15682a68,
@@ -5882,7 +5877,7 @@ nen3610:Luchtvaartruimte a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:96c865d1-2c41-45df-bbde-9fa2e2fc36db;
   rdfs:subClassOf nen3610:Verkeerruimte;
-  skos:definition "Klasse voor alle virtuele ruimtes die een bepaald aspect van het verkeer voor luchtvoertuigen beschrijven."@nl;
+  skos:definition "Verkeerruimte voor voertuigen die zich door de lucht verplaatsen."@nl;
   skos:prefLabel "Luchtvaartruimte"@nl.
 
 nen3610:objectBeginTijd a rdf:Property;
@@ -5900,7 +5895,7 @@ nen3610:Oppervlaktewater a rdfs:Class, sh:NodeShape;
   rdfs:seeAlso imbor-term:7b7cfee7-c184-4f45-87f8-13d7451e8a3b;
   rdfs:subClassOf nen3610:ReeelObject;
   skos:definition "Massa van water dat de bodem bedekt of in normale omstandigheden kan bedekken."@nl;
-  skos:prefLabel "Water"@nl;
+  skos:prefLabel "Oppervlaktewater"@nl;
   sh:property
     imbor:1215d3ec-71d6-4c3e-b9a2-8371451b2434,
     imbor:88247cf4-2e85-42ff-a6dd-0aac334403e9,
@@ -5932,7 +5927,7 @@ nen3610:RegistratieveRuimte a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:696fe178-a9bc-4ca2-ad5e-434fe9363ae9;
   rdfs:subClassOf nen3610:VirtueleRuimte;
-  skos:definition "Op basis van wet- of regelgeving afgebakende ruimte die als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering."@nl;
+  skos:definition "Op basis van wet- of regelgeving afgebakende ruimte die als eenheid geldt van politiek-bestuurlijke verantwoordelijkheid of voor bedrijfsvoering."@nl;
   skos:prefLabel "Registratieve ruimte"@nl;
   sh:property
     imbor:06f39e64-7d23-49c3-a086-07e7b7a9ed32,
@@ -5947,14 +5942,14 @@ nen3610:Scheepvaartruimte a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:4d114d35-642e-405d-a43a-9c01a68fb561;
   rdfs:subClassOf nen3610:Verkeerruimte;
-  skos:definition "Transportruimte voor voertuigen die zich over water verplaatsen."@nl;
+  skos:definition "Verkeerruimte voor voertuigen die zich over rails verplaatsen."@nl;
   skos:prefLabel "Scheepvaartruimte"@nl.
 
 nen3610:Spoorverkeerruimte a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:69ef1242-17f0-4876-8e96-111bc64df8bf;
   rdfs:subClassOf nen3610:Verkeerruimte;
-  skos:definition "Transportruimte voor voertuigen die zich over rails verplaatsen."@nl;
+  skos:definition "Verkeerruimte voor voertuigen die zich over rails verplaatsen."@nl;
   skos:prefLabel "Spoorverkeerruimte"@nl;
   sh:property imbor:f81f050e-a3b9-497e-8ed7-5303fe0dd3b8.
 
@@ -5974,7 +5969,7 @@ nen3610:Verharding a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:e1a48f1f-0795-474b-b503-2e047e2bf84b;
   rdfs:subClassOf nen3610:Constructie;
-  skos:definition "Oppervlak, dat door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakt is, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal."@nl;
+  skos:definition "Een door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakt oppervlak, bestaande uit in een of meer lagen over een bodem of onderliggende constructie aangelegd materiaal."@nl;
   skos:prefLabel "Verharding"@nl;
   sh:property
     imbor:26b49a35-1377-4132-b764-e61c2a5cb031,
@@ -6001,7 +5996,7 @@ nen3610:Verkeerruimte a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:3828433c-5048-477b-81c4-b83465dd5673;
   rdfs:subClassOf nen3610:Transportruimte;
-  skos:definition "Klasse voor alle virtuele ruimtes die een bepaald aspect van het verkeer voor terrestrische voertuigen beschrijven."@nl;
+  skos:definition "Transportruimte voor verkeer via land, water of lucht."@nl;
   skos:prefLabel "Verkeerruimte"@nl.
 
 nen3610:versie a rdf:Property;
@@ -6035,7 +6030,7 @@ nen3610:Wegverkeerruimte a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:655d3cfb-c37c-4030-832c-71ca11d2be1c;
   rdfs:subClassOf nen3610:Verkeerruimte;
-  skos:definition "Transportruimte voor voertuigen die zich over wegen verplaatsen."@nl;
+  skos:definition "	Verkeerruimte voor weggebruikers die zich over wegen verplaatsen."@nl;
   skos:prefLabel "Wegverkeerruimte"@nl;
   sh:property imbor:63e111e8-8c7f-4390-b486-f3082d1e4ced.
 
@@ -6844,8 +6839,7 @@ imbor:04424005-7cd6-45b3-babb-1b15cb0aff82 a rdfs:Class, sh:NodeShape;
   rdfs:seeAlso imbor-term:c8c971b9-9fbb-4f83-8496-9c279d285438;
   rdfs:subClassOf imbor:a57c92d8-2139-45c8-b96f-471106f6af2e;
   skos:definition "Leiding voor het transport van bier."@nl;
-  skos:prefLabel "Bierleiding"@nl;
-  sh:property imbor:fc1c7628-7d1f-41d9-8139-f806894bdae0.
+  skos:prefLabel "Bierleiding"@nl.
 
 imbor:04482e17-16cb-4a4f-bac5-858854526d8c a sh:PropertyShape;
   qudt:unit unit:M;
@@ -9353,7 +9347,7 @@ imbor:120566c5-d0cf-4bc5-b445-4e442ccac518 a sh:PropertyShape;
   sh:path imbor:44376a9d-3274-4418-a144-3c05de3a3fee.
 
 imbor:1215d3ec-71d6-4c3e-b9a2-8371451b2434 a sh:PropertyShape;
-  skos:prefLabel "Water is beschreven door Flora en fauna-informatie"@nl;
+  skos:prefLabel "Oppervlaktewater is beschreven door Flora en fauna-informatie"@nl;
   sh:path nen2660:isDescribedBy;
   sh:qualifiedMinCount 0;
   sh:qualifiedValueShape [
@@ -9457,14 +9451,6 @@ imbor:129e62ce-e4d1-4612-9d6e-6dae7f5bcd6e a rdfs:Class;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Sensor en het attribuut meetfrequentie."@nl;
   skos:prefLabel "SensorMeetfrequentie"@nl;
   imbor:typeLijst "Suggestielijst"@nl.
-
-imbor:129fddb7-32e9-40f9-91ae-f8dd10e1b76c a sh:PropertyShape;
-  skos:prefLabel "Gootstrook voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
-    ].
 
 imbor:12a17c2a-781a-495e-ab09-4108252a9a5c a sh:PropertyShape;
   skos:prefLabel "Transportleiding voert uit Transport van afvalwater"@nl;
@@ -12534,7 +12520,7 @@ imbor:237ae11b-3da9-4945-b725-79289c07693b a sh:PropertyShape;
 
 imbor:237c7a24-e77e-4afd-931b-2588b8bcdd75 a sh:PropertyShape;
   qudt:unit unit:M;
-  skos:prefLabel "maximale diepgang vastgezet op Oppervlaktewater"@nl;
+  skos:prefLabel "maximale diepgang vastgezet op Permanent water"@nl;
   sh:datatype xsd:decimal;
   sh:maxCount 1;
   sh:path imbor:c3c3e86f-3b11-400f-b2e6-d6297edc5792.
@@ -13487,14 +13473,6 @@ imbor:2924feaf-0f22-4e15-83bc-a50a33a04094 a sh:PropertyShape;
       sh:class imbor:38ec236f-210f-4d3a-85e2-95931d8ea468
     ].
 
-imbor:2927e669-38fb-4151-84f9-e855ad366300 a sh:PropertyShape;
-  skos:prefLabel "Stadsverwarming voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
-    ].
-
 imbor:29393373-00f5-4a7c-831a-fe20a6a8bfd2 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:a23a04dd-9644-4cb8-8676-92907e51de79;
@@ -13543,7 +13521,7 @@ imbor:29808daf-cd0c-4fde-ae2c-d2f8c2f63313 a sh:PropertyShape;
 
 imbor:2997ec00-da59-4813-8f29-15a09881824e a sh:PropertyShape;
   qudt:unit unit:M;
-  skos:prefLabel "nautische diepte vastgezet op Oppervlaktewater"@nl;
+  skos:prefLabel "nautische diepte vastgezet op Permanent water"@nl;
   sh:datatype xsd:decimal;
   sh:maxCount 1;
   sh:path imbor:ad2a7642-3cfd-4115-8ee0-0b72fd0cafbe.
@@ -14983,7 +14961,7 @@ imbor:308c1ade-506c-4e7f-9aaf-e766da9d9b38 a sh:PropertyShape;
 imbor:30a0259d-b54f-4a66-b110-c90d08ce7d1e a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:ad9683ac-087a-4eb2-a6af-8ac02ea76598;
-  rdfs:subClassOf imbor:da56fc52-a539-45d4-b685-39c17808cf51;
+  rdfs:subClassOf imbor:e4e8e2bb-fd4f-4e42-878e-cbcac19c5105;
   skos:definition "Een rechtspersoon zonder leden die het doel nastreeft waartoe het door de stichter is opgericht."@nl;
   skos:prefLabel "Stichting"@nl.
 
@@ -17381,14 +17359,6 @@ imbor:3ba841a7-d1a1-4ed7-b6bd-88840da36c16 a sh:PropertyShape;
   sh:maxCount 1;
   sh:path imbor:ac602161-16b9-49b0-bb23-ae94cc8af2bb.
 
-imbor:3bb29c7f-a8b5-4bcd-a852-858a8b0fb5b0 a sh:PropertyShape;
-  skos:prefLabel "Kabels- en leidingenbord voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
-    ].
-
 imbor:3bb78686-2f0e-4e19-a24f-1a0f56b43670 a sh:PropertyShape;
   skos:prefLabel "Telefooncel heeft deel Armatuur"@nl;
   sh:path nen2660:hasPart;
@@ -17868,7 +17838,7 @@ imbor:3e08fa4d-7cc3-4f33-b913-df2a2ada4797 a sh:PropertyShape;
 imbor:3e0ede1f-27a3-4c0b-8f48-44e5f568f26e a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:bbb53bb0-b010-4491-a38d-54a3d70885d3;
-  rdfs:subClassOf imbor:da56fc52-a539-45d4-b685-39c17808cf51;
+  rdfs:subClassOf imbor:e4e8e2bb-fd4f-4e42-878e-cbcac19c5105;
   skos:definition "Een vereniging mensen die zich tot het doel van het beheren, onderhouden en gebruiken van een speeltuin of -terrein heeft gericht."@nl;
   skos:prefLabel "Speeltuinvereniging"@nl.
 
@@ -18623,14 +18593,6 @@ imbor:41f8c255-16a2-4455-972b-a5934bbc94ff a sh:PropertyShape;
   sh:qualifiedMaxCount 1;
   sh:qualifiedValueShape [
       sh:class gwsw:VrijvervalDrainagestelsel
-    ].
-
-imbor:41fcd3ee-878e-4d42-9c6d-f194c8f65570 a sh:PropertyShape;
-  skos:prefLabel "Gasleiding voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
     ].
 
 imbor:42034811-a89a-4569-8263-e332cd40afed a sh:PropertyShape;
@@ -19472,14 +19434,6 @@ imbor:46ada964-27d1-4c84-b502-c8dc1c8f995c a rdf:Property;
   skos:definition "Aanduiding voor de aanwezigheid van een vorm van bescherming tegen spanningspieken."@nl;
   skos:prefLabel "overspanningsbeveiliging"@nl.
 
-imbor:46b13bb4-be43-4d3d-9937-de56b0868ac0 a sh:PropertyShape;
-  skos:prefLabel "Zoutwaterleiding voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
-    ].
-
 imbor:46b526fa-cc30-4da9-ba62-8e1d66cfd26d a sh:PropertyShape;
   qudt:unit unit:MilliM;
   skos:prefLabel "diameter vastgezet op Picknicktafel"@nl;
@@ -19866,7 +19820,6 @@ imbor:493f2fad-051a-43f3-ba7d-2283c0c505c8 a rdfs:Class, sh:NodeShape;
   skos:prefLabel "Waterleidingput"@nl;
   sh:property
     imbor:2871ad08-22de-490c-a182-88f3eeb5d209,
-    imbor:c381aa13-99a5-41dd-b9f2-8417c7e0a885,
     imbor:ead66f9f-4212-47cf-8a6c-555efb0fe4a2.
 
 imbor:494d4005-4ee8-4902-a657-00901340a9c9 a sh:PropertyShape;
@@ -20467,8 +20420,7 @@ imbor:4b40aef3-4713-41fd-86d1-722a470dd558 a rdfs:Class, sh:NodeShape;
   rdfs:seeAlso imbor-term:ecd52926-9d78-4c27-9b7a-442b37304ab7;
   rdfs:subClassOf imbor:a57c92d8-2139-45c8-b96f-471106f6af2e;
   skos:definition "Leiding voor het transport van kooldioxide."@nl;
-  skos:prefLabel "Kooldioxideleiding"@nl;
-  sh:property imbor:6c6f8a61-0fbd-4a14-8627-d2fd55cd63d6.
+  skos:prefLabel "Kooldioxideleiding"@nl.
 
 imbor:4b45f0a3-4e2f-4955-90a8-7f34462bd400 a sh:PropertyShape;
   skos:prefLabel "Parkeerautomaat heeft deel Armatuur"@nl;
@@ -20689,8 +20641,7 @@ imbor:4c78d58e-8344-4696-baa8-7f8ebe91ef31 a rdfs:Class, sh:NodeShape;
   rdfs:seeAlso imbor-term:7dd02198-d821-4c87-96fe-099c8730dfb4;
   rdfs:subClassOf imbor:a57c92d8-2139-45c8-b96f-471106f6af2e;
   skos:definition "Leiding voor het transport van aardolie."@nl;
-  skos:prefLabel "Aardolieleiding"@nl;
-  sh:property imbor:ae4aa4c9-a221-417d-97f4-2d4a610975ad.
+  skos:prefLabel "Aardolieleiding"@nl.
 
 imbor:4c8279b7-7e6d-420c-850e-b43ace0b7e38 a sh:PropertyShape;
   skos:prefLabel "Ontluchtingsleiding voert uit Afvoer van gassen uit de riolering"@nl;
@@ -22456,14 +22407,6 @@ imbor:566aee6a-3070-4052-b6e8-16884a0a1e70 a rdfs:Class, sh:NodeShape;
   skos:prefLabel "Peilgebied"@nl;
   sh:property imbor:b452b2c3-4638-4a13-89a2-0edcd46a9803.
 
-imbor:5672461c-13dd-4455-9a74-803ec6d3aed1 a sh:PropertyShape;
-  skos:prefLabel "Mantelbuis voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
-    ].
-
 imbor:567d1c30-7468-4e9b-b603-2958cfcc33e1 a sh:PropertyShape;
   qudt:unit unit:M;
   skos:prefLabel "hoogte vastgezet op Watergang"@nl;
@@ -23258,14 +23201,6 @@ imbor:5ae589c1-acc1-4ffd-883c-af7c53d1871f a rdfs:Class, sh:NodeShape;
   skos:prefLabel "Strandpaal"@nl;
   sh:property imbor:d4af082a-5a79-4727-8bb8-e3a9c0a630cc.
 
-imbor:5ae6a077-541b-419e-8514-6baf6e3e9ffe a sh:PropertyShape;
-  skos:prefLabel "Waterleiding voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
-    ].
-
 imbor:5ae7f87e-46b2-4cea-a409-1ccd12423945 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:ef7196ce-79f3-4dc2-8bfc-1c223b8d3d91;
@@ -23452,9 +23387,7 @@ imbor:5b99273a-ed2c-4841-8f18-350d16147d84 a rdfs:Class, sh:NodeShape;
   skos:definition "Warmtedistributie in de vorm van een verwarmingssysteem, waarbij de woningen worden verwarmd via een ondergronds netwerk van warmwaterleidingen."@nl;
   skos:note "Het betreft hier de geometrische afbakening van het gebied waar stadsverwarming toegepast wordt."@nl;
   skos:prefLabel "Stadsverwarming"@nl;
-  sh:property
-    imbor:062fa406-8e7a-49e6-8823-fe2381d61863,
-    imbor:2927e669-38fb-4151-84f9-e855ad366300.
+  sh:property imbor:062fa406-8e7a-49e6-8823-fe2381d61863.
 
 imbor:5b9964d0-7760-4771-8abb-2072f4b3cf0d a sh:PropertyShape;
   skos:prefLabel "Onderdeeloriëntatie heeft deel Beginpunt onderdeel"@nl;
@@ -25178,7 +25111,7 @@ imbor:641be0b4-b0da-43b1-81b6-193a860053db a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:4f71291b-8fc0-44ec-a505-797d3044f137;
   rdfs:subClassOf imbor:ffa16bb2-fa5a-49f1-b3e8-794499b02785;
-  skos:definition "Een kelder is dat gedeelte van een gebouw dat onder de grond (onder het maaiveld) is gelegen.\r\n\r\n\r\nIJskelder Campus VUB Etterbeek, beschermd sinds 1993\r\nDoor zijn ligging heerst er meestal een vrijwel constante temperatuur."@nl;
+  skos:definition "Een kelder is dat gedeelte van een gebouw dat onder de grond (onder het maaiveld) is gelegen."@nl;
   skos:prefLabel "Kelder"@nl;
   sh:property
     imbor:a5b9ada7-e5a0-4f2e-ad8c-6efb1320b42e,
@@ -25922,7 +25855,7 @@ imbor:6899bb54-3be5-4629-af5b-b1d0cb731569 a rdfs:Class, sh:NodeShape;
   rdfs:seeAlso imbor-term:18e162d7-0e7f-42f2-90fc-43b8f7ea0056;
   rdfs:subClassOf nen3610:Oppervlaktewater;
   skos:definition "Grondoppervlakte in principe bedekt met water."@nl;
-  skos:prefLabel "Oppervlaktewater"@nl;
+  skos:prefLabel "Permanent water"@nl;
   sh:property
     imbor:237c7a24-e77e-4afd-931b-2588b8bcdd75,
     imbor:2997ec00-da59-4813-8f29-15a09881824e,
@@ -25960,14 +25893,6 @@ imbor:68c9e928-155b-404a-a036-8eb3e149b546 a sh:PropertyShape;
   sh:qualifiedMaxCount 1;
   sh:qualifiedValueShape [
       sh:class imbor:4b63997d-267e-4577-9fcb-8be6533eb9d1
-    ].
-
-imbor:68d45d2b-184e-410f-9b73-94305bc8acef a sh:PropertyShape;
-  skos:prefLabel "Rioolleiding voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
     ].
 
 imbor:68dbcc66-0297-4b6f-8739-990b74de424f a sh:PropertyShape;
@@ -26790,14 +26715,6 @@ imbor:6c69753b-7a97-4d18-bec9-becdd3119a36 a rdf:Property;
   skos:definition "Aanduiding voor de aanwezigheid van een noodvoorziening in de kabel om in geval van uitval van een kast de stroomvoorziening naar de verlichtingsobjecten via een andere kast te laten verlopen."@nl;
   skos:prefLabel "kabelsplitspunt"@nl.
 
-imbor:6c6f8a61-0fbd-4a14-8627-d2fd55cd63d6 a sh:PropertyShape;
-  skos:prefLabel "Kooldioxideleiding voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
-    ].
-
 imbor:6c72fc71-0395-43b0-b970-3f101aa2fbd0 a sh:PropertyShape;
   skos:prefLabel "wijze van stellen vastgezet op Band"@nl;
   sh:path imbor:328c7faa-0b46-4107-8aa5-01c551f3d2f4;
@@ -26855,14 +26772,6 @@ imbor:6d0f56f9-bd55-4cc5-a253-4171e1606ef6 a sh:PropertyShape;
   sh:datatype xsd:decimal;
   sh:maxCount 1;
   sh:path imbor:f46c02ba-18ac-4f9f-856a-64dd56591700.
-
-imbor:6d18e68d-eb33-4b7d-b6ab-bba21412c959 a sh:PropertyShape;
-  skos:prefLabel "Loze leiding voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
-    ].
 
 imbor:6d21fbb3-b795-4269-b382-e8361ff31909 a sh:PropertyShape;
   skos:prefLabel "hoofdgemaal vastgezet op Gemaal"@nl;
@@ -27193,14 +27102,6 @@ imbor:6f2725be-2a7b-4d94-8f53-513459f52147 a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf imbor:d79aa48e-c167-42d1-8417-edb72d877c74;
   skos:definition "Een afgebakend gebied voor generieke beheerdoeleinden."@nl;
   skos:prefLabel "Beheerzone"@nl.
-
-imbor:6f3d1886-52e5-4dee-8edf-b1981228b998 a sh:PropertyShape;
-  skos:prefLabel "Beregeningsleiding voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
-    ].
 
 imbor:6f4e7346-2c72-4639-ab27-2d064b27e13a a sh:PropertyShape;
   skos:prefLabel "Rooster heeft deel Slot"@nl;
@@ -29138,14 +29039,6 @@ imbor:7907c5ef-15f3-4527-9609-de18c2647191 a sh:PropertyShape;
   sh:qualifiedMinCount 0;
   sh:qualifiedValueShape [
       sh:class gwsw:Filterput
-    ].
-
-imbor:791f7b13-c416-41e1-9f81-2802379565b3 a sh:PropertyShape;
-  skos:prefLabel "Effluentleiding voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
     ].
 
 imbor:792fa60d-7b23-401f-adb5-231cdf46c889 a sh:PropertyShape;
@@ -31663,8 +31556,7 @@ imbor:84a9afb9-fdb0-4306-880f-f55512f9d21a a rdfs:Class, sh:NodeShape;
   rdfs:seeAlso imbor-term:d0bfa68b-d124-4a69-a580-7184bdd3498e;
   rdfs:subClassOf imbor:a57c92d8-2139-45c8-b96f-471106f6af2e;
   skos:definition "Leiding voor het afvoeren van gezuiverd water van de rioolwaterzuiveringsinstallatie."@nl;
-  skos:prefLabel "Effluentleiding"@nl;
-  sh:property imbor:791f7b13-c416-41e1-9f81-2802379565b3.
+  skos:prefLabel "Effluentleiding"@nl.
 
 imbor:84b9b6bf-7917-4a9d-bec9-5d624190420c a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -31852,7 +31744,7 @@ imbor:859e06e4-ce87-4baa-8ffd-ff4e73d7cc25 a rdfs:Class, sh:NodeShape;
   rdfs:seeAlso imbor-term:0d8c6d0a-e98d-467d-b7aa-706a52708662;
   rdfs:subClassOf imbor:877b1cda-aa35-4015-8b9c-85997fb87110;
   skos:definition "Gebied op een baan, in lengterichting begrensd door een beginraai en een eindraai, en in dwarsrichting begrensd door: ofwel twee opeenvolgende zichtbare overgangen in materie, ofwel twee opeenvolgende zichtbare kniklijnen, ofwel een zichtbare overgang in materie en een naastgelegen zichtbare kniklijn, ofwel, ingeval asstreep en deelstrepen ontbreken, een zichtbare overgang in materie en de denkbeeldige lijn ter plaatse van het midden van de verharding van een enkelbaansweg of fietspad bestemd voor en voldoende breed voor verkeer in twee rijrichtingen."@nl;
-  skos:note "Begrensd gedeelte van de rijbaan dat voldoende breed is voor een rij van het voor dat gedeelte bestemde verkeer.\r\nOvergangen in materie doen zich voor tussen diverse soorten verharding en/of wegmarkering en/of vegetatie. Ook kleurovergangen in de verharding kunnen als strookgrens worden aangemerkt."@nl;
+  skos:note "Begrensd gedeelte van de rijbaan dat voldoende breed is voor een rij van het voor dat gedeelte bestemde verkeer. Overgangen in materie doen zich voor tussen diverse soorten verharding en/of wegmarkering en/of vegetatie. Ook kleurovergangen in de verharding kunnen als strookgrens worden aangemerkt."@nl;
   skos:prefLabel "Strook"@nl;
   sh:property
     imbor:0c882093-8417-4717-a3fd-857249194f01,
@@ -32200,7 +32092,7 @@ imbor:876cfe35-1686-4dea-bded-dccbee2d860a a sh:PropertyShape;
 imbor:8773157f-3ce7-455f-9614-b7f26f5afe17 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:dfe276a0-dca5-45f5-9184-1de316a1ecf6;
-  rdfs:subClassOf imbor:da56fc52-a539-45d4-b685-39c17808cf51;
+  rdfs:subClassOf imbor:e4e8e2bb-fd4f-4e42-878e-cbcac19c5105;
   skos:definition "Een organisatie die de instaat voor het beschermen van bepaalde elementen van de natuur, in het bijzonder cultuur-historisch belangrijke of oorspronkelijke landschappen, bedreigde levensgemeenschappen, dier- en plantensoorten, biodiversiteit en natuurlijke hulpbronnen."@nl;
   skos:prefLabel "Natuurorganisatie"@nl.
 
@@ -32285,7 +32177,6 @@ imbor:88075418-0506-4995-ad11-9133fcffa391 a rdfs:Class, sh:NodeShape;
   skos:prefLabel "Waterleiding"@nl;
   sh:property
     imbor:3a20d205-0f71-4b8f-a701-01f44f363164,
-    imbor:5ae6a077-541b-419e-8514-6baf6e3e9ffe,
     imbor:7813b0b2-a01b-46fa-9c97-03a137020153,
     imbor:e3a52d63-d973-414c-91d4-9c43ab841685,
     imbor:e6f3ea93-7a82-494c-a41b-db2be966b564,
@@ -32331,7 +32222,7 @@ imbor:8820cd3f-e4cc-4391-a040-b3c087cc3f78 a sh:PropertyShape;
 
 imbor:88247cf4-2e85-42ff-a6dd-0aac334403e9 a sh:PropertyShape;
   qudt:unit unit:M;
-  skos:prefLabel "omtrek vastgezet op Water"@nl;
+  skos:prefLabel "omtrek vastgezet op Oppervlaktewater"@nl;
   sh:datatype xsd:decimal;
   sh:maxCount 1;
   sh:path imbor:ed318b3e-b3e5-4c41-90c9-4d5b67621897.
@@ -33868,7 +33759,7 @@ imbor:905b6d89-3f4e-43ee-8ed8-5fb948446064 a rdfs:Class, sh:NodeShape;
 
 imbor:905c5444-8d63-4a96-bca5-c0665d232da3 a sh:PropertyShape;
   qudt:unit unit:M;
-  skos:prefLabel "waterpeil zomer vastgezet op Oppervlaktewater"@nl;
+  skos:prefLabel "waterpeil zomer vastgezet op Permanent water"@nl;
   sh:datatype xsd:decimal;
   sh:maxCount 1;
   sh:path imbor:0fe546c6-2acd-4d1f-8cb2-ff589cdd6449.
@@ -35844,7 +35735,6 @@ imbor:9a0be387-0fcf-4d16-af0d-a89ee0def168 a rdfs:Class, sh:NodeShape;
   skos:definition "Leiding voor het transport van zoutwater."@nl;
   skos:prefLabel "Zoutwaterleiding"@nl;
   sh:property
-    imbor:46b13bb4-be43-4d3d-9937-de56b0868ac0,
     imbor:5d249425-1d86-411c-9063-e7c283e6d4d4,
     imbor:6e2d1bf3-8102-4951-9b4c-8685675f28ab,
     imbor:a7ee6be1-bae7-4393-b37c-3947bfc374ba,
@@ -36332,14 +36222,6 @@ imbor:9d083c2b-ad9c-44b7-9cce-ad5263359be9 a rdfs:Class, sh:NodeShape;
     imbor:1b792680-8c4c-4686-8794-d97f28c39a6c,
     imbor:229c58b5-11ee-4f91-afd5-ae19d4265895.
 
-imbor:9d0e0a11-c9d7-4f03-abe9-200a9596bacc a sh:PropertyShape;
-  skos:prefLabel "Weesleiding voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
-    ].
-
 imbor:9d18ecdc-ce7a-4806-904d-bc6813411e21 a sh:PropertyShape;
   skos:prefLabel "verschijningsvorm vastgezet op Wegas"@nl;
   sh:path imbor:e3e112b3-e46f-45c4-b2c9-b152e6f805a1;
@@ -36577,9 +36459,7 @@ imbor:9e026bb2-3153-4e89-93c8-b08867329b3e a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf imbor:a57c92d8-2139-45c8-b96f-471106f6af2e;
   skos:definition "Een leiding in de vorm van een buis (uit metaal of kunststof) die gebruikt wordt om diverse stoffen in gasvorm te vervoeren."@nl;
   skos:prefLabel "Gasleiding"@nl;
-  sh:property
-    imbor:41fcd3ee-878e-4d42-9c6d-f194c8f65570,
-    imbor:468318d3-1122-428d-b3e3-c4c63d74ae78.
+  sh:property imbor:468318d3-1122-428d-b3e3-c4c63d74ae78.
 
 imbor:9e03ee4c-cc53-40c5-8f04-5f1b3b0c4d3c a rdf:Property;
   qudt:hasQuantityKind quantitykind:Length;
@@ -36893,7 +36773,7 @@ imbor:9f826955-f920-4434-8e68-2b94d8b52394 a rdfs:Class, sh:NodeShape;
 imbor:9f8a12f4-ff15-4dac-bd02-bf89e92516ac a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:d0f7e70f-9c33-4469-ad0b-665ded010535;
-  rdfs:subClassOf imbor:da56fc52-a539-45d4-b685-39c17808cf51;
+  rdfs:subClassOf imbor:e4e8e2bb-fd4f-4e42-878e-cbcac19c5105;
   skos:definition "Een organisatie die zich richt op het bouwen, beheren en verhuren van kwalitatief goede woonruimte met een betaalbare huur voor mensen met een smalle beurs."@nl;
   skos:prefLabel "Woningcorporatie"@nl.
 
@@ -38298,7 +38178,6 @@ imbor:a70bda2d-a47e-4c30-b273-586240d4a801 a rdfs:Class, sh:NodeShape;
   skos:definition "Borden welke gebruikt worden voor de aanduiding van kabels en leidingen."@nl;
   skos:prefLabel "Kabels- en leidingenbord"@nl;
   sh:property
-    imbor:3bb29c7f-a8b5-4bcd-a852-858a8b0fb5b0,
     imbor:8fffa7ee-21af-4273-b6bc-03e36db503de,
     imbor:cab96913-62b6-4834-b297-8ff88e2ae673.
 
@@ -39555,7 +39434,6 @@ imbor:ad6cf3cd-dd7c-43a7-9be3-157aa0f55488 a rdfs:Class, sh:NodeShape;
     imbor:7f66a228-de94-4d14-95fd-af9922198985,
     imbor:8f2e08d7-16ca-4ae3-8b9b-2c2fdf012700,
     imbor:9b4227d1-5ad9-470b-8880-0cd0674003d7,
-    imbor:9d0e0a11-c9d7-4f03-abe9-200a9596bacc,
     imbor:db84455f-92b9-450f-b995-b5fca1d0b1f5,
     imbor:e8b70177-d83e-4532-92a1-40f4d7001b53.
 
@@ -39686,14 +39564,6 @@ imbor:ae3b69ce-3df3-4ab1-97d8-dd44987edac2 a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf nen3610:Gebouw;
   skos:definition "Gebouw dat zodanig constructief is vormgegeven dat daarbinnen personen in verzekerde bewaring kunnen worden gesteld om een gevangenisstraf uit te zitten."@nl;
   skos:prefLabel "Gevangenis"@nl.
-
-imbor:ae4aa4c9-a221-417d-97f4-2d4a610975ad a sh:PropertyShape;
-  skos:prefLabel "Aardolieleiding voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
-    ].
 
 imbor:ae706fe2-9b2a-43bc-8f91-201036a3bab1 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -41528,7 +41398,7 @@ imbor:b7d14d67-e9fe-40b4-863d-a4b2ca8e7960 a sh:PropertyShape;
 
 imbor:b7d33e29-a868-4dbd-88ab-e8ad8e62d97f a sh:PropertyShape;
   qudt:unit unit:M;
-  skos:prefLabel "waterpeil winter vastgezet op Oppervlaktewater"@nl;
+  skos:prefLabel "waterpeil winter vastgezet op Permanent water"@nl;
   sh:datatype xsd:decimal;
   sh:maxCount 1;
   sh:path imbor:f49c84a4-f7b9-44c5-9dbc-d9f63f552415.
@@ -41955,7 +41825,7 @@ imbor:ba0d6864-baad-473c-adad-3e07d9a24b60 a rdf:Property;
 imbor:ba119334-4b0f-4eb9-8da6-267956a0c7ac a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:bed50387-1256-4367-8332-05d70080eb92;
-  rdfs:subClassOf imbor:da56fc52-a539-45d4-b685-39c17808cf51;
+  rdfs:subClassOf imbor:e4e8e2bb-fd4f-4e42-878e-cbcac19c5105;
   skos:definition "De gecontracteerde partij die het object aangelegd of bewerkt heeft."@nl;
   skos:prefLabel "Uitvoerende organisatie"@nl.
 
@@ -42417,7 +42287,6 @@ imbor:bc95b473-af2c-4916-ad9e-5c7c525948ed a rdfs:Class, sh:NodeShape;
   sh:property
     imbor:11b0cf20-33dc-433d-8947-8875d3d7d8b7,
     imbor:25bd813c-6568-4ad5-be87-50c5d459395b,
-    imbor:6f3d1886-52e5-4dee-8edf-b1981228b998,
     imbor:88d02b2d-9373-4a27-96ef-049c088a410a,
     imbor:9176545d-255d-421b-8075-415b95140229,
     imbor:9f9e91f8-c069-48f4-bccb-790abd8d3dac.
@@ -43535,14 +43404,6 @@ imbor:c36a31ea-a38f-42b5-b494-5d30d4465617 a rdfs:Class, sh:NodeShape;
   skos:prefLabel "Leverancier"@nl;
   sh:property imbor:b0cb8f6b-293c-439f-a547-60ca41f3b202.
 
-imbor:c381aa13-99a5-41dd-b9f2-8417c7e0a885 a sh:PropertyShape;
-  skos:prefLabel "Waterleidingput voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
-    ].
-
 imbor:c397a2a3-d423-494a-b722-648f343830a0 a sh:PropertyShape;
   skos:prefLabel "Armatuur is verbonden met Spandraad"@nl;
   sh:path nen2660:isConnectedTo;
@@ -43707,7 +43568,7 @@ imbor:c44ef7cf-a723-44fe-980c-7eee3a03001e a rdf:Property;
   skos:prefLabel "omschrijving"@nl.
 
 imbor:c451c73d-0b63-4df9-b051-c7089d215d3e a sh:PropertyShape;
-  skos:prefLabel "Boom is verbonden met Water"@nl;
+  skos:prefLabel "Boom is verbonden met Oppervlaktewater"@nl;
   sh:path nen2660:isConnectedTo;
   sh:qualifiedMaxCount 1;
   sh:qualifiedValueShape [
@@ -47223,17 +47084,7 @@ imbor:d678aa8b-456a-4d8b-9b3a-30d0cf93933f a rdfs:Class, sh:NodeShape;
 
 imbor:d67d11d7-a9e5-4b5a-badc-bee9d4f960e2 a rdfs:Container;
   rdfs:member
-    gwsw:Afvalwatersysteem,
     gwsw:Compartiment,
-    gwsw:Duikerstelsel,
-    gwsw:GescheidenSysteem,
-    gwsw:Grondwatersysteem,
-    gwsw:Infiltratiestelsel,
-    gwsw:Meetinrichting,
-    gwsw:Oppervlaktewatersysteem,
-    gwsw:Regelinrichting,
-    gwsw:RTC_sturing,
-    gwsw:Transportsysteem,
     imbor:0516b1e1-9948-467e-9f0c-891f3b7d7540,
     imbor:078e5fa9-f535-4925-8cda-30dcae3d5007,
     imbor:0b5da949-b90e-470d-9479-98869a4ae28c,
@@ -47281,7 +47132,6 @@ imbor:d67d11d7-a9e5-4b5a-badc-bee9d4f960e2 a rdfs:Container;
     imbor:6b81f4af-ab63-4c1a-9ce6-bff2a1e34d80,
     imbor:6dd67783-a017-4ca3-9708-b96b4dd867ef,
     imbor:73c28dc5-a73a-47c8-8954-bac8ab61d375,
-    imbor:77f04a27-6738-4d05-8e38-8f478dd8407e,
     imbor:79fde1df-3c4b-4ea3-8338-30b2ba53c756,
     imbor:7a895484-217c-477f-9f2d-7e109fbdb28d,
     imbor:7c3addd3-7c29-45de-bf66-3fb3ed084750,
@@ -47483,7 +47333,6 @@ imbor:d75f4064-3922-4dda-bf8d-7c26f748dae2 a rdfs:Class, sh:NodeShape;
   rdfs:seeAlso imbor-term:ad5d0c74-3b84-480a-a8f1-9d2ad0e87c7d;
   rdfs:subClassOf imbor:6f2725be-2a7b-4d94-8f53-513459f52147;
   skos:definition "Een functioneel gebied voor het beheren en inspecteren van de objecten binnen de begrenzing. De begrenzing kan ook uit meerdere vlakken bestaan (multivlak)."@nl;
-  skos:note "Afwegingen bij bepalen van de grenzen van een kunstwerk (in IMBOR: beheervak):\r\nWel of niet meenemen van: \r\n• Constructie of onderdelen daarvan.\r\n• Bovenbouw en onderbouw/fundering.\r\n• Aansluitende oeverconstructies tot een bepaalde lengte.\r\n• Aansluitende remming- en/of geleidewerken\r\n• Bedieningsgebouwen\r\n• Aansluitende verhardingen tot een bepaalde afstand.\r\n• Verhardingen en andere onderdelen onder bijvoorbeeld viaducten.\r\n• Waterbodems langs oeverconstructies."@nl;
   skos:prefLabel "Beheervak"@nl.
 
 imbor:d761f14f-697b-41df-b9a3-a6a803e64717 a rdf:Property;
@@ -47873,14 +47722,6 @@ imbor:d96e63ce-4fa6-4697-9aca-36b6184d6207 a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf imbor:d8c45d1a-08e0-454a-942f-aa374ce030a3;
   skos:definition "Een dynamisch reizigersinformatiesysteem (DRIS) is een reizigersinformatiesysteem voor het openbaar vervoer in Nederland die de werkelijke vertrektijden van de bus, tram of metro en actuele onregelmatigheden weergeeft."@nl;
   skos:prefLabel "Reistijdinformatiesysteem"@nl.
-
-imbor:d9722b4e-41e6-420b-823e-40991d9986cb a sh:PropertyShape;
-  skos:prefLabel "Pendelstuk voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
-    ].
 
 imbor:d97b4655-eb66-436f-ad73-e4b80ba256f1 a sh:PropertyShape;
   qudt:unit unit:M;
@@ -49801,7 +49642,7 @@ imbor:e4421555-04d3-4667-91ac-74d3ba314381 a rdfs:Class;
 
 imbor:e44237d5-f9b1-4ac8-9926-597b3a64d55b a sh:PropertyShape;
   qudt:unit unit:M2;
-  skos:prefLabel "oppervlakte vastgezet op Water"@nl;
+  skos:prefLabel "oppervlakte vastgezet op Oppervlaktewater"@nl;
   sh:datatype xsd:decimal;
   sh:maxCount 1;
   sh:path imbor:29ec4228-7a32-41db-ac73-b80db66ea743.
@@ -49918,7 +49759,7 @@ imbor:e4ddc50f-ce1e-4236-b65d-dba38e10196a a rdf:Property;
   skos:prefLabel "transponder"@nl.
 
 imbor:e4df993d-1def-449f-8277-c2b11a8d5fae a sh:PropertyShape;
-  skos:prefLabel "zoutgehalte vastgezet op Water"@nl;
+  skos:prefLabel "zoutgehalte vastgezet op Oppervlaktewater"@nl;
   sh:path imbor:fe9b29f0-b902-40cc-8203-831a85057c87;
   sh:qualifiedMaxCount 1;
   sh:qualifiedValueShape [
@@ -50325,7 +50166,7 @@ imbor:e6b498e5-1124-4835-97d2-8880c8c0ef0a a sh:PropertyShape;
     ].
 
 imbor:e6b945b2-d186-4758-b9a5-7449c8434211 a sh:PropertyShape;
-  skos:prefLabel "type vaarwater vastgezet op Oppervlaktewater"@nl;
+  skos:prefLabel "type vaarwater vastgezet op Permanent water"@nl;
   sh:path imbor:14089940-6266-4321-b06b-6e1153502578;
   sh:qualifiedMaxCount 1;
   sh:qualifiedValueShape [
@@ -51068,7 +50909,6 @@ imbor:ea3de512-7af7-439f-bdd4-1ddacf6cc2bc a rdfs:Class, sh:NodeShape;
   skos:prefLabel "Mantelbuis"@nl;
   sh:property
     imbor:2dc91655-0360-40c6-9223-25556c6ed93f,
-    imbor:5672461c-13dd-4455-9a74-803ec6d3aed1,
     imbor:7b493581-ccd3-4ef5-9b73-382e2b51bdaa,
     imbor:9ea62293-5337-482a-a057-990aef6872d3,
     imbor:fff84dcf-3f0c-4859-97c8-639909521a92.
@@ -51101,14 +50941,6 @@ imbor:ea81d1ee-225e-475e-aa2c-e89289d093d7 a sh:PropertyShape;
   sh:qualifiedMaxCount 1;
   sh:qualifiedValueShape [
       sh:class imbor:6a2e91d6-e387-4699-b8dd-080396cfa08f
-    ].
-
-imbor:ea8ec06d-f785-4391-88e0-3ec8bd076211 a sh:PropertyShape;
-  skos:prefLabel "Ontluchtingsleiding voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
     ].
 
 imbor:eaaa5ab7-dde7-43b6-8b98-77c287f5d414 a rdf:Property;
@@ -51647,7 +51479,6 @@ imbor:ed08f71e-7e94-4f07-ad53-01d538a2f6d7 a rdfs:Class, sh:NodeShape;
   skos:note "In de berm aangebrachte verharde open afvoer voor hemelwater. Er is een verschil met een molgoot, een gootstrook ligt altijd in de berm. Soms gaat een molgoot over in een gootstrook."@nl;
   skos:prefLabel "Gootstrook"@nl;
   sh:property
-    imbor:129fddb7-32e9-40f9-91ae-f8dd10e1b76c,
     imbor:1f260cdf-32d9-4d2a-a443-f7fe70a25ed7,
     imbor:47e36952-d998-49fc-ae8d-5221fc01c4bf,
     imbor:de78afb7-46dd-4533-a4b6-4535cc40f49c,
@@ -52775,7 +52606,7 @@ imbor:f3d677e9-15e7-4bc6-a9f0-c06ebb1e27a0 a sh:PropertyShape;
 imbor:f3d98702-8c81-4b6c-8ba6-ae1d18ff279a a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:881c3b68-12aa-4fce-ba16-5b9222c35252;
-  rdfs:subClassOf imbor:da56fc52-a539-45d4-b685-39c17808cf51;
+  rdfs:subClassOf imbor:e4e8e2bb-fd4f-4e42-878e-cbcac19c5105;
   skos:definition "Een onderwijsinstelling in het hoger onderwijs die ingericht is om wetenschappelijk onderwijs te bieden en wetenschappelijk onderzoek te verrichten."@nl;
   skos:prefLabel "Universiteit"@nl.
 
@@ -54071,14 +53902,6 @@ imbor:fb6c79f8-067c-455c-9d87-fe20da425cf6 a rdfs:Class, sh:NodeShape;
   skos:definition "Een door hoge afscheidingen, vaak gemaakt van gaas of metaal, omringd sportveld waar de sport tennis gespeeld kan worden."@nl;
   skos:prefLabel "Tenniskooi"@nl.
 
-imbor:fb70b1ae-5c0c-4ccb-b870-105ebada836f a sh:PropertyShape;
-  skos:prefLabel "Transportleiding voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
-    ].
-
 imbor:fb72acae-6e41-40df-8b32-3f41415b23d9 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:f511177a-ecb1-4644-94a3-28bb50d8e8eb;
@@ -54188,14 +54011,6 @@ imbor:fc103628-7e2a-4fd9-a66c-df0c585f51ec a sh:PropertyShape;
   sh:qualifiedMinCount 0;
   sh:qualifiedValueShape [
       sh:class imbor:38a36b34-a593-499d-b210-0c48fb40ca3b
-    ].
-
-imbor:fc1c7628-7d1f-41d9-8139-f806894bdae0 a sh:PropertyShape;
-  skos:prefLabel "Bierleiding voert uit Voortgeleiding van materie"@nl;
-  sh:path nen2660:executes;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class gwsw:VoortgeleidingVanMaterie
     ].
 
 imbor:fc243c33-daa4-456b-b9ab-f1fd21793d8f a sh:PropertyShape;
@@ -54520,7 +54335,7 @@ imbor:fdcd7ce8-b3cb-409e-b213-3ea6c6cabee7 a sh:PropertyShape;
   sh:path imbor:638eff22-a320-43ae-889a-0a0b5f83dceb.
 
 imbor:fdd1a2fc-3b05-4a4a-a884-850070dea39f a sh:PropertyShape;
-  skos:prefLabel "bevaarbaarheidklasse vastgezet op Oppervlaktewater"@nl;
+  skos:prefLabel "bevaarbaarheidklasse vastgezet op Permanent water"@nl;
   sh:path imbor:3bf1cbb6-883b-4247-9a42-12076807eb98;
   sh:qualifiedMaxCount 1;
   sh:qualifiedValueShape [

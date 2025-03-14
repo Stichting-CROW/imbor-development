@@ -1548,7 +1548,7 @@ imbor-domeinwaarde:0d16fca8-ac85-4a86-96a4-d7d7a4f0f136 a imbor:e29de60f-1400-41
 imbor-domeinwaarde:0d20cd2e-f244-4d68-8493-271ee408135c a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:71f7da76-ac4e-4ba4-aa09-92472ec6cf2b;
   skos:broader imbor:85785cec-c995-4255-8a03-368e22fc4a2f;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\npersonen- en bedrijfsauto’s emissieklasse 4 tot en met 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor personen- en bedrijfsauto’s emissieklasse 4 tot en met 6"@nl;
   skos:prefLabel "C22a2"@nl.
 
 imbor-domeinwaarde:0d355df8-e88a-4578-86fb-414c28a2a996 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
@@ -2885,7 +2885,7 @@ imbor-domeinwaarde:1a529571-241c-4de9-bba5-53ff6f082439 a imbor:e47ccd4f-61fa-40
 imbor-domeinwaarde:1a67db30-417a-403a-a2ee-a892f8b850e3 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:fbb123d9-d541-40aa-8004-5356722a5de5;
   skos:broader imbor:85785cec-c995-4255-8a03-368e22fc4a2f;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\nautobussen emissieklasse 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor autobussen emissieklasse 6"@nl;
   skos:prefLabel "C22a7"@nl.
 
 imbor-domeinwaarde:1a7290d2-9eaa-4f31-823a-62bbfca4979a a imbor:9e3e0f23-948a-444f-a820-05215f81a4e1;
@@ -4673,7 +4673,7 @@ imbor-domeinwaarde:2a65ee73-305e-4438-ad4f-9e60d721cd4d a imbor:e29de60f-1400-41
 imbor-domeinwaarde:2a66858c-22ab-4c0a-a7a5-eb19f4ca952d a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:2f029fb3-774f-4333-8e49-eac369d217a6;
   skos:broader imbor:85785cec-c995-4255-8a03-368e22fc4a2f;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\nvrachtauto’s emissieklasse 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor vrachtauto’s emissieklasse 6"@nl;
   skos:prefLabel "C22a5"@nl.
 
 imbor-domeinwaarde:2a66b0fc-d844-4c5a-a3e7-e651e7ee8eb4 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
@@ -4764,7 +4764,7 @@ imbor-domeinwaarde:2b04fb7e-301f-4e56-b85c-bd6886064bc7 a imbor:9e3e0f23-948a-44
 imbor-domeinwaarde:2b0dd19a-33cb-4964-abdf-59346d0e5d8e a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:12ae99da-eefb-48d4-b080-fab5d8853713;
   skos:broader imbor:85785cec-c995-4255-8a03-368e22fc4a2f;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\nvrachtauto’s en autobussen emissieklasse 4 tot en met 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor vrachtauto’s en autobussen emissieklasse 4 tot en met 6"@nl;
   skos:prefLabel "C22a8"@nl.
 
 imbor-domeinwaarde:2b2375ea-e1b1-47f6-be1d-9285229092ab a imbor:f1c41c3c-d584-4cfa-b84b-11d8919c16b5;
@@ -5638,7 +5638,7 @@ imbor-domeinwaarde:32b9a2ab-da52-4479-824e-b5d0e445f042 a imbor:e71ccc0f-bd70-48
 imbor-domeinwaarde:32c84ce3-225b-4534-96e4-c192131e4e7e a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:d452d46f-e677-4b40-b39a-89781b320699;
   skos:broader imbor:85785cec-c995-4255-8a03-368e22fc4a2f;
-  skos:definition "Onderbord vioor milieuzone toegankelijk voor\r\nautobussen emissieklasse 4 tot en met 6"@nl;
+  skos:definition "Onderbord vioor milieuzone toegankelijk voor autobussen emissieklasse 4 tot en met 6"@nl;
   skos:prefLabel "C22a6"@nl.
 
 imbor-domeinwaarde:32cf2b67-6146-4a2c-9c02-0869682084fc a imbor:96855297-c02b-473d-9307-4a2f23dc60a5;
@@ -6357,7 +6357,7 @@ imbor-domeinwaarde:3942d97f-24ca-4647-8f1b-8e935c1aef1a a imbor:8bbf2454-f9bc-45
 imbor-domeinwaarde:394df905-6fba-4f23-a982-e755eb948be2 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:e60c9738-e281-4328-9054-743a95dcb0bd;
   skos:broader imbor:85785cec-c995-4255-8a03-368e22fc4a2f;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\npersonen- en bedrijfsauto’s emissieklasse 5 en 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor personen- en bedrijfsauto’s emissieklasse 5 en 6"@nl;
   skos:prefLabel "C22a3"@nl.
 
 imbor-domeinwaarde:39604f45-56b3-458b-a4a8-90957961b867 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
@@ -7877,7 +7877,7 @@ imbor-domeinwaarde:457ee27b-4b26-493f-8d91-c0ec9dcfe365 a imbor:4feaf600-5c32-46
 imbor-domeinwaarde:459497fa-2f34-4dbb-b018-974290a7eb97 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:147b205a-d842-49e2-811c-f29253e608ad;
   skos:broader imbor:85785cec-c995-4255-8a03-368e22fc4a2f;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\nvrachtauto’s emissieklasse 4 tot en met 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor vrachtauto’s emissieklasse 4 tot en met 6"@nl;
   skos:prefLabel "C22a4"@nl.
 
 imbor-domeinwaarde:45980ce5-5307-4fe1-91f9-059235d92a09 a imbor:509d943f-1fd2-42ea-b94c-3625208827b0;
@@ -9385,7 +9385,7 @@ imbor-domeinwaarde:53f5dcf8-7757-4f5e-b166-390cfbba9491 a imbor:b87e39bb-b1c4-41
 imbor-domeinwaarde:53f621a0-20ee-4749-b76e-b7c8454c07d3 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:946073ba-3a7b-4154-b2b0-a4b79ece877e;
   skos:broader imbor:85785cec-c995-4255-8a03-368e22fc4a2f;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\nvrachtauto’s en autobussen emissieklasse 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor vrachtauto’s en autobussen emissieklasse 6"@nl;
   skos:prefLabel "C22a9"@nl.
 
 imbor-domeinwaarde:53f84a68-8ff4-457e-9d69-8234d40ef22f a imbor:83e51cae-6dfd-4039-84ab-57901d20071f;
@@ -12882,7 +12882,7 @@ imbor-domeinwaarde:7483f0d4-2013-4999-a759-bc03b455d9a0 a imbor:b94246d0-c583-49
 imbor-domeinwaarde:74a21536-3ddd-4eca-8348-5872569fa445 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:acc8055e-8347-41dd-b7c2-8f5e8cd8356f;
   skos:broader imbor:85785cec-c995-4255-8a03-368e22fc4a2f;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\npersonen- en bedrijfsauto’s emissieklasse 3 tot en met 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor personen- en bedrijfsauto’s emissieklasse 3 tot en met 6"@nl;
   skos:prefLabel "C22a1"@nl.
 
 imbor-domeinwaarde:74b89586-59af-452e-bf91-c9a357625b70 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
@@ -13277,7 +13277,7 @@ imbor-domeinwaarde:77f40b90-9ef9-405b-adef-5a4bee57c3a4 a imbor:410ad96a-fa8d-41
 
 imbor-domeinwaarde:77fe8281-ee08-482c-932b-1a786fd3c5cb a imbor:1b9a9921-2020-4327-897c-c91bfad64fe2;
   rdfs:seeAlso imbor-term:4b3fc70c-0b3d-4969-98e5-359bb834c6bb;
-  skos:definition "IEC norm voor de informatie-uitwisseling voor ‘roaming’-diensten voor\r\nelektrische voertuigen."@nl;
+  skos:definition "IEC norm voor de informatie-uitwisseling voor ‘roaming’-diensten voor elektrische voertuigen."@nl;
   skos:prefLabel "IEC 63119"@nl.
 
 imbor-domeinwaarde:7809cfd8-73dd-4fae-b154-ad4cbcf53fd8 a imbor:7b4ac0bb-d1a4-4cb0-af5e-81bed1cf00bb;
@@ -22322,7 +22322,7 @@ imbor-domeinwaarde:c8f1cc9c-858b-430a-8b73-90ab1fbdc646 a imbor:c06d08e7-945a-4c
 
 imbor-domeinwaarde:c8f330d3-4c43-4922-9f0f-9c7a130e9c74 a imbor:c39d6cd5-9627-4c8d-8b63-4ccf2de8b372;
   rdfs:seeAlso imbor-term:17023213-ae8d-4d59-a967-1898b08e47e8;
-  skos:definition "Wegmarkering die dient om verkeersstromen te scheiden, uitgevoerd als vlak Soms wordt alleen de omtrek van het vlak aangegeven.\r\nWegmarkering die dient om verkeersstromen te scheiden, uitgevoerd als vlak Soms wordt alleen de omtrek van het vlak aangegeven"@nl;
+  skos:definition "Wegmarkering die dient om verkeersstromen te scheiden, uitgevoerd als vlak. Soms wordt alleen de omtrek van het vlak aangegeven. Wegmarkering die dient om verkeersstromen te scheiden, uitgevoerd als vlak. Soms wordt alleen de omtrek van het vlak aangegeven."@nl;
   skos:prefLabel "Scheidingsvlak"@nl.
 
 imbor-domeinwaarde:c8f6b71a-6259-42c5-b5b3-25753c20a1ee a imbor:b94246d0-c583-49c3-b7f8-994793329b87;

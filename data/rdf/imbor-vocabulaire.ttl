@@ -2526,7 +2526,7 @@ imbor-term:0d8c6d0a-e98d-467d-b7aa-706a52708662 a skos:Concept;
   skos:broader imbor-term:099c4c75-b063-4993-9dac-53155dfcf0d4;
   skos:definition "Gebied op een baan, in lengterichting begrensd door een beginraai en een eindraai, en in dwarsrichting begrensd door: ofwel twee opeenvolgende zichtbare overgangen in materie, ofwel twee opeenvolgende zichtbare kniklijnen, ofwel een zichtbare overgang in materie en een naastgelegen zichtbare kniklijn, ofwel, ingeval asstreep en deelstrepen ontbreken, een zichtbare overgang in materie en de denkbeeldige lijn ter plaatse van het midden van de verharding van een enkelbaansweg of fietspad bestemd voor en voldoende breed voor verkeer in twee rijrichtingen."@nl;
   skos:inScheme imbor-term:term-schema;
-  skos:note "Begrensd gedeelte van de rijbaan dat voldoende breed is voor een rij van het voor dat gedeelte bestemde verkeer.\r\nOvergangen in materie doen zich voor tussen diverse soorten verharding en/of wegmarkering en/of vegetatie. Ook kleurovergangen in de verharding kunnen als strookgrens worden aangemerkt."@nl;
+  skos:note "Begrensd gedeelte van de rijbaan dat voldoende breed is voor een rij van het voor dat gedeelte bestemde verkeer. Overgangen in materie doen zich voor tussen diverse soorten verharding en/of wegmarkering en/of vegetatie. Ook kleurovergangen in de verharding kunnen als strookgrens worden aangemerkt."@nl;
   skos:prefLabel "Strook"@nl.
 
 imbor-term:0d931a38-99cd-4385-bb9b-c7b99db0b37e a skos:Concept;
@@ -3656,7 +3656,7 @@ imbor-term:12adb079-3513-4485-b114-f167e2279c50 a skos:Concept;
   skos:prefLabel "Bolle bodem"@nl.
 
 imbor-term:12ae99da-eefb-48d4-b080-fab5d8853713 a skos:Concept;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\nvrachtauto’s en autobussen emissieklasse 4 tot en met 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor vrachtauto’s en autobussen emissieklasse 4 tot en met 6"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "C22a8"@nl.
 
@@ -3788,7 +3788,7 @@ imbor-term:1352b856-7691-40f2-8ce0-1724a7987ae3 a skos:Concept;
   skos:broader
     imbor-term:829baa43-7f4f-4d25-b0b7-2916c7e4cb36,
     imbor-term:fa1b8f10-b13c-40d1-b96f-689b9a8817f8;
-  skos:definition "Bovenste begrenzing van het aardoppervlak, exclusief oppervlaktewater."@nl;
+  skos:definition "Bovenste deel van de aarde, exclusief oppervlaktewater."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:note "Het object wordt gebruikt als het stuk grond direct onder het aardoppervlak waar zich pedogenetische processen plaatsvinden."@nl;
   skos:prefLabel "Bodem"@nl.
@@ -3948,7 +3948,7 @@ imbor-term:13fd95af-ba1e-41cc-8603-f9a6aa4a885d a skos:Concept;
   skos:broader
     imbor-term:829baa43-7f4f-4d25-b0b7-2916c7e4cb36,
     imbor-term:fa1b8f10-b13c-40d1-b96f-689b9a8817f8;
-  skos:definition "Gebouwd object dat direct of indirect met de grond is verbonden en bedoeld is om ter plaatse te functioneren."@nl;
+  skos:definition "Gebouwd object dat direct of indirect met de bodem is verbonden en bedoeld is om ter plaatse te functioneren."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Constructie"@nl.
 
@@ -4049,7 +4049,7 @@ imbor-term:14786b86-8c48-474a-8bf2-d31a1f79a117 a skos:Concept;
   skos:prefLabel "Heul"@nl.
 
 imbor-term:147b205a-d842-49e2-811c-f29253e608ad a skos:Concept;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\nvrachtauto’s emissieklasse 4 tot en met 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor vrachtauto’s emissieklasse 4 tot en met 6"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "C22a4"@nl.
 
@@ -4531,7 +4531,7 @@ imbor-term:1701932f-341f-4ba4-a4ee-a9e01788f6a7 a skos:Concept;
   skos:prefLabel "Basiskustlijn"@nl.
 
 imbor-term:17023213-ae8d-4d59-a967-1898b08e47e8 a skos:Concept;
-  skos:definition "Wegmarkering die dient om verkeersstromen te scheiden, uitgevoerd als vlak Soms wordt alleen de omtrek van het vlak aangegeven.\r\nWegmarkering die dient om verkeersstromen te scheiden, uitgevoerd als vlak Soms wordt alleen de omtrek van het vlak aangegeven"@nl;
+  skos:definition "Wegmarkering die dient om verkeersstromen te scheiden, uitgevoerd als vlak. Soms wordt alleen de omtrek van het vlak aangegeven. Wegmarkering die dient om verkeersstromen te scheiden, uitgevoerd als vlak. Soms wordt alleen de omtrek van het vlak aangegeven."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Scheidingsvlak"@nl.
 
@@ -4850,7 +4850,7 @@ imbor-term:18e162d7-0e7f-42f2-90fc-43b8f7ea0056 a skos:Concept;
   skos:broader imbor-term:7b7cfee7-c184-4f45-87f8-13d7451e8a3b;
   skos:definition "Grondoppervlakte in principe bedekt met water."@nl;
   skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "Oppervlaktewater"@nl.
+  skos:prefLabel "Permanent water"@nl.
 
 imbor-term:18e7dcd0-03fe-44a8-96c8-c15e9fa4858f a skos:Concept;
   skos:definition "Een duikelrek voor fitnessdoeleinden dat fungeert als steun voor de buik en de rug om bepaalde oefeningen beter te kunnen uitvoeren."@nl;
@@ -8888,7 +8888,7 @@ imbor-term:2efd1833-ba5c-427e-a200-c06f4c401cd6 a skos:Concept;
   skos:prefLabel "Netbrug oversteek"@nl.
 
 imbor-term:2f029fb3-774f-4333-8e49-eac369d217a6 a skos:Concept;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\nvrachtauto’s emissieklasse 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor vrachtauto’s emissieklasse 6"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "C22a5"@nl.
 
@@ -9044,7 +9044,7 @@ imbor-term:2fd38798-4e4e-4f1e-8cd1-9458034e0144 a skos:Concept;
 
 imbor-term:2fd8d570-e15e-42ea-b6fb-d93f44d82051 a skos:Concept;
   skos:broader imbor-term:13fd95af-ba1e-41cc-8603-f9a6aa4a885d;
-  skos:definition "Een geheel van geleiders of ruimte welke voorzien zijn van één manteling en bestemd is voor transport van materie, data of energie."@nl;
+  skos:definition "Een geheel van geleiders of een ruimte die voorzien is van één ommanteling en bestemd is voor transport van materie, data en/of energie."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Leiding"@nl.
 
@@ -10590,7 +10590,7 @@ imbor-term:3821973d-f0dd-4f73-8c15-92a45122405a a skos:Concept;
 
 imbor-term:3828433c-5048-477b-81c4-b83465dd5673 a skos:Concept;
   skos:broader imbor-term:198d661b-4fbc-4028-a4e3-aa379187a6ba;
-  skos:definition "Klasse voor alle virtuele ruimtes die een bepaald aspect van het verkeer voor terrestrische voertuigen beschrijven."@nl;
+  skos:definition "Transportruimte voor verkeer via land, water of lucht."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Verkeerruimte"@nl.
 
@@ -15427,7 +15427,7 @@ imbor-term:4b2e4f9a-1b00-4d67-80c1-61ad27b1a40f a skos:Concept;
   skos:prefLabel "Faunavoorzieningen"@nl.
 
 imbor-term:4b3fc70c-0b3d-4969-98e5-359bb834c6bb a skos:Concept;
-  skos:definition "IEC norm voor de informatie-uitwisseling voor ‘roaming’-diensten voor\r\nelektrische voertuigen."@nl;
+  skos:definition "IEC norm voor de informatie-uitwisseling voor ‘roaming’-diensten voor elektrische voertuigen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "IEC 63119"@nl.
 
@@ -15785,7 +15785,7 @@ imbor-term:4d0d0b6d-1122-4826-ae40-d9f28843573e a skos:Concept;
 
 imbor-term:4d114d35-642e-405d-a43a-9c01a68fb561 a skos:Concept;
   skos:broader imbor-term:3828433c-5048-477b-81c4-b83465dd5673;
-  skos:definition "Transportruimte voor voertuigen die zich over water verplaatsen."@nl;
+  skos:definition "Verkeerruimte voor voertuigen die zich over rails verplaatsen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Scheepvaartruimte"@nl.
 
@@ -16257,7 +16257,7 @@ imbor-term:4f6c0072-dd90-492d-9a6f-dac5e2e55517 a skos:Concept;
 
 imbor-term:4f71291b-8fc0-44ec-a505-797d3044f137 a skos:Concept;
   skos:broader imbor-term:713a80a8-00d6-4af4-ad61-8f7f536a40ec;
-  skos:definition "Een kelder is dat gedeelte van een gebouw dat onder de grond (onder het maaiveld) is gelegen.\r\n\r\n\r\nIJskelder Campus VUB Etterbeek, beschermd sinds 1993\r\nDoor zijn ligging heerst er meestal een vrijwel constante temperatuur."@nl;
+  skos:definition "Een kelder is dat gedeelte van een gebouw dat onder de grond (onder het maaiveld) is gelegen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Kelder"@nl.
 
@@ -20593,7 +20593,7 @@ imbor-term:655d3892-06f1-4a9a-b7b9-c99bed8e0d55 a skos:Concept;
 
 imbor-term:655d3cfb-c37c-4030-832c-71ca11d2be1c a skos:Concept;
   skos:broader imbor-term:3828433c-5048-477b-81c4-b83465dd5673;
-  skos:definition "Transportruimte voor voertuigen die zich over wegen verplaatsen."@nl;
+  skos:definition "	Verkeerruimte voor weggebruikers die zich over wegen verplaatsen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Wegverkeerruimte"@nl.
 
@@ -21245,7 +21245,7 @@ imbor-term:696f2a0e-6dc3-4d8e-8bda-0022272d97f6 a skos:Concept;
 imbor-term:696fe178-a9bc-4ca2-ad5e-434fe9363ae9 a skos:Concept;
   skos:altLabel "Registratief gebied"@nl;
   skos:broader imbor-term:855cf5ae-3e0f-40d8-b9d3-5a795184af8a;
-  skos:definition "Op basis van wet- of regelgeving afgebakende ruimte die als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering."@nl;
+  skos:definition "Op basis van wet- of regelgeving afgebakende ruimte die als eenheid geldt van politiek-bestuurlijke verantwoordelijkheid of voor bedrijfsvoering."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Registratieve ruimte"@nl.
 
@@ -21339,7 +21339,7 @@ imbor-term:69e9938f-b56a-4804-98f6-d0045e61ccd6 a skos:Concept;
 
 imbor-term:69ef1242-17f0-4876-8e96-111bc64df8bf a skos:Concept;
   skos:broader imbor-term:3828433c-5048-477b-81c4-b83465dd5673;
-  skos:definition "Transportruimte voor voertuigen die zich over rails verplaatsen."@nl;
+  skos:definition "Verkeerruimte voor voertuigen die zich over rails verplaatsen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Spoorverkeerruimte"@nl.
 
@@ -22831,7 +22831,7 @@ imbor-term:71f64829-4a89-4495-961d-74474f9787fb a skos:Concept;
   skos:prefLabel "Wegas"@nl.
 
 imbor-term:71f7da76-ac4e-4ba4-aa09-92472ec6cf2b a skos:Concept;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\npersonen- en bedrijfsauto’s emissieklasse 4 tot en met 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor personen- en bedrijfsauto’s emissieklasse 4 tot en met 6"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "C22a2"@nl.
 
@@ -24629,7 +24629,7 @@ imbor-term:7a6585c9-538d-4275-9ce2-5f39c01949b8 a skos:Concept;
 imbor-term:7a70040f-37bf-4eb6-9011-ccda7b22d779 a skos:Concept;
   skos:altLabel "BOR-ID, IMGeo-ID, identificatie"@nl;
   skos:broader imbor-term:89a6ed12-de8d-4b00-bc17-8c85acb5ec5f;
-  skos:definition "Unieke aanduiding van het object (GUID)."@nl;
+  skos:definition "Unieke aanduiding van het object."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:note "Conform NEN3610 zijn identificatiecodes persistent: ze wijzigen niet gedurende de levensduur van een object."@nl;
   skos:prefLabel "identificatie"@nl.
@@ -24809,7 +24809,7 @@ imbor-term:7b7cfee7-c184-4f45-87f8-13d7451e8a3b a skos:Concept;
   skos:broader imbor-term:fa1b8f10-b13c-40d1-b96f-689b9a8817f8;
   skos:definition "Massa van water dat de bodem bedekt of in normale omstandigheden kan bedekken."@nl;
   skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "Water"@nl.
+  skos:prefLabel "Oppervlaktewater"@nl.
 
 imbor-term:7b8a28a1-8067-4c94-b3ea-6f82c0a15332 a skos:Concept;
   skos:definition "Een pomp die, aangedreven door handbewegingen, water kan verplaatsen."@nl;
@@ -26966,7 +26966,7 @@ imbor-term:87fcdec9-58d4-4eb3-a7ec-7c595e8666ec a skos:Concept;
 
 imbor-term:8801f4ed-494b-456e-9f3e-cf328c51b017 a skos:Concept;
   skos:broader imbor-term:3a0d097b-541d-4127-bb75-f9fb367dc7b2;
-  skos:definition "Een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde."@nl;
+  skos:definition "Een fenomeen in de werkelijkheid dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Geo-object"@nl.
 
@@ -27003,7 +27003,7 @@ imbor-term:8818aa03-ac40-4e08-978b-879cffc95f62 a skos:Concept;
   skos:prefLabel "SS05"@nl.
 
 imbor-term:881c3b68-12aa-4fce-ba16-5b9222c35252 a skos:Concept;
-  skos:broader imbor-term:dd3de3cc-4b92-4a17-8ec9-16cd304e1ab2;
+  skos:broader imbor-term:63db3a80-bdd1-48b1-8482-861520d4d9ea;
   skos:definition "Een onderwijsinstelling in het hoger onderwijs die ingericht is om wetenschappelijk onderwijs te bieden en wetenschappelijk onderzoek te verrichten."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Universiteit"@nl.
@@ -28808,7 +28808,7 @@ imbor-term:927fd724-c6df-43c9-8d46-62193abaf347 a skos:Concept;
 imbor-term:928508de-47e4-417b-b1c9-c8cffc847a9b a skos:Concept;
   skos:altLabel "Infragebonden gebouw, Pand"@nl;
   skos:broader imbor-term:13fd95af-ba1e-41cc-8603-f9a6aa4a885d;
-  skos:definition "Overdekte en geheel of gedeeltelijk met wanden omsloten constructief zelfstandige eenheid bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen."@nl;
+  skos:definition "Overdekte en geheel of gedeeltelijk met wanden omsloten constructie bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Gebouw"@nl.
 
@@ -29123,7 +29123,7 @@ imbor-term:945563c2-38dc-46ff-88b6-370a2dd15def a skos:Concept;
   skos:prefLabel "WildspiegelVerschijningsvorm"@nl.
 
 imbor-term:946073ba-3a7b-4154-b2b0-a4b79ece877e a skos:Concept;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\nvrachtauto’s en autobussen emissieklasse 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor vrachtauto’s en autobussen emissieklasse 6"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "C22a9"@nl.
 
@@ -29628,7 +29628,7 @@ imbor-term:96c3e9ca-d210-41c1-8b7b-25ad52477298 a skos:Concept;
 
 imbor-term:96c865d1-2c41-45df-bbde-9fa2e2fc36db a skos:Concept;
   skos:broader imbor-term:3828433c-5048-477b-81c4-b83465dd5673;
-  skos:definition "Klasse voor alle virtuele ruimtes die een bepaald aspect van het verkeer voor luchtvoertuigen beschrijven."@nl;
+  skos:definition "Verkeerruimte voor voertuigen die zich door de lucht verplaatsen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Luchtvaartruimte"@nl.
 
@@ -29975,7 +29975,7 @@ imbor-term:9891ef27-2e9e-4e27-b8aa-c363922ee272 a skos:Concept;
 
 imbor-term:98938ba8-b702-4fbd-93bf-37664ffc4049 a skos:Concept;
   skos:broader imbor-term:13fd95af-ba1e-41cc-8603-f9a6aa4a885d;
-  skos:definition "Civieltechnische constructie voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen."@nl;
+  skos:definition "Civiel-technische constructie voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Kunstwerk"@nl.
 
@@ -34365,7 +34365,7 @@ imbor-term:acb79a59-5030-4260-9d31-47e2d63531a2 a skos:Concept;
   skos:prefLabel "Draaiende reflector"@nl.
 
 imbor-term:acc8055e-8347-41dd-b7c2-8f5e8cd8356f a skos:Concept;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\npersonen- en bedrijfsauto’s emissieklasse 3 tot en met 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor personen- en bedrijfsauto’s emissieklasse 3 tot en met 6"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "C22a1"@nl.
 
@@ -34457,7 +34457,6 @@ imbor-term:ad5d0c74-3b84-480a-a8f1-9d2ad0e87c7d a skos:Concept;
   skos:broader imbor-term:8af22f8b-a209-4924-8416-6783ab005373;
   skos:definition "Een functioneel gebied voor het beheren en inspecteren van de objecten binnen de begrenzing. De begrenzing kan ook uit meerdere vlakken bestaan (multivlak)."@nl;
   skos:inScheme imbor-term:term-schema;
-  skos:note "Afwegingen bij bepalen van de grenzen van een kunstwerk (in IMBOR: beheervak):\r\nWel of niet meenemen van: \r\n• Constructie of onderdelen daarvan.\r\n• Bovenbouw en onderbouw/fundering.\r\n• Aansluitende oeverconstructies tot een bepaalde lengte.\r\n• Aansluitende remming- en/of geleidewerken\r\n• Bedieningsgebouwen\r\n• Aansluitende verhardingen tot een bepaalde afstand.\r\n• Verhardingen en andere onderdelen onder bijvoorbeeld viaducten.\r\n• Waterbodems langs oeverconstructies."@nl;
   skos:prefLabel "Beheervak"@nl.
 
 imbor-term:ad604095-2899-4b24-aa3a-72f1ff9ecb29 a skos:Concept;
@@ -34500,7 +34499,7 @@ imbor-term:ad9142b3-e309-42cb-806d-9b4a1c53350d a skos:Concept;
   skos:prefLabel "VR09-7"@nl.
 
 imbor-term:ad9683ac-087a-4eb2-a6af-8ac02ea76598 a skos:Concept;
-  skos:broader imbor-term:dd3de3cc-4b92-4a17-8ec9-16cd304e1ab2;
+  skos:broader imbor-term:63db3a80-bdd1-48b1-8482-861520d4d9ea;
   skos:definition "Een rechtspersoon zonder leden die het doel nastreeft waartoe het door de stichter is opgericht."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Stichting"@nl.
@@ -37256,7 +37255,7 @@ imbor-term:bbb47228-49dc-4479-81a4-02e071984099 a skos:Concept;
   skos:prefLabel "Boomspiegel (open)"@nl.
 
 imbor-term:bbb53bb0-b010-4491-a38d-54a3d70885d3 a skos:Concept;
-  skos:broader imbor-term:dd3de3cc-4b92-4a17-8ec9-16cd304e1ab2;
+  skos:broader imbor-term:63db3a80-bdd1-48b1-8482-861520d4d9ea;
   skos:definition "Een vereniging mensen die zich tot het doel van het beheren, onderhouden en gebruiken van een speeltuin of -terrein heeft gericht."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Speeltuinvereniging"@nl.
@@ -37794,7 +37793,7 @@ imbor-term:bed43142-dcf1-4909-ad55-dc8ef232f80d a skos:Concept;
   skos:prefLabel "Kade"@nl.
 
 imbor-term:bed50387-1256-4367-8332-05d70080eb92 a skos:Concept;
-  skos:broader imbor-term:dd3de3cc-4b92-4a17-8ec9-16cd304e1ab2;
+  skos:broader imbor-term:63db3a80-bdd1-48b1-8482-861520d4d9ea;
   skos:definition "De gecontracteerde partij die het object aangelegd of bewerkt heeft."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Uitvoerende organisatie"@nl.
@@ -41646,7 +41645,7 @@ imbor-term:d0f686fd-5612-4112-bf32-c2ee85967d6e a skos:Concept;
   skos:prefLabel "afstand tot beginpunt"@nl.
 
 imbor-term:d0f7e70f-9c33-4469-ad0b-665ded010535 a skos:Concept;
-  skos:broader imbor-term:dd3de3cc-4b92-4a17-8ec9-16cd304e1ab2;
+  skos:broader imbor-term:63db3a80-bdd1-48b1-8482-861520d4d9ea;
   skos:definition "Een organisatie die zich richt op het bouwen, beheren en verhuren van kwalitatief goede woonruimte met een betaalbare huur voor mensen met een smalle beurs."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Woningcorporatie"@nl.
@@ -42319,7 +42318,7 @@ imbor-term:d448fc1e-f8e4-4a51-a53f-f1f39b4b47a7 a skos:Concept;
   skos:prefLabel "Enkele stopstreep"@nl.
 
 imbor-term:d452d46f-e677-4b40-b39a-89781b320699 a skos:Concept;
-  skos:definition "Onderbord vioor milieuzone toegankelijk voor\r\nautobussen emissieklasse 4 tot en met 6"@nl;
+  skos:definition "Onderbord vioor milieuzone toegankelijk voor autobussen emissieklasse 4 tot en met 6"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "C22a6"@nl.
 
@@ -44399,7 +44398,7 @@ imbor-term:dfd7fc50-296c-4323-992d-5087c7cdfa12 a skos:Concept;
   skos:prefLabel "E102"@nl.
 
 imbor-term:dfe276a0-dca5-45f5-9184-1de316a1ecf6 a skos:Concept;
-  skos:broader imbor-term:dd3de3cc-4b92-4a17-8ec9-16cd304e1ab2;
+  skos:broader imbor-term:63db3a80-bdd1-48b1-8482-861520d4d9ea;
   skos:definition "Een organisatie die de instaat voor het beschermen van bepaalde elementen van de natuur, in het bijzonder cultuur-historisch belangrijke of oorspronkelijke landschappen, bedreigde levensgemeenschappen, dier- en plantensoorten, biodiversiteit en natuurlijke hulpbronnen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Natuurorganisatie"@nl.
@@ -44665,7 +44664,7 @@ imbor-term:e1a1279c-122f-4f55-8088-71629587e3f7 a skos:Concept;
 imbor-term:e1a48f1f-0795-474b-b503-2e047e2bf84b a skos:Concept;
   skos:altLabel "Verhardingsobject"@nl;
   skos:broader imbor-term:13fd95af-ba1e-41cc-8603-f9a6aa4a885d;
-  skos:definition "Oppervlak, dat door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakt is, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal."@nl;
+  skos:definition "Een door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakt oppervlak, bestaande uit in een of meer lagen over een bodem of onderliggende constructie aangelegd materiaal."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Verharding"@nl.
 
@@ -45506,7 +45505,7 @@ imbor-term:e609c11d-16c5-4106-9dec-c6453a878702 a skos:Concept;
   skos:prefLabel "Steenmatrassen"@nl.
 
 imbor-term:e60c9738-e281-4328-9054-743a95dcb0bd a skos:Concept;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\npersonen- en bedrijfsauto’s emissieklasse 5 en 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor personen- en bedrijfsauto’s emissieklasse 5 en 6"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "C22a3"@nl.
 
@@ -48050,7 +48049,7 @@ imbor-term:f2563000-12f7-48c5-a054-1788805a6976 a skos:Concept;
 imbor-term:f266d1be-a634-4d8e-8da9-14618a40b705 a skos:Concept;
   skos:altLabel "Geografisch gebied"@nl;
   skos:broader imbor-term:855cf5ae-3e0f-40d8-b9d3-5a795184af8a;
-  skos:definition "Ruimte die bekend staat onder een vanuit de historie of in de volksmond bekende benaming of een fysisch-geografische samenhang kent."@nl;
+  skos:definition "	Ruimte die bekendstaat onder een vanuit de historie of het gebruik bekende benaming of een fysisch-geografische samenhang, al dan niet met zijn omgeving, kent."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Geografische ruimte"@nl.
 
@@ -55073,7 +55072,7 @@ imbor-term:fbb00164-d2b0-42eb-b1c9-a871f9f3c1f1 a skos:Concept;
   skos:prefLabel "Bron"@nl.
 
 imbor-term:fbb123d9-d541-40aa-8004-5356722a5de5 a skos:Concept;
-  skos:definition "Onderbord voor milieuzone toegankelijk voor\r\nautobussen emissieklasse 6"@nl;
+  skos:definition "Onderbord voor milieuzone toegankelijk voor autobussen emissieklasse 6"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "C22a7"@nl.
 
