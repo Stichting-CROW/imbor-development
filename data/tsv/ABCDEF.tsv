@@ -1,0 +1,319 @@
+ABCDEFID	BGTofIMGeo	BGT-object	BGT-attribuut	BGT-enumeratie	BGT-domeinwaarde	IMBOR-term	IMBOR-toelichting	Match	IMBOR-klasse
+1	IMGeo	Bak	plus-type	TypeBak	Afval apart plaats	53	null	Exact	Objecttype
+2	IMGeo	Bak	plus-type	TypeBak	Afvalbak	10	null	Exact	Objecttype
+3	IMGeo	Bak	plus-type	TypeBak	Bloembak	199	null	Exact	Objecttype
+4	IMGeo	Bak	plus-type	TypeBak	Container	null	Cocon, Container Of rolcontainer	Multiple	null
+5	IMGeo	Bak	plus-type	TypeBak	Drinkbak	67	null	Exact	Objecttype
+6	IMGeo	Bak	plus-type	TypeBak	Zand- / zoutbak	null	Zandkist of Zoutbak	Multiple	null
+7	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Boomteelt	8924	null	Exact	Domeinwaarde
+8	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Bouwland	8620	null	Exact	Objecttype
+9	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Duin	8623	null	Exact	Objecttype
+10	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Fruitteelt	14820	null	Exact	Domeinwaarde
+11	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Gemengd bos	8627	null	Exact	Domeinwaarde
+12	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Grasland agrarisch	13366	null	Exact	Domeinwaarde
+13	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Grasland overig	null	Helmgras, Ruig gras, 	Multiple	null
+14	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Groenvoorziening	101	null	Exact	Klasse
+15	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Heide	8635	null	Exact	Objecttype
+16	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Houtwal	8932	null	Exact	Objecttype
+17	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Kwelder	8933	null	Exact	Domeinwaarde
+18	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Loofbos	8934	null	Exact	Domeinwaarde
+19	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Moeras	8935	null	Exact	Objecttype
+20	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Naaldbos	8936	null	Exact	Domeinwaarde
+21	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Rietland	8937	null	Exact	Objecttype
+22	BGT	BegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenBegroeidTerrein	Struiken	8656	null	Exact	Objecttype
+23	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Akkerbouw	8987	null	Exact	Domeinwaarde
+24	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Bodembedekkers	8593	null	Exact	Domeinwaarde
+25	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Bollenteelt	8988	null	Exact	Domeinwaarde
+26	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Bosplantsoen	8917	null	Exact	Objecttype
+27	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Braakliggend	8989	null	Exact	Domeinwaarde
+28	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Gesloten duinvegetatie	8997	null	Exact	Domeinwaarde
+29	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Gras- en kruidachtigen	8915	null	Exact	Objecttype
+30	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Griend en hakhout	9003	null	Exact	Domeinwaarde
+31	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Heesters	13756	null	Close	Domeinwaarde
+32	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Hoogstam boomgaarden	8991	null	Exact	Domeinwaarde
+33	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Klein fruit	8992	null	Exact	Domeinwaarde
+34	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Open duinvegetatie	8998	null	Exact	Domeinwaarde
+35	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Planten	8597	null	Exact	Objecttype
+36	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Struikrozen	8920	null	Exact	Domeinwaarde
+37	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Vollegrondsteelt	8990	null	Exact	Domeinwaarde
+38	IMGeo	BegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenBegroeidTerreinPlus	Wijngaarden	8994	null	Exact	Domeinwaarde
+39	IMGeo	Bord	plus-type	TypeBordPlus	Dynamische snelheidsindicator	9536	null	Exact	Objecttype
+40	IMGeo	Bord	plus-type	TypeBordPlus	Informatiebord	116	null	Exact	Klasse
+41	IMGeo	Bord	plus-type	TypeBordPlus	Plaatsnaambord	9587	null	Exact	Domeinwaarde
+42	IMGeo	Bord	plus-type	TypeBordPlus	Reclamebord	208	null	Exact	Objecttype
+43	IMGeo	Bord	plus-type	TypeBordPlus	Scheepvaartbord	221	null	Exact	Objecttype
+44	IMGeo	Bord	plus-type	TypeBordPlus	Straatnaambord	23292	null	Exact	Objecttype
+45	IMGeo	Bord	plus-type	TypeBordPlus	Verkeersbord	274	null	Exact	Objecttype
+46	IMGeo	Bord	plus-type	TypeBordPlus	Verklikker transportleiding	9432	null	Exact	Domeinwaarde
+47	IMGeo	Bord	plus-type	TypeBordPlus	Waarschuwingshek	9770	null	Exact	Domeinwaarde
+48	IMGeo	FunctioneelGebied	bgt-type	TypeFunctioneelGebied	Kering	14951	null	Exact	Klasse
+49	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Bedrijvigheid	315	null	Close	Objecttype
+50	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Begraafplaats	20	null	Exact	Objecttype
+51	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Benzinestation	24	null	Exact	Objecttype
+52	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Bewoning	324	null	Exact	Objecttype
+53	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Bushalte	14143	null	Exact	Objecttype
+54	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Carpoolplaats	50	null	Exact	Objecttype
+55	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Functioneel beheer	23114	null	Exact	Klasse
+56	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Functioneel beheer: hondenuitlaatplaats	9535	null	Exact	Objecttype
+57	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Infrastructuur verkeer en vervoer	111	null	Exact	Objecttype
+58	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Infrastructuur waterstaatswerken	307	null	Exact	Objecttype
+59	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Landbouw	15294	null	Exact	Domeinwaarde
+60	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Maatschappelijke en/of publieksvoorziening	323	null	Exact	Objecttype
+61	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Natuur en landschap	166	null	Exact	Objecttype
+62	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Recreatie	14965	null	Exact	Klasse
+63	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Recreatie: bungalowpark	9548	null	Exact	Objecttype
+64	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Recreatie: camping	9549	null	Exact	Objecttype
+65	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Recreatie: park	9550	null	Exact	Objecttype
+66	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Recreatie: speeltuin	230	null	Exact	Klasse
+67	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Recreatie: sportterrein	7757	Kan ook Sportveld zijn	Close	Klasse
+68	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Recreatie: volkstuin	9551	null	Exact	Objecttype
+69	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Verzorgingsplaats	281	null	Exact	Objecttype
+70	IMGeo	FunctioneelGebied	plus-type	TypeFunctioneelGebiedPlus	Waterbergingsgebied	9396	null	Exact	Objecttype
+71	IMGeo	Gebouwinstallatie	plus-type	TypeGebouwInstallatiePlus	Bordes	41	null	Exact	Objecttype
+72	IMGeo	Gebouwinstallatie	plus-type	TypeGebouwInstallatiePlus	Luifel	155	null	Exact	Objecttype
+73	IMGeo	Gebouwinstallatie	plus-type	TypeGebouwInstallatiePlus	Toegangstrap	255	null	Exact	Objecttype
+74	IMGeo	Installatie	plus-type	TypeInstallatiePlus	Pomp	201	null	Exact	Klasse
+75	IMGeo	Installatie	plus-type	TypeInstallatiePlus	Zonnepaneel	330	null	Exact	Objecttype
+76	IMGeo	Kast	plus-type	TypeKastPlus	Cai-Kast	9585	null	Exact	Objecttype
+77	IMGeo	Kast	plus-type	TypeKastPlus	Elektrakast	9586	null	Exact	Klasse
+78	IMGeo	Kast	plus-type	TypeKastPlus	Gaskast	9578	null	Exact	Objecttype
+79	IMGeo	Kast	plus-type	TypeKastPlus	GMS kast	9579	null	Exact	Objecttype
+80	IMGeo	Kast	plus-type	TypeKastPlus	Openbare verlichtingkast	9580	null	Exact	Objecttype
+81	IMGeo	Kast	plus-type	TypeKastPlus	Rioolkast	9581	null	Close	Objecttype
+82	IMGeo	Kast	plus-type	TypeKastPlus	Telecom Kast	9582	null	Exact	Objecttype
+83	IMGeo	Kast	plus-type	TypeKastPlus	Telkast	9583	null	Exact	Objecttype
+84	IMGeo	Kast	plus-type	TypeKastPlus	Verkeersregelinstallatiekast	9584	null	Exact	Objecttype
+85	BGT	Kunstwerkdeel	bgt-type	TypeKunstwerk	Gemaal	91	null	Exact	Klasse
+86	BGT	Kunstwerkdeel	bgt-type	TypeKunstwerk	Hoogspanningsmast	21770	null	Exact	Objecttype
+87	BGT	Kunstwerkdeel	bgt-type	TypeKunstwerk	Perron	197	null	Exact	Objecttype
+88	BGT	Kunstwerkdeel	bgt-type	TypeKunstwerk	Steiger	241	null	Exact	Objecttype
+89	BGT	Kunstwerkdeel	bgt-type	TypeKunstwerk	Strekdam	246	null	Exact	Objecttype
+90	BGT	Kunstwerkdeel	bgt-type	TypeKunstwerk	Stuw	248	null	Exact	Klasse
+91	IMGeo	Kunstwerkdeel	plus-type	TypeKunstwerkPlus	Bodemval	35	null	Exact	Objecttype
+92	IMGeo	Kunstwerkdeel	plus-type	TypeKunstwerkPlus	Coupure	54	null	Exact	Objecttype
+93	IMGeo	Kunstwerkdeel	plus-type	TypeKunstwerkPlus	Duiker	73	null	Exact	Objecttype
+94	IMGeo	Kunstwerkdeel	plus-type	TypeKunstwerkPlus	Faunavoorziening	79	null	Exact	Klasse
+95	IMGeo	Kunstwerkdeel	plus-type	TypeKunstwerkPlus	Keermuur	9964	null	Exact	Objecttype
+96	IMGeo	Kunstwerkdeel	plus-type	TypeKunstwerkPlus	Overkluizing	183	null	Exact	Objecttype
+97	IMGeo	Kunstwerkdeel	plus-type	TypeKunstwerkPlus	Ponton	202	null	Exact	Objecttype
+98	IMGeo	Kunstwerkdeel	plus-type	TypeKunstwerkPlus	Sluis	226	null	Exact	Klasse
+99	IMGeo	Kunstwerkdeel	plus-type	TypeKunstwerkPlus	Vispassage	9372	null	Exact	Klasse
+100	IMGeo	Kunstwerkdeel	plus-type	TypeKunstwerkPlus	Voorde	289	null	Exact	Objecttype
+101	IMGeo	Mast	plus-type	TypeMastPlus	Bovenleidingmast	9762	null	Exact	Domeinwaarde
+102	IMGeo	Mast	plus-type	TypeMastPlus	Laagspanningsmast	9763	null	Exact	Domeinwaarde
+103	IMGeo	Mast	plus-type	TypeMastPlus	Radarmast	14974	null	Exact	Objecttype
+104	IMGeo	Mast	plus-type	TypeMastPlus	Straalzender	14975	null	Exact	Objecttype
+105	IMGeo	Mast	plus-type	TypeMastPlus	Zendmast	14977	null	Exact	Objecttype
+106	BGT	OnbegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenOnbegroeidTerrein	Erf	9020	null	Close	Objecttype
+107	BGT	OnbegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenOnbegroeidTerrein	Gesloten Verharding	null	Asfaltverharding, Betonverharding, Kunststofverharding	Multiple	null
+108	BGT	OnbegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenOnbegroeidTerrein	Half verhard	14812	null	Exact	Objecttype
+109	BGT	OnbegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenOnbegroeidTerrein	Onverhard	14814	null	Exact	Objecttype
+110	BGT	OnbegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenOnbegroeidTerrein	Open verharding	14813	null	Exact	Objecttype
+111	BGT	OnbegroeidTerreindeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenOnbegroeidTerrein	Zand	9005	null	Exact	Domeinwaarde
+112	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Asfalt	14809	null	Exact	Objecttype
+113	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Beton Element	8609	null	Exact	Domeinwaarde
+114	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Betonstraatstenen	8610	null	Exact	Domeinwaarde
+115	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Boomschors	9009	null	Exact	Domeinwaarde
+116	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Cementbeton	14810	null	Exact	Objecttype
+117	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Gebakken Klinkers	8655	null	Exact	Domeinwaarde
+118	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Grasklinkers	9006	null	Exact	Domeinwaarde
+119	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Gravel	9008	null	Exact	Domeinwaarde
+120	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Grind	9010	null	Exact	Domeinwaarde
+121	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Open grond	12889	null	Exact	Domeinwaarde
+122	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Puin	10245	null	Exact	Domeinwaarde
+123	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Schelpen	9012	null	Exact	Domeinwaarde
+124	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Sierbestrating	8968	null	Exact	Domeinwaarde
+125	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Strand en strandwal	8995	null	Exact	Domeinwaarde
+126	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Tegels	8969	null	Exact	Domeinwaarde
+127	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Zand	9005	null	Exact	Domeinwaarde
+128	IMGeo	OnbegroeidTerreindeel	plus-fysiekVoorkomen	FysiekVoorkomenOnbegroeidTerreinPlus	Zandverstuiving	8996	null	Exact	Domeinwaarde
+129	BGT	OndersteunendWaterdeel	bgt-type	TypeOndersteunendWaterdeel	Oever, slootkant	15391	null	Close	Objecttype
+130	BGT	OndersteunendWaterdeel	bgt-type	TypeOndersteunendWaterdeel	Slik	8938	null	Exact	Domeinwaarde
+131	BGT	OndersteunendWegdeel	Bgt-Functie	FunctieOndersteunendWegdeel	Berm	312	null	Exact	Objecttype
+132	BGT	OndersteunendWegdeel	Bgt-Functie	FunctieOndersteunendWegdeel	Verkeerseiland	276	null	Exact	Objecttype
+133	BGT	OndersteunendWegdeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenOndersteunendWegdeel	Gesloten Verharding	null	Asfaltverharding, Betonverharding, Kunststofverharding	Multiple	null
+134	BGT	OndersteunendWegdeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenOndersteunendWegdeel	Groenvoorziening	101	null	Exact	Klasse
+135	BGT	OndersteunendWegdeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenOndersteunendWegdeel	Half verhard	14812	null	Exact	Objecttype
+136	BGT	OndersteunendWegdeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenOndersteunendWegdeel	Onverhard	14814	null	Exact	Objecttype
+137	BGT	OndersteunendWegdeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenOndersteunendWegdeel	Open verharding	14813	null	Exact	Objecttype
+138	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Asfalt	14809	null	Exact	Objecttype
+139	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Beton Element	8609	null	Exact	Domeinwaarde
+140	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Betonstraatstenen	8610	null	Exact	Domeinwaarde
+141	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Bodembedekkers	8593	null	Exact	Domeinwaarde
+142	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Boomschors	9009	null	Exact	Domeinwaarde
+143	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Bosplantsoen	8917	null	Exact	Objecttype
+144	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Cementbeton	14810	null	Exact	Objecttype
+145	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Gebakken Klinkers	8655	null	Exact	Domeinwaarde
+146	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Gras- en kruidachtigen	8915	null	Exact	Objecttype
+147	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Grasklinkers	9006	null	Exact	Domeinwaarde
+148	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Gravel	9008	null	Exact	Domeinwaarde
+149	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Grind	9010	null	Exact	Domeinwaarde
+150	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Heesters	13756	null	Close	Domeinwaarde
+151	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Open grond	12889	null	Exact	Domeinwaarde
+152	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Planten	8597	null	Exact	Objecttype
+153	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Puin	10245	null	Exact	Domeinwaarde
+154	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Schelpen	9012	null	Exact	Domeinwaarde
+155	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Sierbestrating	8968	null	Exact	Domeinwaarde
+156	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Struikrozen	8920	null	Exact	Domeinwaarde
+157	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Tegels	8969	null	Exact	Domeinwaarde
+158	IMGeo	OndersteunendWegdeel	plus-fysiekVoorkomen	FysiekVoorkomenOndersteunendWegdeelPlus	Zand	9005	null	Exact	Domeinwaarde
+159	IMGeo	Overbrugging	typeOverbrugging	TypeOverbrugging	Aquaduct	14	null	Exact	Objecttype
+160	IMGeo	Overbrugging	typeOverbrugging	TypeOverbrugging	Brug	13917	null	Exact	Domeinwaarde
+161	IMGeo	Overbrugging	typeOverbrugging	TypeOverbrugging	Ecoduct	74	null	Exact	Objecttype
+162	IMGeo	Overbrugging	typeOverbrugging	TypeOverbrugging	Flyover	84	null	Exact	Objecttype
+163	IMGeo	Overbrugging	typeOverbrugging	TypeOverbrugging	Viaduct	282	null	Exact	Objecttype
+164	IMGeo	Overbruggingsdeel	typeOverbruggingsdeel	TypeOverbruggingsdeel	Dek	9750	null	Exact	Objecttype
+165	IMGeo	Overbruggingsdeel	typeOverbruggingsdeel	TypeOverbruggingsdeel	Landhoofd	10619	null	Exact	Objecttype
+166	IMGeo	Overbruggingsdeel	typeOverbruggingsdeel	TypeOverbruggingsdeel	Pijler	9787	null	Exact	Objecttype
+167	IMGeo	Overbruggingsdeel	typeOverbruggingsdeel	TypeOverbruggingsdeel	Pyloon	10663	null	Exact	Objecttype
+168	IMGeo	Overbruggingsdeel	typeOverbruggingsdeel	TypeOverbruggingsdeel	Sloof	9751	null	Exact	Objecttype
+169	BGT	OverigBouwwerk	bgt-type	TypeOverigBouwwerk	Bassin	null	Dok of Zwembad	Multiple	null
+170	BGT	OverigBouwwerk	bgt-type	TypeOverigBouwwerk	Lage trafo	15359	null	Close	Domeinwaarde
+171	BGT	OverigBouwwerk	bgt-type	TypeOverigBouwwerk	Bezinkbak	9411	null	Exact	Objecttype
+172	BGT	OverigBouwwerk	bgt-type	TypeOverigBouwwerk	Open loods	173	null	Exact	Objecttype
+173	BGT	OverigBouwwerk	bgt-type	TypeOverigBouwwerk	Opslagtank	178	null	Exact	Objecttype
+174	BGT	OverigBouwwerk	bgt-type	TypeOverigBouwwerk	Overkapping	182	null	Exact	Objecttype
+175	BGT	OverigBouwwerk	bgt-type	TypeOverigBouwwerk	Windturbine	321	null	Exact	Objecttype
+176	IMGeo	OverigBouwwerk	plus-type	TypeOverigBouwwerkPlus	Bunker	47	null	Exact	Objecttype
+177	IMGeo	Paal	plus-type	TypePaalPlus	Afsluitpaal	9	null	Exact	Objecttype
+178	IMGeo	Paal	plus-type	TypePaalPlus	Dijkpaal	9340	null	Exact	Domeinwaarde
+179	IMGeo	Paal	plus-type	TypePaalPlus	Drukknoppaal	9339	null	Exact	Domeinwaarde
+180	IMGeo	Paal	plus-type	TypePaalPlus	Grensmarkering	9337	null	Exact	Domeinwaarde
+181	IMGeo	Paal	plus-type	TypePaalPlus	Haltepaal	9336	null	Exact	Domeinwaarde
+182	IMGeo	Paal	plus-type	TypePaalPlus	Hectometerpaal	9304	null	Exact	Domeinwaarde
+183	IMGeo	Paal	plus-type	TypePaalPlus	Lichtmast	9764	null	Exact	Domeinwaarde
+184	IMGeo	Paal	plus-type	TypePaalPlus	Poller	200	null	Exact	Objecttype
+185	IMGeo	Paal	plus-type	TypePaalPlus	Portaal	203	null	Exact	Objecttype
+186	IMGeo	Paal	plus-type	TypePaalPlus	Sirene	223	null	Exact	Objecttype
+187	IMGeo	Paal	plus-type	TypePaalPlus	Telpaal	252	null	Exact	Objecttype
+188	IMGeo	Paal	plus-type	TypePaalPlus	Verkeersbordpaal	11301	null	Close	Domeinwaarde
+189	IMGeo	Paal	plus-type	TypePaalPlus	Verkeersregelinstallatiepaal	9765	null	Exact	Domeinwaarde
+190	IMGeo	Paal	plus-type	TypePaalPlus	Vlaggenmast	284	null	Exact	Objecttype
+191	IMGeo	Paal	plus-type	TypePaalPlus	Wegwijzer	23287	null	Close	Objecttype
+192	IMGeo	Put	plus-type	TypePutPlus	Benzine- / olieput	23	null	Exact	Objecttype
+193	IMGeo	Put	plus-type	TypePutPlus	Brandkraan / -put	null	Brandkraan of Brandput	Multiple	null
+194	IMGeo	Put	plus-type	TypePutPlus	Drainageput	64	null	Exact	Objecttype
+195	IMGeo	Put	plus-type	TypePutPlus	Gasput	87	null	Exact	Objecttype
+196	IMGeo	Put	plus-type	TypePutPlus	Inspectie- / rioolput	216	null	Exact	Klasse
+197	IMGeo	Put	plus-type	TypePutPlus	Kolk	133	null	Exact	Klasse
+198	IMGeo	Put	plus-type	TypePutPlus	Waterleidingput	299	null	Exact	Objecttype
+199	IMGeo	RegistratiefGebied	plus-type	TypeRegistratiefGebied	Buurt	48	null	Exact	Objecttype
+200	IMGeo	RegistratiefGebied	plus-type	TypeRegistratiefGebied	OpenbareRuimte	172	null	Exact	Objecttype
+201	IMGeo	RegistratiefGebied	plus-type	TypeRegistratiefGebied	Stadsdeel	15431	null	Exact	Objecttype
+202	IMGeo	RegistratiefGebied	plus-type	TypeRegistratiefGebied	Waterschap	9528	null	Exact	Klasse
+203	IMGeo	RegistratiefGebied	plus-type	TypeRegistratiefGebied	Wijk	317	null	Exact	Objecttype
+204	BGT	Scheiding	bgt-type	TypeScheiding	Kademuur	124	null	Exact	Objecttype
+205	BGT	Scheiding	bgt-type	TypeScheiding	Damwand	56	null	Exact	Objecttype
+206	IMGeo	Scheiding	plus-type	TypeScheidingPlus	Draadraster	8870	null	Close	Objecttype
+207	BGT	Scheiding	bgt-type	TypeScheiding	Geluidsscherm	90	null	Exact	Objecttype
+208	BGT	Scheiding	bgt-type	TypeScheiding	Hek	108	null	Exact	Klasse
+209	BGT	Scheiding	bgt-type	TypeScheiding	Muur	165	null	Exact	Objecttype
+210	BGT	Scheiding	bgt-type	TypeScheiding	Walbescherming	28	Kan ook Glooiing zijn	Close	Objecttype
+211	IMGeo	Sensor	plus-type	TypeSensorPlus	Camera	49	null	Exact	Klasse
+212	IMGeo	Sensor	plus-type	TypeSensorPlus	Debietmeter	23643	null	Exact	Domeinwaarde
+213	IMGeo	Sensor	plus-type	TypeSensorPlus	Detectielus	9555	null	Exact	Objecttype
+214	IMGeo	Sensor	plus-type	TypeSensorPlus	Flitser	23872	null	Exact	Objecttype
+215	IMGeo	Sensor	plus-type	TypeSensorPlus	GMS sensor	95	null	Exact	Objecttype
+216	IMGeo	Sensor	plus-type	TypeSensorPlus	Hoogtedetectieapparaat	9324	null	Exact	Objecttype
+217	IMGeo	Sensor	plus-type	TypeSensorPlus	Lichtcel	144	null	Exact	Objecttype
+218	IMGeo	Sensor	plus-type	TypeSensorPlus	Radar detector	9323	null	Exact	Objecttype
+219	IMGeo	Sensor	plus-type	TypeSensorPlus	Waterstandmeter	302	null	Exact	Objecttype
+220	IMGeo	Sensor	plus-type	TypeSensorPlus	Weerstation	309	null	Exact	Objecttype
+221	IMGeo	Sensor	plus-type	TypeSensorPlus	Windmeter	319	null	Exact	Objecttype
+222	BGT	Spoor	Bgt-Functie	FunctieSpoor	Sneltram	10183	null	Exact	Domeinwaarde
+223	BGT	Spoor	Bgt-Functie	FunctieSpoor	Tram	10184	null	Exact	Domeinwaarde
+224	BGT	Spoor	Bgt-Functie	FunctieSpoor	Trein	10185	null	Exact	Domeinwaarde
+225	IMGeo	Spoor	plus-functie	FunctieSpoorPlus	(haven)kraan	14147	null	Exact	Objecttype
+226	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Abri	7	null	Exact	Objecttype
+227	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Bank	10129	null	Exact	Objecttype
+228	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Betaalautomaat	29	null	Exact	Objecttype
+229	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Bolder	36	null	Exact	Objecttype
+230	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Brievenbus	45	null	Exact	Objecttype
+231	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Fietsenkluis	9015	null	Exact	Objecttype
+232	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Fietsenrek	9013	null	Exact	Objecttype
+233	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Fontein	85	null	Exact	Objecttype
+234	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Herdenkingsmonument	109	null	Exact	Klasse
+235	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Kunstobject	136	null	Exact	Objecttype
+236	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Lichtpunt	141	null	Exact	Objecttype
+237	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Openbaar toilet	9356	null	Exact	Objecttype
+238	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Parkeerbeugel	9353	null	Exact	Objecttype
+239	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Picknicktafel	11266	null	Exact	Objecttype
+240	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Reclamezuil	9352	null	Exact	Domeinwaarde
+241	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Slagboom	224	null	Exact	Objecttype
+242	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Speelvoorziening	231	Kan ook Sporttoestel zijn	Close	Objecttype
+243	IMGeo	Straatmeubilair	plus-type	TypeStraatmeubilairPlus	Telefooncel	251	null	Exact	Objecttype
+244	BGT	Tunneldeel	null	null	null	14966	null	Exact	Klasse
+245	IMGeo	Vegetatieobject	plus-type	TypeVegetatieObjectPlus	Boom	37	null	Exact	Objecttype
+246	IMGeo	Vegetatieobject	plus-type	TypeVegetatieObjectPlus	Haag	8914	null	Exact	Objecttype
+247	BGT	Waterdeel	bgt-type	TypeWater	Greppel, droge sloot	8923	null	Exact	Objecttype
+248	BGT	Waterdeel	bgt-type	TypeWater	Waterloop	8922	null	Exact	Klasse
+249	BGT	Waterdeel	bgt-type	TypeWater	Watervlakte	8921	null	Exact	Klasse
+250	BGT	Waterdeel	bgt-type	TypeWater	Zee	8986	null	Exact	Objecttype
+251	IMGeo	Waterdeel	plus-type	TypeWaterPlus	Beek	8982	null	Exact	Objecttype
+252	IMGeo	Waterdeel	plus-type	TypeWaterPlus	Bron	8980	null	Exact	Objecttype
+253	IMGeo	Waterdeel	plus-type	TypeWaterPlus	Gracht	8981	null	Exact	Objecttype
+254	IMGeo	Waterdeel	plus-type	TypeWaterPlus	Haven	8979	null	Exact	Objecttype
+255	IMGeo	Waterdeel	plus-type	TypeWaterPlus	Kanaal	8983	null	Exact	Objecttype
+256	IMGeo	Waterdeel	plus-type	TypeWaterPlus	Meer, plas, ven, vijver	null	Meer, Plas, Ven,	Multiple	null
+257	IMGeo	Waterdeel	plus-type	TypeWaterPlus	Rivier	8985	null	Exact	Objecttype
+258	IMGeo	Waterdeel	plus-type	TypeWaterPlus	Sloot	8984	null	Exact	Objecttype
+259	IMGeo	Waterinrichtingselement	plus-type	TypeWaterinrichtingPlus	Betonning	30	null	Exact	Objecttype
+260	IMGeo	Waterinrichtingselement	plus-type	TypeWaterinrichtingPlus	Geleidewerk	89	null	Exact	Objecttype
+261	IMGeo	Waterinrichtingselement	plus-type	TypeWaterinrichtingPlus	Hoogtemerk	113	null	Exact	Objecttype
+262	IMGeo	Waterinrichtingselement	plus-type	TypeWaterinrichtingPlus	Meerpaal	158	null	Exact	Objecttype
+263	IMGeo	Waterinrichtingselement	plus-type	TypeWaterinrichtingPlus	Remmingswerk	212	null	Exact	Objecttype
+264	IMGeo	Waterinrichtingselement	plus-type	TypeWaterinrichtingPlus	Vuilvang	291	null	Exact	Objecttype
+265	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Baan voor vliegverkeer	15388	null	Exact	Objecttype
+266	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Fietspad	80	null	Exact	Objecttype
+267	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Inrit	15555	null	Exact	Objecttype
+268	BGT	Wegdeel	Bgt-Functie	FunctieWeg	OV-baan	9263	null	Exact	Domeinwaarde
+269	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Overweg	15386	null	Exact	Objecttype
+270	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Parkeervlak	193	null	Close	Objecttype
+271	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Rijbaan autosnelweg	8720	null	Exact	Domeinwaarde
+272	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Rijbaan autoweg	8721	null	Exact	Domeinwaarde
+273	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Rijbaan lokale weg	8723	null	Close	Domeinwaarde
+274	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Rijbaan regionale weg	8722	null	Close	Domeinwaarde
+275	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Ruiterpad	14169	null	Exact	Objecttype
+276	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Spoorbaan	15387	null	Exact	Objecttype
+277	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Voetgangersgebied	14182	null	Exact	Domeinwaarde
+278	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Voetpad	288	null	Exact	Objecttype
+279	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Voetpad op trap	14185	null	Exact	Domeinwaarde
+280	BGT	Wegdeel	Bgt-Functie	FunctieWeg	Woonerf	14189	null	Exact	Domeinwaarde
+281	BGT	Wegdeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenWeg	Gesloten Verharding	null	Asfaltverharding, Betonverharding, Kunststofverharding	Multiple	null
+282	BGT	Wegdeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenWeg	Half verhard	14812	null	Exact	Objecttype
+283	BGT	Wegdeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenWeg	Onverhard	14814	null	Exact	Objecttype
+284	BGT	Wegdeel	Bgt-Fysiekvoorkomen	FysiekVoorkomenWeg	Open verharding	14813	null	Exact	Objecttype
+285	IMGeo	Wegdeel	plus-functie	FunctieWegPlus	Calamiteitendoorsteek	8338	null	Exact	Objecttype
+286	IMGeo	Wegdeel	plus-functie	FunctieWegPlus	Verbindingsweg	14176	null	Exact	Domeinwaarde
+287	IMGeo	Wegdeel	plus-functie	FunctieWegPlus	Verkeersdrempel	275	null	Exact	Objecttype
+288	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Asfalt	14809	null	Exact	Objecttype
+289	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Beton Element	8609	null	Exact	Domeinwaarde
+290	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Betonstraatstenen	8610	null	Exact	Domeinwaarde
+291	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Boomschors	9009	null	Exact	Domeinwaarde
+292	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Cementbeton	14810	null	Exact	Objecttype
+293	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Gebakken Klinkers	8655	null	Exact	Domeinwaarde
+294	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Grasklinkers	9006	null	Exact	Domeinwaarde
+295	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Gravel	9008	null	Exact	Domeinwaarde
+296	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Grind	9010	null	Exact	Domeinwaarde
+297	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Open grond	12889	null	Exact	Domeinwaarde
+298	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Puin	10245	null	Exact	Domeinwaarde
+299	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Schelpen	9012	null	Exact	Domeinwaarde
+300	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Sierbestrating	8968	null	Exact	Domeinwaarde
+301	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Tegels	8969	null	Exact	Domeinwaarde
+302	IMGeo	Wegdeel	plus-fysiekVoorkomen	FysiekVoorkomenWegPlus	Zand	9005	null	Exact	Domeinwaarde
+303	IMGeo	Weginrichtingselement	plus-type	TypeWeginrichtingPlus	Boomspiegel	9668	null	Exact	Objecttype
+304	IMGeo	Weginrichtingselement	plus-type	TypeWeginrichtingPlus	Lijnafwaterering	23693	null	Close	Klasse
+305	IMGeo	Weginrichtingselement	plus-type	TypeWeginrichtingPlus	Balustrade	17	null	Exact	Objecttype
+306	IMGeo	Weginrichtingselement	plus-type	TypeWeginrichtingPlus	Geleideconstructie	88	null	Exact	Klasse
+307	IMGeo	Weginrichtingselement	plus-type	TypeWeginrichtingPlus	Molgoot	163	null	Exact	Objecttype
+308	IMGeo	Weginrichtingselement	plus-type	TypeWeginrichtingPlus	Rooster	219	null	Exact	Objecttype
+309	IMGeo	Weginrichtingselement	plus-type	TypeWeginrichtingPlus	Verblindingswering	272	null	Exact	Objecttype
+310	IMGeo	Weginrichtingselement	plus-type	TypeWeginrichtingPlus	Wegmarkering	313	null	Exact	Klasse
+311	IMGeo	Weginrichtingselement	plus-type	TypeWeginrichtingPlus	Wildrooster	8962	null	Exact	Objecttype
+314	BGT	Openbare ruimte	openbareRuimteType	TypeOpenbareRuimte	Spoorbaan	null	null	No	null
+315	BGT	Openbare ruimte	openbareRuimteType	TypeOpenbareRuimte	Terrein	null	null	No	null
+316	BGT	Openbare ruimte	openbareRuimteType	TypeOpenbareRuimte	Kunstwerk	null	null	No	null
+317	BGT	Openbare ruimte	openbareRuimteType	TypeOpenbareRuimte	Landschappelijk gebied	null	null	No	null
+318	BGT	Openbare ruimte	openbareRuimteType	TypeOpenbareRuimte	Administratief gebied	null	null	No	null
+312	BGT	Openbare ruimte	openbareRuimteType	TypeOpenbareRuimte	Weg	15414	null	Exact	Domeinwaarde
+313	BGT	Openbare ruimte	openbareRuimteType	TypeOpenbareRuimte	Water	15415	null	Exact	Domeinwaarde
