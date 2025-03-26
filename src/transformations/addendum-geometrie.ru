@@ -51,10 +51,13 @@ insert {
             a sh:PropertyShape ;
             skos:prefLabel ?propDesc ;
             sh:path nen2660:hasBoundary ;
-            sh:qualifiedValueShape [ sh:class ?Objecttype2Uri ] ;
+            sh:qualifiedValueShape ?propShapeQVSUri ;
             sh:qualifiedMinCount ?minCount ;
             sh:qualifiedMaxCount ?maxCount ;
             .
+            
+        ?propShapeQVSUri    a sh:NodeShape ; 
+                            sh:class ?Objecttype2Uri .
     }
 }
 WHERE {
@@ -87,6 +90,7 @@ WHERE {
     }
     
     BIND (URI(CONCAT(STR(imbor-refmodels:), ?IMBORGUID)) AS ?propShapeUri)
+    BIND (URI(CONCAT(STR(imbor-refmodels:), ?IMBORGUID, "_qvs")) AS ?propShapeQVSUri)
     BIND (CONCAT(?Objecttype1Naam, " heeft begrenzing ", ?Objecttype2Naam) as ?propDesc)
     BIND (URI(CONCAT(STR(imbor:), ?Objecttype1GUID)) AS ?Objecttype1Uri)
     BIND (URI(CONCAT(STR(imbor:), ?Objecttype2GUID)) AS ?Objecttype2Uri)

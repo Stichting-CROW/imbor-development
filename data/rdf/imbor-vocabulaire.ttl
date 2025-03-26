@@ -13,6 +13,7 @@ imbor-term: a owl:Ontology;
   owl:imports
     skos:,
     nen2660-term:;
+  owl:priorVersion "IMBOR2022";
   owl:versionInfo "IMBOR2025".
 
 imbor-term:000a4743-30e4-491c-b030-034e4cb6398e a skos:Concept;

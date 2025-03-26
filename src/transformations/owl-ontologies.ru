@@ -1,3 +1,5 @@
+# ! Manual adjust versions
+
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
@@ -44,6 +46,7 @@ insert data {
         <https://data.crow.nl/imbor/term/> a owl:Ontology ;
             owl:imports skos: , nen2660-term: ;
             owl:versionInfo "IMBOR2025" ;
+            owl:priorVersion "IMBOR2022" ;
             rdfs:comment "Dit normatieve gedeelte betreft de vocabulaire van IMBOR"@nl ;
             rdfs:label "IMBOR Vocabulaire"@nl .
     }
@@ -52,6 +55,7 @@ insert data {
         <https://data.crow.nl/imbor/def/> a owl:Ontology ;
             owl:imports skos: , nen2660: , nen2660-term: , sh:, quantitykind: , unit: , imbor-term: , imbor-meta: ;
             owl:versionInfo "IMBOR2025" ;
+            owl:priorVersion "IMBOR2022" ;
             rdfs:comment "Dit normatieve gedeelte betreft de kern (de ontologie) van IMBOR"@nl ;
             rdfs:label "IMBOR Kernmodel (ontologie)"@nl .
     }
@@ -60,6 +64,7 @@ insert data {
         <https://data.crow.nl/imbor/id/domeinwaarden/> a owl:Ontology ;
             owl:imports skos: , nen2660: , nen2660-term: , sh:, quantitykind: , unit: , imbor-term: , imbor: , imbor-meta: ;
             owl:versionInfo "IMBOR2025" ;
+            owl:priorVersion "IMBOR2022" ;
             rdfs:comment "Dit normatieve gedeelte betreft alle domeinwaarden van IMBOR"@nl ;
             rdfs:label "IMBOR Domeinwaarden"@nl .
     }
@@ -68,6 +73,7 @@ insert data {
         <https://data.crow.nl/imbor/aanvullend-metamodel> a owl:Ontology ;
             owl:imports skos: ;
             owl:versionInfo "IMBOR2025" ;
+            owl:priorVersion "IMBOR2022" ;
             rdfs:comment "Een aantal metaconcepten worden specifiek voor IMBOR gedefinieerd. Dit wordt gedaan middels het 'IMBOR Aanvullend Metamodel'. Dit betreft een kleine ontologie van beschrijfende concepten die er voor zorgen dat alle IMBOR specifieke properties netjes en navolgbaar gedefinieerd zijn."@nl ;
             rdfs:label "IMBOR Aanvullend metamodel"@nl .
     }
@@ -76,6 +82,7 @@ insert data {
         <https://data.crow.nl/imbor/addendum/oagbd> a owl:Ontology ;
             owl:imports imbor-meta: ;
             owl:versionInfo "IMBOR2025" ;
+            owl:priorVersion "IMBOR2022" ;
             rdfs:comment "Dit informatieve gedeelte van IMBOR geeft aan bij elke combinatie van klasse en attribuut in welke fase van de levenscyclus van het object de informatie doorgaans bekend is."@nl ;
             rdfs:label "IMBOR addendum OAGBD"@nl .
     }
@@ -83,6 +90,7 @@ insert data {
     graph <https://data.crow.nl/imbor/addendum/geometrie> {
         <https://data.crow.nl/imbor/addendum/geometrie> a owl:Ontology ;
             owl:versionInfo "IMBOR2025" ;
+            owl:priorVersion "IMBOR2022" ;
             rdfs:comment "Dit informatieve gedeelte van IMBOR geeft aan welke soort geometrische vastlegging de voorkeur heeft en welke er meer mogelijk zijn."@nl ;
             rdfs:label "IMBOR addendum Geometrie"@nl .
     }
@@ -91,6 +99,7 @@ insert data {
         <https://data.crow.nl/imbor/addendum/referentiemodellen> a owl:Ontology ;
             owl:imports imbor-meta: ;
             owl:versionInfo "IMBOR2025" ;
+            owl:priorVersion "IMBOR2022" ;
             rdfs:comment "Dit informatieve gedeelte van IMBOR bevat de modellen waar vanuit IMBOR aan gerefereerd kan worden. Tevens bevat het waar van toepassing de 'bron' van een IMBOR concept."@nl ;
             rdfs:label "IMBOR addendum Referentiemodellen"@nl .
     }
@@ -99,6 +108,7 @@ insert data {
         <https://data.crow.nl/imbor/mim> a owl:Ontology , mim:Informatiemodel ;
             owl:imports imbor: , mim: ;
             owl:versionInfo "IMBOR2025" ;
+            owl:priorVersion "IMBOR2022" ;
             rdfs:comment "Dit informatieve gedeelte van IMBOR verrijkt de IMBOR Kern met MIM classificaties en properties. Het is geenszins een volledige MIM 'mapping'. Bijvoorbeeld de relaties tussen MIM metaClass's zijn niet opgenomen."@nl ;
             rdfs:label "IMBOR addendum MIM"@nl ;
             mim:naam "IMBOR addendum MIM"@nl;
@@ -111,6 +121,7 @@ insert data {
         <https://data.crow.nl/change/log/imbor> a owl:Ontology ;
             owl:imports imbor-meta: ;
             owl:versionInfo "IMBOR2025" ;
+            owl:priorVersion "IMBOR2022" ;
             rdfs:comment "Dit onderdeel van IMBOR beschrijft de complete historie van de changelog."@nl ;
             rdfs:label "IMBOR Change-log"@nl .
     }
