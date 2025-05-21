@@ -908,7 +908,7 @@ KlasseAttribuutID	IMBORGUID	Klasse	Multipliciteit	Attribuut	Informatiemodel	Enum
 6305	4c4475e8-aedd-488b-a5cb-999debdfaf48	1088	15167	335	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23032
 6306	677e401f-4473-4797-b239-6a3157c9050a	14970	15167	335	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
 6307	e7b61eb1-8862-469f-beec-f968a8e16e20	14971	15167	335	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
-6308	17db89d5-6a64-4737-9bfb-0141f204f628	1090	15167	335	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
+6308	17db89d5-6a64-4737-9bfb-0141f204f628	1090	15167	335	4	null	O	Fri Mar 28 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23032
 6309	5662daab-a863-429e-a79f-61a512ffa2e8	1092	15167	335	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
 6310	1c4a6429-0af0-406f-8ddb-07cfda1fbe75	14958	15167	335	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23032
 6311	74b955e5-bd70-4fa0-b8d1-dc71613a48d4	1089	15167	335	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
@@ -926,7 +926,7 @@ KlasseAttribuutID	IMBORGUID	Klasse	Multipliciteit	Attribuut	Informatiemodel	Enum
 6324	9bede460-5f22-419f-b5c2-860699f0d51a	1088	15167	343	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23032
 6325	cb85574d-a43f-4054-851d-b2c872b39dcf	14970	15167	343	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
 6326	0c341801-6b5b-4d8f-8f86-1136bc85d143	14971	15167	343	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
-6327	059e56b4-feea-4998-a8b1-1890774c4d92	1090	15167	343	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
+6327	059e56b4-feea-4998-a8b1-1890774c4d92	1090	15167	343	4	null	O	Fri Mar 28 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23032
 6328	355c6b57-2766-4d8b-9333-2fdd32f1946e	1092	15167	343	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
 6329	9d353d07-a38d-42df-b292-c546cb1bf60f	14958	15167	343	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23032
 6330	d81a04b4-5e3d-429c-a01c-cf4710d4e194	1089	15167	343	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
