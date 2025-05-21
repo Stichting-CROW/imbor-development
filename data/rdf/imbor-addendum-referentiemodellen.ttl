@@ -2388,6 +2388,7 @@ imbor-refmodels-id:f03e6c48-5b96-4f8d-9b1e-52d02fb0b45f a imbor-refmodels:Inform
   rdfs:comment "Dit informatieve gedeelte van IMBOR bevat de modellen waar vanuit IMBOR aan gerefereerd kan worden. Tevens bevat het waar van toepassing de 'bron' van een IMBOR concept."@nl;
   rdfs:label "IMBOR addendum Referentiemodellen"@nl;
   owl:imports imbor-meta:;
+  owl:priorVersion "IMBOR2022";
   owl:versionInfo "IMBOR2025".
 
 imbor:0001f6d6-f1cf-43f2-be29-2cccde6409d5

@@ -88,993 +88,1109 @@ imbor-refmodels:022e85f8-696d-467f-aaa7-bd707ee08f15 a sh:PropertyShape;
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:022e85f8-696d-467f-aaa7-bd707ee08f15_qvs.
+
+imbor-refmodels:022e85f8-696d-467f-aaa7-bd707ee08f15_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:039ae976-93fd-4620-9652-254db2551833 a sh:PropertyShape;
   skos:prefLabel "Installatie heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:039ae976-93fd-4620-9652-254db2551833_qvs.
+
+imbor-refmodels:039ae976-93fd-4620-9652-254db2551833_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:04475b9a-0a0b-49b3-b036-039ea78390be a sh:PropertyShape;
   skos:prefLabel "Bak heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:04475b9a-0a0b-49b3-b036-039ea78390be_qvs.
+
+imbor-refmodels:04475b9a-0a0b-49b3-b036-039ea78390be_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:0594163f-995d-4373-acf5-410268ea96d1 a sh:PropertyShape;
   skos:prefLabel "Tekstmarkering heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:0594163f-995d-4373-acf5-410268ea96d1_qvs.
+
+imbor-refmodels:0594163f-995d-4373-acf5-410268ea96d1_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:05e938b2-92c3-4fcd-8c2a-767e164a2e3a a sh:PropertyShape;
   skos:prefLabel "Kast heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:05e938b2-92c3-4fcd-8c2a-767e164a2e3a_qvs.
+
+imbor-refmodels:05e938b2-92c3-4fcd-8c2a-767e164a2e3a_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:0628883d-6fd2-467c-8231-ad517c77dcc3 a sh:PropertyShape;
   skos:prefLabel "Scheiding heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:0628883d-6fd2-467c-8231-ad517c77dcc3_qvs.
+
+imbor-refmodels:0628883d-6fd2-467c-8231-ad517c77dcc3_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:07d129b9-e065-49c3-9585-49ccf58e16d3 a sh:PropertyShape;
   skos:prefLabel "Geveltuin heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:07d129b9-e065-49c3-9585-49ccf58e16d3_qvs.
+
+imbor-refmodels:07d129b9-e065-49c3-9585-49ccf58e16d3_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:0bc64432-e0c7-4bd5-9f2f-760ce9f07d2b a sh:PropertyShape;
   skos:prefLabel "Kunstwerk heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:0bc64432-e0c7-4bd5-9f2f-760ce9f07d2b_qvs.
+
+imbor-refmodels:0bc64432-e0c7-4bd5-9f2f-760ce9f07d2b_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:0fcfe23e-63b9-44fc-832e-f625f061ad38 a sh:PropertyShape;
   skos:prefLabel "Vlakmarkering heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:0fcfe23e-63b9-44fc-832e-f625f061ad38_qvs.
+
+imbor-refmodels:0fcfe23e-63b9-44fc-832e-f625f061ad38_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:100455ad-9e27-4695-a2d6-4987b8fb7408 a sh:PropertyShape;
   skos:prefLabel "Profiel leiding heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:100455ad-9e27-4695-a2d6-4987b8fb7408_qvs.
+
+imbor-refmodels:100455ad-9e27-4695-a2d6-4987b8fb7408_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:1316ff5a-34ca-4d1c-b585-218f897c6f50 a sh:PropertyShape;
   skos:prefLabel "Groeiplaats heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:1316ff5a-34ca-4d1c-b585-218f897c6f50_qvs.
+
+imbor-refmodels:1316ff5a-34ca-4d1c-b585-218f897c6f50_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:132b1120-f3f9-4ef0-8f71-25c0bd381230 a sh:PropertyShape;
   skos:prefLabel "Gemaalcomplex heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:132b1120-f3f9-4ef0-8f71-25c0bd381230_qvs.
+
+imbor-refmodels:132b1120-f3f9-4ef0-8f71-25c0bd381230_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:153b39f1-94b5-43a4-951d-4c2fdde12f80 a sh:PropertyShape;
   skos:prefLabel "Gebouwcomponent heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:153b39f1-94b5-43a4-951d-4c2fdde12f80_qvs.
+
+imbor-refmodels:153b39f1-94b5-43a4-951d-4c2fdde12f80_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:1a6cbd9d-9e86-4c98-b2b7-83c8932afe9a a sh:PropertyShape;
   skos:prefLabel "Watergang heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:1a6cbd9d-9e86-4c98-b2b7-83c8932afe9a_qvs.
+
+imbor-refmodels:1a6cbd9d-9e86-4c98-b2b7-83c8932afe9a_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:1a8fc430-7377-42c5-933e-1d6106919887 a sh:PropertyShape;
   skos:prefLabel "Groenobject heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:1a8fc430-7377-42c5-933e-1d6106919887_qvs.
+
+imbor-refmodels:1a8fc430-7377-42c5-933e-1d6106919887_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:1f72cdeb-ec50-47bc-ba62-0eacf8d9810b a sh:PropertyShape;
   skos:prefLabel "Plantensoortlocatie heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:1f72cdeb-ec50-47bc-ba62-0eacf8d9810b_qvs.
+
+imbor-refmodels:1f72cdeb-ec50-47bc-ba62-0eacf8d9810b_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:2031e3de-bce1-4aa0-9c12-9ef2805af53f a sh:PropertyShape;
   skos:prefLabel "Edge heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:2031e3de-bce1-4aa0-9c12-9ef2805af53f_qvs.
+
+imbor-refmodels:2031e3de-bce1-4aa0-9c12-9ef2805af53f_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:20fa19c9-2fe2-4236-9f65-39f241b7a726 a sh:PropertyShape;
   skos:prefLabel "Bron heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:20fa19c9-2fe2-4236-9f65-39f241b7a726_qvs.
+
+imbor-refmodels:20fa19c9-2fe2-4236-9f65-39f241b7a726_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:28b94dc7-9249-441a-8336-69b63a45c5ad a sh:PropertyShape;
   skos:prefLabel "Veerverbinding heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:28b94dc7-9249-441a-8336-69b63a45c5ad_qvs.
+
+imbor-refmodels:28b94dc7-9249-441a-8336-69b63a45c5ad_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:2a4dacf3-c567-427b-976c-bdbe0249a584 a sh:PropertyShape;
   skos:prefLabel "Apparatuuroriëntatie heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:2a4dacf3-c567-427b-976c-bdbe0249a584_qvs.
+
+imbor-refmodels:2a4dacf3-c567-427b-976c-bdbe0249a584_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:300af366-ee0f-4f4d-a416-011bed658a27 a sh:PropertyShape;
   skos:prefLabel "Watervlakte heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:300af366-ee0f-4f4d-a416-011bed658a27_qvs.
+
+imbor-refmodels:300af366-ee0f-4f4d-a416-011bed658a27_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:3196f542-5800-4f24-aeca-9f5a1522edd1 a sh:PropertyShape;
   skos:prefLabel "Groeiplaats heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:3196f542-5800-4f24-aeca-9f5a1522edd1_qvs.
+
+imbor-refmodels:3196f542-5800-4f24-aeca-9f5a1522edd1_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:33afac47-5b83-49e1-b2d0-f9366f6f5da8 a sh:PropertyShape;
   skos:prefLabel "Put heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:33afac47-5b83-49e1-b2d0-f9366f6f5da8_qvs.
+
+imbor-refmodels:33afac47-5b83-49e1-b2d0-f9366f6f5da8_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:353f96d0-da34-4c2f-830d-d4fc166aac97 a sh:PropertyShape;
   skos:prefLabel "Kabeloriëntatie heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:353f96d0-da34-4c2f-830d-d4fc166aac97_qvs.
+
+imbor-refmodels:353f96d0-da34-4c2f-830d-d4fc166aac97_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:35478b9d-8c0a-4772-b7f9-e4b5856fe1b9 a sh:PropertyShape;
   skos:prefLabel "Weginrichtingsobject heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:35478b9d-8c0a-4772-b7f9-e4b5856fe1b9_qvs.
+
+imbor-refmodels:35478b9d-8c0a-4772-b7f9-e4b5856fe1b9_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:355be2d1-be99-4b63-88e2-b93897b76842 a sh:PropertyShape;
   skos:prefLabel "Apparaat heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:355be2d1-be99-4b63-88e2-b93897b76842_qvs.
+
+imbor-refmodels:355be2d1-be99-4b63-88e2-b93897b76842_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:3631bfda-f394-4e5f-aef7-cf9c95529ac4 a sh:PropertyShape;
   skos:prefLabel "Compartiment heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:3631bfda-f394-4e5f-aef7-cf9c95529ac4_qvs.
+
+imbor-refmodels:3631bfda-f394-4e5f-aef7-cf9c95529ac4_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:37c59394-3063-4527-837e-4a7fa3629340 a sh:PropertyShape;
   skos:prefLabel "Stelsel heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:37c59394-3063-4527-837e-4a7fa3629340_qvs.
+
+imbor-refmodels:37c59394-3063-4527-837e-4a7fa3629340_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:3e558d2e-ace9-4d63-b6a9-28107de17093 a sh:PropertyShape;
   skos:prefLabel "Waterinrichtingsobject heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:3e558d2e-ace9-4d63-b6a9-28107de17093_qvs.
+
+imbor-refmodels:3e558d2e-ace9-4d63-b6a9-28107de17093_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:3f3a4a3f-5500-48e8-8389-9277b1ce0001 a sh:PropertyShape;
   skos:prefLabel "Solitaire plant heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:3f3a4a3f-5500-48e8-8389-9277b1ce0001_qvs.
+
+imbor-refmodels:3f3a4a3f-5500-48e8-8389-9277b1ce0001_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:42ebcaeb-53e5-4450-9089-987e21dc5052 a sh:PropertyShape;
   skos:prefLabel "Bodem heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:42ebcaeb-53e5-4450-9089-987e21dc5052_qvs.
+
+imbor-refmodels:42ebcaeb-53e5-4450-9089-987e21dc5052_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:457516f5-77a6-40c8-9b48-3b6a383a6080 a sh:PropertyShape;
   skos:prefLabel "Veldbelijning heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:457516f5-77a6-40c8-9b48-3b6a383a6080_qvs.
+
+imbor-refmodels:457516f5-77a6-40c8-9b48-3b6a383a6080_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:4a89b2b5-f9ed-4da7-9820-7b9b85045032 a sh:PropertyShape;
   skos:prefLabel "Tekstmarkering heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:4a89b2b5-f9ed-4da7-9820-7b9b85045032_qvs.
+
+imbor-refmodels:4a89b2b5-f9ed-4da7-9820-7b9b85045032_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:4bf25069-5d7b-43c1-b84f-8e202254ff0f a sh:PropertyShape;
   skos:prefLabel "Klimplant heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:4bf25069-5d7b-43c1-b84f-8e202254ff0f_qvs.
+
+imbor-refmodels:4bf25069-5d7b-43c1-b84f-8e202254ff0f_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:4d088fa7-c14c-4e13-963b-6732aa49417a a sh:PropertyShape;
   skos:prefLabel "Solitaire plant heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:4d088fa7-c14c-4e13-963b-6732aa49417a_qvs.
+
+imbor-refmodels:4d088fa7-c14c-4e13-963b-6732aa49417a_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:50b24e22-3501-4082-9065-8bd537fcdac2 a sh:PropertyShape;
   skos:prefLabel "Tuunwal heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:50b24e22-3501-4082-9065-8bd537fcdac2_qvs.
+
+imbor-refmodels:50b24e22-3501-4082-9065-8bd537fcdac2_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:51992aca-b874-4a46-8826-0d142f007036 a sh:PropertyShape;
   skos:prefLabel "Waterinrichtingsobject heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:51992aca-b874-4a46-8826-0d142f007036_qvs.
+
+imbor-refmodels:51992aca-b874-4a46-8826-0d142f007036_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:54c4afe6-8c6c-4029-ab24-e95bbdeec8df a sh:PropertyShape;
   skos:prefLabel "Installatie heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:54c4afe6-8c6c-4029-ab24-e95bbdeec8df_qvs.
+
+imbor-refmodels:54c4afe6-8c6c-4029-ab24-e95bbdeec8df_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:570b24e1-960b-4909-8b03-cddf81bcd69b a sh:PropertyShape;
   skos:prefLabel "Recreatiezone heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:570b24e1-960b-4909-8b03-cddf81bcd69b_qvs.
+
+imbor-refmodels:570b24e1-960b-4909-8b03-cddf81bcd69b_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:57145d3b-a884-446e-b186-8d79b3957ced a sh:PropertyShape;
   skos:prefLabel "Straatmeubilair heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:57145d3b-a884-446e-b186-8d79b3957ced_qvs.
+
+imbor-refmodels:57145d3b-a884-446e-b186-8d79b3957ced_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:575b74ff-7766-4502-b057-be493119b5d1 a sh:PropertyShape;
   skos:prefLabel "Onbepaald terrein heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:575b74ff-7766-4502-b057-be493119b5d1_qvs.
+
+imbor-refmodels:575b74ff-7766-4502-b057-be493119b5d1_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:58fda691-4087-49e9-a2f2-2606eda5938f a sh:PropertyShape;
   skos:prefLabel "Gebouwcomponent heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:58fda691-4087-49e9-a2f2-2606eda5938f_qvs.
+
+imbor-refmodels:58fda691-4087-49e9-a2f2-2606eda5938f_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:58ff060a-8197-4f63-b540-7875efed3545 a sh:PropertyShape;
   skos:prefLabel "Bloemblok heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:58ff060a-8197-4f63-b540-7875efed3545_qvs.
+
+imbor-refmodels:58ff060a-8197-4f63-b540-7875efed3545_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:6118982c-4c10-46d5-8b21-0224e6fe7d50 a sh:PropertyShape;
   skos:prefLabel "Hydraulisch rioleringsmodel heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:6118982c-4c10-46d5-8b21-0224e6fe7d50_qvs.
+
+imbor-refmodels:6118982c-4c10-46d5-8b21-0224e6fe7d50_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:64d68cc4-16cc-48dd-9469-62a3bdd7ae58 a sh:PropertyShape;
   skos:prefLabel "Gevelgroen heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:64d68cc4-16cc-48dd-9469-62a3bdd7ae58_qvs.
+
+imbor-refmodels:64d68cc4-16cc-48dd-9469-62a3bdd7ae58_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:65d1207c-b435-449a-93b3-5bcf134943a7 a sh:PropertyShape;
   skos:prefLabel "Vegetatiedak heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:65d1207c-b435-449a-93b3-5bcf134943a7_qvs.
+
+imbor-refmodels:65d1207c-b435-449a-93b3-5bcf134943a7_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:6a2d789b-068f-4f19-b281-60a36e82e1c8 a sh:PropertyShape;
   skos:prefLabel "Aansluiting heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:6a2d789b-068f-4f19-b281-60a36e82e1c8_qvs.
+
+imbor-refmodels:6a2d789b-068f-4f19-b281-60a36e82e1c8_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:6ace54bd-051b-405a-a932-4cf85952f54d a sh:PropertyShape;
   skos:prefLabel "Geveltuin heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:6ace54bd-051b-405a-a932-4cf85952f54d_qvs.
+
+imbor-refmodels:6ace54bd-051b-405a-a932-4cf85952f54d_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:6c3fc0bb-fe9d-471e-a3eb-ab25ab07f915 a sh:PropertyShape;
   skos:prefLabel "Getijdengebied heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:6c3fc0bb-fe9d-471e-a3eb-ab25ab07f915_qvs.
+
+imbor-refmodels:6c3fc0bb-fe9d-471e-a3eb-ab25ab07f915_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:72daa948-95ae-46fc-bb7d-76d1fe0418e9 a sh:PropertyShape;
   skos:prefLabel "Dekseloriëntatie heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:72daa948-95ae-46fc-bb7d-76d1fe0418e9_qvs.
+
+imbor-refmodels:72daa948-95ae-46fc-bb7d-76d1fe0418e9_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:76c1a300-8b2e-49bd-9680-5bd9d0b36ea1 a sh:PropertyShape;
   skos:prefLabel "Leiding heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:76c1a300-8b2e-49bd-9680-5bd9d0b36ea1_qvs.
+
+imbor-refmodels:76c1a300-8b2e-49bd-9680-5bd9d0b36ea1_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:77361e3a-9cb4-44eb-ada4-9cc94a13e374 a sh:PropertyShape;
   skos:prefLabel "Constructieonderdeel heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:77361e3a-9cb4-44eb-ada4-9cc94a13e374_qvs.
+
+imbor-refmodels:77361e3a-9cb4-44eb-ada4-9cc94a13e374_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:7a471642-8335-4c0a-84b5-cd49583a2373 a sh:PropertyShape;
   skos:prefLabel "Bord heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:7a471642-8335-4c0a-84b5-cd49583a2373_qvs.
+
+imbor-refmodels:7a471642-8335-4c0a-84b5-cd49583a2373_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:7c08d5e3-89c9-4132-a5ff-75d8351a1065 a sh:PropertyShape;
   skos:prefLabel "Straatmeubilair heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:7c08d5e3-89c9-4132-a5ff-75d8351a1065_qvs.
+
+imbor-refmodels:7c08d5e3-89c9-4132-a5ff-75d8351a1065_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:81b99e84-b931-4812-8d21-901e0cc8a1b3 a sh:PropertyShape;
   skos:prefLabel "Symboolmarkering heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:81b99e84-b931-4812-8d21-901e0cc8a1b3_qvs.
+
+imbor-refmodels:81b99e84-b931-4812-8d21-901e0cc8a1b3_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:8242575f-b4c0-4ec4-95fc-b860186cd9f8 a sh:PropertyShape;
   skos:prefLabel "Rioolstreng heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:8242575f-b4c0-4ec4-95fc-b860186cd9f8_qvs.
+
+imbor-refmodels:8242575f-b4c0-4ec4-95fc-b860186cd9f8_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:84c6f79e-77e9-44d5-931e-d02b36b43dc9 a sh:PropertyShape;
   skos:prefLabel "Bouwwerk heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:84c6f79e-77e9-44d5-931e-d02b36b43dc9_qvs.
+
+imbor-refmodels:84c6f79e-77e9-44d5-931e-d02b36b43dc9_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:84db5b9d-5062-4c10-a0ac-f956d8ee22f3 a sh:PropertyShape;
   skos:prefLabel "Aansluiting heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:84db5b9d-5062-4c10-a0ac-f956d8ee22f3_qvs.
+
+imbor-refmodels:84db5b9d-5062-4c10-a0ac-f956d8ee22f3_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:877cc930-22f1-4dc8-9516-d74c38988ba8 a sh:PropertyShape;
   skos:prefLabel "Scheiding heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:877cc930-22f1-4dc8-9516-d74c38988ba8_qvs.
+
+imbor-refmodels:877cc930-22f1-4dc8-9516-d74c38988ba8_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:87c40c5a-ffbf-45e9-b2ce-ab6486afc6de a sh:PropertyShape;
   skos:prefLabel "Weginrichtingsobject heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:87c40c5a-ffbf-45e9-b2ce-ab6486afc6de_qvs.
+
+imbor-refmodels:87c40c5a-ffbf-45e9-b2ce-ab6486afc6de_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:87e8ab2f-1850-497f-b149-17d08f814072 a sh:PropertyShape;
   skos:prefLabel "Lijnmarkering heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:87e8ab2f-1850-497f-b149-17d08f814072_qvs.
+
+imbor-refmodels:87e8ab2f-1850-497f-b149-17d08f814072_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:8c329578-d71c-4b4d-8837-48b629ad7393 a sh:PropertyShape;
   skos:prefLabel "Veldbelijning heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:8c329578-d71c-4b4d-8837-48b629ad7393_qvs.
+
+imbor-refmodels:8c329578-d71c-4b4d-8837-48b629ad7393_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:8c9530dc-1cd8-4b68-a4a2-902263350106 a sh:PropertyShape;
   skos:prefLabel "Constructieonderdeeloriëntatie heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:8c9530dc-1cd8-4b68-a4a2-902263350106_qvs.
+
+imbor-refmodels:8c9530dc-1cd8-4b68-a4a2-902263350106_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:8f49364c-61f2-4955-9575-a1ae084a15fd a sh:PropertyShape;
   skos:prefLabel "Gevelgroen heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:8f49364c-61f2-4955-9575-a1ae084a15fd_qvs.
+
+imbor-refmodels:8f49364c-61f2-4955-9575-a1ae084a15fd_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:92c43534-de6c-4edd-816b-c3661bfa68d0 a sh:PropertyShape;
   skos:prefLabel "Vegetatiedak heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:92c43534-de6c-4edd-816b-c3661bfa68d0_qvs.
+
+imbor-refmodels:92c43534-de6c-4edd-816b-c3661bfa68d0_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:9613b244-ba3b-4289-afe8-9d27b45e3214 a sh:PropertyShape;
   skos:prefLabel "Gebouw heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:9613b244-ba3b-4289-afe8-9d27b45e3214_qvs.
+
+imbor-refmodels:9613b244-ba3b-4289-afe8-9d27b45e3214_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:98553678-2f14-4f40-b62a-2711b8afe06b a sh:PropertyShape;
   skos:prefLabel "Vertex heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:98553678-2f14-4f40-b62a-2711b8afe06b_qvs.
+
+imbor-refmodels:98553678-2f14-4f40-b62a-2711b8afe06b_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:9a759e62-0e9d-4af5-b016-3c3351834262 a sh:PropertyShape;
   skos:prefLabel "Gebouwcomponent heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:9a759e62-0e9d-4af5-b016-3c3351834262_qvs.
+
+imbor-refmodels:9a759e62-0e9d-4af5-b016-3c3351834262_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:9fdf2655-562d-4c75-84ff-9ff1dbaa1b35 a sh:PropertyShape;
   skos:prefLabel "Virtuele ruimte heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:9fdf2655-562d-4c75-84ff-9ff1dbaa1b35_qvs.
+
+imbor-refmodels:9fdf2655-562d-4c75-84ff-9ff1dbaa1b35_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:a2043a59-3c5e-4fcc-be8c-a402954b48bc a sh:PropertyShape;
   skos:prefLabel "Constructieonderdeeloriëntatie heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:a2043a59-3c5e-4fcc-be8c-a402954b48bc_qvs.
+
+imbor-refmodels:a2043a59-3c5e-4fcc-be8c-a402954b48bc_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:a3cc94ac-87f2-4de5-9540-68b722a6f421 a sh:PropertyShape;
   skos:prefLabel "Drijvend groen heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:a3cc94ac-87f2-4de5-9540-68b722a6f421_qvs.
+
+imbor-refmodels:a3cc94ac-87f2-4de5-9540-68b722a6f421_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:a4c93f11-4600-44ae-b32e-3f0ea58a63a6 a sh:PropertyShape;
   skos:prefLabel "Straatmeubilair heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:a4c93f11-4600-44ae-b32e-3f0ea58a63a6_qvs.
+
+imbor-refmodels:a4c93f11-4600-44ae-b32e-3f0ea58a63a6_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:aa1373fb-eb65-4739-804f-eb50acd2514d a sh:PropertyShape;
   skos:prefLabel "Watergang heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:aa1373fb-eb65-4739-804f-eb50acd2514d_qvs.
+
+imbor-refmodels:aa1373fb-eb65-4739-804f-eb50acd2514d_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:abde17c5-bd00-453a-a09c-f4711527c4d4 a sh:PropertyShape;
   skos:prefLabel "Systeem heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:abde17c5-bd00-453a-a09c-f4711527c4d4_qvs.
+
+imbor-refmodels:abde17c5-bd00-453a-a09c-f4711527c4d4_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:ada0758c-07c6-4080-8137-3ceb92d2d45c a sh:PropertyShape;
   skos:prefLabel "Appendage-oriëntatie heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:ada0758c-07c6-4080-8137-3ceb92d2d45c_qvs.
+
+imbor-refmodels:ada0758c-07c6-4080-8137-3ceb92d2d45c_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:b1e349db-b486-47ae-a142-d1971cb09f37 a sh:PropertyShape;
   skos:prefLabel "Paalconstructie heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:b1e349db-b486-47ae-a142-d1971cb09f37_qvs.
+
+imbor-refmodels:b1e349db-b486-47ae-a142-d1971cb09f37_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:b1f551ff-5d09-4964-a7db-aa44b8d02f4d a sh:PropertyShape;
   skos:prefLabel "Drijvend groen heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:b1f551ff-5d09-4964-a7db-aa44b8d02f4d_qvs.
+
+imbor-refmodels:b1f551ff-5d09-4964-a7db-aa44b8d02f4d_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:b1fcb0dc-c2fe-4875-b67d-d615df6223e5 a sh:PropertyShape;
   skos:prefLabel "Bloemblok heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:b1fcb0dc-c2fe-4875-b67d-d615df6223e5_qvs.
+
+imbor-refmodels:b1fcb0dc-c2fe-4875-b67d-d615df6223e5_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:b410b818-da93-4db7-ae95-760080864bac a sh:PropertyShape;
   skos:prefLabel "Kunstwerk heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:b410b818-da93-4db7-ae95-760080864bac_qvs.
+
+imbor-refmodels:b410b818-da93-4db7-ae95-760080864bac_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:b4376f30-885a-484f-9f22-de9b6eb03551 a sh:PropertyShape;
   skos:prefLabel "Profiellijn heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:b4376f30-885a-484f-9f22-de9b6eb03551_qvs.
+
+imbor-refmodels:b4376f30-885a-484f-9f22-de9b6eb03551_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:b4fc91d6-74c3-41de-8bd7-d3514bf866b2 a sh:PropertyShape;
   skos:prefLabel "Wegconstructie heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:b4fc91d6-74c3-41de-8bd7-d3514bf866b2_qvs.
+
+imbor-refmodels:b4fc91d6-74c3-41de-8bd7-d3514bf866b2_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:b59def31-7802-4274-9175-69c174095862 a sh:PropertyShape;
   skos:prefLabel "Boom heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:b59def31-7802-4274-9175-69c174095862_qvs.
+
+imbor-refmodels:b59def31-7802-4274-9175-69c174095862_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:b6dcaeaa-a81c-43d5-ac02-f77c0f0840ac a sh:PropertyShape;
   skos:prefLabel "Bak heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:b6dcaeaa-a81c-43d5-ac02-f77c0f0840ac_qvs.
+
+imbor-refmodels:b6dcaeaa-a81c-43d5-ac02-f77c0f0840ac_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:b9093422-fba9-4845-b485-cdb59d18f0a4 a sh:PropertyShape;
   skos:prefLabel "Constructieonderdeel heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:b9093422-fba9-4845-b485-cdb59d18f0a4_qvs.
+
+imbor-refmodels:b9093422-fba9-4845-b485-cdb59d18f0a4_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:b95811e6-5849-4a62-9bb6-3e4c63e9db78 a sh:PropertyShape;
   skos:prefLabel "Keverbank heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:b95811e6-5849-4a62-9bb6-3e4c63e9db78_qvs.
+
+imbor-refmodels:b95811e6-5849-4a62-9bb6-3e4c63e9db78_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:b9f4aaa1-f79a-4d2c-85d4-f06bbd7e8397 a sh:PropertyShape;
   skos:prefLabel "Symboolmarkering heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:b9f4aaa1-f79a-4d2c-85d4-f06bbd7e8397_qvs.
+
+imbor-refmodels:b9f4aaa1-f79a-4d2c-85d4-f06bbd7e8397_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:bcb95e88-9c07-4802-adef-f2e80462b300 a sh:PropertyShape;
   skos:prefLabel "Virtuele ruimte heeft begrenzing GM_MultiSurface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:ad2f54e6-94d4-4cbe-941e-ad099eaf96dd
-    ].
+  sh:qualifiedValueShape imbor-refmodels:bcb95e88-9c07-4802-adef-f2e80462b300_qvs.
+
+imbor-refmodels:bcb95e88-9c07-4802-adef-f2e80462b300_qvs a sh:NodeShape;
+  sh:class imbor:ad2f54e6-94d4-4cbe-941e-ad099eaf96dd.
 
 imbor-refmodels:c21e1a1f-1bc2-458f-afab-94c76b53f7ac a sh:PropertyShape;
   skos:prefLabel "Waterinrichtingsobject heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:c21e1a1f-1bc2-458f-afab-94c76b53f7ac_qvs.
+
+imbor-refmodels:c21e1a1f-1bc2-458f-afab-94c76b53f7ac_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:c5db7b69-e41f-4770-9ccc-4bee69735b9d a sh:PropertyShape;
   skos:prefLabel "Gebouwzone heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:c5db7b69-e41f-4770-9ccc-4bee69735b9d_qvs.
+
+imbor-refmodels:c5db7b69-e41f-4770-9ccc-4bee69735b9d_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:c92f1a47-86c1-4e6b-a686-fe532eba8d1f a sh:PropertyShape;
   skos:prefLabel "Bouwwerk heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:c92f1a47-86c1-4e6b-a686-fe532eba8d1f_qvs.
+
+imbor-refmodels:c92f1a47-86c1-4e6b-a686-fe532eba8d1f_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:c9df53eb-f7ea-4ed2-8c27-37f318b63e78 a sh:PropertyShape;
   skos:prefLabel "Paalconstructie heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:c9df53eb-f7ea-4ed2-8c27-37f318b63e78_qvs.
+
+imbor-refmodels:c9df53eb-f7ea-4ed2-8c27-37f318b63e78_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:cc2f0e34-f683-410a-9b7e-b901eff59fd8 a sh:PropertyShape;
   skos:prefLabel "Keverbank heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:cc2f0e34-f683-410a-9b7e-b901eff59fd8_qvs.
+
+imbor-refmodels:cc2f0e34-f683-410a-9b7e-b901eff59fd8_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:ce86c5a6-8790-4f95-a2c8-18973ae20078 a sh:PropertyShape;
   skos:prefLabel "Kast heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:ce86c5a6-8790-4f95-a2c8-18973ae20078_qvs.
+
+imbor-refmodels:ce86c5a6-8790-4f95-a2c8-18973ae20078_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:cec98d99-4c44-4182-8054-78d12fdefdcd a sh:PropertyShape;
   skos:prefLabel "Uitlaat heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:cec98d99-4c44-4182-8054-78d12fdefdcd_qvs.
+
+imbor-refmodels:cec98d99-4c44-4182-8054-78d12fdefdcd_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:d3932544-5b46-46c9-a8cf-0796a9cd7ca4 a sh:PropertyShape;
   skos:prefLabel "Hydraulisch rioleringsmodel heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:d3932544-5b46-46c9-a8cf-0796a9cd7ca4_qvs.
+
+imbor-refmodels:d3932544-5b46-46c9-a8cf-0796a9cd7ca4_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:d400bf48-171b-4f7e-aa48-9ec2b707d435 a sh:PropertyShape;
   skos:prefLabel "Greppel heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:d400bf48-171b-4f7e-aa48-9ec2b707d435_qvs.
+
+imbor-refmodels:d400bf48-171b-4f7e-aa48-9ec2b707d435_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:d434306e-3363-4490-8951-986752e16971 a sh:PropertyShape;
   skos:prefLabel "Kunstwerk heeft begrenzing GM_MultiSurface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:ad2f54e6-94d4-4cbe-941e-ad099eaf96dd
-    ].
+  sh:qualifiedValueShape imbor-refmodels:d434306e-3363-4490-8951-986752e16971_qvs.
+
+imbor-refmodels:d434306e-3363-4490-8951-986752e16971_qvs a sh:NodeShape;
+  sh:class imbor:ad2f54e6-94d4-4cbe-941e-ad099eaf96dd.
 
 imbor-refmodels:d7150ae2-80dd-4133-bd9c-92ff83e56a22 a sh:PropertyShape;
   skos:prefLabel "Constructielaag heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:d7150ae2-80dd-4133-bd9c-92ff83e56a22_qvs.
+
+imbor-refmodels:d7150ae2-80dd-4133-bd9c-92ff83e56a22_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:e1a0b949-5d34-477c-a2c5-daa758f44aea a sh:PropertyShape;
   skos:prefLabel "Sensor heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:e1a0b949-5d34-477c-a2c5-daa758f44aea_qvs.
+
+imbor-refmodels:e1a0b949-5d34-477c-a2c5-daa758f44aea_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:e1dade55-0cb8-4732-a965-a29ae7e244fd a sh:PropertyShape;
   skos:prefLabel "Bouwwerk heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:e1dade55-0cb8-4732-a965-a29ae7e244fd_qvs.
+
+imbor-refmodels:e1dade55-0cb8-4732-a965-a29ae7e244fd_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:e4240050-da29-44ba-b944-a9cf6612a55d a sh:PropertyShape;
   skos:prefLabel "Greppel heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:e4240050-da29-44ba-b944-a9cf6612a55d_qvs.
+
+imbor-refmodels:e4240050-da29-44ba-b944-a9cf6612a55d_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 imbor-refmodels:e78e1100-d95e-407f-ac88-bb28a8e98955 a sh:PropertyShape;
   skos:prefLabel "Verharding heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:e78e1100-d95e-407f-ac88-bb28a8e98955_qvs.
+
+imbor-refmodels:e78e1100-d95e-407f-ac88-bb28a8e98955_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:e8381dd0-6ef2-4aae-84dc-35f6f0905174 a sh:PropertyShape;
   skos:prefLabel "Plantensoortlocatie heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:e8381dd0-6ef2-4aae-84dc-35f6f0905174_qvs.
+
+imbor-refmodels:e8381dd0-6ef2-4aae-84dc-35f6f0905174_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:ea72bc8f-82a5-42b8-8666-367d381ad739 a sh:PropertyShape;
   skos:prefLabel "Mast heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:ea72bc8f-82a5-42b8-8666-367d381ad739_qvs.
+
+imbor-refmodels:ea72bc8f-82a5-42b8-8666-367d381ad739_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:ebd1cd04-4710-4b91-94bd-57d1361d9f72 a sh:PropertyShape;
   skos:prefLabel "Klimplant heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:ebd1cd04-4710-4b91-94bd-57d1361d9f72_qvs.
+
+imbor-refmodels:ebd1cd04-4710-4b91-94bd-57d1361d9f72_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:f0998af9-a859-438c-b569-627f41c7edde a sh:PropertyShape;
   skos:prefLabel "Drijvend park heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:f0998af9-a859-438c-b569-627f41c7edde_qvs.
+
+imbor-refmodels:f0998af9-a859-438c-b569-627f41c7edde_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:f1d01621-44ce-4d8c-977c-36ee64ed6f4d a sh:PropertyShape;
   skos:prefLabel "Gebiedsoriëntatie heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:f1d01621-44ce-4d8c-977c-36ee64ed6f4d_qvs.
+
+imbor-refmodels:f1d01621-44ce-4d8c-977c-36ee64ed6f4d_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:f3ccab6a-eea5-4342-8673-5cb55ab26700 a sh:PropertyShape;
   skos:prefLabel "Lijnmarkering heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:f3ccab6a-eea5-4342-8673-5cb55ab26700_qvs.
+
+imbor-refmodels:f3ccab6a-eea5-4342-8673-5cb55ab26700_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:f3ed7125-1cb4-4520-8ce0-99161df36b03 a sh:PropertyShape;
   skos:prefLabel "Installatie heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:f3ed7125-1cb4-4520-8ce0-99161df36b03_qvs.
+
+imbor-refmodels:f3ed7125-1cb4-4520-8ce0-99161df36b03_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:f4e8342c-cde6-4a72-a88c-0815125f0e57 a sh:PropertyShape;
   skos:prefLabel "Ruimte heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:f4e8342c-cde6-4a72-a88c-0815125f0e57_qvs.
+
+imbor-refmodels:f4e8342c-cde6-4a72-a88c-0815125f0e57_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:f58083d5-929a-4a4e-b2bc-1467a0c7739b a sh:PropertyShape;
   skos:prefLabel "Buitengrens heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:f58083d5-929a-4a4e-b2bc-1467a0c7739b_qvs.
+
+imbor-refmodels:f58083d5-929a-4a4e-b2bc-1467a0c7739b_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:f6d9c177-fde2-46be-ac66-7f127788edbf a sh:PropertyShape;
   skos:prefLabel "Put heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a
-    ].
+  sh:qualifiedValueShape imbor-refmodels:f6d9c177-fde2-46be-ac66-7f127788edbf_qvs.
+
+imbor-refmodels:f6d9c177-fde2-46be-ac66-7f127788edbf_qvs a sh:NodeShape;
+  sh:class imbor:bdb53bb7-defc-4055-b047-271c5edda82a.
 
 imbor-refmodels:f7d28a29-b2f7-4fce-b0e2-0d241968fa5b a sh:PropertyShape;
   skos:prefLabel "Bron heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
   sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:f7d28a29-b2f7-4fce-b0e2-0d241968fa5b_qvs.
+
+imbor-refmodels:f7d28a29-b2f7-4fce-b0e2-0d241968fa5b_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:f7eaa78f-767e-41d3-9a37-27cf84f1621a a sh:PropertyShape;
   skos:prefLabel "Mast heeft begrenzing GM_Surface";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6
-    ].
+  sh:qualifiedValueShape imbor-refmodels:f7eaa78f-767e-41d3-9a37-27cf84f1621a_qvs.
+
+imbor-refmodels:f7eaa78f-767e-41d3-9a37-27cf84f1621a_qvs a sh:NodeShape;
+  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
 
 imbor-refmodels:feff22ee-c8d9-4fe4-b631-c95d25cf8ea3 a sh:PropertyShape;
   skos:prefLabel "Constructieonderdeel heeft begrenzing GM_Curve";
   sh:path nen2660:hasBoundary;
   sh:qualifiedMaxCount 1;
-  sh:qualifiedValueShape [
-      sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30
-    ].
+  sh:qualifiedValueShape imbor-refmodels:feff22ee-c8d9-4fe4-b631-c95d25cf8ea3_qvs.
+
+imbor-refmodels:feff22ee-c8d9-4fe4-b631-c95d25cf8ea3_qvs a sh:NodeShape;
+  sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
 <https://data.crow.nl/imbor/addendum/geometrie> a owl:Ontology;
   rdfs:comment "Dit informatieve gedeelte van IMBOR geeft aan welke soort geometrische vastlegging de voorkeur heeft en welke er meer mogelijk zijn."@nl;
   rdfs:label "IMBOR addendum Geometrie"@nl;
+  owl:priorVersion "IMBOR2022";
   owl:versionInfo "IMBOR2025".
 
 imbor:0379b919-1cf8-4546-8091-0a6d0cab3197 a sh:NodeShape;

@@ -123,6 +123,7 @@ jobs:
       - update: src/transformations/qualifiedValueShape-replace-qualifiedMaxMin-991.ru
       - update: src/transformations/qualifiedValueShape-min-constraint.ru
       - update: src/transformations/logging.ru
+      - update: src/transformations/logging-remove-not-existing.ru
 
   download-voor-gefilterde-export:
     steps:

@@ -22,6 +22,7 @@ imbor-refmodels:levensfaseTypering a rdf:Property;
   rdfs:comment "Een aantal metaconcepten worden specifiek voor IMBOR gedefinieerd. Dit wordt gedaan middels het 'IMBOR Aanvullend Metamodel'. Dit betreft een kleine ontologie van beschrijfende concepten die er voor zorgen dat alle IMBOR specifieke properties netjes en navolgbaar gedefinieerd zijn."@nl;
   rdfs:label "IMBOR Aanvullend metamodel"@nl;
   owl:imports skos:;
+  owl:priorVersion "IMBOR2022";
   owl:versionInfo "IMBOR2025".
 
 imbor:Actor a rdfs:Class;

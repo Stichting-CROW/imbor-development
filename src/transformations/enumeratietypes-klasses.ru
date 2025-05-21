@@ -49,7 +49,9 @@ insert {
             imbor:typeLijst ?LijstType ;
             rdfs:seeAlso ?termUri .
 
-        ?propShapeUri sh:qualifiedValueShape [ ?AttribuutShapeWijze ?enumTypeUri ] .
+        ?propShapeUri sh:qualifiedValueShape ?propShapeQVSUri .
+        ?propShapeQVSUri    a   sh:NodeShape ;
+                            ?AttribuutShapeWijze ?enumTypeUri .
     }
 }
 WHERE {
@@ -76,6 +78,7 @@ WHERE {
             csv:Enumeratietype ?Enumeratietype .
 
         BIND (URI(CONCAT(STR(imbor:), ?IMBORGUID)) AS ?propShapeUri)
+        BIND (URI(CONCAT(STR(imbor:), ?IMBORGUID, "_qvs")) AS ?propShapeQVSUri)
 
         graph <csv:table/imborKern_Attributen> {
             [] csv:Attribuut ?Attribuut ;

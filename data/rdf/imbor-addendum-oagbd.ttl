@@ -9,6 +9,7 @@
   rdfs:comment "Dit informatieve gedeelte van IMBOR geeft aan bij elke combinatie van klasse en attribuut in welke fase van de levenscyclus van het object de informatie doorgaans bekend is."@nl;
   rdfs:label "IMBOR addendum OAGBD"@nl;
   owl:imports imbor-meta:;
+  owl:priorVersion "IMBOR2022";
   owl:versionInfo "IMBOR2025".
 
 imbor:00231ddd-6d95-4255-be25-d20faf6900b7

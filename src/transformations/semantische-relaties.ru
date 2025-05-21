@@ -49,10 +49,13 @@ insert {
             a sh:PropertyShape ;
             skos:prefLabel ?propDescNL ;
             sh:path ?metaRelatie ;
-            sh:qualifiedValueShape [ sh:class ?Objecttype2Uri ] ;
+            sh:qualifiedValueShape ?propShapeQVSUri ;
             sh:qualifiedMinCount ?minCount ;
             sh:qualifiedMaxCount ?maxCount ;
             .
+
+            ?propShapeQVSUri a sh:NodeShape ;
+                             sh:class ?Objecttype2Uri .
 
         nen2660:hasBoundary rdfs:subPropertyOf geo:hasGeometry 
         .
@@ -104,6 +107,7 @@ WHERE {
     }
     
     BIND (URI(CONCAT(STR(imbor:), ?IMBORGUID)) AS ?propShapeUri)
+    BIND (URI(CONCAT(STR(imbor:), ?IMBORGUID, "_qvs")) AS ?propShapeQVSUri)
     BIND (CONCAT(?Objecttype1Naam, " ", ?metaRelatieNL, " ", ?Objecttype2Naam) as ?propDesc)
     BIND (STRLANG(?propDesc, "nl") as ?propDescNL)
     BIND (URI(CONCAT(STR(imbor:), ?Objecttype1GUID)) AS ?Objecttype1Uri)
