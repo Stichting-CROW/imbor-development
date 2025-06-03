@@ -39,47 +39,57 @@ prefix sml: <https://w3id.org/sml/def#>
 
 prefix csv: <csv:>
 
+INSERT {
+    GRAPH imbor: {
+        ?enumTypeUri a rdfs:Class ;
+            rdfs:subClassOf nen2660:EnumerationType ;
+            skos:prefLabel ?TermNL ;
+            imbor:typeLijst "Suggestielijst"@nl ;
+            rdfs:seeAlso ?termUri .
 
-insert {
-    graph <https://data.crow.nl/imbor/mim/> {
-        ?MIMRelatieSoort a mim:Relatiesoort ;
-            mim:naam ?relatiesoortNaam ;
-            mim:herkomst "IMBOR - Stichting CROW"@nl ;
-            mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl;
-            mim:kardinaliteit ?Kardinaliteit ;
-            mim:unidirectioneel true ;
-            mim:locatie "https://data.crow.nl/imbor/def" ;
-            mim:bron  ?MIMVan ;
-            mim:doel   ?MIMNaar ;
-            .
-
-        ?RelatieSoort     mim:equivalent  ?MIMRelatieSoort . 
-
+        ?propShapeUri sh:qualifiedValueShape ?propShapeQVSUri ;
+        sh:qualifiedMaxCount 1 .
         
+        ?propShapeQVSUri a sh:NodeShape ;
+                         sh:class ?enumTypeUri .
     }
-} where {
-    GRAPH <https://data.crow.nl/imbor/def/> {
-        ?RelatieSoort a sh:PropertyShape ;
-            skos:prefLabel ?relatiesoortNaam ;
-            sh:path ?path ;
-            FILTER CONTAINS(str(?path),"nen2660") 
-                        .
+    
+    # Voeg definitie alleen toe als deze bestaat
+    GRAPH imbor: {
+        ?enumTypeUri skos:definition ?DefinitieNL .
+    }
+}
+WHERE {
+    GRAPH <csv:table/imborVoc_Termen> {
+        ?row1 csv:VocabulairID ?Enumeratietype ;
+              csv:Term ?Term ;
+              csv:VocabulairGUID ?VocabulairGUID ;
+              csv:IMBORGUID ?enumTypeIMBORGUID ;
+              csv:Collectie 24 .
+
+        OPTIONAL { ?row1 csv:Definitie ?Definitie }
+
+        BIND(IRI(CONCAT(STR(imbor:), ?enumTypeIMBORGUID)) AS ?enumTypeUri)
+        BIND(IRI(CONCAT(STR(imbor-term:), ?VocabulairGUID)) AS ?termUri)
+        BIND(STRLANG(?Term, "nl") AS ?TermNL)
         
-        BIND(IRI(REPLACE(STR(?RelatieSoort),"https://data.crow.nl/imbor/def/","https://data.crow.nl/imbor/mim/mim-")) AS ?MIMRelatieSoort)  
+        OPTIONAL {
+            FILTER(BOUND(?Definitie))
+            BIND(STRLANG(?Definitie, "nl") AS ?DefinitieNL)
+        }
+    }
+    
+    GRAPH <csv:table/imborKern_K_KlassenAttributen> {
+        ?klasAttr csv:Attribuut ?Attribuut ;
+                  csv:IMBORGUID ?IMBORGUID ;
+                  csv:Enumeratietype ?Enumeratietype .
 
-        OPTIONAL {?RelatieSoort sh:minCount ?shmin}.
-        OPTIONAL {?RelatieSoort sh:maxCount ?shmax}.
-        OPTIONAL {?RelatieSoort sh:qualifiedMinCount ?shqmin}.
-        OPTIONAL {?RelatieSoort sh:qualifiedMaxCount ?shqmax}.
-        BIND(COALESCE(?shmin,?shqmin,0) AS ?min)
-        BIND(COALESCE(?shmax,?shqmax,"*") AS ?max)
-        BIND(CONCAT(STR(?min),"..",STR(?max)) AS ?Kardinaliteit)
-
-        ?RelatieSoort   sh:qualifiedValueShape/sh:class ?Naar .
-        ?Van            sh:property                     ?RelatieSoort .
-
-        BIND(IRI(REPLACE(STR(?Naar),"https://data.crow.nl/imbor/def/","https://data.crow.nl/imbor/mim/mim-")) AS ?MIMNaar)  
-        BIND(IRI(REPLACE(STR(?Van),"https://data.crow.nl/imbor/def/","https://data.crow.nl/imbor/mim/mim-")) AS ?MIMVan)  
-     
-     }
+        BIND(IRI(CONCAT(STR(imbor:), ?IMBORGUID)) AS ?propShapeUri)
+        BIND(IRI(CONCAT(STR(imbor:), ?IMBORGUID, "_qvs")) AS ?propShapeQVSUri)
+    }
+    
+    GRAPH <csv:table/imborKern_Attributen> {
+        ?attr csv:Attribuut ?Attribuut ;
+              csv:Datatype 14484 .  # Alleen Referentie Open suggestie lijst
+    }
 }

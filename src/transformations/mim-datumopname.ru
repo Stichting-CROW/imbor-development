@@ -40,7 +40,7 @@ prefix sml: <https://w3id.org/sml/def#>
 prefix csv: <csv:>
 
 INSERT {
-    GRAPH <https://data.crow.nl/imbor/mim> {
+    GRAPH <https://data.crow.nl/imbor/mim/> {
         ?MIM_URI	mim:datumOpname	?ChangeDate .
     }
 }
@@ -49,7 +49,7 @@ WHERE {
     # First subquery: Get MIM URIs and their local names
     {
         SELECT ?MIM_URI ?Type ?MIM_URI_localName WHERE {
-            GRAPH <https://data.crow.nl/imbor/mim> {
+            GRAPH <https://data.crow.nl/imbor/mim/> {
                 ?MIM_URI a ?Type
                 VALUES ?Type { 
                     mim:Attribuutsoort

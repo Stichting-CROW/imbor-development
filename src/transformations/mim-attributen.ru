@@ -41,7 +41,7 @@ prefix csv: <csv:>
 
 
 insert {
-    graph <https://data.crow.nl/imbor/mim> {
+    graph <https://data.crow.nl/imbor/mim/> {
         ?MIMAttribuutSoort a mim:Attribuutsoort ;
             mim:naam ?AttribuutNaam ;
             mim:definitie ?AttribuutDef ;
@@ -105,7 +105,7 @@ insert {
         OPTIONAL {?AttribuutShape sh:maxCount ?shmax}.
         OPTIONAL {?AttribuutShape sh:qualifiedMinCount ?shqmin}.
         OPTIONAL {?AttribuutShape sh:qualifiedMaxCount ?shqmax}.
-        OPTIONAL {?AttribuutShape qudt:unit ?unit}.
+        OPTIONAL {?AttribuutShape qudt:hasUnit ?unit}.
         BIND(COALESCE(?shmin,?shqmin,0) AS ?min)
         BIND(COALESCE(?shmax,?shqmax,"*") AS ?max)
         BIND(CONCAT(STR(?min),"..",STR(?max)) AS ?Kardinaliteit)

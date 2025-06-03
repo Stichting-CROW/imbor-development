@@ -73,8 +73,8 @@ jobs:
       - update: src/transformations/attributen.ru
       - update: src/transformations/attribuutshapes.ru
       - update: src/transformations/enumeratietypes-domeinwaarden.ru
-      - update: src/transformations/enumeratietypes-gesloten.ru
-      - update: src/transformations/enumeratietypes-klasses.ru
+      - update: src/transformations/enumeratietypes-enumeratielijst.ru
+      - update: src/transformations/enumeratietypes-suggestielijst.ru
       - update: src/transformations/imbor-metaontologie.ru
       - update: src/transformations/informatiemodellen.ru
       - update: src/transformations/informatiemodellen-imborguid.ru
@@ -155,37 +155,37 @@ jobs:
       - file: data/rdf/imbor-aanvullend-metamodel.ttl
         with:
           only-graphs:
-            - "https://data.crow.nl/imbor/aanvullend-metamodel"
+            - "https://data.crow.nl/imbor/aanvullend-metamodel/"
 
       - file: data/rdf/imbor-addendum-referentiemodellen.ttl
         with:
           only-graphs:
-            - "https://data.crow.nl/imbor/addendum/referentiemodellen"
+            - "https://data.crow.nl/imbor/addendum/referentiemodellen/"
 
       - file: data/rdf/imbor-addendum-oagbd.ttl
         with:
           only-graphs:
-            - "https://data.crow.nl/imbor/addendum/oagbd"
+            - "https://data.crow.nl/imbor/addendum/oagbd/"
 
       - file: data/rdf/imbor-addendum-geometrie.ttl
         with:
           only-graphs:
-            - "https://data.crow.nl/imbor/addendum/geometrie"
+            - "https://data.crow.nl/imbor/addendum/geometrie/"
 
       - file: data/rdf/imbor-mim.ttl
         with:
           only-graphs:
-            - "https://data.crow.nl/imbor/mim"
+            - "https://data.crow.nl/imbor/mim/"
 
       - file: data/rdf/imbor-rest-api-linkset.ttl
         with:
           only-graphs:
-            - "https://data.crow.nl/imbor/addendum/rest-api"
+            - "https://data.crow.nl/imbor/addendum/rest-api/"
 
       - file: data/rdf/change_log_imbor.ttl
         with:
           only-graphs:
-            - "https://data.crow.nl/change/log/imbor"
+            - "https://data.crow.nl/change/log/imbor/"
 
   stap-6-laad-externe-ontologieen:
     sources:
@@ -212,17 +212,17 @@ jobs:
             - https://data.crow.nl/imbor/term/
             - https://data.crow.nl/imbor/def/
             - https://data.crow.nl/imbor/id/domeinwaarden/
-            - https://data.crow.nl/imbor/aanvullende-modellen
-            - https://data.crow.nl/imbor/aanvullend-metamodel
-            - https://data.crow.nl/imbor/addendum/oagbd
-            - https://data.crow.nl/imbor/addendum/geometrie
-            - https://data.crow.nl/imbor/addendum/referentiemodellen
-            - https://data.crow.nl/imbor/mim
+            - https://data.crow.nl/imbor/aanvullende-modellen/
+            - https://data.crow.nl/imbor/aanvullend-metamodel/
+            - https://data.crow.nl/imbor/addendum/oagbd/
+            - https://data.crow.nl/imbor/addendum/geometrie/
+            - https://data.crow.nl/imbor/addendum/referentiemodellen/
+            - https://data.crow.nl/imbor/mim/
 
       - file: data/rdf/imbor-gecombineerd-tbv-shaclvalidatie.ttl
         with:
           only-graphs:
             - https://data.crow.nl/imbor/def/
             - https://data.crow.nl/imbor/id/domeinwaarden/
-            - https://data.crow.nl/imbor/aanvullende-modellen
-            - https://data.crow.nl/imbor/aanvullend-metamodel
+            - https://data.crow.nl/imbor/aanvullende-modellen/
+            - https://data.crow.nl/imbor/aanvullend-metamodel/

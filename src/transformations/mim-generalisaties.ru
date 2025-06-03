@@ -41,7 +41,7 @@ prefix csv: <csv:>
 
 
 insert {
-    graph <https://data.crow.nl/imbor/mim> {
+    graph <https://data.crow.nl/imbor/mim/> {
         ?MIMGeneralisatie   a   mim:Generalisatie ;
                             mim:naam    ?MIMGeneralisatieLabel ;
                             mim:supertype   ?MIMSuperKlasse ;

@@ -1,4 +1,3 @@
-# Target-Graph: <https://data.crow.nl/imbor/def>
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
@@ -44,14 +43,14 @@ DELETE {
     ?change as:target ?GUID .
 }
 INSERT {
-    GRAPH <https://data.crow.nl/change/log/imbor> {
+    GRAPH <https://data.crow.nl/change/log/imbor/> {
     ?change skos:editorialNote "Wijziging die (waarschijnlijk) later weer gewijzigd of ongedaan gemaakt is."@nl .
     }
 }
 
 WHERE {
     # Get GUIDs from the change log graph
-    GRAPH <https://data.crow.nl/change/log/imbor> {
+    GRAPH <https://data.crow.nl/change/log/imbor/> {
         ?change as:to | as:target ?GUID .
     }
     
@@ -60,6 +59,6 @@ WHERE {
         GRAPH ?otherGraph {
             ?s ?p ?GUID .
         }
-        FILTER (?otherGraph != <https://data.crow.nl/change/log/imbor>)
+        FILTER (?otherGraph != <https://data.crow.nl/change/log/imbor/>)
     }
 }

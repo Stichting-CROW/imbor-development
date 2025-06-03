@@ -40,11 +40,18 @@ prefix sml: <https://w3id.org/sml/def#>
 prefix csv: <csv:>
 
 insert data {
-    graph <https://data.crow.nl/imbor/aanvullend-metamodel> {
+    graph imbor-meta: {
         imbor-refmodels:levensfaseTypering a rdf:Property ;
             skos:prefLabel "typering levensfase"@nl ;
             skos:definition "Dit attribuut is van toepassing op het (O)ntwerp, (A)anleg, (G)eovoorziening, (B)eheer, (D)ynamisch gegeven"@nl ;
-            rdfs:range xsd:string ;
+            .
+
+        imbor:levensfaseTyperingShape a sh:NodeShape;
+            sh:targetSubjectsOf imbor:levensfaseTypering;
+            sh:property [
+                sh:path imbor:levensfaseTypering;
+                sh:datatype xsd:string
+            ] ;
             .
 
         imbor-refmodels:Informatiemodel a rdfs:Class ;
@@ -54,7 +61,15 @@ insert data {
         imbor:typeLijst a rdf:Property ;
             skos:prefLabel "open/gesloten"@nl ;
             skos:definition "Of deze lijst een open suggestielijst is of een gesloten enumeratielijst."@nl ;
-            rdfs:range xsd:string .
+            .
+
+        imbor:typeLijstShape a sh:NodeShape;
+            sh:targetSubjectsOf imbor:typeLijst;
+            sh:property [
+                sh:path imbor:typeLijst;
+                sh:datatype xsd:string
+            ] ;
+            .
 
         nen2660:isPartOf a rdf:Property ;
             rdfs:seeAlso nen2660-term:hasPart ;
@@ -70,7 +85,7 @@ insert data {
             rdfs:seeAlso nen2660-term:contains ;
             skos:definition "The real objects located in a spatial region, typically the gaseous amount of bulk matter present in that region"@en, 
                                     "De reële objecten die zich in een ruimtelijk gebied bevinden, meestal de gasvormige hoeveelheid bulkmaterie die in dat gebied aanwezig isn"@nl ;
-            skos:prefLabel "is containd by"@en, 
+            skos:prefLabel "is contained by"@en, 
                                     "bevindt zich in"@nl;
             a owl:ObjectProperty ;
             owl:inverseOf nen2660:contains ;
@@ -79,14 +94,28 @@ insert data {
         imbor:speelt a rdf:Property ;
             skos:prefLabel "speelt"@nl ;
             skos:definition "Een relatie die aangeeft dat een Actor een bepaalde Rol op zich neemt of uitvoert."@nl ;
-            rdfs:range imbor:Rol ;
             .
-            
+
+        imbor:speeltShape a sh:NodeShape ;
+            sh:targetSubjectsOf imbor:speelt ;
+            sh:property [
+                sh:path imbor:speelt ;
+                sh:class imbor:Rol 
+            ] ;
+            .  
+
         imbor:heeftBetrekkingOp a rdf:Property ;
             skos:prefLabel "heeftBetrekkingOp"@nl ;
             skos:definition "Een relatie die aangeeft dat een Rol alleen geldt in de context van een iets specifieks."@nl ;
-            rdfs:range nen2660:InformationObject, <http://modellen.geostandaarden.nl/def/nen3610-2022#GeoObject> ;
             .
+
+        imbor:heeftBetrekkingOpShape a sh:NodeShape ;
+            sh:targetSubjectsOf imbor:heeftBetrekkingOp ;
+            sh:property [
+                sh:path imbor:heeftBetrekkingOp ;
+                sh:class nen2660:InformationObject 
+            ] ;
+            .  
 
         imbor:Rol a rdfs:Class ;
             skos:prefLabel "Rol"@nl ;

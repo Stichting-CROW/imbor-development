@@ -1,5 +1,4 @@
 # from file imbor/src/transformations/addendum-geometrie.ru
-# Target-Graph: <https://data.crow.nl/imbor/def>
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
@@ -42,7 +41,7 @@ prefix sml: <https://w3id.org/sml/def#>
 prefix csv: <csv:>
 
 insert {
-    graph <https://data.crow.nl/imbor/addendum/geometrie> {
+    graph <https://data.crow.nl/imbor/addendum/geometrie/> {
         ?Objecttype1Uri
             a sh:NodeShape ;
             sh:property ?propShapeUri .
