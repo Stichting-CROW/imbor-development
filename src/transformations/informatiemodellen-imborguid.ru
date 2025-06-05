@@ -40,7 +40,7 @@ prefix sml: <https://w3id.org/sml/def#>
 prefix csv: <csv:>
 
 insert {
-    graph <https://data.crow.nl/imbor/addendum/referentiemodellen> {
+    graph <https://data.crow.nl/imbor/addendum/referentiemodellen/> {
         ?SubjectURI dct:source  ?imUri .
     }
 } 

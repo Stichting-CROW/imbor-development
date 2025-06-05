@@ -41,7 +41,7 @@ prefix csv: <csv:>
 
 
 insert {
-    graph <https://data.crow.nl/imbor/mim> {
+    graph <https://data.crow.nl/imbor/mim/> {
         ?MIMEnumeratieType a ?Type ;
             mim:naam ?EnumNaam ;
             mim:definitie ?EnumDef ;

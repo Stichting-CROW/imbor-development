@@ -1,4 +1,3 @@
-# Target-Graph: <https://data.crow.nl/imbor/def>
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
@@ -40,7 +39,7 @@ prefix as: <https://www.w3.org/ns/activitystreams/>
 prefix csv: <csv:>
 
 INSERT {
-   GRAPH <https://data.crow.nl/change/log/imbor> {
+   GRAPH <https://data.crow.nl/change/log/imbor/> {
         ?loggingUri
             a crow_change:ChangeItem, ?TypeChange ;
             as:to           ?SubjectURI, ?Subject2URI ;

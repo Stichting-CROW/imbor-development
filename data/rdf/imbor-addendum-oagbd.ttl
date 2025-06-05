@@ -1,14 +1,13 @@
 @prefix imbor: <https://data.crow.nl/imbor/def/>.
-@prefix imbor-meta: <https://data.crow.nl/imbor/aanvullend-metamodel/>.
 @prefix imbor-refmodels: <https://data.crow.nl/imbor-ref/def/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
-<https://data.crow.nl/imbor/addendum/oagbd> a owl:Ontology;
+<https://data.crow.nl/imbor/addendum/oagbd/> a owl:Ontology;
   rdfs:comment "Dit informatieve gedeelte van IMBOR geeft aan bij elke combinatie van klasse en attribuut in welke fase van de levenscyclus van het object de informatie doorgaans bekend is."@nl;
   rdfs:label "IMBOR addendum OAGBD"@nl;
-  owl:imports imbor-meta:;
+  owl:imports imbor:;
   owl:priorVersion "IMBOR2022";
   owl:versionInfo "IMBOR2025".
 

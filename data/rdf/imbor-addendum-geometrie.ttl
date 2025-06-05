@@ -1,3 +1,4 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#>.
 @prefix gwsw: <http://data.gwsw.nl/1.6/totaal/>.
 @prefix imbor: <https://data.crow.nl/imbor/def/>.
 @prefix imbor-refmodels: <https://data.crow.nl/imbor-ref/def/>.
@@ -1187,9 +1188,12 @@ imbor-refmodels:feff22ee-c8d9-4fe4-b631-c95d25cf8ea3 a sh:PropertyShape;
 imbor-refmodels:feff22ee-c8d9-4fe4-b631-c95d25cf8ea3_qvs a sh:NodeShape;
   sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
-<https://data.crow.nl/imbor/addendum/geometrie> a owl:Ontology;
+<https://data.crow.nl/imbor/addendum/geometrie/> a owl:Ontology;
   rdfs:comment "Dit informatieve gedeelte van IMBOR geeft aan welke soort geometrische vastlegging de voorkeur heeft en welke er meer mogelijk zijn."@nl;
   rdfs:label "IMBOR addendum Geometrie"@nl;
+  owl:imports
+    geo:,
+    imbor:;
   owl:priorVersion "IMBOR2022";
   owl:versionInfo "IMBOR2025".
 

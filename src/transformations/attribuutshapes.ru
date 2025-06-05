@@ -44,8 +44,8 @@ insert {
         ?propShapeUri
             a sh:PropertyShape ;
             sh:path ?attribuutUri ;
-            ?QminCount ?minCount ;
-            ?QmaxCount ?maxCount ;
+            sh:minCount ?minCount ;
+            sh:maxCount 1 ;
             skos:prefLabel ?propDescNL ;
             sh:datatype ?shDatatype ;
             .
@@ -108,9 +108,7 @@ WHERE {
         }
     }
 
-    BIND(IF(BOUND(?shDatatype), sh:minCount, sh:qualifiedMinCount) AS ?QminCount)
-    BIND(IF(BOUND(?shDatatype), sh:maxCount, sh:qualifiedMaxCount) AS ?QmaxCount)
-    
+   
     BIND (URI(CONCAT(STR(imbor:), ?IMBORGUID)) AS ?propShapeUri)
     BIND (URI(CONCAT(STR(imbor:), ?AttribuutGUID)) AS ?attribuutUri)
     BIND (URI(CONCAT(STR(imbor:), ?KlasseGUID)) AS ?klasseUri)

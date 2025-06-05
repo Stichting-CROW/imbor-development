@@ -41,7 +41,7 @@ prefix csv: <csv:>
 
 insert {
     graph imbor: {
-        ?propShapeUri qudt:unit ?qudtUnit .
+        ?propShapeUri qudt:hasUnit ?qudtUnit .
         ?qudtUnit skos:prefLabel ?EenheidNaamNL .
         ?attribuutUri qudt:hasQuantityKind ?qudtQK .
     }

@@ -41,7 +41,7 @@ prefix csv: <csv:>
 
 
 insert {
-    graph <https://data.crow.nl/imbor/mim> {
+    graph <https://data.crow.nl/imbor/mim/> {
         ?MIMKlasse a mim:Objecttype ;
             mim:naam ?KlasseNaam ;
             mim:definitie ?KlasseDef ;
@@ -92,7 +92,7 @@ insert {
 ;
 
 insert {
-    graph <https://data.crow.nl/imbor/mim> {
+    graph <https://data.crow.nl/imbor/mim/> {
         ?MIMKlasse  mim:herkomstDefinitie "IMBOR - Stichting CROW"@nl ;      
                     mim:herkomst "IMBOR - Stichting CROW"@nl ;
                     mim:locatie "https://data.crow.nl/imbor/def" ;
@@ -110,7 +110,7 @@ insert {
 ;
 
 insert {
-    graph <https://data.crow.nl/imbor/mim> {
+    graph <https://data.crow.nl/imbor/mim/> {
         ?MIMKlasse  mim:herkomstDefinitie "NEN3610 - Geonovum"@nl ;
                     mim:herkomst "NEN3610 - Geonovum"@nl ;
                     mim:locatie "http://modellen.geostandaarden.nl/def/nen3610-2022" ;
@@ -128,7 +128,7 @@ insert {
 ;
 
 insert {
-    graph <https://data.crow.nl/imbor/mim> {
+    graph <https://data.crow.nl/imbor/mim/> {
         ?MIMKlasse  mim:herkomstDefinitie "NEN2660-2 - NEN"@nl ;
                     mim:herkomst "NEN2660-2 - NEN"@nl ;
                     mim:locatie "https://w3id.org/nen2660/def" ;
@@ -146,7 +146,7 @@ insert {
 ;
 # Relatie tussen Klasse en Attribuut
 insert { 
-    graph <https://data.crow.nl/imbor/mim> {
+    graph <https://data.crow.nl/imbor/mim/> {
         ?MIMKlasse  mim:attribuut   ?MIMAttribuutSoort .
         
     }

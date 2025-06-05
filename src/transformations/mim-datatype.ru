@@ -40,7 +40,7 @@ prefix sml: <https://w3id.org/sml/def#>
 prefix csv: <csv:>
 
 insert {
-    graph <https://data.crow.nl/imbor/mim> {
+    graph <https://data.crow.nl/imbor/mim/> {
         ?MIMDatatype a ?MIMModelDatatype ;
             mim:naam ?MIMModelDatatypeNaam ;
             mim:definitie "Zie corresponderende specificatie"@nl ;

@@ -10,9 +10,7 @@
 imbor-term: a owl:Ontology;
   rdfs:comment "Dit normatieve gedeelte betreft de vocabulaire van IMBOR"@nl;
   rdfs:label "IMBOR Vocabulaire"@nl;
-  owl:imports
-    skos:,
-    nen2660-term:;
+  owl:imports nen2660-term:;
   owl:priorVersion "IMBOR2022";
   owl:versionInfo "IMBOR2025".
 
