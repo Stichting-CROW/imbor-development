@@ -542,16 +542,6 @@ imbor-refmodels:6ace54bd-051b-405a-a932-4cf85952f54d a sh:PropertyShape;
 imbor-refmodels:6ace54bd-051b-405a-a932-4cf85952f54d_qvs a sh:NodeShape;
   sh:class imbor:f8e7183c-e1ec-40c4-b0b0-c77052851b30.
 
-imbor-refmodels:6c3fc0bb-fe9d-471e-a3eb-ab25ab07f915 a sh:PropertyShape;
-  skos:prefLabel "Getijdengebied heeft begrenzing GM_Surface";
-  sh:path nen2660:hasBoundary;
-  sh:qualifiedMaxCount 1;
-  sh:qualifiedMinCount 1;
-  sh:qualifiedValueShape imbor-refmodels:6c3fc0bb-fe9d-471e-a3eb-ab25ab07f915_qvs.
-
-imbor-refmodels:6c3fc0bb-fe9d-471e-a3eb-ab25ab07f915_qvs a sh:NodeShape;
-  sh:class imbor:e995a2d7-b1a2-43c5-a8bc-9ef148c309e6.
-
 imbor-refmodels:72daa948-95ae-46fc-bb7d-76d1fe0418e9 a sh:PropertyShape;
   skos:prefLabel "Dekseloriëntatie heeft begrenzing GM_Point";
   sh:path nen2660:hasBoundary;
@@ -1379,9 +1369,6 @@ imbor:d929653f-6dfc-49ef-a7df-aa1e5f6eeb6f a sh:NodeShape;
   sh:property
     imbor-refmodels:457516f5-77a6-40c8-9b48-3b6a383a6080,
     imbor-refmodels:8c329578-d71c-4b4d-8837-48b629ad7393.
-
-imbor:da5b2886-ef6e-4fe0-ba9e-363f696e6832 a sh:NodeShape;
-  sh:property imbor-refmodels:6c3fc0bb-fe9d-471e-a3eb-ab25ab07f915.
 
 imbor:dae40396-22ad-426d-9f20-dcb732fe9a5a a sh:NodeShape;
   sh:property imbor-refmodels:28b94dc7-9249-441a-8336-69b63a45c5ad.
