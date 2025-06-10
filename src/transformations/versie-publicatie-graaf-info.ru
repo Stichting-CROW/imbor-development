@@ -44,8 +44,8 @@ prefix sml: <https://w3id.org/sml/def#>
 prefix csv: <csv:>
 
 INSERT {
-    GRAPH <https://data.crow.nl/imbor/addendum/rest-api> {
-        <https://data.crow.nl/imbor/addendum/rest-api> a owl:Ontology ;
+    GRAPH <https://data.crow.nl/imbor/addendum/rest-api/> {
+        <https://data.crow.nl/imbor/addendum/rest-api/> a owl:Ontology ;
         rdfs:comment "Omdat het hostingplatform van het SPARQL-endpoint geen grafen onderscheidt, maar die voor sommige queries toch handig zijn, wordt dergelijk herkomst-info bewaard in een graaf/los bestand 'imbor/addendum/rest-api'"@nl ;
         rdfs:label "IMBOR REST-API Linkset"@nl ;
         .

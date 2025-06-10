@@ -53,7 +53,7 @@ insert data {
 
     graph imbor: {
         imbor: a owl:Ontology ;
-            owl:imports nen2660: , sh:, quantitykind: , unit: , imbor-meta:, imbor-term: ;
+            owl:imports nen2660: , sh:, <http://qudt.org/vocab/quantitykind>, <http://qudt.org/vocab/unit>, imbor-meta:, imbor-term: ;
             owl:versionInfo "IMBOR2025" ;
             owl:priorVersion "IMBOR2022" ;
             rdfs:comment "Dit normatieve gedeelte betreft de kern (de ontologie) van IMBOR"@nl ;
