@@ -70,11 +70,12 @@ WHERE {
         optional { ?rowTerm csv:Definitie ?Definitie . }
         optional { ?rowTerm csv:Toelichting ?Toelichting . }
 
-        FILTER (?Collectie IN (2, 5, 18, 21, 22, 23, 25, 27)) 
+        FILTER (?Collectie IN (2, 5, 18, 21, 23, 25, 27)) 
         # 3=Attribuut in: attributen.ru
         # 4=Domeinwaarde in: enumeraties-domeinwaarden.ru
         # 6=Vakdisciplines in: vakdisciplines.ru
-        # 24=Enumeratietypen in: enumeratietypes-klassen.ru
+        # 22=Materie in: materialen.ru
+        # 24=Enumeratietypen in: enumeratietypes-*.ru
        }
 
     BIND (URI(CONCAT(STR(imbor:), ?IMBORGUID)) AS ?klasseUri)

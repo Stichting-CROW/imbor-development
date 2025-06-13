@@ -25842,11 +25842,6 @@ imbor-term:7fde6e8b-769c-4655-9a52-cf83ecb8bb58 a skos:Concept;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Constructieboring"@nl.
 
-imbor-term:7fde80fa-22c6-4a13-aa31-bc89549e0104 a skos:Concept;
-  skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Verharding en het attribuut aan- of vrijliggend."@nl;
-  skos:inScheme imbor-term:term-schema;
-  skos:prefLabel "VerhardingAan-OfVrijliggend"@nl.
-
 imbor-term:7feaa614-0f32-4f3d-9f71-77b7781c2477 a skos:Concept;
   skos:definition "De afgemeten, ruimtelijk strekkende hoeveelheid van vijftig centimeter."@nl;
   skos:inScheme imbor-term:term-schema;
@@ -41403,7 +41398,6 @@ imbor-term:ce768ba5-792d-4df9-a5d9-a308c8d6788b a skos:Collection;
     imbor-term:7f0e1df5-ad9d-4636-aaa5-7264c462a77c,
     imbor-term:7f132ca2-0b04-4c1e-afb3-11eb46497bce,
     imbor-term:7f6e79a4-b704-4699-ac85-9dadabc56ea7,
-    imbor-term:7fde80fa-22c6-4a13-aa31-bc89549e0104,
     imbor-term:800d8538-c837-438c-aacf-c5b2685b68bc,
     imbor-term:80717a6b-f775-441e-a358-0b1c225f6fc9,
     imbor-term:808e9295-1387-4860-b19b-c56e0a403699,

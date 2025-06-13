@@ -45,7 +45,8 @@ INSERT {
             rdfs:subClassOf nen2660:EnumerationType ;
             skos:prefLabel ?TermNL ;
             imbor:typeLijst "Suggestielijst"@nl ;
-            rdfs:seeAlso ?termUri .
+            rdfs:seeAlso ?termUri ;
+            skos:definition ?DefinitieNL .
 
         ?propShapeUri sh:qualifiedValueShape ?propShapeQVSUri ;
         sh:qualifiedMaxCount 1 .
@@ -54,10 +55,6 @@ INSERT {
                          sh:class ?enumTypeUri .
     }
     
-    # Voeg definitie alleen toe als deze bestaat
-    GRAPH imbor: {
-        ?enumTypeUri skos:definition ?DefinitieNL .
-    }
 }
 WHERE {
     GRAPH <csv:table/imborVoc_Termen> {

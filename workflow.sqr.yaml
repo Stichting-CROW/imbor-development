@@ -79,7 +79,9 @@ jobs:
       - update: src/transformations/informatiemodellen.ru
       - update: src/transformations/informatiemodellen-imborguid.ru
       - update: src/transformations/klassen-definities.ru
+      - update: src/transformations/materialen.ru
       - update: src/transformations/hierarchie.ru
+      - update: src/transformations/hierarchie-materialen.ru
       - update: src/transformations/oagbd.ru
       - update: src/transformations/semantische-relaties.ru
       - update: src/transformations/termen-en-collecties.ru
@@ -172,6 +174,11 @@ jobs:
           only-graphs:
             - "https://data.crow.nl/imbor/addendum/geometrie/"
 
+      - file: data/rdf/imbor-addendum-materie.ttl
+        with:
+          only-graphs:
+            - "https://data.crow.nl/imbor/addendum/materie/"
+
       - file: data/rdf/imbor-mim.ttl
         with:
           only-graphs:
@@ -216,6 +223,7 @@ jobs:
             - https://data.crow.nl/imbor/aanvullend-metamodel/
             - https://data.crow.nl/imbor/addendum/oagbd/
             - https://data.crow.nl/imbor/addendum/geometrie/
+            - https://data.crow.nl/imbor/addendum/materie/
             - https://data.crow.nl/imbor/addendum/referentiemodellen/
             - https://data.crow.nl/imbor/mim/
 
@@ -224,5 +232,6 @@ jobs:
           only-graphs:
             - https://data.crow.nl/imbor/def/
             - https://data.crow.nl/imbor/id/domeinwaarden/
+            - https://data.crow.nl/imbor/addendum/materie/
             - https://data.crow.nl/imbor/aanvullende-modellen/
             - https://data.crow.nl/imbor/aanvullend-metamodel/

@@ -18,6 +18,13 @@ imbor-refmodels:levensfaseTypering a rdf:Property;
   skos:definition "Dit attribuut is van toepassing op het (O)ntwerp, (A)anleg, (G)eovoorziening, (B)eheer, (D)ynamisch gegeven"@nl;
   skos:prefLabel "typering levensfase"@nl.
 
+imbor-refmodels:levensfaseTyperingShape a sh:NodeShape;
+  sh:property [
+      sh:datatype xsd:string;
+      sh:path imbor-refmodels:levensfaseTypering
+    ];
+  sh:targetSubjectsOf imbor-refmodels:levensfaseTypering.
+
 imbor-meta: a owl:Ontology;
   rdfs:comment "Een aantal metaconcepten worden specifiek voor IMBOR gedefinieerd. Dit wordt gedaan middels het 'IMBOR Aanvullend Metamodel'. Dit betreft een kleine ontologie van beschrijfende concepten die er voor zorgen dat alle IMBOR specifieke properties netjes en navolgbaar gedefinieerd zijn."@nl;
   rdfs:label "IMBOR Aanvullend metamodel"@nl;
@@ -43,13 +50,6 @@ imbor:heeftBetrekkingOpShape a sh:NodeShape;
       sh:path imbor:heeftBetrekkingOp
     ];
   sh:targetSubjectsOf imbor:heeftBetrekkingOp.
-
-imbor:levensfaseTyperingShape a sh:NodeShape;
-  sh:property [
-      sh:datatype xsd:string;
-      sh:path imbor:levensfaseTypering
-    ];
-  sh:targetSubjectsOf imbor:levensfaseTypering.
 
 imbor:Rol a rdfs:Class;
   skos:definition "Een samenhangende verzameling van verwachtingen, verantwoordelijkheden, bevoegdheden en gedragingen die een Actor kan aannemen in relatie tot iets."@nl;

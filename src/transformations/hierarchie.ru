@@ -53,10 +53,10 @@ WHERE {
             VALUES (?HierarchieType ?rdfsProperty) {
             ("Klasse" rdfs:subClassOf )
             ("Functie" rdfs:subClassOf )
-            ("Materie" rdfs:subClassOf )
             ("Rol" rdfs:subClassOf )
             ("Eigenschap" rdfs:subPropertyOf )
             ("Semantische relatie" rdfs:subPropertyOf )
+            # Materie in: hierarchie-materialen.ru
         }
     }
 

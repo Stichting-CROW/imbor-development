@@ -46,10 +46,10 @@ insert data {
             skos:definition "Dit attribuut is van toepassing op het (O)ntwerp, (A)anleg, (G)eovoorziening, (B)eheer, (D)ynamisch gegeven"@nl ;
             .
 
-        imbor:levensfaseTyperingShape a sh:NodeShape;
-            sh:targetSubjectsOf imbor:levensfaseTypering;
+        imbor-refmodels:levensfaseTyperingShape a sh:NodeShape;
+            sh:targetSubjectsOf imbor-refmodels:levensfaseTypering;
             sh:property [
-                sh:path imbor:levensfaseTypering;
+                sh:path imbor-refmodels:levensfaseTypering;
                 sh:datatype xsd:string
             ] ;
             .
