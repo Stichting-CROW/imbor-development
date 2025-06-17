@@ -309,7 +309,7 @@ imbor-domeinwaarde:02b499a6-ba05-44e4-b18c-9c82dc291383 a imbor:b94246d0-c583-49
   skos:definition "Voorwaarschuwingsborden bij werk in uitvoering, rijstrook met korte omleiding."@nl;
   skos:prefLabel "T05"@nl.
 
-imbor-domeinwaarde:02b531c2-6619-4f64-b72c-365b436369b9 a imbor:07d3c9b0-3623-452b-b3ff-54909c435d5b, imbor:99bf638b-acf3-43c9-b1a1-15af3c37a14f;
+imbor-domeinwaarde:02b531c2-6619-4f64-b72c-365b436369b9 a imbor:99bf638b-acf3-43c9-b1a1-15af3c37a14f;
   rdfs:seeAlso imbor-term:204b1cce-01b3-43ee-80a2-5c7a116fa0ee;
   skos:definition "Vrijliggend fietspad van beperkte lengte, bij een gelijkvloers kruispunt van rijbanen of een aansluiting van rijbanen, dat een verbinding vormt tussen de rijbaan voor gemengd verkeer en de voor fietsers bedoelde oversteekplaats, of andersom."@nl;
   skos:prefLabel "Opvangfietspad"@nl.
@@ -17345,7 +17345,7 @@ imbor-domeinwaarde:a02991a4-b89c-4dec-8e70-163146b0337c a imbor:8220a46f-e5c1-41
   skos:definition "Een laag organisch materiaal waarmee de bodem rondom planten en struiken bedekt kan worden, die beschermt tegen warmte, kou en onkruid en daarnaast een bodem rijk aan voedingsstoffen creëert."@nl;
   skos:prefLabel "Mulchlaag"@nl.
 
-imbor-domeinwaarde:a03306af-d6a0-4a25-ac27-0bc3d318c3e9 a imbor:07d3c9b0-3623-452b-b3ff-54909c435d5b, imbor:1863535c-e24b-4ac0-bb3a-b3ab10d2f1ad;
+imbor-domeinwaarde:a03306af-d6a0-4a25-ac27-0bc3d318c3e9 a imbor:1863535c-e24b-4ac0-bb3a-b3ab10d2f1ad;
   rdfs:seeAlso imbor-term:a4a0463c-8339-459d-9892-4e776cef02db;
   skos:definition "Een pad voor personen die te voet aan het verkeer deelnemen dat niet zonder fysieke begrenzing parallel aan de rijbaan ligt."@nl;
   skos:prefLabel "Vrijliggend voetpad"@nl.
@@ -21416,7 +21416,7 @@ imbor-domeinwaarde:c5c5fc7e-0d0e-4edf-8476-a4657f314595 a imbor:e0f29e17-564d-4f
   skos:definition "Een constructie bestaande uit twee evenwijdige enterrekken."@nl;
   skos:prefLabel "Double Overhead Ladder"@nl.
 
-imbor-domeinwaarde:c5cb3698-9930-44d6-9f21-bb171ba322c2 a imbor:07d3c9b0-3623-452b-b3ff-54909c435d5b, imbor:1863535c-e24b-4ac0-bb3a-b3ab10d2f1ad;
+imbor-domeinwaarde:c5cb3698-9930-44d6-9f21-bb171ba322c2 a imbor:1863535c-e24b-4ac0-bb3a-b3ab10d2f1ad;
   rdfs:seeAlso imbor-term:497acc1f-6f4d-4310-b8e5-73bbade0cdc4;
   skos:definition "Een pad voor personen die te voet aan het verkeer deelnemen dat zonder fysieke begrenzing parallel aan en naast de rijbaan ligt."@nl;
   skos:prefLabel "Aanliggend voetpad"@nl.
@@ -22939,7 +22939,7 @@ imbor-domeinwaarde:d270a01f-8f25-4ae1-bd24-eeda5b115145 a imbor:67cbf12e-0ae9-43
   skos:definition "De belastingklasse, in ondergrens voorzien door het gewicht van vijfenveertig ton."@nl;
   skos:prefLabel "VBB 1995 Klasse 45"@nl.
 
-imbor-domeinwaarde:d2b9da94-eeaf-4e8e-aa38-cc0317e3bdcd a imbor:07d3c9b0-3623-452b-b3ff-54909c435d5b, imbor:99bf638b-acf3-43c9-b1a1-15af3c37a14f;
+imbor-domeinwaarde:d2b9da94-eeaf-4e8e-aa38-cc0317e3bdcd a imbor:99bf638b-acf3-43c9-b1a1-15af3c37a14f;
   rdfs:seeAlso imbor-term:3269304f-d203-4328-b445-a6c789cdc236;
   skos:definition "Fietspad dat hetzij parallel loopt met de naastgelegen rijbaan en daarvan door een tussenberm wordt gescheiden, hetzij een geheel eigen tracé volgt."@nl;
   skos:prefLabel "Vrijliggend fietspad"@nl.
@@ -27107,7 +27107,7 @@ imbor-domeinwaarde:fb67fcca-f871-434a-bd00-b67e7ef50654 a imbor:73faae06-a5a0-48
   skos:definition "Een energiemeter die zowel het elektriciteitsverbruik in de daluren tegen Laagtarief (telwerk nummer 1) meet, als in de overige uren tegen Normaaltarief (telwerk nummer 2)."@nl;
   skos:prefLabel "Dubbeltariefmeter"@nl.
 
-imbor-domeinwaarde:fb6a6bb2-fc2a-4e36-aa7e-187f5921b7b0 a imbor:07d3c9b0-3623-452b-b3ff-54909c435d5b, imbor:99bf638b-acf3-43c9-b1a1-15af3c37a14f;
+imbor-domeinwaarde:fb6a6bb2-fc2a-4e36-aa7e-187f5921b7b0 a imbor:99bf638b-acf3-43c9-b1a1-15af3c37a14f;
   rdfs:seeAlso imbor-term:214bc88a-f389-4855-b5fc-556066057a7e;
   skos:definition "Fietspad dat door een zeer smalle tussenberm is gescheiden van de naastgelegen rijbaan dan wel geheel verhoogd langs die rijbaan is uitgevoerd."@nl;
   skos:prefLabel "Aanliggend fietspad"@nl.

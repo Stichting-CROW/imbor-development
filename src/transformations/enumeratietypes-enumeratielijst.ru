@@ -46,9 +46,11 @@ INSERT {
             skos:prefLabel ?TermNL ;
             imbor:typeLijst "Enumeratielijst"@nl ;
             rdfs:seeAlso ?termUri ;
-            ?defProp ?DefinitieNL .
+            skos:definition ?DefinitieNL .
 
         ?propShapeUri sh:class ?enumTypeUri .
+
+        
     }
 }
 WHERE {
@@ -79,7 +81,7 @@ WHERE {
     
     GRAPH <csv:table/imborKern_Attributen> {
         [] csv:Attribuut ?Attribuut ;
-           csv:Datatype 14481 .
+           csv:Datatype 14481 . # Alleen Enumeratielijst
     }
     
     BIND(IRI(CONCAT(STR(imbor:), ?propShapeGUID)) AS ?propShapeUri)

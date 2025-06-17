@@ -44,15 +44,40 @@ insert {
         ?SubjectURI dct:source  ?imUri .
     }
 } 
-where {
-    []  csv:Informatiemodel ?refInformatiemodelID ;
-        csv:IMBORGUID ?IMBORGUID ;  
-        .
-        graph <csv:table/refModel_Informatiemodellen> {
+WHERE {
+    ?row csv:Informatiemodel ?refInformatiemodelID ;
+         csv:IMBORGUID ?IMBORGUID .
+    
+    FILTER(?IMBORGUID NOT IN (
+        "c3738d97-b2cb-4d42-90cd-0f498c480f6b",
+        "da56fc52-a539-45d4-b685-39c17808cf51", 
+        "d14864e0-6fe3-4c51-927f-f0152446e731"
+    ))
+    
+    # Exclude rows that exist in imborKern_EnumeratiesDomeinwaarden
+    FILTER NOT EXISTS {
+        GRAPH <csv:table/imborKern_EnumeratiesDomeinwaarden> {
+            ?row ?anyPred ?anyObj .
+        }
+    }
+    
+    GRAPH <csv:table/refModel_Informatiemodellen> {
         ?im csv:refInformatiemodelID ?refInformatiemodelID ;
             csv:refInformatiemodelGUID ?refInformatiemodelGUID .
     }
     
-    BIND (URI(CONCAT(STR(imbor-refmodels-id:), ?refInformatiemodelGUID)) AS ?imUri)
-    BIND (URI(CONCAT(STR(imbor:), ?IMBORGUID)) AS ?SubjectURI)
+    OPTIONAL { ?row csv:Collectie ?col . }
+    OPTIONAL { ?row csv:SemantischeRelatie ?semRel . }
+    
+    BIND(URI(CONCAT(STR(imbor-refmodels-id:), ?refInformatiemodelGUID)) AS ?imUri)
+    
+    BIND(
+        IF(BOUND(?semRel) && ?semRel = 15170, 
+            URI(CONCAT(STR(imbor-refmodels:), ?IMBORGUID)),
+            IF(BOUND(?col) && ?col = 4, 
+                URI(CONCAT(STR(imbor-domeinwaarde:), ?IMBORGUID)), 
+                URI(CONCAT(STR(imbor:), ?IMBORGUID))
+            )
+        ) AS ?SubjectURI
+    )
 }

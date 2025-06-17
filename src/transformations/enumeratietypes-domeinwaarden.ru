@@ -39,8 +39,8 @@ prefix sml: <https://w3id.org/sml/def#>
 
 prefix csv: <csv:>
 
-insert {
-    graph imbor-domeinwaarde: {
+INSERT {
+    GRAPH imbor-domeinwaarde: {
         ?domeinwaardeUri a ?enumTypeUri ;
             skos:prefLabel ?TermNL ;
             skos:definition ?DefinitieNL ;
@@ -49,41 +49,37 @@ insert {
     }
 }
 WHERE {
-    graph <csv:table/imborKern_EnumeratiesDomeinwaarden> {
-        ?row2 #csv:EnumeratieDomeinwaardeID ?EnumeratieDomeinwaardeID ;
-            csv:Enumeratietype ?EnumeratietypeVocabID ;
-            csv:Domeinwaarde ?DomeinwaardeVocabID .
-
-        optional {
-            ?row2 csv:Bovenliggendewaarde ?BovenliggendewaardeID . 
-
-            graph <csv:table/imborVoc_Termen> {
-                [] csv:VocabulairID ?BovenliggendewaardeID ;
-                    csv:IMBORGUID ?bovenliggendeTermIMBORGUID ;
-                    csv:Term ?bovenliggendeTerm .
-            }
-            BIND (URI(CONCAT(STR(imbor-domeinwaarde:), ?bovenliggendeTermIMBORGUID)) AS ?bovenliggendeGUID)
-        }
-
-    }
-    
-    graph <csv:table/imborVoc_Termen> {
-        [] csv:VocabulairID ?EnumeratietypeVocabID ;
-            csv:IMBORGUID ?enumTypeIMBORGUID .
-        
-        BIND (URI(CONCAT(STR(imbor:), ?enumTypeIMBORGUID)) AS ?enumTypeUri)
-
+    GRAPH <csv:table/imborVoc_Termen> {
         ?row1 csv:VocabulairID ?DomeinwaardeVocabID ;
             csv:IMBORGUID ?domeinwaardeIMBORGUID ;
             csv:Term ?Term ;
             csv:VocabulairGUID ?VocabulairGUID .
-
-        optional { ?row1 csv:Definitie ?Definitie . }
-
-        BIND (URI(CONCAT(STR(imbor-domeinwaarde:), ?domeinwaardeIMBORGUID)) AS ?domeinwaardeUri)
-        BIND (URI(CONCAT(STR(imbor-term:), ?VocabulairGUID)) AS ?termUri)
-
-        BIND (STRLANG(?Term, "nl") as ?TermNL)
-        BIND (STRLANG(?Definitie, "nl") as ?DefinitieNL)
+        
+        OPTIONAL { ?row1 csv:Definitie ?Definitie }
+        
+        ?enumTypeRow csv:VocabulairID ?EnumeratietypeVocabID ;
+            csv:IMBORGUID ?enumTypeIMBORGUID .
     }
+    
+    GRAPH <csv:table/imborKern_EnumeratiesDomeinwaarden> {
+        ?row2 csv:Enumeratietype ?EnumeratietypeVocabID ;
+            csv:Domeinwaarde ?DomeinwaardeVocabID .
+        
+        OPTIONAL {
+            ?row2 csv:Bovenliggendewaarde ?BovenliggendewaardeID .
+            
+            GRAPH <csv:table/imborVoc_Termen> {
+                ?bovenliggendeRow csv:VocabulairID ?BovenliggendewaardeID ;
+                    csv:IMBORGUID ?bovenliggendeTermIMBORGUID .
+            }
+        }
+    }
+    
+    BIND(URI(CONCAT(STR(imbor-domeinwaarde:), ?domeinwaardeIMBORGUID)) AS ?domeinwaardeUri)
+    BIND(URI(CONCAT(STR(imbor:), ?enumTypeIMBORGUID)) AS ?enumTypeUri)
+    BIND(URI(CONCAT(STR(imbor-term:), ?VocabulairGUID)) AS ?termUri)
+    BIND(URI(CONCAT(STR(imbor-domeinwaarde:), ?bovenliggendeTermIMBORGUID)) AS ?bovenliggendeGUID)
+    
+    BIND(STRLANG(?Term, "nl") AS ?TermNL)
+    BIND(STRLANG(?Definitie, "nl") AS ?DefinitieNL)
 }
