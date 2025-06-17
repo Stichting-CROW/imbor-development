@@ -206,7 +206,6 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 237	531	481	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 238	345	115	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 239	337	116	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
-6549	4237	5491	Mon Jun 16 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
 240	337	117	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 241	344	118	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 242	531	482	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
@@ -3011,4 +3010,5 @@ HierarchieID	Parent	Child	Wijzigingsdatum	HierarchieType
 6545	602	5488	Mon Jun 16 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 6546	602	5489	Mon Jun 16 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
 6547	248	5490	Mon Jun 16 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
+6549	4237	5491	Mon Jun 16 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Attribuut
 6550	345	5492	Mon Jun 16 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	Klasse
