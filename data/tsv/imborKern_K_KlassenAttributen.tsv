@@ -94,7 +94,7 @@ KlasseAttribuutID	IMBORGUID	Klasse	Multipliciteit	Attribuut	Informatiemodel	Enum
 2759	f5eb98ef-8560-4a00-a6a1-3686bf55c3b6	73	15167	533	3	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23033
 2765	c95888c3-e314-467d-b0ff-97d2ea42f5bf	115	15167	467	3	null	O	Mon Mar 27 2023 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23054
 2777	00910ff5-f2c7-4f22-ad64-787552e3dd38	216	15167	872	3	15693	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	null
-2779	c9a05d43-eadd-48a5-a9cc-158217be09ec	10438	15167	852	3	null	O	Thu Sep 26 2024 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23056
+2779	c9a05d43-eadd-48a5-a9cc-158217be09ec	12100	15167	852	3	null	O	Fri Jun 20 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23056
 2780	b9419aad-20b9-4a21-9fb5-5a425665a780	216	15167	870	3	null	O	Mon Mar 27 2023 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23041
 2781	34d7ed24-3efb-4610-80d5-dfc62250ec9e	216	15167	871	3	null	O	Mon Mar 27 2023 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23041
 2798	1422ae2a-2433-4726-b61b-2aa251a14573	216	15167	500	3	null	O	Mon Mar 27 2023 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23032
@@ -868,7 +868,7 @@ KlasseAttribuutID	IMBORGUID	Klasse	Multipliciteit	Attribuut	Informatiemodel	Enum
 6277	e98ab5db-9dac-4029-9dfa-aa6762a9756e	16623	15167	353	3	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23033
 6289	b5e96a0d-e880-4acd-8f63-16c2cfc14716	219	15167	16629	4	16630	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	null
 6292	82afe180-eb2d-4db4-b973-60d5425c56f5	12288	15167	16637	3	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
-6293	b679a33c-181c-4b3a-a434-614128c8582e	12288	15167	16639	3	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
+6293	b679a33c-181c-4b3a-a434-614128c8582e	10602	15167	16639	3	null	O	Fri Jun 20 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
 6294	440a36d7-b900-4ca5-8d1b-51321ea9c67e	12288	15167	16638	3	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
 6295	9cab6637-6bf9-4be1-9bcc-4ba5957ae8e9	133	15167	16640	3	16641	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	null
 6296	edd34824-cd54-4890-b4b2-72027f47fadc	1080	15167	335	4	null	O	Fri Apr 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23031
@@ -1741,3 +1741,6 @@ KlasseAttribuutID	IMBORGUID	Klasse	Multipliciteit	Attribuut	Informatiemodel	Enum
 7754	b579ff4c-2659-4aa1-9e3b-05a5ec39bc9c	14966	15167	353	4	null	O	Wed Jun 18 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23033
 7755	222bf670-c81d-424d-9c0f-5ef5a1538c41	14966	15167	14694	4	22438	B	Wed Jun 18 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	null
 7756	b1736e46-18fa-4dfd-abef-82ab5c67db29	14966	15167	1008	4	null	A	Wed Jun 18 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	23033
+7757	491d6a58-1d36-43ac-83c9-9b78ed44a312	23726	15167	898	4	15763	B	Fri Jun 20 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	null
+7758	4befb71c-79f3-4e02-a1ae-8f85781da2e8	23726	15167	23897	4	null	O	Fri Jun 20 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	null
+7759	1b765a38-75fe-4d1d-ba82-994a204e2229	23726	15167	831	4	null	O	Fri Jun 20 2025 00:00:00 GMT+0000 (Coordinated Universal Time)	null	null
