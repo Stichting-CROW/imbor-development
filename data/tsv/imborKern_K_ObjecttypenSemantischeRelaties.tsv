@@ -1986,3 +1986,6 @@ SemantischeRelatieID	Informatiemodel	IMBORGUID	Objecttype1	SemantischeRelatie	Ob
 17885	4	353f96d0-da34-4c2f-830d-d4fc166aac97	15458	15170	14793	14518	null	Wed Mar 05 2025 00:00:00 GMT+0000 (Coordinated Universal Time)
 17886	4	8242575f-b4c0-4ec4-95fc-b860186cd9f8	15460	15170	14793	14518	null	Wed Mar 05 2025 00:00:00 GMT+0000 (Coordinated Universal Time)
 17887	4	cec98d99-4c44-4182-8054-78d12fdefdcd	15461	15170	14791	14518	null	Wed Mar 05 2025 00:00:00 GMT+0000 (Coordinated Universal Time)
+17888	3	d211117a-74d5-4b89-a5b0-dfb57bef3320	12291	14526	10649	15167	hasPart	Fri Jun 20 2025 00:00:00 GMT+0000 (Coordinated Universal Time)
+17889	3	9a1ec191-cef3-4ca3-b27a-e8134920d326	12100	14526	7744	14518	hasPart	Fri Jun 20 2025 00:00:00 GMT+0000 (Coordinated Universal Time)
+17890	3	6925bf2d-8ad1-4325-bc78-40c06b06db22	12100	14526	10649	14518	hasPart	Fri Jun 20 2025 00:00:00 GMT+0000 (Coordinated Universal Time)
