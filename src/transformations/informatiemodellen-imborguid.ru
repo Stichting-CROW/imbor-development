@@ -49,9 +49,19 @@ WHERE {
          csv:IMBORGUID ?IMBORGUID .
     
     FILTER(?IMBORGUID NOT IN (
-        "c3738d97-b2cb-4d42-90cd-0f498c480f6b",
-        "da56fc52-a539-45d4-b685-39c17808cf51", 
-        "d14864e0-6fe3-4c51-927f-f0152446e731"
+        "c3738d97-b2cb-4d42-90cd-0f498c480f6b", # heeftBetrekkingOp
+        "da56fc52-a539-45d4-b685-39c17808cf51", # Rol
+        "d14864e0-6fe3-4c51-927f-f0152446e731", # speelt
+        "0eb6a9ef-d74c-48a9-a3c2-1ce07913168e", # Collectie Multipliciet
+        "732e2e6b-aebc-466c-865b-ea9f8cf7f951", # Collectie Multipliciet
+        "be7f3569-dcd7-4c80-b59e-e790f1cc79de", # Collectie Multipliciet
+        "6a1e0a67-5642-4a54-9dc6-422dfa78ed6e", # Collectie Multipliciet
+        "5e758734-951a-451b-bc0b-27d1956b85cf", # Collectie Multipliciet
+        "370fffbf-fb97-4257-899f-b367cd2e28e5", # Collectie Multipliciet
+        "0b5aeb0e-d549-47c9-87ae-bc61fda57e03", # Enumeratie
+        "bf384130-de78-44de-b205-02040c48b591", # Referentie
+        "540f5974-5601-4d4a-9ee9-6e1227c09317", # Abstract
+        "8e5725bc-3216-4a13-893c-482e62f734a9"  # Conreet
     ))
     
     # Exclude rows that exist in imborKern_EnumeratiesDomeinwaarden
