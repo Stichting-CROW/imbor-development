@@ -1,4 +1,11 @@
 ├── Activiteit
+    ├── Aansturen status installatie
+    ├── Beinvloeden verkeerslichtenâ€¯
+    ├── Bepalen correcte werking apparatuur
+    ├── Bepalen locatie
+    ├── Beschutting en onderdak bieden
+    ├── Bieden van voedsel
+    ├── Doorrijden van berm voorkomen
     ├── Functie
         ├── Aanleiden tot spelen
         ├── Aanpassen frequentie van elektrische energie
@@ -263,6 +270,34 @@
         ├── Zonder toestandswijziging
         ├── Zuiveren afvalwater
         ├── Zwemmen in oppervlaktewater
+    ├── Geleiden van personen
+    ├── Geleiden van verkeer
+    ├── Informeren gebruiker openbare ruimte
+    ├── Informeren van verkeer
+    ├── Informeren van verkeersdeelnemers
+    ├── Informeren van wegbeheerder
+    ├── Informeren weggebruiker
+    ├── Kruisen ecologische zone
+    ├── Kruisen kabels en leidingen
+    ├── Kruisen raster mogelijk maken
+    ├── Kruisen verkeer
+    ├── Kruisen water
+    ├── Kruisen watergang mogelijk make
+    ├── Meten van temperatuur
+    ├── Meten verkeer
+    ├── Ontsluiten van erven
+    ├── Ontsluiten van het (landelijk) gebied op het hoofdwegennet
+    ├── Produceren van hout
+    ├── Reguleren van verkeer in de tijd
+    ├── Ruimte bieden voor kabels en leidingen
+    ├── Stromen van verkeer
+    ├── Structureren en sturen van verkeersstromen
+    ├── Toegang geven aan daglicht
+    ├── Toegang geven voor inspectie
+    ├── Toegang tot water en/of oever voor fauna
+    ├── Uitwisselen van verkeer
+    ├── Voorkomen lichthinder
+    ├── Weren van geluid
 ├── FunctioneleEntiteit
     ├── Functie
         ├── Aanleiden tot spelen
@@ -552,6 +587,7 @@
                     ├── Grafvak
                     ├── Grafveld
                     ├── Hondenbeleidsgebied
+                    ├── Hondentoilet
                     ├── Hoogspanningtrace
                     ├── Hotspot
                     ├── Inlaag
@@ -1410,72 +1446,57 @@
                         ├── VRI-kast
                         ├── Waterkast
                     ├── Kunstwerk
-                        ├── Aardenbaan
-                        ├── Baggerschot
-                        ├── Bodembescherming
-                        ├── Bouwkuip
-                        ├── Bunkerponton
-                        ├── Dijkbekleding
-                        ├── Glooiing
-                        ├── Golfbreker
-                        ├── Kistdam
-                        ├── Lichtopstand
-                        ├── Mobiele waterkering
-                        ├── Ondertunneling
-                            ├── Onderdoorgang
-                            ├── Tunnel
-                        ├── Oppervlaktewaterinlaat
-                        ├── Overbrugging
-                            ├── Aquaduct
-                            ├── Beweegbare brug
-                            ├── Ecoduct
-                            ├── Flyover
-                            ├── Overkluizing
-                                ├── Beekriool
-                            ├── Vaste brug
-                            ├── Viaduct
-                        ├── Taludbekleding
-                        ├── Waterbushalte
-                        ├── Waternetponton
-                        ├── Waterstaatkundig kunstwerk
+                        ├── Faunavoorziening
+                            ├── AmfibieÃ«nfuik
+                            ├── Eekhoornbrug
+                            ├── Fauna-uittreedplaats
+                            ├── Faunaduiker
+                            ├── Faunagoot
+                            ├── Faunarichel
+                            ├── Faunatunnel
+                            ├── IJsvogelwand
+                            ├── Mosselbank
+                            ├── Oeverzwaluwwand
+                            ├── Stobbenwal
+                            ├── Uitklimvoorziening
+                            ├── Vispassage
+                                ├── Aalpijp
+                                ├── Bekkentrap
+                                ├── Deniltrap
+                                ├── Vislift
+                                ├── Vissluis
+                                ├── Vistrap
+                            ├── Vleermuispassage
+                                ├── Hop-over
+                                ├── Vleermuisportaal
+                        ├── Infrastructureel kunstwerk
                             ├── Aanleginrichting
+                            ├── Aardenbaan
+                            ├── Baggerschot
                             ├── Beschoeiing
+                            ├── Bodembescherming
                             ├── Bodemval
+                            ├── Bouwkuip
+                            ├── Bunkerponton
                             ├── Coupure
                             ├── Dam
                                 ├── Gronddam
                             ├── Damwand
                                 ├── Diepwand
+                            ├── Dijkbekleding
                             ├── Dijklichaam
                                 ├── Winterdijk
                                 ├── Zomerdijk
                             ├── Drinkwaterinlaat
-                            ├── Faunavoorziening
-                                ├── AmfibieÃ«nfuik
-                                ├── Eekhoornbrug
-                                ├── Fauna-uittreedplaats
-                                ├── Faunaduiker
-                                ├── Faunagoot
-                                ├── Faunarichel
-                                ├── Faunatunnel
-                                ├── IJsvogelwand
-                                ├── Mosselbank
-                                ├── Oeverzwaluwwand
-                                ├── Stobbenwal
-                                ├── Uitklimvoorziening
-                                ├── Vispassage
-                                    ├── Aalpijp
-                                    ├── Bekkentrap
-                                    ├── Deniltrap
-                                    ├── Vislift
-                                    ├── Vissluis
-                                    ├── Vistrap
-                                ├── Vleermuispassage
-                                    ├── Hop-over
-                                    ├── Vleermuisportaal
                             ├── Fontein
+                            ├── Glooiing
+                            ├── Golfbreker
                             ├── Kademuur
+                            ├── Kistdam
                             ├── Krib
+                            ├── Lichtopstand
+                            ├── Mobiele waterkering
+                            ├── Oppervlaktewaterinlaat
                             ├── Ponton
                             ├── Schot
                             ├── Sluis
@@ -1509,6 +1530,7 @@
                                 ├── Schuifstuw
                                 ├── Segmentstuw
                                 ├── Trommelstuw
+                            ├── Taludbekleding
                             ├── Uitlaatconstructie
                                 ├── Nooduitlaat
                                 ├── Stuwbak
@@ -1516,9 +1538,23 @@
                             ├── Vlonder
                             ├── Voorde
                             ├── Vuilvang
+                            ├── Waterbushalte
+                            ├── Waternetponton
+                            ├── Watertaxisteiger
                             ├── Watertrap
                             ├── Waterval
-                        ├── Watertaxisteiger
+                        ├── Ondertunneling
+                            ├── Onderdoorgang
+                            ├── Tunnel
+                        ├── Overbrugging
+                            ├── Aquaduct
+                            ├── Beweegbare brug
+                            ├── Ecoduct
+                            ├── Flyover
+                            ├── Overkluizing
+                                ├── Beekriool
+                            ├── Vaste brug
+                            ├── Viaduct
                     ├── Kunstwerkdeel
                         ├── Dek
                         ├── Landhoofd
@@ -1530,20 +1566,10 @@
                         ├── Sluisdeur
                     ├── Leiding
                         ├── Holle leiding
-                            ├── Aansluitleiding
-                                ├── Drainaansluitleiding
-                                ├── Kolkaansluitleiding
-                                ├── Perceelaansluitleiding
-                                    ├── DWA perceelaansluitleiding
-                                    ├── Gemengde perceelaansluitleiding
-                                    ├── HWA-perceelaansluitleiding
-                                ├── Standpijp
                             ├── Aardolieleiding
                             ├── Beregeningsleiding
                             ├── Bierleiding
                             ├── ChemicaliÃ«nleiding
-                            ├── Drain
-                            ├── Duiker
                             ├── Effluentleiding
                             ├── Gasleiding
                             ├── Hevel
@@ -1554,34 +1580,23 @@
                                     ├── Volgezande leiding
                                 ├── Uitlegger
                             ├── Mantelbuis
-                            ├── Ontluchtingsleiding
-                            ├── Pendelstuk
                             ├── Persluchtleiding
-                            ├── Rioolleiding
-                                ├── Mechanische rioolleiding
-                                    ├── Drukleiding
-                                    ├── Luchtpersleiding
-                                    ├── VacuÃ¼mleiding
-                                ├── Vrijverval rioolleiding
-                                    ├── Bergbezinkleiding
-                                    ├── Bergingsleiding
-                                    ├── Blusriool
-                                    ├── DIT-riool
-                                    ├── DT-riool
-                                    ├── Gemengd riool
-                                    ├── Hemelwaterriool
-                                    ├── Infiltratieriool
-                                    ├── Overstortleiding
-                                    ├── Parallelriool
-                                    ├── Stuwrioolleiding
-                                    ├── Tandemriool
-                                    ├── Vuilwaterriool
-                                    ├── Zinker
                             ├── Rioolwaterzuiveringsleiding
                             ├── Sifon
                             ├── Spuileiding
                             ├── Stadsverwarmingsleiding
                             ├── Stedelijk waterleiding
+                                ├── Aansluitleiding
+                                    ├── Drainaansluitleiding
+                                    ├── Kolkaansluitleiding
+                                    ├── Perceelaansluitleiding
+                                        ├── DWA perceelaansluitleiding
+                                        ├── Gemengde perceelaansluitleiding
+                                        ├── HWA-perceelaansluitleiding
+                                    ├── Standpijp
+                                ├── Drain
+                                ├── Duiker
+                                ├── Ontluchtingsleiding
                                 ├── Open leiding
                                     ├── Goot
                                         ├── Infiltratiegoot
@@ -1590,6 +1605,7 @@
                                         ├── Molgoot
                                         ├── Taludgoot
                                         ├── Verholen goot
+                                ├── Pendelstuk
                                 ├── Rioolleiding
                                     ├── Mechanische rioolleiding
                                         ├── Drukleiding
@@ -1618,16 +1634,9 @@
                                     ├── Vrijverval transportleiding
                                         ├── Transportrioolleiding
                                             ├── Benedenstrooms eindriool
+                                        ├── Vrijverval leidingsegment
+                                ├── Valleiding
                             ├── Thermische pijpleiding
-                            ├── Transportleiding
-                                ├── Mechanische transportleiding
-                                    ├── Leidingsegment
-                                    ├── Persleiding
-                                    ├── Spoelleiding
-                                ├── Vrijverval transportleiding
-                                    ├── Transportrioolleiding
-                                        ├── Benedenstrooms eindriool
-                            ├── Valleiding
                             ├── Waterleiding
                             ├── Weesleiding
                             ├── Zoutwaterleiding
@@ -1808,6 +1817,7 @@
                         ├── Radar
                         ├── Referentiemicrofoon
                         ├── Verkeersteller
+                        ├── Videodetector
                         ├── Vochtmeter
                         ├── Warmtesensor
                         ├── Waterkwaliteitssensor
@@ -2169,7 +2179,6 @@
                         ├── Vertikale drainage
                         ├── Verzameldrainage
                         ├── Vrijverval drainagestelsel
-                            ├── Vrijverval leidingsegment
                     ├── Duikerstelsel
                     ├── Rioolstelsel
                         ├── Infiltratiestelsel
@@ -2231,6 +2240,7 @@
                             ├── Grafvak
                             ├── Grafveld
                             ├── Hondenbeleidsgebied
+                            ├── Hondentoilet
                             ├── Hoogspanningtrace
                             ├── Hotspot
                             ├── Inlaag
@@ -3335,72 +3345,57 @@
                         ├── VRI-kast
                         ├── Waterkast
                     ├── Kunstwerk
-                        ├── Aardenbaan
-                        ├── Baggerschot
-                        ├── Bodembescherming
-                        ├── Bouwkuip
-                        ├── Bunkerponton
-                        ├── Dijkbekleding
-                        ├── Glooiing
-                        ├── Golfbreker
-                        ├── Kistdam
-                        ├── Lichtopstand
-                        ├── Mobiele waterkering
-                        ├── Ondertunneling
-                            ├── Onderdoorgang
-                            ├── Tunnel
-                        ├── Oppervlaktewaterinlaat
-                        ├── Overbrugging
-                            ├── Aquaduct
-                            ├── Beweegbare brug
-                            ├── Ecoduct
-                            ├── Flyover
-                            ├── Overkluizing
-                                ├── Beekriool
-                            ├── Vaste brug
-                            ├── Viaduct
-                        ├── Taludbekleding
-                        ├── Waterbushalte
-                        ├── Waternetponton
-                        ├── Waterstaatkundig kunstwerk
+                        ├── Faunavoorziening
+                            ├── AmfibieÃ«nfuik
+                            ├── Eekhoornbrug
+                            ├── Fauna-uittreedplaats
+                            ├── Faunaduiker
+                            ├── Faunagoot
+                            ├── Faunarichel
+                            ├── Faunatunnel
+                            ├── IJsvogelwand
+                            ├── Mosselbank
+                            ├── Oeverzwaluwwand
+                            ├── Stobbenwal
+                            ├── Uitklimvoorziening
+                            ├── Vispassage
+                                ├── Aalpijp
+                                ├── Bekkentrap
+                                ├── Deniltrap
+                                ├── Vislift
+                                ├── Vissluis
+                                ├── Vistrap
+                            ├── Vleermuispassage
+                                ├── Hop-over
+                                ├── Vleermuisportaal
+                        ├── Infrastructureel kunstwerk
                             ├── Aanleginrichting
+                            ├── Aardenbaan
+                            ├── Baggerschot
                             ├── Beschoeiing
+                            ├── Bodembescherming
                             ├── Bodemval
+                            ├── Bouwkuip
+                            ├── Bunkerponton
                             ├── Coupure
                             ├── Dam
                                 ├── Gronddam
                             ├── Damwand
                                 ├── Diepwand
+                            ├── Dijkbekleding
                             ├── Dijklichaam
                                 ├── Winterdijk
                                 ├── Zomerdijk
                             ├── Drinkwaterinlaat
-                            ├── Faunavoorziening
-                                ├── AmfibieÃ«nfuik
-                                ├── Eekhoornbrug
-                                ├── Fauna-uittreedplaats
-                                ├── Faunaduiker
-                                ├── Faunagoot
-                                ├── Faunarichel
-                                ├── Faunatunnel
-                                ├── IJsvogelwand
-                                ├── Mosselbank
-                                ├── Oeverzwaluwwand
-                                ├── Stobbenwal
-                                ├── Uitklimvoorziening
-                                ├── Vispassage
-                                    ├── Aalpijp
-                                    ├── Bekkentrap
-                                    ├── Deniltrap
-                                    ├── Vislift
-                                    ├── Vissluis
-                                    ├── Vistrap
-                                ├── Vleermuispassage
-                                    ├── Hop-over
-                                    ├── Vleermuisportaal
                             ├── Fontein
+                            ├── Glooiing
+                            ├── Golfbreker
                             ├── Kademuur
+                            ├── Kistdam
                             ├── Krib
+                            ├── Lichtopstand
+                            ├── Mobiele waterkering
+                            ├── Oppervlaktewaterinlaat
                             ├── Ponton
                             ├── Schot
                             ├── Sluis
@@ -3434,6 +3429,7 @@
                                 ├── Schuifstuw
                                 ├── Segmentstuw
                                 ├── Trommelstuw
+                            ├── Taludbekleding
                             ├── Uitlaatconstructie
                                 ├── Nooduitlaat
                                 ├── Stuwbak
@@ -3441,9 +3437,23 @@
                             ├── Vlonder
                             ├── Voorde
                             ├── Vuilvang
+                            ├── Waterbushalte
+                            ├── Waternetponton
+                            ├── Watertaxisteiger
                             ├── Watertrap
                             ├── Waterval
-                        ├── Watertaxisteiger
+                        ├── Ondertunneling
+                            ├── Onderdoorgang
+                            ├── Tunnel
+                        ├── Overbrugging
+                            ├── Aquaduct
+                            ├── Beweegbare brug
+                            ├── Ecoduct
+                            ├── Flyover
+                            ├── Overkluizing
+                                ├── Beekriool
+                            ├── Vaste brug
+                            ├── Viaduct
                     ├── Kunstwerkdeel
                         ├── Dek
                         ├── Landhoofd
@@ -3455,20 +3465,10 @@
                         ├── Sluisdeur
                     ├── Leiding
                         ├── Holle leiding
-                            ├── Aansluitleiding
-                                ├── Drainaansluitleiding
-                                ├── Kolkaansluitleiding
-                                ├── Perceelaansluitleiding
-                                    ├── DWA perceelaansluitleiding
-                                    ├── Gemengde perceelaansluitleiding
-                                    ├── HWA-perceelaansluitleiding
-                                ├── Standpijp
                             ├── Aardolieleiding
                             ├── Beregeningsleiding
                             ├── Bierleiding
                             ├── ChemicaliÃ«nleiding
-                            ├── Drain
-                            ├── Duiker
                             ├── Effluentleiding
                             ├── Gasleiding
                             ├── Hevel
@@ -3479,34 +3479,23 @@
                                     ├── Volgezande leiding
                                 ├── Uitlegger
                             ├── Mantelbuis
-                            ├── Ontluchtingsleiding
-                            ├── Pendelstuk
                             ├── Persluchtleiding
-                            ├── Rioolleiding
-                                ├── Mechanische rioolleiding
-                                    ├── Drukleiding
-                                    ├── Luchtpersleiding
-                                    ├── VacuÃ¼mleiding
-                                ├── Vrijverval rioolleiding
-                                    ├── Bergbezinkleiding
-                                    ├── Bergingsleiding
-                                    ├── Blusriool
-                                    ├── DIT-riool
-                                    ├── DT-riool
-                                    ├── Gemengd riool
-                                    ├── Hemelwaterriool
-                                    ├── Infiltratieriool
-                                    ├── Overstortleiding
-                                    ├── Parallelriool
-                                    ├── Stuwrioolleiding
-                                    ├── Tandemriool
-                                    ├── Vuilwaterriool
-                                    ├── Zinker
                             ├── Rioolwaterzuiveringsleiding
                             ├── Sifon
                             ├── Spuileiding
                             ├── Stadsverwarmingsleiding
                             ├── Stedelijk waterleiding
+                                ├── Aansluitleiding
+                                    ├── Drainaansluitleiding
+                                    ├── Kolkaansluitleiding
+                                    ├── Perceelaansluitleiding
+                                        ├── DWA perceelaansluitleiding
+                                        ├── Gemengde perceelaansluitleiding
+                                        ├── HWA-perceelaansluitleiding
+                                    ├── Standpijp
+                                ├── Drain
+                                ├── Duiker
+                                ├── Ontluchtingsleiding
                                 ├── Open leiding
                                     ├── Goot
                                         ├── Infiltratiegoot
@@ -3515,6 +3504,7 @@
                                         ├── Molgoot
                                         ├── Taludgoot
                                         ├── Verholen goot
+                                ├── Pendelstuk
                                 ├── Rioolleiding
                                     ├── Mechanische rioolleiding
                                         ├── Drukleiding
@@ -3543,16 +3533,9 @@
                                     ├── Vrijverval transportleiding
                                         ├── Transportrioolleiding
                                             ├── Benedenstrooms eindriool
+                                        ├── Vrijverval leidingsegment
+                                ├── Valleiding
                             ├── Thermische pijpleiding
-                            ├── Transportleiding
-                                ├── Mechanische transportleiding
-                                    ├── Leidingsegment
-                                    ├── Persleiding
-                                    ├── Spoelleiding
-                                ├── Vrijverval transportleiding
-                                    ├── Transportrioolleiding
-                                        ├── Benedenstrooms eindriool
-                            ├── Valleiding
                             ├── Waterleiding
                             ├── Weesleiding
                             ├── Zoutwaterleiding
@@ -3733,6 +3716,7 @@
                         ├── Radar
                         ├── Referentiemicrofoon
                         ├── Verkeersteller
+                        ├── Videodetector
                         ├── Vochtmeter
                         ├── Warmtesensor
                         ├── Waterkwaliteitssensor
@@ -4580,72 +4564,57 @@
                         ├── VRI-kast
                         ├── Waterkast
                     ├── Kunstwerk
-                        ├── Aardenbaan
-                        ├── Baggerschot
-                        ├── Bodembescherming
-                        ├── Bouwkuip
-                        ├── Bunkerponton
-                        ├── Dijkbekleding
-                        ├── Glooiing
-                        ├── Golfbreker
-                        ├── Kistdam
-                        ├── Lichtopstand
-                        ├── Mobiele waterkering
-                        ├── Ondertunneling
-                            ├── Onderdoorgang
-                            ├── Tunnel
-                        ├── Oppervlaktewaterinlaat
-                        ├── Overbrugging
-                            ├── Aquaduct
-                            ├── Beweegbare brug
-                            ├── Ecoduct
-                            ├── Flyover
-                            ├── Overkluizing
-                                ├── Beekriool
-                            ├── Vaste brug
-                            ├── Viaduct
-                        ├── Taludbekleding
-                        ├── Waterbushalte
-                        ├── Waternetponton
-                        ├── Waterstaatkundig kunstwerk
+                        ├── Faunavoorziening
+                            ├── AmfibieÃ«nfuik
+                            ├── Eekhoornbrug
+                            ├── Fauna-uittreedplaats
+                            ├── Faunaduiker
+                            ├── Faunagoot
+                            ├── Faunarichel
+                            ├── Faunatunnel
+                            ├── IJsvogelwand
+                            ├── Mosselbank
+                            ├── Oeverzwaluwwand
+                            ├── Stobbenwal
+                            ├── Uitklimvoorziening
+                            ├── Vispassage
+                                ├── Aalpijp
+                                ├── Bekkentrap
+                                ├── Deniltrap
+                                ├── Vislift
+                                ├── Vissluis
+                                ├── Vistrap
+                            ├── Vleermuispassage
+                                ├── Hop-over
+                                ├── Vleermuisportaal
+                        ├── Infrastructureel kunstwerk
                             ├── Aanleginrichting
+                            ├── Aardenbaan
+                            ├── Baggerschot
                             ├── Beschoeiing
+                            ├── Bodembescherming
                             ├── Bodemval
+                            ├── Bouwkuip
+                            ├── Bunkerponton
                             ├── Coupure
                             ├── Dam
                                 ├── Gronddam
                             ├── Damwand
                                 ├── Diepwand
+                            ├── Dijkbekleding
                             ├── Dijklichaam
                                 ├── Winterdijk
                                 ├── Zomerdijk
                             ├── Drinkwaterinlaat
-                            ├── Faunavoorziening
-                                ├── AmfibieÃ«nfuik
-                                ├── Eekhoornbrug
-                                ├── Fauna-uittreedplaats
-                                ├── Faunaduiker
-                                ├── Faunagoot
-                                ├── Faunarichel
-                                ├── Faunatunnel
-                                ├── IJsvogelwand
-                                ├── Mosselbank
-                                ├── Oeverzwaluwwand
-                                ├── Stobbenwal
-                                ├── Uitklimvoorziening
-                                ├── Vispassage
-                                    ├── Aalpijp
-                                    ├── Bekkentrap
-                                    ├── Deniltrap
-                                    ├── Vislift
-                                    ├── Vissluis
-                                    ├── Vistrap
-                                ├── Vleermuispassage
-                                    ├── Hop-over
-                                    ├── Vleermuisportaal
                             ├── Fontein
+                            ├── Glooiing
+                            ├── Golfbreker
                             ├── Kademuur
+                            ├── Kistdam
                             ├── Krib
+                            ├── Lichtopstand
+                            ├── Mobiele waterkering
+                            ├── Oppervlaktewaterinlaat
                             ├── Ponton
                             ├── Schot
                             ├── Sluis
@@ -4679,6 +4648,7 @@
                                 ├── Schuifstuw
                                 ├── Segmentstuw
                                 ├── Trommelstuw
+                            ├── Taludbekleding
                             ├── Uitlaatconstructie
                                 ├── Nooduitlaat
                                 ├── Stuwbak
@@ -4686,9 +4656,23 @@
                             ├── Vlonder
                             ├── Voorde
                             ├── Vuilvang
+                            ├── Waterbushalte
+                            ├── Waternetponton
+                            ├── Watertaxisteiger
                             ├── Watertrap
                             ├── Waterval
-                        ├── Watertaxisteiger
+                        ├── Ondertunneling
+                            ├── Onderdoorgang
+                            ├── Tunnel
+                        ├── Overbrugging
+                            ├── Aquaduct
+                            ├── Beweegbare brug
+                            ├── Ecoduct
+                            ├── Flyover
+                            ├── Overkluizing
+                                ├── Beekriool
+                            ├── Vaste brug
+                            ├── Viaduct
                     ├── Kunstwerkdeel
                         ├── Dek
                         ├── Landhoofd
@@ -4700,20 +4684,10 @@
                         ├── Sluisdeur
                     ├── Leiding
                         ├── Holle leiding
-                            ├── Aansluitleiding
-                                ├── Drainaansluitleiding
-                                ├── Kolkaansluitleiding
-                                ├── Perceelaansluitleiding
-                                    ├── DWA perceelaansluitleiding
-                                    ├── Gemengde perceelaansluitleiding
-                                    ├── HWA-perceelaansluitleiding
-                                ├── Standpijp
                             ├── Aardolieleiding
                             ├── Beregeningsleiding
                             ├── Bierleiding
                             ├── ChemicaliÃ«nleiding
-                            ├── Drain
-                            ├── Duiker
                             ├── Effluentleiding
                             ├── Gasleiding
                             ├── Hevel
@@ -4724,34 +4698,23 @@
                                     ├── Volgezande leiding
                                 ├── Uitlegger
                             ├── Mantelbuis
-                            ├── Ontluchtingsleiding
-                            ├── Pendelstuk
                             ├── Persluchtleiding
-                            ├── Rioolleiding
-                                ├── Mechanische rioolleiding
-                                    ├── Drukleiding
-                                    ├── Luchtpersleiding
-                                    ├── VacuÃ¼mleiding
-                                ├── Vrijverval rioolleiding
-                                    ├── Bergbezinkleiding
-                                    ├── Bergingsleiding
-                                    ├── Blusriool
-                                    ├── DIT-riool
-                                    ├── DT-riool
-                                    ├── Gemengd riool
-                                    ├── Hemelwaterriool
-                                    ├── Infiltratieriool
-                                    ├── Overstortleiding
-                                    ├── Parallelriool
-                                    ├── Stuwrioolleiding
-                                    ├── Tandemriool
-                                    ├── Vuilwaterriool
-                                    ├── Zinker
                             ├── Rioolwaterzuiveringsleiding
                             ├── Sifon
                             ├── Spuileiding
                             ├── Stadsverwarmingsleiding
                             ├── Stedelijk waterleiding
+                                ├── Aansluitleiding
+                                    ├── Drainaansluitleiding
+                                    ├── Kolkaansluitleiding
+                                    ├── Perceelaansluitleiding
+                                        ├── DWA perceelaansluitleiding
+                                        ├── Gemengde perceelaansluitleiding
+                                        ├── HWA-perceelaansluitleiding
+                                    ├── Standpijp
+                                ├── Drain
+                                ├── Duiker
+                                ├── Ontluchtingsleiding
                                 ├── Open leiding
                                     ├── Goot
                                         ├── Infiltratiegoot
@@ -4760,6 +4723,7 @@
                                         ├── Molgoot
                                         ├── Taludgoot
                                         ├── Verholen goot
+                                ├── Pendelstuk
                                 ├── Rioolleiding
                                     ├── Mechanische rioolleiding
                                         ├── Drukleiding
@@ -4788,16 +4752,9 @@
                                     ├── Vrijverval transportleiding
                                         ├── Transportrioolleiding
                                             ├── Benedenstrooms eindriool
+                                        ├── Vrijverval leidingsegment
+                                ├── Valleiding
                             ├── Thermische pijpleiding
-                            ├── Transportleiding
-                                ├── Mechanische transportleiding
-                                    ├── Leidingsegment
-                                    ├── Persleiding
-                                    ├── Spoelleiding
-                                ├── Vrijverval transportleiding
-                                    ├── Transportrioolleiding
-                                        ├── Benedenstrooms eindriool
-                            ├── Valleiding
                             ├── Waterleiding
                             ├── Weesleiding
                             ├── Zoutwaterleiding
@@ -4978,6 +4935,7 @@
                         ├── Radar
                         ├── Referentiemicrofoon
                         ├── Verkeersteller
+                        ├── Videodetector
                         ├── Vochtmeter
                         ├── Warmtesensor
                         ├── Waterkwaliteitssensor
@@ -5339,7 +5297,6 @@
                         ├── Vertikale drainage
                         ├── Verzameldrainage
                         ├── Vrijverval drainagestelsel
-                            ├── Vrijverval leidingsegment
                     ├── Duikerstelsel
                     ├── Rioolstelsel
                         ├── Infiltratiestelsel
@@ -5402,6 +5359,7 @@
                             ├── Grafvak
                             ├── Grafveld
                             ├── Hondenbeleidsgebied
+                            ├── Hondentoilet
                             ├── Hoogspanningtrace
                             ├── Hotspot
                             ├── Inlaag
@@ -5723,21 +5681,20 @@
         ├── Brandbescherming-informatie
         ├── Communicatie-informatie
         ├── Component-informatie
-        ├── Constructiekleur
         ├── Document
         ├── Flora en fauna-informatie
         ├── Geometrische representatie
-            ├── GM_Curve
-            ├── GM_MultiPoint
-            ├── GM_MultiSurface
-            ├── GM_Point
-            ├── GM_Surface
+            ├── Curve
             ├── Hulpobject
                 ├── Buitengrens
                 ├── Leidingprofiel
                 ├── Profiellijn
+            ├── MultiPoint
+            ├── MultiSurface
             ├── Openbare ruimtelabel
             ├── Plaatsbepalingspunt
+            ├── Point
+            ├── Surface
             ├── Topologisch element
                 ├── Edge
                     ├── Haagas
@@ -5797,6 +5754,7 @@
         ├── IMKL-informatie
         ├── Installatie-informatie
         ├── Inwinning-informatie
+        ├── Kleur-informatie
         ├── Memo
         ├── Modaliteit-informatie
         ├── Monument-informatie
@@ -6377,72 +6335,57 @@
                 ├── VRI-kast
                 ├── Waterkast
             ├── Kunstwerk
-                ├── Aardenbaan
-                ├── Baggerschot
-                ├── Bodembescherming
-                ├── Bouwkuip
-                ├── Bunkerponton
-                ├── Dijkbekleding
-                ├── Glooiing
-                ├── Golfbreker
-                ├── Kistdam
-                ├── Lichtopstand
-                ├── Mobiele waterkering
-                ├── Ondertunneling
-                    ├── Onderdoorgang
-                    ├── Tunnel
-                ├── Oppervlaktewaterinlaat
-                ├── Overbrugging
-                    ├── Aquaduct
-                    ├── Beweegbare brug
-                    ├── Ecoduct
-                    ├── Flyover
-                    ├── Overkluizing
-                        ├── Beekriool
-                    ├── Vaste brug
-                    ├── Viaduct
-                ├── Taludbekleding
-                ├── Waterbushalte
-                ├── Waternetponton
-                ├── Waterstaatkundig kunstwerk
+                ├── Faunavoorziening
+                    ├── AmfibieÃ«nfuik
+                    ├── Eekhoornbrug
+                    ├── Fauna-uittreedplaats
+                    ├── Faunaduiker
+                    ├── Faunagoot
+                    ├── Faunarichel
+                    ├── Faunatunnel
+                    ├── IJsvogelwand
+                    ├── Mosselbank
+                    ├── Oeverzwaluwwand
+                    ├── Stobbenwal
+                    ├── Uitklimvoorziening
+                    ├── Vispassage
+                        ├── Aalpijp
+                        ├── Bekkentrap
+                        ├── Deniltrap
+                        ├── Vislift
+                        ├── Vissluis
+                        ├── Vistrap
+                    ├── Vleermuispassage
+                        ├── Hop-over
+                        ├── Vleermuisportaal
+                ├── Infrastructureel kunstwerk
                     ├── Aanleginrichting
+                    ├── Aardenbaan
+                    ├── Baggerschot
                     ├── Beschoeiing
+                    ├── Bodembescherming
                     ├── Bodemval
+                    ├── Bouwkuip
+                    ├── Bunkerponton
                     ├── Coupure
                     ├── Dam
                         ├── Gronddam
                     ├── Damwand
                         ├── Diepwand
+                    ├── Dijkbekleding
                     ├── Dijklichaam
                         ├── Winterdijk
                         ├── Zomerdijk
                     ├── Drinkwaterinlaat
-                    ├── Faunavoorziening
-                        ├── AmfibieÃ«nfuik
-                        ├── Eekhoornbrug
-                        ├── Fauna-uittreedplaats
-                        ├── Faunaduiker
-                        ├── Faunagoot
-                        ├── Faunarichel
-                        ├── Faunatunnel
-                        ├── IJsvogelwand
-                        ├── Mosselbank
-                        ├── Oeverzwaluwwand
-                        ├── Stobbenwal
-                        ├── Uitklimvoorziening
-                        ├── Vispassage
-                            ├── Aalpijp
-                            ├── Bekkentrap
-                            ├── Deniltrap
-                            ├── Vislift
-                            ├── Vissluis
-                            ├── Vistrap
-                        ├── Vleermuispassage
-                            ├── Hop-over
-                            ├── Vleermuisportaal
                     ├── Fontein
+                    ├── Glooiing
+                    ├── Golfbreker
                     ├── Kademuur
+                    ├── Kistdam
                     ├── Krib
+                    ├── Lichtopstand
+                    ├── Mobiele waterkering
+                    ├── Oppervlaktewaterinlaat
                     ├── Ponton
                     ├── Schot
                     ├── Sluis
@@ -6476,6 +6419,7 @@
                         ├── Schuifstuw
                         ├── Segmentstuw
                         ├── Trommelstuw
+                    ├── Taludbekleding
                     ├── Uitlaatconstructie
                         ├── Nooduitlaat
                         ├── Stuwbak
@@ -6483,9 +6427,23 @@
                     ├── Vlonder
                     ├── Voorde
                     ├── Vuilvang
+                    ├── Waterbushalte
+                    ├── Waternetponton
+                    ├── Watertaxisteiger
                     ├── Watertrap
                     ├── Waterval
-                ├── Watertaxisteiger
+                ├── Ondertunneling
+                    ├── Onderdoorgang
+                    ├── Tunnel
+                ├── Overbrugging
+                    ├── Aquaduct
+                    ├── Beweegbare brug
+                    ├── Ecoduct
+                    ├── Flyover
+                    ├── Overkluizing
+                        ├── Beekriool
+                    ├── Vaste brug
+                    ├── Viaduct
             ├── Kunstwerkdeel
                 ├── Dek
                 ├── Landhoofd
@@ -6497,20 +6455,10 @@
                 ├── Sluisdeur
             ├── Leiding
                 ├── Holle leiding
-                    ├── Aansluitleiding
-                        ├── Drainaansluitleiding
-                        ├── Kolkaansluitleiding
-                        ├── Perceelaansluitleiding
-                            ├── DWA perceelaansluitleiding
-                            ├── Gemengde perceelaansluitleiding
-                            ├── HWA-perceelaansluitleiding
-                        ├── Standpijp
                     ├── Aardolieleiding
                     ├── Beregeningsleiding
                     ├── Bierleiding
                     ├── ChemicaliÃ«nleiding
-                    ├── Drain
-                    ├── Duiker
                     ├── Effluentleiding
                     ├── Gasleiding
                     ├── Hevel
@@ -6521,34 +6469,23 @@
                             ├── Volgezande leiding
                         ├── Uitlegger
                     ├── Mantelbuis
-                    ├── Ontluchtingsleiding
-                    ├── Pendelstuk
                     ├── Persluchtleiding
-                    ├── Rioolleiding
-                        ├── Mechanische rioolleiding
-                            ├── Drukleiding
-                            ├── Luchtpersleiding
-                            ├── VacuÃ¼mleiding
-                        ├── Vrijverval rioolleiding
-                            ├── Bergbezinkleiding
-                            ├── Bergingsleiding
-                            ├── Blusriool
-                            ├── DIT-riool
-                            ├── DT-riool
-                            ├── Gemengd riool
-                            ├── Hemelwaterriool
-                            ├── Infiltratieriool
-                            ├── Overstortleiding
-                            ├── Parallelriool
-                            ├── Stuwrioolleiding
-                            ├── Tandemriool
-                            ├── Vuilwaterriool
-                            ├── Zinker
                     ├── Rioolwaterzuiveringsleiding
                     ├── Sifon
                     ├── Spuileiding
                     ├── Stadsverwarmingsleiding
                     ├── Stedelijk waterleiding
+                        ├── Aansluitleiding
+                            ├── Drainaansluitleiding
+                            ├── Kolkaansluitleiding
+                            ├── Perceelaansluitleiding
+                                ├── DWA perceelaansluitleiding
+                                ├── Gemengde perceelaansluitleiding
+                                ├── HWA-perceelaansluitleiding
+                            ├── Standpijp
+                        ├── Drain
+                        ├── Duiker
+                        ├── Ontluchtingsleiding
                         ├── Open leiding
                             ├── Goot
                                 ├── Infiltratiegoot
@@ -6557,6 +6494,7 @@
                                 ├── Molgoot
                                 ├── Taludgoot
                                 ├── Verholen goot
+                        ├── Pendelstuk
                         ├── Rioolleiding
                             ├── Mechanische rioolleiding
                                 ├── Drukleiding
@@ -6585,16 +6523,9 @@
                             ├── Vrijverval transportleiding
                                 ├── Transportrioolleiding
                                     ├── Benedenstrooms eindriool
+                                ├── Vrijverval leidingsegment
+                        ├── Valleiding
                     ├── Thermische pijpleiding
-                    ├── Transportleiding
-                        ├── Mechanische transportleiding
-                            ├── Leidingsegment
-                            ├── Persleiding
-                            ├── Spoelleiding
-                        ├── Vrijverval transportleiding
-                            ├── Transportrioolleiding
-                                ├── Benedenstrooms eindriool
-                    ├── Valleiding
                     ├── Waterleiding
                     ├── Weesleiding
                     ├── Zoutwaterleiding
@@ -6775,6 +6706,7 @@
                 ├── Radar
                 ├── Referentiemicrofoon
                 ├── Verkeersteller
+                ├── Videodetector
                 ├── Vochtmeter
                 ├── Warmtesensor
                 ├── Waterkwaliteitssensor
@@ -7136,7 +7068,6 @@
                 ├── Vertikale drainage
                 ├── Verzameldrainage
                 ├── Vrijverval drainagestelsel
-                    ├── Vrijverval leidingsegment
             ├── Duikerstelsel
             ├── Rioolstelsel
                 ├── Infiltratiestelsel
@@ -7174,3 +7105,718 @@
             ├── Regelinrichting
             ├── Transportsysteem
             ├── Verbeterd gescheiden systeem
+├── capaciteit
+    ├── maximale capaciteit doorlaat
+    ├── opvangcapaciteit
+├── gewicht-attribuut
+    ├── gewicht
+        ├── maximale asbelasting
+        ├── statisch moment
+    ├── gewicht leeg
+    ├── gewicht vol
+    ├── maximaal gewicht voertuig
+    ├── maximaal toelaatbaar voertuiggewicht
+├── logische eigenschap
+    ├── aanwezigheid
+        ├── aanwezigheid asbest
+        ├── aanwezigheid teer
+    ├── waarheidswaarde
+        ├── APV-verordening
+        ├── CLO
+        ├── CROW-richtlijn
+        ├── WAS
+        ├── aansluiting externe sensor
+        ├── aanwezigheid bollen
+        ├── aanwezigheid zekering
+        ├── afstandsbediening
+        ├── afvoeren
+        ├── anti-graffiti voorziening
+        ├── anti-slip
+        ├── attentieverhogende markering
+        ├── beperking voor soorten
+        ├── beschermde flora en fauna
+        ├── bewoond
+        ├── bijzonder transport
+        ├── blinde put
+        ├── botsvriendelijk
+        ├── braakliggend
+        ├── dimbaar
+        ├── draagkrachtig
+        ├── draaibaar
+        ├── ecologisch beheer
+        ├── elektrisch raster
+        ├── fictief
+        ├── fietsers in de voorrang
+        ├── flora en fauna uitzondering
+        ├── gemakkelijk toegankelijk
+        ├── hoofdfunctie
+        ├── hoofdgemaal
+        ├── in onderzoek
+        ├── indicatie open
+        ├── ingegraven
+        ├── inhalen toegestaan van landbouwvoertuig
+        ├── invasieve soort
+        ├── kabelsplitspunt
+        ├── kathodische bescherming
+        ├── knipperen
+        ├── laptopaansluiting
+        ├── mag beplakt worden
+        ├── mindervaliden
+        ├── monitoring
+        ├── natuurvriendelijk
+        ├── niet geheel sloten
+        ├── obstakels
+        ├── op talud
+        ├── openbare weg
+        ├── overspanningsbeveiliging
+        ├── primaire aansluiting
+        ├── reclame
+        ├── recyclebaar
+        ├── reflectie
+        ├── remplace
+        ├── rolstoelgebruik
+        ├── rood licht bewaking
+        ├── schouwen
+        ├── seizoensgebonden
+        ├── terugmelding
+        ├── tijdelijk
+        ├── uitneembaar
+        ├── uitritconstructie
+        ├── uv-bestendig
+        ├── valbescherming
+        ├── vegen
+        ├── verdekte put
+        ├── verdiepte put
+        ├── verend
+        ├── verhoogd risico
+        ├── verhoogde ligging
+        ├── verplaatsbaar
+        ├── verzwaard
+        ├── vigerend
+        ├── worteldoek
+        ├── zichtbaar
+        ├── zuurgraad
+├── mechanische eigenschap
+    ├── hoek
+        ├── oriÃ«ntatie
+        ├── oriÃ«ntatierichting
+        ├── tilthoek
+    ├── optische eigenschap
+        ├── CRI
+        ├── kleurtemperatuur
+        ├── lumenstroom
+        ├── regelbaar spectrum
+    ├── snelheid
+        ├── continue lozing
+        ├── invoer
+        ├── lateraal debiet DWA
+        ├── lateraal debiet HWA
+        ├── porositeit
+        ├── slibaanwas
+    ├── tijdsgebonden arbeid
+        ├── draagvermogen
+        ├── gemaalcapaciteit
+        ├── infiltrerend vermogen
+        ├── laadvermogen
+        ├── motorvermogen
+        ├── ontwerpcapaciteit
+        ├── pompcapaciteit
+        ├── systeemvermogen
+        ├── vermogen
+├── ruimtelijke eigenschap
+    ├── NAP-relatieve eendimensionale eigenschap
+        ├── aanlegdiepte
+        ├── aanleghoogte
+        ├── aanslagniveau benedenstrooms
+        ├── aanslagniveau bovenstrooms
+        ├── afslagniveau benedenstrooms
+        ├── afslagniveau bovenstrooms
+        ├── b.o.b. beginpunt leiding
+        ├── b.o.b. eindpunt leiding
+        ├── binnenonderkant onderdeel
+        ├── doorlaatniveau
+        ├── drempelniveau
+        ├── grondwaterniveau
+        ├── maaiveldhoogte
+        ├── niveau benedenstrooms openen
+        ├── niveau benedenstrooms sluiten
+        ├── niveau bovenstrooms openen
+        ├── niveau bovenstrooms sluiten
+        ├── niveau buitenwater
+        ├── putdekselniveau
+        ├── uitstroomniveau
+    ├── driedimensionale eigenschap
+        ├── bergend vermogen
+        ├── boomkroonvolume eindbeeld (BKV-stelpost)
+        ├── inhoud
+        ├── volume
+        ├── waterbuffer
+    ├── eendimensionale eigenschap
+        ├── aardveld
+        ├── afstand tot beginpunt
+        ├── afstand tot bovenzijde put
+        ├── afstand tot eindpunt
+        ├── afstand tot wegas
+        ├── afstand tussen drager en maaiveld
+        ├── afstand valruimte
+        ├── afwijkende dieptelegging
+        ├── bevestigingshoogte
+        ├── binnendiameter
+        ├── breedte
+        ├── breedte bodem
+        ├── breedte toegang
+        ├── breedte valruimte
+        ├── breedte verhardingselement
+        ├── diameter
+        ├── diepte
+        ├── dikte
+        ├── dikte constructie
+        ├── dikte constructielaag
+        ├── dikte gording
+        ├── dikte palen
+        ├── dikte schot
+        ├── doorloophoogte
+        ├── doorrijbreedte
+        ├── doorrijhoogte
+        ├── doorvaartbreedte
+        ├── doorvaartdiepte
+        ├── doorvaarthoogte
+        ├── drempelbreedte
+        ├── drempeldikte
+        ├── hoogte
+        ├── hoogte bovenkant kademuur
+        ├── hoogte opening
+        ├── hoogte schot
+        ├── hoogte sluiskolken
+        ├── hoogte t.o.v. rijbaan
+        ├── hoogte valruimte
+        ├── hoogte verhardingselement
+        ├── hoogte waterval
+        ├── ingrijpdiepte
+        ├── insteekbreedte
+        ├── insteekhoogte
+        ├── kerende hoogte boven waterlijn
+        ├── kerende hoogte onder waterlijn
+        ├── keurdiepte
+        ├── lengte
+        ├── lengte bijzonder transport
+        ├── lengte haagvoet
+        ├── lengte palen
+        ├── lengte toegang
+        ├── lengte val
+        ├── lengte valruimte
+        ├── lengte van voegen
+        ├── lengte verhardingselement
+        ├── lensdiameter
+        ├── luchthoogte
+        ├── markeringsbreedte
+        ├── masttopdiameter
+        ├── maximale breedte voertuig
+        ├── maximale diepgang
+        ├── maximale hoogte voertuig
+        ├── maximale lengte voertuig
+        ├── maximale valhoogte
+        ├── nautische diepte
+        ├── omtrek
+        ├── omvang valruimte
+        ├── opzetdiameter
+        ├── schutlengte
+        ├── stabiliteitskluitdiameter eindbeeld
+        ├── streefdiepte
+        ├── taludsteilte bovenwatertalud
+        ├── taludsteilte onderwatertalud
+        ├── te sloten breedte
+        ├── te sloten lengte
+        ├── vereiste vrije doorgang (boom)
+        ├── vrije overstorthoogte
+        ├── vrije ruimte minimale hoogte links
+        ├── vrije ruimte minimale hoogte rechts
+        ├── vrije valhoogte
+        ├── wanddikte
+        ├── wandruwheid
+        ├── wandruwheid binnenboven
+        ├── wandruwheid binnenonder
+        ├── watergangdiepte
+        ├── werkbreedte
+    ├── geografische informatie
+        ├── bodemprofiel
+        ├── geometrie
+        ├── nauwkeurigheid xy
+        ├── profiel open leiding
+        ├── relatieve hoogteligging
+        ├── x-coÃ¶rdinaat
+        ├── y-coÃ¶rdinaat
+    ├── topografische informatie
+        ├── aansluitingszijde
+        ├── kilometrering begin
+        ├── kilometrering eind
+        ├── locatieaanduiding
+        ├── plaatsoriÃ«ntatie
+        ├── verkeersrichting
+        ├── wegindeling
+        ├── wegvak tot
+        ├── wegvak van
+        ├── zijde
+    ├── tweedimensionale eigenschap
+        ├── bergend oppervlak
+        ├── bordafmeting
+        ├── bruto vloeroppervlak
+        ├── dakoppervlak hellend
+        ├── dakoppervlak vlak
+        ├── dakoppervlak vlak uitgestrekt
+        ├── doorlaatbaarheid
+        ├── energieverliescoÃ«fficiÃ«nt
+        ├── gesloten verhard oppervlak hellend
+        ├── gesloten verhard oppervlak vlak
+        ├── gesloten verhard oppervlak vlak uitgestrekt
+        ├── infiltrerend oppervlak
+        ├── knipoppervlakte
+        ├── lateraal afvoerend oppervlak
+        ├── minimaal doorstroomoppervlak
+        ├── omtreklocatie
+        ├── onverhard oppervlak hellend
+        ├── onverhard oppervlak vlak
+        ├── onverhard oppervlak vlak uitgestrekt
+        ├── open verhard oppervlak hellend
+        ├── open verhard oppervlak vlak
+        ├── open verhard oppervlak vlak uitgestrekt
+        ├── oppervlakte
+        ├── oppervlakte bodem
+        ├── oppervlakte bovenkant kademuur
+        ├── oppervlakte bovenwatertalud
+        ├── oppervlakte haagvoet
+        ├── oppervlakte insteek
+        ├── oppervlakte onderwatertalud
+        ├── te sloten oppervlakte
+        ├── verfoppervlakte
+        ├── werkelijke oppervlakte
+├── sociaal geconstrueerde aanduiding
+    ├── cijfermatige aanduiding
+        ├── CE-markering
+        ├── barcode
+        ├── conversie-id
+        ├── documentnummer
+        ├── doorvaartnummer
+        ├── ean-code
+        ├── evse-id
+        ├── grootboeknummer
+        ├── huisnummer
+        ├── huisnummerletter
+        ├── inspectievolgorde
+        ├── laagnummer
+        ├── lozingsvergunningnummer
+        ├── meternummer
+        ├── monumentnummer
+        ├── nummer
+        ├── nummer opening
+        ├── nummeraanduidingreeks
+        ├── optiekcode
+        ├── postcode
+        ├── quaycode
+        ├── richtingnummer
+        ├── routenummer
+        ├── serienummer
+        ├── simkaartnummer
+        ├── sleutelnummer
+        ├── stopcode stroomgroep
+        ├── stopplacecode
+        ├── typenummer
+        ├── versie
+    ├── omschrijving
+        ├── deurindeling
+        ├── dimprofiel
+        ├── huisnummertoevoeging
+        ├── huisnummerverwijzing
+        ├── lampschakeling
+        ├── ondertekst
+        ├── opschrift
+        ├── positie deur
+        ├── tekst
+        ├── terugmelding specificatie
+        ├── transponderlocatie
+        ├── waarde
+    ├── opmerking
+        ├── afvoeren instructie
+        ├── bedieningstijden
+        ├── beheerafspraak
+        ├── eis voorzorgsmaatregel
+        ├── lozingseisen
+        ├── memoveld
+        ├── referentie zwaarste voertuig
+        ├── toelichting
+        ├── toelichting bijzonder transport
+        ├── toelichting doorvaart
+        ├── toelichting gemengde bestrating
+        ├── toelichting opening
+    ├── prijs
+        ├── aanschafprijs
+        ├── catalogusprijs
+        ├── installatiekosten
+        ├── vervangingswaarde
+    ├── resource identifier
+        ├── IP-adres
+        ├── MAC-adres
+        ├── code
+        ├── documentlocatie
+        ├── domein
+        ├── identificatie
+        ├── identificatie BAG
+        ├── identificatie geovoorziening
+        ├── identificatie telemetriesysteem
+        ├── rfid
+        ├── telecomadres
+        ├── transponder
+    ├── tekstuele aanduiding
+        ├── alternatieve naam
+        ├── documentnaam
+        ├── doelsoort
+        ├── metermodelnaam
+        ├── modelnaam
+        ├── naam
+        ├── onderstam
+        ├── plaatsnaam
+        ├── softwarenaam
+        ├── soortnaam
+        ├── straatnaam
+├── sociaal geconstrueerde indeling
+    ├── categorie
+        ├── IK-waarde
+        ├── IP-waarde
+        ├── SDR-waarde
+        ├── WIBON-thema
+        ├── aan- of vrijliggend
+        ├── aansturingsprotocol
+        ├── bedieningssysteem
+        ├── belasting
+        ├── belastingklasse DIN19580/EN1433
+        ├── beoogde opkroonhoogte
+        ├── bereikbaarheid
+        ├── bereikbaarheid gedetailleerd
+        ├── beschermde flora en fauna gedetailleerd
+        ├── bevaarbaarheidklasse
+        ├── bijzonderheid groeiplaats
+        ├── biotoopsubtype
+        ├── biotooptype
+        ├── bomenstructuur
+        ├── boomgrootte
+        ├── boomvoorziening
+        ├── bord in functie
+        ├── bordopbouw
+        ├── botsklasse
+        ├── boven- of ondergronds
+        ├── boven- of onderwater
+        ├── communicatieprotocol
+        ├── component
+        ├── dimaansturing
+        ├── drukklasse
+        ├── flora en faunawet afwijking
+        ├── formaat
+        ├── fysieke aansluiting
+        ├── gebouwencomplex
+        ├── gebruiksdoel
+        ├── gebruiksvorm
+        ├── graslandfase
+        ├── groeiplaatsconstructie
+        ├── groeiplaatsinrichting
+        ├── groeiwijze
+        ├── groenstructuur
+        ├── grondwaterprofiel
+        ├── hectometerpunt
+        ├── herbeoordeelde belastingklasse
+        ├── intelligentie
+        ├── interne sensor
+        ├── kabelfunctie
+        ├── kleur
+        ├── lampvoettype
+        ├── legverband
+        ├── lichtbeeld
+        ├── lichtdoorlatend deel materiaal
+        ├── lichtdoorlatend deel structuur
+        ├── lichtdoorlatend deel vorm
+        ├── maaiveldschematisering
+        ├── markering toepassing
+        ├── materiefase
+        ├── maximumsnelheidsklasse
+        ├── meeteenheid
+        ├── modaliteit
+        ├── omgevingsrisicoklasse veiligheid
+        ├── ondergroei
+        ├── onderhoudsregime
+        ├── ontgravingsmethode
+        ├── ontwerpsnelheidsklasse
+        ├── oppervlaktebehandeling
+        ├── originele belastingklasse
+        ├── pompschakeling
+        ├── primaire kleur
+        ├── protocol naar communicatiemodule
+        ├── protocol naar lichtsturing
+        ├── reflectieklasse
+        ├── regelprogramma
+        ├── remplacegroep
+        ├── richtingen
+        ├── rijrichting
+        ├── schouwwijze
+        ├── soort plantenbak
+        ├── soort voeg
+        ├── specifiek boomkenmerk
+        ├── standaard afsluiterstand
+        ├── stedelijkheid buurt
+        ├── stijl opschrift
+        ├── stromingsrichting
+        ├── symbool
+        ├── taludsteilte
+        ├── toegangssoort
+        ├── toegankelijk
+        ├── toestelgroep
+        ├── uithouderconstructie
+        ├── veiligheidsklasse
+        ├── vermeerderingsvorm (boom)
+        ├── voeg
+        ├── voegmateriaal
+        ├── voegvulling
+        ├── voetconstructie
+        ├── voorziening aanplant
+        ├── voorziening groeiplaats
+        ├── vorm
+        ├── vrije takval (RAW)
+        ├── vulmateriaal kunstgras
+        ├── waterdoorlatendheid
+        ├── wegcategorie duurzaam veilig
+        ├── wegcategorie duurzaam veilig gedetailleerd
+        ├── wegtype
+        ├── wijze van inwinnen
+        ├── wijze van stellen
+        ├── zettingsgevoeligheid
+        ├── zoutgehalte
+    ├── juridische eenheid
+        ├── aangemaakt door
+        ├── gewijzigd door
+    ├── meta-informatie
+        ├── attribuut
+        ├── bgt-objecttype
+        ├── domeinwaarde
+        ├── eenheid
+        ├── geo-functie
+        ├── hoeveelheid
+    ├── productspecificatie
+        ├── conversie naar protocol
+        ├── conversie van protocol
+        ├── firmwareversie
+        ├── hardwareversie
+        ├── imei
+        ├── imsi
+        ├── inbelgegevens
+        ├── protocolversie
+        ├── softwarelocatie
+        ├── softwareversie
+    ├── toegekende toestand
+        ├── boombeleidsstatus
+        ├── controle positie boom
+        ├── gebruikstatus
+        ├── juridische status
+        ├── projectstatus
+        ├── status
+    ├── verschijningsvorm
+├── temporele eigenschap
+    ├── datum
+        ├── aanschafdatum
+        ├── begin garantieperiode
+        ├── beginGeldigheid
+        ├── broedperiode tot
+        ├── broedperiode van
+        ├── datum inschrijving monumentenregister
+        ├── documentdatum
+        ├── eindGeldigheid
+        ├── eindRegistratie
+        ├── einde garantieperiode
+        ├── installatiedatum
+        ├── inwinningsdatum
+        ├── objectBeginTijd
+        ├── objectEindTijd
+        ├── opleverdatum
+        ├── plaatsingsdatum
+        ├── remplacedatum
+        ├── tijdstipRegistratie
+        ├── vervangingsdatum
+    ├── duur
+        ├── beoogde omloop boom (regulier)
+        ├── beoogde omloop boom (snelgroeiend)
+        ├── branduren
+        ├── retentiewaarde
+        ├── technische levensduur
+    ├── frequentie
+        ├── controlefrequentie
+        ├── controlefrequentie veiligheid
+        ├── frequentie baggeren
+        ├── frequentie kroosvissen
+        ├── frequentie uitspuiten
+        ├── frequentie veegboot
+        ├── ledigingsfrequentie
+        ├── meetfrequentie
+        ├── onderhoudsfrequentie
+        ├── reinigingsfrequentie
+    ├── jaartal
+        ├── aanlegjaar
+        ├── bouwjaar
+        ├── gepland vervangingsjaar
+        ├── jaar herinrichting
+        ├── jaar renovatie
+        ├── jaar reparatie
+        ├── kiemjaar (boom)
+        ├── laatste baggerjaar
+        ├── laatste peiljaar
+        ├── productiejaar
+        ├── startjaar
+        ├── uitvoeringsjaar
+        ├── verwacht baggerjaar
+├── thermodynamische eigenschap
+    ├── elektrische spanning
+        ├── voltage
+    ├── elektrische stroom
+        ├── stroomsterkte
+├── typologische eigenschap
+    ├── aansluitingsrol
+    ├── aard
+    ├── boomkroontype
+    ├── boomtype
+    ├── bordcode
+    ├── constructielaagsoort
+    ├── constructietype
+    ├── dwars- of lengtemarkering
+    ├── feitelijk gebruik
+    ├── feitelijk gebruik gedetailleerd
+    ├── in-of-opbouw
+    ├── kastinrichting
+    ├── kunstmatig
+    ├── lichtafschermingskap
+    ├── markeringspatroon
+    ├── natuurbos
+    ├── optieksoort
+    ├── specifiek beheertype
+    ├── type afscherming
+    ├── type afsluiting
+    ├── type afval
+    ├── type afwerking
+    ├── type bediening
+    ├── type beplanting
+    ├── type besturing
+    ├── type bevestiging
+    ├── type bewerking
+    ├── type bovenkant kademuur
+    ├── type brandbescherming
+    ├── type collectie
+    ├── type communicatie
+    ├── type conservering
+    ├── type constructie
+    ├── type document
+    ├── type funderingsconstructie
+    ├── type geothermie
+    ├── type hoofdschakelaar
+    ├── type laadinfrastructuur
+    ├── type laadpunt
+    ├── type leiding
+    ├── type lining
+    ├── type magneetschakelaar
+    ├── type monument
+    ├── type monument gedetailleerd
+    ├── type overspanningsbeveiliging
+    ├── type reparatie
+    ├── type rijstrook
+    ├── type route
+    ├── type schakeling
+    ├── type schakelsysteem
+    ├── type slot
+    ├── type spoor
+    ├── type sport
+    ├── type toegang
+    ├── type uitvoering
+    ├── type vaarwater
+    ├── type verankering
+    ├── type verf
+    ├── type vervuiling
+    ├── type waaier
+    ├── type wand
+    ├── type waterbodem
+    ├── type watergang
+    ├── type waterkerende constructie
+    ├── type zekering
+    ├── verbindingstype
+    ├── verschijningsvorm
+    ├── verwachte type reiniging
+    ├── waterbufferend
+├── wiskundige eigenschap
+    ├── aantal
+        ├── aantal connectoren
+        ├── aantal deklagen
+        ├── aantal fases
+        ├── aantal i.e. bedrijven
+        ├── aantal i.e. recreatie
+        ├── aantal ingangen
+        ├── aantal inkomend
+        ├── aantal kanalen
+        ├── aantal laadpalen
+        ├── aantal lagen gording
+        ├── aantal leds
+        ├── aantal obstakels
+        ├── aantal onderlagen
+        ├── aantal overspanningen
+        ├── aantal palen
+        ├── aantal panelen
+        ├── aantal parkeerplaatsen
+        ├── aantal plaatsen
+        ├── aantal planken
+        ├── aantal pompen
+        ├── aantal rijstroken
+        ├── aantal sloten
+        ├── aantal tunnelbuizen
+        ├── aantal tussenlagen
+        ├── aantal uitgaand
+        ├── aantal uitgangen
+        ├── aantal universes
+        ├── aantal woningen
+        ├── aantal zijden
+        ├── maximale overspanning
+    ├── factor
+        ├── afvoercoÃ«fficiÃ«nt
+        ├── contractiecoÃ«fficiÃ«nt doorlaatprofiel
+    ├── interval
+        ├── beoogde inhoudsklasse
+        ├── bewerkingspercentageklasse bodem
+        ├── bewerkingspercentageklasse talud
+        ├── boomhoogteklasse eindbeeld
+        ├── boomkroondiameterklasse eindbeeld
+        ├── breedteklasse haag
+        ├── breedteklasse watergang
+        ├── frequentiebanden
+        ├── gewenst sluitingspercentage
+        ├── hoogteklasse haag
+        ├── hoogteklasse hek
+        ├── inhoudsklasse
+        ├── leeftijd doelgroep
+        ├── lengteklasse droog talud
+        ├── lengteklasse kunstgras
+        ├── letterhoogteklasse ondertekst
+        ├── letterhoogteklasse opschrift
+        ├── spanningsbereik primair
+        ├── spanningsbereik secundair
+        ├── stroombereik primair
+        ├── stroombereik secundair
+    ├── meetwaarde
+        ├── beginstand draaiurenteller
+        ├── gemeten bodempeil
+        ├── laatste stand draaiurenteller
+        ├── laatste stand kwh-teller
+        ├── maximaal bodempeil
+        ├── maximum streefpeil
+        ├── minimum streefpeil
+        ├── ontwerp bodempeil
+        ├── peilsprong
+        ├── slagwaterpeil
+        ├── streefpeil
+        ├── waterpeil winter
+        ├── waterpeil zomer
+    ├── percentage-attribuut
+        ├── bewerkingspercentage
+        ├── percentage
+        ├── percentage loofbos
+        ├── pr-percentage

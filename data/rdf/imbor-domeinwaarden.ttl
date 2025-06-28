@@ -420,13 +420,8 @@ imbor-domeinwaarde:03dabb5f-8c0d-4fd9-a360-b7aef1bcbef8 a imbor:e7b2e655-0dce-4e
 
 imbor-domeinwaarde:03dba3fc-81f8-4fe0-978e-1804003e9c8b a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
   rdfs:seeAlso imbor-term:76385974-f8f0-48e2-9c62-8e3952897033;
+  skos:broader imbor-domeinwaarde:1b53d81a-4a13-4d4c-a349-8f2efdd207e6;
   skos:prefLabel "Gestapelde woning"@nl.
-
-imbor-domeinwaarde:03ebddd1-a0b3-459a-b864-91a6df2365bf a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:78eb59f6-84e6-477d-988b-37fad17b76e6;
-  skos:broader imbor-domeinwaarde:7ac7a2c0-7444-4175-8204-01600dcd336e;
-  skos:definition "Transformeren van elektrische wisselspanning van hoge naar lage spanning en andersom."@nl;
-  skos:prefLabel "Transformatorstation"@nl.
 
 imbor-domeinwaarde:03ed6bff-e77b-4e96-a589-5fb437d271ff a imbor:530c20c3-34a7-4d37-af27-1be3da0bb9dd;
   rdfs:seeAlso imbor-term:dfbccc0d-5c73-44f7-bf98-e55665329fe7;
@@ -715,7 +710,7 @@ imbor-domeinwaarde:05d86d4a-48dc-4116-bf90-67209c65981e a imbor:4aaed0cd-10b2-4f
 imbor-domeinwaarde:05d917d4-4cf4-4bda-a078-53475effa300 a imbor:756c2d28-22a1-4f0a-88cd-844bbda162ea, imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:a697edae-972e-456d-b696-0c2e85da23c4;
   skos:definition "Een speelondergrond is de ondergrond waarop een speeltoestel staat of hiermee duurzaam verbonden is. Het kan een verharding zijn, een groenvoorziening of een waterpartij. Vaak is de speelondergrond valdempend, wat betekent dat het schokken van vallen vermindert."@nl;
-  skos:prefLabel "Speelondergrond"@nl.
+  skos:prefLabel "Speelondergrond (geofunctie)"@nl.
 
 imbor-domeinwaarde:05e0df63-78fd-435a-b03a-e2046b7b9bda a imbor:71fc94e7-f924-46e7-b5bc-b4dd663eb0c1;
   rdfs:seeAlso imbor-term:1e2ea8b9-6609-4011-ad48-c4fb0fb7cd10;
@@ -754,7 +749,7 @@ imbor-domeinwaarde:065d3bc0-c85e-4595-8492-72c5504691ae a imbor:2855a4d1-778b-4b
 imbor-domeinwaarde:066fdb45-d6ae-4cac-bc04-d7a2001c1a43 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:a6900575-b517-4051-9fac-eb34027944d0;
   skos:definition "Wegdeel bestemd voor het parkeren van motorvoertuigen. (bron: IMGEO 1.0)"@nl;
-  skos:prefLabel "Parkeervlak"@nl.
+  skos:prefLabel "Parkeervlak (geofunctie)"@nl.
 
 imbor-domeinwaarde:06721616-21a2-4014-b000-bd7d443777f1 a imbor:c39d6cd5-9627-4c8d-8b63-4ccf2de8b372;
   rdfs:seeAlso imbor-term:8b9efc2a-b420-4f03-b785-57be8492a87c;
@@ -966,7 +961,7 @@ imbor-domeinwaarde:08202670-17e7-43b4-aad4-a1b8d26197f7 a imbor:6c8dd5bf-2c86-49
 imbor-domeinwaarde:0826f06a-4744-4e2a-b131-cbd4a9c312a3 a imbor:756c2d28-22a1-4f0a-88cd-844bbda162ea, imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:13b3ec1b-f2b6-403a-85d1-0db133f56046;
   skos:definition "Een sportondergrond is de fysieke oppervlakte waarop een sport wordt beoefend. Het kan een grasmat, een atletiekbaan, een zaalvloer, of een andere specifieke ondergrond zijn die is ontworpen voor een bepaalde sport of activiteiten."@nl;
-  skos:prefLabel "Sportondergrond"@nl.
+  skos:prefLabel "Sportondergrond (geofunctie)"@nl.
 
 imbor-domeinwaarde:0828dab3-2ae3-4e41-a5f3-e0e8c49f560b a imbor:10767178-80d1-4da8-ace3-9646ebb3914d;
   rdfs:seeAlso imbor-term:073e6419-dd32-4eef-a6a7-b492cad23296;
@@ -1160,7 +1155,7 @@ imbor-domeinwaarde:09fdb127-57d5-4bcb-84ee-5b67202a23b3 a imbor:4feaf600-5c32-46
   rdfs:seeAlso imbor-term:38d0fab4-3b2f-4336-a38e-af258b9a5e2e;
   skos:broader imbor-domeinwaarde:48e98275-74f5-48b0-8e22-0f45ae5d7b36;
   skos:definition "Ruigte van Grote brandnetel (Grote brandnetel bedekt >50%)."@nl;
-  skos:prefLabel "RBn"@nl.
+  skos:prefLabel "RB-n"@nl.
 
 imbor-domeinwaarde:0a231b3a-a17f-4465-b50e-9a2750b30d42 a imbor:6f14930a-838a-49d2-b050-995621f96889;
   rdfs:seeAlso imbor-term:853cdbba-ae10-4dcd-a67e-8cc8f10e4b73;
@@ -1186,7 +1181,7 @@ imbor-domeinwaarde:0a32711a-57b2-442a-b46e-d50517608ba7 a imbor:2855a4d1-778b-4b
 imbor-domeinwaarde:0a3be0e3-83ff-4697-b24d-e33ca5893399 a imbor:7d3ccf39-96c6-4bf4-af2a-b4a7e56b6a77;
   rdfs:seeAlso imbor-term:5cd8f201-c0a0-4777-856d-5e11059c3722;
   skos:definition "Type gedetailleerd van elementenverharding, betonstraatstenen; betonnen stenen met een kleine voegruimte zodat die ingestrooid of opgevuld kunnen worden met voegmiddelen zoals zand om te voorkomen dat onkruid tussen de stenen door opkomt."@nl;
-  skos:prefLabel "Voegsteen"@nl.
+  skos:prefLabel "Voegstenen"@nl.
 
 imbor-domeinwaarde:0a5bf8fc-cd1f-4c31-ac5e-41196b9bc180 a imbor:1b9a9921-2020-4327-897c-c91bfad64fe2;
   rdfs:seeAlso imbor-term:d7d0ba2e-0cae-4053-a4e7-f72c847b25fb;
@@ -1469,12 +1464,6 @@ imbor-domeinwaarde:0cb3e68c-c221-48a5-8ee2-0432311972cb a imbor:5e1f4842-2730-46
   skos:definition "Met geschikt, zeer glad afgewerkt gereedschap het metaaloppervlak vlakdrukken en polijsten."@nl;
   skos:prefLabel "Drukpolijsten (trommelen)"@nl.
 
-imbor-domeinwaarde:0cbd6b1f-4621-40e5-9c06-11b498a08981 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:a3c0163e-3da7-4c2d-8ebd-6c1d610c80ee;
-  skos:broader imbor-domeinwaarde:f2caa12f-e3a9-412d-9fef-267b064924f7;
-  skos:definition "Activiteiten gericht op het in grote partijen inkopen van goederen en deze als tussenhandelaar doorverkopen aan detailhandel of andere professionele grootverbruikers."@nl;
-  skos:prefLabel "Grossier"@nl.
-
 imbor-domeinwaarde:0cc62db8-f785-4dc9-92ee-f109069850b2 a imbor:2855a4d1-778b-4bae-bafc-38c66dcdaae7;
   rdfs:seeAlso imbor-term:37c755c3-97ee-4a44-a34a-c1bb5d9afb3b;
   skos:prefLabel "BW211rb"@nl.
@@ -1704,7 +1693,7 @@ imbor-domeinwaarde:0f28666e-0969-46cc-bf81-9e8d8933e112 a imbor:e71ccc0f-bd70-48
 imbor-domeinwaarde:0f3351f0-0a71-42b5-89eb-95c860066581 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:e762f501-a937-4301-b85d-4c8e2ccc08da;
   skos:definition "Een verbindingsweg bij een autoweg, is (in principe) een eenrichtingsweg, gelegen binnen een knooppunt of aansluiting, die onderdeel is van de wijze waarop de ongelijkvloersheid is gerealiseerd. (bron: wegenwiki.nl)"@nl;
-  skos:prefLabel "Verbindingsweg autoweg"@nl.
+  skos:prefLabel "Verbindingsweg autoweg (geofunctie)"@nl.
 
 imbor-domeinwaarde:0f6546e4-29d9-4567-89e7-c21295219213 a imbor:530c20c3-34a7-4d37-af27-1be3da0bb9dd;
   rdfs:seeAlso imbor-term:02368807-8fcc-4936-8ccc-44609c9f03c0;
@@ -1890,12 +1879,6 @@ imbor-domeinwaarde:110d1569-df3f-426b-ba77-2b8badfb9b9b a imbor:b94246d0-c583-49
   skos:definition "Let op: tegemoetkomend verkeer, rechtdoor gaande (brom)fietsers in 2 richtingen en voetgangers op zebrapad."@nl;
   skos:prefLabel "VR10-10"@nl.
 
-imbor-domeinwaarde:1127017b-6fc7-425d-ba10-5a7041867a59 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:8f864a35-0cd0-469e-8a06-4a9e234e4bee;
-  skos:broader imbor-domeinwaarde:58708deb-b0b8-4b79-a630-abca5087cbbb;
-  skos:definition "Bedrijfsmatige activiteiten gericht op het houden van vee ten behoeve van het verkrijgen van melk, eieren of vlees."@nl;
-  skos:prefLabel "Veehouderij"@nl.
-
 imbor-domeinwaarde:113f98d2-9357-47ad-881f-f19bcc8c5780 a imbor:d037985e-ba7f-4146-ac41-92ab1a79438c;
   rdfs:seeAlso imbor-term:797e8ce2-67ad-422d-b4a5-fe43e4daa497;
   skos:definition "Belastingklasse volgens DIN 19580 / EN 1433, object geschikt voor belasting van 125 kN door voetgangers en parkeerzones."@nl;
@@ -1998,11 +1981,6 @@ imbor-domeinwaarde:129c6eb6-fecf-4d89-96ca-bcb704027937 a imbor:2855a4d1-778b-4b
   skos:definition "Fietsers oversteken, pijl naar boven."@nl;
   skos:prefLabel "BW07b"@nl.
 
-imbor-domeinwaarde:12b094e1-dbb9-4e18-8721-ea7534b5c06a a imbor:b34dad4e-f948-43bc-ba7c-bd6a22c23da7;
-  rdfs:seeAlso imbor-term:a0a013ba-2c1a-46c0-b756-2def31aa38e6;
-  skos:definition "Bovengrondse bak voor de inzameling van afvalstoffen, beschikkend over een inwerpklep en (mogelijk) over autorisatiemogelijkheden."@nl;
-  skos:prefLabel "Cocon"@nl.
-
 imbor-domeinwaarde:12bec329-e4e2-41c9-94a2-b5f5f5936cd6 a imbor:5007b34b-3266-4a2c-8283-0d48293eb445;
   rdfs:seeAlso imbor-term:62515b48-6b00-41ab-a4a3-a9269aeed23b;
   skos:definition "Een waterloop langs of evenwijdig aan een de rails van de spoorbaan met als functie het opvangen of afvoeren van polderwater."@nl;
@@ -2045,12 +2023,6 @@ imbor-domeinwaarde:130fd286-e3f3-4219-a826-9945ffb60541 a imbor:bff72530-1d86-44
   rdfs:seeAlso imbor-term:c4d0f2f4-a311-48b0-b423-d870f0dc4254;
   skos:definition "Weerstand tegen schokken tot 1J."@nl;
   skos:prefLabel "IK06"@nl.
-
-imbor-domeinwaarde:1321cdcb-ea2a-4070-8125-c4612a2aeccf a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:f2cb2040-37a4-4616-a381-02dcf6d10399;
-  skos:broader imbor-domeinwaarde:45496a13-cba5-47cf-9822-17de9227af5c;
-  skos:definition "Dienstverlening in de vorm van mechanische reiniging van de buitenzijde van voertuigen."@nl;
-  skos:prefLabel "Wasstraat"@nl.
 
 imbor-domeinwaarde:1328ffa4-24b1-454a-9848-2fa055780ebb a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:9b6e8a9c-265f-45a2-8a09-f7d47c4347b5;
@@ -2421,7 +2393,7 @@ imbor-domeinwaarde:16b34cd7-0ec8-4a61-a5b6-b36ec021db89 a imbor:e29de60f-1400-41
 imbor-domeinwaarde:16b3888b-c11b-47bb-9384-5bc24a44c7bf a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:8a4c1c1f-4382-454e-bd30-2d47a73a1ee8;
   skos:definition "Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer en met gescheiden rijbanen en ongelijkvloerse kruisingen. (bron: BGT)"@nl;
-  skos:prefLabel "Rijbaan autosnelweg"@nl.
+  skos:prefLabel "Rijbaan autosnelweg (geofunctie)"@nl.
 
 imbor-domeinwaarde:16c93ddc-d418-4b8b-b856-332971e557c2 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:efe72d57-449c-4752-8c4c-5fdd36b1d0a3;
@@ -2635,7 +2607,7 @@ imbor-domeinwaarde:18ab5a0e-4d33-443d-8ede-cc9fab09bc2f a imbor:73faae06-a5a0-48
 imbor-domeinwaarde:18b580e9-6038-4e27-b73a-946ca492aaa4 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:8957d912-e07f-4aa5-9ea9-036ae87d879f;
   skos:definition "Een calamiteitendoorsteek of CADO (van een autosnelweg) heeft tot doel het verkeer op een rijbaan via een doorsteek van de weg te kunnen geleiden in geval van een calamiteit of werkzaamheden op de rijbaan. Een tweede doel is het faciliteren van toegang tot rijbanen voor hulpdi"@nl;
-  skos:prefLabel "Calamiteitendoorsteek autosnelweg"@nl.
+  skos:prefLabel "Calamiteitendoorsteek autosnelweg (geofunctie)"@nl.
 
 imbor-domeinwaarde:18c1d7cb-d794-4d02-a953-eb3948c94b5a a imbor:2855a4d1-778b-4bae-bafc-38c66dcdaae7;
   rdfs:seeAlso imbor-term:33fdde27-e39e-4816-8b1a-5a52ced88cca;
@@ -2958,12 +2930,6 @@ imbor-domeinwaarde:1b5ac7f8-fc79-4a19-950e-701c8d446a6a a imbor:25c00047-d34f-4a
   rdfs:seeAlso imbor-term:4be9e646-813f-496c-823f-4f115439dfba;
   skos:definition "Protocol"@nl;
   skos:prefLabel "0-20mA"@nl.
-
-imbor-domeinwaarde:1b5d261a-1f6b-421c-81cb-2b3b6fffce0b a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:c3b60d5e-add0-42af-8441-1a6787fd5b14;
-  skos:broader imbor-domeinwaarde:7ac7a2c0-7444-4175-8204-01600dcd336e;
-  skos:definition "Waarnemingen met behulp van radar om vliegtuigen en scheepsbewegingen te observeren."@nl;
-  skos:prefLabel "Radarpost"@nl.
 
 imbor-domeinwaarde:1b5f77ef-b7dd-457e-a58a-e36ffc71f3bc a imbor:73faae06-a5a0-4892-9572-98124b629dd9;
   rdfs:seeAlso imbor-term:713f2161-a00f-40c2-b306-7249d0a3cdbc;
@@ -3320,7 +3286,7 @@ imbor-domeinwaarde:1e741eaa-ec6c-4feb-a4aa-bcdd4376c81c a imbor:e29de60f-1400-41
 imbor-domeinwaarde:1e77786a-b01e-4cc0-abaa-5404c718b331 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:366a435b-eb8d-4339-ba38-ca021e00083c;
   skos:definition "Een calamiteitendoorsteek of CADO (van een autoweg) heeft tot doel het verkeer op een rijbaan via een doorsteek van de weg te kunnen geleiden in geval van een calamiteit of werkzaamheden op de rijbaan. Een tweede doel is het faciliteren van toegang tot rijbanen voor hulpdi"@nl;
-  skos:prefLabel "Calamiteitendoorsteek autoweg"@nl.
+  skos:prefLabel "Calamiteitendoorsteek autoweg (geofunctie)"@nl.
 
 imbor-domeinwaarde:1e9159af-2e6a-4e4c-a893-d9b372aaa5c7 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:3405f4bd-76c0-4643-bdcd-9f0cf19b7df5;
@@ -3365,6 +3331,10 @@ imbor-domeinwaarde:1eecf890-7ad4-4bfc-92fd-1fa91bece035 a imbor:8f883dd1-727b-4d
   rdfs:seeAlso imbor-term:60a04cff-77bf-4484-adff-3da2121f7b05;
   skos:definition "Een bord dat informatie verschaft over de aard van een recreatief of sportief parcours."@nl;
   skos:prefLabel "Informatiebord parcours"@nl.
+
+imbor-domeinwaarde:1eef583e-bf50-47e1-88ba-8343b20a771c a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
+  rdfs:seeAlso imbor-term:5777c95a-2d1c-46db-a1ea-7d07854f1609;
+  skos:prefLabel "Woonerf (geofunctie)"@nl.
 
 imbor-domeinwaarde:1ef03a9e-ecff-4932-a99c-0884e4366a73 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:b60b63ab-363a-4ae7-ac35-ec2125203318;
@@ -3428,11 +3398,6 @@ imbor-domeinwaarde:1f9b661e-5b89-4160-af96-486e927f8a7c a imbor:f48b75d0-2ec1-4a
   rdfs:seeAlso imbor-term:94c5f336-048a-42e3-9447-81779acd5b2c;
   skos:definition "Ranunculus polyanthemos subsp. nemorosus, de kelkbladen zijn groen, eirond, toegespitst, de kroonbladen goudgeel, omgekeerd eirond, aan de top iets naar binnen gebogen, bijna schijnbaar hartvormig, doch met een kort, omgeslagen spitsje."@nl;
   skos:prefLabel "Bosboterbloem"@nl.
-
-imbor-domeinwaarde:1f9eac3d-bdbc-4a68-8c01-8666cc8ab0a1 a imbor:0ab7bc3c-da96-41c1-8c0b-dcc6c2d06cb2;
-  rdfs:seeAlso imbor-term:16523f78-5c2a-40b8-b757-1a669df47b73;
-  skos:definition "Onbegroeide zandige kustvlakte op de overgang van zee met land en welke onder invloed staat van het zeewater en de wind."@nl;
-  skos:prefLabel "Strand"@nl.
 
 imbor-domeinwaarde:1f9fdbd1-cbb2-4337-ba62-8e9969939d7f a imbor:4feaf600-5c32-46ec-977c-1ca0daf2dd85;
   rdfs:seeAlso imbor-term:cb381e68-62f9-46ce-9274-55c81f54f66a;
@@ -3508,12 +3473,6 @@ imbor-domeinwaarde:20ef5299-084d-4f61-b6bb-c628d05cb907 a imbor:8524b785-ab0b-43
   rdfs:seeAlso imbor-term:3483135c-4ca4-4679-814f-6d967afeb2a7;
   skos:prefLabel "Hoofdprocesleidng"@nl.
 
-imbor-domeinwaarde:20f140a8-13d6-4f54-833e-da1639c8bd70 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:992dbb28-ec06-4e06-afde-5c8152147871;
-  skos:broader imbor-domeinwaarde:7ac7a2c0-7444-4175-8204-01600dcd336e;
-  skos:definition "Activiteiten gericht op het binnen een rioolstelsel naar een hoger peil brengen of over langere afstand transporteren van afvalwater."@nl;
-  skos:prefLabel "Rioolgemaalgebouw"@nl.
-
 imbor-domeinwaarde:20f23612-442f-4277-aed0-047ff87f83e5 a imbor:d9fe3615-5b28-4a25-b2f8-5e6e5f49f968;
   rdfs:seeAlso imbor-term:9c40e895-83f9-4d96-a844-a653dcc78b54;
   skos:broader imbor-domeinwaarde:20794b52-031a-4552-aea1-cca39770c696;
@@ -3556,12 +3515,6 @@ imbor-domeinwaarde:213f4913-9bd8-4e94-94db-b74723b83270 a imbor:bfe6e719-b83c-47
   skos:definition "Eengezinswoning waarvan het hoofdgebouw is verbonden met het hoofdgebouw van één andere gelijksoortige en gelijkvormige woning (niet zijnde een tussenwoning)."@nl;
   skos:prefLabel "2-onder-1-kapwoning"@nl.
 
-imbor-domeinwaarde:214c2ce5-7c85-43ff-b6d9-f653ad37e52f a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:039e9369-0e03-40d9-a4ea-3e634b359c4d;
-  skos:broader imbor-domeinwaarde:7ac7a2c0-7444-4175-8204-01600dcd336e;
-  skos:definition "Waarnemingen in de ruimte."@nl;
-  skos:prefLabel "Observatorium"@nl.
-
 imbor-domeinwaarde:2176f245-136a-4a93-b2bc-f06fa065987f a imbor:96855297-c02b-473d-9307-4a2f23dc60a5;
   rdfs:seeAlso imbor-term:11780d14-bbb6-4a6c-84a8-dad126724719;
   skos:definition "Zeiljacht."@nl;
@@ -3572,12 +3525,6 @@ imbor-domeinwaarde:218500fe-babb-46f7-9e10-e225400207da a imbor:b94246d0-c583-49
   skos:broader imbor-domeinwaarde:feb5d58b-acf4-48fe-940a-4717c9aba1e7;
   skos:definition "Geleidebaak rechts."@nl;
   skos:prefLabel "BB35r"@nl.
-
-imbor-domeinwaarde:21a084ba-0938-40fd-8969-c8cd1291c836 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:21197578-a230-463a-9e6e-360f280cf8ac;
-  skos:broader imbor-domeinwaarde:45496a13-cba5-47cf-9822-17de9227af5c;
-  skos:definition "Verbranding van lichamen van overledenen in een speciale oven."@nl;
-  skos:prefLabel "Crematorium"@nl.
 
 imbor-domeinwaarde:21a36d50-c69b-4591-b388-4282ac478708 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:801d8b76-b118-42cb-83bc-1a79c1aa14e6;
@@ -3619,7 +3566,7 @@ imbor-domeinwaarde:21e289c4-af9c-4137-b881-b3e0c76a0ee9 a imbor:b94246d0-c583-49
 imbor-domeinwaarde:21e4d7bc-5fe3-4f10-89ea-b3cd4ff811c1 a imbor:7d3ccf39-96c6-4bf4-af2a-b4a7e56b6a77;
   rdfs:seeAlso imbor-term:05a59306-1581-43b8-a7f4-5d07b95f1b8b;
   skos:definition "Type van elementenverharding, verharding bestaande uit elementen van een steensoort die in de natuur wordt aangetroffen."@nl;
-  skos:prefLabel "Natuursteen"@nl.
+  skos:prefLabel "Natuurstenen"@nl.
 
 imbor-domeinwaarde:21e98d8a-1b15-4d8a-9b72-fe55ed5a8aa4 a imbor:410ad96a-fa8d-4148-8e4f-c90a259db5a7;
   rdfs:seeAlso imbor-term:67747e7e-994e-4073-8809-5549ee7ea219;
@@ -3926,12 +3873,6 @@ imbor-domeinwaarde:2422fdc5-99b3-4b5d-a3a4-1e08e6b6e36f a imbor:2855a4d1-778b-4b
   skos:definition "Wijkafzetting met nummer vierde variant."@nl;
   skos:prefLabel "WU4"@nl.
 
-imbor-domeinwaarde:243b99e5-71e5-416b-9b98-aac1831a3bd0 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:734e876f-9bc1-4fa4-a90b-8ce7b302fa53;
-  skos:broader imbor-domeinwaarde:9b728494-11a0-4904-b952-73d681fa8e5b;
-  skos:definition "Dienstverlening gericht op het met een commercieel oogmerk aanbieden van overnachtingen."@nl;
-  skos:prefLabel "Hotel"@nl.
-
 imbor-domeinwaarde:245660ae-f0dc-48ca-8b95-8eb39f1de359 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:403fde7a-ba7b-41cd-89bd-faac07eb696b;
   skos:broader imbor-domeinwaarde:c6f5fa03-204a-4f21-83ee-69c3f1b48897;
@@ -4024,12 +3965,12 @@ imbor-domeinwaarde:25138f3c-23d0-4765-af22-2ff70a0ab9e1 a imbor:7d3ccf39-96c6-4b
   rdfs:seeAlso imbor-term:eb7a1be0-f14b-4ce2-837c-862dec331dba;
   skos:broader imbor-domeinwaarde:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Type gedetailleerd van elementenverharding, tegels. Extra sterke betontegel met grindafwerking."@nl;
-  skos:prefLabel "Grindtegel"@nl.
+  skos:prefLabel "Grindtegels"@nl.
 
 imbor-domeinwaarde:2519185c-3848-41fe-8bfe-4dd1ef3398d0 a imbor:433fdc2a-b781-471c-9150-5f72aea6da30, imbor:fcdf1891-f5bf-4d1b-acb4-55dc0ea5aaa7;
   rdfs:seeAlso imbor-term:db244ba9-69a0-4cf5-99e1-d29713dae32e;
   skos:definition "Als afval opgegeven kledingstukken en schoeisel."@nl;
-  skos:prefLabel "Textiel"@nl.
+  skos:prefLabel "Textielafval"@nl.
 
 imbor-domeinwaarde:251a53b4-39e6-49a4-b8f7-9245e99071f6 a imbor:8524b785-ab0b-430d-8b87-eb55e967f6a4;
   rdfs:seeAlso imbor-term:d8eb93be-798c-48bb-845a-a7e7dce5c420;
@@ -4360,7 +4301,7 @@ imbor-domeinwaarde:289c7d37-7403-42ca-949b-adcad0e2be01 a imbor:9116425e-f7d5-43
 imbor-domeinwaarde:28bd4f14-98cd-4943-9970-12ce6c92fb97 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:1858aecb-0515-44e9-a808-6fff3a9f82fe;
   skos:definition "Wegdeel dat onderdeel is van een weg die een verbinding vormt tussen bewoonde oorden of tussen wijken binnen een dorp of stad waarbij er een, meestal fysieke, scheiding is tussen langzaam verkeer en snelverkeer. (bron: BGT+CROW)"@nl;
-  skos:prefLabel "Rijbaan regionale weg"@nl.
+  skos:prefLabel "Rijbaan regionale weg (geofunctie)"@nl.
 
 imbor-domeinwaarde:28d41232-92ba-4f9c-9a53-2db25fb1f872 a imbor:10676fe4-ec24-47b0-b84c-ddd0486f6d15;
   rdfs:seeAlso imbor-term:43fed93c-866e-4fe8-a6ef-03f1b3a778d9;
@@ -4697,7 +4638,7 @@ imbor-domeinwaarde:2b3bc5df-dfc1-428d-ae19-a65ae1485c19 a imbor:4feaf600-5c32-46
   rdfs:seeAlso imbor-term:548ac978-8c65-4abf-897c-6e6ccf9bcb88;
   skos:broader imbor-domeinwaarde:48e98275-74f5-48b0-8e22-0f45ae5d7b36;
   skos:definition "Ruigte van hoge grassen (Glanshaver, Kropaar, Kweek, Rietzwenkgras, Rietgras bedekken >50%)."@nl;
-  skos:prefLabel "RHg"@nl.
+  skos:prefLabel "RH-g"@nl.
 
 imbor-domeinwaarde:2b55ef5e-dfad-4ec5-be16-a2d37d658358 a imbor:e0f29e17-564d-4f30-8aeb-bf0607d9782b;
   rdfs:seeAlso imbor-term:33fe8bac-76cd-4020-ba3f-d676b86c9075;
@@ -5082,7 +5023,7 @@ imbor-domeinwaarde:2ed62472-5cbf-4a81-a885-60b68a265bf0 a imbor:b94246d0-c583-49
 imbor-domeinwaarde:2ee9bafa-a127-459e-8b77-a29ac7b1053d a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:673dbc6a-140c-4826-a48f-36eace342a99;
   skos:definition "Gebaand gedeelte voor het verkeer over rails. (bron: NEN 3610)"@nl;
-  skos:prefLabel "Spoorbaan"@nl.
+  skos:prefLabel "Spoorbaan (geofunctie)"@nl.
 
 imbor-domeinwaarde:2eebf975-4221-4ce5-b0b5-f96eba38f786 a imbor:92886557-a93a-4eff-8f0c-a5cc47fee733;
   rdfs:seeAlso imbor-term:e74283a8-9fec-4614-b79d-59e4d3ce54ef;
@@ -5102,7 +5043,7 @@ imbor-domeinwaarde:2f064551-e8a3-4869-a556-638f711bb865 a imbor:bca0c890-e1df-43
 imbor-domeinwaarde:2f25a2a3-a196-47d5-8240-2ffa1a35fef5 a imbor:73faae06-a5a0-4892-9572-98124b629dd9;
   rdfs:seeAlso imbor-term:8a79442f-27ee-4a25-908b-f4877089bf74;
   skos:definition "Het object heeft als onderdeel een constructie van treden, waarop men een hoger of lager gelegen plaats kan bereiken."@nl;
-  skos:prefLabel "Trap"@nl.
+  skos:prefLabel "Trap speeltoestel"@nl.
 
 imbor-domeinwaarde:2f48f0bc-a879-4eb6-b7e1-4ac0ffdb98df a imbor:4feaf600-5c32-46ec-977c-1ca0daf2dd85;
   rdfs:seeAlso imbor-term:c74ed81b-cb73-4239-b17b-e284a0c83228;
@@ -5667,7 +5608,7 @@ imbor-domeinwaarde:33d2b9e6-b14f-4224-a0a5-d73a19265a77 a imbor:4feaf600-5c32-46
   rdfs:seeAlso imbor-term:018fbfdf-2a13-49f1-9201-23d46f86caad;
   skos:broader imbor-domeinwaarde:48e98275-74f5-48b0-8e22-0f45ae5d7b36;
   skos:definition "Ruigte van Akkerdistel (Akkerdistel bedekt >50%)."@nl;
-  skos:prefLabel "RAk"@nl.
+  skos:prefLabel "RA-k"@nl.
 
 imbor-domeinwaarde:33e0bacd-7178-4981-8628-077d737134d2 a imbor:61960271-8956-456a-bcca-7736ff16deef;
   rdfs:seeAlso imbor-term:972135cc-2b51-43fa-81ed-a880c6748961;
@@ -5728,7 +5669,7 @@ imbor-domeinwaarde:34570045-ef42-4b4f-815e-cf271f995726 a imbor:7d3ccf39-96c6-4b
   rdfs:seeAlso imbor-term:c8157c9b-fa3a-41ed-9e5e-e8e1fa9bd6b8;
   skos:broader imbor-domeinwaarde:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Type gedetailleerd van elementenverharding, tegels. Speciale stenen en tegels helpen personen met een visuele beperking. Het bovenvlak is voorzien van noppen, ribbels of van een zacht materiaal (bijv. rubber)."@nl;
-  skos:prefLabel "Blindengeleidetegel"@nl.
+  skos:prefLabel "Blindengeleidetegels"@nl.
 
 imbor-domeinwaarde:34653c1b-f167-4030-9557-f245f77943aa a imbor:18ccb4b8-e43d-471d-b802-353bdc3713d2;
   rdfs:seeAlso imbor-term:dbd38c4f-cf6a-4d89-b5bb-11447c81000d;
@@ -6095,7 +6036,7 @@ imbor-domeinwaarde:37e9a7aa-0179-40ae-84e2-6141d865370d a imbor:c35c6dbf-b211-43
 imbor-domeinwaarde:37f31ca4-c2ef-48b5-9a84-62ac6342c17c a imbor:7d3ccf39-96c6-4bf4-af2a-b4a7e56b6a77;
   rdfs:seeAlso imbor-term:ff163b12-551e-4ce1-b95c-de6630d80ee8;
   skos:definition "Waterdoorlatende steen"@nl;
-  skos:prefLabel "Aquaflow steen"@nl.
+  skos:prefLabel "Aquaflow stenen"@nl.
 
 imbor-domeinwaarde:37fb2a7d-f4f9-4db3-9cd5-ddb1d4dab151 a imbor:b44dc579-3b94-42a1-bc1e-ac65a743e7c4;
   rdfs:seeAlso imbor-term:c96fc855-b35c-4b68-9857-22e290cfcf0d;
@@ -6330,12 +6271,6 @@ imbor-domeinwaarde:3a7b3d21-d29c-4b8a-a2dd-fa6a0d92f643 a imbor:b94246d0-c583-49
   skos:definition "Tekst: Ga terug."@nl;
   skos:prefLabel "OB705"@nl.
 
-imbor-domeinwaarde:3a84a439-5987-4df3-a7d0-174426eb76ef a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:f5416543-5f99-481d-a683-37815c5f2627;
-  skos:broader imbor-domeinwaarde:7ac7a2c0-7444-4175-8204-01600dcd336e;
-  skos:definition "Activiteiten gericht op het in stand houden van voorzieningen die benodigd zijn voor het op afstand met behulp van elektronische middelen kunnen communiceren."@nl;
-  skos:prefLabel "Telecommunicatie"@nl.
-
 imbor-domeinwaarde:3a8860ab-72f9-489c-8410-049ad5e64764 a imbor:7b9bb602-f1e8-400d-bcf3-643ec058c090;
   rdfs:seeAlso imbor-term:61acb256-f92a-4609-81fe-8dda3f50e4b6;
   skos:definition "Een te water dobberende platte constructie waar water- en oeverbeplanting in is gegroeid, waardoor de beplanting vast blijft zitten op dezelfde plek."@nl;
@@ -6530,7 +6465,7 @@ imbor-domeinwaarde:3bfbb32e-27b8-4a98-8fb9-1d8fb74648e7 a imbor:52a732f0-574a-4a
 imbor-domeinwaarde:3c08f0f6-03b8-43d0-b650-54a847716b01 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:8b323355-0563-4877-8c0a-5967d46537b5;
   skos:definition "Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer. (bron: BGT)"@nl;
-  skos:prefLabel "Rijbaan autoweg"@nl.
+  skos:prefLabel "Rijbaan autoweg (geofunctie)"@nl.
 
 imbor-domeinwaarde:3c0943f2-1aac-46c7-95b9-0cdbb4a6ce9c a imbor:498522dc-feac-4d7b-8d8b-fa79f00e788c;
   rdfs:seeAlso imbor-term:e424f236-356e-44a9-a149-38e69a4e99af;
@@ -6551,7 +6486,7 @@ imbor-domeinwaarde:3c4532b1-a2c9-4ebb-84d1-ceb52936d7b4 a imbor:7d3ccf39-96c6-4b
   rdfs:seeAlso imbor-term:1191e5c5-4915-4414-83cb-6801e14e3299;
   skos:broader imbor-domeinwaarde:21e4d7bc-5fe3-4f10-89ea-b3cd4ff811c1;
   skos:definition "Type extra gedetailleerd van verhardingsobject, elementenverharding, natuursteen: een vlak bestaande uit (elementen van) een natuur- en sedimentgesteente van kwartskorrels die met elkaar verbonden zijn door een bindmiddel (leem, kalk e.d.)."@nl;
-  skos:prefLabel "Zandsteen"@nl.
+  skos:prefLabel "Zandstenen"@nl.
 
 imbor-domeinwaarde:3c4a3def-085a-469f-90d4-11b472ef1a2d a imbor:d039d253-cecf-4ccc-a91c-bac42c088535;
   rdfs:seeAlso imbor-term:f7d950aa-a6e9-4901-882f-ab4582159a7d;
@@ -6797,7 +6732,7 @@ imbor-domeinwaarde:3e0a15ba-9f33-4051-8d00-5e32a78cb9f2 a imbor:96855297-c02b-47
 imbor-domeinwaarde:3e2726c1-566c-463f-8096-6c18b9d63cda a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:47e0626d-261c-437c-ad45-2729d0a62058;
   skos:definition "Een verbindingsweg bij een autosnelweg, is (in principe) een eenrichtingsweg, gelegen binnen een knooppunt of aansluiting, die onderdeel is van de wijze waarop de ongelijkvloersheid is gerealiseerd. (bron: wegenwiki.nl)"@nl;
-  skos:prefLabel "Verbindingsweg autosnelweg"@nl.
+  skos:prefLabel "Verbindingsweg autosnelweg (geofunctie)"@nl.
 
 imbor-domeinwaarde:3e29f86d-a4cd-472d-a83f-bbb3a2825214 a imbor:498522dc-feac-4d7b-8d8b-fa79f00e788c;
   rdfs:seeAlso imbor-term:12ab21ed-a370-44f7-9a15-50f83601b16f;
@@ -6912,11 +6847,6 @@ imbor-domeinwaarde:3f4c8b71-820d-4fa7-abaf-f2b8eae069e4 a imbor:4feaf600-5c32-46
 imbor-domeinwaarde:3f4e48cc-0b62-47e9-9a4b-e123e5f6e690 a imbor:9b37d889-f5ec-453e-b61f-eb96b52f8482;
   rdfs:seeAlso imbor-term:cef35c56-6887-43f8-b675-5cbb86a1cd2b;
   skos:prefLabel "Vormboom geknot"@nl.
-
-imbor-domeinwaarde:3f5e7a17-f2a0-414d-aa18-ab001b7304c9 a imbor:b34dad4e-f948-43bc-ba7c-bd6a22c23da7;
-  rdfs:seeAlso imbor-term:c3ca29bc-ff8c-4f22-b841-1be3b34b29c4;
-  skos:definition "Bovengrondse bak voor de inzameling van afvalstoffen die bevestigd is op wielen en als zodanig verplaatsbaar is."@nl;
-  skos:prefLabel "Rolcontainer"@nl.
 
 imbor-domeinwaarde:3f7855c3-989d-4e0c-a9e4-6d549619de48 a imbor:d4b0e2a3-48d2-426c-b489-ad7991384c58, imbor:ee61672a-ffb5-42f4-b5b5-f632c5df15b6;
   rdfs:seeAlso imbor-term:25c5e244-80f4-4b5b-997e-84d9e92bbc5e;
@@ -7354,12 +7284,6 @@ imbor-domeinwaarde:4248a1dc-dba0-4944-a4ae-5ba124d9476c a imbor:b94246d0-c583-49
   skos:definition "Een informatiebord dat gericht is op de plaatselijke buurt dat nieuws, berichten over activiteiten en andere informatie gericht aan kinderen toont."@nl;
   skos:prefLabel "L09-11"@nl.
 
-imbor-domeinwaarde:4266a147-144b-4e2b-a2d9-edb8e8c5b4f6 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:e6a1fec6-5cec-4bed-9a59-62b1233d64df;
-  skos:broader imbor-domeinwaarde:81be92ab-fc3d-4d62-86e9-300cebcd45a3;
-  skos:definition "Gebruiksgebied dat bedoeld is voor het in- en uitstappen in metrovoertuigen."@nl;
-  skos:prefLabel "Metrostation"@nl.
-
 imbor-domeinwaarde:426dde5b-b3ad-4926-b866-d07e189aaec3 a imbor:5e1f4842-2730-46fc-a4ef-da4dddb97cac;
   rdfs:seeAlso imbor-term:0a4e0e9f-f6c6-46af-b476-9c84448ad248;
   skos:definition "Transparante of dekkende laag die zowel kan verfraaien als verbeteren en beschermen."@nl;
@@ -7748,12 +7672,6 @@ imbor-domeinwaarde:45c0ccd8-1ee2-465a-b566-4ef48efd14cb a imbor:e17cb56c-bdeb-45
   rdfs:seeAlso imbor-term:c8f76213-fbaa-412f-9ec2-e3699ac7de72;
   skos:definition "Een naad of onderbreking in een betonconstructie waarbij twee verschillende soorten constructie in elkaar overgaan: een bijzondere vorm van de uitzetvoeg die wordt toegepast bij overgangen en aansluiting op bestaande of andere typen verhardingen, materialen en/of kunstwerken. (Bron: Betonlexicon.nl)"@nl;
   skos:prefLabel "Overgangsvoeg"@nl.
-
-imbor-domeinwaarde:45ce2220-ac64-437a-8c6b-41f9dbcb5d2c a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:3f771738-2ba3-4c2e-87db-abfcbf128345;
-  skos:broader imbor-domeinwaarde:81be92ab-fc3d-4d62-86e9-300cebcd45a3;
-  skos:definition "Stallingsplaats voor trams en bussen in de nacht en andere tijdstippen dat ze niet nodig zijn voor het vervoer van reizigers."@nl;
-  skos:prefLabel "Remise"@nl.
 
 imbor-domeinwaarde:45e359b2-99ba-44f0-9aa7-825bebd0b7f4 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:0a9b2f25-cd9d-498d-a82d-37d310654d11;
@@ -8682,7 +8600,7 @@ imbor-domeinwaarde:4e6bbced-a697-4d4f-9bd5-11ad10f144fc a imbor:4feaf600-5c32-46
 imbor-domeinwaarde:4e715ce5-b664-46e2-8cb1-aaaa464537e6 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:ad6645c0-b576-4fd7-addd-6db707ee28b1;
   skos:definition "Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden. (bron: NEN 2660)"@nl;
-  skos:prefLabel "Verkeersdrempel regionale weg"@nl.
+  skos:prefLabel "Verkeersdrempel regionale weg (geofunctie)"@nl.
 
 imbor-domeinwaarde:4e8e2e14-16e3-4867-afd5-f811eb6a3c7b a imbor:87218732-22b3-43b4-af43-960bdf33c6d0;
   rdfs:seeAlso imbor-term:f05ccc6e-5b21-4e0e-82e0-973feab66717;
@@ -8969,12 +8887,6 @@ imbor-domeinwaarde:51d0a49b-64c6-4a46-af97-e69b10e5a85e a imbor:84dcd71c-3cef-4e
   skos:definition "Een samenhangende groep van objecten en gebouwen in een stad die van overheidswege beschermd wordt door de Nederlandse Monumentenwet."@nl;
   skos:prefLabel "Beschermd stadsgezicht"@nl.
 
-imbor-domeinwaarde:51dc8733-d473-4dc8-b522-4ef525f28418 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:3cecc796-c579-462a-9d8c-5fc16e8cc771;
-  skos:broader imbor-domeinwaarde:5e032020-b4d0-4db3-b618-c6d35ba9cbf2;
-  skos:definition "Opslagplaats voor munitie en explosieven."@nl;
-  skos:prefLabel "Munitiedepot"@nl.
-
 imbor-domeinwaarde:51de40a3-0ec3-4c83-aaa1-c21dbaf2bb30 a imbor:f2758a2b-4f96-46af-be5c-5124810fda75;
   rdfs:seeAlso imbor-term:3ad6c740-ed95-4a4d-8bce-1e354313e254;
   skos:definition "Deze waaier lijkt iets op een halfopen waaier, maar hij is geplaatst in een soort nis aan de zijkant van het pomphuis. Daardoor komt hij maar met een klein gedeelte van de pompvloeistof in aanraking."@nl;
@@ -9181,7 +9093,7 @@ imbor-domeinwaarde:53ce429b-02c2-4bb7-9157-9b653a357546 a imbor:df60140f-710b-42
   skos:definition "Een wegmarkering met als functie het waarschuwen van naderende weggebruikers voor een kort op de strepen volgend potentieel gevaarlijke wegsituatie."@nl;
   skos:prefLabel "Waarschuwingsstreep"@nl.
 
-imbor-domeinwaarde:53f5dcf8-7757-4f5e-b166-390cfbba9491 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9, imbor:b87e39bb-b1c4-4193-9485-9ba197e51fc2;
+imbor-domeinwaarde:53f5dcf8-7757-4f5e-b166-390cfbba9491 a imbor:b87e39bb-b1c4-4193-9485-9ba197e51fc2;
   rdfs:seeAlso imbor-term:13cde752-8d12-46f9-b346-265fa888bac9;
   skos:definition "Wegdeel alleen voor het gebruik door voetgangers, waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft."@nl;
   skos:prefLabel "Voetgangersgebied"@nl.
@@ -9274,12 +9186,6 @@ imbor-domeinwaarde:54f80635-20b2-44b9-a665-e078bbc15e24 a imbor:e29de60f-1400-41
   rdfs:seeAlso imbor-term:78aa43ba-f1b9-47eb-8b55-51a991add853;
   skos:definition "Bibliotheek."@nl;
   skos:prefLabel "SB13"@nl.
-
-imbor-domeinwaarde:550c6023-d387-48a0-b36a-5496490882d1 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:265047db-38b2-4857-8cd0-7ed645d7e1c5;
-  skos:broader imbor-domeinwaarde:45496a13-cba5-47cf-9822-17de9227af5c;
-  skos:definition "Activiteitencentrum in een wijk, buurt of dorp waar activiteiten plaatsvinden van en voor de bewoners hiervan."@nl;
-  skos:prefLabel "Buurtgebouw"@nl.
 
 imbor-domeinwaarde:55142a11-1108-4cc1-95c3-ee31d3a2da8e a imbor:e29de60f-1400-41dd-a375-0708b78c11ee;
   rdfs:seeAlso imbor-term:582ca7a4-0a09-4b55-a5b1-ccc751279b66;
@@ -9537,7 +9443,7 @@ imbor-domeinwaarde:57a03247-696f-4431-afe5-432988491384 a imbor:06e691e9-bd30-43
 imbor-domeinwaarde:57a25f08-3598-4061-ac38-94ee9eb7139e a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:4278a8d3-27d9-4104-9b2e-b930294b6933;
   skos:definition "Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen niet uitsluitend door markering. (bron: BGT)"@nl;
-  skos:prefLabel "OV-baan"@nl.
+  skos:prefLabel "OV-baan (geofunctie)"@nl.
 
 imbor-domeinwaarde:57b5c55e-5689-4dc1-9018-5ef3b399e5a0 a imbor:92886557-a93a-4eff-8f0c-a5cc47fee733;
   rdfs:seeAlso imbor-term:6608f945-7c85-4855-8f50-9853f48c15c6;
@@ -9904,7 +9810,8 @@ imbor-domeinwaarde:5b1745ef-ebfa-4f07-8be6-6ff6a1b7abb0 a imbor:799bb4bf-6294-40
 
 imbor-domeinwaarde:5b2b2912-d881-41d9-85a5-d684b6845b7a a imbor:56abac27-a894-4181-a72b-f0cb16e37056;
   rdfs:seeAlso imbor-term:693c6b33-04c6-4f0b-8936-b4617147d88b;
-  skos:prefLabel "Aansluitleiding"@nl.
+  skos:definition "Een aanvoerleiding is een leiding die dient om een vloeistof, gas, of andere substantie naar een bepaald punt te transporteren."@nl;
+  skos:prefLabel "Aanvoerleiding"@nl.
 
 imbor-domeinwaarde:5b4957b9-b5e3-4c10-9ae5-3abe688d1375 a imbor:e29de60f-1400-41dd-a375-0708b78c11ee;
   rdfs:seeAlso imbor-term:02ba074e-59c4-4bfd-ba2e-5ce1bd8a565d;
@@ -9949,12 +9856,6 @@ imbor-domeinwaarde:5ba0abc0-07bc-4793-a6b3-e5e0e39da045 a imbor:b94246d0-c583-49
   skos:definition "Let op, Zebra."@nl;
   skos:prefLabel "VR09-04r"@nl.
 
-imbor-domeinwaarde:5ba3d115-99c5-487a-8904-fd9ace7986b1 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:542d827b-9b6b-4555-9faf-c7bbf058e36f;
-  skos:broader imbor-domeinwaarde:5e032020-b4d0-4db3-b618-c6d35ba9cbf2;
-  skos:definition "Tijdelijke opslag van goederen."@nl;
-  skos:prefLabel "Magazijn"@nl.
-
 imbor-domeinwaarde:5bab315a-7687-4766-bcbd-09c102eb7030 a imbor:2855a4d1-778b-4bae-bafc-38c66dcdaae7;
   rdfs:seeAlso imbor-term:da59fac6-0636-4e37-8154-2db9f8342106;
   skos:prefLabel "BW101Sv14r"@nl.
@@ -9995,7 +9896,7 @@ imbor-domeinwaarde:5c3b3288-a70f-4122-8d4d-63428057c2f2 a imbor:7d3ccf39-96c6-4b
   rdfs:seeAlso imbor-term:821383d3-0f47-43a9-920c-e15917e2afde;
   skos:broader imbor-domeinwaarde:21e4d7bc-5fe3-4f10-89ea-b3cd4ff811c1;
   skos:definition "Elementenverharding gemaakt van een natuursteen waaruit leien gekliefd worden. dit type steen ontstaat door metamorfose (omvorming) van kleisteen wat weer uit klei is gevormd."@nl;
-  skos:prefLabel "Leisteen"@nl.
+  skos:prefLabel "Leistenen"@nl.
 
 imbor-domeinwaarde:5c430fe1-2102-49ce-ae31-a9b855902a42 a imbor:42c36745-1a82-45f8-882a-055d58906874;
   rdfs:seeAlso imbor-term:428e96ea-6de5-4b5c-9eb4-f5aa3bcef8bd;
@@ -10381,12 +10282,6 @@ imbor-domeinwaarde:60365a97-7d59-4ad5-b6b2-29042b673ffa a imbor:5e1f4842-2730-46
   skos:definition "Het aanbrengen van een zinklaag en zinkcoatingen op ijzer en staal. Het brengt een gelijkmatige, harde, slijtvaste zinklaag aan op ingewikkelde producten (ook wel sherardiseren genoemd)."@nl;
   skos:prefLabel "Diffusieverzinken"@nl.
 
-imbor-domeinwaarde:605f4745-e1b4-4988-a009-d00d06c15781 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:591baf5e-5a03-4717-8c0e-2e2c4a0b995a;
-  skos:broader imbor-domeinwaarde:7ac7a2c0-7444-4175-8204-01600dcd336e;
-  skos:definition "Op- of doorpompen van vloeistoffen door middel van een installatie."@nl;
-  skos:prefLabel "Pompstation"@nl.
-
 imbor-domeinwaarde:60657905-2e94-4c2f-a16e-26dc376e97da a imbor:5fbcaad8-f042-4d97-8d7e-53b0cdba6dbc, imbor:604c62f5-7644-4642-8374-c4e650e60314, imbor:8a07c34d-7bbe-498f-953a-98c7d4f34090, imbor:94ddfa15-ed29-4b4e-82c8-010163ebf967, imbor:b95483be-e73e-4a73-9f5e-0648c8770c72, imbor:c1ce7984-227a-4f2c-a995-604b7437bbde, imbor:d87d0f09-449a-4c1a-a83b-a4a7bb6b8d7f;
   rdfs:seeAlso imbor-term:5e17cd2b-aa06-4e63-a06e-c007f6fc5a29;
   skos:definition "Eenmaal om een periode van honderdacht kalendermaanden."@nl;
@@ -10428,7 +10323,7 @@ imbor-domeinwaarde:6092fc73-6ff3-4c35-923f-a5dbc9f6e322 a imbor:b94246d0-c583-49
 imbor-domeinwaarde:6098a9c5-dc2e-4768-b8f9-520a4e4e2c84 a imbor:157eb94e-b552-436d-a8bc-e9cc63747076;
   rdfs:seeAlso imbor-term:f76e2ac8-3749-4b1c-8842-25a27d36c09c;
   skos:definition "Lichtdoorlatend deel van de armatuur van een vaste, doorzichtige stoffen, met kristalachtige eigenschappen, alhoewel het geen kristalstructuur is."@nl;
-  skos:prefLabel "Glas"@nl.
+  skos:prefLabel "Beglazing"@nl.
 
 imbor-domeinwaarde:6099ee89-8446-41cc-88d3-076bf56969b4 a imbor:e0f29e17-564d-4f30-8aeb-bf0607d9782b;
   rdfs:seeAlso imbor-term:11bc61e9-8bf9-4898-b33d-a5f2bc03a200;
@@ -10510,7 +10405,7 @@ imbor-domeinwaarde:61007b22-67e0-43f5-8f6b-55620301c547 a imbor:83e51cae-6dfd-40
 imbor-domeinwaarde:61032dd9-368a-4ed9-bd63-e0b59903318e a imbor:7d3ccf39-96c6-4bf4-af2a-b4a7e56b6a77;
   rdfs:seeAlso imbor-term:0d1735a1-7442-41e9-b6c5-ac30b77c036c;
   skos:definition "NCB steen, ook wel bekend als NCB klinker in de volksmond, zijn waterpasserende betonstenen met een open ruimte van maar liefst 42%. Dit bevordert grasgroei en infiltratie van (hemel)water."@nl;
-  skos:prefLabel "NCB steen"@nl.
+  skos:prefLabel "NCB stenen"@nl.
 
 imbor-domeinwaarde:610772cd-1d16-4b20-90ea-b6e2c30bc869 a imbor:4feaf600-5c32-46ec-977c-1ca0daf2dd85;
   rdfs:seeAlso imbor-term:2646ca1b-2fe7-46c6-9516-2d6f2fbb34aa;
@@ -11237,7 +11132,7 @@ imbor-domeinwaarde:66f40367-3dd6-4198-aa7a-d016baa44869 a imbor:7d3ccf39-96c6-4b
   rdfs:seeAlso imbor-term:c92636f4-d8e8-4760-916c-b16b380ba8e4;
   skos:broader imbor-domeinwaarde:21e4d7bc-5fe3-4f10-89ea-b3cd4ff811c1;
   skos:definition "Elementenverharding gemaakt van natuursteen in de vorm van kalksteen met een overwegend blauwgrijze kleur."@nl;
-  skos:prefLabel "Hardsteen"@nl.
+  skos:prefLabel "Hardstenen"@nl.
 
 imbor-domeinwaarde:67079829-86f9-48d6-929f-f930c391bcbb a imbor:5e1f4842-2730-46fc-a4ef-da4dddb97cac;
   rdfs:seeAlso imbor-term:23af0ec2-2f15-4d5e-8498-c73ed9c7092f;
@@ -11325,12 +11220,6 @@ imbor-domeinwaarde:67df8c90-037c-4e8c-b7f2-cdd78e485aee a imbor:970ed5b0-6546-46
   rdfs:seeAlso imbor-term:a83902c1-50d3-4f79-886b-465348fa1400;
   skos:definition "Een profiellijn de grens tussen de berm en de aangrenzende rijbaan voorstelt."@nl;
   skos:prefLabel "Bermlijn (binnen)"@nl.
-
-imbor-domeinwaarde:67f7b0f7-f06a-45da-a51c-d4455b51730d a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:9217c550-e19f-4e80-8247-fdaadc7d519a;
-  skos:broader imbor-domeinwaarde:9b728494-11a0-4904-b952-73d681fa8e5b;
-  skos:definition "Verstrekken van bereide maaltijden, snacks en dranken aan gasten voor onmiddellijke consumptie vanuit een op het strand gelegen voorziening."@nl;
-  skos:prefLabel "Strandpaviljoen"@nl.
 
 imbor-domeinwaarde:67fbfe4c-5b75-4c84-8308-b07f828c58a6 a imbor:43250da4-3bd3-4610-87c4-caf35a24064e;
   rdfs:seeAlso imbor-term:28cf9521-5d79-4c00-b41f-f732ade7bc38;
@@ -12023,7 +11912,7 @@ imbor-domeinwaarde:6ed79ea8-75cc-4633-b396-ee628d5efd4f a imbor:7d3ccf39-96c6-4b
   rdfs:seeAlso imbor-term:db3e44d8-1622-4e47-9e29-38dff3f731a3;
   skos:broader imbor-domeinwaarde:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Type gedetailleerd van elementenverharding, tegels. Vlak gevuld met tegels die zijn vervaardigd uit een steensoort die in de natuur wordt aangetroffen"@nl;
-  skos:prefLabel "Natuursteentegel"@nl.
+  skos:prefLabel "Natuursteentegels"@nl.
 
 imbor-domeinwaarde:6eeef8fa-3414-42c8-85c6-aef82f88ea07 a imbor:5007b34b-3266-4a2c-8283-0d48293eb445;
   rdfs:seeAlso imbor-term:3a889d5d-e368-40b5-b29c-80afb83f354c;
@@ -12267,12 +12156,6 @@ imbor-domeinwaarde:715e6e1b-683c-4eb6-9952-91aefa0c0706 a imbor:f48b75d0-2ec1-4a
   skos:definition "Phengaris nausithous: Een dagvlinder met een voorvleugellengte van 17 mm. Bij de mannetjes zijn de vleugels blauw met eventueel bruine of zwarte spikkels. De vrouwtjes hebben bruine vleugels met blauwe spikkels."@nl;
   skos:prefLabel "Donker pimpernelblauwtje"@nl.
 
-imbor-domeinwaarde:715fc799-6531-4ec2-99a8-13a05b27a588 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:eb42db75-25eb-4c15-a202-a4eb2eee92e2;
-  skos:broader imbor-domeinwaarde:5e032020-b4d0-4db3-b618-c6d35ba9cbf2;
-  skos:definition "Activiteiten gericht op het opzettelijk gekoeld houden ten behoeve van de opslag van producten."@nl;
-  skos:prefLabel "Koelcel"@nl.
-
 imbor-domeinwaarde:716323b7-ac45-43d3-a686-325ba3dbb026 a imbor:0f846c5c-4bf6-4236-8550-3104c98f9fd1;
   rdfs:seeAlso imbor-term:56e73e34-60be-443c-9cbc-6d81ae8a0b38;
   skos:definition "Weg bestaande uit twee (fysiek) gescheiden rijbanen, ieder met vier rijstroken van dezelfde rijrichting."@nl;
@@ -12381,7 +12264,7 @@ imbor-domeinwaarde:72723b7a-8234-44c6-b93e-b095822e7018 a imbor:4feaf600-5c32-46
   rdfs:seeAlso imbor-term:c43a7bde-0574-46b3-9eba-7ceb58f827fb;
   skos:broader imbor-domeinwaarde:48e98275-74f5-48b0-8e22-0f45ae5d7b36;
   skos:definition "Ruigte van Ridderzuring (Ridderzuring bedekt >50%)."@nl;
-  skos:prefLabel "RRz"@nl.
+  skos:prefLabel "RR-z"@nl.
 
 imbor-domeinwaarde:728e3639-7455-4ac5-b9a1-4bf089f67f00 a imbor:30e5aee9-7834-4589-87ae-c7f94e7a274b;
   rdfs:seeAlso imbor-term:79d7e08e-3eca-4b3b-a8e6-878ff022a4f2;
@@ -12773,12 +12656,6 @@ imbor-domeinwaarde:76327ec5-3d3e-458d-a615-4b86ec5153c2 a imbor:96855297-c02b-47
   skos:definition "Kleinere vaartuigen."@nl;
   skos:prefLabel "0 - M0"@nl.
 
-imbor-domeinwaarde:7632eba1-9e3a-4f9f-a040-6b6bc5365811 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:a9e8b086-878d-425c-a98a-cdd876ec85bb;
-  skos:broader imbor-domeinwaarde:5e032020-b4d0-4db3-b618-c6d35ba9cbf2;
-  skos:definition "Activiteiten gericht op het vanaf een geconcentreerde locatie verspreiden van goederen door een bedrijf."@nl;
-  skos:prefLabel "Distributiecentrum"@nl.
-
 imbor-domeinwaarde:763c9265-6aa2-4f72-87de-406a76a70e9a a imbor:5e42cbe1-8c13-4848-b5af-eec9dc97eb1f;
   rdfs:seeAlso imbor-term:e7aac2af-3cd9-44d1-b199-33aeef8a7bc9;
   skos:definition "Verkeersstreep in de lengterichting van de weg, die over ten minste 20m niet is onderbroken."@nl;
@@ -12841,7 +12718,7 @@ imbor-domeinwaarde:76a3da89-817f-4d0e-9125-75a7420bfb2a a imbor:4a373865-33c4-41
 imbor-domeinwaarde:76a7d316-0853-463d-988f-36f41aa09067 a imbor:178b17a3-ae0f-41c5-85f3-7a30ae8ac36a;
   rdfs:seeAlso imbor-term:72be8dbe-1e60-4340-9e81-044f80239529;
   skos:definition "Beton waarin een versterkende constructie, vaak in de vorm van een metalen raster, is aangebracht."@nl;
-  skos:prefLabel "Gewapend beton"@nl.
+  skos:prefLabel "Gewapend betonverharding"@nl.
 
 imbor-domeinwaarde:76ab2bc8-3695-449f-85a2-4b5b43eb7e3f a imbor:2855a4d1-778b-4bae-bafc-38c66dcdaae7;
   rdfs:seeAlso imbor-term:ba40d67d-d85e-44b0-a569-4c04a92a9ac9;
@@ -13180,7 +13057,7 @@ imbor-domeinwaarde:799b0c8d-bf6b-433b-b11f-007ac38fc5e6 a imbor:52a732f0-574a-4a
 imbor-domeinwaarde:79c92fba-f655-472d-83cb-fb09b2968e24 a imbor:756c2d28-22a1-4f0a-88cd-844bbda162ea, imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:9ae56840-641e-484b-9a2f-19d10e8a41ec;
   skos:definition "Ondersteunend wegdeel van beperkte omvang, uitgevoerd als verhoging of wegmarkering, dat wordt omsloten door wegdelen en ten doel heeft verkeersstromen te scheiden. (bron: CROW)"@nl;
-  skos:prefLabel "Verkeerseiland"@nl.
+  skos:prefLabel "Verkeerseiland (geofunctie)"@nl.
 
 imbor-domeinwaarde:79cafb55-067b-4ed7-afc9-342e6e444c77 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:088502d8-5782-4225-bc1e-efd9364b7a7d;
@@ -13284,8 +13161,8 @@ imbor-domeinwaarde:7ac7a2c0-7444-4175-8204-01600dcd336e a imbor:01a5e128-8a3d-44
 
 imbor-domeinwaarde:7ad180e8-f3d6-4000-8e87-be31576406e7 a imbor:08f5f7ba-a0db-48a3-ab64-c177fb98f28b;
   rdfs:seeAlso imbor-term:5adf703b-0ed9-4643-955a-bd5835e2028e;
-  skos:definition "Productie afvalwater gebaseerd op een vergunning"@nl;
-  skos:prefLabel "Bruto vloeroppervlak"@nl.
+  skos:definition "Bij het bruto vloeroppervlak gaat het om 100% van de vloeroppervlakte. Het BVO wordt dus gemeten inclusief de omringende muren van een ruimte"@nl;
+  skos:prefLabel "Bruto vloeroppervlakberekening"@nl.
 
 imbor-domeinwaarde:7ad5ad8a-9ffe-4103-b73e-b8dca43a4727 a imbor:66b8b156-b8e6-44cd-b167-5dbf01b9a363;
   rdfs:seeAlso imbor-term:e85615b0-bd58-459e-bca0-73691ff85bdd;
@@ -13568,12 +13445,6 @@ imbor-domeinwaarde:7d210523-7758-4874-b633-797b38b4e638 a gwsw:VormOpeningColl, 
   skos:definition "Als de vorm van het object niet rechthoekig of rond is."@nl;
   skos:prefLabel "Anders (vorm)"@nl.
 
-imbor-domeinwaarde:7d3c0586-d0b4-4364-adb7-09ebfc7c7b77 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:2c6e6837-6d6b-4df4-9325-5fd8e8621473;
-  skos:broader imbor-domeinwaarde:f2caa12f-e3a9-412d-9fef-267b064924f7;
-  skos:definition "Activiteiten gericht op het op grote schaal openbaar verkopen van goederen."@nl;
-  skos:prefLabel "Veiling"@nl.
-
 imbor-domeinwaarde:7d473d5a-c69f-432b-90aa-bf9abb594e06 a imbor:73faae06-a5a0-4892-9572-98124b629dd9;
   rdfs:seeAlso imbor-term:c245b43f-3ec6-4e84-a7f1-2c2e5bb969dd;
   skos:definition "Het object heeft een onderdeel waarmee het object opgelopen kan worden."@nl;
@@ -13643,12 +13514,6 @@ imbor-domeinwaarde:7e19f90a-0b99-4c27-aee6-f48c760cad7e a imbor:5e1f4842-2730-46
   skos:definition "Een chemische voorbehandelingsproces kan na het fosfateren worden afgesloten door een behandeling met een passiveervloeistof. Deze vloeistof sluit de poriën in een fosfaatlaag, waardoor deze bestand is tegen corrosie."@nl;
   skos:prefLabel "Passiveren"@nl.
 
-imbor-domeinwaarde:7e1a5fad-3077-4458-ba75-c36e2e024181 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:343a1ad6-5eb0-4c6e-8e27-f22d74acf545;
-  skos:broader imbor-domeinwaarde:b166766f-c20c-4a94-a793-99abeda74e26;
-  skos:definition "Activiteiten gericht op het bijeenbrengen en (ten minste voor een gedeelte) voortdurend voor het publiek uitstallen van materiële en immateriële getuigenissen van de mens en zijn omgeving."@nl;
-  skos:prefLabel "Museum"@nl.
-
 imbor-domeinwaarde:7e262922-36c6-4310-a3a5-5c8ba84d88df a imbor:ee9e70bf-5d21-4bee-a551-a49c6e32b1ee;
   rdfs:seeAlso imbor-term:13509604-7547-4f87-8faa-b447d1c26520;
   skos:definition "Voorziening in de vorm van een paal die een kunstwerk of wegmeubilair moet beschermen tegen beschadiging door aanrijdingen."@nl;
@@ -13685,6 +13550,7 @@ imbor-domeinwaarde:7e74593f-6a30-4145-86e7-1c15b71656ec a imbor:83e51cae-6dfd-40
 
 imbor-domeinwaarde:7e7bdb19-2adc-43a8-8354-f0bde52fe09b a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
   rdfs:seeAlso imbor-term:4c845309-4b8e-463c-9787-3a1fee135c08;
+  skos:broader imbor-domeinwaarde:1b53d81a-4a13-4d4c-a349-8f2efdd207e6;
   skos:prefLabel "Starterswoning"@nl.
 
 imbor-domeinwaarde:7e7f7fce-218e-400b-9200-54176c09be6f a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
@@ -14137,7 +14003,7 @@ imbor-domeinwaarde:81c7f766-5934-493f-937a-2ee9b637ef4d a imbor:e4421555-04d3-46
 imbor-domeinwaarde:81d97411-da9c-473b-a373-78a4af8becf5 a imbor:756c2d28-22a1-4f0a-88cd-844bbda162ea, imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:59fec9a3-aa6d-4693-bd0f-436d34d88560;
   skos:definition "Een strook grond langs een weg of spoorweg. (bron: BGT)"@nl;
-  skos:prefLabel "Berm"@nl.
+  skos:prefLabel "Berm (geofunctie)"@nl.
 
 imbor-domeinwaarde:82088057-8808-4e02-b1a6-45ea10a7555f a imbor:e71ccc0f-bd70-4854-9011-2dfc87e962fa;
   rdfs:seeAlso imbor-term:6be0d43f-9b22-432f-ae71-b9842512b6e2;
@@ -14476,7 +14342,7 @@ imbor-domeinwaarde:853c2b95-321c-4694-ab94-ccdc76c45a1a a imbor:5416e0a1-485f-43
 imbor-domeinwaarde:853f3ddb-0598-46a0-bc5a-a5f5bbaee17a a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:598d0c0c-795d-448b-94f8-bd97c39840df;
   skos:definition "Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor type trein of sneltram. (bron: BGT)"@nl;
-  skos:prefLabel "Overweg"@nl.
+  skos:prefLabel "Overweg (geofunctie)"@nl.
 
 imbor-domeinwaarde:85611c75-8f5e-40eb-b5d8-d64caf2667de a imbor:1cdc8b3e-cdec-43b5-862e-b0b44f82d858;
   rdfs:seeAlso imbor-term:9c631f15-0b09-470f-8fd0-1af4e5845746;
@@ -14865,6 +14731,7 @@ imbor-domeinwaarde:88c658e7-834a-4260-84b4-04bc4994e094 a imbor:2855a4d1-778b-4b
 
 imbor-domeinwaarde:88d63097-337d-4d9b-b994-9d5d7ca1365a a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
   rdfs:seeAlso imbor-term:617dcf6d-2601-4ba0-9510-cab03b1298ae;
+  skos:broader imbor-domeinwaarde:1b53d81a-4a13-4d4c-a349-8f2efdd207e6;
   skos:prefLabel "Laagbouw"@nl.
 
 imbor-domeinwaarde:88d78b3a-a146-4c10-b52c-cf8334366595 a imbor:364cd903-8513-43bf-bcd3-54e0b84591c5;
@@ -14899,7 +14766,7 @@ imbor-domeinwaarde:8906a528-ca16-4a12-8a9b-e332a7ea6cdd a imbor:f48b75d0-2ec1-4a
 imbor-domeinwaarde:891367c2-b801-4ebf-9e78-fe4abde7fbf8 a imbor:7d3ccf39-96c6-4bf4-af2a-b4a7e56b6a77;
   rdfs:seeAlso imbor-term:65b12324-de95-4ede-b037-3ff4d79c2a07;
   skos:definition "De formele benaming uit NEN-EN1344. In de CROW Systematiek Wegbeheer wordt dit ‘gebakken klinkers’ genoemd."@nl;
-  skos:prefLabel "Straatbaksteen"@nl.
+  skos:prefLabel "Straatbakstenen"@nl.
 
 imbor-domeinwaarde:891cd3cc-7854-4512-95b6-7ad4e1cc259e a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:b99b4429-74c9-494e-bb76-bd367dfc399b;
@@ -15002,12 +14869,6 @@ imbor-domeinwaarde:8a0e5f1a-c9d4-4626-9ea6-6c676f298539 a imbor:9116425e-f7d5-43
   rdfs:seeAlso imbor-term:bbe64841-fc57-45e8-a28e-95b0d3853f79;
   skos:definition "Symboolmarkering als combinatie van een dubbele naar rechtswijzende pijl en een brugsymbool."@nl;
   skos:prefLabel "Dubbele afbuigende pijl rechts met brugsymbool"@nl.
-
-imbor-domeinwaarde:8a11dcf7-8473-459c-a766-7362e240c2fb a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:95cc4dba-8638-4712-aa42-42e10a4b4412;
-  skos:broader imbor-domeinwaarde:7ac7a2c0-7444-4175-8204-01600dcd336e;
-  skos:definition "Drukverlaging van aardgas in een netwerk ten behoeve van toevoer in een lokaal net."@nl;
-  skos:prefLabel "Gasverdeelstation"@nl.
 
 imbor-domeinwaarde:8a2bfd64-d6fd-4a09-bc5e-16b0ec3d5731 a imbor:52a732f0-574a-4a61-801e-d6c4fb57924b;
   rdfs:seeAlso imbor-term:372fe8a0-afca-4956-a871-205a7076df16;
@@ -15231,6 +15092,7 @@ imbor-domeinwaarde:8bedf663-598a-45d0-b9d8-e9ba720e94f5 a imbor:49fd77ea-dc35-4d
 
 imbor-domeinwaarde:8c0739e4-7517-4851-95de-163853cccc7b a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
   rdfs:seeAlso imbor-term:7d3e8a1c-5225-41b9-8303-94cc59a0ebdd;
+  skos:broader imbor-domeinwaarde:1b53d81a-4a13-4d4c-a349-8f2efdd207e6;
   skos:prefLabel "Hoofdgebouw"@nl.
 
 imbor-domeinwaarde:8c0dd653-59cb-44fd-b03a-b26bf972169a a imbor:72dc9bf1-1eed-4847-bce9-1c18efcac107;
@@ -15425,7 +15287,7 @@ imbor-domeinwaarde:8d7d2254-f6b5-45fc-b911-22fd7af7cbbd a imbor:b94246d0-c583-49
 imbor-domeinwaarde:8da001c7-8540-4c23-8ac1-c9ac4a2c3e8d a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:a4e07691-3827-4ee3-bb58-c46cce12eef5;
   skos:definition "Verhoging in een lokale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden. (bron: NEN 2660)"@nl;
-  skos:prefLabel "Verkeersdrempel lokale weg"@nl.
+  skos:prefLabel "Verkeersdrempel lokale weg (geofunctie)"@nl.
 
 imbor-domeinwaarde:8dcfcd6e-9835-47c9-a88b-bf54f120c848 a imbor:025d94d4-8049-4a79-bc33-27862737d1b3;
   rdfs:seeAlso imbor-term:c73dd264-2f13-4c37-b5ce-c19e98f5ebff;
@@ -15857,7 +15719,7 @@ imbor-domeinwaarde:913fc967-af83-4359-ad25-f6dca1067630 a imbor:4feaf600-5c32-46
   rdfs:seeAlso imbor-term:0f9984f4-fdc0-4f4e-9cf3-1e4cc6535a6d;
   skos:broader imbor-domeinwaarde:48e98275-74f5-48b0-8e22-0f45ae5d7b36;
   skos:definition "Ruigte van Harig wilgenroosje (Harig wilgenroosje bedekt >50%)."@nl;
-  skos:prefLabel "RHw"@nl.
+  skos:prefLabel "RH-w"@nl.
 
 imbor-domeinwaarde:915720c4-8b3c-4500-a039-9aa757180a43 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:0d709bff-e3e4-49b2-b9ab-0afcc69dcd36;
@@ -15959,6 +15821,10 @@ imbor-domeinwaarde:923ee737-1f62-4137-9aae-19ce91b16d50 a imbor:85e855fa-176d-41
   skos:definition "Klasse in ondergrens voorzien door de afgemeten, ruimtelijk in de hoogte strekkende hoeveelheid van tweeënhalve meter."@nl;
   skos:prefLabel "2,5 meter en hoger"@nl.
 
+imbor-domeinwaarde:92526042-3715-4491-b340-c9ef8db8e67f a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
+  rdfs:seeAlso imbor-term:343fbad0-5545-4fb5-af43-712cef2014bf;
+  skos:prefLabel "Voetpad op trap (geofunctie)"@nl.
+
 imbor-domeinwaarde:92546643-efbb-49a4-9337-90b9b523e5b0 a imbor:30c6ca30-2c1a-436b-b2c8-0c82fea17953;
   rdfs:seeAlso imbor-term:e5caae96-def2-4357-a856-b4d34178253c;
   skos:definition "IJsvogelwand welke in een boomstronk gemaakt is."@nl;
@@ -16039,18 +15905,12 @@ imbor-domeinwaarde:933a1bbb-3dd5-4c16-b632-11aa5bd916b5 a imbor:f48b75d0-2ec1-4a
 imbor-domeinwaarde:933d81c2-1737-4e1a-92d6-18794ddcd64a a imbor:edfe8078-c2d9-49d7-ad03-aaacc99aa474;
   rdfs:seeAlso imbor-term:ddad509a-6cb3-4aac-8049-90a3c7bf769c;
   skos:definition "Bord dat een algemene plaatselijke verordening kenbaar maakt met betrekking tot het wel of niet toestaan van poepende honden."@nl;
-  skos:prefLabel "Hondentoilet"@nl.
+  skos:prefLabel "Hondentoiletbord"@nl.
 
 imbor-domeinwaarde:934b4435-edfb-4fc1-aef0-3ca157602591 a imbor:b3fad910-3185-4da3-9a95-01f357826027;
   rdfs:seeAlso imbor-term:0d497734-5d34-45d0-ae26-db0884842a23;
   skos:definition "Voor de reiniging is klein materieel nodig."@nl;
   skos:prefLabel "Mechanisch - klein materieel"@nl.
-
-imbor-domeinwaarde:934b906f-9dd4-4843-931a-4fbfa146f0d9 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:89df9909-3354-4c36-aeea-8a93c9a56142;
-  skos:broader imbor-domeinwaarde:7ac7a2c0-7444-4175-8204-01600dcd336e;
-  skos:definition "Activiteiten gericht op het bedienen van de technische voorzieningen die behoren bij een brug die geopend kan worden."@nl;
-  skos:prefLabel "Brugwachtershuis"@nl.
 
 imbor-domeinwaarde:93581008-927e-49be-91f2-1243d1657847 a imbor:6faa48ce-e409-474d-b421-d8d20c28ad0f;
   rdfs:seeAlso imbor-term:44653632-d332-451f-982e-059d9ff9688f;
@@ -16224,12 +16084,6 @@ imbor-domeinwaarde:94e0697f-c468-4591-af09-f6a327c39599 a imbor:b94246d0-c583-49
   skos:definition "3 rijstroken verdrijvingsvlak links uitrijstrook naar rechts."@nl;
   skos:prefLabel "T32-3l"@nl.
 
-imbor-domeinwaarde:94e594f4-7a0c-458b-a543-675defa2d601 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:922d9732-3b0c-4174-b9f6-5f2ee0d4dc4d;
-  skos:broader imbor-domeinwaarde:3b0802eb-275e-41e1-85d2-d5c6afc91d88;
-  skos:definition "Werkplaats waar schepen worden gebouwd of hersteld."@nl;
-  skos:prefLabel "Werf"@nl.
-
 imbor-domeinwaarde:95103b2d-bfb7-4172-b063-92320561ed16 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:e6a25b08-229f-42a4-bdaf-144e754c981f;
   skos:broader imbor-domeinwaarde:c6f5fa03-204a-4f21-83ee-69c3f1b48897;
@@ -16390,12 +16244,6 @@ imbor-domeinwaarde:96a4479e-36f9-4060-b766-7d248440e026 a imbor:e89b97ee-a292-43
   rdfs:seeAlso imbor-term:9755e6fd-1e56-4fc1-99a6-92edd0d68bdf;
   skos:definition "Gebouw dat onderdeel uitmaakt van een reeks aan elkaar verbonden gebouwen die onafhankelijk van elkaar zijn gerealiseerd."@nl;
   skos:prefLabel "Heterogeen"@nl.
-
-imbor-domeinwaarde:96a9a999-1d78-44c7-bcd4-22ff853dbd6c a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:ff0fc8a9-4c25-413c-9c03-2be642f223f7;
-  skos:broader imbor-domeinwaarde:81be92ab-fc3d-4d62-86e9-300cebcd45a3;
-  skos:definition "Opstelpunt van materieel en manschappen ten behoeve van brandbestrijding."@nl;
-  skos:prefLabel "Brandweerkazerne"@nl.
 
 imbor-domeinwaarde:96abdce7-5268-494c-bb64-8a648f7648c3 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:822437d9-5b08-4c6b-9090-e29138b1da50;
@@ -16589,7 +16437,7 @@ imbor-domeinwaarde:984fb607-1a9b-41b9-9adb-ccfa46edc252 a imbor:12420e78-df8b-4a
 imbor-domeinwaarde:985be75c-d1e3-41de-be99-5d7ae6566131 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:1dfe6a15-f332-4995-878a-3fefc9ab40dc;
   skos:definition "Wegdeel waar voetgangers gebruik van moeten maken. (bron: BGT)"@nl;
-  skos:prefLabel "Voetpad"@nl.
+  skos:prefLabel "Voetpad (geofunctie)"@nl.
 
 imbor-domeinwaarde:987e1a62-a9e4-486c-b54f-c38889ac330f a imbor:483f1e83-0e10-4e94-8d89-641cc41720ca;
   rdfs:seeAlso imbor-term:3874fd33-2121-4a34-ab25-a5719fa8194a;
@@ -16637,6 +16485,7 @@ imbor-domeinwaarde:9911e052-08db-4854-92d7-298185b0bbf8 a imbor:0c4bdf34-35c5-4c
 
 imbor-domeinwaarde:992576f0-a92c-4a7a-b8a4-523774c6cfa0 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
   rdfs:seeAlso imbor-term:8ef094a5-ac54-428a-99f8-b6e6f10e5594;
+  skos:broader imbor-domeinwaarde:1b53d81a-4a13-4d4c-a349-8f2efdd207e6;
   skos:prefLabel "Eengezinswoning"@nl.
 
 imbor-domeinwaarde:992c2411-1cef-497a-8764-993b19401ea8 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
@@ -16936,11 +16785,6 @@ imbor-domeinwaarde:9bd53e4b-41a0-49ed-b19c-3712cd5a1d04 a imbor:b94246d0-c583-49
   skos:broader imbor-domeinwaarde:bc8ea1ae-cb68-415e-8b54-3ea4e518acfe;
   skos:definition "Herhaling zone parkeerverbod tussen aangegeven tijden."@nl;
   skos:prefLabel "E01zht"@nl.
-
-imbor-domeinwaarde:9be7ebd0-9de1-4880-ac08-d259852b12ad a imbor:22575b26-646c-4076-a2f2-17d3bdd020cb;
-  rdfs:seeAlso imbor-term:9fc391b7-ef7b-482f-84d8-c89b07d8600f;
-  skos:definition "Terrein in gebruik als akker, maar tijdelijk niet beteeld met een landbouwgewas. (Bron: definities.geostandaarden.nl). Een stuk grond dat geen aangewezen functie vervult en dat niet wordt onderhouden."@nl;
-  skos:prefLabel "Braakliggend"@nl.
 
 imbor-domeinwaarde:9bea51bb-24a4-41d7-bc4f-095d2fd0846f a imbor:154d50a8-51a7-4a2b-aaae-26063a1aa17a;
   rdfs:seeAlso imbor-term:1f762ce1-3b56-4f12-8e38-3ce58b24f83b;
@@ -17557,7 +17401,7 @@ imbor-domeinwaarde:a1aef4d0-736a-4faf-99e8-d621326f12a5 a imbor:4feaf600-5c32-46
   rdfs:seeAlso imbor-term:525a5178-ef6d-4c77-87fe-cd226cefc519;
   skos:broader imbor-domeinwaarde:48e98275-74f5-48b0-8e22-0f45ae5d7b36;
   skos:definition "Ruigte van Gewone berenklauw (Gewone berenklauw bedekt >50%)."@nl;
-  skos:prefLabel "RBk"@nl.
+  skos:prefLabel "RB-k"@nl.
 
 imbor-domeinwaarde:a1b7ed56-1108-48b9-911d-4b8f4143c6ef a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:006bfba1-ed5e-4775-befc-88bef26a15e4;
@@ -17813,7 +17657,7 @@ imbor-domeinwaarde:a3d5a952-0a78-4abc-b821-730aaac4fc28 a imbor:4feaf600-5c32-46
   rdfs:seeAlso imbor-term:6bef2900-0e54-44c8-a75e-d5f009cf32e8;
   skos:broader imbor-domeinwaarde:48e98275-74f5-48b0-8e22-0f45ae5d7b36;
   skos:definition "Ruigte van Braam (bramen bedekken >50%)."@nl;
-  skos:prefLabel "RBr"@nl.
+  skos:prefLabel "RB-r"@nl.
 
 imbor-domeinwaarde:a3e45aa5-c5a4-4c15-80af-429a7dbdc578 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:baeefaca-44a9-4511-b447-12fcb0298c87;
@@ -17887,7 +17731,7 @@ imbor-domeinwaarde:a491f399-48d6-45c5-b520-e723c9fb1b49 a imbor:1e00cee3-81b7-46
 imbor-domeinwaarde:a4c2e08a-8826-422e-b9ac-980dbcd702f8 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:f6aa4930-e8d3-4528-92c0-a98356353ff2;
   skos:definition "Wegdeel dat onderdeel is van een weg van lokaal belang. (bron: BGT)"@nl;
-  skos:prefLabel "Rijbaan lokale weg"@nl.
+  skos:prefLabel "Rijbaan lokale weg (geofunctie)"@nl.
 
 imbor-domeinwaarde:a4c33c28-f097-416d-b43d-103c15b7d7cc a imbor:b4955ef6-3348-412a-8cc2-6efce1478e04;
   rdfs:seeAlso imbor-term:90794895-4aad-4bb0-addc-d600ba308c7a;
@@ -17974,7 +17818,7 @@ imbor-domeinwaarde:a5d66e52-c28a-482a-8135-b49861f6e9f8 a imbor:b4955ef6-3348-41
 imbor-domeinwaarde:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2 a imbor:7d3ccf39-96c6-4bf4-af2a-b4a7e56b6a77;
   rdfs:seeAlso imbor-term:aaee5bf7-37e9-4a1b-aecb-86b7f4029102;
   skos:definition "Bestrating van platte vaak vierkante stenen."@nl;
-  skos:prefLabel "Tegel"@nl.
+  skos:prefLabel "Tegels"@nl.
 
 imbor-domeinwaarde:a5d92f43-78da-4fc2-aa49-fed4d1101a87 a imbor:7d3ccf39-96c6-4bf4-af2a-b4a7e56b6a77;
   rdfs:seeAlso imbor-term:7c3a0a4f-a159-4c99-9eeb-76771848cc49;
@@ -18504,7 +18348,7 @@ imbor-domeinwaarde:ab3eb354-5474-4845-95c7-72c417a4b9ba a imbor:db0c5c56-1a28-4f
 imbor-domeinwaarde:ab4064d3-bed2-414a-b653-dbb9deeb9272 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:9a5ac7e5-26b4-414d-a22e-16574bf1d1ab;
   skos:definition "Weg uitsluitend bestemd voor fietsers en/of bromfietsers of een deel van een weg bestaande uit een oranjekleurige verhardingstrook met daarop een wit rijwielsymbool. (bron: CROW)"@nl;
-  skos:prefLabel "Fietspad"@nl.
+  skos:prefLabel "Fietspad (geofunctie)"@nl.
 
 imbor-domeinwaarde:ab40fce7-79a5-430f-bbe0-3da8f162dc00 a imbor:e21f18cd-7fc2-43c2-a770-3dc7d98ef214;
   rdfs:seeAlso imbor-term:0d9fada7-0166-49e9-85ff-c6ac6be7555c;
@@ -18679,12 +18523,6 @@ imbor-domeinwaarde:acd072ba-3226-4e68-bea7-a6b431346b60 a imbor:b94246d0-c583-49
   skos:definition "Waarschuwing voor gevaarlijk ijs."@nl;
   skos:prefLabel "L1005"@nl.
 
-imbor-domeinwaarde:acd0bbe7-06a4-43a3-b19f-d303d4196f11 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:b0c71c6b-ad14-4b02-accf-4b1023adca7b;
-  skos:broader imbor-domeinwaarde:7ac7a2c0-7444-4175-8204-01600dcd336e;
-  skos:definition "Meting van landelijke of regionale waterstanden via het Monitoring Systeem Water met behulp van een Digitaal Niveau Meter (DNM)."@nl;
-  skos:prefLabel "Peilmeetstation"@nl.
-
 imbor-domeinwaarde:acf20df0-51fc-4240-83e4-795f08245a57 a imbor:7d3ccf39-96c6-4bf4-af2a-b4a7e56b6a77;
   rdfs:seeAlso imbor-term:7c302c8d-f702-49ce-a813-ec8edda9f040;
   skos:broader imbor-domeinwaarde:8add24e4-736e-44d2-898a-9b7e9b150517;
@@ -18842,12 +18680,6 @@ imbor-domeinwaarde:ae666e20-ede5-40c0-94ce-b6babc5d5795 a imbor:b94246d0-c583-49
   skos:definition "Symbool met tekst beweegbaar obstakel."@nl;
   skos:prefLabel "OB627"@nl.
 
-imbor-domeinwaarde:ae780ac4-79a2-4fd3-8ac9-c56acff59f88 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:4d7fd2b1-c234-49e7-a2b4-6d1210d26368;
-  skos:broader imbor-domeinwaarde:81be92ab-fc3d-4d62-86e9-300cebcd45a3;
-  skos:definition "Opstelpunt voor voertuigen om medische hulpverleners te vervoeren naar een plaats waar behoefte is aan spoedeisende hulp of om slachtoffers of patiënten te vervoeren naar een ziekenhuis."@nl;
-  skos:prefLabel "Ambulancepost"@nl.
-
 imbor-domeinwaarde:ae7b7acb-4d81-4a3b-a9b8-d0195dd10481 a imbor:29a8096e-91dc-4056-afff-d56df4d52ae7;
   rdfs:seeAlso imbor-term:29405f58-1845-4087-aa04-548247bd138a;
   skos:definition "Om het object te bereiken moet het werk vanaf nabijgelegen aanliggende perceel uitgevoerd worden."@nl;
@@ -18908,7 +18740,7 @@ imbor-domeinwaarde:aee9fa37-ab45-4977-8d1f-95ab8999f9d7 a imbor:bfe6e719-b83c-47
 imbor-domeinwaarde:aef69407-2dd7-4b9d-8aec-cbf2b7305f5c a imbor:7d3ccf39-96c6-4bf4-af2a-b4a7e56b6a77;
   rdfs:seeAlso imbor-term:238b55c7-2b36-479f-be92-5c0a72976a3e;
   skos:definition "Elementenverharding bestaande uit elementen van beperkte afmetingen die ten behoeve van de doorgroei van grassen en kruiden. Tussenruimten zijn voorzien van openingen of de elementen zijn met tussenruimten aangebracht."@nl;
-  skos:prefLabel "Grasbetonsteen"@nl.
+  skos:prefLabel "Grasbetonstenen"@nl.
 
 imbor-domeinwaarde:af12c9a2-d46f-4932-aed7-b2b6cbe57409 a imbor:61133ddb-01f4-47d6-9a6d-71926d2f3317;
   rdfs:seeAlso imbor-term:44dd12ba-c9e6-4e9e-aa45-7085f2d9554b;
@@ -18924,7 +18756,7 @@ imbor-domeinwaarde:af21d53f-3f1a-4c50-b1e6-5919ebbbe136 a imbor:7d3ccf39-96c6-4b
   rdfs:seeAlso imbor-term:b6453539-fc56-453c-8d96-134a987ad5d8;
   skos:broader imbor-domeinwaarde:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Type gedetailleerd van elementenverharding, tegels. Rubberen grastegels worden vaak gebruikt om kwetsbare delen bij speelplekken te beschermen tegen kuilvorming."@nl;
-  skos:prefLabel "Rubber grastegel"@nl.
+  skos:prefLabel "Rubber grastegels"@nl.
 
 imbor-domeinwaarde:af220fa1-9fdb-4281-a6e7-366b9d4661cb a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:1cffc331-ee5a-492f-94cc-4fe3c3aafe95;
@@ -18941,10 +18773,6 @@ imbor-domeinwaarde:af2f2519-65ae-4b29-b32b-08c536eafc3e a imbor:e71ccc0f-bd70-48
   rdfs:seeAlso imbor-term:af06c680-4efd-4b17-8b93-6e35d6753451;
   skos:definition "Lampvoettype"@nl;
   skos:prefLabel "R7s"@nl.
-
-imbor-domeinwaarde:af3650e1-38bd-44e4-9ab6-6f967f1ee289 a imbor:1cdc8b3e-cdec-43b5-862e-b0b44f82d858;
-  rdfs:seeAlso imbor-term:b3b01a58-f9e7-4e6f-918a-8a7fe089d80b;
-  skos:prefLabel "Boomrooster"@nl.
 
 imbor-domeinwaarde:af4b2719-20be-4980-8d53-13a6ba6f56b3 a imbor:3778611a-f6b4-44e5-9da8-7040804479d6;
   rdfs:seeAlso imbor-term:c0bb0836-a240-4397-b3d5-b6a9d1e7de85;
@@ -18970,12 +18798,6 @@ imbor-domeinwaarde:af7e1402-586d-4cc7-97f3-757204d1a4ec a imbor:71fc94e7-f924-46
   rdfs:seeAlso imbor-term:81e485de-dcfe-4de6-a657-13fdc0732350;
   skos:definition "Een tekening die een topografisch overzicht biedt van een bepaald gebied."@nl;
   skos:prefLabel "Overzichtstekening"@nl.
-
-imbor-domeinwaarde:af7e41d6-5333-4b5c-876f-5944de6e4d25 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:f20197cb-837a-4b97-ba0d-9d3419d7318c;
-  skos:broader imbor-domeinwaarde:58708deb-b0b8-4b79-a630-abca5087cbbb;
-  skos:definition "Op commerciële basis op intensieve wijze telen van groenten, paddenstoelen, fruit, bloemen, planten, bomen, bollen of zaden."@nl;
-  skos:prefLabel "Tuinbouw"@nl.
 
 imbor-domeinwaarde:af8b8f2f-516c-4aef-a8cc-0da99a1a6fe5 a imbor:43250da4-3bd3-4610-87c4-caf35a24064e;
   rdfs:seeAlso imbor-term:a549d10e-4623-4ac0-8488-2fb054eea978;
@@ -19120,6 +18942,10 @@ imbor-domeinwaarde:b0d2dcd1-2a0f-411d-9d94-5438d92d41b5 a imbor:e1ca3ef9-f67e-4c
 imbor-domeinwaarde:b0dec6eb-2872-4685-9a02-638d00e26833 a imbor:667cf73c-9333-4a8b-86af-08612aba39d2;
   rdfs:seeAlso imbor-term:94f73dc7-cc9c-459c-8513-1bc20c45ba4c;
   skos:prefLabel "T-wand"@nl.
+
+imbor-domeinwaarde:b0e90677-844d-4d20-8612-d13d1058149e a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
+  rdfs:seeAlso imbor-term:f0bdcaef-f0b7-4b7b-b015-e1068b6be962;
+  skos:prefLabel "Voetgangersgebied (geofunctie)"@nl.
 
 imbor-domeinwaarde:b0ec993d-b6ed-437f-87e8-65e415f19592 a imbor:9ef15a35-4e6c-45ab-8505-62b7f65a0172;
   rdfs:seeAlso imbor-term:336b50fa-ffa8-46a6-8952-4defc6c0288b;
@@ -19417,7 +19243,7 @@ imbor-domeinwaarde:b31aa783-0504-49fc-860a-14a73aea6474 a imbor:e21f18cd-7fc2-43
 imbor-domeinwaarde:b328e006-3845-4e55-a07d-e46659522528 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:5482c561-97ec-422a-9b9c-e66c0b98ec8f;
   skos:definition "Wegdeel uitsluitend bedoeld voor vliegverkeer. (bron: BGT)"@nl;
-  skos:prefLabel "Baan voor vliegverkeer"@nl.
+  skos:prefLabel "Baan voor vliegverkeer (geofunctie)"@nl.
 
 imbor-domeinwaarde:b32f8e23-2641-4a7d-8863-c4499dc8d63b a imbor:5f49e109-2459-4743-a965-6bdbfc6534b1;
   rdfs:seeAlso imbor-term:12a882d4-ad5a-4b05-a1b1-d77190ded796;
@@ -19658,12 +19484,6 @@ imbor-domeinwaarde:b52e85c4-76ee-47b1-adef-8f2fae15a121 a imbor:b94246d0-c583-49
 imbor-domeinwaarde:b53b0505-89a6-40d8-aa9d-1178a9ea0ffc a imbor:d286af7c-8ab3-4246-8c0f-c84efd69ac47;
   rdfs:seeAlso imbor-term:cfb8ee98-193f-4ef8-8276-2392916ee0e2;
   skos:prefLabel "Inspectie boombeleid"@nl.
-
-imbor-domeinwaarde:b543813a-9807-4911-a51e-eaeee1f6fe03 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:0a870d0a-d005-4083-8c81-f2516a0fec71;
-  skos:broader imbor-domeinwaarde:45496a13-cba5-47cf-9822-17de9227af5c;
-  skos:definition "Directe dienstverlening vanuit een gemeente aan inwoners en bedrijven."@nl;
-  skos:prefLabel "Gemeentekantoor"@nl.
 
 imbor-domeinwaarde:b54b6255-1c8d-4f40-9c0a-8d70f2f1a304 a imbor:c10bd1ff-ad52-4856-9b51-501b4bd77192;
   rdfs:seeAlso imbor-term:b8b72e9a-075a-451a-aa4e-253a298727af;
@@ -19917,12 +19737,6 @@ imbor-domeinwaarde:b8029fbf-3d65-42a0-a135-024bc011d9ce a imbor:e0f29e17-564d-4f
   skos:definition "Een fitnesstoestel bestaande uit een paal met een horizontale aangrijpstang, bedoeld om optrekoefeningen mee te doen."@nl;
   skos:prefLabel "Upperbody Trainer"@nl.
 
-imbor-domeinwaarde:b8388823-3d75-4463-9c19-62e7b4869a9b a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:5ce86f40-0b0d-4281-8ef7-84ae2dbd6de7;
-  skos:broader imbor-domeinwaarde:3aa2994e-54f7-483a-821d-d0332d4b6399;
-  skos:definition "Gebruiksdoel van een gebouw: het gebouw is penbaar toegankelijk voor zwemactiviteiten."@nl;
-  skos:prefLabel "Zwembad"@nl.
-
 imbor-domeinwaarde:b840d399-0e6e-4c69-abbf-e21ae75904c8 a imbor:4a373865-33c4-414f-ba76-64cc3d2e1117;
   rdfs:seeAlso imbor-term:9d2790db-43b6-475b-b18f-4d2d172d5c82;
   skos:definition "Voegovergang van speciaal ontwikkeld flexibel materiaal, in situ vervaardigd, dat tevens het wegoppervlak vormt. Het oppervlak van de voegovergang is in lijn met het wegoppervlak."@nl;
@@ -19955,7 +19769,7 @@ imbor-domeinwaarde:b879c1fb-0774-431f-8d1e-c269334d88df a imbor:d9fe3615-5b28-4a
   rdfs:seeAlso imbor-term:ce685551-31fe-4eb8-93bb-503c98a04ce1;
   skos:broader imbor-domeinwaarde:c0bfcdcb-d134-4332-a4c5-323253d4b6f0;
   skos:definition "Losse soort halfverharding: het is een verzamelnaam voor alle soorten nevengesteenten die bij de winning van steenkool vrijkomen."@nl;
-  skos:prefLabel "Mijnsteen"@nl.
+  skos:prefLabel "Mijnstenen"@nl.
 
 imbor-domeinwaarde:b87c7641-2295-466c-92c0-092059cd5654 a imbor:e21f18cd-7fc2-43c2-a770-3dc7d98ef214;
   rdfs:seeAlso imbor-term:2d73ba53-0719-495b-aa29-800a38ecc513;
@@ -21009,12 +20823,6 @@ imbor-domeinwaarde:c1ddde0a-542a-488b-b1f6-e4eac42c1122 a imbor:d4b0e2a3-48d2-42
   skos:definition "Verharde strook langs een rijbaan van een stroomweg, waarop uitsluitend in bijzondere gevallen of in geval van nood mag worden gereden of gestopt."@nl;
   skos:prefLabel "Vluchtstrook"@nl.
 
-imbor-domeinwaarde:c1e1e492-6628-4b11-aed4-9b8386af385c a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:aa5e9737-14a4-4064-9223-8187aa5bb706;
-  skos:broader imbor-domeinwaarde:45496a13-cba5-47cf-9822-17de9227af5c;
-  skos:definition "Punt van waaruit verkeersregulatie te land, ter zee of in de lucht plaatsvindt."@nl;
-  skos:prefLabel "Verkeerstoren"@nl.
-
 imbor-domeinwaarde:c20be759-772d-40ae-a5dc-6d96f1a64c99 a imbor:3064ac88-a86e-4cd5-a87e-b43120dae45b;
   rdfs:seeAlso imbor-term:03c9902f-160d-4c7f-ba89-f3e6ff74c907;
   skos:definition "Een pomp die, aangedreven door handbewegingen, water uit de grond kan onttrekken."@nl;
@@ -21237,7 +21045,7 @@ imbor-domeinwaarde:c3c7306e-165a-4d34-a4a5-827b20a231d2 a imbor:7d3ccf39-96c6-4b
   rdfs:seeAlso imbor-term:7de4bd98-b39f-443a-a6bd-bdb20a4ab408;
   skos:broader imbor-domeinwaarde:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Type van elementenverharding, betonstraatstenen: vlak bestaande uit betonstenen."@nl;
-  skos:prefLabel "Betontegel"@nl.
+  skos:prefLabel "Betontegels"@nl.
 
 imbor-domeinwaarde:c3e2c983-68c9-45f7-a953-583f2c48cc82 a imbor:6f8fc0d2-1ad3-43aa-866e-32cdd223f746;
   rdfs:seeAlso imbor-term:02907a6e-f3ec-4fb6-bcdf-d30804692909;
@@ -21361,12 +21169,6 @@ imbor-domeinwaarde:c5218e6e-4862-4101-8143-d8534a02a770 a imbor:b94246d0-c583-49
   skos:broader imbor-domeinwaarde:f571bd75-07aa-47c6-86ce-4f24d56d4d1f;
   skos:definition "Stop. In het bord kan worden aangegeven door wie of waarom het bord wordt toegepast."@nl;
   skos:prefLabel "F10"@nl.
-
-imbor-domeinwaarde:c524d138-8798-47fc-947e-dc47131f68da a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:6f87e3c7-bb17-43c0-8407-dc09f0f8f147;
-  skos:broader imbor-domeinwaarde:45496a13-cba5-47cf-9822-17de9227af5c;
-  skos:definition "Heffing van gelden ten behoeve van het gebruik van verkeers- of waterwegen."@nl;
-  skos:prefLabel "Tol"@nl.
 
 imbor-domeinwaarde:c52fdea3-9e3c-4746-a424-38c22602baa1 a imbor:6f8255af-3b3b-4f45-a30d-f96db99b1b75;
   rdfs:seeAlso imbor-term:cd117605-57ac-4463-8843-2f2935881d03;
@@ -22223,12 +22025,6 @@ imbor-domeinwaarde:cbf06461-a1b3-45be-826e-9045d5deb04c a imbor:2855a4d1-778b-4b
   skos:definition "Regionale en toeristische verkeersweg (R-wegen)."@nl;
   skos:prefLabel "TBW423"@nl.
 
-imbor-domeinwaarde:cbf4a5c3-24ec-4c09-87b0-fd2940e6195b a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:316734e0-d5ea-49ee-81a2-0bd0b9ba41fd;
-  skos:broader imbor-domeinwaarde:58708deb-b0b8-4b79-a630-abca5087cbbb;
-  skos:definition "Economische activiteiten waarbij het natuurlijke milieu wordt aangepast ten behoeve van de productie van planten voor menselijk of dierlijk gebruik."@nl;
-  skos:prefLabel "Akkerbouwbedrijf"@nl.
-
 imbor-domeinwaarde:cbf53e9b-9476-4cdd-9fd3-4bc8c871c7ff a imbor:1cdc8b3e-cdec-43b5-862e-b0b44f82d858;
   rdfs:seeAlso imbor-term:6b62fdb3-2752-494b-9b46-6d8a9b2d6423;
   skos:definition "Voorziening voor bodeminfiltratie van regenwater."@nl;
@@ -22439,12 +22235,6 @@ imbor-domeinwaarde:cdc50ece-ad0f-4eb9-8026-d5203351a3bf a imbor:d1d82c26-ebdf-44
   skos:definition "Al of niet gemengde smalle heesterbeplanting die aan de bovenkant en de zijkant(en) wordt geknipt."@nl;
   skos:prefLabel "Geschoren haag"@nl.
 
-imbor-domeinwaarde:cdc866a8-bf04-43c6-bdf4-415677bf0756 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:255c40d3-0ae6-4258-a2f8-86d340c01f15;
-  skos:broader imbor-domeinwaarde:45496a13-cba5-47cf-9822-17de9227af5c;
-  skos:definition "Ambtsverblijf dat een openbare of ceremoniële functie heeft."@nl;
-  skos:prefLabel "Paleis"@nl.
-
 imbor-domeinwaarde:cdd99a83-67d0-487e-8044-77789e5e31f9 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:42439232-8498-4794-b78e-cf0623d1862d;
   skos:broader imbor-domeinwaarde:42a01431-d7ae-4a5c-abe5-ebd1e1eb1e2f;
@@ -22577,12 +22367,6 @@ imbor-domeinwaarde:cf081695-def5-49c6-9304-aee448c43761 a imbor:530c20c3-34a7-4d
   skos:definition "Bescherming tegen voorwerpen >1mm en volledige waterdichtheid, ook bij onderdompeling (>1m)."@nl;
   skos:prefLabel "IP48"@nl.
 
-imbor-domeinwaarde:cf1fc649-be49-4550-a159-618d230b0c95 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:5c9ff70b-4272-4951-8065-44a3667b374e;
-  skos:broader imbor-domeinwaarde:3d652667-b5ff-4545-8454-58cdaaaa2c8a;
-  skos:definition "Activiteiten gericht op het ten behoeve van leden of andere deelnemers aan een groep verzorgen van ontspannende activiteiten of samenkomsten."@nl;
-  skos:prefLabel "Clubgebouw"@nl.
-
 imbor-domeinwaarde:cf223a88-edf1-487c-aaf9-8ed6369217fb a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:47a6753d-8326-4271-8dea-e39ad9472ab6;
   skos:broader imbor-domeinwaarde:8dde640c-de1d-4b65-9aaf-930f9edd6560;
@@ -22609,7 +22393,7 @@ imbor-domeinwaarde:cf4019c2-d83d-46a1-a4ed-f3e2532bc916 a imbor:7d3ccf39-96c6-4b
   rdfs:seeAlso imbor-term:c50bd637-0024-49dc-b69c-57458742322b;
   skos:broader imbor-domeinwaarde:21e4d7bc-5fe3-4f10-89ea-b3cd4ff811c1;
   skos:definition "Type gedetailleerd van elementenverharding, natuursteen: vlak bestaande uit grove stenen."@nl;
-  skos:prefLabel "Kei"@nl.
+  skos:prefLabel "Keien"@nl.
 
 imbor-domeinwaarde:cf46017a-305b-401e-828e-f66e92ae9286 a imbor:06e691e9-bd30-43b5-939b-199a376e83c4;
   rdfs:seeAlso imbor-term:55618615-127c-4e58-9570-d16530963cae;
@@ -23060,7 +22844,7 @@ imbor-domeinwaarde:d39432eb-9a99-4fae-915c-fbebf1c2e82b a imbor:b94246d0-c583-49
 imbor-domeinwaarde:d3ab8143-36ba-46c5-ab4e-1a82dfc4953a a imbor:1b9a9921-2020-4327-897c-c91bfad64fe2;
   rdfs:seeAlso imbor-term:b9478e04-3194-4c67-96f2-d78578fceab0;
   skos:definition "Een vezel van glas die zo dun is als een haar en vanwege deze materie-eigenschap een uitstekende signaaldrager is."@nl;
-  skos:prefLabel "Glasvezel"@nl.
+  skos:prefLabel "Glasvezelkabel"@nl.
 
 imbor-domeinwaarde:d3c3eb69-5846-483f-a8c6-ef53220ad8b8 a imbor:3fe2f199-3a9f-44f0-abac-d30410499556, imbor:5fbcaad8-f042-4d97-8d7e-53b0cdba6dbc, imbor:604c62f5-7644-4642-8374-c4e650e60314, imbor:8a07c34d-7bbe-498f-953a-98c7d4f34090, imbor:94ddfa15-ed29-4b4e-82c8-010163ebf967, imbor:b95483be-e73e-4a73-9f5e-0648c8770c72, imbor:c1ce7984-227a-4f2c-a995-604b7437bbde, imbor:d87d0f09-449a-4c1a-a83b-a4a7bb6b8d7f;
   rdfs:seeAlso imbor-term:d360cf56-e01d-464e-9c24-5b5f779d43c3;
@@ -23133,11 +22917,6 @@ imbor-domeinwaarde:d451cc6a-8796-41d3-8f82-8a428c560909 a imbor:52a732f0-574a-4a
   skos:definition "Verboden voor zeilschepen."@nl;
   skos:prefLabel "A.15"@nl.
 
-imbor-domeinwaarde:d45ea6a1-5da3-45c3-83ac-d85351de294e a imbor:e1a12237-cce0-480d-bd88-ec0f23c7dc8f;
-  rdfs:seeAlso imbor-term:d22d7390-7df0-4443-95a1-e5b4e8f011a7;
-  skos:definition "Horizontaal gedeelte van een dijk, aan de buitenzijde gelegen, als overgang tussen de harde bekleding en de rest van het talud of de vooroever Ook wel ‘kreukelberm’ (Zeeland) genoemd. Tevens een functie van een ondiep onderwatertalud."@nl;
-  skos:prefLabel "Plasberm"@nl.
-
 imbor-domeinwaarde:d46a7401-576c-4b2e-bba9-04f1b40e8c0d a imbor:e3596254-1e8e-47a2-9b99-cffa9ac1ce46;
   rdfs:seeAlso imbor-term:0d6b201f-67ed-4aa3-9223-64db889b9198;
   skos:prefLabel "Opbouw"@nl.
@@ -23169,12 +22948,6 @@ imbor-domeinwaarde:d4c74e23-35ae-4a24-a254-13fc4ccce05a a imbor:c1d1f8b0-7bb6-48
   rdfs:seeAlso imbor-term:e2d338bb-1ea6-4531-be0a-0a6dfba102cb;
   skos:definition "Het verplaatsen van water naar een bepaalde plek."@nl;
   skos:prefLabel "Wateraanvoer"@nl.
-
-imbor-domeinwaarde:d4c9e715-6135-46d5-8a9c-14b567803f6a a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:3f779432-4bf1-4b39-9e5d-a46fb19a2232;
-  skos:broader imbor-domeinwaarde:b166766f-c20c-4a94-a793-99abeda74e26;
-  skos:definition "Publieke uitgaansgelegenheid die speciaal is bedoeld voor het bekijken van films."@nl;
-  skos:prefLabel "Bioscoop"@nl.
 
 imbor-domeinwaarde:d4ceba20-917b-4b54-b470-7d4174732ad5 a imbor:5e1f4842-2730-46fc-a4ef-da4dddb97cac;
   rdfs:seeAlso imbor-term:5580d4b7-f3ee-4469-bcbd-8aa9e642387a;
@@ -23488,7 +23261,7 @@ imbor-domeinwaarde:d7e1650c-95c8-45a3-8be4-5b7698082037 a imbor:94ed4655-6490-45
   skos:definition "Een middels lassen tot stand gebrachte koppeling van twee delen."@nl;
   skos:prefLabel "Lasverbinding"@nl.
 
-imbor-domeinwaarde:d7e7292e-71f5-444c-80f2-d89df8f6cb56 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9, imbor:8e2a1a6b-b9f2-4d9e-84e4-26ea69d00318;
+imbor-domeinwaarde:d7e7292e-71f5-444c-80f2-d89df8f6cb56 a imbor:8e2a1a6b-b9f2-4d9e-84e4-26ea69d00318;
   rdfs:seeAlso imbor-term:ecdbc5c0-32a5-4dcf-b8f8-c2a960d8387c;
   skos:definition "Voetpad op verkeersinfrastructurele voorziening bestaande uit een constructie van treden, waarop men een hoger of lager gelegen plaats kan bereiken."@nl;
   skos:prefLabel "Voetpad op trap"@nl.
@@ -23496,7 +23269,7 @@ imbor-domeinwaarde:d7e7292e-71f5-444c-80f2-d89df8f6cb56 a imbor:799bcebc-2eee-45
 imbor-domeinwaarde:d7e7d822-7bec-4b3f-a1da-1720b8ecb5c4 a imbor:60fa6e1e-7130-476c-86b3-b5806cbde44d;
   rdfs:seeAlso imbor-term:712e555d-b68b-425a-963f-2463990651ea;
   skos:definition "Een mengsel van cement en water."@nl;
-  skos:prefLabel "Cementmortel"@nl.
+  skos:prefLabel "Voegmortel"@nl.
 
 imbor-domeinwaarde:d7f7003c-87f7-42cb-a17b-2b1cd92f8d01 a imbor:88af63b6-d684-400a-9cca-0979124e5cd2, imbor:cc3d0fc4-b9e7-4af5-9f58-74b9eb7a04d9;
   rdfs:seeAlso imbor-term:04bc0496-aea9-44b8-8a9d-8e0df2062a63;
@@ -23581,12 +23354,6 @@ imbor-domeinwaarde:d8d1d496-3e91-43e1-a978-30cf93b4a080 a imbor:e0f29e17-564d-4f
   rdfs:seeAlso imbor-term:b406e685-efe3-4f82-bbd0-96e3e59edd90;
   skos:definition "Fitness duikelrek dat bestaat uit een frame met bovenin hangende ringen en onderin een touw waarover al balancerend gelopen kan worden."@nl;
   skos:prefLabel "Ringenrek met balanceertouw"@nl.
-
-imbor-domeinwaarde:d8da42d6-5d2c-43a6-ae83-65ff9745efea a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:ff617fd4-e4ee-4086-b525-acfd87665458;
-  skos:broader imbor-domeinwaarde:25a52b1f-53da-45d1-a498-9842a0bef8b3;
-  skos:definition "Onderzoek, behandeling en verpleging van patiënten in het kader van professionele gezondheidszorg."@nl;
-  skos:prefLabel "Ziekenhuis"@nl.
 
 imbor-domeinwaarde:d8dc7c80-4215-460c-84f0-bd04167520eb a imbor:366d1e98-c676-4985-965f-0cedc0242918;
   rdfs:seeAlso imbor-term:f3aee40a-2fc7-4616-aeae-c6292b37fc6f;
@@ -23675,12 +23442,6 @@ imbor-domeinwaarde:d98f5220-78a0-4339-84fc-dc5a94800ae8 a imbor:095fd5db-2bb5-43
   rdfs:seeAlso imbor-term:7e51c7b0-b7ef-441b-a9ef-1f51f4ed179a;
   skos:definition "Een fitnesscombinatietoestel met twee onderdelen: een Twist, een cirkelvormig draaiend plateau waarmee men de buikspieren kan trainen door heen en weer te draaien met het onderlijf, en een Wobble, een cirkelvormige instabiele ondergrond die erg geschikt is voor balanceeroefeningen."@nl;
   skos:prefLabel "Twist en Wobble"@nl.
-
-imbor-domeinwaarde:d9915843-dd62-486e-8e53-abe45c12c55c a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:a2d61d4b-b70c-47bd-9140-666e0f6e9832;
-  skos:broader imbor-domeinwaarde:45496a13-cba5-47cf-9822-17de9227af5c;
-  skos:definition "Dienstverlening door de politie aan de samenleving."@nl;
-  skos:prefLabel "Politiebureau"@nl.
 
 imbor-domeinwaarde:d9b0a31f-5a0f-447b-9d0f-52392c2d376c a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:671edafe-6b18-4626-8602-ba98b83ffce4;
@@ -23854,7 +23615,7 @@ imbor-domeinwaarde:dae900fa-2c70-4e16-83ac-a066da5b1f44 a imbor:80122fcc-7387-42
 imbor-domeinwaarde:daeac277-badc-4a53-b638-232687adee2a a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:8085dcd8-dec7-427c-9645-6a4b5909daca;
   skos:definition "Een verbindingsweg bij een regionale weg, is (in principe) een eenrichtingsweg, gelegen binnen een knooppunt of aansluiting, die onderdeel is van de wijze waarop de ongelijkvloersheid is gerealiseerd. (bron: wegenwiki.nl)"@nl;
-  skos:prefLabel "Verbindingsweg regionale weg"@nl.
+  skos:prefLabel "Verbindingsweg regionale weg (geofunctie)"@nl.
 
 imbor-domeinwaarde:daf1359c-9082-4190-8e2e-9b2208f65ced a imbor:b79c6efb-9fd9-4235-827d-fdf02f80fd2c;
   rdfs:seeAlso imbor-term:4fb1aed2-ef00-419e-9ee9-6f82633bac45;
@@ -24311,10 +24072,10 @@ imbor-domeinwaarde:deed9109-a0d7-4147-81a4-7eae1aacf336 a imbor:97f4a9dc-734b-4c
   skos:definition "Een speeltoestel bestaande uit een kabel gespannen tussen twee constructies waarlangs een gebruiker zittend pendelt. Eén van de constructies ligt op een natuurlijk of kunstmatig talud, wat het hoogteverschil tussen de twee constructies van de kabelbaan verzorgt."@nl;
   skos:prefLabel "Enkelvoudige taludkabelbaan voor zittend gebruik"@nl.
 
-imbor-domeinwaarde:def14dca-0696-41f1-adae-d97b91720216 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9, imbor:d4b0e2a3-48d2-426c-b489-ad7991384c58;
+imbor-domeinwaarde:def14dca-0696-41f1-adae-d97b91720216 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:aa7e7995-0674-4034-8e61-05977db12488;
   skos:definition "Toegangswegen oprijlanen en dergelijke met een verkeersfunctie die leiden naar afgelegen erven en terreinen."@nl;
-  skos:prefLabel "Inrit"@nl.
+  skos:prefLabel "Inrit (geofunctie)"@nl.
 
 imbor-domeinwaarde:df022f2e-a9cd-425c-ae09-22224708117e a imbor:4c39692c-d10b-44ce-b7f6-6fd82afc8ade;
   rdfs:seeAlso imbor-term:85b69e95-733d-4091-98d0-9a1bc07e767e;
@@ -24329,7 +24090,7 @@ imbor-domeinwaarde:df292cf0-31fc-48d7-813a-4a3c2ca3e44c a imbor:9116425e-f7d5-43
 imbor-domeinwaarde:df448a52-bdab-4c50-9d61-da0e8fd3c480 a imbor:7d3ccf39-96c6-4bf4-af2a-b4a7e56b6a77;
   rdfs:seeAlso imbor-term:d9ee8a46-a0cc-48e2-90d4-5713699d2043;
   skos:definition "Elementenverharding gemaakt van betonstraatstenen. Straatsteen die als goedkope vervanging van de gebakken klinkers is ontwikkeld."@nl;
-  skos:prefLabel "Betonstraatsteen"@nl.
+  skos:prefLabel "Betonstraatstenen"@nl.
 
 imbor-domeinwaarde:df596f4e-48ac-4c9c-8759-c33e7f65fd50 a imbor:8524b785-ab0b-430d-8b87-eb55e967f6a4;
   rdfs:seeAlso imbor-term:66dfd598-bc45-43de-84fe-c94d2f2cb5d0;
@@ -24658,11 +24419,6 @@ imbor-domeinwaarde:e2a70b0c-6590-40b6-b12e-649a53e2f3e5 a imbor:e0f29e17-564d-4f
   rdfs:seeAlso imbor-term:eca2f631-90d7-48f2-980c-9bc91924f5b4;
   skos:definition "Drie aaneengesloten in de grond gemonteerde beugels waarop recreatieve draai- en duikelbewegingen uitgevoerd kunnen."@nl;
   skos:prefLabel "Drievoudig duikelrek"@nl.
-
-imbor-domeinwaarde:e2b1f0fa-1a85-4a89-bded-1307bc952ae7 a imbor:c10bd1ff-ad52-4856-9b51-501b4bd77192;
-  rdfs:seeAlso imbor-term:bab7191d-4b36-46d7-8cf6-5d8ae70a2e42;
-  skos:definition "Bij het object is iets aan de hand wat onderzocht moet worden."@nl;
-  skos:prefLabel "In onderzoek"@nl.
 
 imbor-domeinwaarde:e2b22d5d-c35f-4847-a866-d534eb81230a a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:87c826eb-08ae-49fd-86c3-eb92f1f387c7;
@@ -25334,13 +25090,7 @@ imbor-domeinwaarde:e987ea4c-c42d-44cb-90ca-573817c7c297 a imbor:5007b34b-3266-4a
 imbor-domeinwaarde:e98c1a83-dbc0-46d6-ae0e-560f73ca401a a imbor:799bcebc-2eee-4591-9d46-cf73988046f9;
   rdfs:seeAlso imbor-term:03e8e4d4-637d-4bc3-9f90-2320f8253c8f;
   skos:definition "Een wegdeel primair aangelegd voor het gebruik door ruiters. (bron: BGT)"@nl;
-  skos:prefLabel "Ruiterpad"@nl.
-
-imbor-domeinwaarde:e98c2296-0e1f-4a01-b61e-8f1c89c62298 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:37f967cf-5f7b-4aa3-91fc-0158d370f206;
-  skos:broader imbor-domeinwaarde:3aa2994e-54f7-483a-821d-d0332d4b6399;
-  skos:definition "Beoefening van het paardrijden in een besloten omgeving."@nl;
-  skos:prefLabel "Manege"@nl.
+  skos:prefLabel "Ruiterpad (geofunctie)"@nl.
 
 imbor-domeinwaarde:e9926440-e2fe-455a-b5b4-a95f21b003e7 a imbor:06e691e9-bd30-43b5-939b-199a376e83c4;
   rdfs:seeAlso imbor-term:ae58712d-5ac3-4a32-ae37-ae71fcf80306;
@@ -25807,12 +25557,6 @@ imbor-domeinwaarde:ede84984-733b-44df-a905-ed701594ee84 a imbor:673b4208-70f2-4e
   skos:definition "Schrikhek 2 planken 2 palen schuine strepen naar links."@nl;
   skos:prefLabel "BB19r"@nl.
 
-imbor-domeinwaarde:edecfdb4-e167-4b3c-84b6-f013523263b9 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:fd6a3dd6-d91b-4517-b046-3a8322a2816a;
-  skos:broader imbor-domeinwaarde:58708deb-b0b8-4b79-a630-abca5087cbbb;
-  skos:definition "Vorm van aquacultuur, waarbij vissen op een commerciële manier worden gekweekt voor consumptie."@nl;
-  skos:prefLabel "Viskwekerij"@nl.
-
 imbor-domeinwaarde:edf44e6e-5938-4ab0-a863-3465eebdabbb a imbor:fb452b03-b6af-4b55-a78c-e7e976cfee60;
   rdfs:seeAlso imbor-term:65be038e-f930-4560-9899-22a63b71bd3e;
   skos:definition "Een glijbaan met meerdere glijbakken waarbij ieder van die bakken de vorm heeft van een kromming of een golf, al dan niet met een uitloopsegment als verlenging."@nl;
@@ -25897,7 +25641,7 @@ imbor-domeinwaarde:eeb201a6-b1b2-4232-9444-b9d05d648da4 a imbor:7d3ccf39-96c6-4b
   rdfs:seeAlso imbor-term:c126be87-2562-4838-9dc4-56b5a2510a08;
   skos:broader imbor-domeinwaarde:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Type gedetailleerd van elementenverharding, tegels."@nl;
-  skos:prefLabel "Gras- en grindtegel"@nl.
+  skos:prefLabel "Gras- en grindtegels"@nl.
 
 imbor-domeinwaarde:eec2c34e-8c17-41ee-8a53-9b7370087df8 a imbor:69d92e32-0754-4853-95ad-dc83f6ede132;
   rdfs:seeAlso imbor-term:0b42d04d-e32b-4586-84a4-4860daa804eb;
@@ -26110,12 +25854,6 @@ imbor-domeinwaarde:f066df1f-8c4b-4d9d-b29a-6955b75508c9 a imbor:1e29b693-f9d4-4a
   rdfs:seeAlso imbor-term:94801d13-672c-4b40-84c8-b5a34c554b74;
   skos:definition "De directe omgeving van de boom laat niet toe takken onbegeleid uit de boomkroon vallen."@nl;
   skos:prefLabel "Geen vrije takval mogelijk"@nl.
-
-imbor-domeinwaarde:f085cb25-0e0d-4e7f-a00d-2783ad6cbfbf a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:481c2d49-2282-44d4-8162-354b27a26c52;
-  skos:broader imbor-domeinwaarde:b166766f-c20c-4a94-a793-99abeda74e26;
-  skos:definition "Publieke uitgaansgelegenheid bedoeld voor vormen van kunst die uitgevoerd worden op een podium in de aanwezigheid van publiek."@nl;
-  skos:prefLabel "Podiumkunst"@nl.
 
 imbor-domeinwaarde:f091379e-9860-42e1-a52c-aef5ce8eae0b a imbor:640ecf4c-ddfe-4ca8-9308-a060fc225298, imbor:a5320f8d-1b57-4448-844f-c5575b9536f7;
   rdfs:seeAlso imbor-term:c4e10b51-8284-45d2-804a-e8c141ae4840;
@@ -26405,7 +26143,7 @@ imbor-domeinwaarde:f2f24f0d-547e-4b32-8f32-3c82f2ab23ae a imbor:b94246d0-c583-49
   skos:definition "Tekst: sector A."@nl;
   skos:prefLabel "OB903-A"@nl.
 
-imbor-domeinwaarde:f3305ac5-7215-4d6b-a70a-636801b74745 a imbor:799bcebc-2eee-4591-9d46-cf73988046f9, imbor:b87e39bb-b1c4-4193-9485-9ba197e51fc2;
+imbor-domeinwaarde:f3305ac5-7215-4d6b-a70a-636801b74745 a imbor:b87e39bb-b1c4-4193-9485-9ba197e51fc2;
   rdfs:seeAlso imbor-term:7dea2b87-3746-448c-99f9-414cdf7af0bc;
   skos:definition "Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten etc.) prioriteit heeft boven de verkeersfunctie, daartoe aangeduid met de “verplichte” verkeersborden."@nl;
   skos:prefLabel "Woonerf"@nl.
@@ -26757,7 +26495,8 @@ imbor-domeinwaarde:f7810850-eea7-4e92-81ac-30feaa9746fb a imbor:6a2e91d6-e387-46
 
 imbor-domeinwaarde:f785bb26-c344-4f58-83e6-aa7ead7be8f2 a imbor:d039d253-cecf-4ccc-a91c-bac42c088535;
   rdfs:seeAlso imbor-term:30e64ee2-de5a-4268-a158-f068a9c45d40;
-  skos:prefLabel "Deelliner"@nl.
+  skos:definition "Een deelliner, ook wel bekend als een shortliner of partliner, is een methode om een deel van een rioolbuis te repareren. Het is een kleinere, lokale versie van een kousrenovatie, waarbij een beschadigd gedeelte van de buis wordt gerepareerd met een kous die is geïmpregneerd met hars. Dit is een kostenefficiënte manier om specifieke problemen zoals scheuren, ontbrekende buiswand of wortelgroei aan te pakken."@nl;
+  skos:prefLabel "Deelliner aangebracht"@nl.
 
 imbor-domeinwaarde:f78ada81-62f4-4283-a572-260c41dee835 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:411e6a76-89c0-4060-940d-d0d73be16ff3;
@@ -26808,10 +26547,11 @@ imbor-domeinwaarde:f7fd00f9-2008-478c-9352-87f75ddae555 a imbor:7d3ccf39-96c6-4b
   rdfs:seeAlso imbor-term:0babd125-ee39-4088-a341-c944a45cffc8;
   skos:broader imbor-domeinwaarde:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Type gedetailleerd van elementenverharding, tegels. Een type tegel, ook wel veiligheidstegel genoemd, dat haar schokabsorberende eigenschappen ontleent aan aan de materialisatie van rubber."@nl;
-  skos:prefLabel "Rubbertegel"@nl.
+  skos:prefLabel "Rubbertegels"@nl.
 
 imbor-domeinwaarde:f812ba75-72c6-46f3-9dc7-f497010fbd69 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
   rdfs:seeAlso imbor-term:99975b65-c5c4-4948-a87f-30535994db36;
+  skos:broader imbor-domeinwaarde:1b53d81a-4a13-4d4c-a349-8f2efdd207e6;
   skos:prefLabel "Hoogbouw"@nl.
 
 imbor-domeinwaarde:f8189a0f-53f4-4c97-a8e0-bc1c83f5c4a2 a imbor:e29de60f-1400-41dd-a375-0708b78c11ee;
@@ -27088,12 +26828,6 @@ imbor-domeinwaarde:fac19064-64f2-4bb9-aae2-32f83d4bf6f5 a imbor:6c8dd5bf-2c86-49
   skos:definition "Drie balken die in elkaars verlengde liggen."@nl;
   skos:prefLabel "Driedubbele evenwichtsbalk"@nl.
 
-imbor-domeinwaarde:fac3d626-10ed-45d3-85dd-006998e15157 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:f06da0ff-1625-42c2-97b5-f076e3868429;
-  skos:broader imbor-domeinwaarde:81be92ab-fc3d-4d62-86e9-300cebcd45a3;
-  skos:definition "Gebruiksgebied dat bedoeld is voor het in- en uitstappen in treinen."@nl;
-  skos:prefLabel "Station"@nl.
-
 imbor-domeinwaarde:fae90bbe-34a1-44fa-b342-4e6414251031 a imbor:40ba92bf-bb51-40f9-b9f6-4aec6e97b8bb;
   rdfs:seeAlso imbor-term:166993d7-03fa-4128-bec4-7e78d996eddb;
   skos:definition "Een speeltoestel in de vorm van een rots."@nl;
@@ -27114,11 +26848,6 @@ imbor-domeinwaarde:fb22f094-f1b3-4a43-a10d-7641769284dd a imbor:92886557-a93a-4e
   rdfs:seeAlso imbor-term:b82bfae0-e4d8-483f-b48f-25560b33517c;
   skos:definition "Straatnaambord met 2 tekstregels, ondertekst, pijl links en rechts en huisnummerbereik op 2 regels."@nl;
   skos:prefLabel "N04-7"@nl.
-
-imbor-domeinwaarde:fb248e0b-301b-4a92-a3a5-5b5f8dcc7bd4 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:c73f7485-ec51-4e7c-9e97-a7b8adc85321;
-  skos:definition "Openbare voorziening voor het parkeren van voertuigen."@nl;
-  skos:prefLabel "Parkeergarage"@nl.
 
 imbor-domeinwaarde:fb25952c-e1f9-499b-815a-a8bdf8ed2841 a imbor:2855a4d1-778b-4bae-bafc-38c66dcdaae7;
   rdfs:seeAlso imbor-term:25fcf431-d84a-4469-9a8e-867d2b5933e9;
@@ -27192,12 +26921,6 @@ imbor-domeinwaarde:fbdf6292-6275-4e7b-bc38-4bba40708bc6 a imbor:e29de60f-1400-41
   skos:definition "Geweerschieten of schieten."@nl;
   skos:prefLabel "SG09"@nl.
 
-imbor-domeinwaarde:fbf29290-fcb3-4969-a66a-969f591ed801 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:977e0af7-84e3-4233-aebc-b751c17447a6;
-  skos:broader imbor-domeinwaarde:45496a13-cba5-47cf-9822-17de9227af5c;
-  skos:definition "Locatie van waaruit recht gesproken wordt."@nl;
-  skos:prefLabel "Rechtbank"@nl.
-
 imbor-domeinwaarde:fbfea0ad-7086-4c67-b934-b83e637e0b53 a imbor:b87e39bb-b1c4-4193-9485-9ba197e51fc2;
   rdfs:seeAlso imbor-term:e73f883a-d2bb-47f5-b36c-d738d7ceb195;
   skos:definition "Gebied waarin een maximumsnelheid van 30 km/h geldt en waarin de inrichting van de wegen en eventueel snelheidverlagende voorzieningen het rijden met een hogere snelheid tegengaan."@nl;
@@ -27249,12 +26972,6 @@ imbor-domeinwaarde:fcb0f68d-baac-4743-a01e-87487e7657c5 a imbor:c8b551af-50a4-49
   rdfs:seeAlso imbor-term:d0c98dfd-8eb9-45cf-83da-61c59eed3a19;
   skos:definition "Lage boombeschermer, vaak van een gebogen metalen buis gedeeltelijk of geheel rondom de stam, andere vormen en materialen zijn ook mogelijk. Synoniem 'Hitme'."@nl;
   skos:prefLabel "Boombumper"@nl.
-
-imbor-domeinwaarde:fcb11680-9d66-4822-9696-9859c0d9e518 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:2f4be61a-0bff-4ac4-a4e4-4a267302b080;
-  skos:broader imbor-domeinwaarde:45496a13-cba5-47cf-9822-17de9227af5c;
-  skos:definition "Natuurwetenschappelijke werkplaats voor het maken of onderzoeken van stoffen."@nl;
-  skos:prefLabel "Laboratorium"@nl.
 
 imbor-domeinwaarde:fcbf91e7-7753-4da5-8c90-5dca408b8444 a imbor:b94246d0-c583-49c3-b7f8-994793329b87;
   rdfs:seeAlso imbor-term:61eb0d01-6f4a-44eb-8ff6-dfda237ef3f4;
@@ -27438,12 +27155,6 @@ imbor-domeinwaarde:fe3f0104-14a1-49c5-bae9-0ac80bdaeaa6 a imbor:72dc9bf1-1eed-48
   rdfs:seeAlso imbor-term:4576ce7a-2f78-4c88-b19e-245bf007cc97;
   skos:definition "Elliptische ‘outdoor range’ metaalhalidelamp voor natriumballasten met keramische brander en een enkel eindstuk. De code is ontleend aan het LBS Lampcodesysteem van Zentralverband Elektrotechnik und Elecktronikindustrie. De equivalente ILCOS-code is: ME."@nl;
   skos:prefLabel "HIE-CE/S-od"@nl.
-
-imbor-domeinwaarde:fe47511c-924e-44a0-903b-9d11b1706067 a imbor:bfe6e719-b83c-47f7-bfb9-1db9cf51bc29;
-  rdfs:seeAlso imbor-term:7bdccb97-aef0-4daa-9351-b0120c2e76b6;
-  skos:broader imbor-domeinwaarde:45496a13-cba5-47cf-9822-17de9227af5c;
-  skos:definition "Bewaarplaats voor boeken en andere media waarbij deze al dan niet aan het publiek worden uitgeleend of ter inzage aangeboden."@nl;
-  skos:prefLabel "Bibliotheek"@nl.
 
 imbor-domeinwaarde:fe61ecf1-115e-444e-b8ee-a08a3430735b a imbor:673b4208-70f2-4ed0-be0c-987800d1987a;
   rdfs:seeAlso imbor-term:bbcd4c03-4624-41e3-9a2e-249e221aa1ce;

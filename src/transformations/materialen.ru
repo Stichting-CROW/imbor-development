@@ -48,6 +48,7 @@ insert {
             skos:prefLabel ?TermNL ;
             skos:definition ?DefinitieNL ;
             rdfs:seeAlso ?termUri ;
+            dash:abstract ?KlasseTypeBool ;
             .
     }
 }
@@ -59,6 +60,7 @@ WHERE {
                 csv:IMBORGUID ?IMBORGUID ;
                 csv:Term ?Term ;
                 csv:Collectie ?Collectie ;
+                csv:KlasseType ?KlasseType ;
                 .
             
             FILTER(?Collectie = 22)
@@ -66,6 +68,10 @@ WHERE {
 
             optional { ?row csv:Definitie ?Definitie . }
         
+        VALUES (?KlasseType ?KlasseTypeNL ?KlasseTypeBool) {
+            (14795 "Abstract"@nl true  )
+            (14796 "Concreet"@nl false )
+        }
     }
     
     BIND (URI(CONCAT(STR(imbor:), ?IMBORGUID)) AS ?materiaalUri)

@@ -764,9 +764,6 @@ imbor:23ebdcaa-a893-476f-8724-1e5b80ee91c9
 imbor:23fa0267-230c-4759-97e3-fe57074cd2b5
   imbor-refmodels:levensfaseTypering "O".
 
-imbor:240f3054-e347-404c-85f7-928ec8411c0a
-  imbor-refmodels:levensfaseTypering "O".
-
 imbor:2449df2a-dcbd-43dc-ab39-30073909b654
   imbor-refmodels:levensfaseTypering "O".
 
@@ -4014,9 +4011,6 @@ imbor:c3ee6caf-4776-40d8-9eda-9925f683fede
   imbor-refmodels:levensfaseTypering "B".
 
 imbor:c3f18c4e-95ca-4cb2-9871-baa15b3e4d34
-  imbor-refmodels:levensfaseTypering "O".
-
-imbor:c4003179-3aa7-4a5e-8903-45b4a723dbba
   imbor-refmodels:levensfaseTypering "O".
 
 imbor:c40db6df-cdd6-4c4c-8f56-bf012c7ff93e

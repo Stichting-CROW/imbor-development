@@ -1,3 +1,4 @@
+@prefix dash: <http://datashapes.org/dash#>.
 @prefix gwsw: <http://data.gwsw.nl/1.6/totaal/>.
 @prefix imbor: <https://data.crow.nl/imbor/def/>.
 @prefix imbor-term: <https://data.crow.nl/imbor/term/>.
@@ -8,1600 +9,1852 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 
 gwsw:NylonKous a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:723c4b71-7922-4356-b208-9b93fb6daa01;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Een dunne, hoesachtige koker gemaakt van nylon die bijvoorbeeld deel uitmaakt van boomspiegels ten behoeve van het faciliteren van beluchting."@nl;
   skos:prefLabel "Nylon kous"@nl.
 
 imbor:0102ad05-cf29-467b-9a09-24151a381cce a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:623d675b-13ae-45a0-a282-934e7b8ce21c;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Synthetisch van voornamelijk lijnzaadolie vervaardigd materiaal dat als verharding dient."@nl;
   skos:prefLabel "Linoleum"@nl.
 
 imbor:0144d607-0f9b-4bbe-973b-1ead5fed6a74 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:234ba0a1-5085-415b-8023-d8d4db54ac9a;
   rdfs:subClassOf imbor:2519185c-3848-41fe-8bfe-4dd1ef3398d0;
   skos:definition "Een soort tapijt dat door middel van vernaalden is gemaakt, een techniek waarbij meerdere vezelvliezen in elkaar gehaakt worden."@nl;
   skos:prefLabel "Naaldvilt"@nl.
 
 imbor:02022bdc-b182-4eb6-a7c4-5073538ed071 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:4f342ad3-97c0-4c98-9d71-e2b626334719;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een harde stof met een minerale samenstelling, bijvoorbeeld gewonnen in groeven, gebakken uit klei, gevormd uit beton. (Bron: Wikipedia)"@nl;
-  skos:prefLabel "Steen"@nl.
+  skos:prefLabel "Steen (materie)"@nl.
 
 imbor:0216a4db-9128-4be3-983d-8dad0b4f8859 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:6dffa85a-39e7-4ce5-ac4e-b81658116c0d;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Een asfaltsoort waarin zand en grind zijn uitgehard."@nl;
   skos:prefLabel "Zandgrindasfalt"@nl.
 
 imbor:03ecb198-3c38-44e2-adcc-cffacc17acd2 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:e689cbd0-63cb-4376-b87a-8582c019a0b1;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Een kunstzinnige materiaal- of verhardingssoort die bestaat uit een gebonden verzameling kleine gekleurde steentjes, vaak in de vorm van een afbeelding."@nl;
   skos:prefLabel "Mozaïek"@nl.
 
-imbor:040f07a7-04e3-493f-8168-34c00907fb6c
-  rdfs:subClassOf imbor:1b78d861-6b96-4bd5-8a3a-82c68e6eeced.
-
 imbor:041fa1c8-2e35-4050-893c-ed978427c0be a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:cd4bc23c-4cfc-4bda-b391-3dd0257fafaa;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Draadvormige materialen"@nl;
   skos:prefLabel "Vezels"@nl.
 
 imbor:0428133b-79b3-4f4a-a99f-3da5eb8a5075 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:49c52225-2014-4369-a3bc-546d7587b605;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:definition "High-density polyethylene van kunstmatige oorsprong; een thermoplastisch polymeer met een goede verhouding tussen de kracht en de dichtheid van het materiaal."@nl;
   skos:prefLabel "Kunststof HDPE"@nl.
 
 imbor:0491ce73-ad1d-464e-a4b7-daa428873beb a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:c7700db3-8bee-4d38-be0b-b1d4db73c8af;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Een ongebonden minerale grondsoort aangebracht op een onderlaag van kunststof."@nl;
   skos:prefLabel "Ongebonden mineraal op kunststof"@nl.
 
 imbor:050c7f2a-d5b2-4480-aa74-72ccaa910003 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:ad8da9c1-2045-4540-b5e4-b40c9ff60ef7;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:definition "Een verzamelnaam voor polymeren die onder andere als alternatief voor leder worden gebruikt en als bouwschuim."@nl;
   skos:prefLabel "Polyurethaan"@nl.
 
 imbor:059eca48-9bd4-4533-84bd-fd8ba342df17 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:78106f1f-ff50-49b9-98ab-92dc4791229e;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een verzamelnaam voor bepaalde elementen uit het periodiek systeem."@nl;
   skos:prefLabel "Metaal"@nl.
 
 imbor:05e2e10e-9271-435d-850c-61b192e971c5 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:b5485bbc-b456-432d-94a2-a5f8795823cd;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Een verzamelnaam voor alkaligeactiveerde aluminiumsilicaten. Het zijn anorganische bindmiddelen die meestal bestaan uit twee basiscomponenten, namelijk reactieve aluminium- en siliciumhoudende hoofdbestanddelen (bijv. vliegas, hoogovenslak of metakaoline) en een sterke alkalische activator (bijvoorbeeld waterglas of natriumhydroxide). (Bron: Betonlexicon.nl)"@nl;
   skos:prefLabel "Geopolymeer"@nl.
 
 imbor:06c07def-10b0-4a8e-9c67-433c695579b3 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:a6cb874c-0247-4950-8e41-362dce306764;
   rdfs:subClassOf imbor:c424c16a-aab7-47ac-910a-352c5b14997b;
   skos:definition "Een metalen raster waar een mat gemaakt van kokosvezel opgedrukt is."@nl;
   skos:prefLabel "Gaas met kokosmat"@nl.
 
 imbor:0797c262-aa9f-4eda-988d-4d6fdbc75833 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:9c5f399e-0a76-4622-8d28-ddd0ffceade6;
   rdfs:subClassOf imbor:059eca48-9bd4-4533-84bd-fd8ba342df17;
   skos:definition "Een licht metaal en een goede geleider dat vele toepassingen kent als constructiemateriaal. Het heeft atoomnummer 13."@nl;
   skos:prefLabel "Aluminium"@nl.
 
 imbor:0957b95d-159f-4c76-ae85-ffd7a0484cde a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:216d1be2-e474-455c-ad2d-75c095208142;
   rdfs:subClassOf imbor:5b539c4e-7020-470c-a132-ce9a58cf5693;
   skos:definition "Synoniemen: Puingranulaat, Korrelmix."@nl;
   skos:prefLabel "Menggranulaat"@nl.
 
 imbor:0af3ac1f-9a9d-428a-b570-374f39e96241 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:d2d2cb82-1c4a-4ebb-85ef-84ae131d7072;
   rdfs:subClassOf imbor:246d0d09-2566-4f1d-889e-935abb7fb28b;
   skos:prefLabel "Bermgras/hennep met Bio-composite (Biobased)"@nl.
 
 imbor:0b860294-2cb7-49d3-80fc-33c5d0b1a27e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:d668dfe0-1420-4de7-97c4-d8d4cff54641;
   rdfs:subClassOf imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Een Stelconplaat is een betonnen vloerplaat van gestandaardiseerde afmetingen die veel gebruikt wordt als tijdelijke of permanente verharding van bijvoorbeeld inpandige bedrijfsvloeren, opslagterreinen of wegen."@nl;
   skos:prefLabel "Stelconplaat"@nl.
 
 imbor:0c5c5cc1-09f0-4a39-9f9a-ef2b934e437d a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:29a65978-3a8f-42be-aebd-d9da482254c5;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een porfiersoort die gewonnen wordt in Albiano, Italië."@nl;
   skos:prefLabel "Porfier Albiano-Italië"@nl.
 
 imbor:0c6aa1a7-a440-4ce9-a7ce-7015fe214f92 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:f6b6928b-7749-4fcf-8835-8d6247be07c3;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Een raster bestaande uit horizontale en verticale draden of stangen van een bepaald materiaal."@nl;
   skos:prefLabel "Gaas"@nl.
 
 imbor:0ccf3aaf-5f17-40e4-be9f-e84f6bff28a5 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:d409d9f3-7c16-4a49-a5a9-1a8dba893039;
   rdfs:subClassOf imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Een vlakke soort elementenverharding van een niet-kunstmatige steensoort, die aaneengesloten een oppervlak verhardt."@nl;
   skos:prefLabel "Natuursteentegel"@nl.
 
 imbor:0fa48940-d32c-462f-a4cf-0b056709dd4c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:2136af34-744c-4c12-817a-c260161f3362;
   rdfs:subClassOf imbor:02022bdc-b182-4eb6-a7c4-5073538ed071;
   skos:prefLabel "Flowblock"@nl.
 
 imbor:0fa883ce-7a59-42da-a2b7-eca695dc4c7f a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:a2f694ae-0ec0-46ba-b5eb-8073a3745d61;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Surf: bij deklaag van asfaltbeton."@nl;
   skos:prefLabel "AC * surf"@nl.
 
 imbor:0fbb03d2-e5b7-4a83-ac36-260046d728d5 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:24212bd8-5948-4afc-9554-8046b6fff6f1;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een natuursteen waaruit leien gekliefd worden"@nl;
   skos:prefLabel "Leisteen"@nl.
 
 imbor:116ea1c2-a80f-4af5-8eed-de573a0a80fe a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:e57f7f44-441f-4da0-a031-cbb0bcf55040;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "De bestrating is in tegenstelling tot een gesloten verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn."@nl;
   skos:prefLabel "Elementenbestrating"@nl.
 
 imbor:117c3a73-4737-4924-b4b4-d10cdfd4b61c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:edf02dff-57c2-41e5-aba0-18a4c2da05a5;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Base bij onderlaag van asfaltbeton, kan ook twee- en drielaags."@nl;
   skos:prefLabel "AC 16 base"@nl.
 
 imbor:118382a9-916c-4dfa-9aa7-d2195f22bafd a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:871f8310-72a3-4d34-80aa-515e8ca02099;
+  rdfs:subClassOf nen2660:Matter;
   skos:definition "Kiezelmateriaal, waarvan de stenen in doorsnede variëren van 1 tot 5 cm."@nl;
-  skos:prefLabel "Grind"@nl.
+  skos:prefLabel "Grind (materie)"@nl.
 
 imbor:160edacd-cdd5-42c3-8bf6-687f0702f9ad a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:257c77c7-51ea-476d-9106-ab14a440b148;
   rdfs:subClassOf imbor:b2b7a4e5-0ee3-4127-8092-e7f9dd75edbe;
   skos:definition "Een keramisch materiaal dat gemaakt is van een kleisoort die tegen hoge temperaturen bestand is. (Bron: Wikipedia)"@nl;
   skos:prefLabel "Gres"@nl.
 
 imbor:16101d99-eb8a-42a5-b0c7-e31d8cf42d7f a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:92d86514-f2e2-4bc9-8e67-bb7708a63b9f;
   rdfs:subClassOf imbor:02022bdc-b182-4eb6-a7c4-5073538ed071;
   skos:definition "Gebroken en gezeefde stenen."@nl;
   skos:prefLabel "Steenpuin"@nl.
 
 imbor:18385ed9-55fe-4ad5-b2b4-bf318ac41a93 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:7103ff47-9754-4af8-af50-d74f5e20424e;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Verharding van keien met een niet-kunstmatige samenstelling. "@nl;
   skos:prefLabel "Natuursteenkei"@nl.
 
 imbor:19c50c2b-2c71-47c9-8c85-e0d40250a980 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:07523e7c-ac8a-4697-a93a-0b7049e1a8f9;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Een mengsel van klei, een sedimentair gesteente dat bestaat uit lutum (kleine gronddeeltjes), en schelpen, een kalkachtig voormalig uitwendig skelet van een weekdier."@nl;
   skos:prefLabel "Kleischelpen"@nl.
 
 imbor:1b120aeb-4c90-4896-9016-d1024d31dc5b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:61417a61-7e0e-4801-ac27-bad2036d5d11;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:definition "Een betonsoort die grote cellen heeft en daardoor niet geschikt is als draagconstructie en veelal gebruikt wordt als onderdeel van vloeren, wegen en grondstabilisaties."@nl;
   skos:prefLabel "Schuimbeton"@nl.
 
 imbor:1b78d861-6b96-4bd5-8a3a-82c68e6eeced a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:b2ba21e5-faf0-4339-9614-55f712723bc3;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Materiaal dat vervaardigd is uit het voornaamste weefsel van bomen."@nl;
   skos:prefLabel "Hout"@nl.
 
 imbor:1be2386c-0836-4b76-8c56-3e40b00d2d1b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:52ef4bfb-0092-4a7f-97b9-1a6328ebfeb3;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een zandsteensoort van Belgische oorsprong."@nl;
   skos:prefLabel "Zandsteen Gres-België"@nl.
 
 imbor:1d8a6b8f-3a00-4b85-bca2-3ebd655da6e3 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:14a67cc7-ce0c-4941-a0b5-001aab77d46e;
   rdfs:subClassOf imbor:5f4a9eaa-e61e-44cc-8218-79930e872a80;
   skos:definition "Een grijskleurig, in vormen gegoten legering van ijzer, koolstof, mangaan en silicium."@nl;
   skos:prefLabel "Grijs gietijzer"@nl.
 
 imbor:1e310a27-dd42-4e10-8230-3bf38db40d57 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:cafdb09e-f416-4c59-ae27-cae1131ba596;
   rdfs:subClassOf imbor:059eca48-9bd4-4533-84bd-fd8ba342df17;
   skos:definition "Een scheikundig element dat een buigbaar, goed geleidend en veel gebruikt constructiemateriaal is."@nl;
   skos:prefLabel "Koper"@nl.
 
 imbor:1f6d0999-09c4-4f2b-89ed-ec6496341e44 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:37fcd7bb-8327-4ec5-840d-58e71c15bfba;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Zand dat wordt gekenmerkt door de mogelijkheid om vormen en bouwwerken mee te maken. Om dit te kunnen doen is het zand licht plakkerig. Speelzand is daarnaast zeer schoon zand dat weinig bestanddelen bevat waarvan handen en kleren vies van worden."@nl;
   skos:prefLabel "Speelzand"@nl.
 
 imbor:1fc4d479-e0ed-4916-bcc9-5a33fed4d7ad a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:6e6a356e-e11e-4fe7-b4a9-b4509f6068b7;
   rdfs:subClassOf imbor:c424c16a-aab7-47ac-910a-352c5b14997b;
   skos:definition "Plantaardige grasbegroeiing en een ongebonden minerale grondsoort."@nl;
   skos:prefLabel "Natuurgras/ongebonden mineraal"@nl.
 
 imbor:208cd7d5-3ef6-4c7e-bfbd-aeab24064bec a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:58ff92f8-c205-4669-a5b5-19e0c784c939;
   rdfs:subClassOf imbor:7feb54a9-cd0d-4153-98c2-85132f9a16e0;
   skos:definition "Een kunstgrasmat van korte polyethyleenvezels waarvoor geldt dat er voor gebruik een laag water op aangebracht moet worden."@nl;
   skos:prefLabel "Waterkunstgras"@nl.
 
 imbor:22cc041d-173b-4912-85bd-47f529564038 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:05ccf09f-1a4b-4835-87ee-4c3793edc98a;
   rdfs:subClassOf imbor:2519185c-3848-41fe-8bfe-4dd1ef3398d0;
   skos:definition "Textiel vloerbekleding met een drager van jute of kunststof en een (stoffen) kleed aan het oppervlak."@nl;
   skos:prefLabel "Tapijt"@nl.
 
 imbor:23abd6dc-af49-4b55-bf7a-bb3c25afa54a a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:2d576ac0-7178-454b-87b5-bb593c06eddc;
   rdfs:subClassOf imbor:95aa17a6-6718-413a-b459-2b67b669fd4c;
   skos:definition "Een meldingsplichtig materiaal dat gebruikt wordt als ophogingsmateriaal in de wegenbouw dat bestaat uit de resten van een afvalenergiecentrale (voorheen afvalverbrandingsinstallatie genoemd)."@nl;
   skos:prefLabel "AVI- en AEC-bodemas"@nl.
 
 imbor:246d0d09-2566-4f1d-889e-935abb7fb28b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:ce86cd03-aff7-41eb-8963-07dd4e38d2f4;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een materiaal dat bestaat uit verschillende bestanddelen."@nl;
   skos:prefLabel "Composiet"@nl.
 
 imbor:24a1890d-3fa6-4c79-985a-3e35491adff4 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:85c3ee7d-9297-4f76-905d-2811702b3715;
   rdfs:subClassOf imbor:95aa17a6-6718-413a-b459-2b67b669fd4c;
   skos:definition "Een mengsel van hoogovenslakken, bijproducten van het smelten van ijzererts met cokes die in zeef- en breekinstallaties tot een materiaal voor onderlagen van verharding worden omgevormd."@nl;
   skos:prefLabel "Hoogovenslakkenmengsel"@nl.
 
 imbor:250c0fa5-2734-4f06-bd76-b01f1228cbdf a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:1de86d82-3e08-4562-824c-46f964511b83;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Afkorting van steenmastiekasfalt, een asfaltsoort die binnenstedelijk veel gebruik ziet en bestaat uit in grote mate gebroken materiaal dat grotendeels is opgevuld met mastiek, een materiaal dat wordt vervaardigd uit bitumen, zand en een vulstof. Equivalent aan oude naamgeving 0/11 type 1."@nl;
   skos:prefLabel "SMA-NL 11A"@nl.
 
-imbor:2519185c-3848-41fe-8bfe-4dd1ef3398d0
-  rdfs:subClassOf nen2660:Matter.
-
 imbor:2546f823-6376-49ee-9d34-b638642f05dd a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:e31d715c-9069-436a-b863-1bd93b8a9d13;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Een vloeibare massa die wordt gebruikt om wegmarkeringen uit op te bouwen die koud wordt aangebracht en bestaat uit vier of meer bestanddelen, type I."@nl;
   skos:prefLabel "Meercomponenten koudplast type I"@nl.
 
 imbor:28c8dc95-a55f-419f-b1f8-31a23286bec3 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:4845d38b-4852-4001-a9b6-256a78413967;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Een type zan dat voornamelijk wordt gebruikt als zand voor voegwerk, maar is door de witte kleur ook uitermate geschikt als decoratief zand."@nl;
   skos:prefLabel "Zilverzand"@nl.
 
 imbor:2b23386b-e63a-4401-bec7-c3a5ac1256bb a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:09649d4e-46f3-49b3-bcea-dc51b2332a5c;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:definition "Een merknaam voor acrylaat, een harde, doorschijnende kunsttof."@nl;
   skos:prefLabel "Plexiglas"@nl.
 
 imbor:2bb226c9-9167-4bcf-8dfc-5f299aadac29 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:0a933fce-54d7-430b-9e29-0c33f4f69b45;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:definition "Een waterdoorlatende, poreuze betonsoort die wordt gebruikt om sportondergronden in de openbare ruimte mee aan te leggen."@nl;
   skos:prefLabel "Drainbeton"@nl.
 
 imbor:2bf26030-c1bf-49fc-a75c-8f5a6cb77506 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:aac1d104-6d01-4565-8a71-1576abc7328f;
   rdfs:subClassOf imbor:5f502712-e43d-4929-8afd-df23ea9a149a;
   skos:definition "Een grondsoort die voornamelijk bestaat uit silt (deeltjes met korrelgrootte tussen de 2 en 50--64 micrometer)."@nl;
-  skos:prefLabel "Leem"@nl.
+  skos:prefLabel "Leem (materie)"@nl.
 
 imbor:2c8444a0-d70d-4a31-8a4d-6b900a0fdaa0 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:74296912-299b-4d30-acf1-882965e430db;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Een vloeibare massa die wordt gebruikt om wegmarkeringen uit op te bouwen die koud wordt aangebracht en bestaat uit twee bestanddelen. Uitgevoerd met speciale parels die er boven uitsteken."@nl;
   skos:prefLabel "Meercomponenten koudplast type II"@nl.
 
 imbor:2d4a5d95-8df2-4a93-bf58-6080b097caaf a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:7ee1d75e-e8ce-4891-ab99-b6a7e46fd30b;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Zand dat wordt gebruikt om oppervlakten te verhogen (zoals een garage pad). Ophoogzand laat slecht water door en kan enkel gebruikt worden voor doeleinde waarbij weinig eisen aan het zand worden gesteld."@nl;
   skos:prefLabel "Ophoogzand"@nl.
 
 imbor:2df810e3-91f8-4e67-a542-4215d96a434c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:f5f7b7b3-8516-4dd5-8a77-ad4764f69243;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Materiaal van borden die direct op retroreflecterende folie geprint worden."@nl;
   skos:prefLabel "Ultimate sign"@nl.
 
 imbor:2e7aeae6-941e-4c82-ab4b-163514647c1e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:cbb86f07-8cb5-41a1-af25-39246380bcab;
   rdfs:subClassOf imbor:7feb54a9-cd0d-4153-98c2-85132f9a16e0;
   skos:definition "Een kunstgrasmat van korte polyethyleenvezels waarvoor geldt dat er voor gebruik water op gesproeid moet worden."@nl;
   skos:prefLabel "Semi-waterkunstgras"@nl.
 
 imbor:2eb9bd5d-ae1d-4d65-9bff-a8fbbcb07eba a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:6de6d705-bd18-4dbd-8a05-9aed8dee79ae;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een sedimentair gesteente van een door een vulkaan uitgestoten materiaal, waarvan het bindende materiaal vulkanische as is."@nl;
   skos:prefLabel "Tufsteen"@nl.
 
 imbor:31395d56-d840-4319-aeb9-35c586d992c1 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:c9815c2c-0351-4d5b-b139-8e2bf0b406e2;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Een lak of verf waarin meerdere componenten zijn samengevoegd, type II."@nl;
   skos:prefLabel "Meercomponentenverf type II"@nl.
 
 imbor:320c57f8-7c52-424f-9e63-b427ccb44c8b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:6b15e469-142f-4dae-aaca-56e726279eb7;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Afkorting van zeer open asfaltbeton technische aanduiding 0/11, een asfaltsoort met een hoog percentage holle ruimte en een geluidsreducerende en wateropspattingen beperkende werking ten opzichte van normaal asfaltbeton."@nl;
   skos:prefLabel "ZOAB 11"@nl.
 
 imbor:32dc3e0d-2163-4ce0-a045-2d7bbcbce967 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:cb7bc06a-13d0-4252-8a1d-260de920e052;
   rdfs:subClassOf imbor:ce8aa2ed-1ec2-4ba9-adda-2fdb57dd39d9;
   skos:definition "Afkorting van roestvast staal, een verzamelnaam voor legeringen die hoofdzakelijk uit ijzer bestaan met minimaal 11 tot 12% chroom en maximaal 1,2% koolstof."@nl;
   skos:prefLabel "RVS"@nl.
 
-imbor:34570045-ef42-4b4f-815e-cf271f995726
-  rdfs:subClassOf imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2.
-
 imbor:348108b9-e864-4226-84a5-c6e46e122284 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:4f0c3a52-dbd3-4f39-8917-26994d70b1e1;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Zand dat vanwege de uitstekende valdemping wordt gebruikt onder speeltoestellen. Het zand heeft een grove structuur en is daardoor dus niet geschikt als zandbakzand. Door de grove structuur plakt het zand onvoldoende om figuren van te kunnen maken."@nl;
   skos:prefLabel "Valzand"@nl.
 
 imbor:3555138b-7e0f-41a3-8c5e-6bffeca1402d a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:adc784db-1c7a-4e62-97aa-b32da5316531;
   rdfs:subClassOf imbor:d84a4c66-b57d-46f8-a4db-de2d40358e60;
   skos:definition "Een mengsel van zand, cement en water dat wordt gebruikt om ondervloeren aan te leggen."@nl;
   skos:prefLabel "Zandcement"@nl.
 
 imbor:3562193b-3a4d-43f4-94ff-3bf141d5ac6b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:7f72d0f0-1441-45d7-818c-135b41368642;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Een tegen uitglijden beschermende laag die dikwijls op loopbruggen wordt aangebracht."@nl;
   skos:prefLabel "Gritlaag"@nl.
 
 imbor:35dda54b-2d2c-4da3-9491-82736f662d94 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:68c0e0b9-d50e-4f81-b871-d5607d3fff15;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Een zeer fijn mengsel van hoogovenslakken, bijproducten van het smelten van ijzererts met cokes die in zeef- en breekinstallaties tot een materiaal voor onderlagen van verharding worden omgevormd."@nl;
   skos:prefLabel "Hoogovenslakkenzand"@nl.
 
 imbor:37768910-2e06-4c69-bf5b-45b7b4f40375 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:165e4f95-a493-4ec9-aa49-02c79a17cc17;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Gebakken klinkers die met cement of een variant daarop aan elkaar verbonden zijn en waar een pleisterlaag (een smeerbaar materiaal ten behoeve van de afwerking) op is aangebracht."@nl;
   skos:prefLabel "Metselwerk (bepleisterd)"@nl.
 
 imbor:37e5d83d-92d5-4be7-9fe9-7981518ffd0a a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:4d793837-f954-4941-9aae-b700f3f9776f;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Afkorting van zeer open asfaltbeton technische aanduiding 0/22, een asfaltsoort met een hoog percentage holle ruimte en een geluidsreducerende en wateropspattingen beperkende werking ten opzichte van normaal asfaltbeton."@nl;
   skos:prefLabel "ZOAB 22"@nl.
 
 imbor:392ebac6-826c-49b8-ad1a-e020912e10ff a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:f8410e3e-0a6c-403f-a2e1-aa28fae0deef;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een materiaal dat vervaardigd is op basis van niet-natuurlijke chemische verbindingen."@nl;
   skos:prefLabel "Kunststof"@nl.
 
 imbor:3a7dbfcc-c199-4c81-9e48-01b76dcf42de a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:971ba4ec-334d-40c8-aa46-59e9c9e816d8;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Gebakken klinkers uit natuursteen met een afmeting van 16x16x16cm."@nl;
   skos:prefLabel "Koperslak"@nl.
 
 imbor:3a972888-ce01-4e44-9cdd-91f424ff3562 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:42335426-6b79-4f32-a181-791dc7b08998;
   rdfs:subClassOf imbor:95aa17a6-6718-413a-b459-2b67b669fd4c;
   skos:definition "Een steenachtig materiaal bestaande uit gegranuleerde hoogovenslak of een mengsel van gebroken LD-staalslak en gegranuleerde. hoogovenslak. (Bron: Bodemrichtlijn.nl)"@nl;
   skos:prefLabel "LD-staalslakmengsel"@nl.
 
 imbor:3ce301f5-7b0d-45c0-86dc-7dfd348cad95 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:eb29102e-399c-4bd1-ad01-80e0091a576f;
   rdfs:subClassOf imbor:735acdf2-1d8f-4112-9f43-2c116974919b;
   skos:definition "Een grondstabilisatie die flexibel is en dynamisch kruipgedrag heeft. De frees-mengmachine maakt een dampexplosie waardoor het bitumen gaat schuimen en produceert een met bitumen omhuld gefreesd materiaal en wordt als een tapijt achter de machine gelegd."@nl;
   skos:prefLabel "Schuimbitumenstabilisatie"@nl.
 
 imbor:3d1b9d1e-6c80-44bc-b2cd-9e317baf3959 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:65d8b7d5-53d6-42dc-9578-f206ee871081;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een gemetamorfoseerd kalksteen, bestaande uit zeer puur calciumcarbonaat. (Bron: Wikipedia)"@nl;
   skos:prefLabel "Marmer"@nl.
 
 imbor:3d4d3030-1dab-4038-8790-6f91806f6f3c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:33ed2398-5cdc-484c-a723-ffc9ff8db1c3;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Een papiersoort die bestaat uit meerdere lagen papier, wat het een groter gewicht en een grotere stevigheid geeft."@nl;
   skos:prefLabel "Karton"@nl.
 
 imbor:3d69c009-6af1-4ca2-89aa-2c41fa9057aa a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:e808faac-5be7-47a1-a14b-f3f386fa6298;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een soort graniet die van Chinese oorsprong is."@nl;
   skos:prefLabel "Graniet Bleu Orient-China"@nl.
 
 imbor:3d81d28a-6605-432a-94ed-5c308fcde9a8 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:f55dfd44-6ff0-463f-961d-ecc59b0fc2c5;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Afkorting van steenmastiekasfalt, een asfaltsoort die binnenstedelijk veel gebruik ziet en bestaat uit in grote mate gebroken materiaal dat grotendeels is opgevuld met mastiek, een materiaal dat wordt vervaardigd uit bitumen, zand en een vulstof. Equivalent aan oude naamgeving 0/11 type 2."@nl;
   skos:prefLabel "SMA-NL 11B"@nl.
 
 imbor:3f51a980-e8a9-43ae-bc5a-f5f5c0b412ee a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:e48c67d3-a0c4-47d5-8724-8864608e9649;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:definition "Een mengsel van cement, zand, water en grof toeslagmateriaal met een laag cementgehalte dat wordt toegepast als fundering van betonverhardingen."@nl;
   skos:prefLabel "Schraal beton"@nl.
 
 imbor:3f9903bb-e0a8-4373-a610-8222a19f5e2f a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:0108d7ad-36b2-422a-954f-d09a0625a4c7;
   rdfs:subClassOf imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Een vlakke soort elementenverharding, dikwijls van een steensoort, die aaneengesloten een oppervlak verhardt, waarbij grind is opgenomen als een in de steen gebonden bestanddeel en (rasterachtige) openingen bevat waartussen gras kan groeien en ingezaaid kan worden."@nl;
   skos:prefLabel "Gras- en grindtegel"@nl.
 
 imbor:3fd8dd41-9657-49d8-b57f-c718b388a628 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:07563feb-86c2-4361-947f-303b14a092aa;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een stollingsgesteente met een typische textuur van relatief grote fenocrysten in een grondmassa van kleinere kristallen. (Bron: Wikipedia)"@nl;
   skos:prefLabel "Porfier"@nl.
 
 imbor:40a844e7-ed38-4d7b-97bb-a56bf35a57bc a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:bc2b8947-9ff5-41ec-b07f-c4ceda5dd174;
   rdfs:subClassOf imbor:1b78d861-6b96-4bd5-8a3a-82c68e6eeced;
   skos:definition "Stukken schors van Franse boomsoorten die gebruikt worden als oppervlakteverhardingsmateriaal."@nl;
   skos:prefLabel "Franse schors"@nl.
 
 imbor:426fb0cf-33c3-43ce-b750-2d5675368f2e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:67a04130-04a0-4639-a631-44e43d065223;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Surf: bij deklaag van asfaltbeton."@nl;
   skos:prefLabel "AC 11 surf"@nl.
 
 imbor:4312e20e-4b20-4039-b8c1-f16a42577a27 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:52e66873-3aba-4dd5-a09e-fa42a4f010db;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:prefLabel "SMA-NL 8G+"@nl.
 
 imbor:43f022c8-85a8-4de2-8e9e-b2c8dbf84671 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:d444fe0c-756c-4371-8c49-e113979b652b;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Een dik, vloeibaar materiaal dat wordt gebruikt voor het afdichten van voegen of het verlijmen van materialen."@nl;
   skos:prefLabel "Kit"@nl.
 
 imbor:44372121-a23c-460a-90d8-724862f3d4f3 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:ce90c17f-5aa3-4ee2-8333-bf8517a34a5d;
   rdfs:subClassOf imbor:ce8aa2ed-1ec2-4ba9-adda-2fdb57dd39d9;
   skos:definition "Een legering die bestaat uit ijzer en een geringe hoeveelheid koper, fosfor, silicium, nikkel en chroom zijn toegevoegd. zodanig dat staal gekarakteriseerd wordt door de eigenschap van vervormbaarheid bij verhitting."@nl;
   skos:prefLabel "Cortenstaal"@nl.
 
 imbor:447c32d0-fad3-48c8-86e5-aabf1d0b2bd7 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:2d3fcc64-e300-44bd-a297-4430480be29e;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een natuursteen die ter afwerking behandeld is met vlammen die een thermische schok veroorzaken aan het materiaaloppervlak."@nl;
   skos:prefLabel "Natuursteen gevlamd"@nl.
 
 imbor:453f825f-13f2-457c-9051-c499e90b87fd a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:fe9a70e0-a407-4f84-995d-009b75db5c2e;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Afkorting van steenmastiekasfalt, een asfaltsoort die binnenstedelijk veel gebruik ziet en bestaat uit in grote mate gebroken materiaal dat grotendeels is opgevuld met mastiek, een materiaal dat w0rdt vervaardigd uit bitumen, zand en een vulstof. Equivalent aan oude naamgeving 0/8 type 1."@nl;
   skos:prefLabel "SMA-NL 8A"@nl.
 
 imbor:45ac0cab-ca4d-4026-a802-d8a7f6b8269e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:95057a2f-f459-429f-a497-496b3e0cb1a4;
   rdfs:subClassOf imbor:95aa17a6-6718-413a-b459-2b67b669fd4c;
   skos:definition "Een ophogingsmateriaal in de wegenbouw dat bestaat uit de verbrandingsresten van een kolencentrale."@nl;
   skos:prefLabel "E-bodemas"@nl.
 
 imbor:465e75af-42cf-4b46-8de2-5c7636cc1827 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:2d732937-6c5d-486e-94ef-59b0b5ceddc3;
-  skos:definition "Schors van de boom die als materiaal voor halfverharde objecten gebruikt wordt."@nl;
-  skos:prefLabel "Boomschors"@nl.
+  rdfs:subClassOf imbor:1b78d861-6b96-4bd5-8a3a-82c68e6eeced;
+  skos:definition "Snippers van de schors van de boom die als materiaal voor halfverharde objecten gebruikt wordt."@nl;
+  skos:prefLabel "Boomschors snippers"@nl.
 
 imbor:498e2db5-cd0f-4aed-893f-c4aee2e6e2da a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:b816b0cc-8a7b-4e3f-97a6-7abbe91037ac;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Bind: bij tussenlaag van asfaltbeton, of tijdelijke deklaag."@nl;
   skos:prefLabel "AC * bind"@nl.
 
 imbor:4b5e9da1-f08e-4a6e-995d-509919ee54b1 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:fd201f7a-3637-4465-be49-e4964c19b7b0;
   rdfs:subClassOf imbor:7feb54a9-cd0d-4153-98c2-85132f9a16e0;
   skos:definition "Een kunstgrasmat van korte polyethyleenvezels met waar voor gebruik zand overheen gestrooid moet worden."@nl;
   skos:prefLabel "Semi-zandkunstgras"@nl.
 
 imbor:4d7afa9f-c672-44b2-90f2-352b4b7bb5f0 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:d66f3682-a81d-4bcc-aef2-79c15ed73958;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Een ongebonden minerale grondsoort aangebracht op een onderlaag van kunststof en de onderbouw uit een gebonden materiaal is opgebouwd."@nl;
   skos:prefLabel "Ongebonden mineraal op kunststof, gebonden onderbouw"@nl.
 
 imbor:5023cb3e-68e3-4699-b873-7e3316ae85a7 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:002e7e1a-cb6e-4fa7-a70b-7b7d9ecc0a66;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Gravelkleurige stabiliteitsmat die zorgt voor een zeer stabiele en vlakke tennisvloer."@nl;
   skos:prefLabel "Smashcourt"@nl.
 
 imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:311f3baf-fcde-4df3-81f0-f5822003de9a;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een kunstmatig, steenachtig materiaal dat veelal is samengesteld uit het bindmiddel cement en uit een of meer toeslagmaterialen zoals zand, grind of steenslag."@nl;
   skos:prefLabel "Beton"@nl.
 
 imbor:5387fb60-8cbc-4e84-98ab-7ef95f1e04c0 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:5baa2ec0-bef0-419d-b90c-2d61741d67c0;
   rdfs:subClassOf imbor:735acdf2-1d8f-4112-9f43-2c116974919b;
   skos:definition "Bitumen in de vorm van een fijngemalen leisteen."@nl;
   skos:prefLabel "Leislag"@nl.
 
 imbor:54acdf14-a14d-42ac-9cb8-258cae8646d9 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:c3fbd717-6643-42be-998c-52229c745168;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:prefLabel "Rijstvlies (Biobased)"@nl.
 
 imbor:554b221c-dcf3-42e2-b8b6-a15aa9b1413c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:5e93e213-96e4-4bc9-9af7-44edf426624c;
   rdfs:subClassOf imbor:ca01d601-b936-4bcd-a0a0-ab86960ddd66;
   skos:definition "Materiaal gemaakt van gemalen baksteen."@nl;
-  skos:prefLabel "Gravel"@nl.
+  skos:prefLabel "Gravel (materie)"@nl.
 
 imbor:578d4a00-fe2a-4f6c-ae20-8e53368c49f3 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:7de22efd-5b6a-4ef8-aa5a-0cd24d77e8b1;
   rdfs:subClassOf imbor:7feb54a9-cd0d-4153-98c2-85132f9a16e0;
   skos:definition "Een kunstgrasmat van korte polyethyleenvezels met daartussen gestrooid zand, zonder een gebonden onderbouw."@nl;
   skos:prefLabel "Zandkunstgras, ongebonden onderbouw"@nl.
 
 imbor:57e2f2d5-4dc9-479c-91ec-71f39da241e0 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:9e60c81e-3c70-40cd-b7b3-741fa7ede3fa;
+  rdfs:subClassOf imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Stenen platen die gebruikt worden voor bestrating van een transportoppervlak met een reliëf zodanig dat blinden en slechtzienden de omringende verkeerssituatie uit kunnen afleiden. "@nl;
   skos:prefLabel "Blindengeleidetegel"@nl.
 
 imbor:596d866d-d691-42a8-9760-1b0da0e98849 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:48ab8ab5-be74-4dc3-be67-ccd8fe7980ff;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:definition "Een polymeer dat bestaat uit een keten van esterbindingen en dat zowel thermoplastisch als thermohardend kan zijn."@nl;
   skos:prefLabel "Polyester"@nl.
 
 imbor:59ffa0b8-333f-46d9-a78e-5e6f08f31d32 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:94e873a1-faf6-41ef-8ee4-80ae5c1fb4e7;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:definition "Holle betonnen delen die op een bepaalde manier aan elkaar bevestigd worden om een object te vormen, bijvoorbeeld een duiker."@nl;
   skos:prefLabel "Betonnen segment"@nl.
 
 imbor:5a60b993-5ff3-4b04-af83-c81bcb330d8d a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:caa9e3e1-c92a-4773-afbd-538f694bd962;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:definition "High-density polyethylene van organische oorsprong; een thermoplastisch polymeer met een goede verhouding tussen de kracht en de dichtheid van het materiaal."@nl;
   skos:prefLabel "BioBased HDPE"@nl.
 
 imbor:5a740982-81d5-476b-81b8-783386e3e7b8 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:33ea5e87-a765-4626-a29c-2d79cd54aa77;
   rdfs:subClassOf imbor:d84a4c66-b57d-46f8-a4db-de2d40358e60;
   skos:definition "Een voornamelijk uit mineralen bestaand materiaal waar versterkingsvezels in aangebracht zijn en veelal gebruikt wordt voor gevelplaten en gevelstroken."@nl;
   skos:prefLabel "Vezelcement"@nl.
 
 imbor:5afbe77e-4afd-4e16-9dfe-a259b8f78f27 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:261e2445-1186-41bd-b3d6-d8754b8dad1b;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Een licht, elastisch materiaal, dat wordt gemaakt van de schors van de eikensoort Quercus suber."@nl;
   skos:prefLabel "Kurk"@nl.
 
 imbor:5b539c4e-7020-470c-a132-ce9a58cf5693 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:868b37d3-588c-4add-9d03-010923bd3b28;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een materiaal dat de structuur van een korrelvormig poeder heeft."@nl;
   skos:prefLabel "Granulaat"@nl.
 
 imbor:5be8cd53-7862-40f8-8447-073187502783 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:1877bbf2-d206-4568-b55a-916b217297d6;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Diverse materialen, niet gecategoriseerd "@nl;
   skos:prefLabel "Overig materiaal"@nl.
 
 imbor:5c6c7d39-e56e-4e17-a65a-b27b10d9946d a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:dcb62c47-296e-4e63-b795-979e75af2be0;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Zand dat zich kenmerkt door de sterkte van het zand waardoor gemakkelijk metselmortel gemaakt kan worden."@nl;
   skos:prefLabel "Metselzand"@nl.
 
 imbor:5cb2da6e-a6e5-4f9a-8708-1b3034322a72 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:0e872056-0a3a-4a87-83d9-bc9b4b05791b;
   rdfs:subClassOf imbor:2519185c-3848-41fe-8bfe-4dd1ef3398d0;
   skos:definition "Textiel vloerbekleding met een drager van jute of kunststof en een (stoffen) kleed aan het oppervlak, dat ingestrooid is met korrels van een bepaald materiaal."@nl;
   skos:prefLabel "Ingestrooid tapijt"@nl.
 
 imbor:5cf93da5-36cd-406c-9f91-dc8cf5f429ac a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:a4af1813-6fa2-4b5d-b947-fda6d744173c;
   rdfs:subClassOf imbor:059eca48-9bd4-4533-84bd-fd8ba342df17;
   skos:prefLabel "Refurbished aluminium"@nl.
 
 imbor:5d02462e-4994-46b9-b1ef-204a734200fb a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:4df5135d-3c01-49b5-a3e6-0ea92be74a34;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:prefLabel "Polymeerbeton"@nl.
 
 imbor:5d390719-05c4-4810-9b64-22767c6ba2c7 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:6f2db1fb-729a-421a-83ee-60222c02ff68;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:definition "Een kunststof die is versterkt met een haarfijne vezel gemaakt van glas."@nl;
   skos:prefLabel "Glasvezel versterkte kunststof"@nl.
 
 imbor:5d9a9270-ae45-4a02-81f2-979e5a965979 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:e23fadcf-7c91-42d1-9080-ce01aacb1324;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een sedimentair gesteente dat ontstaat door de opeenhoping van stoffelijke overblijfselen van in zee levende organismen. (Bron: Wikipedia)"@nl;
   skos:prefLabel "Kalksteen"@nl.
 
 imbor:5eb101dd-8149-4727-9b4f-2d051e0c8001 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:6a3e3937-429c-4962-901b-f831822fa4e3;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Afkorting van zeer open asfaltbeton technische aanduiding 0/16, een asfaltsoort met een hoog percentage holle ruimte en een geluidsreducerende en wateropspattingen beperkende werking ten opzichte van normaal asfaltbeton."@nl;
   skos:prefLabel "ZOAB 16"@nl.
 
 imbor:5f4a9eaa-e61e-44cc-8218-79930e872a80 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:3412c32e-9544-42fb-b4bf-c358048608cc;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een in vormen gegoten legering van ijzer, koolstof, mangaan en silicium."@nl;
   skos:prefLabel "Gietijzer"@nl.
 
 imbor:5f502712-e43d-4929-8afd-df23ea9a149a a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:3115e47e-a91e-4974-a3be-6d098f1cd702;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een mengsel van mineralen, organisch materiaal en bodemleven."@nl;
-  skos:prefLabel "Grond"@nl.
+  skos:prefLabel "Grond (materie)"@nl.
 
 imbor:6047352a-620c-41d7-8f03-32119b124410 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:129ff500-d93c-4c5f-b153-727513bfa060;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Materiaal met retroreflecterende eigenschappen en met een belijning die reflecteert bij droge en natte weersomstandigheden, en dus goed zichtbaar is in het donker. Uitgevoerd met een profiel."@nl;
   skos:prefLabel "Thermoplastisch materiaal profiel"@nl.
 
 imbor:606568bb-450c-4347-bc74-99796df0ddc0 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:c09b80b7-8175-46c7-856c-d8f79be43629;
   rdfs:subClassOf imbor:d84a4c66-b57d-46f8-a4db-de2d40358e60;
   skos:definition "Een samengeperst en versteend mengsel van cementmateriaal en soms zand waarin 10 à 15% asbestvezels (golfplaten, vlakke platen) en bij standleidingen 15 à 30% als versterking verwerkt zijn. (Bron: Wikipedia)"@nl;
   skos:prefLabel "Asbestcement"@nl.
 
 imbor:61ea33af-d687-4f4d-bbce-8613102364ca a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:879e6047-799e-4c91-b512-2f686e563cf0;
+  rdfs:subClassOf imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Een vlakke soort elementenverharding, gemaakt van rubber, die aaneengesloten een oppervlak verhardt en (rasterachtige) openingen bevat waartussen gras kan groeien en ingezaaid kan worden."@nl;
   skos:prefLabel "Rubber grastegel"@nl.
 
 imbor:62e985d4-a771-4c1d-8cde-eb8741017e8f a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:3db01c0e-be8d-47dd-905a-ed694d19555d;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Een vloeibare massa die wordt gebruikt om wegmarkeringen uit op te bouwen die koud wordt aangebracht en bestaat uit twee bestanddelen. Uitgevoerd met een stochastisch profiel."@nl;
   skos:prefLabel "Meercomponenten koudplast profiel"@nl.
 
 imbor:6314493f-9b59-49c1-9792-129aecb447a1 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:3ec1e17f-7727-44ee-ad6c-6651d66c90e0;
   rdfs:subClassOf imbor:2519185c-3848-41fe-8bfe-4dd1ef3398d0;
   skos:prefLabel "Geotextiel"@nl.
 
 imbor:64655120-382b-47d8-9b19-bf29c501e1b3 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:7dfa4730-58c2-4f6e-8ba8-d2ac7a8c8c2d;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Afkorting van steenmastiekasfalt, een asfaltsoort die binnenstedelijk veel gebruik ziet en bestaat uit in grote mate gebroken materiaal dat grotendeels is opgevuld met mastiek, een materiaal dat wordt vervaardigd uit bitumen, zand en een vulstof. Equivalent aan oude naamgeving 0/5."@nl;
   skos:prefLabel "SMA-NL 5"@nl.
 
 imbor:6560fa03-7900-4258-89ab-45f812b9a6e4 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:fd259bad-47d2-4808-a2b2-84c81b7a0592;
   rdfs:subClassOf imbor:5b539c4e-7020-470c-a132-ce9a58cf5693;
   skos:definition "Een gebroken en gezeefd verhardingsmateriaal gemaakt van metselwerk."@nl;
   skos:prefLabel "Metselwerkgranulaat"@nl.
 
 imbor:65963557-5192-4501-81fb-f0a69e14a343 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:1bbb6476-f03d-414b-b8b3-a6f49fcec81e;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een bewerkte soort vuursteen."@nl;
   skos:prefLabel "Silex"@nl.
 
 imbor:65b4f3b4-f50f-43af-82ae-23f7c02f9f1a a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:22f18a92-c71a-42a0-a60f-78d96c730061;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Base bij onderlaag van asfaltbeton, kan ook twee- en drielaags."@nl;
   skos:prefLabel "AC 22 base"@nl.
 
 imbor:65e269d6-7784-41c6-83b6-653cd2f46cc9 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:4d4dbcec-0d8a-4ff4-8acb-1425b8a3e2a9;
+  rdfs:subClassOf nen2660:Matter;
   skos:definition "Synthetische grasvezels"@nl;
-  skos:prefLabel "Kunstgras"@nl.
+  skos:prefLabel "Kunstgras (materie)"@nl.
 
 imbor:68233f08-a1d9-417c-8d42-0386babd37cf a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:ed29e15a-72c8-4786-8550-616ee7d2226f;
   rdfs:subClassOf imbor:059eca48-9bd4-4533-84bd-fd8ba342df17;
   skos:prefLabel "Coil coating Aluminium"@nl.
 
 imbor:69f0b8a0-8dd4-44b2-83cf-43807ab8474f a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:138d0091-f0f1-421c-ba89-5cab6fba16dc;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Materiaal met retroreflecterende eigenschappen met een belijning die reflecteert bij droge en natte weersomstandigheden, en dus goed zichtbaar is in het donker."@nl;
   skos:prefLabel "Thermoplastisch materiaal type II"@nl.
 
 imbor:6a294d46-1e40-4591-a48d-0eeda11244c8 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:2b19359f-5746-4d29-95e0-b594c5890cdc;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Een ondergrond van granulaat die gestabiliseerd is met asfalt."@nl;
   skos:prefLabel "Asfaltgranulaatstabilisatie"@nl.
 
 imbor:6a7ae965-ff45-4240-999c-536b4a465ceb a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:4067513d-bc02-4ec8-bfae-f6902497376d;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een gesteente dat in de natuur wordt aangetroffen en dat na een eventuele bewerking, geschikt is als bouwmateriaal."@nl;
   skos:prefLabel "Natuursteen"@nl.
 
 imbor:6bad1fdb-6052-4239-a199-ad8cfa73159a a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:b6fae47e-d070-4d23-8f9f-8aca08d7f23c;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:definition "De meest gebruikte kunststof, bestaande uit etheen dat gepolymeriseerd is."@nl;
   skos:prefLabel "Polyetheen"@nl.
 
 imbor:6cbf4d8e-0315-47b6-87c1-9ed242684323 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:85e970a1-f4a2-4152-9a14-ffe1d9d92dea;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Base bij onderlaag van asfaltbeton, kan ook twee- en drielaags."@nl;
   skos:prefLabel "AC 32 base"@nl.
 
 imbor:6cd95002-aaa6-498e-be6e-182ca6d5d319 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:44cd9683-afe7-45d0-921e-24b4afa65db8;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Materiaal met retroreflecterende eigenschappen met een belijning die reflecteert bij droge weersomstandigheden, en dus goed zichtbaar is in het donker."@nl;
   skos:prefLabel "Thermoplastisch materiaal type I"@nl.
 
 imbor:6d8fcd27-e317-499a-bef2-3a05e4078f7c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:f41d7a5f-f307-4c0c-b85a-25489b70ba94;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een polymeer dat voorkomt als een emulsie in het sap van een aantal plantensoorten, zoals sommige bomen uit de familie Hevea."@nl;
   skos:prefLabel "Rubber"@nl.
 
 imbor:6ee05b71-b97e-4d60-9057-cbb8074b4adf a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:04123968-f04a-4d46-85b3-5eafae3d20fb;
   rdfs:subClassOf imbor:5f502712-e43d-4929-8afd-df23ea9a149a;
   skos:definition "Een materiaal dat zodanig is bewerkt dat verontreinigde stoffen in de grond waar het uit bestaat in de grond vastgelegd zijn."@nl;
   skos:prefLabel "Immobilisaat"@nl.
 
 imbor:735acdf2-1d8f-4112-9f43-2c116974919b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:53d7f637-4783-4f7d-b285-3f8512331d2d;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een bij kamertemperatuur vast mengsel van koolwaterstoffen die voorkomen in aardolie, dat een belangrijk bestandsdeel van asfalt is."@nl;
   skos:prefLabel "Bitumen"@nl.
 
 imbor:73d497f8-8761-468f-868a-563713649d9a a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:f0bf1115-60f5-499b-9f3a-cf887d10c2aa;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Een type zand, ook wel instrooizand genoemd, dat wordt gebruikt voor het inborstelen van kunstgras. Door het zand blijven de vezels van het kunstgras beter rechtop staan."@nl;
   skos:prefLabel "Zand voor kunstgras"@nl.
 
 imbor:741d8095-0f66-4b1b-8d3f-687bd195a503 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:7759c587-15df-4cdd-ac74-76213569b23c;
   rdfs:subClassOf imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Tegels van een makelij die typerend is voor tegelwerk van Deense oorsprong."@nl;
   skos:prefLabel "Deense tegels"@nl.
 
 imbor:747d846c-133c-478f-8a64-a0aa5d9a4d5b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:216d6c4f-ced3-40d4-b72c-2f43a83217cd;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Een asfaltsoort met een hoog percentage aan zand dat een hoge porositeit heeft en wordt gebruikt als funderingslaag en in kustverdedigingen."@nl;
   skos:prefLabel "Zandasfalt"@nl.
 
 imbor:756603ca-0a59-40f5-afe7-94a969b18563 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:9fcfa1b8-4e7b-4395-8452-74589e9efab8;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Zand dat wordt gebruikt voor het invoegen van metselwerk."@nl;
   skos:prefLabel "Voegzand"@nl.
 
 imbor:76c1e02f-20b7-4d58-8e18-b910e4bc871a a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:c407e49d-ac20-495a-88f1-87babd01a62d;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:definition "Een thermoplastisch polymeer van het monomeer styreen. Het is een kunststof van petrochemische oorsprong. Het is waterafstotend en het kan in beperkte hoeveelheid een bepaalde last dragen. In geëxtrudeerde of geëxpandeerde vorm wordt het gebruikt als isolatiemateriaal. (Bron: Wikipedia)"@nl;
   skos:prefLabel "Polystyreen"@nl.
 
 imbor:7add2713-4b1d-4e8f-a934-33b6ce680184 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:14104e1e-c269-45fa-a30c-8e1d8738ac6b;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "De benaming voor een aantal plantensoorten in een geslachtengroep van de grassen."@nl;
   skos:prefLabel "Bamboe"@nl.
 
 imbor:7b02f893-8bd4-401d-92a7-2eb42d3ef840 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:21482499-793a-447b-a5bc-6e3366700b1f;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Een bedekkende laag waarin microprisma's verwerkt zijn die invallende lichtstralen in exact dezelfde richting weerkaatst als de oorspronkelijke hoek van inval. Het is een materiaal van reflectieklasse I."@nl;
   skos:prefLabel "Engineer Grade retroreflecterende folie"@nl.
 
 imbor:7ddb46b3-f6ca-41ce-976b-664d8e534bc8 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:497f9315-3377-4632-818d-af3e3768c440;
   rdfs:subClassOf imbor:ce8aa2ed-1ec2-4ba9-adda-2fdb57dd39d9;
   skos:definition "Een legering die bestaat uit ijzer en een geringe hoeveelheid koolstof, zodanig dat staal gekarakteriseerd wordt door de eigenschap van vervormbaarheid bij verhitting. Het materiaal is zodanig aan het oppervlak behandeld dat er een laag metaal op is aangebracht."@nl;
   skos:prefLabel "Staal gegalvaniseerd"@nl.
 
 imbor:7de90ac2-56e1-48c8-aeca-93fbaa80ecac a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:de354fec-e928-4ed7-9bbb-908b8705b34f;
   rdfs:subClassOf imbor:95aa17a6-6718-413a-b459-2b67b669fd4c;
   skos:definition "Een mengsel van gebroken fosforslak en een bepaalde stabilisator."@nl;
   skos:prefLabel "Fosforslakmengsel"@nl.
 
 imbor:7def4e64-acea-4f8d-bafa-f58dbc9ea584 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:9d84faa4-c7f5-4c9a-9f89-c79a6c6288f0;
   rdfs:subClassOf imbor:246d0d09-2566-4f1d-889e-935abb7fb28b;
   skos:definition "Een samengesteld kunstmatig materiaal bestaande uit houtvezels in een uitgehard bitumenmengsel."@nl;
   skos:prefLabel "Bitumen-houtvezel composiet"@nl.
 
 imbor:7e018f28-8bcf-4864-9c44-3a396e330863 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:611e60bc-996a-47db-942d-70e974b4c3e3;
   rdfs:subClassOf imbor:5b539c4e-7020-470c-a132-ce9a58cf5693;
   skos:definition "Een grondstof voor wegenbouw die wordt vervaardigd door puin te breken en te zeven."@nl;
   skos:prefLabel "Puingranulaat"@nl.
 
-imbor:7feb54a9-cd0d-4153-98c2-85132f9a16e0
-  rdfs:subClassOf nen2660:Matter.
-
 imbor:80803468-58c3-4d29-b5db-84a73a34e275 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:b552321f-863c-447f-aeb7-c45da3ebf6e2;
   rdfs:subClassOf imbor:5b539c4e-7020-470c-a132-ce9a58cf5693;
   skos:definition "Menggranulaat (gebroken beton en puin) waaraan een stabilisator is toegevoegd."@nl;
   skos:prefLabel "Hydraulisch menggranulaat"@nl.
 
 imbor:8096be4c-16e7-4d46-98ea-e70ec0d2e2bf a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:d7cc8075-5e15-4b4a-a4ac-d1294505b872;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Gestolde lava, het product van vloeibaar gesteente dat ten gevolge van vulkaanuitbarstingen aan het oppervlak komt en daar stolt. Om gebruikt te worden als halfverharding wordt het meestal gebroken."@nl;
   skos:prefLabel "Lavasteen"@nl.
 
 imbor:83911a33-e8df-47da-a95d-b499b1f7f547 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:bca8a35f-776c-47eb-ade6-c0c0bba8a1a8;
   rdfs:subClassOf imbor:041fa1c8-2e35-4050-893c-ed978427c0be;
   skos:definition "Een van glas gemaakte haarfijne vezel."@nl;
   skos:prefLabel "Glasvezel"@nl.
 
 imbor:843e4b2d-0ef0-4ea7-9108-48dae16bc571 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:d883483a-08e3-47a9-b2c9-469a60d696e5;
   rdfs:subClassOf imbor:c424c16a-aab7-47ac-910a-352c5b14997b;
   skos:definition "Een raster van een bepaald materiaal dat in de bodem is aangebracht en opgevuld is met door plantenmateriaal."@nl;
   skos:prefLabel "Gaas met dood plantenmateriaal"@nl.
 
 imbor:8480c1ca-0907-48a1-b9c3-c26c23d99826 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:2430e718-3ab2-454f-8631-65ad1b44e8fb;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:definition "Een betonsoort die bestaat uit korrels minerale grondstoffen die gebonden zijn in een kunsthars gemaakt van polymeer."@nl;
   skos:prefLabel "Polyesterbeton"@nl.
 
 imbor:84b9b6bf-7917-4a9d-bec9-5d624190420c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:755addc2-313e-4611-a1a3-509741d4c559;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Een bedekkende laag waarin glasparels verwerkt zijn die invallende lichtstralen in exact dezelfde richting weerkaatst als de oorspronkelijke hoek van inval en het hoogst beschikbare helderheidsniveau heeft, bij invalshoeken tot maximaal zeventig graden. Het is een materiaal van reflectieklasse III."@nl;
   skos:prefLabel "Diamond Grade"@nl.
 
 imbor:85eca83b-f24c-40ea-818a-47e3c23083b2 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:52a0b649-5ace-4d7b-981b-e72e75cb46ba;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een soort graniet die van Portugese oorsprong is."@nl;
   skos:prefLabel "Graniet Braga-Portugal"@nl.
 
 imbor:85f7bec6-3605-498d-bd88-1de7d7f6ca9a a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:f2c2b9b2-490c-4703-a6fe-0adfac4d55e7;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Een bedekkende laag die invallende lichtstralen in exact dezelfde richting weerkaatst als de oorspronkelijke hoek van inval, die oogt als een glimmend, neongeel-, groen- of oranjegekleurd roosterwerk en is door de opvallende kleur 's middags en bij schemer beter te herkennen. Het is een materiaal van reflectieklasse III."@nl;
   skos:prefLabel "Fluorescerend Diamond Grade retroreflecterende folie"@nl.
 
 imbor:86e99b88-ad57-4ff4-9c06-442ce2cc806e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:dbaa84dd-3050-48b5-8ddb-a0e9b7100fcc;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Drainzand is een grof soort zand dat goed water doorlaat en is daardoor uitermate geschikt als ondergrond bij paardenpaddocks of langs drainagebuizen. Het zand laat zich niet verdichten, hierdoor is het niet geschikt voor straatwerk."@nl;
   skos:prefLabel "Drainagezand"@nl.
 
 imbor:8817f7a6-0efe-4baf-9513-0aac569daea0 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:649a583f-714f-4ba6-987e-b3c9afaa21a8;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Verf met een uitstekende retroreflectie voor betere zichtbaarheid 's nachts, type I."@nl;
   skos:prefLabel "Reflecterende wegenverf type I"@nl.
 
 imbor:8b10aa92-bbd9-40b3-b2b2-460e4e4b39eb a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:36e29dab-5852-425b-a128-9959a430a34b;
   rdfs:subClassOf imbor:ca01d601-b936-4bcd-a0a0-ab86960ddd66;
   skos:definition "Een mengsel van grind, zand en leem dat een hechtende werking heeft vanwege de aanwezige leem."@nl;
   skos:prefLabel "Stol"@nl.
 
 imbor:8b6f78cb-9bdd-49a4-ba6a-bd797f5a2998 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:5cb4ecb1-9139-4c6a-a13b-eb390c63ad12;
   rdfs:subClassOf imbor:ce8aa2ed-1ec2-4ba9-adda-2fdb57dd39d9;
   skos:definition "IJzer dat in de vorm van een plaat is gedrukt."@nl;
   skos:prefLabel "Plaatijzer"@nl.
 
 imbor:8d045bba-8190-47ce-9411-09e822bb344c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:31aacd02-03fb-461b-9a36-633a7febc597;
   rdfs:subClassOf imbor:02022bdc-b182-4eb6-a7c4-5073538ed071;
   skos:definition "Steen van een materiaal dat haar hardheid te danken heeft aan de wijze waarop het gebakken is. "@nl;
   skos:prefLabel "Gebakken steen"@nl.
 
 imbor:8dbedeee-7000-455c-8e43-d1a9fde2472b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:e0bfa2c4-6ad1-4897-afcb-839535574822;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Zand met de eigenschap snel water af te voeren en is zeer schoon (vrij van stenen, schelpen, takjes en andere vervuiling). M3C zand is speciaal geklasseerd met de juiste korrelgrootte van 180 tot 220 mu."@nl;
   skos:prefLabel "M3C zand"@nl.
 
 imbor:904417a6-d966-4a0b-a397-0e416c0e35a1 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:a60477c7-f527-45f4-b3f8-318ce06a301b;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een zacht, hard, los of korrelig materiaal en een van de meest voorkomende natuurlijke stoffen op aarde. Het bestaat uit zeer kleine stukjes steen: korrels die in grootte variëren tussen 63 micrometer en 2 millimeter."@nl;
-  skos:prefLabel "Zand"@nl.
+  skos:prefLabel "Zand (materie)"@nl.
 
 imbor:9140d5d1-dab8-41c5-9732-7694e940ed9b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:ea7622c0-945c-4a27-a205-7068251cabaf;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een uit mineralen bestaand gesteente dat is gevormd door de stolling van lava."@nl;
   skos:prefLabel "Basalt"@nl.
 
 imbor:92faeb9e-c662-439f-9b44-203542e3e4cf a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:5b57899b-5fb2-4a24-b76b-b1ec5e6a4286;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:definition "Een afkorting van 'high-density polyethylene,' een thermoplastisch polymeer met een goede verhouding tussen de kracht en de dichtheid van het materiaal."@nl;
   skos:prefLabel "HDPE"@nl.
 
 imbor:93203866-dd5a-4ba1-938c-caeb6f388445 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:3c69d0fe-e50a-4b07-8837-c988f2562a71;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:prefLabel "Kasseien"@nl.
 
 imbor:933b413a-56de-46f9-ad19-9fd206aaff2e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:507dbee0-6d11-4f24-8e24-6579743e8cf5;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Keramisch rood zand ten behoeve van een Smashcourt-ondergrond."@nl;
   skos:prefLabel "Rood zand (Smashcourt)"@nl.
 
 imbor:939be074-b58c-4e7c-9685-34c82aa1ad63 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:505607d3-0cb3-433b-80d9-7addb3b0863b;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een gesteente met als hoofdbestanddeel het mineraal kwarts."@nl;
   skos:prefLabel "Kwartsiet"@nl.
 
 imbor:95aa17a6-6718-413a-b459-2b67b669fd4c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:646f0236-55ad-45cb-a5bd-2b2120843296;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Bijproducten van metallurgische processen"@nl;
   skos:prefLabel "Slak"@nl.
 
 imbor:966217ac-c9b2-4de4-9206-20a3d0f63730 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:d6b44cc2-ba82-44d8-bbca-042f45db6415;
   rdfs:subClassOf imbor:7feb54a9-cd0d-4153-98c2-85132f9a16e0;
   skos:definition "Kunstgras dat is ingestrooid met speciaal roodkleurig zand dat gunstige eigenschap heeft voor de te beoefenen sport."@nl;
   skos:prefLabel "Roodzand kunstgras"@nl.
 
 imbor:97c97442-9e19-49d9-8f0f-d62ae703a599 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:9ae4fa88-b83e-4834-a833-9ad94f9985f7;
   rdfs:subClassOf imbor:7feb54a9-cd0d-4153-98c2-85132f9a16e0;
   skos:definition "Kunstgras dat is ingestrooid met speciaal roodkleurig zand dat gunstige eigenschap heeft voor de te beoefenen sport, waarbij de onderbouw gebonden is."@nl;
   skos:prefLabel "Roodzand kunstgras, gebonden onderbouw"@nl.
 
 imbor:98c9a7da-ea70-4ae1-b9dc-27b7b7b6c405 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:784dd1bd-bcd7-493c-815c-472fa5bca294;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Afkorting van zeer open asfaltbeton, een asfaltsoort met een hoog percentage holle ruimte en een geluidsreducerende en wateropspattingen beperkende werking ten opzichte van normaal asfaltbeton, op basis van PA-stone, hergebruikte ZOAB waarbij mastiek van de stenen zijn verwijderd en de stenen nauwelijks nog bitumen bevatten."@nl;
   skos:prefLabel "ZOAB PA*"@nl.
 
 imbor:99eb71f2-051e-4b63-9a2d-48aa88fd87cc a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:62692784-9ed4-4f96-87cb-ddcf206cb3c0;
   rdfs:subClassOf imbor:059eca48-9bd4-4533-84bd-fd8ba342df17;
   skos:definition "Een legering van koper en zink die bekendstaat om zijn hardheid."@nl;
   skos:prefLabel "Messing"@nl.
 
 imbor:9cd6d7cf-159e-4a22-8738-774f7dfd19c1 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:aa68525b-c0fc-4c34-b7fa-60684a73aa2c;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Een materiaal voor wegmarkeringen dat enige millimeters boven het wegdek uitsteekt, waardoor in vergelijking met dunnere, verfgebaseerde markeringsprofielen het bijvoorbeeld voor de weggebruiker beter voelbaar is als het in de vorm van een kantstreep wordt aangebracht en beter zichtbaar is in het donker."@nl;
   skos:prefLabel "Geprofileerd markeringsmateriaal"@nl.
 
 imbor:9d696c84-1a85-4f95-9342-803ae20cdff2 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:e135097c-1c89-44fa-86da-bb3372d64d13;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Materialen voor wegmarkeringen en verkeersgeleiding"@nl;
   skos:prefLabel "Markeringmateriaal"@nl.
 
 imbor:9e1d3ec8-93f1-41b7-9442-d9abe51248cb a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:64eca648-fe2c-4f51-a6c7-764049b884b7;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Kalksteen met een overwegend blauwgrijze kleur."@nl;
   skos:prefLabel "Hardsteen"@nl.
 
 imbor:9ed2614c-3807-41b6-b2f8-030370438e4e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:f1eab055-8bcd-4a2f-ae2b-04d330395942;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Een vulkanisch gesteente met een grote mate van porositeit dat gebruikt wordt in de vorm van een licht ophoogmateriaal door de grond-, weg- en waterbouw."@nl;
   skos:prefLabel "Bims"@nl.
 
 imbor:9fb796a0-0c5c-46e6-b816-a59211ad62d8 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:41982a78-b6e6-4833-aaad-8b3c2b7f056a;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:prefLabel "Bentoniet"@nl.
 
 imbor:a452bebd-9b6e-4b5a-b045-c0ebc555f148 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:bc136235-48eb-4956-a561-19df9dbe168f;
   rdfs:subClassOf imbor:ca01d601-b936-4bcd-a0a0-ab86960ddd66;
   skos:definition "Een mineraal en nesosilicaat met als chemische formule (Mg, Fe)₂SiO₄, waarbij de eindleden tussen magnesium en ijzer worden gevormd door de mineralenreeks forsteriet en fayaliet."@nl;
   skos:prefLabel "Olivijn"@nl.
 
-imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2
-  rdfs:subClassOf nen2660:Matter.
-
 imbor:a628d390-9789-43f2-be4e-ee8b59d9d358 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:c1bbb32f-f1e1-4149-9f35-96c211de5748;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:prefLabel "Mager beton"@nl.
 
 imbor:a6c2e66d-94ef-490e-881b-1f8e35b8ad69 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:4058bf81-932a-44d0-80a3-59d01598ce18;
   rdfs:subClassOf imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Een vlakke soort elementenverharding, dikwijls van een steensoort, die aaneengesloten een oppervlak verhardt, waarbij grind is opgenomen als een in de steen gebonden bestanddeel."@nl;
   skos:prefLabel "Grindtegel"@nl.
 
 imbor:a6c4a19b-b26d-4346-80a7-bca915f15f72 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:727ab27a-aace-45e3-888a-adbc8092ac5f;
   rdfs:subClassOf imbor:059eca48-9bd4-4533-84bd-fd8ba342df17;
   skos:definition "Aluminium dat is voorzien van een oxidelaag aan het oppervlak."@nl;
   skos:prefLabel "Geanodiseerd aluminium"@nl.
 
 imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:1d3ccbac-ff0c-4aa5-b3a6-e2d8446e02cd;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een samengesteld materiaal met als delen mineraal aggregaat en bitumen. Het is een veelgebruikt materiaal voor wegen en oppervlakteverhardingen."@nl;
   skos:prefLabel "Asfalt"@nl.
 
 imbor:a9f7b4fa-a905-49cc-8b9d-cffe0924db32 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:a5bf0ed8-4379-4647-9210-3ae2ffce3605;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Surf: bij deklaag van asfaltbeton."@nl;
   skos:prefLabel "AC 8 surf"@nl.
 
 imbor:acb9ecf8-a46c-483f-97a6-d7c4f5651525 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:8b121b2f-2306-4a93-bdec-25b58d10f925;
   rdfs:subClassOf imbor:059eca48-9bd4-4533-84bd-fd8ba342df17;
   skos:definition "Een flexibelere en luchtdichtere variant van aluminium."@nl;
   skos:prefLabel "Gewapend aluminium"@nl.
 
 imbor:af03b4c1-3e56-4209-9a8b-7fcec031c9f6 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:a1c119f5-3f4e-4aaf-a227-09d784ee9243;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:definition "Een betonsoort waarin kiezels, afgeronde stenen van een klein formaat, zijn gebonden."@nl;
   skos:prefLabel "Kiezelbeton"@nl.
 
-imbor:af21d53f-3f1a-4c50-b1e6-5919ebbbe136
-  rdfs:subClassOf imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2.
-
 imbor:b222a3f2-8ec2-4edc-a4d2-cf1a1fa70bd4 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:db011ba8-d0d5-4e79-b71d-483ed3251e92;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Gebakken klinkers die met cement of een variant daarop aan elkaar verbonden zijn."@nl;
   skos:prefLabel "Metselwerk (baksteen)"@nl.
 
 imbor:b2b7a4e5-0ee3-4127-8092-e7f9dd75edbe a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:52fca495-2fb6-41db-9111-4560b5b9d5f4;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Gebakken kleiproducten"@nl;
   skos:prefLabel "Keramiek"@nl.
 
 imbor:b2f36e51-917b-4aeb-82be-dcba0be510ba a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:adcd1063-8459-4d16-b760-71af5438b771;
   rdfs:subClassOf imbor:1b78d861-6b96-4bd5-8a3a-82c68e6eeced;
   skos:definition "Hout dat in kleine stukken geschredderd is dat vervolgens is behandeld en gekleurd."@nl;
   skos:prefLabel "Gekleurd en verduurzaamd geschredderd hout"@nl.
 
 imbor:b36745f4-eb66-4f04-b41d-cc712c087ec9 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:df8c82d6-07c6-4306-87c6-e05e8b4bd137;
   rdfs:subClassOf imbor:d84a4c66-b57d-46f8-a4db-de2d40358e60;
   skos:definition "Een samenstelling van cement, kalk en zand met water vermengd tot een mortel, welke dient voor het metselen en pleisteren."@nl;
   skos:prefLabel "Cementmortel"@nl.
 
 imbor:b60c3a53-6496-44cb-b539-c0f4f80b2a0a a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:bdca79d5-ba84-4013-916b-70c4829e92a1;
   rdfs:subClassOf imbor:95aa17a6-6718-413a-b459-2b67b669fd4c;
   skos:prefLabel "AVI-slakken"@nl.
 
 imbor:b6734337-a4b5-4581-b28c-bf51b81e3319 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:23411d9d-f140-44be-8580-9a9f30f41a36;
   rdfs:subClassOf imbor:ca01d601-b936-4bcd-a0a0-ab86960ddd66;
   skos:definition "Een mengsel van brekerzand (een grof soort zand dat gebruikt wordt om straatstenen in te vegen) en steenslag (een grof gebroken steen waarvan de kiezels een hoekig oppervlak hebben)."@nl;
   skos:prefLabel "Brekerzand-steenslagmengsel"@nl.
 
 imbor:b6c732f8-dc33-4e47-b29a-be7eac0e264e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:07639ee7-b9d4-43ab-b3e9-46c9c7d64b30;
   rdfs:subClassOf imbor:ce8aa2ed-1ec2-4ba9-adda-2fdb57dd39d9;
   skos:prefLabel "Glad staal"@nl.
 
 imbor:b6de319a-b206-4d28-bd29-315aeade950f a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:5aa97f1f-6fed-4bb6-8205-cc2c1ef3823f;
   rdfs:subClassOf imbor:7feb54a9-cd0d-4153-98c2-85132f9a16e0;
   skos:definition "Een kunstgrasmat van korte polyethyleenvezels met daartussen gestrooid zand."@nl;
   skos:prefLabel "Zandkunstgras"@nl.
 
 imbor:b75129e0-2515-47e8-9db4-04dba562891b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:8d08885d-36de-45d2-9cea-7ada6d41f7c0;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:prefLabel "Permanente markering type II"@nl.
 
 imbor:b781733e-1f7e-4368-a969-2e8535be9b19 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:6e6d76c8-376a-4008-9334-b70f9e390750;
   rdfs:subClassOf imbor:fb5a71f6-a433-4a3c-9ff8-b64d7d5f3a60;
   skos:prefLabel "EPS hardschuim"@nl.
 
 imbor:b7c6ecf9-0576-4bd7-91a3-bea017ca2d1e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:bcb3a263-5971-4def-a583-ccec93f0a953;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een fijne steensoort met een open structuur en een verzamelnaam voor vele specifieke soorten kalksteen."@nl;
   skos:prefLabel "Franse kalksteen"@nl.
 
 imbor:b80817a4-dea6-43d1-988e-f3bb935b8561 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:42c1cb16-db04-4592-8583-fb61536e7950;
   rdfs:subClassOf imbor:246d0d09-2566-4f1d-889e-935abb7fb28b;
   skos:definition "Een samengesteld materiaal op basis van natuurlijke grondstoffen."@nl;
   skos:prefLabel "BioComposiet"@nl.
 
 imbor:b890be07-1e27-415b-9a05-831d65c93f50 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:67949a29-95ff-4035-866a-675a630d46c0;
   rdfs:subClassOf imbor:95aa17a6-6718-413a-b459-2b67b669fd4c;
   skos:definition "Een funderingsondergrond die bestaat uit een mengsel van LD-staalslak en gegranuleerde hoogovenslak."@nl;
   skos:prefLabel "Staalslakmix"@nl.
 
 imbor:b8d907d5-bd65-48fa-a896-35fdb2afe5fa a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:81e044bd-76ef-4a77-97d6-e5dd184bc562;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Bind: bij tussenlaag van asfaltbeton, of tijdelijke deklaag."@nl;
   skos:prefLabel "AC 16 bind"@nl.
 
 imbor:b8dd6b19-7118-4be3-8f7c-6404782aa535 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:b015ec0b-a7c0-49a6-acf9-47343311d833;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:prefLabel "Beton met stalen kern"@nl.
 
 imbor:b8ee3cc0-6481-4de6-aa45-8dc57a9f89bf a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:7ee2a29e-d6d0-48f8-96c6-17ff476ff152;
   rdfs:subClassOf imbor:059eca48-9bd4-4533-84bd-fd8ba342df17;
   skos:definition "Een legering van koper en tin."@nl;
   skos:prefLabel "Brons"@nl.
 
 imbor:b97e1f0e-1b7a-4ba0-afe9-b5d441c8baf9 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:01ce1d57-92c6-4709-a178-c0ebb7bd4bf1;
+  rdfs:subClassOf imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Tegels - vlakke stenen platen - waarvan het hoofdbestanddeel beton is."@nl;
   skos:prefLabel "Betontegel"@nl.
 
 imbor:ba4844c7-e311-4a5e-a9ab-d6af8f7a080e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:6de7e03b-59cd-4f6c-8aed-f31e6689df7b;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een verzamelnaam voor alle soorten nevengesteenten die bij de winning van steenkool vrijkomen."@nl;
   skos:prefLabel "Mijnsteen"@nl.
 
 imbor:ba54c8d0-3914-4386-a955-9b0389192fa7 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:b9196fb6-211a-4223-a5e5-fbf1683b6851;
   rdfs:subClassOf imbor:d84a4c66-b57d-46f8-a4db-de2d40358e60;
   skos:definition "Een mengsel van cement, water en andere hulpmiddelen dat als voegmiddel gebruikt kan worden."@nl;
   skos:prefLabel "Grout"@nl.
 
 imbor:bb61fd55-c4b4-4e82-a83f-5fe8621bdcc8 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:a9aa37ce-77f2-4a46-93d2-a969b3bae02f;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Stenen die met cement of een variant daarop aan elkaar verbonden zijn."@nl;
   skos:prefLabel "Metselwerk"@nl.
 
 imbor:bcf34079-6e96-49c6-8ea0-e8a13cd4e9c6 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:7f58cd4b-438b-44a4-b85f-e4e209854fb3;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Een mengsel van verschillende zandmaterialen."@nl;
   skos:prefLabel "Ternair zand"@nl.
 
 imbor:bd36fd58-39ac-4990-85a7-3094e1cc1e11 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:f4b74a0f-8d49-4d52-855b-ec80c442122c;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:definition "Een vloer van een bepaalde soort kunstsoft met een beschermende afwerking."@nl;
   skos:prefLabel "Kunststof met coating"@nl.
 
 imbor:bf202514-1dcb-40e4-b1da-aaa1cd2960ee a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:c8519a93-a991-4994-8f7a-df6820f54f89;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:definition "Betonspecie die onder druk door een slang op een dragend oppervlak wordt gespoten, zodat het daarop sterk kan verharden."@nl;
   skos:prefLabel "Gespoten beton"@nl.
 
 imbor:bf364b3f-6540-40af-b0c2-0f2fad3a795e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:9f17cbc5-53bf-4f7c-b62c-f65b04193831;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "een fijnkorrelig breekmateriaal dat zeer geschikt is als halfverharding. Dit materiaal is afkomstig uit natuurlijk kalkgesteente en het heeft een hoog gehalte calciumcarbonaat."@nl;
   skos:prefLabel "Nobre Cál"@nl.
 
 imbor:c191f71d-c4ae-4e74-a7f8-aa143df1327c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:dbd54b51-e47b-4e07-98a0-b0c87804a936;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Een bedekkende laag waarin glasparels verwerkt zijn die invallende lichtstralen in exact dezelfde richting weerkaatst als de oorspronkelijke hoek van inval en het hoogst beschikbare helderheidsniveau heeft, bij invalshoeken tot maximaal zeventig graden. Het is een materiaal van reflectieklasse III."@nl;
   skos:prefLabel "Diamond Grade retroreflecterende folie"@nl.
 
 imbor:c252edb7-2fb3-42c7-aaeb-d04151bfe406 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:64e214f4-47bd-42be-ace0-13777b8ca484;
   rdfs:subClassOf imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Een vlakke soort elementenverharding, gemaakt van rubber, die aaneengesloten een oppervlak verhardt."@nl;
   skos:prefLabel "Rubbertegel"@nl.
 
 imbor:c27567a6-5bcd-4635-8930-26ad650578bb a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:5a469480-dd3a-4634-b8b1-efc221d60309;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:definition "Een thermoplastisch polymeer dat sterker is dan polyetheen en ontstaat uit de polymerisatie van propeen."@nl;
   skos:prefLabel "Polypropyleen"@nl.
 
 imbor:c2f49747-11bc-4d7c-9992-00339775332f a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:ebcf6404-6731-4557-8a6f-4785b4e75d95;
   rdfs:subClassOf imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:prefLabel "Markeringstegels"@nl.
 
-imbor:c3c7306e-165a-4d34-a4a5-827b20a231d2
-  rdfs:subClassOf imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2.
-
 imbor:c424c16a-aab7-47ac-910a-352c5b14997b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:4e91f950-d02b-4b88-8879-6d7691192f2f;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Materialen die biodiversiteit bevorderen"@nl;
   skos:prefLabel "Biodivers materiaal"@nl.
 
 imbor:c444418f-d1ba-4127-8af0-67979ca6436c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:a42edf3e-5a4b-48cc-8ad7-8ea3603956e3;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:definition "Een veelvuldig toegepaste thermoplast die ontstaat na polymerisatie van vinylchloride."@nl;
   skos:prefLabel "PVC"@nl.
 
 imbor:c5e56f36-f31a-459e-8192-a1b173267c65 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:6f066ef3-9fae-4855-b945-b832270293d8;
   rdfs:subClassOf imbor:02022bdc-b182-4eb6-a7c4-5073538ed071;
   skos:definition "Deklaagstenen met afstandshouders, ideaal om een onkruidvrij bestraat oppervlak te realiseren."@nl;
   skos:prefLabel "Voegsteen"@nl.
 
 imbor:c754f3af-f7e1-45b5-baac-aa23357298f2 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:8f65e5b4-046e-4ef1-bf72-a0679a7abf57;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:definition "Een straatsteen die als duurzame, goedkope, vervanging van de straatbaksteen is ontwikkeld."@nl;
   skos:prefLabel "Betonstraatsteen"@nl.
 
 imbor:c7d2f7ea-92f0-42d3-8d3b-f2a18ed2ffbd a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:7f31a104-709e-4979-b000-5c68c3bffb45;
   rdfs:subClassOf imbor:7feb54a9-cd0d-4153-98c2-85132f9a16e0;
   skos:definition "Een extra zachte kunstgrasmat van korte polyethyleenvezels met daartussen gestrooid zand."@nl;
   skos:prefLabel "Zandkunstgras, soft"@nl.
 
 imbor:c884b66a-f998-4538-a2a6-031291a70d63 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:3cbaaaa8-796e-4299-a7a3-ff6e0ccb3dcf;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Keramisch rood zand van het merk ProVision."@nl;
   skos:prefLabel "Rood zand (Provision)"@nl.
 
 imbor:c8d8da5f-9bd6-4283-a683-b8e90ebd90d2 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:13bf07ca-c30c-4e1f-b894-26cce670ee96;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:prefLabel "Bamboe (Biobased)"@nl.
 
-imbor:ca01d601-b936-4bcd-a0a0-ab86960ddd66
-  rdfs:subClassOf nen2660:Matter.
-
 imbor:cb9bdf63-edff-4a07-9b53-55525b2b66f1 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:f2424e27-1ec0-49b0-82fd-e82b2c67ef1f;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:prefLabel "Voorgespannen Beton"@nl.
 
 imbor:cbd3a9ad-c095-42d7-86cf-2e22dcce8ce1 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:69cafc4f-b9ae-435c-9d3c-d6befc31f5f9;
   rdfs:subClassOf imbor:dc41fce5-d704-4fe8-901d-4b50ab19a68f;
   skos:definition "Een glas met spiegelende werking dat verhard is en vijf keer zo sterk is als normaal glas."@nl;
   skos:prefLabel "Gehard spiegelglas"@nl.
 
 imbor:cc48be01-5df4-4c9e-b5d4-3f7375837772 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:8d9d71dc-31c9-42f6-9994-11da92087a3d;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:definition "Een thermohardende kunststof waarmee vezelmateriaal geïmpregneerd kan worden."@nl;
   skos:prefLabel "Epoxy"@nl.
 
 imbor:cc85c4a0-f201-4a8d-a346-e440a1d24c7e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:78cdddb5-09ce-4d9b-8def-8eafbda9844a;
   rdfs:subClassOf imbor:5f502712-e43d-4929-8afd-df23ea9a149a;
   skos:definition "Grond die voor meer dan 25% bestaat uit lutumdeeltjes."@nl;
-  skos:prefLabel "Klei"@nl.
+  skos:prefLabel "Klei (materie)"@nl.
 
 imbor:cc9e23e8-8e47-4f71-ae1c-19ba3ffe86a7 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:529e7f65-884f-49af-89a5-98fcd05addef;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:definition "Beton waarin een versterkende constructie is aangebracht."@nl;
   skos:prefLabel "Gewapend beton"@nl.
 
 imbor:cdabd500-5118-4e54-a6c9-b022a40e988a a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:0f3e3022-dcbb-4168-8e4f-ceab723ed0ba;
   rdfs:subClassOf imbor:1b78d861-6b96-4bd5-8a3a-82c68e6eeced;
   skos:definition "De waterloten (takken) van wilgen die samengevlochten worden en bijvoorbeeld gebruikt kunnen worden om afscheidingen uit op te bouwen."@nl;
   skos:prefLabel "Wilgentenen"@nl.
 
 imbor:ce2e35e7-344d-41ce-bb92-aef4eb8bca42 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:a582532b-a9e8-43f6-b424-cc44fe3c5001;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Bind: bij tussenlaag van asfaltbeton."@nl;
   skos:prefLabel "AC 11 bind"@nl.
 
 imbor:ce8aa2ed-1ec2-4ba9-adda-2fdb57dd39d9 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:4fcb2a6f-94b2-4f04-badd-92fb99aa43fa;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een legering die bestaat uit ijzer en een geringe hoeveelheid koolstof, zodanig dat dit metaal gekarakteriseerd wordt door de eigenschap van vervormbaarheid bij verhitting."@nl;
   skos:prefLabel "Staal"@nl.
 
 imbor:cf53600f-86d2-4c46-bffa-4384cf701307 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:e334fc32-cca7-4849-afd2-ebd68273b7bd;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:definition "Thermoplastisch elastomeer is een verzamelnaam voor kunststoffen die bij kamertemperatuur elastisch en bij verhitting thermoplastisch zijn."@nl;
   skos:prefLabel "TPE"@nl.
 
 imbor:cfc35240-8c3f-4394-872c-aee097b8e4d2 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:3266d48e-d2f2-4ea8-a12d-46cdac8e5940;
+  rdfs:subClassOf nen2660:Matter;
   skos:definition "Een vlakke soort elementenverharding, dikwijls van een steensoort, die aaneengesloten een oppervlak verhardt."@nl;
   skos:prefLabel "Tegel"@nl.
 
 imbor:d16bf896-c083-4fd2-b5c6-2149760e542c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:9c005e13-0a60-4f85-a7ab-8d6ea7a46442;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Gebakken klinkers die met cement of een variant daarop aan elkaar verbonden zijn en waar geen pleisterlaag (een smeerbaar materiaal ten behoeve van de afwerking) op is aangebracht."@nl;
   skos:prefLabel "Metselwerk (onbepleisterd)"@nl.
 
 imbor:d1805c23-e942-47c3-8c79-1cc9f7eb92f8 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:3fa62e0c-f682-46aa-aa66-c015f58fc9c7;
   rdfs:subClassOf imbor:ca01d601-b936-4bcd-a0a0-ab86960ddd66;
   skos:definition "Afgeronde stenen van diverse soorten materiaal die gebruikt kunnen worden als oppervlakteverharding."@nl;
   skos:prefLabel "Kei"@nl.
 
 imbor:d2042948-bc42-4f27-8dad-9260ccea09e6 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:3656bafd-f9c5-4619-b795-d0d1f5bff48e;
   rdfs:subClassOf imbor:ce8aa2ed-1ec2-4ba9-adda-2fdb57dd39d9;
   skos:definition "Een legering die bestaat uit ijzer en een geringe hoeveelheid koolstof en glas, zodanig dat staal gekarakteriseerd wordt door de eigenschap van vervormbaarheid bij verhitting."@nl;
   skos:prefLabel "Geëmailleerd staal"@nl.
 
 imbor:d2281507-41c8-42f1-8c4a-c19cf91a5acd a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:a55cafda-10b3-4627-a96b-54c8143c8e01;
+  rdfs:subClassOf nen2660:Matter;
   skos:definition "Geweven of gevlochten materialen"@nl;
   skos:prefLabel "Textiel"@nl.
 
 imbor:d287d44d-bdf4-4d8d-9fad-59a98a1de901 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:4b4c6fdd-32d1-4ff4-b832-4e65a8dd7c47;
   rdfs:subClassOf imbor:ce8aa2ed-1ec2-4ba9-adda-2fdb57dd39d9;
   skos:definition "Een legering die bestaat uit ijzer en een geringe hoeveelheid koolstof, zodanig dat staal gekarakteriseerd wordt door de eigenschap van vervormbaarheid bij verhitting. Het materiaal is aan het oppervlak behandeld waarbij een laag zink wordt aangebracht die bij hoge temperatuur een legering vormt met staal."@nl;
   skos:prefLabel "Staal gepoedercoat"@nl.
 
 imbor:d39f5797-b67b-4303-9f65-58c7c98200c5 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:9bef7bce-bf8f-4361-bc71-36bbee5c2cc7;
   rdfs:subClassOf imbor:5f4a9eaa-e61e-44cc-8218-79930e872a80;
   skos:definition "Een materiaal waarin koolstof in gesloten nodulen aanwezig is in het ijzer."@nl;
   skos:prefLabel "Nodulair gietijzer"@nl.
 
 imbor:d52c74d9-2253-4a48-8742-5f417a568dbf a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:87555304-f580-4b91-aa4d-11add992791f;
   rdfs:subClassOf imbor:059eca48-9bd4-4533-84bd-fd8ba342df17;
   skos:prefLabel "Cradle tot cradle aluminium"@nl.
 
 imbor:d6a765c3-3e48-4d86-8a1f-2436ccdb605e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:ef484438-d939-4c53-b740-9ab09cf6ba25;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een soort graniet, bekend onder meerdere namen, die wordt gewonnen in de regio van Lanhelin, Frankrijk."@nl;
   skos:prefLabel "Graniet Bleu de Lanhelin-Frankrijk"@nl.
 
 imbor:d84a4c66-b57d-46f8-a4db-de2d40358e60 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:5e0b2903-ca24-4d72-95c9-3f2b44c6420c;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een hydraulisch bindmiddel dat voornamelijk uit calciumwaterstofsilicaat bestaat en verhardt in een chemische reactie met water."@nl;
   skos:prefLabel "Cement"@nl.
 
 imbor:d86096ff-f42e-4049-ba98-edfdb66e6838 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:dd3143d7-416c-456b-8e00-82d96837ef26;
   rdfs:subClassOf imbor:fb5a71f6-a433-4a3c-9ff8-b64d7d5f3a60;
   skos:prefLabel "EPS"@nl.
 
 imbor:d8cd1df3-df79-4648-8749-a0416cec1f24 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:d14e7952-49c1-4320-b2be-32468cbf1b70;
   rdfs:subClassOf imbor:041fa1c8-2e35-4050-893c-ed978427c0be;
   skos:definition "Een scheikundig element dat in meerdere vormen in de natuur voorkomt, maar waar ook kunstmatige materialen van vervaardigd worden."@nl;
   skos:prefLabel "Koolstof"@nl.
 
 imbor:dc41fce5-d704-4fe8-901d-4b50ab19a68f a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:b72c9eff-9bc5-4e60-ad52-fb39c1083985;
   rdfs:subClassOf nen2660:Matter;
   skos:definition "Een vaste, doorzichtige stoffen, met kristalachtige eigenschappen, alhoewel het geen kristalstructuur."@nl;
   skos:prefLabel "Glas"@nl.
 
 imbor:dd045c7f-8ed8-4596-9f7e-533fd0ab45d1 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:f93c11f5-edbf-4538-8b64-ace788e78d36;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Bind: bij tussenlaag van asfaltbeton."@nl;
   skos:prefLabel "AC 22 bind"@nl.
 
 imbor:dfe3117e-acb1-4d65-ba55-80b75f86c3c0 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:1e743e09-9ab3-471a-9a44-154ec4908e69;
   rdfs:subClassOf imbor:1b78d861-6b96-4bd5-8a3a-82c68e6eeced;
   skos:definition "Hout dat afkomstig is van loofbomen."@nl;
   skos:prefLabel "Hardhout"@nl.
 
 imbor:e19df377-423a-4e9f-891a-da4b792d4e83 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:b4430920-4600-41ea-ae79-bcf76a0da2d8;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Zand met een rode kleur."@nl;
   skos:prefLabel "Rood zand (overig)"@nl.
 
 imbor:e2d7057a-0fa9-45c2-8f20-7d41d92dae72 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:95d31d34-fd6a-4106-b0a0-f278eb2d0a80;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Een grove zandsoort die gebruikt kan worden in vloeren. Het voldoet aan hoge eisen, het bevat namelijk geen schelpen of andere materialen."@nl;
   skos:prefLabel "Betonzand"@nl.
 
 imbor:e43e1037-5bc4-4949-9c59-f93908b93219 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:89b01f88-8008-49a8-80c8-e0d38135d175;
   rdfs:subClassOf imbor:7feb54a9-cd0d-4153-98c2-85132f9a16e0;
   skos:definition "Een kunstgrasmat van korte polyethyleenvezels met daartussen gestrooid zand, met een gebonden onderbouw."@nl;
   skos:prefLabel "Zandkunstgras, gebonden onderbouw"@nl.
 
 imbor:e5842d52-547e-485b-9fe2-3c3c97ce742b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:fc7b2981-97ed-4fb4-8a9e-ed49cc5762bb;
   rdfs:subClassOf imbor:a5d7e6fb-edb7-465b-b0b7-46c02023bfc2;
   skos:definition "Tegels die zijn vervaardigd uit op hoge temperaturen gebakken klei."@nl;
   skos:prefLabel "Tegel keramiek"@nl.
 
 imbor:e5db285f-c73e-4883-8bc4-d821cf8a3751 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:6823f049-05f1-4984-b1b3-9f8176ff72c0;
   rdfs:subClassOf imbor:041fa1c8-2e35-4050-893c-ed978427c0be;
   skos:definition "Een afkorting voor 'polypropyleenvezels,' die bijvoorbeeld aan betonspecie worden toegevoegd om veel verschillende effecten te realiseren."@nl;
   skos:prefLabel "PP vezels"@nl.
 
 imbor:e62274be-b75a-4e9a-bcad-884ec00813c2 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:4aa4d8ea-41e7-4bd9-ab9c-999eb08de821;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Een lak of verf waarin meerdere componenten zijn samengevoegd, type I."@nl;
   skos:prefLabel "Meercomponentenverf type I"@nl.
 
 imbor:e6d060db-315d-4b42-97d2-3718355aee95 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:e402c489-7624-47d5-a592-5ad730099359;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een soort graniet die van Portugese oorsprong is."@nl;
   skos:prefLabel "Graniet Roriz-Portugal"@nl.
 
 imbor:e8bdd4d4-09db-4871-9fa8-0e4672c86918 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:ebc2ed5a-fefa-43a2-9e84-dd8e2cde4b1f;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:definition "Stenen, vaak klinkervormig, waarvan het hoofdbestanddeel beton is."@nl;
   skos:prefLabel "Betonsteen"@nl.
 
 imbor:e98072b9-c0b6-44b9-9739-d08e1cbf2abb a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:5c6193bf-9f5f-42b7-905a-8fcb4ecf8172;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een zuur stollingsgesteente dat voornamelijk bestaat uit drie mineralen: kwarts, veldspaten en mica's. (Bron: Wikipedia)."@nl;
   skos:prefLabel "Graniet"@nl.
 
 imbor:e9890b27-47fc-4d57-b8c9-b1491512e8e5 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:5e4e35b8-aaf2-4ba5-bc26-cdeabcb86450;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Meerlagige kunststoffen constructie met een elastische bovenlaag."@nl;
   skos:prefLabel "Sandwich"@nl.
 
 imbor:e99b7c48-6191-4f0c-ae1b-37f186da69a4 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:1bc42c4b-f99a-4071-b719-3d947127182f;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Ter ondersteuning van het straatwerk wordt dit type zand gebruikt dat de eigenschap heeft om zich gemakkelijk te laten uitvlakken en daarnaast voldoende water doorlaat om plasvorming te voorkomen."@nl;
   skos:prefLabel "Straatzand"@nl.
 
 imbor:e9f3fbf6-b7a9-4791-ab23-bc6f46e11001 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:fbfcd2f2-460d-46c9-bf6f-ab5e0a623a96;
   rdfs:subClassOf imbor:041fa1c8-2e35-4050-893c-ed978427c0be;
   skos:definition "Stugge plantenvezel afkomstig uit de bast van kokosnoten waaruit bijvoorbeeld touwen of matten vervaardigd kunnen worden."@nl;
   skos:prefLabel "Kokosvezels"@nl.
 
 imbor:ebccdee0-9b12-4677-8098-ea52f82663dd a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:a7276934-9b9a-4235-a530-548bdf528461;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Afkorting van steenmastiekasfalt, een asfaltsoort die binnenstedelijk veel gebruik ziet en bestaat uit in grote mate gebroken materiaal dat grotendeels is opgevuld met mastiek, een materiaal dat wordt vervaardigd uit bitumen, zand en een vulstof."@nl;
   skos:prefLabel "SMA*"@nl.
 
 imbor:ef9496ac-ac97-41ee-b1f8-26c6694a97b2 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:276ba40f-305e-47f8-927d-2250f7e36b40;
   rdfs:subClassOf imbor:c424c16a-aab7-47ac-910a-352c5b14997b;
   skos:definition "Een metalen raster waar een kunstmatig substraat op is aangebracht."@nl;
   skos:prefLabel "Gaas met kunstmatig substraat"@nl.
 
 imbor:f00bf4de-0fd8-4806-8d84-a14241730842 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:825ec182-32c7-4273-9553-01b5f06f00e6;
   rdfs:subClassOf imbor:392ebac6-826c-49b8-ad1a-e020912e10ff;
   skos:prefLabel "Sealwise PVC"@nl.
 
 imbor:f0f62c99-6394-468d-841d-2f0ca52c915b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:ad604095-2899-4b24-aa3a-72f1ff9ecb29;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:prefLabel "Basalton"@nl.
 
 imbor:f3518cc9-bc38-4f92-9de0-4efd46f41c8b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:f991c646-7bec-4bf2-9d61-c4bbe4d33327;
   rdfs:subClassOf imbor:904417a6-d966-4a0b-a397-0e416c0e35a1;
   skos:definition "Een zand soort dat met name wordt gebruikt voor het invoegen van straatwerk. De hoekige vorm van de kleine steentjes (gebroken steen) zorgt voor de stabiliteit, het zand haakt als het ware in elkaar."@nl;
   skos:prefLabel "Brekerzand"@nl.
 
 imbor:f3ddd590-3b3b-4bd5-9108-75ef46d13925 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:e195d77a-15aa-456d-8551-0f541ffff33b;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Base bij onderlaag van asfaltbeton, kan ook twee- en drielaags."@nl;
   skos:prefLabel "AC * base"@nl.
 
 imbor:f524cca2-121d-4e53-ad47-4fbd8a5d79b9 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:b6c0c2e3-c1cb-4305-9940-a95a3fa78099;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:definition "Een hydraulisch bindmiddel dat voornamelijk uit calciumwaterstofsilicaat bestaat."@nl;
   skos:prefLabel "Cementbeton"@nl.
 
 imbor:f6cbad6c-1357-4954-aa6c-734fdbbe71b2 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:3bb90c7c-ec6f-4fa0-9979-84276010eedf;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:prefLabel "Honingraat Bio Recycling"@nl.
 
 imbor:f8a62463-9669-4326-8a04-4be4a06e4874 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:10b3bc8a-3e79-40df-8d21-8d06cd480bb2;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Surf: bij deklaag van asfaltbeton."@nl;
   skos:prefLabel "AC 16 surf"@nl.
 
 imbor:f919c026-a0be-4542-b12f-e2a0012ed8da a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:eb4e0dd4-0f47-4a88-88da-7b55929eaae6;
   rdfs:subClassOf imbor:5b539c4e-7020-470c-a132-ce9a58cf5693;
   skos:definition "Een materiaal bestaande uit fijne stof dat het resultaat is van het breken, zeven en reinigen van betonpuin."@nl;
   skos:prefLabel "Betongranulaat"@nl.
 
 imbor:f95a38e2-99c9-4df7-a49a-ea058cc6b77d a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:364913d2-62d8-49c8-86e2-5a85ca585324;
   rdfs:subClassOf imbor:52ab27f2-fb67-4752-8cfc-ac4f3638df4e;
   skos:definition "Stenen van beton met daarin holle ruimtes waartussen gras kan groeien."@nl;
   skos:prefLabel "Grasbetonsteen"@nl.
 
 imbor:f962169d-587e-40cd-bff8-2717b4b26278 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:4c9079a8-d2a6-46ce-951e-edda8f27d004;
   rdfs:subClassOf imbor:5b539c4e-7020-470c-a132-ce9a58cf5693;
   skos:definition "Granulaat (gebroken beton) waaraan een stabilisator is toegevoegd."@nl;
   skos:prefLabel "Hydraulisch betongranulaat"@nl.
 
 imbor:fa1fd606-7d4d-4b79-b6e1-a36aaa281d3c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:66394bc0-e6cd-42d9-85dd-9d27d9a60e76;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Een kunststof materiaal dat opgespoten aangebracht kan worden en dat bij verhitting zacht wordt en verhardt bij afkoeling."@nl;
   skos:prefLabel "Thermoplastisch materiaal verspuitbaar type I"@nl.
 
 imbor:fa5d9f33-c94e-43be-80b9-665e420deff4 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:44f62001-8b00-45f2-b156-6e4ab7c1fb79;
   rdfs:subClassOf imbor:7feb54a9-cd0d-4153-98c2-85132f9a16e0;
   skos:definition "Een extra zachte kunstgrasmat van korte polyethyleenvezels met daartussen gestrooid zand."@nl;
   skos:prefLabel "Zandkunstgras soft"@nl.
 
 imbor:fae90e2a-78ab-4db7-94d3-011dd3fb444c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:1bca6c94-64c9-42db-9850-1b6ca1d34a34;
   rdfs:subClassOf imbor:6a7ae965-ff45-4240-999c-536b4a465ceb;
   skos:definition "Een natuursteen en sedimentgesteente van kwartskorrels met elkaar verbonden door een bindmiddel (leem, kalk e.d.)."@nl;
   skos:prefLabel "Zandsteen"@nl.
 
 imbor:fb5a71f6-a433-4a3c-9ff8-b64d7d5f3a60 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:9d9c6bbf-9d34-4de0-99a1-36f1b6100f24;
   rdfs:subClassOf nen2660:Matter;
   skos:prefLabel "Isolatiemateriaal"@nl.
 
 imbor:fbbd2d2a-6866-4ce5-9934-3cf24ec1f46d a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:ed27abfa-ceb9-4d30-8c1b-b25bee6d89ca;
   rdfs:subClassOf imbor:c424c16a-aab7-47ac-910a-352c5b14997b;
   skos:definition "Plantaardige grasbegroeiing."@nl;
   skos:prefLabel "Natuurgras"@nl.
 
 imbor:fc305ed3-91f2-4d1f-a565-e8227d88cd04 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:cf22d1b6-9293-41a4-9b0c-3e8c27ee0522;
   rdfs:subClassOf imbor:9d696c84-1a85-4f95-9342-803ae20cdff2;
   skos:definition "Een bedekkende laag waarin microprisma's verwerkt zijn die invallende lichtstralen in exact dezelfde richting weerkaatst als de oorspronkelijke hoek van inval, die oogt als een glimmend, zilverkleurig roosterwerk. Het is een materiaal van reflectieklasse II."@nl;
   skos:prefLabel "High Intensity Prismatic retroreflecterende folie"@nl.
 
 imbor:fc421416-6fff-48d4-b84b-f639879abeea a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:b4cc0a98-9b62-4684-8229-776f2f4b70dc;
   rdfs:subClassOf imbor:a768ba26-9e40-448e-869d-9a4a6e8a65b7;
   skos:definition "Vergruizeld asfaltbeton in korrelige vorm, gefreesd of gebroken of ongebroken in schollen. Het bindmiddel van asfaltbeton bestaat uit bitumen. (Bron: Bouwstoffencentrum.eu)"@nl;
   skos:prefLabel "Asfaltpuin"@nl.
 
 imbor:ff76fcec-8319-4349-9687-8ada7823dcbd a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:8caf624e-8708-4d31-9f6c-fbbafa83e1bc;
   rdfs:subClassOf imbor:ca01d601-b936-4bcd-a0a0-ab86960ddd66;
   skos:definition "Een gebroken steen, van zowel natuursteen als puin. Doordat het gesteente gebroken is, heeft het geen rond oppervlak, waardoor de stenen niet zo makkelijk wegglijden."@nl;
-  skos:prefLabel "Steenslag"@nl.
+  skos:prefLabel "Steenslag (materie)"@nl.
