@@ -73,7 +73,7 @@ gwsw:AansluitingszijdeColl a rdfs:Class;
 gwsw:Aansluitleiding a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:db61b024-6832-4406-8f82-7d8cba3775f6;
-  rdfs:subClassOf imbor:a57c92d8-2139-45c8-b96f-471106f6af2e;
+  rdfs:subClassOf imbor:25cd7ea1-86d1-4d65-a2bd-c3778eafe032;
   skos:definition "Leiding tussen een gebouw of een kolk en een knooppunt of leiding voor de aanvoer van afvalwater."@nl;
   skos:prefLabel "Aansluitleiding"@nl;
   sh:property imbor:abbd8adf-2127-4673-b42b-36fb03c294e3.
@@ -948,7 +948,7 @@ gwsw:DakoppervlakVlakUitgestrekt a rdf:Property;
 gwsw:DCAbc a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:d04b9f20-3f4c-4f35-a3d8-aabfa01dba5e;
-  rdfs:subClassOf imbor:a57c92d8-2139-45c8-b96f-471106f6af2e;
+  rdfs:subClassOf imbor:25cd7ea1-86d1-4d65-a2bd-c3778eafe032;
   skos:definition "Een leiding die snel daalt richting een put."@nl;
   skos:prefLabel "Valleiding"@nl.
 
@@ -1105,7 +1105,7 @@ gwsw:DragenVanZwaarVerkeer a rdfs:Class, sh:NodeShape;
 gwsw:Drain a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:1eb550a3-d248-4684-854c-46b48e76cb26;
-  rdfs:subClassOf imbor:a57c92d8-2139-45c8-b96f-471106f6af2e;
+  rdfs:subClassOf imbor:25cd7ea1-86d1-4d65-a2bd-c3778eafe032;
   skos:definition "Een leiding met doorlatende wanden bestemd voor het op peil houden van het grondwater. Kan ook beschouwd worden als een soort voorziening om water te onttrekken."@nl;
   skos:prefLabel "Drain"@nl;
   sh:property
@@ -1309,7 +1309,7 @@ gwsw:DubbelkerendeSpindelschuif a rdfs:Class, sh:NodeShape;
 gwsw:Duiker a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:a2ddf746-64af-4928-8f29-da54a00f16ca;
-  rdfs:subClassOf imbor:a57c92d8-2139-45c8-b96f-471106f6af2e;
+  rdfs:subClassOf imbor:25cd7ea1-86d1-4d65-a2bd-c3778eafe032;
   skos:definition "Kunstwerk voor de waterhuishouding, bestaande uit een kokervormige constructie aangebracht onder een weg of spoorweg of in een dam."@nl;
   skos:prefLabel "Duiker"@nl;
   sh:property
@@ -2041,7 +2041,7 @@ gwsw:InlaatLeiding a rdfs:Class, sh:NodeShape;
 gwsw:InlaatOppervlaktewater a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:b79a6f85-0a54-444a-92ed-fd3f01253759;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Constructie om oppervlaktewater in te nemen."@nl;
   skos:prefLabel "Oppervlaktewaterinlaat"@nl;
   sh:property
@@ -3075,7 +3075,7 @@ gwsw:Ontluchter a rdfs:Class, sh:NodeShape;
 gwsw:Ontluchtingsleiding a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:fb7754ff-822d-4aa1-94f7-1153c58cae22;
-  rdfs:subClassOf imbor:a57c92d8-2139-45c8-b96f-471106f6af2e;
+  rdfs:subClassOf imbor:25cd7ea1-86d1-4d65-a2bd-c3778eafe032;
   skos:definition "Leiding bestemd voor de afvoer van lucht."@nl;
   skos:prefLabel "Ontluchtingsleiding"@nl;
   sh:property
@@ -3483,7 +3483,7 @@ gwsw:Peilbuisdeksel a rdfs:Class, sh:NodeShape;
 gwsw:Pendelstuk a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:3cd2db15-f645-48e4-bc62-f2a1035b7fff;
-  rdfs:subClassOf imbor:a57c92d8-2139-45c8-b96f-471106f6af2e;
+  rdfs:subClassOf imbor:25cd7ea1-86d1-4d65-a2bd-c3778eafe032;
   skos:definition "Een leiding voor de opvang van axiale beweging in de ondergrond door bijvoorbeeld zetting."@nl;
   skos:prefLabel "Pendelstuk"@nl;
   sh:property
@@ -3924,9 +3924,7 @@ gwsw:Rioolgemaal a rdfs:Class, sh:NodeShape;
 gwsw:Rioolleiding a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:7d0623bb-a70a-4055-a5a1-c9440f46ea59;
-  rdfs:subClassOf
-    imbor:25cd7ea1-86d1-4d65-a2bd-c3778eafe032,
-    imbor:a57c92d8-2139-45c8-b96f-471106f6af2e;
+  rdfs:subClassOf imbor:25cd7ea1-86d1-4d65-a2bd-c3778eafe032;
   skos:definition "Samenstel van buizen tussen twee putten bestemd voor de inzameling en/of het transport van afvalwater."@nl;
   skos:note "Bij de rioolleiding zijn een aantal attributen alleen van toepassing voor speciale verschijningsvormen."@nl;
   skos:prefLabel "Rioolleiding"@nl;
@@ -4612,9 +4610,7 @@ gwsw:TransporteertVooral a rdfs:Class, sh:NodeShape;
 gwsw:Transportleiding a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:d2f3b895-dced-43ae-b6c2-1eb3164bfd30;
-  rdfs:subClassOf
-    imbor:25cd7ea1-86d1-4d65-a2bd-c3778eafe032,
-    imbor:a57c92d8-2139-45c8-b96f-471106f6af2e;
+  rdfs:subClassOf imbor:25cd7ea1-86d1-4d65-a2bd-c3778eafe032;
   skos:definition "Leiding met als functie de voortgeleiding van materie met mechanische en vrijverval leidingen als subtypen."@nl;
   skos:prefLabel "Transportleiding"@nl;
   sh:property
@@ -5323,7 +5319,7 @@ gwsw:VrijvervalDrainagestelsel a rdfs:Class, sh:NodeShape;
 gwsw:VrijvervalLeidingsegment a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:f66250ae-a13b-4bd9-825b-62f2023f0aa6;
-  rdfs:subClassOf gwsw:VrijvervalDrainagestelsel;
+  rdfs:subClassOf gwsw:VrijvervalTransportleiding;
   skos:definition "Deel van een vrijverval leiding begrensd door wijziging materiaal, wijziging afmeting of locatie appendages."@nl;
   skos:prefLabel "Vrijverval leidingsegment"@nl;
   sh:property imbor:c9e53cf6-d9ad-44a2-9ca0-30990d99e342.
@@ -5821,7 +5817,6 @@ nen3610:GeoObject a rdfs:Class, sh:NodeShape;
     imbor:09c2f08f-6193-4f53-981d-ace7ece478c0,
     imbor:480c04f2-9156-46cb-8853-361c0aaea651,
     imbor:67db8695-c868-41d3-bf1e-18e780834c63,
-    imbor:6a274ff5-1983-4bb2-b579-730336d5d145,
     imbor:70fa1e34-7061-4de3-940f-f51e0d3f1fa5,
     imbor:75f98c80-7c5a-498b-9eb1-d1589b48b919.
 
@@ -6233,6 +6228,12 @@ imbor:006304a6-97bc-49cf-8fbe-1e28505074f8 a sh:PropertyShape;
 
 imbor:006304a6-97bc-49cf-8fbe-1e28505074f8_qvs a sh:NodeShape;
   sh:class gwsw:VanStroomVoorzien.
+
+imbor:006c20be-908b-46cf-9eed-cc9e5622f746 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:39fc6c2b-0b22-47f3-9237-3be613af66e4;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Informeren van verkeer"@nl.
 
 imbor:006f97f0-7549-4687-ad95-44890f2b67d0 a sh:PropertyShape;
   skos:prefLabel "Spoelklep is onderdeel van Oppervlaktewaterinlaat"@nl;
@@ -6814,6 +6815,13 @@ imbor:03eaef89-8539-4794-af14-955b70168c5c a sh:PropertyShape;
   sh:maxCount 1;
   sh:path imbor:a7f28906-7d73-4a08-b28e-20e0c4275ac8.
 
+imbor:03ebddd1-a0b3-459a-b864-91a6df2365bf a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:78eb59f6-84e6-477d-988b-37fad17b76e6;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een transformatorstation, ook wel een trafostation genoemd, is een onderdeel van het elektriciteitsnetwerk dat de spanning van elektriciteit omzet. Het zet meestal hoogspanning (zoals gebruikt voor transport over lange afstanden) om in lagere spanningen, zoals midden- of laagspanning, die geschikt zijn voor gebruik door huishoudens en bedrijven."@nl;
+  skos:prefLabel "Transformatorstation"@nl.
+
 imbor:03ee6663-2275-4507-8d47-5b75c982af6b a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:2095e72c-0a72-4237-a178-64b793b596c7;
@@ -6909,6 +6917,12 @@ imbor:0461f2f0-5d43-4152-bde7-ea1a38e448c2 a rdfs:Class, sh:NodeShape;
   sh:property
     imbor:c0077c72-fe3f-414c-ac2c-04b70f3d09d2,
     imbor:ece0ef6f-7cff-4a0c-9823-ee6861d6f520.
+
+imbor:04710062-2b13-48f2-a342-a2b556efbe58 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:81eb15bc-49ce-47b5-8c83-6585c193af76;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Beschutting en onderdak bieden"@nl.
 
 imbor:0483cdd0-2053-449a-af46-e41de18d1510 a sh:PropertyShape;
   skos:prefLabel "Vijzelgemaal heeft deel Vijzelpomp"@nl;
@@ -7118,7 +7132,7 @@ imbor:05c869cc-f347-45b5-9b2b-1c9ed559d949 a rdfs:Container;
     imbor:bc6f8c37-6121-49db-af4d-7d805f1e82f6;
   rdfs:seeAlso imbor-term:87865559-cb38-4e95-a4a2-7c301df581eb;
   skos:definition "Beheeromgeving voor registratie en inwinnen van gegevens, het beheren en inspecteren van kunstobjecten en aan kunstobjecten gerelateerde objecten."@nl;
-  skos:prefLabel "Kunst"@nl.
+  skos:prefLabel "Kunst (zoekingang)"@nl.
 
 imbor:05d7d3b9-6ddd-4b1e-8a2e-5d5771d1640e a sh:PropertyShape;
   skos:prefLabel "Rol heeft betrekking op Geo-object"@nl;
@@ -7504,7 +7518,7 @@ imbor:078906a8-f0d1-4b4c-aba3-65328cd58a76 a rdfs:Class;
   rdfs:seeAlso imbor-term:c65decbc-0383-432c-9260-2877da541946;
   rdfs:subClassOf nen2660:EnumerationType;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Waterstaatkundig kunstwerk en het attribuut type waterkerende constructie."@nl;
-  skos:prefLabel "WaterstaatkundigKunstwerkTypeWaterkerendeConstructie"@nl;
+  skos:prefLabel "InfrastructureelKunstwerkTypeWaterkerendeConstructie"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
 
 imbor:078ad19e-2449-4007-97f8-8748b838e850 a sh:PropertyShape;
@@ -7610,6 +7624,12 @@ imbor:07c7cea9-f649-4593-b19a-0a543e07e93c a sh:PropertyShape;
   sh:class imbor:667cf73c-9333-4a8b-86af-08612aba39d2;
   sh:maxCount 1;
   sh:path imbor:9cd977b1-d883-4877-835a-2cca40e032ab.
+
+imbor:07d1d5f8-bfcf-4ff7-9d5a-dafbf3004b70 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:f5311e1d-f62a-405b-a222-0929d86680fc;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Ontsluiten van het (landelijk) gebied op het hoofdwegennet"@nl.
 
 imbor:07d39363-c8c9-40e4-b2e0-3cd6dfe46fd5 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -7784,7 +7804,7 @@ imbor:088a1269-f0ea-41d2-8d84-0dd50a05787d a rdfs:Class, sh:NodeShape;
   skos:prefLabel "Sluiswachterskantoor"@nl.
 
 imbor:088d67d0-3b28-4722-8c2f-4d5904e9b24d a sh:PropertyShape;
-  skos:prefLabel "InformatieObject geregistreerd met Versie"@nl;
+  skos:prefLabel "InformatieObject geregistreerd met Versies"@nl;
   sh:path nen3610:registratiegegevens;
   sh:qualifiedMaxCount 1;
   sh:qualifiedValueShape imbor:088d67d0-3b28-4722-8c2f-4d5904e9b24d_qvs.
@@ -8184,6 +8204,12 @@ imbor:0adae690-8975-4a38-8153-cb265b280b03 a sh:PropertyShape;
   sh:maxCount 1;
   sh:path gwsw:BergendOppervlak.
 
+imbor:0ade29c8-d197-4df8-b66f-eaa9876f76fc a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:397e6f4a-6ed7-4dec-bccb-40bf076c604f;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Kruisen verkeer"@nl.
+
 imbor:0ae74ac6-e315-47b8-8ef7-df6d56036281 a rdfs:Class;
   rdfs:seeAlso imbor-term:15151406-6cbc-41c9-a165-89e685c3389e;
   rdfs:subClassOf nen2660:EnumerationType;
@@ -8260,6 +8286,12 @@ imbor:0b5da949-b90e-470d-9479-98869a4ae28c a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf imbor:a7989f41-e048-4047-b3ca-15c2dd6c41b0;
   skos:definition "Gelijkvloerse kruising van een weg met een (spoor)rails."@nl;
   skos:prefLabel "Overweg"@nl.
+
+imbor:0b762c7d-9ce8-42a3-9026-2185810f15e2 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:296923d7-635d-4715-b4f6-2e4db04d1f1c;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Weren van geluid"@nl.
 
 imbor:0b7b9dd5-4735-4bdb-88ed-550566aa7b6d a sh:PropertyShape;
   skos:prefLabel "anti-graffiti voorziening vastgezet op Open bouwwerk"@nl;
@@ -8543,6 +8575,13 @@ imbor:0cb9a862-1bc7-47af-966d-8a5eb3b6c8cf a sh:PropertyShape;
   sh:maxCount 1;
   sh:path imbor:29ec4228-7a32-41db-ac73-b80db66ea743.
 
+imbor:0cbd6b1f-4621-40e5-9c06-11b498a08981 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:a3c0163e-3da7-4c2d-8ebd-6c1d610c80ee;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een groothandelsbedrijf, of groothandel, is een bedrijf dat goederen in grote hoeveelheden inkoopt en verkoopt, meestal aan andere bedrijven (zoals detailhandelaren, horeca-ondernemingen, of andere bedrijven), en niet rechtstreeks aan consumenten."@nl;
+  skos:prefLabel "Groothandelsbedrijf"@nl.
+
 imbor:0cc25b72-37ad-4d70-bbfe-14ae6b1e89de a sh:PropertyShape;
   skos:prefLabel "Referentiemicrofoon is verbonden met Hoofdpost"@nl;
   sh:path nen2660:isConnectedTo;
@@ -8775,7 +8814,7 @@ imbor:0e17265c-8c8e-4d35-aef1-b6ec61454c60 a rdf:Property;
   skos:prefLabel "keurdiepte"@nl.
 
 imbor:0e1d42ea-15a9-48c0-be9f-503e626d4ce4 a sh:PropertyShape;
-  skos:prefLabel "kleur vastgezet op Constructiekleur"@nl;
+  skos:prefLabel "kleur vastgezet op Kleur-informatie"@nl;
   sh:maxCount 1;
   sh:path imbor:5be74803-1734-4749-9c9f-08a5abec4ec5;
   sh:qualifiedMaxCount 1;
@@ -9305,6 +9344,13 @@ imbor:11242efa-a649-4aa2-8837-b2556e33466b a rdf:Property;
   skos:definition "Reflecterend materiaal met een afgeknotte prisma voor een hogere helderheid en een grotere hoek van terugkaatsing."@nl;
   skos:prefLabel "reflectieklasse"@nl.
 
+imbor:1127017b-6fc7-425d-ba10-5a7041867a59 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:8f864a35-0cd0-469e-8a06-4a9e234e4bee;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een veehouderijbedrijf is een agrarisch bedrijf dat zich bezighoudt met het houden en fokken van landbouwhuisdieren, zoals runderen, varkens, kippen, schapen, geiten, en paarden, voor de productie van vlees, melk, eieren, wol, of andere dierlijke producten. Het kan zowel grondgebonden als niet-grondgebonden zijn."@nl;
+  skos:prefLabel "Veehouderijbedrijf"@nl.
+
 imbor:1139c947-8315-465b-813e-f18d306382a8 a sh:PropertyShape;
   qudt:hasUnit unit:M;
   skos:prefLabel "slagwaterpeil vastgezet op Waterpeil-informatie"@nl;
@@ -9593,6 +9639,13 @@ imbor:12b05393-1a73-4a87-9758-4ca33932b500 a rdfs:Class, sh:NodeShape;
   skos:definition "Een in Nederland gebruikt type verkeerslicht bestemd voor lijnbussen en trams. De negenoog wordt, onder de naam tram/buslicht, besproken in RVV artikel 70. Staat een negenoog bij een busstrook of busbaan, dan geldt hij ook voor andere voertuigen die daar rijden, wat meestal toegestaan is voor taxi's."@nl;
   skos:prefLabel "Negenoog"@nl.
 
+imbor:12b094e1-dbb9-4e18-8721-ea7534b5c06a a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:a0a013ba-2c1a-46c0-b756-2def31aa38e6;
+  rdfs:subClassOf imbor:6b54fe2f-9897-47da-863c-5a931e89b2de;
+  skos:definition "Bovengrondse bak voor de inzameling van afvalstoffen, beschikkend over een inwerpklep en (mogelijk) over autorisatiemogelijkheden."@nl;
+  skos:prefLabel "Cocon"@nl.
+
 imbor:12baf0da-bb11-46cc-80fe-c04dd7f9eaac a sh:PropertyShape;
   skos:prefLabel "Perceelaansluitleiding is onderdeel van Perceelaansluiting"@nl;
   sh:path nen2660:isPartOf;
@@ -9692,6 +9745,13 @@ imbor:131ade14-11c8-4370-936b-4090c8230035 a rdfs:Class, sh:NodeShape;
     imbor:34ad8b7d-125d-49b5-93ec-922ca3188b90,
     imbor:9301135f-ca9d-4481-aa28-82ab7f7b75f9,
     imbor:9f5b22d7-ec3c-453e-8e4a-cf580995ab1b.
+
+imbor:1321cdcb-ea2a-4070-8125-c4612a2aeccf a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:f2cb2040-37a4-4616-a381-02dcf6d10399;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een wasstraat is een faciliteit of installatie waar voertuigen, zoals auto's, machinaal worden gewassen. Het is een ruimte of constructie met speciale apparatuur om de buitenkant van voertuigen te reinigen."@nl;
+  skos:prefLabel "Wasstraat"@nl.
 
 imbor:1329bb1e-8c8d-4c94-b898-f00998b6af5c a rdf:Property;
   rdfs:seeAlso imbor-term:50feece3-e31e-4587-ae59-192b162cd720;
@@ -10334,6 +10394,7 @@ imbor:16ce0662-115c-407f-88f8-948d587e04d6 a rdf:Property;
 imbor:16d3fb8e-c940-48f9-8675-b484365b4f6c a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:363c4c0e-58f5-4b10-be26-3f4010e49ea0;
+  rdfs:subClassOf imbor:6f2725be-2a7b-4d94-8f53-513459f52147;
   skos:definition "Een hondentoilet is een specifieke plek waar hondenbezitters hun hond kunnen laten plassen en poepen, vaak met de bedoeling om overlast elders te voorkomen. Het kan een afgebakend stukje gras zijn, een speciaal ontworpen bak of zelfs een verwerker voor de uitwerpselen."@nl;
   skos:prefLabel "Hondentoilet"@nl.
 
@@ -10607,6 +10668,12 @@ imbor:1819199e-b21a-4b05-b742-61841753b38d a sh:PropertyShape;
   sh:datatype xsd:string;
   sh:maxCount 1;
   sh:path imbor:e8fd5b09-a273-4d42-81ce-522331d71df8.
+
+imbor:18389c7c-d45b-4068-8888-5e7ecec14183 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:7bdfd97d-9361-4628-a1f7-fae9d8006f2e;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Kruisen raster mogelijk maken"@nl.
 
 imbor:18494b91-6209-4915-968e-c20eb2c66c11 a rdfs:Class;
   rdfs:seeAlso imbor-term:e9dc962d-6f15-4479-9c69-26a39b5c6594;
@@ -10931,7 +10998,7 @@ imbor:199ba322-e570-40dd-b85d-bcdf7b642556_qvs a sh:NodeShape;
 imbor:19a6f4c0-92cd-4c75-b606-165f123ec483 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:14caa343-0116-4dfa-b686-0ace8bb2d934;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Een verplaatsbare of verwijderbare barrage ten behoeve van het beschermen van achterliggend terrein tegen overstroming."@nl;
   skos:prefLabel "Mobiele waterkering"@nl;
   sh:property imbor:31622dbd-5932-4059-893d-8d0c51b9fe22.
@@ -11132,6 +11199,13 @@ imbor:1b2a2e03-dc8f-4412-b10d-87bf01ab2954 a rdfs:Class;
   skos:prefLabel "VerkeerseilandVerschijningsvorm"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
 
+imbor:1b5d261a-1f6b-421c-81cb-2b3b6fffce0b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:c3b60d5e-add0-42af-8441-1a6787fd5b14;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een radarpost is een locatie waar waarnemingen worden gedaan met behulp van radar, voornamelijk om de bewegingen van vliegtuigen en schepen te observeren. Het is een plek, al dan niet bemand, waar een radar is opgesteld voor het begeleiden van de scheepvaart of luchtverkeer."@nl;
+  skos:prefLabel "Radarpost"@nl.
+
 imbor:1b6f8672-6e31-4e83-9a54-4e5896d82c02 a sh:PropertyShape;
   skos:prefLabel "Registratieve ruimte heeft deel Bouwwerk"@nl;
   sh:path nen2660:hasPart;
@@ -11310,6 +11384,12 @@ imbor:1c0d5773-5ac4-432d-800f-f337f9a11f6f a rdf:Property;
   rdfs:seeAlso imbor-term:ac2c1cc9-b6b8-47df-a816-8438dde3a809;
   skos:definition "De taludsteilte van het onderwatertalud van de glooiing."@nl;
   skos:prefLabel "taludsteilte onderwatertalud"@nl.
+
+imbor:1c149f99-a0ad-4cea-a802-9f197d8016c4 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:7266fa90-e31e-4cea-a606-44a7ff52555a;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Toegang tot water en/of oever voor fauna"@nl.
 
 imbor:1c172b4a-4cf5-47f9-b7db-d32239571346 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -11563,6 +11643,12 @@ imbor:1d5e6e90-d251-45cf-8bdd-314a9766f506 a rdfs:Class, sh:NodeShape;
   sh:property
     imbor:0c033c07-fe58-4692-b5f2-30ec640c7c20,
     imbor:3943d15b-e9ca-43ca-80ca-aa2db3906978.
+
+imbor:1d67941b-b8f8-4556-babf-8a56834d8089 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:b504d016-e83b-475f-b012-8cc1a7da1ca2;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Beinvloeden verkeerslichten"@nl.
 
 imbor:1d6bc936-3572-403a-8991-cdda766f6706 a sh:PropertyShape;
   skos:prefLabel "Drain voert uit Afvoer van hemelwater"@nl;
@@ -12019,7 +12105,7 @@ imbor:1f26b47c-17e8-45e0-9c79-3d67462ab9e6 a rdfs:Container;
     imbor:ff30d965-c37b-41a8-87d1-aa895fc6a8aa;
   rdfs:seeAlso imbor-term:02cb0774-5fbe-4dc6-a1af-f83f1609b962;
   skos:definition "Beheeromgeving voor het registreren en inwinnen van gegevens, het beheren en inspecteren van verkeersregelinstallaties en alle objecten die hieraan gerelateerd zijn zoals kabels, palen, kasten en sensoren."@nl;
-  skos:prefLabel "Verkeersregelinstallaties"@nl.
+  skos:prefLabel "Verkeersregelinstallaties (zoekingang)"@nl.
 
 imbor:1f421323-785d-4c12-bc85-e7034b824ce2 a sh:PropertyShape;
   skos:prefLabel "imsi vastgezet op Communicatiemodule"@nl;
@@ -12288,6 +12374,13 @@ imbor:20c80cb1-9301-457c-9893-18317ed58dc4 a sh:PropertyShape;
   sh:maxCount 1;
   sh:path imbor:49d1db91-f1ef-414e-ac65-b6e13fb34a92.
 
+imbor:20f140a8-13d6-4f54-833e-da1639c8bd70 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:992dbb28-ec06-4e06-afde-5c8152147871;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een rioolgemaal is een gebouw of constructie waarin pompen zijn geïnstalleerd die afvalwater verpompen naar een hoger gelegen punt, zoals een rioolwaterzuiveringsinstallatie of een ander deel van het rioolstelsel. Het is een essentieel onderdeel van de riolering, vooral op plaatsen waar afvalwater niet vanzelf naar een hoger niveau kan stromen."@nl;
+  skos:prefLabel "Rioolgemaalgebouw"@nl.
+
 imbor:2102f563-baab-4662-a2ee-083648604766 a sh:PropertyShape;
   qudt:hasUnit unit:M;
   skos:prefLabel "lengte vastgezet op Scheiding"@nl;
@@ -12355,6 +12448,13 @@ imbor:21451677-3337-43f2-aaec-acd29009afeb a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf imbor:54a69715-c34a-4303-9682-eb51e8887f36;
   skos:definition "De gehele voorziening of installatie die nodig is om een object te aarden."@nl;
   skos:prefLabel "Aardingsvoorziening"@nl.
+
+imbor:214c2ce5-7c85-43ff-b6d9-f653ad37e52f a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:039e9369-0e03-40d9-a4ea-3e634b359c4d;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een observatorium is een gebouw of locatie die is uitgerust voor het observeren en bestuderen van natuurverschijnselen, vaak met behulp van speciale instrumenten zoals telescopen. Het kan gaan om astronomische observaties, meteorologische waarnemingen of andere vormen van natuuronderzoek."@nl;
+  skos:prefLabel "Observatorium"@nl.
 
 imbor:214dcab9-44c2-4c4d-9db5-e19cd4e1d526 a sh:PropertyShape;
   qudt:hasUnit unit:M;
@@ -12599,7 +12699,7 @@ imbor:222052d2-ecc5-4687-a90a-3114aced9538 a rdfs:Container;
     imbor:fec32727-e8d5-4e22-8469-d55f1095889d;
   rdfs:seeAlso imbor-term:ca35d639-89f5-4bf6-8761-92009ca4acbf;
   skos:definition "Beheeromgeving voor het registreren en inwinnen van gegevens, het beheren en inspecteren van ecologische objecten. De ecologie bestudeert zowel de wisselwerking tussen organismen onderling, binnen populaties en levensgemeenschappen (de biotische milieufactoren), als de relaties van deze biologische eenheden met hun niet-biologische omgeving (de abiotische milieufactoren). Ecologisch groenbeheer is het beheer van groene structuren waarbij de inheemse flora en fauna centraal staat."@nl;
-  skos:prefLabel "Ecologie"@nl.
+  skos:prefLabel "Ecologie (zoekingang)"@nl.
 
 imbor:222bf670-c81d-424d-9c0f-5ef5a1538c41 a sh:PropertyShape;
   skos:prefLabel "oppervlaktebehandeling vastgezet op Tunneldeel"@nl;
@@ -12915,12 +13015,6 @@ imbor:24002dfe-aa27-47f7-9e12-bd2678677c2b a rdfs:Class, sh:NodeShape;
   skos:prefLabel "Schot"@nl;
   sh:property imbor:67de98be-22c5-46f9-aabd-6d8a9e738fce.
 
-imbor:240f3054-e347-404c-85f7-928ec8411c0a a sh:PropertyShape;
-  skos:prefLabel "serienummer vastgezet op Sportveld"@nl;
-  sh:datatype xsd:string;
-  sh:maxCount 1;
-  sh:path imbor:721aa6e1-cec4-4cce-8eea-38ee4399da06.
-
 imbor:2426d10c-5427-4ba1-ae35-89076f2d3390 a sh:PropertyShape;
   skos:prefLabel "Mechanisch rioolstelsel heeft deel Doorspuitput"@nl;
   sh:path nen2660:hasPart;
@@ -12938,6 +13032,13 @@ imbor:243a8169-b8bf-47e5-afe4-43e9e344221f a sh:PropertyShape;
 
 imbor:243a8169-b8bf-47e5-afe4-43e9e344221f_qvs a sh:NodeShape;
   sh:class gwsw:Gemaal.
+
+imbor:243b99e5-71e5-416b-9b98-aac1831a3bd0 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:734e876f-9bc1-4fa4-a90b-8ce7b302fa53;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een hotel is een gebouw waar mensen tegen betaling kunnen overnachten. Hotels bieden meestal slaapplaatsen in een- en tweepersoonskamers en verstrekken daarnaast vaak maaltijden, drankjes en andere faciliteiten zoals restaurants, bars en zwembaden. Het is een vorm van accommodatie bedoeld voor tijdelijk verblijf, vaak gebruikt door reizigers en toeristen."@nl;
+  skos:prefLabel "Hotel"@nl.
 
 imbor:2447b0bc-5640-4e04-b188-9673c8657316 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -13119,7 +13220,7 @@ imbor:258baa0f-2e38-4f2e-8eb8-b73deb986784 a rdfs:Class, sh:NodeShape;
 imbor:258e4a9d-1492-4e5f-bd19-9b6fa4b8ed48 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:7ec74e1b-6b54-4550-bc68-eba9488447a5;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Deel van een baanlichaam van een weg of spoorweg dat ervoor zorgt dat de krachten van het verkeer naar de ondergrond worden afgedragen."@nl;
   skos:prefLabel "Aardenbaan"@nl.
 
@@ -13758,7 +13859,7 @@ imbor:28d800f2-946c-4b95-817a-1f24bab1179d a rdfs:Container;
     imbor:f143a9f8-5c27-4008-9d62-012a13a57962;
   rdfs:seeAlso imbor-term:abeeca72-e995-44aa-8e14-ad5cb466825f;
   skos:definition "Beheeromgeving voor het registreren en inwinnen van gegevens, het beheren en inspecteren van tunnels en objecten welke binnen en in de omgeving van tunnels voorkomen."@nl;
-  skos:prefLabel "Tunnels"@nl.
+  skos:prefLabel "Tunnels (zoekingang)"@nl.
 
 imbor:28d9fcaf-f010-4d45-ba7d-9c11862c49ca a rdf:Property;
   rdfs:seeAlso imbor-term:ca0103a3-da96-4508-82c6-173851280e93;
@@ -14038,7 +14139,7 @@ imbor:2a0deec6-eeb0-40df-b35b-441cc5c38d7d_qvs a sh:NodeShape;
 imbor:2a1691b6-7fa3-497c-92a3-cfff668a37d5 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:dd53d0d2-1606-4805-a145-c4e76d4194dd;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Bodembescherming ter bescherming van de vooroever en om de geotechnische stabiliteit van de kademuur te waarborgen. De bodembescherming bestaat uit een zinkstuk met stortsteen."@nl;
   skos:prefLabel "Bodembescherming"@nl.
 
@@ -14636,6 +14737,7 @@ imbor:2cac0627-93c1-4a6a-be20-0af443b688f4 a rdfs:Container;
     imbor:082adb1c-79bc-4430-90b4-185baf66e556,
     imbor:0c328b53-1507-42da-801f-94a303543e69,
     imbor:127c5f34-dbc0-46da-bf1d-8abc80a11957,
+    imbor:12b094e1-dbb9-4e18-8721-ea7534b5c06a,
     imbor:12d0355a-da09-46eb-8409-f31a68ed8898,
     imbor:13768641-088c-4520-9aa3-30e2cb5f1d34,
     imbor:14d11863-85da-49b0-9a00-ec1e125c8f6d,
@@ -14769,7 +14871,7 @@ imbor:2cac0627-93c1-4a6a-be20-0af443b688f4 a rdfs:Container;
     imbor:ff65feb0-5166-4ed7-a353-54b4199be96f;
   rdfs:seeAlso imbor-term:008b200e-8750-43f2-a8e5-4a2f8cb33fb6;
   skos:definition "Beheeromgeving voor het registreren en inwinnen van gegevens, het beheren en inspecteren van verkeers- en straatmeubilair in de openbare ruimte."@nl;
-  skos:prefLabel "Meubilair"@nl.
+  skos:prefLabel "Meubilair (zoekingang)"@nl.
 
 imbor:2cae3833-f505-4253-ad7b-b163c2f33456 a sh:PropertyShape;
   skos:prefLabel "braakliggend vastgezet op Agrarisch grasland"@nl;
@@ -15436,7 +15538,6 @@ imbor:308c1ade-506c-4e7f-9aaf-e766da9d9b38 a sh:PropertyShape;
 imbor:30a0259d-b54f-4a66-b110-c90d08ce7d1e a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:ad9683ac-087a-4eb2-a6af-8ac02ea76598;
-  rdfs:subClassOf imbor:e4e8e2bb-fd4f-4e42-878e-cbcac19c5105;
   skos:definition "Een rechtspersoon zonder leden die het doel nastreeft waartoe het door de stichter is opgericht."@nl;
   skos:prefLabel "Stichting"@nl.
 
@@ -16013,6 +16114,12 @@ imbor:33445ab7-d95f-4399-93e9-136fd2eefeac a sh:PropertyShape;
   sh:class imbor:b8244b69-b679-430b-aa59-5ffb6851cd83;
   sh:maxCount 1;
   sh:path imbor:ace7a70e-3776-4953-8068-9a01c1988678.
+
+imbor:3344c949-2003-4af2-8c5b-0e7f4249c458 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:2efef995-08d2-47a7-a2e3-736aef71234d;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Aansturen status installatie"@nl.
 
 imbor:334d52db-1b90-4766-971e-0d408459f5b2 a sh:PropertyShape;
   skos:prefLabel "Rioolleiding voert uit Inzameling van afvalwater"@nl;
@@ -17269,7 +17376,7 @@ imbor:384675d2-2273-41d0-8935-ddffc998a6ab a rdfs:Container;
     imbor:feb52e59-0056-4505-aa82-da1ea0f03609;
   rdfs:seeAlso imbor-term:24e49464-d55c-4965-b662-b3671af30735;
   skos:definition "Beheeromgeving voor het registreren, beheren en inspecteren van het rioolstelsel, het systeem van buizen (riolen), putten, kolken, huisaansluitingen, bijzondere constructies en pompen dat ondergronds is aangelegd aangevuld met bovengrondse objecten zoals schakelkasten, sensoren en gemalen."@nl;
-  skos:prefLabel "Stedelijk water"@nl.
+  skos:prefLabel "Stedelijk water (zoekingang)"@nl.
 
 imbor:38495920-4ef1-47f8-8aa4-c965bcc0c2a8 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -17718,6 +17825,13 @@ imbor:3a75e0d3-537a-49e2-8cc4-dee47e4d05f0 a sh:PropertyShape;
   sh:maxCount 1;
   sh:path imbor:b8ca4620-629b-40c4-bb25-91239da3cd93.
 
+imbor:3a84a439-5987-4df3-a7d0-174426eb76ef a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:f5416543-5f99-481d-a683-37815c5f2627;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een \"telecommunicatie gebouw\" is een gebouw dat is ontworpen of gebruikt voor telecommunicatie doeleinden. Dit kan variëren van een gebouw met faciliteiten voor mobiele telefonie (zoals een \"Telecomhotel\" voor het distribueren van 4G-signalen) tot een datacenter of een gebouw met een centrale rol in een netwerk van verbindingen."@nl;
+  skos:prefLabel "Telecommunicatie gebouw"@nl.
+
 imbor:3a9b44c0-2a5e-4960-b864-7f26069e200a a sh:PropertyShape;
   skos:prefLabel "Vacuümriolering heeft deel Vacuümpompstation"@nl;
   sh:path nen2660:hasPart;
@@ -17788,6 +17902,12 @@ imbor:3b02198b-f6c2-41aa-ab63-a5ed5af68328 a sh:PropertyShape;
   sh:class imbor:ee159fdb-b3d5-431c-af86-d4790b0a3201;
   sh:maxCount 1;
   sh:path imbor:b8ca4620-629b-40c4-bb25-91239da3cd93.
+
+imbor:3b09129a-9bca-4f0c-b0ea-29c7637c6fe9 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:e406d59c-43e1-402c-a75b-c519cfac02b4;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Informeren van verkeersdeelnemers"@nl.
 
 imbor:3b2da774-1fd0-4421-8ec5-48596f6f9d7a a sh:PropertyShape;
   skos:prefLabel "Afsluitpaal voert uit Beschermen tegen aanrijdingen"@nl;
@@ -18344,7 +18464,6 @@ imbor:3e08fa4d-7cc3-4f33-b913-df2a2ada4797_qvs a sh:NodeShape;
 imbor:3e0ede1f-27a3-4c0b-8f48-44e5f568f26e a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:bbb53bb0-b010-4491-a38d-54a3d70885d3;
-  rdfs:subClassOf imbor:e4e8e2bb-fd4f-4e42-878e-cbcac19c5105;
   skos:definition "Een vereniging mensen die zich tot het doel van het beheren, onderhouden en gebruiken van een speeltuin of -terrein heeft gericht."@nl;
   skos:prefLabel "Speeltuinvereniging"@nl.
 
@@ -18711,7 +18830,7 @@ imbor:400fc25d-575d-43dc-a7ae-217b42375a85 a rdf:Property;
   qudt:hasQuantityKind quantitykind:DimensionlessRatio;
   rdfs:seeAlso imbor-term:5cc91211-e1a8-4c69-9c88-2fd6fff908d1;
   skos:definition "Een procent, aangeduid door het procentteken, is een honderdste deel. Men gebruikt procenten om een verhouding aan te geven, waarbij de referentiegrootheid op 100% wordt gesteld."@nl;
-  skos:prefLabel "percentage"@nl.
+  skos:prefLabel "percentage materie"@nl.
 
 imbor:40141039-8b28-4035-999a-e5739eb4352c a sh:PropertyShape;
   skos:prefLabel "Leidingsegment is onderdeel van Persleiding"@nl;
@@ -19206,6 +19325,13 @@ imbor:424e3b6a-5c0a-43bf-b9ac-1f6b4184816d a rdfs:Class, sh:NodeShape;
     imbor:5cf310f9-0699-45df-960f-546f70662b15,
     imbor:f41609ff-6607-4184-9e8f-0c0dddf4f468.
 
+imbor:4266a147-144b-4e2b-a2d9-edb8e8c5b4f6 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:e6a1fec6-5cec-4bed-9a59-62b1233d64df;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een metrostation is een halteplaats op een metrolijn waar reizigers in en uit kunnen stappen. Vaak bevindt een metrostation zich ondergronds, vooral in stedelijke gebieden, met een eenvoudige toegang boven de grond."@nl;
+  skos:prefLabel "Metrostation"@nl.
+
 imbor:426a9803-dbf5-4776-a2e6-7102dd41108b a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:37437a5c-4a0e-4204-ac9e-fecaa52d83e0;
@@ -19500,7 +19626,7 @@ imbor:443792f5-2255-408b-90ab-ba5a6f62c200 a rdfs:Class, sh:NodeShape;
   rdfs:seeAlso imbor-term:dccfa13e-86f7-43e5-9176-b6c410dbeb69;
   rdfs:subClassOf nen3610:Gebouw;
   skos:definition "Een klein gebouw met daarin de apparatuur om een brug te bedienen, te monitoren of te observeren."@nl;
-  skos:prefLabel "Brugwachterskantoor"@nl.
+  skos:prefLabel "Brugwachtershuis"@nl.
 
 imbor:44390134-2131-4d43-a629-814e5c95b799 a sh:PropertyShape;
   skos:prefLabel "Gevelgroen voert uit Verfraaien"@nl;
@@ -19530,6 +19656,12 @@ imbor:443ac52a-c9fc-4bf3-8546-bb8e160da9a2 a rdfs:Class, sh:NodeShape;
     imbor:58eef02b-0755-4a0a-b905-81c631b6f7a2,
     imbor:68884c44-0bfa-43de-8f4f-a9e441ffdb91,
     imbor:f2216b8c-2bfd-4e1e-b26a-2279a1be4c39.
+
+imbor:445d53f2-3fa5-4b1a-94b1-562fb7f1b4a8 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:d9835363-45e3-46ec-87a1-c5fa4fb3bcad;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Meten verkeer"@nl.
 
 imbor:4466268f-246c-4b49-adc7-2d684ff0fa20 a sh:PropertyShape;
   skos:prefLabel "verschijningsvorm vastgezet op Vaste brug"@nl;
@@ -19691,6 +19823,12 @@ imbor:4541ae4c-92e6-44ee-b644-ff19bedf16e6 a sh:PropertyShape;
 imbor:4541ae4c-92e6-44ee-b644-ff19bedf16e6_qvs a sh:NodeShape;
   sh:class gwsw:Drain.
 
+imbor:4568ecd9-261f-4424-bfbd-5cac802f9bc6 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:c3bc27cb-0736-4941-b97a-8930b4092234;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Informeren van wegbeheerder"@nl.
+
 imbor:456d4b2a-ea66-4528-9118-cd095a46bd2e a sh:PropertyShape;
   skos:prefLabel "Elektriciteitskast is onderdeel van Meetinrichting"@nl;
   sh:path nen2660:isPartOf;
@@ -19794,6 +19932,13 @@ imbor:45cdb7ef-abfd-4e14-aa65-7befabe3b0d5 a sh:PropertyShape;
 imbor:45cdb7ef-abfd-4e14-aa65-7befabe3b0d5_qvs a sh:NodeShape;
   sh:class gwsw:VerplaatsenVanWater.
 
+imbor:45ce2220-ac64-437a-8c6b-41f9dbcb5d2c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:3f771738-2ba3-4c2e-87db-abfcbf128345;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een remise is een gebouw of ruimte waar trams, bussen of treinen worden gestald, vaak 's nachts of wanneer ze niet in gebruik zijn voor het openbaar vervoer."@nl;
+  skos:prefLabel "Remise"@nl.
+
 imbor:45db09bb-819f-4e8e-a598-116b2726dd7d a sh:PropertyShape;
   skos:prefLabel "Vrijverval transportstelsel is onderdeel van Afvalwatersysteem"@nl;
   sh:path nen2660:isPartOf;
@@ -19824,7 +19969,7 @@ imbor:45e0f6a8-f9dc-41ce-84be-07edd385c4f8 a rdfs:Container;
     imbor:eb793ad1-e249-4e8f-80e7-39f740a24952;
   rdfs:seeAlso imbor-term:f6a99d44-02b7-49bd-ba53-1a08fe060d2c;
   skos:definition "Beheeromgeving voor registratie en inwinnen van gegevens, het beheren en inspecteren van bomen en boomvoorzieningen."@nl;
-  skos:prefLabel "Bomen"@nl.
+  skos:prefLabel "Bomen (zoekingang)"@nl.
 
 imbor:45f57ea0-2515-4085-9327-3579c55eff0f a sh:PropertyShape;
   qudt:hasUnit unit:HR;
@@ -20438,6 +20583,15 @@ imbor:494d4005-4ee8-4902-a657-00901340a9c9 a sh:PropertyShape;
 imbor:494d4005-4ee8-4902-a657-00901340a9c9_qvs a sh:NodeShape;
   sh:class imbor:cb2906dd-96ba-4671-95db-bed1a51e8c09.
 
+imbor:4952c0c5-ccf4-43fa-8258-07dc9e790b03 a sh:PropertyShape;
+  skos:prefLabel "Groeiplaats is verbonden met Boomspiegel"@nl;
+  sh:path nen2660:isConnectedTo;
+  sh:qualifiedMaxCount 1;
+  sh:qualifiedValueShape imbor:4952c0c5-ccf4-43fa-8258-07dc9e790b03_qvs.
+
+imbor:4952c0c5-ccf4-43fa-8258-07dc9e790b03_qvs a sh:NodeShape;
+  sh:class imbor:d857c019-c4fe-4783-a71c-a6b08f7e48cd.
+
 imbor:495939e1-a0b3-4b3d-bc9a-aacf5b74e160 a sh:PropertyShape;
   skos:prefLabel "alternatieve naam vastgezet op Landschappelijk gebied"@nl;
   sh:datatype xsd:string;
@@ -20618,7 +20772,7 @@ imbor:4a3ec0bb-6671-4b73-830b-de4fa4fdc9cf a rdf:Property;
   skos:prefLabel "type reparatie"@nl.
 
 imbor:4a43701b-3381-44e9-b5ff-46af482fad81 a sh:PropertyShape;
-  skos:prefLabel "Activiteit geregistreerd met Versie"@nl;
+  skos:prefLabel "Activiteit geregistreerd met Versies"@nl;
   sh:path nen3610:registratiegegevens;
   sh:qualifiedMaxCount 1;
   sh:qualifiedValueShape imbor:4a43701b-3381-44e9-b5ff-46af482fad81_qvs.
@@ -20780,7 +20934,7 @@ imbor:4ad8c675-a73c-43aa-ac4d-a8670a61da2f a rdfs:Class, sh:NodeShape;
   rdfs:seeAlso imbor-term:3266f05a-a03c-420b-922a-4ab7d2adec53;
   rdfs:subClassOf nen2660:InformationObject;
   skos:definition "Vastleggen van de kleuren en verf bij constructies."@nl;
-  skos:prefLabel "Constructiekleur"@nl;
+  skos:prefLabel "Kleur-informatie"@nl;
   sh:property
     imbor:0e1d42ea-15a9-48c0-be9f-503e626d4ce4,
     imbor:b63e7030-0beb-474d-a4b5-98e84a89868e,
@@ -21010,7 +21164,7 @@ imbor:4b1d9b2f-dd95-438a-962b-5b0531dda8ea a rdfs:Container;
     imbor:ff707ce0-694e-4f54-bd90-8163703f18ff;
   rdfs:seeAlso imbor-term:f7ba4e6b-6e33-4c52-9bf6-7b4fdd3c85b4;
   skos:definition "Beheeromgeving voor registratie en inwinnen van gegevens, het beheren en inspecteren van civiele constructies (kunstwerken), zoals bruggen, stuwen, tunnels, damwandconstructies, etc.."@nl;
-  skos:prefLabel "Civiele constructies"@nl.
+  skos:prefLabel "Civiele constructies (zoekingang)"@nl.
 
 imbor:4b27975d-c3b4-4a1f-b027-99b2eeb7efd1 a sh:PropertyShape;
   skos:prefLabel "oppervlaktebehandeling vastgezet op Kunstwerk"@nl;
@@ -21203,7 +21357,7 @@ imbor:4bec25a3-84fa-4409-b6e9-611fddd52c5b a rdfs:Container;
     imbor:f3077ab7-e289-4f35-9f4b-8c1ca7b3de5d;
   rdfs:seeAlso imbor-term:2a5a9d9b-66f1-4a11-b04b-601c3814faa0;
   skos:definition "Beheeromgeving voor het registreren en inwinnen van gegevens, het beheren en inspecteren van sensoren in de openbare ruimte. In toenemende mate digitaliseert onze openbare ruimte en wordt data verzameld met sensoren. Deze data wordt ingezet voor allerlei toepassingen om het gebruikers makkelijker en comfortabeler te maken. Sensordata wordt ook ingezet voor monitoring en datagedreven sturing. Gemeenten zetten sensoren in om bijvoorbeeld luchtkwaliteit te meten of passantentellingen te doen voor binnenstadmonitoring. Daarnaast wordt data in en over de openbare ruimte verzameld omdat er geld mee kan worden verdiend."@nl;
-  skos:prefLabel "Sensoren"@nl.
+  skos:prefLabel "Sensoren (zoekingang)"@nl.
 
 imbor:4befb71c-79f3-4e02-a1ae-8f85781da2e8 a sh:PropertyShape;
   skos:prefLabel "seizoensgebonden vastgezet op Blikvanger"@nl;
@@ -21786,7 +21940,7 @@ imbor:4f5783c4-e3f4-4211-8ded-da7f43a2ce8e_qvs a sh:NodeShape;
   sh:class imbor:38bb43c6-e768-4eeb-84bc-1725c29636a4.
 
 imbor:4f5bb653-97ca-4337-8a24-eec4444e6fff a sh:PropertyShape;
-  skos:prefLabel "FysiekObject geregistreerd met Versie"@nl;
+  skos:prefLabel "FysiekObject geregistreerd met Versies"@nl;
   sh:path nen3610:registratiegegevens;
   sh:qualifiedMaxCount 1;
   sh:qualifiedValueShape imbor:4f5bb653-97ca-4337-8a24-eec4444e6fff_qvs.
@@ -22158,7 +22312,7 @@ imbor:513246f3-f9fa-4675-867f-79cde1709c0d a rdfs:Container;
     imbor:fe15219c-2889-4483-be21-943c0a2c8c07;
   rdfs:seeAlso imbor-term:26a6d97d-1d7e-4d32-a798-e3e29d2ddcd2;
   skos:definition "Beheeromgeving voor het registreren en beheren van draagsystemen, armaturen, lampen en overige verlichtingsobjecten in de openbare ruimte."@nl;
-  skos:prefLabel "Verlichting"@nl.
+  skos:prefLabel "Verlichting (zoekingang)"@nl.
 
 imbor:513316f1-adee-4abc-8853-104cb3cb6f79 a sh:PropertyShape;
   skos:prefLabel "Duiker heeft deel Fundering"@nl;
@@ -22275,6 +22429,13 @@ imbor:51cec73a-8b49-4050-8ab7-7e3e37bf4724 a sh:PropertyShape;
   sh:datatype xsd:boolean;
   sh:maxCount 1;
   sh:path imbor:60cc339b-db7d-439f-9f12-1482e3501b5a.
+
+imbor:51dc8733-d473-4dc8-b522-4ef525f28418 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:3cecc796-c579-462a-9d8c-5fc16e8cc771;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Opslagplaats voor munitie en explosieven."@nl;
+  skos:prefLabel "Munitiedepot"@nl.
 
 imbor:51de72b0-9522-4dd7-942a-dfc768303c83 a sh:PropertyShape;
   skos:prefLabel "Pompput voert uit Verpompen van afvalwater"@nl;
@@ -22520,6 +22681,12 @@ imbor:52ea1d25-fe39-43ae-a8ea-6c7f0ff2df27 a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf imbor:a468a904-0b8f-4d03-8fca-17a92014b185;
   skos:definition "Een strand is een strook land met weinig of geen vegetatie aan het water van een zee, meer, plas of rivier."@nl;
   skos:prefLabel "Strand"@nl.
+
+imbor:52f4b76b-7dcf-4dd0-8633-e7adcd5772e2 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:592f3537-f68a-46d2-a5fe-b6f47cbf396e;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Ontsluiten van erven"@nl.
 
 imbor:530c20c3-34a7-4d37-af27-1be3da0bb9dd a rdfs:Class;
   rdfs:seeAlso imbor-term:75656ab2-b7b1-4213-b8fd-c1e521b68ac8;
@@ -22991,6 +23158,13 @@ imbor:55004b24-06a7-412a-b47e-c8ad43eca1dd a sh:PropertyShape;
 
 imbor:55004b24-06a7-412a-b47e-c8ad43eca1dd_qvs a sh:NodeShape;
   sh:class gwsw:Ontspanningsventiel.
+
+imbor:550c6023-d387-48a0-b36a-5496490882d1 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:265047db-38b2-4857-8cd0-7ed645d7e1c5;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Activiteitencentrum in een wijk, buurt of dorp waar activiteiten plaatsvinden van en voor de bewoners hiervan."@nl;
+  skos:prefLabel "Buurtgebouw"@nl.
 
 imbor:5516290a-7c44-475a-ba0e-52e3155dbc3d a sh:PropertyShape;
   qudt:hasUnit unit:M;
@@ -23865,9 +24039,8 @@ imbor:5a5fcc11-f27e-413e-9821-47a9a1a30271 a rdfs:Class, sh:NodeShape;
   sh:property imbor:169bf433-e351-43b0-8b26-c3e5435ef77f.
 
 imbor:5a67f980-cabd-4dc4-b478-f00041df7baf a rdfs:Class, sh:NodeShape;
-  dash:abstract true;
+  dash:abstract false;
   rdfs:seeAlso imbor-term:2ca3cbd0-74c9-44ab-ad99-c480a400690d;
-  rdfs:subClassOf imbor:f734ed62-2ecc-4a5b-887d-91940703caf8;
   skos:definition "Een publiekrechtelijke rechtspersoon is een organisatie die door de overheid is opgericht en handelt vanuit het publiekrecht. Dit betekent dat ze bevoegdheden en taken uitvoeren die door de wet zijn vastgelegd en vaak een deel van het overheidsgezag uitoefenen. Voorbeelden zijn de Staat, provincies, gemeenten en waterschappen."@nl;
   skos:prefLabel "Publiekrechtelijk rechtspersoon"@nl.
 
@@ -24206,12 +24379,19 @@ imbor:5b998a9c-3075-417c-a95f-45e7f4487f9c a sh:PropertyShape;
 imbor:5b998a9c-3075-417c-a95f-45e7f4487f9c_qvs a sh:NodeShape;
   sh:class gwsw:VanStroomVoorzien.
 
+imbor:5ba3d115-99c5-487a-8904-fd9ace7986b1 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:542d827b-9b6b-4555-9faf-c7bbf058e36f;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Tijdelijke opslag van goederen."@nl;
+  skos:prefLabel "Magazijn"@nl.
+
 imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:af1fff65-9a0a-46af-9fa6-304c7ed99304;
   rdfs:subClassOf nen3610:Kunstwerk;
   skos:definition "Kunstwerk voor de beheersing van het oppervlaktewater en alles wat daarin voorkomt."@nl;
-  skos:prefLabel "Waterstaatkundig kunstwerk"@nl.
+  skos:prefLabel "Infrastructureel kunstwerk"@nl.
 
 imbor:5bd380b6-2821-4129-9c46-a709bd7df3f0 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -24247,7 +24427,7 @@ imbor:5bf369eb-6216-4da0-b64c-ea1d9f300c1e a rdfs:Class, sh:NodeShape;
 imbor:5bfc5cc7-e33b-4b4b-bdf6-eeaccd9c32ae a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:c8c3fb65-f50a-4eed-ac12-df5f40d8c273;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "De taludbekleding bestaat uit een erosiebestendige toplaag, inclusief de onderliggende vlijlaag, filterlaag, kleilaag en/of geotextiel."@nl;
   skos:prefLabel "Taludbekleding"@nl.
 
@@ -25231,6 +25411,13 @@ imbor:605ef284-9144-4160-8bbb-a983cc89cdd2 a sh:PropertyShape;
 imbor:605ef284-9144-4160-8bbb-a983cc89cdd2_qvs a sh:NodeShape;
   sh:class imbor:1cdc8b3e-cdec-43b5-862e-b0b44f82d858.
 
+imbor:605f4745-e1b4-4988-a009-d00d06c15781 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:591baf5e-5a03-4717-8c0e-2e2c4a0b995a;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een pompstation, ook wel bekend als een pomphuis, is een gebouw of installatie met pompen en bijbehorende apparatuur die wordt gebruikt om vloeistoffen, zoals water of rioolwater, van de ene locatie naar de andere te verplaatsen. Het speelt een cruciale rol in diverse infrastructurele systemen, zoals de watervoorziening, drainage van laaggelegen gebieden en de afvoer van rioolwater."@nl;
+  skos:prefLabel "Pompstation"@nl.
+
 imbor:6065d8e9-5404-4a2f-8c36-6e5003e0769d a sh:PropertyShape;
   skos:prefLabel "anti-graffiti voorziening vastgezet op Kunstwerk"@nl;
   sh:datatype xsd:boolean;
@@ -25380,7 +25567,7 @@ imbor:61100ecb-33c3-43da-9440-69b8cfca0274 a rdfs:Container;
     imbor:f143a9f8-5c27-4008-9d62-012a13a57962;
   rdfs:seeAlso imbor-term:91cf7bdc-6054-4243-8057-ec54671481aa;
   skos:definition "Beheeromgeving voor het registreren, beheren en inspecteren van wegmarkeringen conform landelijke standaarden."@nl;
-  skos:prefLabel "Wegmarkeringen"@nl.
+  skos:prefLabel "Wegmarkeringen (zoekingang)"@nl.
 
 imbor:6111cf53-56ec-439c-9fe4-022ec25aeae8 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -25502,7 +25689,7 @@ imbor:6159d739-fc80-4162-b39e-a161df4badbf_qvs a sh:NodeShape;
 
 imbor:61747643-bc50-47e0-840c-cfe451c59b4b a sh:PropertyShape;
   qudt:hasUnit unit:PERCENT;
-  skos:prefLabel "percentage vastgezet op Materie"@nl;
+  skos:prefLabel "percentage materie vastgezet op Materie"@nl;
   sh:datatype xsd:decimal;
   sh:maxCount 1;
   sh:path imbor:400fc25d-575d-43dc-a7ae-217b42375a85.
@@ -25961,7 +26148,7 @@ imbor:645ff5ff-e635-4565-a809-57f93756738c a rdfs:Class;
 imbor:646a4ad9-1bc5-48b3-9ab1-42c0cb32083c a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:72c3ab77-a85d-43be-9e04-e2e7637cb4ef;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Specifieke steiger als aanleginrichting en opstapplaats voor gebruikers van een watertaxi."@nl;
   skos:prefLabel "Watertaxisteiger"@nl.
 
@@ -26053,6 +26240,12 @@ imbor:6511779f-a8d2-4a86-b66c-37cf1df1dc3a a rdf:Property;
   rdfs:seeAlso imbor-term:1dbb63c9-e45b-4dfc-813e-0bca7d5a6eb6;
   skos:definition "Totale kosten voor de installatie van een object."@nl;
   skos:prefLabel "installatiekosten"@nl.
+
+imbor:6549f9bb-1878-4daf-997f-6ad6d2124e5c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:8b0c58cf-83de-4826-ad24-6e9f08c3a30d;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Uitwisselen van verkeer"@nl.
 
 imbor:654b52ab-3705-44f9-9ff4-d357d2a24d3a a rdf:Property;
   rdfs:seeAlso imbor-term:e13f3ce0-05ce-44c4-82b9-3731b0c6806d;
@@ -26565,6 +26758,13 @@ imbor:67e8cfc4-29ac-4ea2-9d68-cc028e4aa18d a sh:PropertyShape;
 imbor:67e8cfc4-29ac-4ea2-9d68-cc028e4aa18d_qvs a sh:NodeShape;
   sh:class gwsw:Transportleiding.
 
+imbor:67f7b0f7-f06a-45da-a51c-d4455b51730d a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:9217c550-e19f-4e80-8247-fdaadc7d519a;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een strandpaviljoen is een gebouw op of bij het strand, vaak een horecagelegenheid en/of winkel, die voornamelijk in het vakantieseizoen geopend is. Het is een tijdelijk bouwwerk dat in de regel tussen 1 maart en 1 november op het strand staat en daarna weer wordt afgebroken, om het zand de ruimte te geven en de kust te beschermen."@nl;
+  skos:prefLabel "Strandpaviljoen"@nl.
+
 imbor:6801c635-9af1-47ab-8f70-ca1a5dbc5922 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:d9d80a4f-e859-4edc-9d63-5756a65d4994;
@@ -26985,7 +27185,7 @@ imbor:69943c63-6f41-424d-a47c-8e9ff72b5c12 a rdfs:Container;
     imbor:f86f498c-7b16-4eec-9c19-fdbd4e55f242;
   rdfs:seeAlso imbor-term:57029d57-140e-4e90-8355-e8ecfc7c2c90;
   skos:definition "Beheeromgeving voor het beheren van o.a. speelplekken, speeltoestellen en ondergronden en het inspecteren van speelvoorzieningen."@nl;
-  skos:prefLabel "Spelen"@nl.
+  skos:prefLabel "Spelen (zoekingang)"@nl.
 
 imbor:69963423-cf75-42dd-8ad2-1e22f0458122 a sh:PropertyShape;
   skos:prefLabel "HWA-perceelaansluitleiding voert uit Aanvoer van hemelwater"@nl;
@@ -27109,12 +27309,6 @@ imbor:6a04ab23-e71b-497c-9b8d-cff3baefcf30 a sh:PropertyShape;
 
 imbor:6a04ab23-e71b-497c-9b8d-cff3baefcf30_qvs a sh:NodeShape;
   sh:class gwsw:Filterput.
-
-imbor:6a274ff5-1983-4bb2-b579-730336d5d145 a sh:PropertyShape;
-  skos:prefLabel "in onderzoek vastgezet op Geo-object"@nl;
-  sh:datatype xsd:boolean;
-  sh:maxCount 1;
-  sh:path imbor:6fb28421-21d5-48b3-9b85-867e6b6576a8.
 
 imbor:6a2e91d6-e387-4699-b8dd-080396cfa08f a rdfs:Class;
   rdfs:seeAlso imbor-term:d8e0048b-e428-4bfd-92a2-72388d7368d8;
@@ -27304,7 +27498,7 @@ imbor:6b0eed8b-c177-4eed-be16-0342d2d5f61f a sh:PropertyShape;
   sh:path imbor:f46c02ba-18ac-4f9f-856a-64dd56591700.
 
 imbor:6b13b112-819a-4d4e-9c73-383d03b4b1de a sh:PropertyShape;
-  skos:prefLabel "versie vastgezet op Versie"@nl;
+  skos:prefLabel "versie vastgezet op Versies"@nl;
   sh:datatype xsd:string;
   sh:maxCount 1;
   sh:path nen3610:versie.
@@ -28163,11 +28357,6 @@ imbor:6fb0409c-4764-4c1e-bd8f-4947bd62f74f a sh:PropertyShape;
 imbor:6fb0409c-4764-4c1e-bd8f-4947bd62f74f_qvs a sh:NodeShape;
   sh:class imbor:01e25dc3-46cb-414a-b0a2-847fe9904445.
 
-imbor:6fb28421-21d5-48b3-9b85-867e6b6576a8 a rdf:Property;
-  rdfs:seeAlso imbor-term:d4fd8fc6-cead-4a56-b12e-e3cdd351c0d6;
-  skos:definition "Een aanduiding waarmee wordt aangegeven dat een onderzoek wordt uitgevoerd naar de juistheid van een of meer gegevens van het betreffende object."@nl;
-  skos:prefLabel "in onderzoek"@nl.
-
 imbor:6fb65107-6d3c-41b2-8231-e7351d9f82b1 a sh:PropertyShape;
   qudt:hasUnit unit:M;
   skos:prefLabel "lengte vastgezet op Gebouw"@nl;
@@ -28328,7 +28517,7 @@ imbor:70aff118-ecc0-429a-a026-7a9f71d0bcf8 a rdfs:Container;
     imbor:f879e7c1-9e31-41fa-bd5e-14065bf8ccce;
   rdfs:seeAlso imbor-term:91e684b1-bad8-4f6f-b349-6f87e33f21ae;
   skos:definition "Verzamelnaam voor alle gebieden die op basis van geografie (en ligging) van elkaar te onderscheiden zijn."@nl;
-  skos:prefLabel "Geografische gebieden"@nl.
+  skos:prefLabel "Geografische gebieden (zoekingang)"@nl.
 
 imbor:70c72a99-5a26-410a-ae04-b2ba76edcf9c a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -28460,6 +28649,13 @@ imbor:7153d6fc-eac8-4574-91ca-cd9f87649f51 a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf imbor:0dcee6c7-87bc-498c-a02a-25271db1bc9a;
   skos:definition "Verdediging van de vooroever, ter voorkoming van het uitscheuren van de geul in het voorland. Door de vooroevers te versterken door middel van bestortingen, blijft de veiligheid en stabiliteit van de dijken gewaarborgd."@nl;
   skos:prefLabel "Vooroeververdediging"@nl.
+
+imbor:715fc799-6531-4ec2-99a8-13a05b27a588 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:eb42db75-25eb-4c15-a202-a4eb2eee92e2;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een koelcel is een afgesloten ruimte die speciaal gekoeld wordt, meestal tot een temperatuur net boven het vriespunt, om bederfelijke producten zoals voedsel en medicijnen te bewaren. Koelcellen kunnen in grootte variëren van kleine inloopruimtes tot grote magazijnen."@nl;
+  skos:prefLabel "Koelcel"@nl.
 
 imbor:7175c054-c378-4218-a3a2-8f946485c39d a sh:PropertyShape;
   skos:prefLabel "type bevestiging vastgezet op Laadpunt"@nl;
@@ -28864,6 +29060,12 @@ imbor:734f1332-dbf3-4d69-afa6-b3f13d1bd695 a rdfs:Class;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Reëel object en het attribuut taludsteilte."@nl;
   skos:prefLabel "ReëelObjectTaludsteilte"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
+
+imbor:735b7845-2630-4b4d-a827-5e2ee13d53fd a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:1b7a1eb3-a7e0-485a-bdff-bf740bf06add;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Ruimte bieden voor kabels en leidingen"@nl.
 
 imbor:735b910d-c2cd-4f54-920f-581956ab7f14 a sh:PropertyShape;
   skos:prefLabel "Ontluchtingsleiding voert uit Ontluchten van riolering"@nl;
@@ -29465,6 +29667,13 @@ imbor:76244afa-1e8b-4320-85e2-e871fb4e07be a rdfs:Class, sh:NodeShape;
   skos:definition "Een stuw waarvan het schut, een kunstwerkdeel dat het waterniveau aan een zijde van de stuw, wordt bepaald door schotbalken."@nl;
   skos:prefLabel "Schotbalkstuw"@nl.
 
+imbor:7632eba1-9e3a-4f9f-a040-6b6bc5365811 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:a9e8b086-878d-425c-a98a-cdd876ec85bb;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een distributiecentrum is een centrale plaats waar goederen worden ontvangen, opgeslagen en verdeeld naar verschillende bestemmingen, zoals winkels, klanten of andere locaties. Het is een belangrijk onderdeel van de logistieke keten en speelt een cruciale rol in het efficiënt beheren van de goederenstroom."@nl;
+  skos:prefLabel "Distributiecentrum"@nl.
+
 imbor:76473fa1-f468-4149-b909-292e174a68ed a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:426efd5a-94fb-4a91-86d4-52e7e4b76a48;
@@ -29914,85 +30123,127 @@ imbor:789a0afc-7c5c-4267-89ff-799a518900c1 a rdfs:Container;
   rdfs:member
     nen3610:Gebouw,
     imbor:00b4e7b9-dc31-449c-981b-1088c9926c72,
+    imbor:03ebddd1-a0b3-459a-b864-91a6df2365bf,
     imbor:0492382e-d76f-4251-8074-d29f841fca1e,
     imbor:050205ce-28c9-48c4-a05d-95d0b80138d5,
     imbor:088a1269-f0ea-41d2-8d84-0dd50a05787d,
+    imbor:0cbd6b1f-4621-40e5-9c06-11b498a08981,
     imbor:0f8eafe4-b794-4265-baed-36737e1cf129,
+    imbor:1127017b-6fc7-425d-ba10-5a7041867a59,
     imbor:1247db98-5516-4000-96c0-c083e690a384,
+    imbor:1321cdcb-ea2a-4070-8125-c4612a2aeccf,
     imbor:14f446a7-891d-479b-bee5-81dc1080a5b6,
     imbor:164c03bf-d8c9-48ca-8934-c7afe4738d69,
     imbor:175b8017-a54b-4473-bd71-51849997df13,
     imbor:1aa10611-505b-463b-9ae4-3d8af867e845,
+    imbor:1b5d261a-1f6b-421c-81cb-2b3b6fffce0b,
     imbor:1bb25a2a-8008-4523-aac5-936cd7f08f2f,
     imbor:1da28c83-29c9-4a48-933a-998eeffeb9cc,
     imbor:1de51fea-bf3c-4dcc-93ac-c798dcfbc8d9,
+    imbor:20f140a8-13d6-4f54-833e-da1639c8bd70,
+    imbor:214c2ce5-7c85-43ff-b6d9-f653ad37e52f,
+    imbor:243b99e5-71e5-416b-9b98-aac1831a3bd0,
     imbor:25178976-8dc5-4767-aa7a-5cd9f6368d4f,
     imbor:26721eea-4668-49ec-ac5f-9ad372defd18,
     imbor:27c65322-9924-4069-bcba-31ad20710530,
     imbor:2fef6fb5-51aa-4f2a-a741-23e64aa71b9d,
     imbor:356700eb-b03e-4b02-98c0-4aa8e829db8a,
     imbor:3a6f3f7e-086f-490e-97c1-00e2d5353abf,
+    imbor:3a84a439-5987-4df3-a7d0-174426eb76ef,
     imbor:3dcc0d27-2a11-48d9-a4fd-dda8070772d9,
     imbor:3f2e10c2-9014-4765-b6a8-bc41382dab47,
     imbor:40667cbf-2f77-4232-8641-e61bcf9aa732,
+    imbor:4266a147-144b-4e2b-a2d9-edb8e8c5b4f6,
     imbor:426e5b25-f44f-4fb6-a837-b3fe7b301577,
     imbor:443792f5-2255-408b-90ab-ba5a6f62c200,
+    imbor:45ce2220-ac64-437a-8c6b-41f9dbcb5d2c,
     imbor:45dea900-1c8b-44f4-9c0a-b1a1153f5cc0,
+    imbor:51dc8733-d473-4dc8-b522-4ef525f28418,
     imbor:5315f7e0-0826-4a68-8a7b-808f32a983a0,
     imbor:533ffe06-2080-4847-892f-a334af8148dd,
+    imbor:550c6023-d387-48a0-b36a-5496490882d1,
     imbor:57a2225b-0494-4bc9-bac6-188bc9863777,
     imbor:57dfece4-0ca8-4857-9cde-49262ec8cddc,
     imbor:596b5269-ae6e-4d60-8206-da6b5b5fd2d2,
     imbor:5a5fcc11-f27e-413e-9821-47a9a1a30271,
+    imbor:5ba3d115-99c5-487a-8904-fd9ace7986b1,
     imbor:5c5ce323-d61a-4c3a-8388-954283dd8559,
+    imbor:605f4745-e1b4-4988-a009-d00d06c15781,
     imbor:641be0b4-b0da-43b1-81b6-193a860053db,
+    imbor:67f7b0f7-f06a-45da-a51c-d4455b51730d,
     imbor:6984e156-05e9-4041-a5ab-7b757cd67219,
+    imbor:715fc799-6531-4ec2-99a8-13a05b27a588,
     imbor:71b2c545-76b4-4d7b-a733-ef96bfba4b80,
     imbor:73691ae7-9c14-4364-b235-10f916f92e33,
     imbor:74804af0-7190-4a44-b2ce-7cd26ce9e6d7,
     imbor:761351e0-581a-488c-820f-273c35dd0b69,
+    imbor:7632eba1-9e3a-4f9f-a040-6b6bc5365811,
     imbor:76e7ffa9-6741-476f-8b58-73b3185cfe89,
     imbor:76e87216-9f16-49c1-9d0b-1bf3a941acac,
     imbor:7b932b5c-90dc-4e24-8818-da65eb5618f4,
+    imbor:7d3c0586-d0b4-4364-adb7-09ebfc7c7b77,
+    imbor:7e1a5fad-3077-4458-ba75-c36e2e024181,
     imbor:8471c3e7-dee8-4df2-bc95-1e0cd7bda891,
     imbor:876cc025-59f0-4e53-9189-2dfe61803c75,
     imbor:8790eb1d-275c-4f30-9bd8-7a06610b5563,
+    imbor:8a11dcf7-8473-459c-a766-7362e240c2fb,
     imbor:8e7f1ab9-8453-45c1-b7f3-1a56df928086,
     imbor:904d011e-ca34-4064-8596-57b651482e73,
     imbor:9369b56e-f2df-4846-acaf-9db4e803d685,
     imbor:94a7bfda-29f6-4a72-987b-03d6cf651b27,
     imbor:954c21d6-d937-4752-b191-fc30dc5f4675,
     imbor:95f6fcc4-0da8-43b5-84c3-78ee657f3212,
+    imbor:96a9a999-1d78-44c7-bcd4-22ff853dbd6c,
     imbor:9c591d90-3066-4ae5-9a37-e6da2078263b,
     imbor:9f826955-f920-4434-8e68-2b94d8b52394,
     imbor:a1a80021-71d1-4ef3-98bc-754464547c33,
     imbor:a2a05a1d-e00d-4b78-8101-74fa8566245e,
     imbor:a6c57495-69fe-472b-a454-7a4c75d4cdb0,
     imbor:a94c091f-5f5a-4fcc-9165-74290310da1f,
+    imbor:acd0bbe7-06a4-43a3-b19f-d303d4196f11,
     imbor:adb26a5d-def9-4b7d-857c-9642a9e38ebe,
     imbor:ae3b69ce-3df3-4ab1-97d8-dd44987edac2,
+    imbor:ae780ac4-79a2-4fd3-8ac9-c56acff59f88,
+    imbor:af7e41d6-5333-4b5c-876f-5944de6e4d25,
     imbor:b3095244-7489-46c3-9527-f2338638d301,
+    imbor:b543813a-9807-4911-a51e-eaeee1f6fe03,
+    imbor:b8388823-3d75-4463-9c19-62e7b4869a9b,
     imbor:ba4693e8-04b3-438b-b654-66d1399960c2,
     imbor:bf133d86-7847-4ea4-8ee5-9cb7758865e7,
     imbor:c1970ae9-d376-4513-b199-5c70ef68e34b,
+    imbor:c1e1e492-6628-4b11-aed4-9b8386af385c,
     imbor:c4cf684d-b279-4089-a262-e6e2b1e63229,
+    imbor:c524d138-8798-47fc-947e-dc47131f68da,
     imbor:cbe865df-5f62-4fc2-b2c5-a235ad5c5a40,
+    imbor:cbf4a5c3-24ec-4c09-87b0-fd2940e6195b,
+    imbor:cdc866a8-bf04-43c6-bdf4-415677bf0756,
+    imbor:cf1fc649-be49-4550-a159-618d230b0c95,
     imbor:d2ef6cb3-416a-4590-9d2e-28bd2e2065bc,
     imbor:d2fb093c-b6d8-4e80-b743-e10b9fb39386,
+    imbor:d4c9e715-6135-46d5-8a9c-14b567803f6a,
+    imbor:d8da42d6-5d2c-43a6-ae83-65ff9745efea,
+    imbor:d9915843-dd62-486e-8e53-abe45c12c55c,
     imbor:e004a503-246a-4f2e-b4a4-753b2a27ddd8,
     imbor:e05b1558-ac50-4137-9c89-d183ab06618f,
     imbor:e3fe52e5-6743-4749-9c3a-ee67d55e21cb,
     imbor:e809caf3-3b89-4128-ae90-6de69a21e5fd,
+    imbor:e98c2296-0e1f-4a01-b61e-8f1c89c62298,
     imbor:ed631002-c641-4dbc-9a4f-dbfebcfecd0a,
     imbor:ede3ae5d-f543-4253-876e-cc0e097fb05d,
+    imbor:edecfdb4-e167-4b3c-84b6-f013523263b9,
     imbor:f05b9a7e-1dfe-4f73-b530-36b600d66d13,
+    imbor:f085cb25-0e0d-4e7f-a00d-2783ad6cbfbf,
     imbor:f37c922f-be37-4468-9279-b95f816bbee8,
     imbor:f6b210fb-f7ea-4394-9d00-0f6f696c1639,
     imbor:f8e69e7c-ce0f-4f92-84c5-8e24317941c6,
-    imbor:fe1e7222-f48a-46ff-b643-c45873fe2bb8;
+    imbor:fac3d626-10ed-45d3-85dd-006998e15157,
+    imbor:fbf29290-fcb3-4969-a66a-969f591ed801,
+    imbor:fcb11680-9d66-4822-9696-9859c0d9e518,
+    imbor:fe1e7222-f48a-46ff-b643-c45873fe2bb8,
+    imbor:fe47511c-924e-44a0-903b-9d11b1706067;
   rdfs:seeAlso imbor-term:d364fad9-66ad-41f5-8577-694306650d5f;
   skos:definition "Beheeromgeving voor het registreren en inwinnen van gegevens, het beheren en inspecteren van panden met een functie in de openbare ruimte. Het betreft hier vastgoed zoals bedieningsposten, lokethuisjes, schuren, clubhuizen en kiosken. De vakdiscipline stelt de beheerder van de openbare ruimte in staat om vastgoed met functies die raken aan andere gebieden van de openbare ruimte, zoals civiele constructies, sport en meubilair verenigd te beheren."@nl;
-  skos:prefLabel "Vastgoed"@nl.
+  skos:prefLabel "Vastgoed (zoekingang)"@nl.
 
 imbor:789ad938-97f2-4e9d-b918-f0b7935e4554 a sh:PropertyShape;
   skos:prefLabel "metermodelnaam vastgezet op Oplaadpaal"@nl;
@@ -30243,6 +30494,12 @@ imbor:79cf06a3-01ba-4202-a848-05a53775a2a6 a sh:PropertyShape;
   sh:maxCount 1;
   sh:path imbor:2b1b2ffa-6cdd-4c54-b8c3-475757e347ff.
 
+imbor:79d1af37-e617-4d50-8883-9b6691cc850f a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:8f7644df-d2f6-4b26-adf1-f7a30b999e44;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Informeren gebruiker openbare ruimte"@nl.
+
 imbor:79e54bc6-239c-4621-a993-e9caa6b3e100 a sh:PropertyShape;
   skos:prefLabel "aantal i.e. bedrijven vastgezet op Bedrijfslocatie"@nl;
   sh:datatype xsd:positiveInteger;
@@ -30417,7 +30674,7 @@ imbor:7af2d336-1ab5-403a-a280-fd4181d4c889 a rdfs:Class, sh:NodeShape;
   rdfs:seeAlso imbor-term:08eb80c0-232b-4c4b-bdb4-18d908d172b0;
   rdfs:subClassOf nen3610:Registratie;
   skos:definition "Klasse voor de vastlegging van attribuutgegevens ten behoeve van de versionering van registratiegegevens over een informatieobject."@nl;
-  skos:prefLabel "Versie"@nl;
+  skos:prefLabel "Versies"@nl;
   sh:property imbor:6b13b112-819a-4d4e-9c73-383d03b4b1de.
 
 imbor:7af759e9-c587-46e1-91b2-879e069a2c85 a rdfs:Container;
@@ -30490,7 +30747,7 @@ imbor:7af759e9-c587-46e1-91b2-879e069a2c85 a rdfs:Container;
     imbor:f92babcf-6f7e-49bb-8b1a-c77ff5a6d6bb;
   rdfs:seeAlso imbor-term:4b2e4f9a-1b00-4d67-80c1-61ad27b1a40f;
   skos:definition "Beheeromgeving voor toegepaste voorzieningen die schadelijke effecten op (niet-)beschermde soorten kunnen voorkomen of verminderen."@nl;
-  skos:prefLabel "Faunavoorzieningen"@nl.
+  skos:prefLabel "Faunavoorzieningen (zoekingang)"@nl.
 
 imbor:7b0c9ae8-23ef-49b8-bfe8-60fefb7ace4f a sh:PropertyShape;
   skos:prefLabel "type bediening vastgezet op Fontein"@nl;
@@ -30643,6 +30900,12 @@ imbor:7bc0ca1d-3ba6-4b62-ad98-429c56c5bd5f a sh:PropertyShape;
   sh:maxCount 1;
   sh:path imbor:a9ab9f7c-fe85-4e04-9c8b-0d3fa46c32ac.
 
+imbor:7bc71e1d-03f6-4af9-8799-34c167ce7347 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:706a113e-b141-4ca6-ad80-30cf56cceb16;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Bepalen correcte werking apparatuur"@nl.
+
 imbor:7bd8eea8-77a9-4007-bd66-a33afeacb8e3 a rdfs:Class;
   rdfs:seeAlso imbor-term:018ae020-ff75-42cc-81ef-53d2d5af402f;
   rdfs:subClassOf nen2660:EnumerationType;
@@ -30765,6 +31028,7 @@ imbor:7c7fb4c1-3998-43e8-841b-bd80ccb651a4 a rdfs:Container;
     gwsw:Vuilvangrooster,
     imbor:0127c649-2692-4993-872d-a0e26115e459,
     imbor:06ecc047-725e-466f-869f-8edc0ae33b86,
+    imbor:12b094e1-dbb9-4e18-8721-ea7534b5c06a,
     imbor:16d3fb8e-c940-48f9-8675-b484365b4f6c,
     imbor:1b1ce55a-15d0-43bb-be51-8f14793d1a8a,
     imbor:21e19973-ba96-4711-a92f-32c57989aa37,
@@ -30793,7 +31057,7 @@ imbor:7c7fb4c1-3998-43e8-841b-bd80ccb651a4 a rdfs:Container;
     imbor:fbef10ce-6a89-4c1e-8328-41e5793427bb;
   rdfs:seeAlso imbor-term:5ee2720a-f9dd-4d66-832a-7a51bdb82ea2;
   skos:definition "Beheeromgeving voor het registreren en inwinnen van gegevens, het beheren en inspecteren van gebieden en voorzieningen voor het schoonhouden van het beheerareaal, met als belangrijkste thema's:  zwerfafval, afvalinzameling via containers en afvalbakken en hondenbeleidsgebieden."@nl;
-  skos:prefLabel "Afval en schoon"@nl.
+  skos:prefLabel "Afval en schoon (zoekingang)"@nl.
 
 imbor:7c801cd0-9eb6-4f5b-b847-8cd827a06a87 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -30867,7 +31131,7 @@ imbor:7c99c72c-6d22-448e-a1e0-06d824378b0e a rdfs:Container;
     imbor:ff65feb0-5166-4ed7-a353-54b4199be96f;
   rdfs:seeAlso imbor-term:69b5ff11-3567-4adc-9fb5-5cd51e508612;
   skos:definition "Beheeromgeving voor registratie en inwinnen van gegevens, het beheren en inspecteren van groenarealen, van zowel punt-, lijn- als vlakobjecten."@nl;
-  skos:prefLabel "Groen"@nl.
+  skos:prefLabel "Groen (zoekingang)"@nl.
 
 imbor:7c9f5dcb-f5b5-41aa-a534-a84817fa617a a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -31020,6 +31284,13 @@ imbor:7d3a221a-d09e-4e1d-84e3-ee7e93c422d9 a sh:PropertyShape;
 imbor:7d3a221a-d09e-4e1d-84e3-ee7e93c422d9_qvs a sh:NodeShape;
   sh:class imbor:b1c9ca98-e6a4-48c6-8569-6a9bbd683c7b.
 
+imbor:7d3c0586-d0b4-4364-adb7-09ebfc7c7b77 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:2c6e6837-6d6b-4df4-9325-5fd8e8621473;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een veilinggebouw is een gebouw waar veilingen, ofwel openbare verkopingen, worden gehouden. Het is de fysieke locatie waar goederen of activa te koop worden aangeboden aan het publiek via een biedproces. Denk bijvoorbeeld aan een bloemenveiling of een veilinghuis dat kunst of antiek verkoopt."@nl;
+  skos:prefLabel "Veilinggebouw"@nl.
+
 imbor:7d3ccf39-96c6-4bf4-af2a-b4a7e56b6a77 a rdfs:Class;
   rdfs:seeAlso imbor-term:24bb965d-e8a0-4b20-94d0-ebcfb709714f;
   rdfs:subClassOf nen2660:EnumerationType;
@@ -31114,6 +31385,12 @@ imbor:7d897d88-4038-4532-8907-10a66e30d216 a sh:PropertyShape;
   sh:maxCount 1;
   sh:path imbor:e4ff053f-47d5-4dc8-9a5d-d834d30c60a1.
 
+imbor:7db6a405-7a80-4b20-ae8e-99b371cb2ba2 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:5773bb72-7cf2-4557-ab8e-2fd4212fc95f;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Kruisen ecologische zone"@nl.
+
 imbor:7dc78de4-02e4-41c8-974f-585066e09225 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:99b59cb0-56a4-459e-89e2-6576c037827f;
@@ -31189,6 +31466,19 @@ imbor:7e0391b8-2472-45fa-bb89-e8c7af1409b3 a sh:PropertyShape;
 
 imbor:7e0391b8-2472-45fa-bb89-e8c7af1409b3_qvs a sh:NodeShape;
   sh:class gwsw:BedienenVanMeerderePompunits.
+
+imbor:7e167f2a-2ff4-4231-8e23-381d39d78db5 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:74930f4a-906b-4dab-bedc-c7799936006d;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Reguleren van verkeer in de tijd"@nl.
+
+imbor:7e1a5fad-3077-4458-ba75-c36e2e024181 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:343a1ad6-5eb0-4c6e-8e27-f22d74acf545;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een museum is een permanente, non-profit instelling die in dienst staat van de samenleving. Het onderzoekt, verzamelt, bewaart, interpreteert en exposeert zowel tastbaar als immaterieel erfgoed. Musea zijn toegankelijk voor het publiek en bevorderen diversiteit en duurzaamheid, waarbij ze ethisch, professioneel en met betrokkenheid van de gemeenschap opereren en communiceren."@nl;
+  skos:prefLabel "Museum"@nl.
 
 imbor:7e1cf3f9-1727-4324-861a-340178a433f1 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -32290,7 +32580,7 @@ imbor:83299c82-b0b9-4157-a914-ff42de0587ad_qvs a sh:NodeShape;
 imbor:83309215-446f-4222-b546-6e55d8acc42f a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:bae1259f-a9e0-4ca7-97d9-79d758a11012;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Aanleginrichting specifiek voor de waterbus."@nl;
   skos:prefLabel "Waterbushalte"@nl.
 
@@ -33092,6 +33382,12 @@ imbor:86aeb841-cdc1-4cf1-abd0-70b99f928f89 a sh:PropertyShape;
 imbor:86aeb841-cdc1-4cf1-abd0-70b99f928f89_qvs a sh:NodeShape;
   sh:class imbor:de170f59-82d2-4033-87b5-7d6604b570d1.
 
+imbor:86b05375-b75d-4675-8f23-6d6d0e9ccbdc a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:e1b33cc3-e542-46de-8d7e-42c1c71dfbb2;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Toegang geven voor inspectie"@nl.
+
 imbor:86c535d2-6a5f-48af-a3d7-1b21de0de6c5 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:72d86000-62b5-40aa-a354-6ecee5f00b91;
@@ -33225,7 +33521,6 @@ imbor:876cfe35-1686-4dea-bded-dccbee2d860a_qvs a sh:NodeShape;
 imbor:8773157f-3ce7-455f-9614-b7f26f5afe17 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:dfe276a0-dca5-45f5-9184-1de316a1ecf6;
-  rdfs:subClassOf imbor:e4e8e2bb-fd4f-4e42-878e-cbcac19c5105;
   skos:definition "Een organisatie die de instaat voor het beschermen van bepaalde elementen van de natuur, in het bijzonder cultuur-historisch belangrijke of oorspronkelijke landschappen, bedreigde levensgemeenschappen, dier- en plantensoorten, biodiversiteit en natuurlijke hulpbronnen."@nl;
   skos:prefLabel "Natuurorganisatie"@nl.
 
@@ -33844,6 +34139,13 @@ imbor:8a10e8b9-f3c5-42e3-b08d-ae5b4d16b9e8 a rdfs:Class, sh:NodeShape;
     imbor:af95ddfb-a35a-41b1-80ea-766f2979caf1,
     imbor:c71067e3-c33a-4be2-b290-996f3ebfe8f1,
     imbor:d2e82dfa-3a3d-48c4-bdbd-fe39cc6ec15e.
+
+imbor:8a11dcf7-8473-459c-a766-7362e240c2fb a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:95cc4dba-8638-4712-aa42-42e10a4b4412;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een gasverdeelstation is een installatie die aardgas vanuit een hogedruknetwerk naar een lokaal netwerk transporteert, waarbij de druk wordt verlaagd. Het fungeert als schakel tussen het landelijke transportnet en het regionale of lokale distributienetwerk."@nl;
+  skos:prefLabel "Gasverdeelstation"@nl.
 
 imbor:8a17ef70-2dc2-4c91-bea2-2acb34c552fb a sh:PropertyShape;
   qudt:hasUnit unit:MilliM;
@@ -34549,7 +34851,7 @@ imbor:8e3003a2-9260-4973-91af-b4944d9173f3 a rdfs:Container;
     imbor:ff65feb0-5166-4ed7-a353-54b4199be96f;
   rdfs:seeAlso imbor-term:281a04e1-898b-47c4-88f4-8ee90d09adbf;
   skos:definition "Beheeromgeving voor registratie en inwinnen van gegevens, het beheren en inspecteren van de laadinfrastructuur."@nl;
-  skos:prefLabel "Laadinfrastructuur"@nl.
+  skos:prefLabel "Laadinfrastructuur (zoekingang)"@nl.
 
 imbor:8e3a4374-f886-47cb-afad-71a9e1c5368e a sh:PropertyShape;
   qudt:hasUnit unit:CentiM;
@@ -35171,7 +35473,7 @@ imbor:91149eef-a61a-4858-99c2-7c19c266a218 a rdfs:Container;
     imbor:fcff272f-3023-4a80-900e-8128ca0abe58;
   rdfs:seeAlso imbor-term:e6118877-1a25-4dc2-848a-f53434d88de9;
   skos:definition "Beheeromgeving voor het registreren en inspecteren van borden, dragers en draagconstructies."@nl;
-  skos:prefLabel "Borden"@nl.
+  skos:prefLabel "Borden (zoekingang)"@nl.
 
 imbor:9116425e-f7d5-43cd-a3f5-25c407c29a32 a rdfs:Class;
   rdfs:seeAlso imbor-term:adb5c610-6e0d-4a84-a0c0-f0ac2d440554;
@@ -35594,9 +35896,6 @@ imbor:933cc91c-4f46-42c7-84ea-02eadcfde3e3 a rdf:Property;
   skos:definition "De functie die een object ten principale uitvoert."@nl;
   skos:prefLabel "hoofdfunctie"@nl.
 
-imbor:933d81c2-1737-4e1a-92d6-18794ddcd64a
-  rdfs:subClassOf imbor:6f2725be-2a7b-4d94-8f53-513459f52147.
-
 imbor:933e2ee2-a64d-4b84-9260-1d8563e5bfd1 a rdf:Property;
   rdfs:seeAlso imbor-term:36f3b502-29f7-4e32-917d-a8bfb46ce7d6;
   skos:definition "Aanduiding of het apparaat enkel, dubbel of niet geïsoleerd is."@nl;
@@ -35807,6 +36106,12 @@ imbor:94571ecf-9d4d-487c-aa56-2aee035cbd02 a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf sml:Function;
   skos:definition "Keermogelijkheid voor gemotoriseerd verkeer aan het einde van een doodlopende weg."@nl;
   skos:prefLabel "Keren verkeer"@nl.
+
+imbor:94585728-6a26-41d6-8168-b65993566183 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:009ed12f-922d-4cd2-b3c0-9403501f05a1;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Doorrijden van berm voorkomen"@nl.
 
 imbor:94586386-dd02-4d5a-ab07-19c8f8e9fab9 a sh:PropertyShape;
   skos:prefLabel "Bergbezinkbassin heeft deel Putdeksel"@nl;
@@ -36113,7 +36418,7 @@ imbor:962110b3-46ad-46b8-85c6-f40539a21ee3 a rdf:Property;
 imbor:962a9913-e518-442e-8aba-813310d642ed a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:3f9982c0-3ce7-49dd-a55f-8139afdb40bc;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Een lichtopstand is een paal of een open constructie (stellage) met een daarop geplaatst lichtbaken bedoeld voor de navigatie van de scheepvaart."@nl;
   skos:prefLabel "Lichtopstand"@nl.
 
@@ -36185,6 +36490,13 @@ imbor:96855297-c02b-473d-9307-4a2f23dc60a5 a rdfs:Class;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Watervlakte en het attribuut bevaarbaarheidklasse."@nl;
   skos:prefLabel "OppervlaktewaterBevaarbaarheidklasse"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
+
+imbor:96a9a999-1d78-44c7-bcd4-22ff853dbd6c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:ff0fc8a9-4c25-413c-9c03-2be642f223f7;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Opstelpunt van materieel en manschappen ten behoeve van brandbestrijding."@nl;
+  skos:prefLabel "Brandweerkazerne"@nl.
 
 imbor:96ada179-efc2-4a54-8729-1c5d3162975c a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -36563,7 +36875,7 @@ imbor:97e57522-6cae-43ce-ab0b-d0f7d1e39e18 a rdfs:Container;
     imbor:fd1e5e05-00b9-491c-90f4-b3136854b555;
   rdfs:seeAlso imbor-term:039d4246-4d0b-4ad0-a136-62ee9b1c6f18;
   skos:definition "Beheeromgeving voor het beheren en het inspecteren van sportvoorzieningen (zoals sportvelden, sportcomplexen en sporttoestellen) en de objecten die binnen een sportcomplex of sportterrein voorkomen."@nl;
-  skos:prefLabel "Sport"@nl.
+  skos:prefLabel "Sport (zoekingang)"@nl.
 
 imbor:97f230cd-2108-459e-8e17-e666f1c6ff5d a rdf:Property;
   qudt:hasQuantityKind quantitykind:Area;
@@ -36799,6 +37111,12 @@ imbor:9958952c-69c8-4060-b887-52ec54f4a572 a sh:PropertyShape;
 
 imbor:9958952c-69c8-4060-b887-52ec54f4a572_qvs a sh:NodeShape;
   sh:class imbor:1d5e6e90-d251-45cf-8bdd-314a9766f506.
+
+imbor:9963c2ad-be09-4eae-9a96-47a791ea015f a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:05121bc8-f1b1-4b3b-9c28-ea7a5c1cfd3e;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Meten van temperatuur"@nl.
 
 imbor:9968233b-1689-4bf7-9520-03af1702e6cc a sh:PropertyShape;
   skos:prefLabel "Rioolgemaal is onderdeel van Vuilwaterstelsel"@nl;
@@ -37616,9 +37934,11 @@ imbor:9d932904-c4b1-44e0-b151-b6df78f44a92 a rdfs:Class, sh:NodeShape;
   skos:prefLabel "Groeiplaats"@nl;
   sh:property
     imbor:40b290a8-4971-4952-b4de-2de2bb7f6b6b,
+    imbor:4952c0c5-ccf4-43fa-8258-07dc9e790b03,
     imbor:4a5de2e5-381a-4ead-821b-0ef41e16bd94,
     imbor:509512b8-c126-4540-9e42-1f185965cd22,
     imbor:605ef284-9144-4160-8bbb-a983cc89cdd2,
+    imbor:a2274e89-a70b-4e84-913b-351494133e29,
     imbor:a92edc45-25e4-4983-948c-21ac964ee98b,
     imbor:a9df70fd-e059-4290-be44-30f3e1b9e696,
     imbor:afd4a6de-b152-42a2-82a1-c75460d4a9f9,
@@ -38070,7 +38390,6 @@ imbor:9f826955-f920-4434-8e68-2b94d8b52394 a rdfs:Class, sh:NodeShape;
 imbor:9f8a12f4-ff15-4dac-bd02-bf89e92516ac a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:d0f7e70f-9c33-4469-ad0b-665ded010535;
-  rdfs:subClassOf imbor:e4e8e2bb-fd4f-4e42-878e-cbcac19c5105;
   skos:definition "Een organisatie die zich richt op het bouwen, beheren en verhuren van kwalitatief goede woonruimte met een betaalbare huur voor mensen met een smalle beurs."@nl;
   skos:prefLabel "Woningcorporatie"@nl.
 
@@ -38266,7 +38585,7 @@ imbor:a07f8879-aeeb-4a73-ad5b-801a0f8e4b97 a rdfs:Container;
     imbor:ff30d965-c37b-41a8-87d1-aa895fc6a8aa;
   rdfs:seeAlso imbor-term:eb4cc18b-5197-4185-9cb7-702cb61ad8bd;
   skos:definition "Beheeromgeving voor het registreren, beheren en inspecteren van technische installaties die in de buitenruimte te vinden zijn zoals liften, pollers, roltrappen, camera's, klokken en automaten."@nl;
-  skos:prefLabel "Technische installaties"@nl.
+  skos:prefLabel "Technische installaties (zoekingang)"@nl.
 
 imbor:a0a2e052-7b48-4c57-a302-a8113b51b6cd a rdf:Property;
   rdfs:seeAlso imbor-term:e6b5d5d2-6cac-43d7-834a-0901dcfa0b85;
@@ -38323,6 +38642,12 @@ imbor:a0efa394-8a41-4c2d-9c79-fca22320aedc a sh:PropertyShape;
   sh:datatype xsd:decimal;
   sh:maxCount 1;
   sh:path gwsw:DakoppervlakHellend.
+
+imbor:a0f90c57-f8f2-421e-a7cb-ae9a4d847e63 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:49db2118-182e-4462-be3e-a63bfbaf12b5;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Produceren van hout"@nl.
 
 imbor:a1285315-2b26-400e-8577-76e9a72fd08c a sh:PropertyShape;
   qudt:hasUnit unit:MilliM;
@@ -38398,6 +38723,12 @@ imbor:a16b27b1-9316-47f0-a2ef-37f168c4f478 a rdf:Property;
   rdfs:seeAlso imbor-term:b82e07ab-c011-43bf-aed8-3b8fd5d130e0;
   skos:definition "Het identificatienummer van de kaart waarmee het objecttype bij het mobiele netwerk is aangemeld. "@nl;
   skos:prefLabel "simkaartnummer"@nl.
+
+imbor:a1744669-1b60-4fa7-a209-2d9b51f6de8f a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:efa25b79-1eae-4cdb-8b1e-e90e2fa90ac2;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Kruisen watergang mogelijk make"@nl.
 
 imbor:a185a2e8-e983-4e34-ab8e-81e1fddf1999 a sh:PropertyShape;
   skos:prefLabel "verschijningsvorm vastgezet op Afsluitpaal"@nl;
@@ -38558,6 +38889,15 @@ imbor:a21d3fdb-c906-49af-80c6-5b4fb85ac911 a sh:PropertyShape;
 imbor:a21d3fdb-c906-49af-80c6-5b4fb85ac911_qvs a sh:NodeShape;
   sh:class imbor:e53fc77d-fe3b-42af-8f86-44c8acdd3d1b.
 
+imbor:a2274e89-a70b-4e84-913b-351494133e29 a sh:PropertyShape;
+  skos:prefLabel "Groeiplaats is verbonden met Boomrooster"@nl;
+  sh:path nen2660:isConnectedTo;
+  sh:qualifiedMaxCount 1;
+  sh:qualifiedValueShape imbor:a2274e89-a70b-4e84-913b-351494133e29_qvs.
+
+imbor:a2274e89-a70b-4e84-913b-351494133e29_qvs a sh:NodeShape;
+  sh:class imbor:6b021f79-ad6c-431e-a205-9eb4b9dc3b3c.
+
 imbor:a22bdd71-22c7-4662-92ee-d4b15189f560 a rdfs:Container;
   rdfs:member
     imbor:04240f09-c183-4a5f-abc8-163fc622ec9d,
@@ -38636,7 +38976,7 @@ imbor:a22bdd71-22c7-4662-92ee-d4b15189f560 a rdfs:Container;
     imbor:ff6b5392-ee83-4206-b6eb-6d26ef786845;
   rdfs:seeAlso imbor-term:4767609b-0575-4fae-a852-1c6c150450a5;
   skos:definition "Beheeromgeving voor het registreren, beheren en inspecteren van oppervlaktewater en alle voorzieningen die in het water of langs waterobjecten voorkomen (niet zijnde civiele constructies)."@nl;
-  skos:prefLabel "Water"@nl.
+  skos:prefLabel "Water (zoekingang)"@nl.
 
 imbor:a232de6a-be7e-41b1-ae03-712154673c8d a sh:PropertyShape;
   qudt:hasUnit unit:M;
@@ -39241,7 +39581,6 @@ imbor:a5a43927-9633-4584-865b-78ae4486e5b6 a rdfs:Class, sh:NodeShape;
   skos:prefLabel "Sportveld"@nl;
   sh:property
     imbor:09f3b715-1707-4825-adeb-619f7fcf9e7d,
-    imbor:240f3054-e347-404c-85f7-928ec8411c0a,
     imbor:6cc54ba9-dfc6-450a-b631-ff092c933d11,
     imbor:a4d32475-7d06-45c9-b5e4-0e4de34b815f,
     imbor:ac8d7841-a699-4e12-91bf-065a26dc0359,
@@ -40360,7 +40699,7 @@ imbor:ab8aa6f9-ce2e-4419-be65-6d459f70b568 a sh:PropertyShape;
 imbor:ab90731d-e8c8-43cc-a465-bf9094c5a921 a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:9a861f6c-ea8c-424e-99e3-b3a6d00feda9;
-  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
+  rdfs:subClassOf nen3610:Kunstwerk;
   skos:definition "Voorzieningen die geschikt zijn om diersoorten te beschermen. Denk hierbij aan faunatunnels, -goten, -duikers, etc."@nl;
   skos:note "Toegepaste voorzieningen die schadelijke effecten op (niet-)beschermde soorten kunnen voorkomen of verminderen."@nl;
   skos:prefLabel "Faunavoorziening"@nl;
@@ -40667,7 +41006,7 @@ imbor:abc82306-bc99-44be-95ce-d601c65dfdaf a rdfs:Container;
     imbor:fe1e63f9-5935-4c30-b933-9c8176cf8adc;
   rdfs:seeAlso imbor-term:37902501-527b-44a3-8c65-15372a6926f2;
   skos:definition "Beheeromgeving voor het registreren van ondergrondse infrastructuur."@nl;
-  skos:prefLabel "Kabels en leidingen"@nl.
+  skos:prefLabel "Kabels en leidingen (zoekingang)"@nl.
 
 imbor:abdaca23-7da7-4ce3-9be4-64f2d63c541c a sh:PropertyShape;
   skos:prefLabel "verschijningsvorm vastgezet op Laadplein"@nl;
@@ -40852,6 +41191,13 @@ imbor:accb6901-c9c9-438b-8a07-29bd7cfd3fc7 a sh:PropertyShape;
 
 imbor:accb6901-c9c9-438b-8a07-29bd7cfd3fc7_qvs a sh:NodeShape;
   sh:class gwsw:Stelsel.
+
+imbor:acd0bbe7-06a4-43a3-b19f-d303d4196f11 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:b0c71c6b-ad14-4b02-accf-4b1023adca7b;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een peilmeetstation is een installatie die de waterstanden in een gebied meet, meestal op landelijk of regionaal niveau, en deze informatie doorgeeft via een systeem zoals het Monitoring Systeem Water (MSW)."@nl;
+  skos:prefLabel "Peilmeetstation"@nl.
 
 imbor:acd2125d-1ffa-4b2c-b43b-a6fe91479fd4 a sh:PropertyShape;
   skos:prefLabel "verschijningsvorm vastgezet op Moeras"@nl;
@@ -41154,6 +41500,13 @@ imbor:ae706fe2-9b2a-43bc-8f91-201036a3bab1 a rdfs:Class, sh:NodeShape;
   skos:prefLabel "Meldpaal"@nl;
   sh:property imbor:96587f7b-286b-4a1c-bc56-5bb7c4a4ff1c.
 
+imbor:ae780ac4-79a2-4fd3-8ac9-c56acff59f88 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:4d7fd2b1-c234-49e7-a2b4-6d1210d26368;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Opstelpunt voor voertuigen om medische hulpverleners te vervoeren naar een plaats waar behoefte is aan spoedeisende hulp of om slachtoffers of patiënten te vervoeren naar een ziekenhuis."@nl;
+  skos:prefLabel "Ambulancepost"@nl.
+
 imbor:ae7bd5ed-7468-4fb0-b3dd-c52f9c17cc31 a rdfs:Class;
   rdfs:seeAlso imbor-term:6de76f4f-1eb9-413a-809d-12bb5e89e02f;
   rdfs:subClassOf nen2660:EnumerationType;
@@ -41367,6 +41720,13 @@ imbor:af7e3344-eec9-4731-827d-266b5e51404e a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf imbor:61526934-9d0c-4a07-8c5d-17f60e1a467a;
   skos:definition "Waterinstallatie op een openbaar terrein, vaak in de buurt van stranden en zwemgelegenheden."@nl;
   skos:prefLabel "Douche"@nl.
+
+imbor:af7e41d6-5333-4b5c-876f-5944de6e4d25 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:f20197cb-837a-4b97-ba0d-9d3419d7318c;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een tuinbouwbedrijf is een agrarisch bedrijf dat zich bezighoudt met de professionele teelt van groenten, fruit, bloemen, planten, bomen, bollen, zaden, of andere tuinbouwgewassen. Dit kan zowel in de volle grond als in kassen plaatsvinden."@nl;
+  skos:prefLabel "Tuinbouwbedrijf"@nl.
 
 imbor:af84b522-cdbb-49b6-a2be-e9e54b1de38f a sh:PropertyShape;
   skos:prefLabel "Rioolgemaal is onderdeel van Onderbemaling"@nl;
@@ -42433,6 +42793,13 @@ imbor:b53b9710-a759-417f-83eb-c5d1869d3b49 a rdfs:Class, sh:NodeShape;
   skos:prefLabel "Warmtecamera"@nl;
   sh:property imbor:5044b59e-a7d2-4ee7-a139-cff0330abf97.
 
+imbor:b543813a-9807-4911-a51e-eaeee1f6fe03 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:0a870d0a-d005-4083-8c81-f2516a0fec71;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een gemeentekantoor, ook wel bekend als gemeentehuis, raadhuis of stadskantoor, is het gebouw waar het gemeentebestuur en de gemeentelijke administratieve diensten zijn gevestigd. Het is de centrale plek waar de gemeenteraad vergadert en waar het college van burgemeester en wethouders (college van B&W) of het schepencollege zetelt."@nl;
+  skos:prefLabel "Gemeentekantoor"@nl.
+
 imbor:b5450fe0-b245-4932-b56d-64b5114b9026 a sh:PropertyShape;
   qudt:hasUnit unit:V;
   skos:prefLabel "voltage vastgezet op Container"@nl;
@@ -42610,7 +42977,7 @@ imbor:b5bdd095-1a20-4675-bd1b-b51120c742e0 a rdfs:Container;
     imbor:fd659551-9687-4413-a7d2-87e3701d8b4c;
   rdfs:seeAlso imbor-term:e0f0b65d-9c9b-44a6-aff9-1ce8f6e6c9d4;
   skos:definition "Verzamelnaam van op basis van wet- of regelgeving afgebakende gebieden die als eenheid gelden van een politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering."@nl;
-  skos:prefLabel "Registratieve gebieden"@nl.
+  skos:prefLabel "Registratieve gebieden (zoekingang)"@nl.
 
 imbor:b5c553b4-2b10-4321-ad06-8fea30a55f78 a rdfs:Class;
   rdfs:seeAlso imbor-term:b22e7404-c7c3-4a3e-ac01-985b71e891ac;
@@ -42733,7 +43100,7 @@ imbor:b634934a-00ff-4445-b76a-44fd04c1e31b a rdf:Property;
 
 imbor:b63e7030-0beb-474d-a4b5-98e84a89868e a sh:PropertyShape;
   qudt:hasUnit unit:M2;
-  skos:prefLabel "verfoppervlakte vastgezet op Constructiekleur"@nl;
+  skos:prefLabel "verfoppervlakte vastgezet op Kleur-informatie"@nl;
   sh:datatype xsd:decimal;
   sh:maxCount 1;
   sh:path imbor:0060e464-7a8e-4300-b57f-8a752ac89e17.
@@ -42994,7 +43361,7 @@ imbor:b7a3bbd3-5d09-4e1a-bcdb-f7995fa9a81f a rdfs:Class, sh:NodeShape;
 imbor:b7b0fcc8-cb9a-43e0-86ba-e7bedcefd999 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:518e63f3-3e64-404a-a718-76eb5c2e511a;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Een dijk heeft een dijkbekleding om te voorkomen dat door golfslag of stroming de dijk beschadigd. Meestal bestaat de dijkbekleding uit een steenachtig materiaal, maar een bekleding van gras op een kleipakket kan in veel gevallen ook goed voldoen."@nl;
   skos:prefLabel "Dijkbekleding"@nl.
 
@@ -43078,6 +43445,13 @@ imbor:b837dd32-0d57-496b-ad8c-d0edd4a69f0b a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf sml:Function;
   skos:definition "Snelheidsbeheersing."@nl;
   skos:prefLabel "Dynamisch remmen van verkeerssnelheid"@nl.
+
+imbor:b8388823-3d75-4463-9c19-62e7b4869a9b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:5ce86f40-0b0d-4281-8ef7-84ae2dbd6de7;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een zwembadgebouw is een gebouw dat is ontworpen en gebouwd om een of meer zwembaden te huisvesten, inclusief voorzieningen voor zwemmers en toeschouwers, en andere ondersteunende functies. Het kan een openbaar of particulier zwembad zijn en omvat vaak kleedkamers, douches, sanitaire voorzieningen, een ontvangstruimte en technische ruimtes voor de waterbehandeling en verwarming."@nl;
+  skos:prefLabel "Zwembadgebouw"@nl.
 
 imbor:b83c68fc-c065-4a5c-b3dc-7b9889c7de2e a sh:PropertyShape;
   skos:prefLabel "draaibaar vastgezet op Zweepmast"@nl;
@@ -43243,6 +43617,13 @@ imbor:b926ac4a-72e6-4c9c-b4d1-f49000800994 a rdf:Property;
   rdfs:seeAlso imbor-term:e7db5921-0c55-434d-8cae-8ac89b989468;
   skos:definition "Aanduiding voor het type sensor dat onderdeel uitmaakt van het object dat verlichting aanstuurt."@nl;
   skos:prefLabel "interne sensor"@nl.
+
+imbor:b928d81f-998a-4f41-b589-0c1d6a531be5 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:f5dd23d1-6e1b-4732-b9ab-64681f15e8b1;
+  rdfs:subClassOf imbor:900603eb-2cdf-478d-8718-a180a651db2f;
+  skos:definition "Een zonnepark is een terrein waarop een groot aantal zonnepanelen is geplaatst om zonne-energie op te wekken. Het is in feite een zonne-energiecentrale op land. Deze installaties worden op de grond geplaatst en zijn bedoeld om duurzaam elektriciteit te produceren."@nl;
+  skos:prefLabel "Zonnepark"@nl.
 
 imbor:b92a7fe0-d867-450d-ad39-1f7b0627d05b a sh:PropertyShape;
   skos:prefLabel "Vrijverval rioolstelsel heeft deel Aansluiting"@nl;
@@ -43437,7 +43818,6 @@ imbor:ba0d6864-baad-473c-adad-3e07d9a24b60 a rdf:Property;
 imbor:ba119334-4b0f-4eb9-8da6-267956a0c7ac a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:bed50387-1256-4367-8332-05d70080eb92;
-  rdfs:subClassOf imbor:e4e8e2bb-fd4f-4e42-878e-cbcac19c5105;
   skos:definition "De gecontracteerde partij die het object aangelegd of bewerkt heeft."@nl;
   skos:prefLabel "Uitvoerende organisatie"@nl.
 
@@ -43571,7 +43951,7 @@ imbor:bab61658-da9f-424a-b766-0c314032d6d8_qvs a sh:NodeShape;
 imbor:bac818cf-026d-45b1-be91-4f396b3959b5 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:0e7f4b9c-55c1-44dd-9e56-e30ab8a2d251;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Een kistdam of kofferdam is een tijdelijke omsluiting gebouwd in het water om het omsloten gebied leeg te pompen. Op die manier kan men een droge werkomgeving creëren voor grote werkzaamheden."@nl;
   skos:prefLabel "Kistdam"@nl.
 
@@ -44833,6 +45213,13 @@ imbor:c1dd6eb8-58b0-4f4c-8c3f-0a7248bbfdce a rdfs:Class;
   skos:prefLabel "LaadpuntVerschijningsvorm"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
 
+imbor:c1e1e492-6628-4b11-aed4-9b8386af385c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:aa5e9737-14a4-4064-9223-8187aa5bb706;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een verkeerstoren is een hoge toren op een luchthaven, van waaruit luchtverkeersleiders het opstijgende, landende en taxiënde vliegverkeer begeleiden. Deze toren steekt meestal uit boven andere gebouwen, zodat de luchtverkeersleiders een vrij uitzicht hebben op de luchthaven en het vliegverkeer."@nl;
+  skos:prefLabel "Verkeerstoren"@nl.
+
 imbor:c1f67739-7e42-4950-bed3-d6e518614127 a sh:PropertyShape;
   skos:prefLabel "Leidingomhulling is onderdeel van DIT-riool"@nl;
   sh:path nen2660:isPartOf;
@@ -44955,6 +45342,12 @@ imbor:c2c73697-40c8-4153-8ffb-698da192603a a sh:PropertyShape;
 
 imbor:c2c73697-40c8-4153-8ffb-698da192603a_qvs a sh:NodeShape;
   sh:class gwsw:Verbindingsstuk.
+
+imbor:c2d6dcce-ff33-459b-b5ff-21c3a2f2f81e a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:84b806fd-1b69-4de0-8467-2b9c5fdcefb0;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Bepalen locatie"@nl.
 
 imbor:c2d82886-8a19-466e-aebd-072eb234a740 a rdf:Property;
   rdfs:seeAlso imbor-term:3f27ce53-514b-4ea5-a147-0d23aa666d3c;
@@ -45180,13 +45573,6 @@ imbor:c3f18c4e-95ca-4cb2-9871-baa15b3e4d34 a sh:PropertyShape;
   sh:maxCount 1;
   sh:path imbor:60cc339b-db7d-439f-9f12-1482e3501b5a.
 
-imbor:c4003179-3aa7-4a5e-8903-45b4a723dbba a sh:PropertyShape;
-  qudt:hasUnit unit:M;
-  skos:prefLabel "maaiveldhoogte vastgezet op Bouwwerk"@nl;
-  sh:datatype xsd:decimal;
-  sh:maxCount 1;
-  sh:path imbor:092c0fd0-cb1c-4161-9d52-2a182bcae7a9.
-
 imbor:c40db6df-cdd6-4c4c-8f56-bf012c7ff93e a sh:PropertyShape;
   skos:prefLabel "verschijningsvorm vastgezet op Duin"@nl;
   sh:class imbor:fc2c47c3-01f1-447e-a3af-4277034067ab;
@@ -45389,6 +45775,13 @@ imbor:c51e713d-e124-4714-a023-35ff752e61c1 a sh:PropertyShape;
 
 imbor:c51e713d-e124-4714-a023-35ff752e61c1_qvs a sh:NodeShape;
   sh:class gwsw:Pomp.
+
+imbor:c524d138-8798-47fc-947e-dc47131f68da a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:6f87e3c7-bb17-43c0-8407-dc09f0f8f147;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een tolhuis is een gebouw bij een weg of water waar vroeger tol werd geheven. Het diende als onderkomen voor de tolgaarder en was vaak voorzien van een tolpoort of slagboom. Tolhuizen werden gebouwd op strategische punten om inkomsten te genereren voor de eigenaar van de weg of het water."@nl;
+  skos:prefLabel "Tolhuis"@nl.
 
 imbor:c5268d7c-b5ca-48fc-a1a8-dec6bc8d6de0 a sh:PropertyShape;
   qudt:hasUnit unit:M;
@@ -45652,6 +46045,12 @@ imbor:c67065e7-a7fe-4854-8546-ea151356cc1a a sh:PropertyShape;
 
 imbor:c67065e7-a7fe-4854-8546-ea151356cc1a_qvs a sh:NodeShape;
   sh:class gwsw:VerpompenVanAfvalwater.
+
+imbor:c686556e-bd62-4562-ac39-b01d2a41e614 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:9fc13cd3-4048-4fa0-aa25-98489e42c7ad;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Geleiden van personen"@nl.
 
 imbor:c686a652-0ff8-45fe-acc0-04ee779b1cb0 a sh:PropertyShape;
   skos:prefLabel "documentdatum vastgezet op Document"@nl;
@@ -46056,7 +46455,7 @@ imbor:c88d1d6f-a652-4d42-a3fd-3e59d7cb3644 a sh:PropertyShape;
 imbor:c8aba154-1e76-41b8-b2ad-402d44a65b0d a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:e1d167d9-b654-42d9-91f3-70e76269b5be;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Een helling, boven en onder de watelijn, langs kades en oevers tot kering van grond om afkalving van water te voorkomen, bestaande uit samengebonden basaltbrokken of -elementen."@nl;
   skos:prefLabel "Glooiing"@nl;
   sh:property
@@ -46652,6 +47051,13 @@ imbor:cbeae88e-6f41-47d1-a496-0450d63fa373 a rdfs:Class, sh:NodeShape;
   skos:definition "Het object wordt gebruikt als locatie om goederen uit een voertuig te halen of in een voertuig te plaatsen."@nl;
   skos:prefLabel "Laden en lossen"@nl.
 
+imbor:cbf4a5c3-24ec-4c09-87b0-fd2940e6195b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:316734e0-d5ea-49ee-81a2-0bd0b9ba41fd;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een akkerbouwbedrijf is een landbouwbedrijf dat zich specialiseert in de teelt van akkerbouwgewassen, zoals granen, aardappelen, groenten en vezelgewassen, op akkers die machinaal worden bewerkt. Het onderscheidt zich van tuinbouw doordat akkerbouw doorgaans op grotere schaal gebeurt met minder arbeidsintensieve teelt."@nl;
+  skos:prefLabel "Akkerbouwbedrijf"@nl.
+
 imbor:cbfc49a6-eb35-4fc5-a19d-a87f5399b8f8 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:f4fde64f-7dcb-4036-ad64-2912c1ad45f2;
@@ -46946,6 +47352,13 @@ imbor:cda931d4-ff89-40ad-a1ee-16bc70b567d6 a sh:PropertyShape;
 imbor:cda931d4-ff89-40ad-a1ee-16bc70b567d6_qvs a sh:NodeShape;
   sh:class gwsw:VerwijderenZwevendeStoffen.
 
+imbor:cdc866a8-bf04-43c6-bdf4-415677bf0756 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:255c40d3-0ae6-4258-a2f8-86d340c01f15;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een paleis is een groot en vaak prachtig gebouw, meestal de officiële residentie van een staatshoofd, koning, koningin of een andere hooggeplaatste persoon zoals een bisschop."@nl;
+  skos:prefLabel "Paleis"@nl.
+
 imbor:cdd0e5be-c8dc-4e53-9bc5-c21b9085b669 a sh:PropertyShape;
   skos:prefLabel "legverband vastgezet op Elementenverharding"@nl;
   sh:class imbor:c8e65613-cc9d-4a24-9e25-e6f10b0152d2;
@@ -47229,6 +47642,13 @@ imbor:cf13e952-c597-4eb3-b871-6a4394b60b1e a rdf:Property;
   rdfs:seeAlso imbor-term:ef81e321-21eb-47f9-ad1e-db0769aea062;
   skos:definition "Mogelijkheid om de tekst die op de onderkant van het horizontale vlak van een verkeersbord staat in te vullen, bijvoorbeeld bij straatnaamborden."@nl;
   skos:prefLabel "ondertekst"@nl.
+
+imbor:cf1fc649-be49-4550-a159-618d230b0c95 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:5c9ff70b-4272-4951-8065-44a3667b374e;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Gebouw met activiteiten gericht op het ten behoeve van leden of andere deelnemers aan een groep verzorgen van ontspannende activiteiten of samenkomsten."@nl;
+  skos:prefLabel "Clubgebouw"@nl.
 
 imbor:cf32d0aa-d529-41e0-893a-fa56526ae1f7 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -47567,7 +47987,7 @@ imbor:d023c89e-415e-450b-9dca-83f94562daf7 a rdfs:Container;
     imbor:fcff272f-3023-4a80-900e-8128ca0abe58;
   rdfs:seeAlso imbor-term:478982ab-d734-4b37-abc7-5a59d2bec0af;
   skos:definition "Beheeromgeving voor het registreren, beheren en inspecteren van verkeersvoorzieningen conform landelijke standaarden."@nl;
-  skos:prefLabel "Verkeer"@nl.
+  skos:prefLabel "Verkeer (zoekingang)"@nl.
 
 imbor:d02be962-4509-4615-8b23-82f7c6c570cf a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -48461,6 +48881,13 @@ imbor:d4b0e2a3-48d2-426c-b489-ad7991384c58 a rdfs:Class;
   skos:prefLabel "VerhardingTypeRijstrook"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
 
+imbor:d4c9e715-6135-46d5-8a9c-14b567803f6a a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:3f779432-4bf1-4b39-9e5d-a46fb19a2232;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Publieke uitgaansgelegenheid die speciaal is bedoeld voor het bekijken van films."@nl;
+  skos:prefLabel "Bioscoop"@nl.
+
 imbor:d4dc61b3-fe9e-4400-8588-8dab2f58820a a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:1cb43098-08cd-4de0-a035-e33499a46d3e;
@@ -48512,7 +48939,7 @@ imbor:d50ae77b-dbc3-4c9c-940e-65953a58393a a rdf:Property;
 imbor:d50db338-06ca-4680-987f-7fe8f6143fcb a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:6a866afd-e729-496b-ac5c-e52f8dd4a290;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Ponton waarvan het grootste gedeelte tevens als ladingtank fungeert of waarin of waarop ladingtanks geplaatst zijn."@nl;
   skos:prefLabel "Bunkerponton"@nl.
 
@@ -48783,7 +49210,7 @@ imbor:d61173aa-699e-4e24-b593-ab4af03e09e3 a rdfs:Container;
     imbor:ff65feb0-5166-4ed7-a353-54b4199be96f;
   rdfs:seeAlso imbor-term:69f56435-05a3-4a7e-8cdf-11718c254e16;
   skos:definition "Beheeromgeving voor het gebiedsgericht registreren en inwinnen van gegevens, het beheren en inspecteren van alle voorzieningen (fysieke en virtuele) objecten die binnen de begrenzing van een begraafplaats voorkomen."@nl;
-  skos:prefLabel "Begraafplaatsen"@nl.
+  skos:prefLabel "Begraafplaatsen (zoekingang)"@nl.
 
 imbor:d61e45b1-3651-4c01-9c63-b9bfadf25a16 a rdfs:Class, sh:NodeShape;
   dash:abstract true;
@@ -48946,6 +49373,7 @@ imbor:d67d11d7-a9e5-4b5a-badc-bee9d4f960e2 a rdfs:Container;
     imbor:adb26a5d-def9-4b7d-857c-9642a9e38ebe,
     imbor:af02b9eb-e010-4265-b94a-bb23f0fec863,
     imbor:b2a37a9f-6e19-46fb-94ff-bad5cdcad1d9,
+    imbor:b928d81f-998a-4f41-b589-0c1d6a531be5,
     imbor:b955c931-dab5-43bd-ae9d-9ebbcf78c3ba,
     imbor:c1616823-b727-4171-868c-35d9a9323bf0,
     imbor:c1c1199b-7ebb-4dd8-9837-89c107ab98fe,
@@ -48984,7 +49412,7 @@ imbor:d67d11d7-a9e5-4b5a-badc-bee9d4f960e2 a rdfs:Container;
     imbor:ff6b5392-ee83-4206-b6eb-6d26ef786845;
   rdfs:seeAlso imbor-term:ac265a5d-bea2-4891-8e49-f0b79e2beb9c;
   skos:definition "Verzamelnaam voor alle gebieden die van belang zijn voor het beheer van het areaal en die op basis van een duidelijke functie van elkaar te onderscheiden zijn en die gebruikt kunnen worden voor gebiedsgerichte toepassingen."@nl;
-  skos:prefLabel "Functionele gebieden"@nl.
+  skos:prefLabel "Functionele gebieden (zoekingang)"@nl.
 
 imbor:d67dcfa3-0eba-4ef9-b979-7f6a6881d5b2 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -49025,7 +49453,7 @@ imbor:d692f4ac-f617-4860-92a0-8d88d0a10d9d a rdfs:Container;
     imbor:eacea88d-dcb5-4b9e-bf5d-c5a0beee3fee;
   rdfs:seeAlso imbor-term:85be7eea-be29-4b46-ab46-07dffebe5346;
   skos:definition "Beheeromgeving voor het gebiedsgericht registreren en inwinnen van gegevens, het beheren en inspecteren van alle voorzieningen (fysieke en virtuele) objecten die binnen de begrenzing van een markt voorkomen."@nl;
-  skos:prefLabel "Markten"@nl.
+  skos:prefLabel "Markten (zoekingang)"@nl.
 
 imbor:d6977ffd-4dda-4f9b-9f04-52bd7edf313c a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -49072,7 +49500,7 @@ imbor:d6e5ef74-a2bc-4434-90af-ab7f6a79131f_qvs a sh:NodeShape;
 imbor:d6e66235-c42e-4d5c-995d-1432affdaab3 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:4085a8d9-1fd7-4598-b301-abca71f8d3d0;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Een langs kust of oever gebouwde constructie om de kracht van golven en stroom te weerstaan of te absorberen om daarmee de wal tegen afkalving te beschermen en/of rustig water als anker/aanlegplaats te verkrijgen."@nl;
   skos:prefLabel "Golfbreker"@nl.
 
@@ -49346,7 +49774,7 @@ imbor:d891f89c-0e04-45ff-b456-af1e643e3759 a rdfs:Container;
     imbor:c74a11f7-7df8-4804-8f64-ed086d256ca4;
   rdfs:seeAlso imbor-term:96be0bdb-f495-4077-8880-ccc0c1539db3;
   skos:definition "Beheeromgeving voor het registreren, beheren en inspecteren van alle objecten (gebieden en voorzieningen) die nodig zijn om warmte en koude in de bodem op te slaan en later weer te gebruiken voor verwarming en koeling van gebouwen."@nl;
-  skos:prefLabel "Warmte- en koudeopslag"@nl.
+  skos:prefLabel "Warmte- en koudeopslag (zoekingang)"@nl.
 
 imbor:d8aa71c0-0716-409c-941d-d1768a2f71d4 a sh:PropertyShape;
   skos:prefLabel "rijrichting vastgezet op Wegas"@nl;
@@ -49422,6 +49850,13 @@ imbor:d8d7d3a3-b6a2-4160-be3f-4a665d44ec6c a rdfs:Class, sh:NodeShape;
     imbor:b7800383-6436-4f09-9a50-643057dc713e,
     imbor:cb93b966-ef74-447e-bbde-afcfb3ba4915,
     imbor:edb49b3a-d72b-4ab6-b83c-5c35173eb437.
+
+imbor:d8da42d6-5d2c-43a6-ae83-65ff9745efea a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:ff617fd4-e4ee-4086-b525-acfd87665458;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een ziekenhuis is een instelling die is bedoeld voor de diagnose, behandeling en verpleging van zieken en gewonden. Het biedt medische en chirurgische zorg en huisvesting tijdens het genezingsproces. Ziekenhuizen zijn voorzien van gespecialiseerde apparatuur en professionals, zoals artsen, medisch specialisten en verpleegkundigen, om de beste zorg te kunnen verlenen."@nl;
+  skos:prefLabel "Ziekenhuis"@nl.
 
 imbor:d8e49267-cd9b-4a50-b7e3-46e00cf75b70 a sh:PropertyShape;
   qudt:hasUnit unit:YR;
@@ -49554,6 +49989,13 @@ imbor:d9901622-f897-44e4-a577-56e09ed55873 a rdf:Property;
   rdfs:seeAlso imbor-term:99219273-5ade-4e57-b7be-b3ab2d3e09e3;
   skos:definition "Aanduiding voor de bovenkant van de kademuur."@nl;
   skos:prefLabel "type bovenkant kademuur"@nl.
+
+imbor:d9915843-dd62-486e-8e53-abe45c12c55c a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:a2d61d4b-b70c-47bd-9140-666e0f6e9832;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een politiebureau is een gebouw of locatie waar de politie haar werkzaamheden uitvoert. Het fungeert als een hoofdkwartier voor agenten en ander politiepersoneel, waar ze administratie doen, vergaderingen houden en zich voorbereiden op hun taken buiten het bureau, zoals patrouilleren en huisbezoeken."@nl;
+  skos:prefLabel "Politiebureau"@nl.
 
 imbor:d9a1befb-e599-4ccc-ae56-06414a646c24 a sh:PropertyShape;
   skos:prefLabel "type bevestiging vastgezet op Bord"@nl;
@@ -49860,7 +50302,7 @@ imbor:db0c5c56-1a28-4f83-9a47-cefc0a40d9b5 a rdfs:Class;
   rdfs:seeAlso imbor-term:77c72f1b-8152-4bc6-a2e8-fddf2229e35d;
   rdfs:subClassOf nen2660:EnumerationType;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Waterstaatkundig kunstwerk en het attribuut type verankering."@nl;
-  skos:prefLabel "WaterstaatkundigKunstwerkTypeVerankering"@nl;
+  skos:prefLabel "InfrastructureelKunstwerkTypeVerankering"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
 
 imbor:db4627a7-da83-4549-aa0e-c6220e341a6e a sh:PropertyShape;
@@ -49980,7 +50422,7 @@ imbor:dbcff754-f43c-48ba-9a38-94b9498fd0f3 a rdfs:Container;
     imbor:fc60d2a6-876f-4707-a5ba-1cf9d75ee27c;
   rdfs:seeAlso imbor-term:d4cea239-dab0-4b11-8dac-535cb9547dbe;
   skos:definition "Beheeromgeving voor het registreren en inwinnen van gegevens, het beheren en inspecteren van gebieden en voorzieningen voor parkeerbeheer en parkeerbeleid."@nl;
-  skos:prefLabel "Parkeren"@nl.
+  skos:prefLabel "Parkeren (zoekingang)"@nl.
 
 imbor:dbd5549f-2582-4420-99fe-45899ff6edf7 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -50096,6 +50538,12 @@ imbor:dc9610d9-0533-4bcc-873a-e6c33cc5d80e a sh:PropertyShape;
 
 imbor:dc9610d9-0533-4bcc-873a-e6c33cc5d80e_qvs a sh:NodeShape;
   sh:class gwsw:AfvoerenHemelwaterNaarDeOndergrond.
+
+imbor:dc9f6c53-94ef-48b4-92f4-ba53d0f105e8 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:d0bac4ab-7e0d-4dcf-afd2-69497f8c9e01;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Geleiden van verkeer"@nl.
 
 imbor:dcb631db-31e0-4d0d-8427-451c2cea7241 a sh:PropertyShape;
   qudt:hasUnit unit:M;
@@ -50462,6 +50910,12 @@ imbor:de33918d-d997-484d-924a-56106724e1b9 a sh:PropertyShape;
 imbor:de33918d-d997-484d-924a-56106724e1b9_qvs a sh:NodeShape;
   sh:class gwsw:Compartiment.
 
+imbor:de3838a2-7acc-491a-b93d-5d3ecd29ca87 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:08487323-d1f9-4e61-a55a-1cce333ab5f4;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Kruisen water"@nl.
+
 imbor:de3a7abc-569c-4ea4-a872-ee7caa8b9883 a sh:PropertyShape;
   skos:prefLabel "reclame vastgezet op Informatiepaneel"@nl;
   sh:datatype xsd:boolean;
@@ -50749,7 +51203,7 @@ imbor:dfc36554-0ebb-4bf5-b4d0-5c0dd586465d_qvs a sh:NodeShape;
 imbor:dfce2bcc-552c-469f-bb42-59fdd6ed2a10 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:0585f9aa-fd12-4a83-aece-ffb62484678f;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Halte op een ponton voor watertaxi's, waterbussen en partyschepen."@nl;
   skos:prefLabel "Waternetponton"@nl.
 
@@ -51745,7 +52199,6 @@ imbor:e4e72284-ce8c-431e-b44e-a0a0b8eeeef2 a rdfs:Class, sh:NodeShape;
 imbor:e4e8e2bb-fd4f-4e42-878e-cbcac19c5105 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:63db3a80-bdd1-48b1-8482-861520d4d9ea;
-  rdfs:subClassOf imbor:f734ed62-2ecc-4a5b-887d-91940703caf8;
   skos:prefLabel "Privaatrechtelijk rechtspersoon"@nl.
 
 imbor:e4f3a526-edd5-4719-984c-11dffcaa256a a sh:PropertyShape;
@@ -51825,7 +52278,7 @@ imbor:e53074b8-bc05-48ab-9d72-bbd92acd5b81 a sh:PropertyShape;
   sh:path imbor:e3e7679f-3d71-4f75-a647-6729380ddcd4.
 
 imbor:e5315b38-b618-410a-beed-47c4c07b5ae2 a sh:PropertyShape;
-  skos:prefLabel "Geometrische representatie geregistreerd met Versie"@nl;
+  skos:prefLabel "Geometrische representatie geregistreerd met Versies"@nl;
   sh:path nen3610:registratiegegevens;
   sh:qualifiedMaxCount 1;
   sh:qualifiedValueShape imbor:e5315b38-b618-410a-beed-47c4c07b5ae2_qvs.
@@ -52657,6 +53110,13 @@ imbor:e98b45ac-77a6-4706-bca8-906dbfd6fa05 a sh:PropertyShape;
 imbor:e98b45ac-77a6-4706-bca8-906dbfd6fa05_qvs a sh:NodeShape;
   sh:class gwsw:AfsluitenInTweeStroomrichtingen.
 
+imbor:e98c2296-0e1f-4a01-b61e-8f1c89c62298 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:37f967cf-5f7b-4aa3-91fc-0158d370f206;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een manege is een bedrijf of een besloten plek waar paardrijden wordt beoefend, inclusief lessen en trainingen. Het is een plek waar mensen kunnen leren paardrijden en waar paarden worden gehouden voor dit doel. Maneges onderscheiden zich van privéstallen of pensionstallen doordat ze een publiek karakter hebben en lessen aanbieden aan derden."@nl;
+  skos:prefLabel "Manege"@nl.
+
 imbor:e9940b8e-129e-4591-bfe6-d9846a0024e0 a rdfs:Class, sh:NodeShape;
   dash:abstract true;
   rdfs:seeAlso imbor-term:c02fc6f1-e4f5-4b1f-9401-2a6d0d120691;
@@ -52726,7 +53186,7 @@ imbor:e9c9991d-8eb8-4559-9e04-21bbc9627da3_qvs a sh:NodeShape;
 imbor:e9cb0c75-2dd5-4d7e-b7a8-189fb8add071 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:14c1a97b-fcc1-4f0d-b28c-e659746f7391;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Een bouwkuip is een tijdelijke, waterdichte constructie, waarbinnen een ontgraving plaatsvindt ten behoeve van het realiseren van een bouwwerk."@nl;
   skos:prefLabel "Bouwkuip"@nl.
 
@@ -52814,6 +53274,12 @@ imbor:ea09c7b2-13e2-40bc-9f16-136f8e9ef09f a rdfs:Class, sh:NodeShape;
   skos:definition "Hekwerk met schrikdraad, soms ook wel schrikkeldraad genoemd, is een geleidende draad waar elektrische spanning op staat en die gebruikt wordt in een hekwerk."@nl;
   skos:prefLabel "Schrikdraad"@nl.
 
+imbor:ea285e17-4595-49ee-a9fb-0416b074f67b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:1141166a-3ebb-4ad8-a50e-9c4fbbe9b1fb;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Voorkomen lichthinder"@nl.
+
 imbor:ea2a2f11-b2e5-4aa2-b0ea-3c1d859fb7ef a sh:PropertyShape;
   skos:prefLabel "Ponton heeft deel Armatuur"@nl;
   sh:path nen2660:hasPart;
@@ -52847,6 +53313,12 @@ imbor:ea45083f-8ad8-4a55-ba5b-615c7caa3317 a sh:PropertyShape;
   sh:datatype xsd:decimal;
   sh:maxCount 1;
   sh:path imbor:2b1b2ffa-6cdd-4c54-b8c3-475757e347ff.
+
+imbor:ea55ccf5-ec1f-4efc-8807-a05726b94d42 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:086a6d2c-b0d8-47ac-bc89-7a091efefdc3;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Structureren en sturen van verkeersstromen"@nl.
 
 imbor:ea755743-3b8e-499b-82e7-a93c33c16168 a rdfs:Class, sh:NodeShape;
   dash:abstract false;
@@ -53042,7 +53514,7 @@ imbor:eb8b4043-6945-4518-98ae-2883e7405621 a rdf:Property;
   skos:prefLabel "gebouwencomplex"@nl.
 
 imbor:eb8c3f66-d9f7-4280-b781-4e23a5bc3379 a sh:PropertyShape;
-  skos:prefLabel "type verf vastgezet op Constructiekleur"@nl;
+  skos:prefLabel "type verf vastgezet op Kleur-informatie"@nl;
   sh:maxCount 1;
   sh:path imbor:a5908d68-5470-4622-add5-f66ce646c167;
   sh:qualifiedMaxCount 1;
@@ -53162,7 +53634,7 @@ imbor:ebb311b9-26e9-4fc0-971a-b8b61a74033e a rdfs:Container;
     imbor:fb72acae-6e41-40df-8b32-3f41415b23d9;
   rdfs:seeAlso imbor-term:a3762e16-44b8-4c9a-99c7-35374c89e539;
   skos:definition "Beheeromgeving voor het registreren, beheren en inspecteren van wegen, wegmarkeringen en weginrichtingsobjecten conform landelijke standaarden."@nl;
-  skos:prefLabel "Wegen"@nl.
+  skos:prefLabel "Wegen (zoekingang)"@nl.
 
 imbor:ebbb3e8c-3dde-423c-ad44-625e3008f01b a sh:PropertyShape;
   skos:prefLabel "Halfverharding voert uit Faciliteren van recreatie"@nl;
@@ -53554,6 +54026,13 @@ imbor:ede3ae5d-f543-4253-876e-cc0e097fb05d a rdfs:Class, sh:NodeShape;
   skos:definition "Gebouw bestaande uit een structuur van meestal glas en metaal die gebruikt wordt voor het commercieel kweken van planten in een beschermde omgeving op een natuurlijke of kunstmatige ondergrond."@nl;
   skos:prefLabel "Kas"@nl.
 
+imbor:edecfdb4-e167-4b3c-84b6-f013523263b9 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:fd6a3dd6-d91b-4517-b046-3a8322a2816a;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een viskwekerij is een faciliteit waar vis op commerciële schaal wordt gekweekt, meestal in bassins of tanks, in plaats van in natuurlijke wateren. Het is een vorm van aquacultuur, waarbij vissen worden gefokt voor consumptie."@nl;
+  skos:prefLabel "Viskwekerij"@nl.
+
 imbor:edfe8078-c2d9-49d7-ad03-aaacc99aa474 a rdfs:Class;
   rdfs:seeAlso imbor-term:e5bdee4e-9d4b-4ad0-a06d-8e10daf01be8;
   rdfs:subClassOf nen2660:EnumerationType;
@@ -53644,6 +54123,12 @@ imbor:ee700ccc-dd2f-4e79-bb70-92b2926bcbf1 a sh:PropertyShape;
   sh:class imbor:b9523e5c-3284-461a-816e-b49f286e12dc;
   sh:maxCount 1;
   sh:path imbor:6ba240c9-e39b-41e6-9b8e-4f8770f56819.
+
+imbor:ee881b1a-b188-46dd-8811-18b4863ed0ea a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:d19a0f3e-8eca-48f6-8409-78520475d9eb;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Informeren weggebruiker"@nl.
 
 imbor:ee8f8c67-88cf-49a5-9427-6a9b144754af a sh:PropertyShape;
   qudt:hasUnit unit:MilliM;
@@ -53765,6 +54250,12 @@ imbor:ef942d4f-94f1-4758-b0dc-d007f2162041 a rdf:Property;
   rdfs:seeAlso imbor-term:b90022c4-c591-4b66-ac06-59e3d0654d66;
   skos:definition "Categorisering van het feitelijke gebruik dat van een verblijfsobject wordt gemaakt."@nl;
   skos:prefLabel "feitelijk gebruik"@nl.
+
+imbor:ef9861f2-6678-4117-91fb-932fb1f6bd67 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:cd35b38f-686d-4311-8678-0d8d0515d7b5;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Stromen van verkeer"@nl.
 
 imbor:ef9b44cd-89d7-42b8-af74-00e56f6b13ad a sh:PropertyShape;
   skos:prefLabel "Spoelleiding voert uit Transport van spoelwater"@nl;
@@ -53952,6 +54443,13 @@ imbor:f0845a30-e025-4ee8-870b-d333247a4fdd a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf imbor:6f2725be-2a7b-4d94-8f53-513459f52147;
   skos:definition "Het object wordt gebruikt als een locatie om gerooide planten die niet direct op bestemming worden geplant tijdelijk worden geplaatst om te zorgen dat de wortels niet uitdrogen."@nl;
   skos:prefLabel "Opkuilhoek"@nl.
+
+imbor:f085cb25-0e0d-4e7f-a00d-2783ad6cbfbf a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:481c2d49-2282-44d4-8162-354b27a26c52;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een podiumkunsten gebouw is een theater of schouwburg, een gebouw dat is ingericht voor het vertonen van theater, optredens, performances en andere soorten voorstellingen. Het is een plek waar podiumkunsten, zoals muziek, dans, theater en musical, worden uitgevoerd voor een publiek."@nl;
+  skos:prefLabel "Theater"@nl.
 
 imbor:f085ecb1-78ea-4f15-bd1d-1734541cbef1 a rdf:Property;
   rdfs:seeAlso imbor-term:eac9b09a-81f2-411a-b688-f10a500c54db;
@@ -54341,6 +54839,12 @@ imbor:f23e672a-7d94-44d7-a31a-79b3cb9f29e6 a rdf:Property;
   skos:definition "Afstand van de valruimte. Afstand tussen grondvlak speeltoestel en de rand van de opvangzone."@nl;
   skos:prefLabel "afstand valruimte"@nl.
 
+imbor:f24fb6c2-aa37-475c-8772-2a349bfa434b a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:8ecb6fdd-9ede-4c93-8df7-c820c726f2e7;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Kruisen kabels en leidingen"@nl.
+
 imbor:f25f0147-96c5-4480-b758-0d0035fef60c a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:42d13ab2-53ad-44c6-aa60-e3c52d37846d;
@@ -54576,7 +55080,6 @@ imbor:f3d677e9-15e7-4bc6-a9f0-c06ebb1e27a0_qvs a sh:NodeShape;
 imbor:f3d98702-8c81-4b6c-8ba6-ae1d18ff279a a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:881c3b68-12aa-4fce-ba16-5b9222c35252;
-  rdfs:subClassOf imbor:e4e8e2bb-fd4f-4e42-878e-cbcac19c5105;
   skos:definition "Een onderwijsinstelling in het hoger onderwijs die ingericht is om wetenschappelijk onderwijs te bieden en wetenschappelijk onderzoek te verrichten."@nl;
   skos:prefLabel "Universiteit"@nl.
 
@@ -55776,6 +56279,13 @@ imbor:fab7aac6-c2a3-4c17-9912-0fc4fa9868c4 a sh:PropertyShape;
 imbor:fab7aac6-c2a3-4c17-9912-0fc4fa9868c4_qvs a sh:NodeShape;
   sh:class gwsw:Beerput.
 
+imbor:fac3d626-10ed-45d3-85dd-006998e15157 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:f06da0ff-1625-42c2-97b5-f076e3868429;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Onder het station worden die plekken en gebouwen verstaan waar de trein stopt en reizigers in, uit of overstappen. Het station markeert het begin of eindpunt van de (trein)reis. Tot het station behoren de plekken voor ontvangst, reis en verblijf."@nl;
+  skos:prefLabel "Station"@nl.
+
 imbor:fac7720d-ac70-4958-b428-160eaf3e0467 a sh:PropertyShape;
   skos:prefLabel "Debietmeter voert uit Meten capaciteit van de volumestroom"@nl;
   sh:path nen2660:executes;
@@ -55868,6 +56378,12 @@ imbor:fb452b03-b6af-4b55-a78c-e7e976cfee60 a rdfs:Class;
   skos:prefLabel "GlijbaanVerschijningsvorm"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
 
+imbor:fb54150d-61ca-4aa0-8a09-22250576d945 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:51fa1a89-24d9-439b-ba37-31993b1ac87b;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Bieden van voedsel"@nl.
+
 imbor:fb5a106e-edf8-4172-b1b5-4bbf4db366d2 a sh:PropertyShape;
   skos:prefLabel "vigerend vastgezet op Waterbeheergebied"@nl;
   sh:datatype xsd:boolean;
@@ -55943,6 +56459,12 @@ imbor:fbdc1a13-2e2f-4658-b84b-5f11212e4f0b a rdfs:Class;
   skos:prefLabel "AsfaltverhardingVerschijningsvorm"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
 
+imbor:fbdd03f7-fcf8-4e64-a328-386b7daf6db7 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:1175bfee-6b2b-49ea-997d-3e77948a7e6e;
+  rdfs:subClassOf sml:Function;
+  skos:prefLabel "Toegang geven aan daglicht"@nl.
+
 imbor:fbef10ce-6a89-4c1e-8328-41e5793427bb a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:53312f2b-c699-47cf-99a4-db04c29a8677;
@@ -55961,6 +56483,13 @@ imbor:fbf0d330-1fac-403c-8839-e5ca96ba5e6f a sh:PropertyShape;
 
 imbor:fbf0d330-1fac-403c-8839-e5ca96ba5e6f_qvs a sh:NodeShape;
   sh:class gwsw:Stuwklep.
+
+imbor:fbf29290-fcb3-4969-a66a-969f591ed801 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:977e0af7-84e3-4233-aebc-b751c17447a6;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Een rechtbank is een rechtsprekende instantie die in eerste aanleg beslissingen neemt over juridische geschillen, zoals echtscheidingen, misdrijven en geldvorderingen. Het kan ook verwijzen naar het gebouw waar deze rechtspraak plaatsvindt."@nl;
+  skos:prefLabel "Rechtbank"@nl.
 
 imbor:fbfbfa91-d467-4e43-947b-6b0a180ca586 a sh:PropertyShape;
   skos:prefLabel "Stuwconstructie voert uit Bovenstrooms waterpeil regelen"@nl;
@@ -56100,6 +56629,13 @@ imbor:fcb024d4-921c-4089-b047-bfd1c0d80cee a rdfs:Class;
   skos:definition "Het enumeratietype voor de domeinwaardenlijst van de klasse Abri en het attribuut verschijningsvorm."@nl;
   skos:prefLabel "AbriVerschijningsvorm"@nl;
   imbor:typeLijst "Enumeratielijst"@nl.
+
+imbor:fcb11680-9d66-4822-9696-9859c0d9e518 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:2f4be61a-0bff-4ac4-a4e4-4a267302b080;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Natuurwetenschappelijke werkplaats voor het maken of onderzoeken van stoffen."@nl;
+  skos:prefLabel "Laboratorium"@nl.
 
 imbor:fcc59e86-6ad9-4427-a325-f9a0098e6524 a sh:PropertyShape;
   skos:prefLabel "Drukriolering heeft deel Pompunit"@nl;
@@ -56490,6 +57026,13 @@ imbor:fe3cdfe9-5e66-4915-a683-5ec828f5f467 a sh:PropertyShape;
 imbor:fe3cdfe9-5e66-4915-a683-5ec828f5f467_qvs a sh:NodeShape;
   sh:class gwsw:VrijvervalRioolstelsel.
 
+imbor:fe47511c-924e-44a0-903b-9d11b1706067 a rdfs:Class, sh:NodeShape;
+  dash:abstract false;
+  rdfs:seeAlso imbor-term:7bdccb97-aef0-4daa-9351-b0120c2e76b6;
+  rdfs:subClassOf nen3610:Gebouw;
+  skos:definition "Bewaarplaats voor boeken en andere media waarbij deze al dan niet aan het publiek worden uitgeleend of ter inzage aangeboden."@nl;
+  skos:prefLabel "Bibliotheek"@nl.
+
 imbor:fe596ab9-9801-4a46-b14f-567e2e5dcde8 a sh:PropertyShape;
   skos:prefLabel "CAI-kast voert uit Aansturen"@nl;
   sh:path nen2660:executes;
@@ -56761,7 +57304,7 @@ imbor:ff6b5392-ee83-4206-b6eb-6d26ef786845 a rdfs:Class, sh:NodeShape;
 imbor:ff707ce0-694e-4f54-bd90-8163703f18ff a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:a421c65a-d3b0-49d1-a6e4-018705ce7003;
-  rdfs:subClassOf nen3610:Kunstwerk;
+  rdfs:subClassOf imbor:5bd18572-9b3d-4de4-bd87-407cc4ca826f;
   skos:definition "Onderwaterstuw die ervoor zorgt dat slib niet in de duiker komt vanuit de watergang."@nl;
   skos:prefLabel "Baggerschot"@nl.
 
@@ -56807,7 +57350,6 @@ imbor:ffa16bb2-fa5a-49f1-b3e8-794499b02785 a rdfs:Class, sh:NodeShape;
     imbor:62b479ec-ceb2-4e12-8859-9597604128fc,
     imbor:64182200-342d-4af7-8212-a8b12b47775c,
     imbor:a2f31da1-330b-4f73-abde-0d2b07aa9f3a,
-    imbor:c4003179-3aa7-4a5e-8903-45b4a723dbba,
     imbor:cd55868d-8c36-4146-b8ec-f48c1334ba62,
     imbor:d2c466c4-7e31-4539-8b07-a534d2462c72,
     imbor:d60baa86-656d-412e-82c6-e72c9e3f7817.
@@ -56908,48 +57450,41 @@ imbor:Zoekingang a rdfs:Container;
 tooi-ont:CaribischOpenbaarLichaam a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:e706c7fa-3d46-4829-8002-295254b60bb1;
-  rdfs:subClassOf imbor:5a67f980-cabd-4dc4-b478-f00041df7baf;
   skos:definition "Een Caribisch openbaar lichaam is een territoriaal openbaar lichaam in het Caribische deel van Nederland."@nl;
   skos:prefLabel "Caribisch openbaar lichaam"@nl.
 
 tooi-ont:Gemeente a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:cfc911d7-d567-4c94-8b54-a419232fa4ed;
-  rdfs:subClassOf imbor:5a67f980-cabd-4dc4-b478-f00041df7baf;
   skos:definition "De bestuurslaag onder de Nederlandse provincie bestaande uit een verzameling woonkernen met het bijbehorende gebied."@nl;
   skos:prefLabel "Gemeente"@nl.
 
 tooi-ont:Ministerie a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:dcc7fb40-57e0-4221-ac0e-5653e4d4a64d;
-  rdfs:subClassOf imbor:5a67f980-cabd-4dc4-b478-f00041df7baf;
   skos:definition "Een afdeling van de Nederlandse overheid waar het beleid van de regering wordt voorbereid en uitgevoerd."@nl;
   skos:prefLabel "Ministerie"@nl.
 
 tooi-ont:OverheidsOrganisatie a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:4247ae23-ee03-4f67-a86d-0b12dd47feba;
-  rdfs:subClassOf imbor:5a67f980-cabd-4dc4-b478-f00041df7baf;
   skos:prefLabel "Overige overheidsorganisatie"@nl.
 
 tooi-ont:Provincie a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:ecf17fff-7ece-4fee-9346-c4b49533de67;
-  rdfs:subClassOf imbor:5a67f980-cabd-4dc4-b478-f00041df7baf;
   skos:definition "De bestuurslaag tussen de Rijksoverheid en de Nederlandse gemeenten."@nl;
   skos:prefLabel "Provincie"@nl.
 
 tooi-ont:Samenwerkingsorganisatie a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:b67acd14-a576-4169-8458-e2fb028e6bd8;
-  rdfs:subClassOf imbor:5a67f980-cabd-4dc4-b478-f00041df7baf;
   skos:definition "Een organisatie die in het leven is geroepen om een gemeenschappelijke regeling uit te voeren in een publiekrechtelijke of privaatrechtelijke constructie."@nl;
   skos:prefLabel "Samenwerkingsorganisatie"@nl.
 
 tooi-ont:Waterschap a rdfs:Class, sh:NodeShape;
   dash:abstract false;
   rdfs:seeAlso imbor-term:79d08746-4beb-48e4-8a81-3ba67f5ac129;
-  rdfs:subClassOf imbor:5a67f980-cabd-4dc4-b478-f00041df7baf;
   skos:definition "Een regionaal overheidsorgaan dat bestuurlijk verantwoordelijk is voor de waterhuishouding in een gebied."@nl;
   skos:prefLabel "Waterschap"@nl.
 

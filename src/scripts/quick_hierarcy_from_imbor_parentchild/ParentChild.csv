@@ -2,21 +2,65 @@ Parent;Child
 Camera;360-graden camera
 Apparaat;5G-antenne
 Vispassage;Aalpijp
-Waterstaatkundig kunstwerk;Aanleginrichting
+categorie;aan- of vrijliggend
+juridische eenheid;aangemaakt door
+NAP-relatieve eendimensionale eigenschap;aanlegdiepte
+NAP-relatieve eendimensionale eigenschap;aanleghoogte
+Infrastructureel kunstwerk;Aanleginrichting
+jaartal;aanlegjaar
 Functie;Aanleiden tot spelen
 Meldpaal;Aanmeldzuil
 Functie;Aanpassen frequentie van elektrische energie
+datum;aanschafdatum
 InformatieObject;Aanschaf-informatie
+prijs;aanschafprijs
+NAP-relatieve eendimensionale eigenschap;aanslagniveau benedenstrooms
+NAP-relatieve eendimensionale eigenschap;aanslagniveau bovenstrooms
 Reëel object;Aansluiting
-Holle leiding;Aansluitleiding
+waarheidswaarde;aansluiting externe sensor
+typologische eigenschap;aansluitingsrol
+topografische informatie;aansluitingszijde
+Stedelijk waterleiding;Aansluitleiding
 Functie;Aansluitleidingen aansluiten
 Functie;Aansluitmogelijkheid bieden
 Knooppunt;Aansluitpunt
 Put;Aansluitput
 Apparaat;Aansluitvoorziening
 Functie;Aansturen
+Activiteit;Aansturen status installatie
 Functie;Aansturen van een pomp door middel van een microprocessor
+categorie;aansturingsprotocol
 Beregeningsput;Aansturingsput
+wiskundige eigenschap;aantal
+aantal;aantal connectoren
+aantal;aantal deklagen
+aantal;aantal fases
+aantal;aantal i.e. bedrijven
+aantal;aantal i.e. recreatie
+aantal;aantal ingangen
+aantal;aantal inkomend
+aantal;aantal kanalen
+aantal;aantal laadpalen
+aantal;aantal lagen gording
+aantal;aantal leds
+aantal;aantal obstakels
+aantal;aantal onderlagen
+aantal;aantal overspanningen
+aantal;aantal palen
+aantal;aantal panelen
+aantal;aantal parkeerplaatsen
+aantal;aantal plaatsen
+aantal;aantal planken
+aantal;aantal pompen
+aantal;aantal rijstroken
+aantal;aantal sloten
+aantal;aantal tunnelbuizen
+aantal;aantal tussenlagen
+aantal;aantal uitgaand
+aantal;aantal uitgangen
+aantal;aantal universes
+aantal;aantal woningen
+aantal;aantal zijden
 Functie;Aanvoer afstromend hemelwater vanaf een kolk
 Functie;Aanvoer van afvalwater
 Functie;Aanvoer van afvalwater vanaf een perceel
@@ -27,13 +71,20 @@ Functie;Aanvoer van vuilwater
 Functie;Aanvoeren van water
 Waterbeheergebied;Aanvoergebied
 Functie;Aanvullende bemaling
+logische eigenschap;aanwezigheid
+aanwezigheid;aanwezigheid asbest
+waarheidswaarde;aanwezigheid bollen
+aanwezigheid;aanwezigheid teer
+waarheidswaarde;aanwezigheid zekering
 Functie;Aanwijzen afsluiterstand
+typologische eigenschap;aard
 Constructieonderdeel;Aardelektrode
-Kunstwerk;Aardenbaan
+Infrastructureel kunstwerk;Aardenbaan
 Kabel;Aardingskabel
 Installatie;Aardingsvoorziening
 Holle leiding;Aardolieleiding
 Constructieonderdeel;Aardrail
+eendimensionale eigenschap;aardveld
 Bouwwerk;Abri
 Gemengd rioolstelsel;Absoluut rioolstelsel
 Asfalt;AC * base
@@ -71,6 +122,8 @@ Functie;Afscheiden vet
 Beheerzone;Afscheiding
 Functie;Afschermen
 Golfbaanvoorziening;Afslagmat
+NAP-relatieve eendimensionale eigenschap;afslagniveau benedenstrooms
+NAP-relatieve eendimensionale eigenschap;afslagniveau bovenstrooms
 Functie;Afsluiten
 Functie;Afsluiten in één stroomrichting
 Functie;Afsluiten in twee stroomrichtingen
@@ -81,7 +134,14 @@ Put;Afsluiterput
 Straatmeubilair;Afsluitpaal
 Constructieonderdeel;Afsluitstuk
 Kabel;Afspandraad
+eendimensionale eigenschap;afstand tot beginpunt
+eendimensionale eigenschap;afstand tot bovenzijde put
+eendimensionale eigenschap;afstand tot eindpunt
+eendimensionale eigenschap;afstand tot wegas
+eendimensionale eigenschap;afstand tussen drager en maaiveld
+eendimensionale eigenschap;afstand valruimte
 Bord;Afstandmarkeringsbord
+waarheidswaarde;afstandsbediening
 Golfbaanvoorziening;Afstandsmarkering
 Functie;Afstroming herstellen
 Bak;Afvalbak
@@ -93,7 +153,10 @@ Functie;Afvoer naar kolkaansluitleiding
 Functie;Afvoer van afvalwater naar een RWZI
 Functie;Afvoer van gassen uit de riolering
 Functie;Afvoer van hemelwater
+factor;afvoercoëfficiënt
+waarheidswaarde;afvoeren
 Functie;Afvoeren hemelwater naar de ondergrond
+opmerking;afvoeren instructie
 Functie;Afvoeren van water
 Functie;Afvoeren van water door infiltratie
 InformatieObject;Afvoerend oppervlak
@@ -101,21 +164,26 @@ Greppel;Afvoerende greppel
 Waterbeheergebied;Afvoergebied
 Waterbeheergebied;Afwateringsgebied
 Oppervlaktewatersysteem;Afwateringsysteem
+eendimensionale eigenschap;afwijkende dieptelegging
 Apparaat;Aggregaat
 Geografische ruimte;Agrarisch gebied
 Groenobject;Agrarisch grasland
 Apparaat;Akoestische signaalgever
+tekstuele aanduiding;alternatieve naam
 Metaal;Aluminium
 Functie;Amfibieën en zoogdieren redden
 Faunavoorziening;Amfibieënfuik
 Hek;Amfibieënscherm
 Camera;ANPR-camera
 Apparaat;Antenne
+waarheidswaarde;anti-graffiti voorziening
+waarheidswaarde;anti-slip
 Straatmeubilair;Antivandalismevoorziening
 Constructie;Apparaat
 Representatie fysiek object;Apparatuuroriëntatie
 Representatie fysiek object;Appendage-oriëntatie
 Bord;APV-bord
+waarheidswaarde;APV-verordening
 Overbrugging;Aquaduct
 Apparaat;Armatuur
 Armatuur;Armatuur in object
@@ -129,15 +197,19 @@ Sportveld;Atletiekbaan
 Sportveld;Atletiekbaanonderdeel
 Sportterrein;Atletiekstadion
 Sporttoestel;Atletiekvoorziening
+waarheidswaarde;attentieverhogende markering
+meta-informatie;attribuut
 Meldpaal;Audiopaal
 Slak;AVI- en AEC-bodemas
 Slak;AVI-slakken
 Speelterrein;Avontuurlijke speelplek
+NAP-relatieve eendimensionale eigenschap;b.o.b. beginpunt leiding
+NAP-relatieve eendimensionale eigenschap;b.o.b. eindpunt leiding
 Luchtvaartruimte;Baan voor vliegverkeer
 Armatuur;Baaneindelicht
 InformatieObject;Baggeren-informatie
 Rol;Baggerplichtige
-Kunstwerk;Baggerschot
+Infrastructureel kunstwerk;Baggerschot
 Waterbeheerzone;Baggervak
 Constructie;Bak
 Stuw;Balgstuw
@@ -152,6 +224,7 @@ Overig materiaal;Bamboe
 Overig materiaal;Bamboe (Biobased)
 Weginrichtingsobject;Band
 Zitelement;Bank
+cijfermatige aanduiding;barcode
 Natuursteen;Basalt
 Natuursteen;Basalton
 Sporttoestel;Basketbalpaal
@@ -166,26 +239,35 @@ Rol;Bedienaar
 Functie;Bedienen afsluiter
 Functie;Bedienen van meerdere pompunits
 Gebouw;Bedieningspost
+categorie;bedieningssysteem
+opmerking;bedieningstijden
 Perceel;Bedrijfslocatie
 Informatiebord;Bedrijfsnaambord
 Watergang;Beek
 Overkluizing;Beekriool
 Put;Beerput
+datum;begin garantieperiode
+datum;beginGeldigheid
 Vertex;Beginpunt leiding
 Vertex;Beginpunt onderdeel
+meetwaarde;beginstand draaiurenteller
 Complex;Begraafplaats
 Functie;Begrazen
 Reëel object;Begroeiing
 DiscreetObject;Begroeiing
+opmerking;beheerafspraak
 Rol;Beheerder
 Beheerzone;Beheergebied
 Beheerzone;Beheervak
 Functionele zonering;Beheerzone
 Speeltoestel;Behendigheidstoestel
 Functie;Beheren van parkeerplaatsen
+Activiteit;Beinvloeden verkeerslichten 
 Constructieonderdeel;Bekabeling
 Vispassage;Bekkentrap
 Beheerzone;Belangenstrook
+categorie;belasting
+categorie;belastingklasse DIN19580/EN1433
 Waterinrichtingsobject;Bellenscherm
 Functie;Beluchten leiding
 Functie;Beluchten mechanische leiding
@@ -200,9 +282,16 @@ Transportrioolleiding;Benedenstrooms eindriool
 Registratieve ruimte;Benoemde plaats
 Overig materiaal;Bentoniet
 Put;Benzine- of olieput
+interval;beoogde inhoudsklasse
+duur;beoogde omloop boom (regulier)
+duur;beoogde omloop boom (snelgroeiend)
+categorie;beoogde opkroonhoogte
+Activiteit;Bepalen correcte werking apparatuur
+Activiteit;Bepalen locatie
 Functie;Beperken debiet
 Functie;Beperken van erosie
 Functie;Beperken van geluidshinder
+waarheidswaarde;beperking voor soorten
 Put;Beregeningsbron
 Installatie;Beregeningsinstallatie
 Kast;Beregeningskast
@@ -210,20 +299,27 @@ Holle leiding;Beregeningsleiding
 Markeringspaal;Beregeningsleidinglocatiepaal
 Pomp;Beregeningspomp
 Put;Beregeningsput
+categorie;bereikbaarheid
+categorie;bereikbaarheid gedetailleerd
 InformatieObject;Bereikbaarheid-informatie
 Reservoir;Bergbezinkbassin
 Vrijverval rioolleiding;Bergbezinkleiding
 Functie;Bergen van water
+tweedimensionale eigenschap;bergend oppervlak
+driedimensionale eigenschap;bergend vermogen
 Reservoir;Bergingsbassin
 Vrijverval rioolleiding;Bergingsleiding
 Composiet;Bermgras/hennep met Bio-composite (Biobased)
 Herdenkingsmonument;Bermmonument
 Functie;Beschaduwen
 Waterbeheergebied;Beschermd gebied
+waarheidswaarde;beschermde flora en fauna
+categorie;beschermde flora en fauna gedetailleerd
 Functie;Beschermen tegen aanrijdingen
 Functie;Beschermen tegen vallen
 Constructieonderdeel;Bescherming
-Waterstaatkundig kunstwerk;Beschoeiing
+Infrastructureel kunstwerk;Beschoeiing
+Activiteit;Beschutting en onderdak bieden
 Registratieve ruimte;Bestemmingsplangrens
 Kast;Besturingskast
 Straatmeubilair;Betaalautomaat
@@ -238,32 +334,46 @@ Tegel;Betontegel
 Verharding;Betonverharding
 Zand;Betonzand
 Straatmeubilair;Beugel
+categorie;bevaarbaarheidklasse
 Functie;Beveiligen
 Camera;Beveiligingscamera
+eendimensionale eigenschap;bevestigingshoogte
 Overbrugging;Beweegbare brug
 Sensor;Bewegingssensor
 Bord;Bewegwijzeringsbord
 Paal;Bewegwijzeringsmast
+percentage-attribuut;bewerkingspercentage
+interval;bewerkingspercentageklasse bodem
+interval;bewerkingspercentageklasse talud
 Functie;Bewonen
+waarheidswaarde;bewoond
 Reservoir;Bezinkbassin
 Functie;Bezinken stoffen
+meta-informatie;bgt-objecttype
+Activiteit;Bieden van voedsel
 Holle leiding;Bierleiding
 Functie;Bij calamiteit afvalwater afvoeren
 Faunaverblijfplaats;Bijenhotel
 Faunaverblijfplaats;Bijenkast
 Faunaverblijfplaats;Bijenwand
 Putdeksel;Bijzonder putdeksel
+waarheidswaarde;bijzonder transport
 Paal;Bijzondere mast
 Rioolput;Bijzondere putconstructie
 Weginrichtingsobject;Bijzondere tegel
+categorie;bijzonderheid groeiplaats
 Pomp;Bilgepomp
 Overig materiaal;Bims
+eendimensionale eigenschap;binnendiameter
+NAP-relatieve eendimensionale eigenschap;binnenonderkant onderdeel
 Speelterrein;Binnenspeelterrein
 Kunststof;BioBased HDPE
 Composiet;BioComposiet
 Materie;Biodivers materiaal
 Zuiveringsreservoir;Biofilter
 InformatieObject;Biotoop-informatie
+categorie;biotoopsubtype
+categorie;biotooptype
 Materie;Bitumen
 Composiet;Bitumen-houtvezel composiet
 Opslagbak;Bladkorf
@@ -271,6 +381,7 @@ Constructieonderdeel;Bliksemafleider
 Kabel;Bliksemafleidingskabel
 Bak;Blikvanger
 Inlaat;Blinde inlaat
+waarheidswaarde;blinde put
 Tegel;Blindengeleidetegel
 Vegetatieobject;Bloemblok
 Weginrichtingsobject;Blok
@@ -280,41 +391,61 @@ Verbindingsstuk;Bochtstuk
 Reëel object;Bodem
 DiscreetObject;Bodem
 Groenobject;Bodembedekkers
-Kunstwerk;Bodembescherming
-Waterstaatkundig kunstwerk;Bodemval
+Infrastructureel kunstwerk;Bodembescherming
+geografische informatie;bodemprofiel
+Infrastructureel kunstwerk;Bodemval
 Gebouw;Boerderij
 Waterbeheergebied;Boezemgebied
 Straatmeubilair;Bolder
 Armatuur;Bolderarmatuur
+categorie;bomenstructuur
 InformatieObject;Bomenstructuur-informatie
 Vegetatieobject;Boom
+toegekende toestand;boombeleidsstatus
 Straatmeubilair;Boombeschermer
+categorie;boomgrootte
+interval;boomhoogteklasse eindbeeld
 InformatieObject;Boomkenmerk
 Weginrichtingsobject;Boomkrans
+interval;boomkroondiameterklasse eindbeeld
+typologische eigenschap;boomkroontype
+driedimensionale eigenschap;boomkroonvolume eindbeeld (BKV-stelpost)
 Fruit- of kweekbomen;Boomkwekerij
 Straatmeubilair;Boomrooster
 Hout;Boomschors
 Weginrichtingsobject;Boomspiegel
 Straatmeubilair;Boomstam
+typologische eigenschap;boomtype
+categorie;boomvoorziening
 InformatieObject;Boomvoorziening-informatie
 Apparaat;Booster
 Rioolgemaal;Boostergemaal
 Constructie;Bord
+categorie;bord in functie
+tweedimensionale eigenschap;bordafmeting
+typologische eigenschap;bordcode
 Gebouwcomponent;Bordes
+categorie;bordopbouw
 InformatieObject;Bordopschrift
 Groenobject;Bos
 Groenobject;Bosplantsoen
 Recreatiezone;Botanische tuin
+categorie;botsklasse
+waarheidswaarde;botsvriendelijk
 Drainagestelsel;Bouwblokdrainage
-Kunstwerk;Bouwkuip
+jaartal;bouwjaar
+Infrastructureel kunstwerk;Bouwkuip
 Gebouwcomponent;Bouwlaag
 Groenobject;Bouwland
 Speelterrein;Bouwspeelplaats
 Verkeerskundige zone;Bouwweg
 Constructie;Bouwwerk
 Knooppunt;Bouwwerkoriëntatie
+categorie;boven- of ondergronds
+categorie;boven- of onderwater
 Paal;Bovenleidingmast
 Functie;Bovenstrooms waterpeil regelen
+waarheidswaarde;braakliggend
 InformatieObject;Brandbescherming-informatie
 Installatie;Brandblusinstallatie
 Veiligheidsvoorziening;Brandblusser
@@ -325,11 +456,21 @@ Markeringspaal;Brandleidinglocatiepaal
 Put;Brandput
 Veiligheidsvoorziening;Brandslang
 Markeringspaal;Brandstoflocatiepaal
+duur;branduren
+eendimensionale eigenschap;breedte
+eendimensionale eigenschap;breedte bodem
+eendimensionale eigenschap;breedte toegang
+eendimensionale eigenschap;breedte valruimte
+eendimensionale eigenschap;breedte verhardingselement
 Detector;Breedtedetectieapparaat
+interval;breedteklasse haag
+interval;breedteklasse watergang
 Zand;Brekerzand
 Grind;Brekerzand-steenslagmengsel
 Straatmeubilair;Brievenbus
 Stuw;Brievenbusstuw
+datum;broedperiode tot
+datum;broedperiode van
 Faunaverblijfplaats;Broeihoop
 Oppervlaktewater;Bron
 Rol;Bronhouder
@@ -337,6 +478,7 @@ Metaal;Brons
 Complex;Brugcomplex
 Verkeerslicht;Bruglicht
 Gebouw;Brugwachterskantoor
+tweedimensionale eigenschap;bruto vloeroppervlak
 Waterslagvoorziening;Buffertoren
 Constructieonderdeel;Buisdeel
 Hek;Buishek
@@ -346,7 +488,7 @@ Hulpobject;Buitengrens
 Kast;Buitenopstellingskast
 Recreatiezone;Bungalowpark
 Gebouw;Bunker
-Kunstwerk;Bunkerponton
+Infrastructureel kunstwerk;Bunkerponton
 OV-voorziening;Busperron
 Verkeerskundige zone;Bussluis
 Verkeerskundige zone;Busstation
@@ -362,6 +504,9 @@ Recreatiezone;Camping
 Publiekrechtelijk rechtspersoon;Caribisch openbaar lichaam
 Verkeerskundige zone;Carpoolplaats
 Stuw;Cascadestuw
+prijs;catalogusprijs
+sociaal geconstrueerde indeling;categorie
+cijfermatige aanduiding;CE-markering
 Materie;Cement
 Beton;Cementbeton
 Cement;Cementmortel
@@ -374,9 +519,12 @@ Holle leiding;Chemicaliënleiding
 Markeringspaal;Chemielocatiepaal
 Toiletvoorziening;Chemisch toilet
 Golfbaanvoorziening;Chipping doel
+sociaal geconstrueerde aanduiding;cijfermatige aanduiding
+waarheidswaarde;CLO
 Gebouw;Clubhuis
 Golfbaanvoorziening;Clubwasser
 Bescherming;Coating
+resource identifier;code
 Metaal;Coil coating Aluminium
 Sportveld;Combibalspelterrein
 Kabel;Combikabel
@@ -386,10 +534,12 @@ Bord;Combinatiebord
 Speeltoestel;Combinatietoestel
 InformatieObject;Communicatie-informatie
 Apparaat;Communicatiemodule
+categorie;communicatieprotocol
 Beheerzone;Compartiment
 Knooppunt;Compartimentoriëntatie
 Constructieonderdeel;Compensator
 Functionele zonering;Complex
+categorie;component
 InformatieObject;Component-informatie
 Materie;Composiet
 Apparaat;Computer
@@ -398,36 +548,53 @@ Stuw;Conserveringstuw
 Reëel object;Constructie
 DiscreetObject;Constructie
 Functie;Constructie beschermen
-InformatieObject;Constructiekleur
 Constructie;Constructielaag
+typologische eigenschap;constructielaagsoort
 Constructie;Constructieonderdeel
 Representatie fysiek object;Constructieonderdeeloriëntatie
+typologische eigenschap;constructietype
 Apparaat;Contact
 Bak;Container
 Put;Containerput
+snelheid;continue lozing
 Armatuur;Contourverlichting
+factor;contractiecoëfficiënt doorlaatprofiel
+toegekende toestand;controle positie boom
+frequentie;controlefrequentie
+frequentie;controlefrequentie veiligheid
 Apparaat;Controller
 Lichtbron;Conventionele lamp
+productspecificatie;conversie naar protocol
+productspecificatie;conversie van protocol
+cijfermatige aanduiding;conversie-id
 Apparaat;Converter
 Staal;Cortenstaal
-Waterstaatkundig kunstwerk;Coupure
+Infrastructureel kunstwerk;Coupure
 Complex;Coupurecomplex
 Metaal;Cradle tot cradle aluminium
 Gebouw;Crematorium
+optische eigenschap;CRI
 Sportveld;Cricketpitch
 Hek;Cricketscreen
 Sportveld;Cricketveld
 Sportterrein;Crossbaan
+waarheidswaarde;CROW-richtlijn
 Sportveld;Cruyff court
 Drainagestelsel;Cunetdrainage
+Geometrische representatie;Curve
 Markeringspaal;CV-locatiepaal
 Gebouwcomponent;Dakkapel
-Waterstaatkundig kunstwerk;Dam
+tweedimensionale eigenschap;dakoppervlak hellend
+tweedimensionale eigenschap;dakoppervlak vlak
+tweedimensionale eigenschap;dakoppervlak vlak uitgestrekt
+Infrastructureel kunstwerk;Dam
 Sluis;Damsluis
 Sporttoestel;Damtafel
-Waterstaatkundig kunstwerk;Damwand
+Infrastructureel kunstwerk;Damwand
 Faunaverblijfplaats;Dassenburcht
 Kabel;Datakabel
+temporele eigenschap;datum
+datum;datum inschrijving monumentenregister
 Meetinstrument;Debietmeter
 Rol;Debiteur
 Waterbeheergebied;Deelafvoergebied
@@ -442,40 +609,72 @@ Vispassage;Deniltrap
 Sensor;Detectielus
 Sensor;Detector
 Constructieonderdeel;Deur
+omschrijving;deurindeling
+eendimensionale eigenschap;diameter
 Markeringmateriaal;Diamond Grade
 Markeringmateriaal;Diamond Grade retroreflecterende folie
+eendimensionale eigenschap;diepte
 Detector;Dieptedetectiebalk
 Damwand;Diepwand
 Recreatiezone;Dierenweide
 Constructieonderdeel;Diffusiescherm
-Kunstwerk;Dijkbekleding
+Infrastructureel kunstwerk;Dijkbekleding
 Waterbeheerzone;Dijkkruin
-Waterstaatkundig kunstwerk;Dijklichaam
+Infrastructureel kunstwerk;Dijklichaam
 Geografische ruimte;Dijknol
 Markeringspaal;Dijkpaal
+eendimensionale eigenschap;dikte
+eendimensionale eigenschap;dikte constructie
+eendimensionale eigenschap;dikte constructielaag
+eendimensionale eigenschap;dikte gording
+eendimensionale eigenschap;dikte palen
+eendimensionale eigenschap;dikte schot
+categorie;dimaansturing
+waarheidswaarde;dimbaar
+omschrijving;dimprofiel
 ReëelObject;DiscreetObject
 Straatmeubilair;Dispenser hondenpoepzakjes
 Vrijverval rioolleiding;DIT-riool
 Watervlakte;Dobbe
 InformatieObject;Document
+datum;documentdatum
+resource identifier;documentlocatie
+tekstuele aanduiding;documentnaam
+cijfermatige aanduiding;documentnummer
 Sporttoestel;Doel
+tekstuele aanduiding;doelsoort
 Sporttoestel;Doelwand
 Bouwwerk;Dok
+resource identifier;domein
+meta-informatie;domeinwaarde
 Functie;Door bemaling geregelde afvoer
 Functie;Door stuwing geregelde afvoer
 Constructieonderdeel;Doorlaat
+tweedimensionale eigenschap;doorlaatbaarheid
+NAP-relatieve eendimensionale eigenschap;doorlaatniveau
+eendimensionale eigenschap;doorloophoogte
+eendimensionale eigenschap;doorrijbreedte
+Activiteit;Doorrijden van berm voorkomen
+eendimensionale eigenschap;doorrijhoogte
 Functie;Doorspoelen rioolstelsel
 Rioolput;Doorspoelput
 Rioolput;Doorspuitput
 Verkeerskundige zone;Doorsteek
+eendimensionale eigenschap;doorvaartbreedte
+eendimensionale eigenschap;doorvaartdiepte
+eendimensionale eigenschap;doorvaarthoogte
+cijfermatige aanduiding;doorvaartnummer
 Functie;Doorvoeren leidingen en/of kabels
 Put;Doorvoergat
 Straatmeubilair;Douche
 Hek;Draadraster
+waarheidswaarde;draagkrachtig
+tijdsgebonden arbeid;draagvermogen
+waarheidswaarde;draaibaar
 Speeltoestel;Draaitoestel
 Functie;Dragen van licht verkeer
 Functie;Dragen van zwaar verkeer
-Holle leiding;Drain
+Stedelijk waterleiding;Drain
 Aansluitleiding;Drainaansluitleiding
 Functie;Drainage en transport van hemel- en grondwater
 Drainagestelsel;Drainage transportstelsel
@@ -486,8 +685,12 @@ Stelsel;Drainagestelsel
 Zand;Drainagezand
 Beton;Drainbeton
 Deksel;Drainputdeksel
+eendimensionale eigenschap;drempelbreedte
+eendimensionale eigenschap;drempeldikte
 Armatuur;Drempellicht
+NAP-relatieve eendimensionale eigenschap;drempelniveau
 Veiligheidsvoorziening;Drenkelingentrap
+ruimtelijke eigenschap;driedimensionale eigenschap
 Constructieonderdeel;Drijflaagschot
 Waterinrichtingsobject;Drijflijn
 Waterinrichtingsobject;Drijfraam
@@ -498,8 +701,9 @@ Waterinrichtingsobject;Drijvende trap
 Waterinrichtingsobject;Drijver
 Stuw;Drijverstuw
 Bak;Drinkbak
-Waterstaatkundig kunstwerk;Drinkwaterinlaat
+Infrastructureel kunstwerk;Drinkwaterinlaat
 Straatmeubilair;Drinkwaterpunt
+categorie;drukklasse
 Sensor;Drukknop
 Meldpaal;Drukknoppaal
 Mechanische rioolleiding;Drukleiding
@@ -510,7 +714,7 @@ Vrijverval rioolleiding;DT-riool
 Schuif;Dubbelkerende spindelschuif
 Sportvoorziening;Dugout
 Speeltoestel;Duikelrek
-Holle leiding;Duiker
+Stedelijk waterleiding;Duiker
 Put;Duikerput
 Stelsel;Duikerstelsel
 Constructieonderdeel;Duikschot
@@ -518,28 +722,41 @@ Groenobject;Duin
 Scheiding;Duinbescherming
 Watervlakte;Duinmeer
 Beek;Duinrel
+temporele eigenschap;duur
 Gemaal;DWA gemaal
 Perceelaansluitleiding;DWA perceelaansluitleiding
 Gemaal;DWA+HWA-gemaal
 Faunameubilair;Dwangvleugel
+typologische eigenschap;dwars- of lengtemarkering
 Tunneldeel;Dwarsbuis
 Informatiepaneel;Dynamisch informatiepaneel
 Functie;Dynamisch remmen van verkeerssnelheid
 Informatiepaneel;Dynamische snelheidsindicator
+cijfermatige aanduiding;ean-code
 Slak;E-bodemas
 Overbrugging;Ecoduct
+waarheidswaarde;ecologisch beheer
 Ecologische zone;Ecologisch perceel
 Functionele zonering;Ecologische zone
 Topologisch element;Edge
 Speeltoestel;Educatietoestel
 Faunavoorziening;Eekhoornbrug
 Faunaverblijfplaats;Eendenkorf
+ruimtelijke eigenschap;eendimensionale eigenschap
+meta-informatie;eenheid
 Holle leiding;Effluentleiding
 Faunaverblijfplaats;Egelhuisje
 Rol;Eigenaar
+datum;einde garantieperiode
+datum;eindGeldigheid
 Vertex;Eindpunt leiding
 Vertex;Eindpunt onderdeel
+datum;eindRegistratie
+opmerking;eis voorzorgsmaatregel
 Kast;Elektriciteitskast
+waarheidswaarde;elektrisch raster
+thermodynamische eigenschap;elektrische spanning
+thermodynamische eigenschap;elektrische stroom
 Constructieonderdeel;Elektronisch component
 Speeltoestel;Elektronisch toestel
 Overig materiaal;Elementenbestrating
@@ -547,6 +764,7 @@ Verharding;Elementenverharding
 Spoorzone;Emplacement
 Gebouw;Energiecentrale
 Rol;Energieleverancier
+tweedimensionale eigenschap;energieverliescoëfficiënt
 Markeringmateriaal;Engineer Grade retroreflecterende folie
 Schuif;Enkelkerende spindelschuif
 Kunststof;Epoxy
@@ -556,6 +774,7 @@ Aansluitput;Erfafscheidingsput
 Kast;Evenementenkast
 Recreatiezone;Evenemententerrein
 Speelterrein;Evenwichtsparcours
+cijfermatige aanduiding;evse-id
 Rol;Exploitant
 Kolk;Explosievrije kolk
 Overstortconstructie;Externe overstortconstructie
@@ -568,6 +787,7 @@ Functie;Faciliteren van klimmen
 Functie;Faciliteren van onderwijs
 Functie;Faciliteren van recreatie
 Functie;Faciliteren van religieuze activiteiten
+wiskundige eigenschap;factor
 Faunavoorziening;Faunaduiker
 Faunavoorziening;Faunagoot
 Put;Fauna-inspectieput
@@ -578,14 +798,18 @@ Faunavoorziening;Faunarichel
 Faunavoorziening;Faunatunnel
 Faunavoorziening;Fauna-uittreedplaats
 Straatmeubilair;Faunaverblijfplaats
-Waterstaatkundig kunstwerk;Faunavoorziening
+Kunstwerk;Faunavoorziening
 Armatuur;Feestverlichting
+typologische eigenschap;feitelijk gebruik
+typologische eigenschap;feitelijk gebruik gedetailleerd
+waarheidswaarde;fictief
 Fietsparkeervoorziening;Fietsabri
 Fietsparkeervoorziening;Fietsbeugel
 Sportveld;Fietscrossbaan
 Fietsparkeervoorziening;Fietsenkluis
 Fietsparkeervoorziening;Fietsenrek
 Fietsparkeervoorziening;Fietsenstalling
+waarheidswaarde;fietsers in de voorrang
 Fietsparkeervoorziening;Fietsklem
 Verkeerskundige zone;Fietspad
 Straatmeubilair;Fietsparkeervoorziening
@@ -597,23 +821,33 @@ Weginrichtingsobject;Fietsvlonder
 Sensor;Fijnstofsensor
 Informatiepaneel;Filemeldsysteem
 Put;Filterput
+productspecificatie;firmwareversie
 Gemaal;First flush gemaal
 Sporttoestel;Fitnesstoestel
 Functie;Fixeren putdeksel
 Paal;Flespaal
 Constructieonderdeel;Flexibel zettingsstuk
 Installatie;Flitspaal
+waarheidswaarde;flora en fauna uitzondering
 InformatieObject;Flora en fauna-informatie
+categorie;flora en faunawet afwijking
 Steen;Flowblock
 Markeringmateriaal;Fluorescerend Diamond Grade retroreflecterende folie
 Overbrugging;Flyover
 Constructieonderdeel;Folie
-Waterstaatkundig kunstwerk;Fontein
+Infrastructureel kunstwerk;Fontein
+categorie;formaat
 Gebouw;Fort
 Slak;Fosforslakmengsel
 Aansluiting;Foutaansluiting
 Natuursteen;Franse kalksteen
 Hout;Franse schors
+temporele eigenschap;frequentie
+frequentie;frequentie baggeren
+frequentie;frequentie kroosvissen
+frequentie;frequentie uitspuiten
+frequentie;frequentie veegboot
+interval;frequentiebanden
 Elektronisch component;Frequentie-omvormer
 Groenobject;Fruit- of kweekbomen
 Fruit- of kweekbomen;Fruitkwekerij
@@ -630,6 +864,7 @@ Fundering;Fundering onderheid
 Fundering;Fundering onderheid op kleef
 Fundering;Fundering onderheid stuit
 Fundering;Fundering op staal
+categorie;fysieke aansluiting
 Object;FysiekObject
 Overig materiaal;Gaas
 Biodivers materiaal;Gaas met dood plantenmateriaal
@@ -649,9 +884,13 @@ Representatie fysiek object;Gebiedsoriëntatie
 Beheerzone;Geboortebos
 Constructie;Gebouw
 Constructie;Gebouwcomponent
+categorie;gebouwencomplex
 Functioneel gebouwobject;Gebouwzone
 Functie;Gebruik door beroepsvaart
 Functie;Gebruik door pleziervaart
+categorie;gebruiksdoel
+toegekende toestand;gebruikstatus
+categorie;gebruiksvorm
 Functionele zonering;Gebruikszone water
 Kolk;Gecombineerde straat-trottoirkolk
 Loze leiding;Gedammerde leiding
@@ -669,7 +908,9 @@ Hek;Geleidehek
 Functie;Geleiden van de afvoer van het afvalwater
 Functie;Geleiden van elektronen
 Functie;Geleiden van fauna
+Activiteit;Geleiden van personen
 Functie;Geleiden van treinen
+Activiteit;Geleiden van verkeer
 Geleideconstructie;Geleiderail
 Waterinrichtingsobject;Geleidewerk
 Kast;Geluidskast
@@ -678,8 +919,10 @@ Sensor;Geluidssensor
 Bouwwerk;Gemaal
 Rioolgemaal;Gemaal droge opstelling
 Rioolgemaal;Gemaal natte opstelling
+tijdsgebonden arbeid;gemaalcapaciteit
 Complex;Gemaalcomplex
 Gebouw;Gemaalgebouw
+waarheidswaarde;gemakkelijk toegankelijk
 Publiekrechtelijk rechtspersoon;Gemeente
 Registratieve ruimte;Gemeentegrens
 Weg;Gemeenteweg
@@ -687,14 +930,22 @@ Bos;Gemengd bos
 Vrijverval rioolleiding;Gemengd riool
 Vrijverval rioolstelsel;Gemengd rioolstelsel
 Perceelaansluitleiding;Gemengde perceelaansluitleiding
+meetwaarde;gemeten bodempeil
+meta-informatie;geo-functie
+ruimtelijke eigenschap;geografische informatie
 Virtuele ruimte;Geografische ruimte
+geografische informatie;geometrie
 InformatieObject;Geometrische representatie
 FysiekObject;Geo-object
 Overig materiaal;Geopolymeer
 Textiel;Geotextiel
+jaartal;gepland vervangingsjaar
 Markeringmateriaal;Geprofileerd markeringsmateriaal
 Straatmeubilair;Gereedschapsrek
 Systeem;Gescheiden systeem
+tweedimensionale eigenschap;gesloten verhard oppervlak hellend
+tweedimensionale eigenschap;gesloten verhard oppervlak vlak
+tweedimensionale eigenschap;gesloten verhard oppervlak vlak uitgestrekt
 Beton;Gespoten beton
 Vrijverval rioolstelsel;Gestuwd rioolstelsel
 Oppervlaktewater;Getijdengebied
@@ -706,6 +957,11 @@ Vegetatieobject;Gevelgroen
 Vegetatieobject;Geveltuin
 Metaal;Gewapend aluminium
 Beton;Gewapend beton
+interval;gewenst sluitingspercentage
+gewicht-attribuut;gewicht
+gewicht-attribuut;gewicht leeg
+gewicht-attribuut;gewicht vol
+juridische eenheid;gewijzigd door
 Materie;Gietijzer
 Bak;Gistingstank
 Staal;Glad staal
@@ -714,18 +970,13 @@ Vezels;Glasvezel
 Kunststof;Glasvezel versterkte kunststof
 Gebouw;Glasvezelstation
 Speeltoestel;Glijbaan
-Kunstwerk;Glooiing
-Geometrische representatie;GM_Curve
-Geometrische representatie;GM_MultiPoint
-Geometrische representatie;GM_MultiSurface
-Geometrische representatie;GM_Point
-Geometrische representatie;GM_Surface
+Infrastructureel kunstwerk;Glooiing
 Kast;GMS-kast
 Sensor;GMS-sensor
 Sportveld;Golfbaan
 Sportveld;Golfbaanonderdeel
 Straatmeubilair;Golfbaanvoorziening
-Kunstwerk;Golfbreker
+Infrastructureel kunstwerk;Golfbreker
 Golfbaanvoorziening;Golfdoel
 Sportterrein;Golfterrein
 Open leiding;Goot
@@ -749,6 +1000,7 @@ Groenobject;Gras- en kruidachtigen
 Golfbaanvoorziening;Grasafslaggeleider
 Beton;Grasbetonsteen
 Fundering;Grasfundatie
+categorie;graslandfase
 Grind;Gravel
 Sportvoorziening;Gravelbak
 Functie;Graven herbergen
@@ -763,10 +1015,14 @@ Overig materiaal;Gritlaag
 Reëel object;Groeiplaats
 DiscreetObject;Groeiplaats
 InformatieObject;Groeiplaats-bijzonderheid
+categorie;groeiplaatsconstructie
 InformatieObject;Groeiplaatsconstructie-informatie
+categorie;groeiplaatsinrichting
+categorie;groeiwijze
 InformatieObject;Groenbeheer-informatie
 Informatiepaneel;Groene golfsignaalgever
 Begroeiing;Groenobject
+categorie;groenstructuur
 Apparaat;Groep
 Materie;Grond
 Dam;Gronddam
@@ -777,7 +1033,10 @@ Armatuur;Grondspot
 Fundering;Grondverbetering
 Systeem;Grondwatermeetnet
 Meetpunt;Grondwatermeetpunt
+NAP-relatieve eendimensionale eigenschap;grondwaterniveau
+categorie;grondwaterprofiel
 Systeem;Grondwatersysteem
+cijfermatige aanduiding;grootboeknummer
 Cement;Grout
 Groenobject;Haag
 Edge;Haagas
@@ -793,12 +1052,14 @@ Installatie;Handhavingssysteem
 Gebouw;Hangar
 Hout;Hardhout
 Natuursteen;Hardsteen
+productspecificatie;hardwareversie
 Watervlakte;Haven
 Complex;Havencomplex
 Informatiebord;Havennummerbord
 Weg;Havenweg
 Kunststof;HDPE
 Paal;Hectometerpaal
+categorie;hectometerpunt
 Groenobject;Heesters
 Groenobject;Heide
 Scheiding;Hek
@@ -808,6 +1069,7 @@ IBA;Helofytenfilter
 Functie;Hemelwater afvoeren naar ondergrond
 Vrijverval rioolleiding;Hemelwaterriool
 Vrijverval rioolstelsel;Hemelwaterstelsel
+categorie;herbeoordeelde belastingklasse
 Straatmeubilair;Herdenkingsmonument
 Recreatiezone;Hertenkamp
 Holle leiding;Hevel
@@ -816,6 +1078,8 @@ Markeringmateriaal;High Intensity Prismatic retroreflecterende folie
 Functie;Hijsen
 Constructieonderdeel;Hijsinrichting
 Sportveld;Hockeyveld
+mechanische eigenschap;hoek
+meta-informatie;hoeveelheid
 Golfbaanvoorziening;Holevlag
 Leiding;Holle leiding
 Beheerzone;Hondenbeleidsgebied
@@ -825,18 +1089,32 @@ Weginrichtingsobject;Hondenrooster
 Speelterrein;Hondenspeelplek
 Straatmeubilair;Hondenspeeltoestel
 Recreatiezone;Hondenstrand
+Beheerzone;Hondentoilet
 Overig materiaal;Honingraat Bio Recycling
 Sportveld;Honk- en softbalveld
 Sportterrein;Honkbalstadion
 Sportveld;Honkbalveld
+waarheidswaarde;hoofdfunctie
+waarheidswaarde;hoofdgemaal
 Installatie;Hoofdpost
 Slak;Hoogovenslakkenmengsel
 Zand;Hoogovenslakkenzand
 Voedingskabel;Hoogspanningskabel
 Mast;Hoogspanningsmast
 Beheerzone;Hoogspanningtrace
+eendimensionale eigenschap;hoogte
+eendimensionale eigenschap;hoogte bovenkant kademuur
+eendimensionale eigenschap;hoogte opening
+eendimensionale eigenschap;hoogte schot
+eendimensionale eigenschap;hoogte sluiskolken
+eendimensionale eigenschap;hoogte t.o.v. rijbaan
+eendimensionale eigenschap;hoogte valruimte
+eendimensionale eigenschap;hoogte verhardingselement
+eendimensionale eigenschap;hoogte waterval
 Straatmeubilair;Hoogtebegrenzer
 Detector;Hoogtedetectieapparaat
+interval;hoogteklasse haag
+interval;hoogteklasse hek
 Waterinrichtingsobject;Hoogtemerk
 Zitelement;Hoogzit
 Vleermuispassage;Hop-over
@@ -845,7 +1123,11 @@ Beheerzone;Hotspot
 Materie;Hout
 Groenobject;Houtsingel
 Groenobject;Houtwal
+cijfermatige aanduiding;huisnummer
 Bord;Huisnummerbord
+cijfermatige aanduiding;huisnummerletter
+omschrijving;huisnummertoevoeging
+omschrijving;huisnummerverwijzing
 Geometrische representatie;Hulpobject
 Kast;Hulppost
 Verkeerslicht;Hulppostarmatuur
@@ -863,12 +1145,22 @@ IBA;IBA Klasse I
 IBA;IBA Klasse II
 IBA;IBA Klasse IIIa
 IBA;IBA Klasse IIIb
+resource identifier;identificatie
+resource identifier;identificatie BAG
+resource identifier;identificatie geovoorziening
+resource identifier;identificatie telemetriesysteem
 Sportveld;IJsbaan
 Bouwwerk;IJskelder
 Faunavoorziening;IJsvogelwand
+categorie;IK-waarde
+productspecificatie;imei
 InformatieObject;IMKL-informatie
 Grond;Immobilisaat
+productspecificatie;imsi
+waarheidswaarde;in onderzoek
 Functie;In stand houden onderdruk
+productspecificatie;inbelgegevens
+waarheidswaarde;indicatie open
 Bebouwingskern;Industriekern
 Infiltratiereservoir;Infiltratiebassin
 Goot;Infiltratiegoot
@@ -879,13 +1171,26 @@ Put;Infiltratieput
 Reservoir;Infiltratiereservoir
 Vrijverval rioolleiding;Infiltratieriool
 Rioolstelsel;Infiltratiestelsel
+tweedimensionale eigenschap;infiltrerend oppervlak
+tijdsgebonden arbeid;infiltrerend vermogen
 Bord;Informatiebord
 Object;InformatieObject
 Bord;Informatiepaneel
 Straatmeubilair;Informatiezuil
+Activiteit;Informeren gebruiker openbare ruimte
+Activiteit;Informeren van verkeer
+Activiteit;Informeren van verkeersdeelnemers
+Activiteit;Informeren van wegbeheerder
+Activiteit;Informeren weggebruiker
+Kunstwerk;Infrastructureel kunstwerk
 Geografische ruimte;Infrastructuur water
 Geografische ruimte;Infrastructuur wegen
+waarheidswaarde;ingegraven
 Textiel;Ingestrooid tapijt
+eendimensionale eigenschap;ingrijpdiepte
+waarheidswaarde;inhalen toegestaan van landbouwvoertuig
+driedimensionale eigenschap;inhoud
+interval;inhoudsklasse
 Functie;Injecteren van lucht
 Vertex;Injectiepunt
 Put;Injectieput
@@ -896,19 +1201,31 @@ Sluis;Inlaatsluis
 Stuw;Inlaatstuw
 Functie;Inlaten van oppervlaktewater
 Sluis;Innundatiesluis
+typologische eigenschap;in-of-opbouw
 Verkeerskundige zone;Inrit
 Faunaverblijfplaats;Insectenhotel
 Rioolput;Inspectieput
+cijfermatige aanduiding;inspectievolgorde
 Faunameubilair;Insprong
 Rol;Installateur
 Constructie;Installatie
+datum;installatiedatum
 InformatieObject;Installatie-informatie
+prijs;installatiekosten
+eendimensionale eigenschap;insteekbreedte
+eendimensionale eigenschap;insteekhoogte
 Weginrichtingsobject;Instroomvoorziening
 Informatiepaneel;Intelligent waarschuwingspaneel
+categorie;intelligentie
 Overstortconstructie;Interne overstortconstructie
 Overstortput;Interne overstortput
+categorie;interne sensor
+wiskundige eigenschap;interval
+waarheidswaarde;invasieve soort
 Armatuur;Invlieglicht
+snelheid;invoer
 InformatieObject;Inwinning-informatie
+datum;inwinningsdatum
 Rol;Inzamelaar
 Functie;Inzamelen en kortstondig opslaan afvalwater
 Functie;Inzamelen hemelwater en afgifte aan ondergrond
@@ -917,10 +1234,18 @@ Functie;Inzameling van grondwater
 Functie;Inzameling van hemelwater
 Functie;Inzameling van hemelwater en vuilwater
 Functie;Inzameling van vuilwater
+resource identifier;IP-adres
+categorie;IP-waarde
 Materie;Isolatiemateriaal
+jaartal;jaar herinrichting
+jaartal;jaar renovatie
+jaartal;jaar reparatie
+temporele eigenschap;jaartal
 Sportveld;Jeu de Boulesbaan
 Speelterrein;Jongeren ontmoetingsplek
+sociaal geconstrueerde indeling;juridische eenheid
 Virtuele ruimte;Juridische ruimte
+toegekende toestand;juridische status
 Sensor;Kaartlezer
 Sportterrein;Kaatsstadion
 Sportveld;Kaatsveld
@@ -929,14 +1254,16 @@ Armatuur;Kabelarmatuur
 Speeltoestel;Kabelbaan
 Kabel;Kabelbundel
 Constructieonderdeel;Kabeldraagsysteem
+categorie;kabelfunctie
 Functioneel ondergronds object;Kabelgeul
 Representatie fysiek object;Kabeloriëntatie
 Constructieonderdeel;Kabelrol
 Bord;Kabels- en leidingenbord
+waarheidswaarde;kabelsplitspunt
 Functioneel ondergronds object;Kabeltracé
 Functioneel ondergronds object;Kabelwenstracé
 Verkeerskundige zone;Kade
-Waterstaatkundig kunstwerk;Kademuur
+Infrastructureel kunstwerk;Kademuur
 Natuursteen;Kalksteen
 Watergang;Kanaal
 Gebouw;Kantoorgebouw
@@ -948,7 +1275,9 @@ Gebouw;Kas
 Natuursteen;Kasseien
 Constructie;Kast
 Gebouw;Kasteel
+typologische eigenschap;kastinrichting
 Constructieonderdeel;Kastombouw
+waarheidswaarde;kathodische bescherming
 Straatmeubilair;Kathodische beschermingspaal
 Gebouw;Kazerne
 Muur;Keermuur
@@ -961,6 +1290,8 @@ Functie;Keren van grond
 Functie;Keren van schepen via zwaaiplaats
 Functie;Keren van water
 Functie;Keren verkeer
+eendimensionale eigenschap;kerende hoogte boven waterlijn
+eendimensionale eigenschap;kerende hoogte onder waterlijn
 Functionele zonering;Kering
 Gebouw;Kerkgebouw
 Installatie;Kerkklok
@@ -968,18 +1299,25 @@ Ecologische zone;Kerngebied
 Fundering;Kespenfundering
 Fundering;Ketelzand fundering
 Constructieonderdeel;Ketting
+eendimensionale eigenschap;keurdiepte
 Vegetatieobject;Keverbank
+jaartal;kiemjaar (boom)
 Beton;Kiezelbeton
+topografische informatie;kilometrering begin
+topografische informatie;kilometrering eind
 Speelterrein;Kinderbeweegtuin
 Recreatiezone;Kinderboerderij
 Gebouw;Kiosk
-Kunstwerk;Kistdam
+Infrastructureel kunstwerk;Kistdam
 Overig materiaal;Kit
 Speelterrein;Klauterparcours
 Gebouw;Kleedgebouw
 Grond;Klei
 Overig materiaal;Kleischelpen
 Stuw;Klepstuw
+categorie;kleur
+InformatieObject;Kleur-informatie
+optische eigenschap;kleurtemperatuur
 Constructieonderdeel;Klimijzer
 Vegetatieobject;Klimplant
 Speeltoestel;Klimtoestel
@@ -990,6 +1328,8 @@ Sportveld;Klootschietbaan
 Muur;Kluismuur
 Constructieonderdeel;Knevelvoorziening
 Stuw;Knijpstuw
+tweedimensionale eigenschap;knipoppervlakte
+waarheidswaarde;knipperen
 Vertex;Knooppunt
 Armatuur;Kofferarmatuur
 Vezels;Kokosvezels
@@ -1009,12 +1349,19 @@ Faunaverblijfplaats;Kraamverblijf
 Verkeerskundige zone;Kraanbaan
 Spooras;Kraanspoor
 Rivier;Kreek
-Waterstaatkundig kunstwerk;Krib
+Infrastructureel kunstwerk;Krib
+Activiteit;Kruisen ecologische zone
+Activiteit;Kruisen kabels en leidingen
+Activiteit;Kruisen raster mogelijk maken
+Activiteit;Kruisen verkeer
+Activiteit;Kruisen water
+Activiteit;Kruisen watergang mogelijk make
 Rioolput;Kruisingsput
 Verkeerskundige zone;Kruispunt
 Verbindingsstuk;Kruisstuk
 Rol;Kunstenaar
 Materie;Kunstgras
+typologische eigenschap;kunstmatig
 Straatmeubilair;Kunstobject
 Materie;Kunststof
 Kunststof;Kunststof HDPE
@@ -1036,22 +1383,37 @@ Verkeerskundige zone;Laadplein
 Installatie;Laadportaal
 Installatie;Laadpunt
 Elektriciteitskast;Laadverdeelkast
+tijdsgebonden arbeid;laadvermogen
+cijfermatige aanduiding;laagnummer
 Voedingskabel;Laagspanningskabel
 Paal;Laagspanningsmast
+jaartal;laatste baggerjaar
+jaartal;laatste peiljaar
+meetwaarde;laatste stand draaiurenteller
+meetwaarde;laatste stand kwh-teller
 Functie;Laden en lossen
 Constructieonderdeel;Lamellenafscheider
+omschrijving;lampschakeling
+categorie;lampvoettype
 Constructieonderdeel;Lanceerpunt
 Functie;Lanceren van een pig
 Kunstwerkdeel;Landhoofd
 Geografische ruimte;Landschappelijk gebied
+waarheidswaarde;laptopaansluiting
 Kast;Laskast
 Functie;Laten bezinken
+tweedimensionale eigenschap;lateraal afvoerend oppervlak
+snelheid;lateraal debiet DWA
+snelheid;lateraal debiet HWA
 Infiltratiereservoir;Lavakoffer
 Natuursteen;Lavasteen
 Slak;LD-staalslakmengsel
+frequentie;ledigingsfrequentie
 Constructieonderdeel;Ledigingsvoorziening
 Lichtbron;Ledlamp
+interval;leeftijd doelgroep
 Grond;Leem
+categorie;legverband
 Constructie;Leiding
 Functie;Leiding gescheiden laten kruisen
 Functie;Leidingaansluiting verstevigen
@@ -1065,15 +1427,34 @@ Hulpobject;Leidingprofiel
 Mechanische transportleiding;Leidingsegment
 Bitumen;Leislag
 Natuursteen;Leisteen
+eendimensionale eigenschap;lengte
+eendimensionale eigenschap;lengte bijzonder transport
+eendimensionale eigenschap;lengte haagvoet
+eendimensionale eigenschap;lengte palen
+eendimensionale eigenschap;lengte toegang
+eendimensionale eigenschap;lengte val
+eendimensionale eigenschap;lengte valruimte
+eendimensionale eigenschap;lengte van voegen
+eendimensionale eigenschap;lengte verhardingselement
+interval;lengteklasse droog talud
+interval;lengteklasse kunstgras
+eendimensionale eigenschap;lensdiameter
+interval;letterhoogteklasse ondertekst
+interval;letterhoogteklasse opschrift
 Straatmeubilair;Leuning
 Registratie;Levensduur
 Rol;Leverancier
+typologische eigenschap;lichtafschermingskap
 Waterinrichtingsobject;Lichtbaken
+categorie;lichtbeeld
 Apparaat;Lichtbron
+categorie;lichtdoorlatend deel materiaal
+categorie;lichtdoorlatend deel structuur
+categorie;lichtdoorlatend deel vorm
 Constructieonderdeel;Lichtkoker
 Informatiepaneel;Lichtkrant
 Paal;Lichtmast
-Kunstwerk;Lichtopstand
+Infrastructureel kunstwerk;Lichtopstand
 Sensor;Lichtsensor
 Apparaat;Lichtsturing
 Installatie;Lift
@@ -1085,6 +1466,7 @@ Markering;Lijnmarkering
 Armatuur;Lijnverlichting
 Constructieonderdeel;Lining
 Overig materiaal;Linoleum
+topografische informatie;locatieaanduiding
 Gebouw;Lokethuisje
 Gebouw;Loods
 Bos;Loofbos
@@ -1098,16 +1480,19 @@ Put;Loze put
 Functie;Lozen afvalwater
 Functie;Lozen binnen het stelsel
 Functie;Lozen buiten het stelsel
+opmerking;lozingseisen
 Aansluitpunt;Lozingspunt
 Lozingspunt;Lozingspunt bodem
 Lozingspunt;Lozingspunt oppervlaktewater
 Rioolput;Lozingsput
 Rol;Lozingsvergunninghouder
+cijfermatige aanduiding;lozingsvergunningnummer
 Vulpunt;LPG-vulpunt
 Functie;Lucht en water zuiveren
 Functie;Lucht in mechanische leiding regelen
 Luchtvaartruimte;Luchthaven
 Weg;Luchthavenweg
+eendimensionale eigenschap;luchthoogte
 Apparaat;Luchtinjectie-unit
 Sensor;Luchtkwaliteitssensor
 Rioolgemaal;Luchtpersgemaal
@@ -1118,16 +1503,24 @@ Verkeerruimte;Luchtvaartruimte
 Apparaat;Luidspreker
 Gebouwcomponent;Luifel
 Afdekking;Luik
+optische eigenschap;lumenstroom
 Zand;M3C zand
+NAP-relatieve eendimensionale eigenschap;maaiveldhoogte
 Vertex;Maaiveldoriëntatie
+categorie;maaiveldschematisering
 Geografische ruimte;Maatschappelijke en/of publieksvoorziening
+resource identifier;MAC-adres
+waarheidswaarde;mag beplakt worden
 Beton;Mager beton
 Constructieonderdeel;Mangat
 Holle leiding;Mantelbuis
 Rioolput;Mantoegankelijke put
 Constructie;Markering
+categorie;markering toepassing
 Materie;Markeringmateriaal
+eendimensionale eigenschap;markeringsbreedte
 Straatmeubilair;Markeringspaal
+typologische eigenschap;markeringspatroon
 Tegel;Markeringstegels
 Beheerzone;Marktstandplaats
 Kast;Marktstroomkast
@@ -1135,9 +1528,24 @@ Natuursteen;Marmer
 Golfbaanvoorziening;Marshall-huisje
 Faunaverblijfplaats;Marterhoop
 Constructie;Mast
+eendimensionale eigenschap;masttopdiameter
 FysiekObject;Materie
+categorie;materiefase
 Informatiepaneel;Matrixbord
 Informatiepaneel;Matrixsignaalgever
+meetwaarde;maximaal bodempeil
+gewicht-attribuut;maximaal gewicht voertuig
+gewicht-attribuut;maximaal toelaatbaar voertuiggewicht
+gewicht;maximale asbelasting
+eendimensionale eigenschap;maximale breedte voertuig
+capaciteit;maximale capaciteit doorlaat
+eendimensionale eigenschap;maximale diepgang
+eendimensionale eigenschap;maximale hoogte voertuig
+eendimensionale eigenschap;maximale lengte voertuig
+aantal;maximale overspanning
+eendimensionale eigenschap;maximale valhoogte
+meetwaarde;maximum streefpeil
+categorie;maximumsnelheidsklasse
 Drainagestelsel;Mechanisch drainagestelsel
 Rioolstelsel;Mechanisch rioolstelsel
 Doorlaat;Mechanische afsluiter
@@ -1154,6 +1562,8 @@ Functie;Meerdere drainageleidingen aansluiten
 Waterinrichtingsobject;Meerpaal
 Waterinrichtingsobject;Meerstoel
 Apparaat;Meetbuis
+categorie;meeteenheid
+frequentie;meetfrequentie
 Systeem;Meetinrichting
 Sensor;Meetinstrument
 Vertex;Meetpunt
@@ -1161,11 +1571,14 @@ Stuw;Meetschot
 Weginrichtingsobject;Meetspijker
 Apparaat;Meetstation
 Stuw;Meetstuw
+wiskundige eigenschap;meetwaarde
 Straatmeubilair;Meldpaal
 InformatieObject;Memo
+opmerking;memoveld
 Granulaat;Menggranulaat
 Metaal;Messing
 Materie;Metaal
+sociaal geconstrueerde indeling;meta-informatie
 Functie;Meten (functie)
 Functie;Meten capaciteit van de volumestroom
 Functie;Meten grondwaterpeil
@@ -1177,11 +1590,15 @@ Functie;Meten van luchtkwaliteit
 Functie;Meten van natuurkundige grootheid
 Functie;Meten van neerslag
 Functie;Meten van niveauwijziging
+Activiteit;Meten van temperatuur
 Functie;Meten van verkeersstromen
 Functie;Meten van waterkwaliteit
+Activiteit;Meten verkeer
 Functie;Meten waterdruk
 Functie;Meten waterstand
 Functie;Meten, regelen, controleren en onderhouden
+tekstuele aanduiding;metermodelnaam
+cijfermatige aanduiding;meternummer
 Verkeerskundige zone;Metrobaan
 Spooras;Metrospoor
 Overig materiaal;Metselwerk
@@ -1195,33 +1612,46 @@ Sportveld;Midgetgolfbaan
 Natuursteen;Mijnsteen
 Afvalscheidingslocatie;Milieupark
 Afvalscheidingslocatie;Milieuperron
+waarheidswaarde;mindervaliden
+tweedimensionale eigenschap;minimaal doorstroomoppervlak
+meetwaarde;minimum streefpeil
 Publiekrechtelijk rechtspersoon;Ministerie
 Waterinrichtingsobject;Mistbaken
 Toiletvoorziening;Mobiel openbaar toilet
-Kunstwerk;Mobiele waterkering
+Infrastructureel kunstwerk;Mobiele waterkering
 Verkeerskundige zone;Mobiliteitshub
+categorie;modaliteit
 InformatieObject;Modaliteit-informatie
 Informatiebord;Modderbord
+tekstuele aanduiding;modelnaam
 Speelterrein;Modelspoorbaan
 Apparaat;Modem
 Groenobject;Moeras
 Verbindingsstuk;Mof
 Gebouw;Molen
 Goot;Molgoot
+waarheidswaarde;monitoring
 Meetpunt;Monsternamepunt
 InformatieObject;Monument-informatie
+cijfermatige aanduiding;monumentnummer
 Gebouw;Moskee
 Faunavoorziening;Mosselbank
+tijdsgebonden arbeid;motorvermogen
 Informatiebord;Mottobord
 Overig materiaal;Mozaïek
 Geografische ruimte;Multifunctioneel gebied
 Gebouw;Multigebouw
+Geometrische representatie;MultiPoint
+Geometrische representatie;MultiSurface
 Scheiding;Muur
 Gebouw;Muziektent
 Bos;Naaldbos
 Textiel;Naaldvilt
+tekstuele aanduiding;naam
 Armatuur;Naderingslicht
+ruimtelijke eigenschap;NAP-relatieve eendimensionale eigenschap
 Compartiment;Natte pompkelder
+typologische eigenschap;natuurbos
 Geografische ruimte;Natuurgebied
 Biodivers materiaal;Natuurgras
 Biodivers materiaal;Natuurgras/ongebonden mineraal
@@ -1235,6 +1665,9 @@ Materie;Natuursteen
 Natuursteen;Natuursteen gevlamd
 Natuursteen;Natuursteenkei
 Tegel;Natuursteentegel
+waarheidswaarde;natuurvriendelijk
+eendimensionale eigenschap;nautische diepte
+geografische informatie;nauwkeurigheid xy
 Registratieve ruimte;Nederlandse aansluitende zone
 Registratieve ruimte;Nederlandse continentaal plat
 Registratieve ruimte;Nederlandse exclusieve economische zone
@@ -1247,14 +1680,26 @@ Topologisch element;Netwerk
 Edge;NetwerkLink
 Vertex;NetwerkNode
 Rol;Netwerkoperator
+waarheidswaarde;niet geheel sloten
+NAP-relatieve eendimensionale eigenschap;niveau benedenstrooms openen
+NAP-relatieve eendimensionale eigenschap;niveau benedenstrooms sluiten
+NAP-relatieve eendimensionale eigenschap;niveau bovenstrooms openen
+NAP-relatieve eendimensionale eigenschap;niveau bovenstrooms sluiten
+NAP-relatieve eendimensionale eigenschap;niveau buitenwater
 Overig materiaal;Nobre Cál
 Gietijzer;Nodulair gietijzer
 Externe overstortput;Noodoverstortput
 Uitlaatconstructie;Nooduitlaat
+cijfermatige aanduiding;nummer
+cijfermatige aanduiding;nummer opening
 Registratieve ruimte;Nummeraanduiding
+cijfermatige aanduiding;nummeraanduidingreeks
 Installatie;Nutsaansluiting
 Overig materiaal;Nylon kous
+datum;objectBeginTijd
+datum;objectEindTijd
 Weginrichtingsobject;Obstakelbeveiliger
+waarheidswaarde;obstakels
 Sportveld;Oefenmuur
 Oppervlaktewater;Oever of slootkant
 Verkeerslicht;Oeverlicht
@@ -1265,6 +1710,11 @@ Aansluitput;Olie-/benzineafvangput
 Markeringspaal;Olielocatiepaal
 Grind;Olivijn
 Functie;Omgeven van deksel of kolk
+categorie;omgevingsrisicoklasse veiligheid
+sociaal geconstrueerde aanduiding;omschrijving
+eendimensionale eigenschap;omtrek
+tweedimensionale eigenschap;omtreklocatie
+eendimensionale eigenschap;omvang valruimte
 Reëel object;Onbegroeid terreindeel
 DiscreetObject;Onbegroeid terreindeel
 Functie;Onbekende functie
@@ -1273,33 +1723,48 @@ Vrijverval rioolstelsel;Onderbemaling
 Waterbeheergebied;Onderbemalingsgebied
 Verbinding;Onderdeeloriëntatie
 Ondertunneling;Onderdoorgang
+categorie;ondergroei
 Straatmeubilair;Ondergrondse laadoplossing
 InformatieObject;Onderhoud-informatie
+frequentie;onderhoudsfrequentie
 Rol;Onderhoudsplichtige
+categorie;onderhoudsregime
 Verkeerslicht;Onderlicht
+tekstuele aanduiding;onderstam
 Functie;Ondersteunen via de ondergrond
+omschrijving;ondertekst
 Kunstwerk;Ondertunneling
 Functie;Onderwijzen
 Overig materiaal;Ongebonden mineraal op kunststof
 Overig materiaal;Ongebonden mineraal op kunststof, gebonden onderbouw
+categorie;ontgravingsmethode
 Put;Ontlastput
 Constructieonderdeel;Ontlastvloer
 Functie;Ontluchten mechanische leiding
 Functie;Ontluchten van een leiding
 Functie;Ontluchten van riolering
 Constructieonderdeel;Ontluchter
-Holle leiding;Ontluchtingsleiding
+Stedelijk waterleiding;Ontluchtingsleiding
 Constructieonderdeel;Ontluchtingsunit
 Ontspanningsventiel;Ontluchtingsventiel
+Activiteit;Ontsluiten van erven
+Activiteit;Ontsluiten van het (landelijk) gebied op het hoofdwegennet
 Constructieonderdeel;Ontspanningsventiel
 Aansluitput;Ontstoppingsput
 Constructieonderdeel;Ontstoppingsstuk
 Put;Onttrekkingsput
+meetwaarde;ontwerp bodempeil
+tijdsgebonden arbeid;ontwerpcapaciteit
 Rol;Ontwerper
+categorie;ontwerpsnelheidsklasse
 Verharding;Onverhard
+tweedimensionale eigenschap;onverhard oppervlak hellend
+tweedimensionale eigenschap;onverhard oppervlak vlak
+tweedimensionale eigenschap;onverhard oppervlak vlak uitgestrekt
 Veiligheidsvoorziening;Oogdouche
 Faunaverblijfplaats;Ooievaarsnest
 Herdenkingsmonument;Oorlogsmonument
+waarheidswaarde;op talud
 Rol;Opdrachtgever
 Rol;Opdrachtnemer
 Reservoir;Open berging
@@ -1307,12 +1772,16 @@ Bouwwerk;Open bouwwerk
 Stedelijk waterleiding;Open leiding
 Open bouwwerk;Open loods
 Tunneldeel;Open tunnelbak
+tweedimensionale eigenschap;open verhard oppervlak hellend
+tweedimensionale eigenschap;open verhard oppervlak vlak
+tweedimensionale eigenschap;open verhard oppervlak vlak uitgestrekt
 Hemelwaterstelsel;Openbaar hemelwaterstelsel
 Drainagestelsel;Openbaar ontwateringsstelsel
 Toiletvoorziening;Openbaar toilet
 Vuilwaterstelsel;Openbaar vuilwaterstelsel
 Registratieve ruimte;Openbare ruimtegrens
 Geometrische representatie;Openbare ruimtelabel
+waarheidswaarde;openbare weg
 Doorlaat;Opening in wand
 InformatieObject;Opening kunstwerk
 Bouwwerk;Openluchtzwembad
@@ -1321,11 +1790,22 @@ Zand;Ophoogzand
 Beheerzone;Opkuilhoek
 Straatmeubilair;Oplaadpaal
 Functie;Opladen en parkeren
+datum;opleverdatum
 InformatieObject;Oplever-informatie
+sociaal geconstrueerde aanduiding;opmerking
+tweedimensionale eigenschap;oppervlakte
+tweedimensionale eigenschap;oppervlakte bodem
+tweedimensionale eigenschap;oppervlakte bovenkant kademuur
+tweedimensionale eigenschap;oppervlakte bovenwatertalud
+tweedimensionale eigenschap;oppervlakte haagvoet
+tweedimensionale eigenschap;oppervlakte insteek
+tweedimensionale eigenschap;oppervlakte onderwatertalud
+categorie;oppervlaktebehandeling
 Reëel object;Oppervlaktewater
 Gemaal;Oppervlaktewatergemaal
-Kunstwerk;Oppervlaktewaterinlaat
+Infrastructureel kunstwerk;Oppervlaktewaterinlaat
 Systeem;Oppervlaktewatersysteem
+omschrijving;opschrift
 Armatuur;Opschuifarmatuur
 Functie;Opslaan van materialen
 Functie;Opslag van oppervlaktewater
@@ -1334,9 +1814,13 @@ Straatmeubilair;Opslagcontainer
 Bak;Opslagtank
 Functie;Opsluiten van verharding
 Beheerzone;Opstelplaats
+cijfermatige aanduiding;optiekcode
+typologische eigenschap;optieksoort
+mechanische eigenschap;optische eigenschap
 Functie;Opvang en afvoer hemelwater
 Functie;Opvang hemelwater
 Functie;Opvang van afstromend hemelwater
+capaciteit;opvangcapaciteit
 Functie;Opvangen axiale beweging
 Functie;Opvangen horizontale verschuiving
 Functie;Opvangen vuil
@@ -1344,7 +1828,11 @@ Put;Opvangput
 Beheerzone;Opvangzone
 Rioolgemaal;Opvoergemaal
 Functie;Opwoelen en verzamelen van bezinksel
+eendimensionale eigenschap;opzetdiameter
 Constructieonderdeel;Opzetstuk
+hoek;oriëntatie
+hoek;oriëntatierichting
+categorie;originele belastingklasse
 Speeltoestel;Oud vervoersmiddel
 Functie;Overbruggen groot niveauverschil
 Kunstwerk;Overbrugging
@@ -1356,6 +1844,7 @@ Overbrugging;Overkluizing
 Stuw;Overlaat
 Aansluitpunt;Overnamepunt
 Armatuur;Overrunrandlicht
+waarheidswaarde;overspanningsbeveiliging
 Straatmeubilair;Overstap
 Functie;Overstijgen van hoogteverschil
 Constructieonderdeel;Overstortbemaling
@@ -1404,13 +1893,17 @@ Weg;Particuliere weg
 Meetinstrument;Peilbuis
 Deksel;Peilbuisdeksel
 Waterbeheergebied;Peilgebied
+meetwaarde;peilsprong
 Beheerzone;Peilvak
-Holle leiding;Pendelstuk
+Stedelijk waterleiding;Pendelstuk
 Registratieve ruimte;Perceel
 Aansluiting;Perceelaansluiting
 Aansluitleiding;Perceelaansluitleiding
 Aansluitpunt;Perceelaansluitpunt
 Functie;Perceelaansluitpunt met inlaat verbinden
+percentage-attribuut;percentage
+percentage-attribuut;percentage loofbos
+wiskundige eigenschap;percentage-attribuut
 Straatmeubilair;Pergola
 Oppervlaktewater;Permanent water
 Markeringmateriaal;Permanente markering type II
@@ -1428,6 +1921,9 @@ Beheerzone;Pingoruïne
 Constructieonderdeel;Plaat
 Staal;Plaatijzer
 Geometrische representatie;Plaatsbepalingspunt
+datum;plaatsingsdatum
+tekstuele aanduiding;plaatsnaam
+topografische informatie;plaatsoriëntatie
 Armatuur;Plafondarmatuur
 Waterinrichtingsobject;Plankier
 Straatmeubilair;Plantaarn
@@ -1445,6 +1941,7 @@ Recreatiezone;Pocketpark
 Zitelement;Poef
 Watervlakte;Poel
 Fundering;Poerenfundering
+Geometrische representatie;Point
 Waterbeheergebied;Poldergebied
 Straatmeubilair;Poller
 Verkeerslicht;Poller regellicht
@@ -1458,25 +1955,42 @@ Kunststof;Polystyreen
 Fundering;Polystyreen fundering
 Kunststof;Polyurethaan
 Installatie;Pomp
+tijdsgebonden arbeid;pompcapaciteit
 Informatiebord;Pompinformatiebord
 Kast;Pompkast
 Rioolput;Pompput
+categorie;pompschakeling
 Rioolput;Pompunit
-Waterstaatkundig kunstwerk;Ponton
+Infrastructureel kunstwerk;Ponton
 Natuursteen;Porfier
 Natuursteen;Porfier Albiano-Italië
+snelheid;porositeit
 Paalconstructie;Portaal
+omschrijving;positie deur
+cijfermatige aanduiding;postcode
 Registratieve ruimte;Postcodegebied
 Kabel;Potentiaalkabel
 Vezels;PP vezels
+sociaal geconstrueerde aanduiding;prijs
+waarheidswaarde;primaire aansluiting
+categorie;primaire kleur
 Actor;Privaatrechtelijk rechtspersoon
 Drainagestelsel;Privédrainage
+Activiteit;Produceren van hout
+jaartal;productiejaar
 Put;Productieput
+sociaal geconstrueerde indeling;productspecificatie
+geografische informatie;profiel open leiding
 Hulpobject;Profiellijn
 Geografische ruimte;Project
+toegekende toestand;projectstatus
+categorie;protocol naar communicatiemodule
+categorie;protocol naar lichtsturing
+productspecificatie;protocolversie
 Weg;Provinciale weg
 Publiekrechtelijk rechtspersoon;Provincie
 Registratieve ruimte;Provinciegrens
+percentage-attribuut;pr-percentage
 Actor;Publiekrechtelijk rechtspersoon
 Granulaat;Puingranulaat
 Straatmeubilair;Punaise
@@ -1486,10 +2000,12 @@ Deksel;Putdeksel
 Putdeksel;Putdeksel - licht verkeer
 Putdeksel;Putdeksel - zwaar verkeer
 Putdeksel;Putdeksel met instroomvoorziening
+NAP-relatieve eendimensionale eigenschap;putdekselniveau
 Knooppunt;Putoriëntatie
 Compartiment;Putschacht
 Kunststof;PVC
 Kunstwerkdeel;Pyloon
+cijfermatige aanduiding;quaycode
 Straatmeubilair;Raaipaal
 Sensor;Radar
 Detector;Radardetector
@@ -1497,6 +2013,7 @@ Mast;Radarmast
 Beheerzone;Rak
 Straatmeubilair;Rattenval
 Registratieve ruimte;Rayon
+waarheidswaarde;reclame
 Bord;Reclamebord
 Straatmeubilair;Reclamezuil
 Perceel;Recreatiebedrijf
@@ -1506,6 +2023,7 @@ Geografische ruimte;Recreatiegebied
 Gebouw;Recreatiegebouw
 Bebouwingskern;Recreatiekern
 Functionele zonering;Recreatiezone
+waarheidswaarde;recyclebaar
 Veiligheidsvoorziening;Reddingsboei
 Veiligheidsvoorziening;Reddingshaak
 Veiligheidsvoorziening;Reddingslijn
@@ -1515,32 +2033,49 @@ ReëelObject;Reëel object
 TechnischeEntiteit;Reëel object
 Geo-object;Reëel object
 FysiekObject;ReëelObject
+opmerking;referentie zwaarste voertuig
 Sensor;Referentiemicrofoon
 Markeringmateriaal;Reflecterende wegenverf type I
+waarheidswaarde;reflectie
+categorie;reflectieklasse
 Metaal;Refurbished aluminium
+optische eigenschap;regelbaar spectrum
 Functie;Regelen van het debiet om de bergingscapaciteit van het bovenstroomse rioolstelsel te benutten
 Functie;Regeling van de afvoer van het afvalwater
 Systeem;Regelinrichting
+categorie;regelprogramma
 Meetinstrument;Regenmeter
 Infiltratiereservoir;Regenwatertuin
 InformatieObject;Registratie
 Virtuele ruimte;Registratieve ruimte
 Functie;Registreren van weggebruikers
+Activiteit;Reguleren van verkeer in de tijd
 Functie;Reinigen afvalwater
 Inspectieput;Reinigende put
+frequentie;reinigingsfrequentie
 Informatiepaneel;Reistijdinformatiesysteem
+geografische informatie;relatieve hoogteligging
 Geografische ruimte;Reliëfzone
 Functie;Remmen van verkeerssnelheid met fysieke middelen
 Functie;Remmen van verkeerssnelheid met optische middelen
 Waterinrichtingsobject;Remmingswerk
+waarheidswaarde;remplace
+datum;remplacedatum
+categorie;remplacegroep
 Constructieonderdeel;Reparatie
 Topologisch element;Representatie fysiek object
 Bouwwerk;Reservoir
+sociaal geconstrueerde aanduiding;resource identifier
+duur;retentiewaarde
+resource identifier;rfid
+categorie;richtingen
+cijfermatige aanduiding;richtingnummer
 Groenobject;Rietland
 Fundering;Rietmatten
 Verkeerskundige zone;Rijbaan
 Registratieve ruimte;Rijk
 Weg;Rijksweg
+categorie;rijrichting
 Verkeerslicht;Rijstrooklicht
 Weginrichtingsobject;Rijstrookscheiding
 Overig materiaal;Rijstvlies (Biobased)
@@ -1550,7 +2085,6 @@ Constructieonderdeel;Rioolafsluiter
 Drainagestelsel;Riooldrainage
 Rioolgemaal;Riooleindgemaal
 Gemaal;Rioolgemaal
-Holle leiding;Rioolleiding
 Stedelijk waterleiding;Rioolleiding
 Functie;Rioolleidingen aansluiten
 Put;Rioolput
@@ -1563,8 +2097,10 @@ Waterbeheergebied;Risicogebied
 Watergang;Rivier
 Armatuur;Rolbaanlicht
 Bak;Rolcontainer
+waarheidswaarde;rolstoelgebruik
 Installatie;Roltrap
 Gebouw;Roltrapgebouw
+waarheidswaarde;rood licht bewaking
 Zand;Rood zand (overig)
 Zand;Rood zand (Provision)
 Zand;Rood zand (Smashcourt)
@@ -1578,6 +2114,7 @@ Functie;Rotatie omzetten naar translatie
 Bord;Rotatiepaneel
 Verkeerslicht;Rotondedoseerlicht
 InformatieObject;Route-informatie
+cijfermatige aanduiding;routenummer
 Straatmeubilair;Routepaal
 Apparaat;Router
 Straatmeubilair;Rozenboog
@@ -1587,6 +2124,7 @@ Tegel;Rubber grastegel
 Tegel;Rubbertegel
 Sportveld;Rugbyveld
 Functioneel gebouwobject;Ruimte
+Activiteit;Ruimte bieden voor kabels en leidingen
 FysiekObject;RuimtelijkGebied
 Verkeerskundige zone;Ruiterpad
 Staal;RVS
@@ -1620,9 +2158,11 @@ Complex;Schoolterrein
 Straatmeubilair;Schoolzonepaal
 Sportvoorziening;Schoonloopmat
 Sportvoorziening;Schoonlooprooster
-Waterstaatkundig kunstwerk;Schot
+Infrastructureel kunstwerk;Schot
 Stuw;Schotbalkstuw
+waarheidswaarde;schouwen
 Verkeerskundige zone;Schouwpad
+categorie;schouwwijze
 Beton;Schraal beton
 Hek;Schrikdraad
 Pomp;Schroefcentrifugaalpomp
@@ -1634,24 +2174,29 @@ Golfbaanvoorziening;Schuilhut
 Beton;Schuimbeton
 Bitumen;Schuimbitumenstabilisatie
 Kunstwerkdeel;Schutkolk
+eendimensionale eigenschap;schutlengte
 Sluis;Schutsluis
 Hek;Schutting
 Gebouw;Schuur
 Parkeermeubilair;Scootmobielberging
 Informatiepaneel;Scorebord
+categorie;SDR-waarde
 Kunststof;Sealwise PVC
 Stuw;Segmentstuw
 Verkeerslicht;Seinlicht
+waarheidswaarde;seizoensgebonden
 Kunstgras;Semi-waterkunstgras
 Kunstgras;Semi-zandkunstgras
 Constructie;Sensor
 Apparaat;Sensormodule
 IBA;Septictank
+cijfermatige aanduiding;serienummer
 Hek;Sierhek
 Muur;Siermuur
 Holle leiding;Sifon
 Verkeerslicht;Signaallamp
 Natuursteen;Silex
+cijfermatige aanduiding;simkaartnummer
 Installatie;Singelfontein
 Apparaat;Sirene
 Speelterrein;Skatepark
@@ -1659,8 +2204,11 @@ Sporttoestel;Skatevoorziening
 Speelterrein;Skelter- en rodelbaan
 Straatmeubilair;Slagboominstallatie
 Hek;Slagplanken
+meetwaarde;slagwaterpeil
 Materie;Slak
 Stankafsluiter;Slangsifon
+cijfermatige aanduiding;sleutelnummer
+snelheid;slibaanwas
 Slibvanger;Slibafscheider
 Constructieonderdeel;Slibvanger
 Getijdengebied;Slik
@@ -1669,7 +2217,7 @@ Kunstwerkdeel;Sloof
 Fundering;Sloofconstructie
 Watergang;Sloot
 Constructieonderdeel;Slot
-Waterstaatkundig kunstwerk;Sluis
+Infrastructureel kunstwerk;Sluis
 InformatieObject;Sluis doorvaart
 Complex;Sluiscomplex
 Kunstwerkdeel;Sluisdeur
@@ -1682,18 +2230,29 @@ Asfalt;SMA-NL 8A
 Asfalt;SMA-NL 8G+
 Overig materiaal;Smashcourt
 Informatiepaneel;Smileybord
+mechanische eigenschap;snelheid
 Verkeerskundige zone;Snellaadstation
 Spooras;Sneltramspoor
 Speeltoestel;Sociaal spel
 Sportveld;Softbalveld
 InformatieObject;Software
+productspecificatie;softwarelocatie
+tekstuele aanduiding;softwarenaam
+productspecificatie;softwareversie
 Weginrichtingsobject;Sokkel
 Vegetatieobject;Solitaire plant
+categorie;soort plantenbak
+categorie;soort voeg
+tekstuele aanduiding;soortnaam
 InformatieObject;Soortnaam-informatie
 Meldpaal;SOS-paal
 Watervlakte;Spaarbekken
 Kabel;Spandraad
 Paal;Spanmast
+interval;spanningsbereik primair
+interval;spanningsbereik secundair
+typologische eigenschap;specifiek beheertype
+categorie;specifiek boomkenmerk
 Sporttoestel;Speedladder
 Recreatiezone;Speelheuvel
 Speeltoestel;Speelhuis
@@ -1712,7 +2271,7 @@ Constructieonderdeel;Spoelvoorziening
 Edge;Spooras
 Spoorzone;Spoorbaan
 Spoorzone;Spoorberm
-Waterstaatkundig kunstwerk;Spoorlijn
+Infrastructureel kunstwerk;Spoorlijn
 Verkeerruimte;Spoorverkeerruimte
 Spoorverkeerruimte;Spoorwegknoop
 Functionele zonering;Spoorzone
@@ -1737,6 +2296,7 @@ Materie;Staal
 Staal;Staal gegalvaniseerd
 Staal;Staal gepoedercoat
 Slak;Staalslakmix
+eendimensionale eigenschap;stabiliteitskluitdiameter eindbeeld
 Bebouwingskern;Stadsdeelgrens
 Informatiepaneel;Stadsplattegrond
 Gebouw;Stadspodium
@@ -1744,6 +2304,7 @@ Gebouw;Stadspoort
 Functioneel ondergronds object;Stadsverwarming
 Holle leiding;Stadsverwarmingsleiding
 Gebouw;Stal
+categorie;standaard afsluiterstand
 Constructieonderdeel;Standmeter
 Aansluitleiding;Standpijp
 Registratieve ruimte;Standplaats
@@ -1752,30 +2313,38 @@ Constructieonderdeel;Stankfilter
 Stankafsluiter;Stankscherm
 Straatmeubilair;Stapsteen
 Armatuur;Startbaanlicht
+jaartal;startjaar
 Zitelement;Stasteun
 Installatie;Stationaire batterij
+gewicht;statisch moment
+toegekende toestand;status
 Waterbeheergebied;Stedelijk gebied
 Holle leiding;Stedelijk waterleiding
+categorie;stedelijkheid buurt
 Informatiebord;Stedenbandbord
 Materie;Steen
 Steen;Steenpuin
 Grind;Steenslag
 Constructieonderdeel;Steenwolblok
 Infiltratiereservoir;Steenwolkoffer
-Waterstaatkundig kunstwerk;Steiger
+Infrastructureel kunstwerk;Steiger
 Tegel;Stelconplaat
 Constructieonderdeel;Stellaag
 Reëel object;Stelsel
 Geleideconstructie;Stepbarrier
 Privaatrechtelijk rechtspersoon;Stichting
+categorie;stijl opschrift
 Geografische ruimte;Stiltegebied
 Faunavoorziening;Stobbenwal
 Grind;Stol
+cijfermatige aanduiding;stopcode stroomgroep
+cijfermatige aanduiding;stopplacecode
 Straatmeubilair;Stormanker
 Mast;Straalzender
 Markering;Straatbelijning
 Kolk;Straatkolk
 Constructie;Straatmeubilair
+tekstuele aanduiding;straatnaam
 Bord;Straatnaambord
 Deksel;Straatpot
 Zand;Straatzand
@@ -1785,18 +2354,26 @@ Douche;Stranddouche
 Straatmeubilair;Strandoriëntatiepaal
 Straatmeubilair;Strandpaal
 Strand en strandwal;Strandwal
+eendimensionale eigenschap;streefdiepte
+meetwaarde;streefpeil
 Geografische ruimte;Streek
-Waterstaatkundig kunstwerk;Strekdam
+Infrastructureel kunstwerk;Strekdam
 Weginrichtingsobject;Strip
+Activiteit;Stromen van verkeer
 Functie;Stromingsenergie verlagen
+categorie;stromingsrichting
 Beheerzone;Strooiveld
 Verkeerskundige zone;Strook
 Verkeerskundige zone;Strookvak
+interval;stroombereik primair
+interval;stroombereik secundair
+elektrische stroom;stroomsterkte
+Activiteit;Structureren en sturen van verkeersstromen
 Herdenkingsmonument;Struikelsteen
 Groenobject;Struiken
 Groenobject;Struikrozen
 Fietsparkeervoorziening;Stuurdraagsysteem
-Waterstaatkundig kunstwerk;Stuw
+Infrastructureel kunstwerk;Stuw
 Uitlaatconstructie;Stuwbak
 Complex;Stuwcomplex
 Constructieonderdeel;Stuwconstructie
@@ -1805,31 +2382,44 @@ Mechanische afsluiter;Stuwklep
 Wand;Stuwmuur
 Rioolput;Stuwput
 Vrijverval rioolleiding;Stuwrioolleiding
+Geometrische representatie;Surface
 Functie;Surveillance
 Gebouw;SV-station
 Golfbaanvoorziening;Swinghulp
 Apparaat;Switch
+categorie;symbool
 Markering;Symboolmarkering
 Gebouw;Synagoge
 Reëel object;Systeem
+tijdsgebonden arbeid;systeemvermogen
 Straatmeubilair;Tafel
 Sporttoestel;Tafeltennistafel
 Sporttoestel;Tafelvoetbaltafel
 Faunaverblijfplaats;Takkenhoop
 Faunaverblijfplaats;Takkenril
-Kunstwerk;Taludbekleding
+Infrastructureel kunstwerk;Taludbekleding
 Goot;Taludgoot
+categorie;taludsteilte
+eendimensionale eigenschap;taludsteilte bovenwatertalud
+eendimensionale eigenschap;taludsteilte onderwatertalud
 Vrijverval rioolleiding;Tandemriool
 Verkeerskundige zone;Tankstation
 Textiel;Tapijt
 Golfbaanvoorziening;Tassteun
 Meldpaal;Taxipaal
+eendimensionale eigenschap;te sloten breedte
+eendimensionale eigenschap;te sloten lengte
+tweedimensionale eigenschap;te sloten oppervlakte
+duur;technische levensduur
 Golfbaanvoorziening;Teemarker
 Materie;Tegel
 Tegel;Tegel keramiek
 Functie;Tegengaan van parkeren
 Functie;Tegengaan van verblinding
+omschrijving;tekst
 Markering;Tekstmarkering
+sociaal geconstrueerde aanduiding;tekstuele aanduiding
+resource identifier;telecomadres
 Kast;Telecomkast
 Straatmeubilair;Telefooncel
 Kast;Telkast
@@ -1843,6 +2433,8 @@ Beheerzone;Terras
 Speelterrein;Terrein speeltuinvereniging
 Rioolstelsel;Terreinriolering
 Faunameubilair;Terugkeerluik
+waarheidswaarde;terugmelding
+omschrijving;terugmelding specificatie
 Mechanische afsluiter;Terugslagklep
 Materie;Textiel
 Holle leiding;Thermische pijpleiding
@@ -1850,6 +2442,7 @@ Markeringmateriaal;Thermoplastisch materiaal profiel
 Markeringmateriaal;Thermoplastisch materiaal type I
 Markeringmateriaal;Thermoplastisch materiaal type II
 Markeringmateriaal;Thermoplastisch materiaal verspuitbaar type I
+waarheidswaarde;tijdelijk
 Functie;Tijdelijk opslaan van afvalwater
 Functie;Tijdelijke berging van afvalwater
 Functie;Tijdelijke berging van hemelwater
@@ -1858,24 +2451,40 @@ Functie;Tijdelijke berging van vuilwater
 Functie;Tijdelijke opslag afvalwater perceel
 Registratie;TijdlijnGeldigheid
 Registratie;TijdlijnRegistratie
+mechanische eigenschap;tijdsgebonden arbeid
+datum;tijdstipRegistratie
 Sluis;Tijsluis
+hoek;tilthoek
 Groenobject;Tiny forest
 Functie;Toegang belemmeren
+Activiteit;Toegang geven aan daglicht
 Functie;Toegang geven tot aansluitleiding
 Functie;Toegang geven tot een leiding
 Functie;Toegang geven tot het rioolstelsel
 Functie;Toegang geven tot zinker
 Functie;Toegang geven voor doorspoelen
+Activiteit;Toegang geven voor inspectie
+Activiteit;Toegang tot water en/of oever voor fauna
 Functie;Toegang verschaffen
 Installatie;Toegangshekinstallatie
 Verkeerskundige zone;Toegangspad
 Hek;Toegangspoort
+categorie;toegangssoort
 Gebouwcomponent;Toegangstrap
+categorie;toegankelijk
 Functie;Toegankelijk houden
+sociaal geconstrueerde indeling;toegekende toestand
+opmerking;toelichting
+opmerking;toelichting bijzonder transport
+opmerking;toelichting doorvaart
+opmerking;toelichting gemengde bestrating
+opmerking;toelichting opening
 Installatie;Toeritdoseerinstallatie
 Verkeerslicht;Toeritdoseringslicht
+categorie;toestelgroep
 Straatmeubilair;Toiletvoorziening
 Verkeerskundige zone;Tolplaats
+ruimtelijke eigenschap;topografische informatie
 Geometrische representatie;Topologisch element
 Kunststof;TPE
 Ecologische zone;Tracé
@@ -1886,6 +2495,8 @@ Verkeerskundige zone;Trambaan
 OV-voorziening;Tramheuvel
 Spooras;Tramspoor
 Verkeerskundige zone;Transferium
+resource identifier;transponder
+omschrijving;transponderlocatie
 Functie;Transport van afvalwater
 Functie;Transport van afvalwater onder een obstakel door
 Functie;Transport van grondwater
@@ -1896,7 +2507,6 @@ Functie;Transport van overstortend afvalwater
 Functie;Transport van spoelwater
 Functie;Transport van vuilwater
 Functie;Transporteert vooral
-Holle leiding;Transportleiding
 Stedelijk waterleiding;Transportleiding
 Vrijverval transportleiding;Transportrioolleiding
 Functionele ruimte;Transportruimte
@@ -1928,21 +2538,76 @@ Sporttoestel;Turntoestel
 Gemaal;Tussengemaal
 Vegetatieobject;Tuunwal
 Mast;TV-toren
+ruimtelijke eigenschap;tweedimensionale eigenschap
+typologische eigenschap;type afscherming
+typologische eigenschap;type afsluiting
+typologische eigenschap;type afval
+typologische eigenschap;type afwerking
+typologische eigenschap;type bediening
+typologische eigenschap;type beplanting
+typologische eigenschap;type besturing
+typologische eigenschap;type bevestiging
+typologische eigenschap;type bewerking
+typologische eigenschap;type bovenkant kademuur
+typologische eigenschap;type brandbescherming
+typologische eigenschap;type collectie
+typologische eigenschap;type communicatie
+typologische eigenschap;type conservering
+typologische eigenschap;type constructie
+typologische eigenschap;type document
+typologische eigenschap;type funderingsconstructie
+typologische eigenschap;type geothermie
+typologische eigenschap;type hoofdschakelaar
+typologische eigenschap;type laadinfrastructuur
+typologische eigenschap;type laadpunt
+typologische eigenschap;type leiding
+typologische eigenschap;type lining
+typologische eigenschap;type magneetschakelaar
+typologische eigenschap;type monument
+typologische eigenschap;type monument gedetailleerd
+typologische eigenschap;type overspanningsbeveiliging
+typologische eigenschap;type reparatie
+typologische eigenschap;type rijstrook
+typologische eigenschap;type route
+typologische eigenschap;type schakeling
+typologische eigenschap;type schakelsysteem
+typologische eigenschap;type slot
+typologische eigenschap;type spoor
+typologische eigenschap;type sport
+typologische eigenschap;type toegang
+typologische eigenschap;type uitvoering
+typologische eigenschap;type vaarwater
+typologische eigenschap;type verankering
+typologische eigenschap;type verf
+typologische eigenschap;type vervuiling
+typologische eigenschap;type waaier
+typologische eigenschap;type wand
+typologische eigenschap;type waterbodem
+typologische eigenschap;type watergang
+typologische eigenschap;type waterkerende constructie
+typologische eigenschap;type zekering
+cijfermatige aanduiding;typenummer
 Waterbeheerzone;Uiterwaard
 Constructieonderdeel;Uithouder
+categorie;uithouderconstructie
 Recreatiezone;Uitkijkpunt
 Open bouwwerk;Uitkijktoren
 Faunavoorziening;Uitklimvoorziening
 Representatie fysiek object;Uitlaat
 Aansluitpunt;Uitlaat (punt)
-Waterstaatkundig kunstwerk;Uitlaatconstructie
+Infrastructureel kunstwerk;Uitlaatconstructie
 Loze leiding;Uitlegger
+waarheidswaarde;uitneembaar
+waarheidswaarde;uitritconstructie
 Functie;Uitstroom van afvalwater naar oppervlaktewater
 Uitlaatconstructie;Uitstroombak
 Weginrichtingsobject;Uitstroomband
+NAP-relatieve eendimensionale eigenschap;uitstroomniveau
 Weginrichtingsobject;Uitstroomvoorziening
 Privaatrechtelijk rechtspersoon;Uitvoerende organisatie
+jaartal;uitvoeringsjaar
 Sluis;Uitwateringssluis
+Activiteit;Uitwisselen van verkeer
 Markeringmateriaal;Ultimate sign
 Privaatrechtelijk rechtspersoon;Universiteit
 Toiletvoorziening;Urilift
@@ -1952,13 +2617,15 @@ Grafvoorziening;Urnenmuur
 Grafvoorziening;Urnennis
 Functioneel ondergronds object;Utiliteitsnet
 Constructieonderdeel;Utility duct
+waarheidswaarde;uv-bestendig
 Gebruikszone water;Vaarweg
 Gebruikszone water;Vaarwegzone
 Mechanische rioolleiding;Vacuümleiding
 Put;Vacuümopslagtank
 Rioolgemaal;Vacuümpompstation
 Mechanisch rioolstelsel;Vacuümriolering
-Holle leiding;Valleiding
+waarheidswaarde;valbescherming
+Stedelijk waterleiding;Valleiding
 Rioolput;Valput
 InformatieObject;Valruimte-informatie
 Zand;Valzand
@@ -1969,10 +2636,12 @@ Overbrugging;Vaste brug
 Fietsparkeervoorziening;Vastzetvoorziening
 Weginrichtingsobject;Veerooster
 Gebruikszone water;Veerverbinding
+waarheidswaarde;vegen
 Vegetatieobject;Vegetatiedak
 Begroeiing;Vegetatieobject
 Informatiebord;Veiligheidsinstructiebord
 Kabel;Veiligheidskabel
+categorie;veiligheidsklasse
 Registratieve ruimte;Veiligheidsregio
 Constructieonderdeel;Veiligheidsrooster
 Straatmeubilair;Veiligheidsvoorziening
@@ -2002,14 +2671,22 @@ Functie;Verbinden van vier leidingen
 Edge;Verbinding
 Functie;Verbinding tussen oppervlaktewater
 Constructieonderdeel;Verbindingsstuk
+typologische eigenschap;verbindingstype
 Ecologische zone;Verbindingszone
 Functioneel gebouwobject;Verblijfsobject
 Weginrichtingsobject;Verblindingswering
 Functie;Verdedigen van oever
+waarheidswaarde;verdekte put
+waarheidswaarde;verdiepte put
+eendimensionale eigenschap;vereiste vrije doorgang (boom)
+waarheidswaarde;verend
+tweedimensionale eigenschap;verfoppervlakte
 Functie;Verfraaien
 Constructie;Verharding
 Functie;Verhinderen dat opdrijvend materiaal afstroomt
 Goot;Verholen goot
+waarheidswaarde;verhoogd risico
+waarheidswaarde;verhoogde ligging
 Transportruimte;Verkeerruimte
 Verkeerskundige zone;Verkeersaansluiting
 Bord;Verkeersbord
@@ -2024,6 +2701,7 @@ Installatie;Verkeerslicht
 Paal;Verkeerslichtmast
 Verkeerskundige zone;Verkeersplateau
 Installatie;Verkeersregelinstallatie
+topografische informatie;verkeersrichting
 Bord;Verkeersspiegel
 Sensor;Verkeersteller
 Speelterrein;Verkeerstuin
@@ -2041,7 +2719,10 @@ Functie;Verlichten van een woonwijk
 Functie;Verlichten voor oriëntatie
 Paal;Verloopmast
 Verbindingsstuk;Verloopstuk
+categorie;vermeerderingsvorm (boom)
 Functie;Vermindering waterslageffect
+tijdsgebonden arbeid;vermogen
+waarheidswaarde;verplaatsbaar
 Functie;Verplaatsen van water
 Functie;Verpompen van afvalwater
 Functie;Verpompen van water
@@ -2049,10 +2730,17 @@ Functie;Verpompt grondwater
 Functie;Verpompt oppervlaktewater
 Functie;Verpompt spoelwater
 Functie;Verpompt tunnelwater
+typologische eigenschap;verschijningsvorm
+sociaal geconstrueerde indeling;verschijningsvorm
 Registratie;Versie
+cijfermatige aanduiding;versie
 Topologisch element;Vertex
 Drainagestelsel;Vertikale drainage
+datum;vervangingsdatum
+prijs;vervangingswaarde
 Functie;Verversen
+jaartal;verwacht baggerjaar
+typologische eigenschap;verwachte type reiniging
 Functie;Verwijderen fosfaat
 Functie;Verwijderen opgedreven delen
 Functie;Verwijderen stikstof
@@ -2064,12 +2752,15 @@ Beheerzone;Verzamelplaats
 Drainageput;Verzamelput
 Straatmeubilair;Verzinkbare piramide
 Verkeerskundige zone;Verzorgingsplaats
+waarheidswaarde;verzwaard
 Constructieonderdeel;Vetafscheider
 Aansluitput;Vetvangput
 Cement;Vezelcement
 Materie;Vezels
 Overbrugging;Viaduct
 Gebouwcomponent;Videconstructie
+Sensor;Videodetector
+waarheidswaarde;vigerend
 Watervlakte;Vijver
 Rioolgemaal;Vijzelgemaal
 Pomp;Vijzelpomp
@@ -2093,18 +2784,22 @@ Vleermuispassage;Vleermuisportaal
 Mechanische afsluiter;Vlinderklep
 Recreatiezone;Vlindertuin
 Markeringspaal;Vloeipaal
-Waterstaatkundig kunstwerk;Vlonder
+Infrastructureel kunstwerk;Vlonder
 Deur;Vluchtdeur
 Sensor;Vochtmeter
 Bouwwerk;Voedersilo
 Kabel;Voedingskabel
+categorie;voeg
+categorie;voegmateriaal
 Weginrichtingsobject;Voegovergang
 Steen;Voegsteen
+categorie;voegvulling
 Zand;Voegzand
 Gebouw;Voertuigenstalling
 Sportveld;Voetbalkooi
 Sportterrein;Voetbalstadion
 Sportveld;Voetbalveld
+categorie;voetconstructie
 Verkeerslicht;Voetgangerslicht
 Verkeerskundige zone;Voetpad
 Beheerzone;Vogeleiland
@@ -2120,9 +2815,12 @@ Recreatiezone;Volkstuin
 Functie;Volledig keren van water
 Sporttoestel;Volleybalset
 Sportveld;Volleybalveld
-Waterstaatkundig kunstwerk;Voorde
+elektrische spanning;voltage
+driedimensionale eigenschap;volume
+Infrastructureel kunstwerk;Voorde
 Beton;Voorgespannen Beton
 Functie;Voorkomen dat stromen elkaar raken
+Activiteit;Voorkomen lichthinder
 Functie;Voorkomen stank
 Functie;Voorkomen van explosie
 Waterinrichtingsobject;Vooroeververdediging
@@ -2130,24 +2828,35 @@ Apparaat;Voorschakelapparaat
 Functie;Voortgeleiding van energie
 Functie;Voortgeleiding van materie
 Functie;Voortgeleiding van signaal
+categorie;voorziening aanplant
+categorie;voorziening groeiplaats
 Straatmeubilair;Voorzieningenpaal
+categorie;vorm
+eendimensionale eigenschap;vrije overstorthoogte
 Straatmeubilair;Vrije plakplaats
+eendimensionale eigenschap;vrije ruimte minimale hoogte links
+eendimensionale eigenschap;vrije ruimte minimale hoogte rechts
+categorie;vrije takval (RAW)
+eendimensionale eigenschap;vrije valhoogte
 Drainagestelsel;Vrijverval drainagestelsel
-Vrijverval drainagestelsel;Vrijverval leidingsegment
+Vrijverval transportleiding;Vrijverval leidingsegment
 Rioolleiding;Vrijverval rioolleiding
 Rioolstelsel;Vrijverval rioolstelsel
 Transportleiding;Vrijverval transportleiding
 Transportstelsel;Vrijverval transportstelsel
 Kast;VRI-kast
 Complex;VRI-netwerk
-Waterstaatkundig kunstwerk;Vuilvang
+Infrastructureel kunstwerk;Vuilvang
 Constructieonderdeel;Vuilvangrooster
 Installatie;Vuilwaterinnamestation
 Vrijverval rioolleiding;Vuilwaterriool
 Vrijverval rioolstelsel;Vuilwaterstelsel
+categorie;vulmateriaal kunstgras
 Installatie;Vulpunt
 Beheerzone;Vuurplek
 Gebouw;Vuurtoren
+omschrijving;waarde
+logische eigenschap;waarheidswaarde
 Bord;Waarschuwingshek
 Verkeerslicht;Waarschuwingslicht
 Waterinrichtingsobject;Wachtplaatsvoorziening
@@ -2158,7 +2867,11 @@ Elektriciteitskast;Walstroomkast
 Constructieonderdeel;Wand
 Constructieonderdeel;Wandarm
 Armatuur;Wandarmatuur
+eendimensionale eigenschap;wanddikte
 Verkeerskundige zone;Wandelpad
+eendimensionale eigenschap;wandruwheid
+eendimensionale eigenschap;wandruwheid binnenboven
+eendimensionale eigenschap;wandruwheid binnenonder
 Functioneel ondergronds object;Warmte- en koudeopslag
 Installatie;Warmtebron
 Put;Warmtebronput
@@ -2168,16 +2881,21 @@ Installatie;Warmtepomp
 Sensor;Warmtesensor
 Stelsel;Warmtewinningsnet
 Installatie;Warmtewisselaar
+waarheidswaarde;WAS
 Watervlakte;Water onder duiker
 Functie;Water spuiten
 Waterbeheerzone;Waterbeheergebied
 Functionele zonering;Waterbeheerzone
 Waterbeheergebied;Waterbergingsgebied
-Kunstwerk;Waterbushalte
+driedimensionale eigenschap;waterbuffer
+typologische eigenschap;waterbufferend
+Infrastructureel kunstwerk;Waterbushalte
 Functie;Waterdicht maken
+categorie;waterdoorlatendheid
 Straatmeubilair;Waterelement
 Permanent water;Watergang
 InformatieObject;Watergangbeheer-informatie
+eendimensionale eigenschap;watergangdiepte
 InformatieObject;Watergang-dimensionering
 Constructie;Waterinrichtingsobject
 Kast;Waterkast
@@ -2191,10 +2909,12 @@ Put;Waterleidingput
 NetwerkLink;WaterLink
 Edge;Waterloopas
 Put;Watermeterput
-Kunstwerk;Waternetponton
+Infrastructureel kunstwerk;Waternetponton
 Functie;Waterniveau in stelsel regelen
 Meetinstrument;Waterniveaumeter
 NetwerkNode;WaterNode
+meetwaarde;waterpeil winter
+meetwaarde;waterpeil zomer
 InformatieObject;Waterpeil-informatie
 Reservoir;Waterplein
 Publiekrechtelijk rechtspersoon;Waterschap
@@ -2204,11 +2924,10 @@ Constructieonderdeel;Waterslagvoorziening
 Speeltoestel;Waterspeeltoestel
 Speelterrein;Waterspeeltuin
 Gebruikszone water;Watersportzone
-Kunstwerk;Waterstaatkundig kunstwerk
-Kunstwerk;Watertaxisteiger
+Infrastructureel kunstwerk;Watertaxisteiger
 Gebouw;Watertoren
-Waterstaatkundig kunstwerk;Watertrap
-Waterstaatkundig kunstwerk;Waterval
+Infrastructureel kunstwerk;Watertrap
+Infrastructureel kunstwerk;Waterval
 Transportruimte;Waterverplaatsingsruimte
 Permanent water;Watervlakte
 InformatieObject;Watervlaktebeheer-informatie
@@ -2219,24 +2938,33 @@ Holle leiding;Weesleiding
 Verkeerskundige zone;Weg
 Edge;Wegas
 Verkeerskundige zone;Wegberm
+categorie;wegcategorie duurzaam veilig
+categorie;wegcategorie duurzaam veilig gedetailleerd
 Constructie;Wegconstructie
 Weginrichtingsobject;Wegdekreflector
 Verkeerskundige zone;Wegennet
+topografische informatie;wegindeling
 Constructie;Weginrichtingsobject
 Wegverkeerruimte;Wegknoop
 NetwerkLink;WegLink
 Verkeerskundige zone;Wegment
 NetwerkNode;WegNode
+categorie;wegtype
 Beheerzone;Wegvak
+topografische informatie;wegvak tot
+topografische informatie;wegvak van
 Verkeerruimte;Wegverkeerruimte
 Functie;Weren van fauna
 Functie;Weren van fietsers
+Activiteit;Weren van geluid
 Functie;Weren van honden
 Functie;Weren van vee
 Functie;Weren van verkeer
 Functie;Weren van wild
 Beheerzone;Werf
 Muur;Werfmuur
+eendimensionale eigenschap;werkbreedte
+tweedimensionale eigenschap;werkelijke oppervlakte
 Geografische ruimte;Werkgebied
 Verkeerskundige zone;Werkpad
 Externe overstortput;Werveloverstortput
@@ -2244,11 +2972,14 @@ Rioolput;Wervelput
 Doorlaat;Wervelventiel
 Beheerzone;Wervengebied
 Kanaal;Wetering
+categorie;WIBON-thema
 Watervlakte;Wiel
 Sportveld;Wielrenbaan
 Apparaat;Wifi-antenne
 Sensor;Wifi-sensor
 Registratieve ruimte;Wijkgrens
+categorie;wijze van inwinnen
+categorie;wijze van stellen
 Camera;Wildcamera
 Straatmeubilair;Wildplakzuil
 Weginrichtingsobject;Wildrooster
@@ -2274,7 +3005,10 @@ Bebouwingskern;Woonkern
 Registratieve ruimte;Woonplaatsgrens
 Gebouw;Woonwagen
 Registratieve ruimte;Woonwagenlocatie
+waarheidswaarde;worteldoek
 Waterinrichtingsobject;Wrijfgording
+geografische informatie;x-coördinaat
+geografische informatie;y-coördinaat
 Verbindingsstuk;Y-stuk
 Constructieonderdeel;Zadel
 Constructieonderdeel;Zakbaak
@@ -2300,8 +3034,11 @@ Onbegroeid terreindeel;Zandverstuiving
 Watervlakte;Zee
 Straatmeubilair;Zeecontainer
 Mast;Zendmast
+categorie;zettingsgevoeligheid
+waarheidswaarde;zichtbaar
 Beheerzone;Zichthoek
 Sensor;Zichtmeter
+topografische informatie;zijde
 Zand;Zilverzand
 Vrijverval rioolleiding;Zinker
 Rioolput;Zinkerput
@@ -2320,11 +3057,13 @@ Functie;Zonder toestandswijziging
 Constructieonderdeel;Zonk
 Installatie;Zonnepaneel
 Opslagbak;Zoutbak
+categorie;zoutgehalte
 Holle leiding;Zoutwaterleiding
 Pomp;Zuigerpomp
 Functie;Zuiveren afvalwater
 Waterbeheergebied;Zuiveringseenheid
 Reservoir;Zuiveringsreservoir
+waarheidswaarde;zuurgraad
 Paalconstructie;Zweepmast
 Functie;Zwemmen in oppervlaktewater
 Weginrichtingsobject;Zwerfkei
