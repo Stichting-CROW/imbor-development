@@ -2210,9 +2210,6 @@ imbor:69680a82-4b2b-4ec1-ae45-69c2ad547e6b
 imbor:69da6ba0-9bf1-4e30-bbfb-df37c8dadb53
   imbor-refmodels:levensfaseTypering "A".
 
-imbor:6a274ff5-1983-4bb2-b579-730336d5d145
-  imbor-refmodels:levensfaseTypering "G".
-
 imbor:6a3e82d1-ef13-49de-91a4-29b3cb797846
   imbor-refmodels:levensfaseTypering "B".
 
