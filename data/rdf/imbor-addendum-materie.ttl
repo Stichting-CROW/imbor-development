@@ -3,6 +3,7 @@
 @prefix imbor: <https://data.crow.nl/imbor/def/>.
 @prefix imbor-term: <https://data.crow.nl/imbor/term/>.
 @prefix nen2660: <https://w3id.org/nen2660/def#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix sh: <http://www.w3.org/ns/shacl#>.
@@ -14,6 +15,12 @@ gwsw:NylonKous a rdfs:Class, sh:NodeShape;
   rdfs:subClassOf imbor:5be8cd53-7862-40f8-8447-073187502783;
   skos:definition "Een dunne, hoesachtige koker gemaakt van nylon die bijvoorbeeld deel uitmaakt van boomspiegels ten behoeve van het faciliteren van beluchting."@nl;
   skos:prefLabel "Nylon kous"@nl.
+
+<https://data.crow.nl/imbor/addendum/materie/> a owl:Ontology;
+  rdfs:comment "Dit informatieve gedeelte van IMBOR geeft een door IMBOR gebruikte model met materialen."@nl;
+  rdfs:label "IMBOR addendum Materie"@nl;
+  owl:imports imbor:;
+  owl:versionInfo "IMBOR2025".
 
 imbor:0102ad05-cf29-467b-9a09-24151a381cce a rdfs:Class, sh:NodeShape;
   dash:abstract false;

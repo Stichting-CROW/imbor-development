@@ -87,6 +87,14 @@ insert data {
             rdfs:label "IMBOR addendum OAGBD"@nl .
     }
 
+        graph <https://data.crow.nl/imbor/addendum/materie/> {
+        <https://data.crow.nl/imbor/addendum/materie/> a owl:Ontology ;
+            owl:imports imbor: ;
+            owl:versionInfo "IMBOR2025" ;
+            rdfs:comment "Dit informatieve gedeelte van IMBOR geeft een door IMBOR gebruikte model met materialen."@nl ;
+            rdfs:label "IMBOR addendum Materie"@nl .
+    }
+
     graph <https://data.crow.nl/imbor/addendum/geometrie/> {
         <https://data.crow.nl/imbor/addendum/geometrie/> a owl:Ontology ;
             owl:imports imbor:, geo: ; 
