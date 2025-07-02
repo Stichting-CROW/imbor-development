@@ -1441,6 +1441,7 @@ imbor-term:07563feb-86c2-4361-947f-303b14a092aa a skos:Concept;
 
 imbor-term:07639ee7-b9d4-43ab-b3e9-46c9c7d64b30 a skos:Concept;
   skos:broader imbor-term:4fcb2a6f-94b2-4f04-badd-92fb99aa43fa;
+  skos:definition "Staal met een gladde oppervlakte zonder ribbels of andere structuren"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Glad staal"@nl.
 
@@ -4069,6 +4070,7 @@ imbor-term:13b88eab-88a9-4b90-ad66-395919ea7a75 a skos:Concept;
 
 imbor-term:13bf07ca-c30c-4e1f-b894-26cce670ee96 a skos:Concept;
   skos:broader imbor-term:1877bbf2-d206-4568-b55a-916b217297d6;
+  skos:definition "Duurzaam bouwmateriaal gemaakt van bamboevezels dat snel groeit en milieuvriendelijk is"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Bamboe (Biobased)"@nl.
 
@@ -5254,6 +5256,11 @@ imbor-term:19cbb22e-af3f-4eb0-800e-29b4b2d6b83b a skos:Concept;
   skos:definition "Maat voor de slagvastigheid. De K-waarde staat voor ‘kinetisch’. De K-waarde geeft aan in hoeverre de armaturen beschermd zijn tegen de impact van kinetische energie."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "IK-waarde"@nl.
+
+imbor-term:19ce2fef-666b-4478-9f62-3771ed75da23 a skos:Concept;
+  skos:definition "	Bord om aan te geven dat hondenbezitters een route kunnen volgen waarin honden los mogen lopen."@nl;
+  skos:inScheme imbor-term:term-schema;
+  skos:prefLabel "Loslooproutebord"@nl.
 
 imbor-term:19cee5c1-cd34-477b-97c2-a22027ba4f79 a skos:Concept;
   skos:broader imbor-term:19c00b05-4f9f-4bd2-9a4b-874bb5522671;
@@ -6579,6 +6586,7 @@ imbor-term:2130a2a7-2191-4406-a8b0-78670451e725 a skos:Concept;
 
 imbor-term:2136af34-744c-4c12-817a-c260161f3362 a skos:Concept;
   skos:broader imbor-term:4f342ad3-97c0-4c98-9d71-e2b626334719;
+  skos:definition "Kunststof gras- en grindtegel die wordt gebruikt voor het versterken van grasoppervlakken en het stabiliseren van grindverhardingen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Flowblock"@nl.
 
@@ -11725,6 +11733,7 @@ imbor-term:3bb08996-3f98-4695-bc43-66a539ab28f8 a skos:Concept;
 
 imbor-term:3bb90c7c-ec6f-4fa0-9979-84276010eedf a skos:Concept;
   skos:broader imbor-term:1877bbf2-d206-4568-b55a-916b217297d6;
+  skos:definition "Verpakkings- of bouwmateriaal met een honingraatstructuur dat is gemaakt zijn van biobased, gerecyclede of recyclebare grondstoffen."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Honingraat Bio Recycling"@nl.
 
@@ -11823,6 +11832,7 @@ imbor-term:3c2228f4-a475-495e-bda1-b6f9f628368a a skos:Collection;
     imbor-term:c4ef8325-6af6-4f29-9db8-2db64297537c,
     imbor-term:d9d80a4f-e859-4edc-9d63-5756a65d4994,
     imbor-term:f44754e4-acc0-4f31-acb6-0c27e8fc77ab;
+  skos:note "Een samenhangende verzameling van verwachtingen, verantwoordelijkheden, bevoegdheden en gedragingen die een Actor kan aannemen in relatie tot iets."@nl;
   skos:prefLabel "Rol"@nl.
 
 imbor-term:3c282582-9d9a-43a4-8fcb-ba68ac2b826c a skos:Concept;
@@ -11881,6 +11891,7 @@ imbor-term:3c64941f-7b39-463d-933e-7c1e2510fd1b a skos:Concept;
 
 imbor-term:3c69d0fe-e50a-4b07-8837-c988f2562a71 a skos:Concept;
   skos:broader imbor-term:4067513d-bc02-4ec8-bfae-f6902497376d;
+  skos:definition "Kleine vierkante of rechthoekige stenen die gebruikt worden voor straten en paden"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Kasseien"@nl.
 
@@ -12249,6 +12260,7 @@ imbor-term:3eae9121-4282-4ebe-ae86-007b20a2fd47 a skos:Concept;
 
 imbor-term:3ec1e17f-7727-44ee-ad6c-6651d66c90e0 a skos:Concept;
   skos:broader imbor-term:a55cafda-10b3-4627-a96b-54c8143c8e01;
+  skos:definition "Doek van kunststof dat in de grond wordt gelegd om verschillende grondlagen te scheiden"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Geotextiel"@nl.
 
@@ -12819,6 +12831,7 @@ imbor-term:418f4fdb-3e4b-4788-abf9-e6a25c70a304 a skos:Concept;
 
 imbor-term:41982a78-b6e6-4833-aaad-8b3c2b7f056a a skos:Concept;
   skos:broader imbor-term:1877bbf2-d206-4568-b55a-916b217297d6;
+  skos:definition "Speciale kleisoort die sterk opzwelt bij contact met water en gebruikt wordt voor afdichting"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Bentoniet"@nl.
 
@@ -14509,6 +14522,7 @@ imbor-term:42439232-8498-4794-b78e-cf0623d1862d a skos:Concept;
 
 imbor-term:4247ae23-ee03-4f67-a86d-0b12dd47feba a skos:Concept;
   skos:broader imbor-term:2ca3cbd0-74c9-44ab-ad99-c480a400690d;
+  skos:definition "Een organisatie die wel onder de overheid valt, maar heen bestuurlijke rol heeft zoals een ministerie, provincie, waterschap of gemeente."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Overige overheidsorganisatie"@nl.
 
@@ -16823,6 +16837,7 @@ imbor-term:4df322ab-21ff-4153-8faf-c9b75209d28f a skos:Concept;
 
 imbor-term:4df5135d-3c01-49b5-a3e6-0ea92be74a34 a skos:Concept;
   skos:broader imbor-term:311f3baf-fcde-4df3-81f0-f5822003de9a;
+  skos:definition "Beton waarbij kunststof is toegevoegd om het sterker en chemisch bestendiger te maken"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Polymeerbeton"@nl.
 
@@ -18105,6 +18120,7 @@ imbor-term:52e4cf9f-92c6-4333-829a-fefaeba7de80 a skos:Concept;
 
 imbor-term:52e66873-3aba-4dd5-a09e-fa42a4f010db a skos:Concept;
   skos:broader imbor-term:1d3ccbac-ff0c-4aa5-b3a6-e2d8446e02cd;
+  skos:definition "Type asfalt met kleine steentjes dat extra grip en geluid-demping geeft"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "SMA-NL 8G+"@nl.
 
@@ -21469,6 +21485,7 @@ imbor-term:63d1423c-57d4-4beb-909c-0a2ba4baa821 a skos:Concept;
 
 imbor-term:63db3a80-bdd1-48b1-8482-861520d4d9ea a skos:Concept;
   skos:broader imbor-term:47e1494f-15e3-4beb-96d0-b2ba47ff2a28;
+  skos:definition "Een privaatrechtelijke rechtspersoon is een organisatie die rechten en plichten heeft in het privaatrecht, net als een natuurlijk persoon. Denk hierbij aan een vereniging, stichting, naamloze vennootschap (NV), of besloten vennootschap (BV). Deze rechtspersonen zijn onderworpen aan de regels van het privaatrecht, dat de verhoudingen tussen burgers en bedrijven regelt."@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Privaatrechtelijk rechtspersoon"@nl.
 
@@ -23369,6 +23386,7 @@ imbor-term:6e6a356e-e11e-4fe7-b4a9-b4509f6068b7 a skos:Concept;
 
 imbor-term:6e6d76c8-376a-4008-9334-b70f9e390750 a skos:Concept;
   skos:broader imbor-term:9d9c6bbf-9d34-4de0-99a1-36f1b6100f24;
+  skos:definition "Stevigere variant van EPS-schuim die beter bestand is tegen druk en vocht"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "EPS hardschuim"@nl.
 
@@ -27391,6 +27409,7 @@ imbor-term:82550504-ef1b-4194-b20a-20e38e773676 a skos:Concept;
 
 imbor-term:825ec182-32c7-4273-9553-01b5f06f00e6 a skos:Concept;
   skos:broader imbor-term:f8410e3e-0a6c-403f-a2e1-aa28fae0deef;
+  skos:definition "Speciale soort PVC-materiaal dat goed afsluit tegen water en lucht"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Sealwise PVC"@nl.
 
@@ -28256,6 +28275,7 @@ imbor-term:874f04f9-5bac-40a2-8726-2098a14c4965 a skos:Concept;
 
 imbor-term:87555304-f580-4b91-aa4d-11add992791f a skos:Concept;
   skos:broader imbor-term:78106f1f-ff50-49b9-98ab-92dc4791229e;
+  skos:definition "Aluminium dat volledig herbruikbaar is zonder kwaliteitsverlies in een gesloten kringloop"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Cradle tot cradle aluminium"@nl.
 
@@ -29307,6 +29327,7 @@ imbor-term:8d04e116-79f1-43e8-a259-28ce06ba428a a skos:Concept;
 
 imbor-term:8d08885d-36de-45d2-9cea-7ada6d41f7c0 a skos:Concept;
   skos:broader imbor-term:e135097c-1c89-44fa-86da-bb3372d64d13;
+  skos:definition "Wegmarkering die lang meegaat en voldoet aan bepaalde kwaliteitseisen"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Permanente markering type II"@nl.
 
@@ -33074,6 +33095,7 @@ imbor-term:9d91de3e-1790-40fe-868f-825674b82182 a skos:Concept;
 
 imbor-term:9d9c6bbf-9d34-4de0-99a1-36f1b6100f24 a skos:Concept;
   skos:broader imbor-term:b2d199ba-9f92-430c-907e-1b001c01ff19;
+  skos:definition "Materiaal dat warmte, geluid of vocht tegenhoudt om gebouwen comfortabeler te maken"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Isolatiemateriaal"@nl.
 
@@ -34549,6 +34571,7 @@ imbor-term:a4af1700-b015-4193-a56a-ed0719bce476 a skos:Concept;
 
 imbor-term:a4af1813-6fa2-4b5d-b947-fda6d744173c a skos:Concept;
   skos:broader imbor-term:78106f1f-ff50-49b9-98ab-92dc4791229e;
+  skos:definition "Gebruikt aluminium dat is opgeknapt en weer geschikt gemaakt voor hergebruik"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Refurbished aluminium"@nl.
 
@@ -36238,6 +36261,7 @@ imbor-term:ad5d0c74-3b84-480a-a8f1-9d2ad0e87c7d a skos:Concept;
 
 imbor-term:ad604095-2899-4b24-aa3a-72f1ff9ecb29 a skos:Concept;
   skos:broader imbor-term:4067513d-bc02-4ec8-bfae-f6902497376d;
+  skos:definition "Steenachtig materiaal gemaakt van gesmolten basalt (vulkanisch gesteente) dat gebruikt wordt voor wegenbouw"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Basalton"@nl.
 
@@ -36768,6 +36792,7 @@ imbor-term:b0133022-aa46-4709-9090-9ca186562f9a a skos:Concept;
 
 imbor-term:b015ec0b-a7c0-49a6-acf9-47343311d833 a skos:Concept;
   skos:broader imbor-term:311f3baf-fcde-4df3-81f0-f5822003de9a;
+  skos:definition "Gewapend beton waarbij stalen staven of buizen door het beton lopen voor extra sterkte"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Beton met stalen kern"@nl.
 
@@ -39525,6 +39550,7 @@ imbor-term:bdbf3553-8896-492d-8784-59d0e095a76c a skos:Concept;
 
 imbor-term:bdca79d5-ba84-4013-916b-70c4829e92a1 a skos:Concept;
   skos:broader imbor-term:646f0236-55ad-45cb-a5bd-2b2120843296;
+  skos:definition "Vast restmateriaal dat vrijkomt bij de verbranding van huishoudelijk afval of vergelijkbaar bedrijfsafval in een Afval Verbrandingsinstallatie (AVI"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "AVI-slakken"@nl.
 
@@ -40276,6 +40302,7 @@ imbor-term:c1b6ebca-e6f6-4512-8244-8a42c4e23348 a skos:Concept;
 
 imbor-term:c1bbb32f-f1e1-4149-9f35-96c211de5748 a skos:Concept;
   skos:broader imbor-term:311f3baf-fcde-4df3-81f0-f5822003de9a;
+  skos:definition "Beton met weinig cement dat vooral gebruikt wordt als fundering onder wegen"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Mager beton"@nl.
 
@@ -40725,6 +40752,7 @@ imbor-term:c3f45eea-738c-4a37-906b-d872192e0c08 a skos:Concept;
 
 imbor-term:c3fbd717-6643-42be-998c-52229c745168 a skos:Concept;
   skos:broader imbor-term:1877bbf2-d206-4568-b55a-916b217297d6;
+  skos:definition "Materiaal gemaakt van de schillen van rijstkorrels dat biologisch afbreekbaar is"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Rijstvlies (Biobased)"@nl.
 
@@ -44085,6 +44113,7 @@ imbor-term:d2d17c09-ed6c-40b3-81f2-5dcb788f4682 a skos:Concept;
 
 imbor-term:d2d2cb82-1c4a-4ebb-85ef-84ae131d7072 a skos:Concept;
   skos:broader imbor-term:ce86cd03-aff7-41eb-8963-07dd4e38d2f4;
+  skos:definition "Materiaal gemaakt van grassoorten en hennepvezels dat biologisch afbreekbaar is"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Bermgras/hennep met Bio-composite (Biobased)"@nl.
 
@@ -46044,6 +46073,7 @@ imbor-term:dd240942-4d81-42d5-840d-6c4b108e15cf a skos:Concept;
 
 imbor-term:dd3143d7-416c-456b-8e00-82d96837ef26 a skos:Concept;
   skos:broader imbor-term:9d9c6bbf-9d34-4de0-99a1-36f1b6100f24;
+  skos:definition "Geëxpandeerd polystyreen, een licht schuimmateriaal dat veel wordt gebruikt voor isolatie"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "EPS"@nl.
 
@@ -48962,6 +48992,7 @@ imbor-term:ebc2ed5a-fefa-43a2-9e84-dd8e2cde4b1f a skos:Concept;
 
 imbor-term:ebcf6404-6731-4557-8a6f-4785b4e75d95 a skos:Concept;
   skos:broader imbor-term:3266d48e-d2f2-4ea8-a12d-46cdac8e5940;
+  skos:definition "Speciale tegels die gebruikt worden om looproutes of gevaarlijke plekken aan te geven"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Markeringstegels"@nl.
 
@@ -49304,6 +49335,7 @@ imbor-term:ed292e7d-c036-4cbf-ac08-750b2dac191c a skos:Concept;
 
 imbor-term:ed29e15a-72c8-4786-8550-616ee7d2226f a skos:Concept;
   skos:broader imbor-term:78106f1f-ff50-49b9-98ab-92dc4791229e;
+  skos:definition "Aluminium dat in een fabriek is voorzien van een beschermende verflaag voordat het wordt verwerkt"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Coil coating Aluminium"@nl.
 
@@ -50397,6 +50429,7 @@ imbor-term:f2422860-3a2e-41af-9864-d4f2cd8212e5 a skos:Concept;
 
 imbor-term:f2424e27-1ec0-49b0-82fd-e82b2c67ef1f a skos:Concept;
   skos:broader imbor-term:311f3baf-fcde-4df3-81f0-f5822003de9a;
+  skos:definition "Beton waarbij stalen kabels onder spanning staan om het materiaal sterker te maken"@nl;
   skos:inScheme imbor-term:term-schema;
   skos:prefLabel "Voorgespannen Beton"@nl.
 
@@ -51291,6 +51324,7 @@ imbor-term:f6cef0d3-166e-486c-bf7b-f4f0b2f90fee a skos:Collection;
     imbor-term:dfe276a0-dca5-45f5-9184-1de316a1ecf6,
     imbor-term:e706c7fa-3d46-4829-8002-295254b60bb1,
     imbor-term:ecf17fff-7ece-4fee-9346-c4b49533de67;
+  skos:note "Een entiteit die in staat is om handelingen uit te voeren en een specifieke functie of positie te vervullen in een bepaalde context."@nl;
   skos:prefLabel "Actor"@nl.
 
 imbor-term:f6d4a185-417e-4bad-9e38-01d205d2a5e2 a skos:Concept;
@@ -52114,6 +52148,7 @@ imbor-term:f877efbb-4b6f-48de-9428-46afc0d0bedf a skos:Collection;
     imbor-term:19a542ad-932a-4939-bc85-28a819b6429c,
     imbor-term:19b52c76-f81e-4ffe-a72e-2482e4d8d88b,
     imbor-term:19be0baf-c283-487d-8b61-a34931cfbb50,
+    imbor-term:19ce2fef-666b-4478-9f62-3771ed75da23,
     imbor-term:19d8049e-bd46-4bea-9752-16ad4084ae60,
     imbor-term:19dac0ef-79ee-46ee-aa55-b9d66eec5f5a,
     imbor-term:19e36b9e-d44e-4dbd-8638-3a979f6952a6,

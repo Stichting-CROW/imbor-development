@@ -54,6 +54,7 @@ WHERE {
             ("Klasse" rdfs:subClassOf )
             ("Functie" rdfs:subClassOf )
             ("Rol" rdfs:subClassOf )
+            ("Actor" rdfs:subClassOf )
             ("Eigenschap" rdfs:subPropertyOf )
             ("Semantische relatie" rdfs:subPropertyOf )
             # Materie in: hierarchie-materialen.ru

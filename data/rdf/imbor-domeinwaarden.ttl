@@ -5300,6 +5300,11 @@ imbor-domeinwaarde:313991f6-2ad3-420f-9353-70a7eb3c23d7 a imbor:b94246d0-c583-49
   skos:definition "Gesloten voor voertuigen en samenstellen van voertuigen waarvan de totale massa hoger is dan op het bord is aangegeven."@nl;
   skos:prefLabel "C21"@nl.
 
+imbor-domeinwaarde:3140fb0a-287c-458f-b912-6892c55651e8 a imbor:edfe8078-c2d9-49d7-ad03-aaacc99aa474;
+  rdfs:seeAlso imbor-term:19ce2fef-666b-4478-9f62-3771ed75da23;
+  skos:definition "	Bord om aan te geven dat hondenbezitters een route kunnen volgen waarin honden los mogen lopen."@nl;
+  skos:prefLabel "Loslooproutebord"@nl.
+
 imbor-domeinwaarde:31765d80-eb42-4879-a590-939183fb09f3 a imbor:9116425e-f7d5-43cd-a3f5-25c407c29a32;
   rdfs:seeAlso imbor-term:2d84c2a1-0ee2-4b46-88da-3c8ffb288edd;
   skos:definition "Vooraanduiding verdrijvingsvlak; meerdere pijlen met eens steeds kleiner wordende onderlinge afstand."@nl;
