@@ -16,9 +16,9 @@ if not os.path.exists(OUTPUT_FOLDER):
 
 # Define input file pairs (relative to the input folder)
 FILE_PAIRS = [
-    ("2022_imbor-aanvullend-metamodel.ttl", "2025c_imbor-aanvullend-metamodel.ttl"),
-    ("2022_imbor-kern.ttl", "2025c_imbor-kern.ttl"),
-    ("2022_imbor-domeinwaarden.ttl", "2025c_imbor-domeinwaarden.ttl"),  # Add more pairs as needed
+    ("2022_imbor-aanvullend-metamodel.ttl", "2025_imbor-aanvullend-metamodel.ttl"),
+    ("2022_imbor-kern.ttl", "2025_imbor-kern.ttl"),
+    ("2022_imbor-domeinwaarden.ttl", "2025_imbor-domeinwaarden.ttl"),  # Add more pairs as needed
 ]
 
 # Define functions

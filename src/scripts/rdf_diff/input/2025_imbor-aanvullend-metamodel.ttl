@@ -1,0 +1,98 @@
+@prefix imbor: <https://data.crow.nl/imbor/def/>.
+@prefix imbor-meta: <https://data.crow.nl/imbor/aanvullend-metamodel/>.
+@prefix imbor-refmodels: <https://data.crow.nl/imbor-ref/def/>.
+@prefix nen2660: <https://w3id.org/nen2660/def#>.
+@prefix nen2660-term: <https://w3id.org/nen2660/term#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+imbor-refmodels:Informatiemodel a rdfs:Class;
+  skos:definition "Externe informatiebron (of ontologie) ten behoeve van IMBOR."@nl;
+  skos:prefLabel "Informatiemodel"@nl.
+
+imbor-refmodels:levensfaseTypering a rdf:Property;
+  skos:definition "Dit attribuut is van toepassing op het (O)ntwerp, (A)anleg, (G)eovoorziening, (B)eheer, (D)ynamisch gegeven"@nl;
+  skos:prefLabel "typering levensfase"@nl.
+
+imbor-refmodels:levensfaseTyperingShape a sh:NodeShape;
+  sh:property [
+      sh:datatype xsd:string;
+      sh:path imbor-refmodels:levensfaseTypering
+    ];
+  sh:targetSubjectsOf imbor-refmodels:levensfaseTypering.
+
+imbor-meta: a owl:Ontology;
+  rdfs:comment "Een aantal metaconcepten worden specifiek voor IMBOR gedefinieerd. Dit wordt gedaan middels het 'IMBOR Aanvullend Metamodel'. Dit betreft een kleine ontologie van beschrijfende concepten die er voor zorgen dat alle IMBOR specifieke properties netjes en navolgbaar gedefinieerd zijn."@nl;
+  rdfs:label "IMBOR Aanvullend metamodel"@nl;
+  owl:imports
+    rdfs:,
+    owl:,
+    <https://w3id.org/nen2660/data/concat/nen2660.ttl>;
+  owl:priorVersion "IMBOR2022";
+  owl:versionInfo "IMBOR2025".
+
+imbor:Actor a rdfs:Class;
+  rdfs:subClassOf nen2660:PhysicalObject;
+  skos:definition "Een entiteit die in staat is om handelingen uit te voeren en een specifieke functie of positie te vervullen in een bepaalde context."@nl;
+  skos:prefLabel "Actor"@nl.
+
+imbor:heeftBetrekkingOp a rdf:Property;
+  skos:definition "Een relatie die aangeeft dat een Rol alleen geldt in de context van een iets specifieks."@nl;
+  skos:prefLabel "heeftBetrekkingOp"@nl.
+
+imbor:heeftBetrekkingOpShape a sh:NodeShape;
+  sh:property [
+      sh:class nen2660:InformationObject;
+      sh:path imbor:heeftBetrekkingOp
+    ];
+  sh:targetSubjectsOf imbor:heeftBetrekkingOp.
+
+imbor:Rol a rdfs:Class;
+  skos:definition "Een samenhangende verzameling van verwachtingen, verantwoordelijkheden, bevoegdheden en gedragingen die een Actor kan aannemen in relatie tot iets."@nl;
+  skos:prefLabel "Rol"@nl.
+
+imbor:speelt a rdf:Property;
+  skos:definition "Een relatie die aangeeft dat een Actor een bepaalde Rol op zich neemt of uitvoert."@nl;
+  skos:prefLabel "speelt"@nl.
+
+imbor:speeltShape a sh:NodeShape;
+  sh:property [
+      sh:class imbor:Rol;
+      sh:path imbor:speelt
+    ];
+  sh:targetSubjectsOf imbor:speelt.
+
+imbor:typeLijst a rdf:Property;
+  skos:definition "Of deze lijst een open suggestielijst is of een gesloten enumeratielijst."@nl;
+  skos:prefLabel "open/gesloten"@nl.
+
+imbor:typeLijstShape a sh:NodeShape;
+  sh:property [
+      sh:datatype xsd:string;
+      sh:path imbor:typeLijst
+    ];
+  sh:targetSubjectsOf imbor:typeLijst.
+
+nen2660:isContainedBy a rdf:Property, owl:ObjectProperty;
+  rdfs:seeAlso nen2660-term:contains;
+  owl:inverseOf nen2660:contains;
+  skos:definition
+    "The real objects located in a spatial region, typically the gaseous amount of bulk matter present in that region"@en,
+    "De reële objecten die zich in een ruimtelijk gebied bevinden, meestal de gasvormige hoeveelheid bulkmaterie die in dat gebied aanwezig isn"@nl;
+  skos:prefLabel
+    "is contained by"@en,
+    "bevindt zich in"@nl.
+
+nen2660:isPartOf a rdf:Property, owl:ObjectProperty;
+  rdfs:seeAlso nen2660-term:hasPart;
+  owl:inverseOf nen2660:hasPart;
+  skos:definition
+    "A decomposition (isPartOf) relation between concrete concepts"@en,
+    "Een decompositie (isPartOf) relatie tussen concrete concepten"@nl;
+  skos:prefLabel
+    "is part of"@en,
+    "is deel van"@nl.
