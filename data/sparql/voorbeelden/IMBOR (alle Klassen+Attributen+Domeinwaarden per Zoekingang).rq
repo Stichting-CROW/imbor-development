@@ -1,0 +1,96 @@
+# Attributen+Domeinwaarden per Klasse (URI), inclusief de overgeërfde attributen
+
+PREFIX coll: <https://data.crow.nl/rest-api/id#>
+PREFIX restapi: <https://data.crow.nl/rest-api/def#>
+PREFIX imbor: <https://data.crow.nl/imbor/def/>
+PREFIX imbor-domeinwaarde: <https://data.crow.nl/imbor/id/domeinwaarden/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+
+SELECT DISTINCT 
+  ?uriConcept 
+  ?labelConcept 
+  ?labelMultipliciteit 
+  ?uriAttribuut 
+  ?labelAttribuut 
+  ?labelAttribuutVanObject 
+  ?uriDatatype 
+  ?uriEenheid 
+  ?uriGrootheid 
+  ?uriEnumeratie 
+  ?labelEnumeratie 
+  ?uriDomeinwaarde
+  ?labelDomeinwaarde
+
+WHERE {
+  # Selecteer alle IMBOR objecttypen onder de gespecificeerde zoekingang
+  ?vakdiscipline skos:prefLabel "Bomen (zoekingang)"@nl ; # Specifiek voor Bomen dus
+                 rdfs:member ?uriConcept .
+
+  # Selecteer alleen klassen met een prefLabel
+  ?uriConcept a rdfs:Class ;
+              skos:prefLabel ?labelConcept .
+  
+  # Zoek alle supertypen (inclusief het concept zelf via rdfs:subClassOf*) 
+  # die een Nederlands prefLabel hebben en een propertyshape bevatten
+  ?uriConcept rdfs:subClassOf* ?uriSupertype .
+  ?uriSupertype skos:prefLabel ?labelAttribuutVanObject ;
+                sh:property ?uriShapeSupertype .
+  FILTER(LANG(?labelAttribuutVanObject) = "nl")
+  
+  # Selecteer het attribuut waar de shape (= Klasse & Attribuut combinatie) naar verwijst
+  ?uriShapeSupertype sh:path ?uriAttribuut .
+  
+  # Filter NEN2660 relaties en NEN3610 `registratiegegevens` eruit
+  # (zodat alleen echte attributen overblijven, geen semantische relaties)
+  FILTER(!STRSTARTS(STR(?uriAttribuut), STR(nen2660:)))
+  FILTER(?uriAttribuut != <http://modellen.geostandaarden.nl/def/nen3610-2022#registratiegegevens>)
+  
+  # Haal optionele attribuutinformatie op van de shape
+  OPTIONAL { ?uriAttribuut skos:prefLabel ?labelAttribuut }
+  OPTIONAL { ?uriShapeSupertype qudt:hasUnit ?uriEenheid }
+  OPTIONAL { ?uriShapeSupertype sh:datatype ?uriDatatype }
+  OPTIONAL { ?uriAttribuut qudt:hasQuantityKind ?uriGrootheid }
+  
+  # Bepaal multipliciteit: probeer eerst qualified counts, dan standaard counts
+  OPTIONAL { ?uriShapeSupertype sh:qualifiedMinCount ?qshapeMinCount }
+  OPTIONAL { ?uriShapeSupertype sh:minCount ?shapeMinCount }
+  OPTIONAL { ?uriShapeSupertype sh:qualifiedMaxCount ?qshapeMaxCount }
+  OPTIONAL { ?uriShapeSupertype sh:maxCount ?shapeMaxCount }
+  
+  # Bereken en presenteer multipliciteit in het formaat "min:max" (bijv. "0:n" of "1:1")
+  BIND(COALESCE(?qshapeMinCount, ?shapeMinCount) AS ?minC)
+  BIND(COALESCE(?qshapeMaxCount, ?shapeMaxCount) AS ?maxC)   
+  BIND(CONCAT(IF(BOUND(?minC), STR(?minC), "0"), ":", IF(BOUND(?maxC), STR(?maxC), "n")) AS ?labelMultipliciteit)
+  
+  # Zoek enumeraties: probeer eerst sh:qualifiedValueShape/sh:class, dan sh:class
+  OPTIONAL {
+    ?uriShapeSupertype sh:qualifiedValueShape/sh:class ?uriEnumeratie1 .
+    ?uriEnumeratie1 skos:prefLabel ?labelEnumeratie1 .
+  }
+  OPTIONAL {
+    ?uriShapeSupertype sh:class ?uriEnumeratie2 .
+    ?uriEnumeratie2 skos:prefLabel ?labelEnumeratie2 .
+  }
+  
+  # Gebruik de eerste gevonden enumeratie (qualified heeft voorrang)
+  BIND(COALESCE(?uriEnumeratie1, ?uriEnumeratie2) AS ?uriEnumeratie)
+  BIND(COALESCE(?labelEnumeratie1, ?labelEnumeratie2) AS ?labelEnumeratie)
+  
+  # Haal domeinwaarden op via federated query naar de domeinwaarden SPARQL-endpoint
+  # (Domeinwaarden worden apart beheerd en gedistribueerd dan IMBOR Kern)
+  # Dit gebeurt alleen wanneer er een enumeratie is gevonden
+  SERVICE <https://hub.laces.tech/crow/imbor/2025/p/domeinwaarden/sparql> {
+    BIND(BOUND(?uriEnumeratie) AS ?hasEnum)
+    OPTIONAL {
+      ?uriDomeinwaarde a ?uriEnumeratie ;
+                       skos:prefLabel ?labelDomeinwaarde .
+      FILTER(?hasEnum)
+    }
+  }
+}
+ORDER BY STR(?labelConcept) STR(?labelAttribuut) STR(?labelAttribuutVanObject)
