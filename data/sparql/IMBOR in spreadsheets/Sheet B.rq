@@ -1,0 +1,66 @@
+# Onderdeel B van de spreadsheet export van IMBOR in LinkedData
+# ------------------------------------------------------------
+# Alle Attributen met hun gegevens
+# --------------------------------------------------------------------
+# Geef alle eigenschappen (attributen).
+# Voor elke eigenschap worden — waar aanwezig — vastewaardelijsten,
+# eenheden, grootheden, datatypes en multipliciteit (min en max) getoond.
+#
+# Deze query is aangepast aan de huidige IMBOR-LD data- en naamgevingsconventies
+# zoals gebruikt in de moderne SHACL-structuur.
+# ------------------------------------------------------------
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+
+SELECT DISTINCT
+  ?uriEigenschap
+  ?labelEigenschap
+  ?definitieEigenschap
+  ?uriEnumeratie
+  ?labelEnumeratie
+  ?uriDatatype
+  ?uriEenheid
+  ?uriGrootheid
+
+WHERE {
+
+  # ============================================================
+  # Vind alle eigenschappen via SHACL property shapes
+  # ============================================================
+  ?uriShape a sh:PropertyShape ;
+            sh:path ?uriEigenschap .
+
+  ?uriEigenschap skos:prefLabel ?labelEigenschap .
+
+  # ============================================================
+  # Optionele metadata van de eigenschap
+  # ============================================================
+  OPTIONAL { ?uriEigenschap skos:definition ?definitieEigenschap }
+  OPTIONAL { ?uriEigenschap qudt:hasQuantityKind ?uriGrootheid }
+
+  # ============================================================
+  # Optionele kenmerken van de property shape
+  # ============================================================
+  OPTIONAL { ?uriShape sh:datatype ?uriDatatype }
+  OPTIONAL { ?uriShape qudt:hasUnit ?uriEenheid }
+
+  # ============================================================
+  # Enumeraties (beide koppelingspatronen in één OPTIONAL)
+  # ============================================================
+  OPTIONAL {
+    {
+      ?uriShape sh:qualifiedValueShape/sh:class ?uriEnumeratie .
+    }
+    UNION
+    {
+      ?uriShape sh:class ?uriEnumeratie .
+    }
+    ?uriEnumeratie skos:prefLabel ?labelEnumeratie .
+  }
+}
+
+ORDER BY ?labelEigenschap ?labelEnumeratie ?uriEenheid ?uriGrootheid

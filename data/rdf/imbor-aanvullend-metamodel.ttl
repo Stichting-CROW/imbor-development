@@ -26,7 +26,7 @@ imbor-refmodels:levensfaseTyperingShape a sh:NodeShape;
   sh:targetSubjectsOf imbor-refmodels:levensfaseTypering.
 
 imbor-meta: a owl:Ontology;
-  rdfs:comment "Een aantal metaconcepten worden specifiek voor IMBOR gedefinieerd. Dit wordt gedaan middels het 'IMBOR Aanvullend Metamodel'. Dit betreft een kleine ontologie van beschrijfende concepten die er voor zorgen dat alle IMBOR specifieke properties netjes en navolgbaar gedefinieerd zijn."@nl;
+  rdfs:comment "Een aantal metaconcepten worden specifiek voor IMBOR gedefinieerd. Dit wordt gedaan middels het 'IMBOR Aanvullend Metamodel'. Dit betreft een kleine ontologie van beschrijvende concepten die er voor zorgen dat alle IMBOR specifieke properties netjes en navolgbaar gedefinieerd zijn."@nl;
   rdfs:label "IMBOR Aanvullend metamodel"@nl;
   owl:imports
     rdfs:,

@@ -1,0 +1,51 @@
+# Onderdeel C van de spreadsheet export van IMBOR in LinkedData
+# ------------------------------------------------------------
+# Alle Enumeraties en bijbehorende Domeinwaarden
+# --------------------------------------------------------------------
+# Geef alle vastewaardelijsten (enumeraties), inclusief hun waarden.
+# Deze query is aangepast aan de huidige IMBOR-LD data- en naamgevingsconventies
+# zoals gebruikt in de moderne SHACL-structuur.
+# ------------------------------------------------------------
+
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+
+SELECT DISTINCT
+  ?uriEnumeratie
+  ?labelEnumeratie
+  ?uriVasteWaarde
+  ?labelVasteWaarde
+
+WHERE {
+
+  # ============================================================
+  # Vind enumeratieklassen via SHACL property shapes
+  # ============================================================
+  # Consolideer beide mogelijke koppelingspatronen in één UNION
+  # Dit voorkomt redundante matches van sh:PropertyShape
+  # ============================================================
+  {
+    ?uriShape a sh:PropertyShape ;
+              sh:qualifiedValueShape/sh:class ?uriEnumeratie .
+  }
+  UNION
+  {
+    ?uriShape a sh:PropertyShape ;
+              sh:class ?uriEnumeratie .
+  }
+
+  # ============================================================
+  # Vind labels en domeinwaarden van de enumeratie
+  # ============================================================
+  # Door deze patronen samen in een OPTIONAL of direct blok te zetten,
+  # worden alleen enumeraties met beide label en waarden opgenomen
+  # ============================================================
+  ?uriEnumeratie skos:prefLabel ?labelEnumeratie .
+  ?uriVasteWaarde a ?uriEnumeratie ;
+                  skos:prefLabel ?labelVasteWaarde .
+}
+
+ORDER BY ?uriEnumeratie ?labelVasteWaarde

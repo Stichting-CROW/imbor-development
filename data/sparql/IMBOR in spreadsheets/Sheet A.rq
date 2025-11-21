@@ -1,0 +1,140 @@
+# Onderdeel A van de spreadsheet export van IMBOR in LinkedData
+# ------------------------------------------------------------
+# Alle Klassen met hun (geërfde) attributen
+# --------------------------------------------------------------------
+# Deze query haalt alle IMBOR-klassen op die niet abstract zijn,
+# en toont per klasse de eigenschappen (property shapes) die
+# aan de klasse zelf of aan een bovenliggende klasse gekoppeld zijn.
+#
+# In de kolom ?labelAttribuutVanConcept wordt de naam van de klasse
+# getoond waarvan het attribuut is overgeërfd.
+# Enumeraties worden zowel via sh:qualifiedValueShape/sh:class
+# als direct via sh:qualifiedValueShape meegenomen.
+# --------------------------------------------------------------------
+
+PREFIX imbor: <https://data.crow.nl/imbor/def/>
+PREFIX imbor-term: <https://data.crow.nl/imbor/term/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX coll: <https://data.crow.nl/rest-api/id#>
+PREFIX restapi: <https://data.crow.nl/rest-api/def#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+
+SELECT DISTINCT 
+  ?uriConcept 
+  ?labelConcept
+  ?definitieConcept
+  ?uriAttribuut 
+  ?labelAttribuut 
+  ?labelAttribuutVanConcept
+  ?labelMultipliciteit 
+  ?uriDatatype 
+  ?uriEenheid 
+  ?uriGrootheid 
+  ?uriEnumeratie 
+  ?labelEnumeratie 
+
+WHERE { 
+  # ============================================================
+  # Selecteer alleen concrete klassen (geen abstracte)
+  # ============================================================
+  ?uriConcept a rdfs:Class ;
+              dash:abstract false ;
+              skos:prefLabel ?labelConcept .
+  
+  OPTIONAL { ?uriConcept skos:definition ?definitieConcept }
+
+  # ============================================================
+  # Vind attributen via property shapes (inclusief geërfde)
+  # ============================================================
+  # rdfs:subClassOf* pakt de hele klassenhiërarchie (klasse + ouders)
+  # ============================================================
+  ?uriConcept rdfs:subClassOf* ?superClass .
+  ?superClass sh:property ?uriShape .
+  ?uriShape sh:path ?uriAttribuut .
+
+  # ============================================================
+  # Filter relaties uit (behoud alleen echte attributen)
+  # ============================================================
+  # Dit filter vroeg toepassen voorkomt onnodige verwerking van
+  # optionele patronen voor uitgefilterde rijen
+  # ============================================================
+  FILTER(?uriAttribuut NOT IN (
+    <https://w3id.org/nen2660/def#executes>,
+    <https://w3id.org/nen2660/def#consistsOf>,
+    <https://w3id.org/nen2660/def#contains>,
+    <https://w3id.org/nen2660/def#isContainedBy>,
+    <http://inspire.ec.europa.eu/ont/net#Link.endNode>,
+    <http://modellen.geostandaarden.nl/def/nen3610-2022#registratiegegevens>,
+    <https://w3id.org/nen2660/def#hasBoundary>,
+    <https://data.crow.nl/imbor/def/heeftBetrekkingOp>,
+    <https://w3id.org/nen2660/def#hasPart>,
+    <https://w3id.org/nen2660/def#isDescribedBy>,
+    <https://w3id.org/nen2660/def#isPartOf>,
+    <https://w3id.org/nen2660/def#isConnectedTo>,
+    <https://data.crow.nl/imbor/def/speelt>,
+    <http://inspire.ec.europa.eu/ont/net#Link.startNode>,
+    <https://w3id.org/nen2660/def#performs>
+  ))
+
+  # ============================================================
+  # Labels van attribuut en herkomstklasse
+  # ============================================================
+  OPTIONAL { ?uriAttribuut skos:prefLabel ?labelAttribuut }
+  OPTIONAL { ?superClass skos:prefLabel ?labelAttribuutVanConcept }
+
+  # ============================================================
+  # Metadata van het attribuut zelf
+  # ============================================================
+  OPTIONAL { ?uriAttribuut qudt:hasQuantityKind ?uriGrootheid }
+
+  # ============================================================
+  # Kenmerken van de property shape
+  # ============================================================
+  OPTIONAL { ?uriShape sh:datatype ?uriDatatype }
+  OPTIONAL { ?uriShape qudt:hasUnit ?uriEenheid }
+
+  # ============================================================
+  # Cardinaliteit (min en max counts)
+  # ============================================================
+  # Kunnen komen van sh:minCount/maxCount of sh:qualifiedMinCount/maxCount
+  # ============================================================
+  OPTIONAL {
+    { ?uriShape sh:minCount ?shapeMinCount } 
+    UNION 
+    { ?uriShape sh:qualifiedMinCount ?qshapeMinCount }
+  }
+  OPTIONAL {
+    { ?uriShape sh:maxCount ?shapeMaxCount } 
+    UNION 
+    { ?uriShape sh:qualifiedMaxCount ?qshapeMaxCount }
+  }
+
+  # ============================================================
+  # Enumeraties (vastewaardelijsten)
+  # ============================================================
+  # Kunnen direct of via qualifiedValueShape gekoppeld zijn
+  # ============================================================
+  OPTIONAL {
+    {
+      ?uriShape sh:qualifiedValueShape/sh:class ?uriEnumeratie .
+    }
+    UNION
+    {
+      ?uriShape sh:class ?uriEnumeratie .
+    }
+    ?uriEnumeratie skos:prefLabel ?labelEnumeratie .
+  }
+
+  # ============================================================
+  # Bereken multipliciteit (formaat "min:max", bijv. "0:n")
+  # ============================================================
+  BIND(COALESCE(?shapeMinCount, ?qshapeMinCount) AS ?minC)
+  BIND(COALESCE(?shapeMaxCount, ?qshapeMaxCount) AS ?maxC)   
+  BIND(CONCAT(IF(BOUND(?minC), STR(?minC), "0"), ":", IF(BOUND(?maxC), STR(?maxC), "n")) AS ?labelMultipliciteit) 
+}
+
+ORDER BY ?labelConcept ?labelAttribuut ?labelAttribuutVanConcept
