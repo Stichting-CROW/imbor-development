@@ -1,0 +1,53 @@
+# Welke geometrie(soorten) álle objecttypen volgens IMBOR kunnen hebben.
+#
+# Geometrie is in IMBOR gemodelleerd via de NEN2660-relatie nen2660:hasBoundary:
+# een PropertyShape met sh:path nen2660:hasBoundary verwijst via
+# sh:qualifiedValueShape/sh:class naar een OGC Simple-Features geometrietype
+# (sf:Point, sf:LineString, sf:Surface, sf:MultiSurface). Deze geometrie-shapes
+# staan in het Addendum Geometrie en worden (ook) overgeërfd van supertypen,
+# daarom traverseren we met rdfs:subClassOf*.
+#
+# De sf:-geometrieklassen hebben geen prefLabel; het label wordt daarom afgeleid
+# uit de URI (deel na # of /).
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT DISTINCT
+  ?uriObjecttype
+  ?labelObjecttype
+  ?uriGeometrietype
+  ?labelGeometrietype
+  ?labelMultipliciteit
+WHERE {
+  # Alle objecttypen
+  ?uriObjecttype a rdfs:Class ;
+                 dash:abstract false ;
+                 skos:prefLabel ?labelObjecttype ;
+                 rdfs:subClassOf* ?uriSuperklasse .
+  FILTER(?uriSuperklasse IN (nen2660:SpatialRegion, nen2660:RealObject))
+
+  # De klasse zelf én zijn supertypen (geometrie kan overgeërfd zijn)
+  ?uriObjecttype rdfs:subClassOf* ?uriHerkomst .
+  ?uriHerkomst sh:property ?uriShape .
+
+  # Geometrie-shape: hasBoundary -> geometrietype
+  ?uriShape sh:path nen2660:hasBoundary ;
+            sh:qualifiedValueShape/sh:class ?uriGeometrietype .
+
+  # Label afleiden uit de URI (sf:Point -> "Point")
+  BIND(REPLACE(STR(?uriGeometrietype), "^.*[#/]", "") AS ?labelGeometrietype)
+
+  # Multipliciteit "min:max"
+  OPTIONAL { ?uriShape sh:qualifiedMinCount ?qMin }
+  OPTIONAL { ?uriShape sh:qualifiedMaxCount ?qMax }
+  BIND(CONCAT(IF(BOUND(?qMin), STR(?qMin), "0"), ":",
+              IF(BOUND(?qMax), STR(?qMax), "n")) AS ?labelMultipliciteit)
+}
+ORDER BY ?labelObjecttype ?labelGeometrietype

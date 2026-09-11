@@ -1,0 +1,54 @@
+# Welke functies álle objecttypen volgens IMBOR vervullen.
+#
+# Een functie is in IMBOR een (in)directe subklasse van sml:Function
+# (https://w3id.org/sml/def#Function), die op zijn beurt subklasse is van
+# nen2660:Activity. Een objecttype koppelt aan een functie via de NEN2660-relatie
+# nen2660:executes: een PropertyShape met sh:path nen2660:executes verwijst via
+# sh:qualifiedValueShape/sh:class naar de functieklasse. Functies kunnen overgeërfd
+# zijn van supertypen, daarom traverseren we met rdfs:subClassOf*.
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+PREFIX sml: <https://w3id.org/sml/def#>
+
+SELECT DISTINCT
+  ?uriObjecttype
+  ?labelObjecttype
+  ?uriFunctie
+  ?labelFunctie
+  ?definitieFunctie
+  ?labelMultipliciteit
+WHERE {
+  # Alle objecttypen
+  ?uriObjecttype a rdfs:Class ;
+                 dash:abstract false ;
+                 skos:prefLabel ?labelObjecttype ;
+                 rdfs:subClassOf* ?uriSuperklasse .
+  FILTER(?uriSuperklasse IN (nen2660:SpatialRegion, nen2660:RealObject))
+
+  # De klasse zelf én zijn supertypen (functies kunnen overgeërfd zijn)
+  ?uriObjecttype rdfs:subClassOf* ?uriHerkomst .
+  ?uriHerkomst sh:property ?uriShape .
+
+  # Relatie 'voert uit' -> functieklasse
+  ?uriShape sh:path nen2660:executes ;
+            sh:qualifiedValueShape/sh:class ?uriFunctie .
+
+  # Alleen echte functies (subklasse van sml:Function / nen2660:Activity)
+  ?uriFunctie rdfs:subClassOf* sml:Function ;
+              skos:prefLabel ?labelFunctie .
+  OPTIONAL { ?uriFunctie skos:definition ?definitieFunctie }
+
+  # Multipliciteit "min:max"
+  OPTIONAL { ?uriShape sh:qualifiedMinCount ?qMin }
+  OPTIONAL { ?uriShape sh:qualifiedMaxCount ?qMax }
+  BIND(CONCAT(IF(BOUND(?qMin), STR(?qMin), "0"), ":",
+              IF(BOUND(?qMax), STR(?qMax), "n")) AS ?labelMultipliciteit)
+}
+ORDER BY ?labelObjecttype ?labelFunctie

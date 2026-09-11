@@ -1,0 +1,58 @@
+# Domeinwaarden van álle enumeraties, mét (a) de bovenliggende domeinwaarde en
+# (b) het attribuut + objecttype van waaruit de enumeratie wordt gebruikt.
+#
+# Deze query combineert twee invalshoeken die elders los voorkomen:
+#   - de hiërarchie tussen domeinwaarden (skos:broader), zie ook query 07;
+#   - de herkomst van een enumeratie: welk attribuut (sh:path) op welk objecttype
+#     verwijst naar het enumeratietype (via sh:class of sh:qualifiedValueShape/
+#     sh:class), zie ook query 12.
+#
+# Zo is per domeinwaarde zichtbaar tot welke bovenliggende waarde zij behoort én
+# vanuit welk attribuut/objecttype de lijst wordt gebruikt.
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT DISTINCT
+  ?uriEnumeratie
+  ?labelEnumeratie
+  ?uriObjecttype
+  ?labelObjecttype
+  ?uriAttribuut
+  ?labelAttribuut
+  ?uriDomeinwaarde
+  ?labelDomeinwaarde
+  ?uriBovenliggend
+  ?labelBovenliggend
+WHERE {
+  # Alle enumeratietypen
+  ?uriEnumeratie rdfs:subClassOf nen2660:EnumerationType ;
+                 skos:prefLabel ?labelEnumeratie .
+
+  # Domeinwaarden van dit enumeratietype
+  ?uriDomeinwaarde a ?uriEnumeratie ;
+                   skos:prefLabel ?labelDomeinwaarde .
+
+  # (a) Bovenliggende domeinwaarde
+  OPTIONAL {
+    ?uriDomeinwaarde skos:broader ?uriBovenliggend .
+    ?uriBovenliggend skos:prefLabel ?labelBovenliggend .
+  }
+
+  # (b) Herkomst: attribuut + objecttype dat naar dit enumeratietype verwijst
+  OPTIONAL {
+    ?uriShape sh:path ?uriAttribuut .
+    { ?uriShape sh:class ?uriEnumeratie }
+    UNION
+    { ?uriShape sh:qualifiedValueShape/sh:class ?uriEnumeratie }
+    ?uriObjecttype sh:property ?uriShape ;
+                   skos:prefLabel ?labelObjecttype .
+    OPTIONAL { ?uriAttribuut skos:prefLabel ?labelAttribuut }
+  }
+}
+ORDER BY ?labelEnumeratie ?labelObjecttype ?labelDomeinwaarde

@@ -1,0 +1,32 @@
+# Overzicht van alle zoekingangen in IMBOR, met het aantal objecttypen per zoekingang.
+#
+# Een zoekingang is een thematische ingang (bijv. "Bomen", "Verlichting") waaronder
+# een set objecttypen is gegroepeerd. In het model is dit een rdfs:Container met
+# rdfs:member-verwijzingen. Niet elk lid is per definitie een objecttype: alleen
+# concrete klassen (dash:abstract = false) die (in)direct subklasse zijn van
+# nen2660:SpatialRegion of nen2660:RealObject tellen mee (zie query 02).
+#
+# Aanbevolen endpoint (IMBOR 2025, alles in één graph):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT ?uriZoekingang ?labelZoekingang (COUNT(DISTINCT ?uriObjecttype) AS ?aantalObjecttypen)
+WHERE {
+  ?uriZoekingang a rdfs:Container ;
+                 skos:prefLabel ?labelZoekingang .
+
+  # Alleen leden die een echt objecttype zijn meetellen
+  OPTIONAL {
+    ?uriZoekingang rdfs:member ?uriObjecttype .
+    ?uriObjecttype a rdfs:Class ;
+                   dash:abstract false ;
+                   rdfs:subClassOf* ?uriSuperklasse .
+    FILTER(?uriSuperklasse IN (nen2660:SpatialRegion, nen2660:RealObject))
+  }
+}
+GROUP BY ?uriZoekingang ?labelZoekingang
+ORDER BY ?labelZoekingang

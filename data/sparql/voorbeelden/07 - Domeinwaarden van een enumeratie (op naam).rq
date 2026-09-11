@@ -1,0 +1,42 @@
+# Alle domeinwaarden van álle enumeraties/domeinwaardenlijsten.
+#
+# Model: een enumeratietype is een rdfs:Class met rdfs:subClassOf nen2660:EnumerationType.
+# De domeinwaarden zelf zijn instanties van dat type (imbor-domeinwaarde:... a imbor:<enum>).
+# Domeinwaarden kunnen onderling een hierarchie hebben via skos:broader.
+#
+# In de Volledig-CombiGraph zitten de domeinwaarden in dezelfde graph, dus een
+# federated SERVICE-query is hier niet nodig.
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT
+  ?uriEnumeratie
+  ?labelEnumeratie
+  ?uriDomeinwaarde
+  ?labelDomeinwaarde
+  ?definitie
+  ?uriBovenliggend
+  ?labelBovenliggend
+WHERE {
+  # Alle enumeratietypen
+  ?uriEnumeratie rdfs:subClassOf nen2660:EnumerationType ;
+                 skos:prefLabel ?labelEnumeratie .
+
+  # De domeinwaarden zijn instanties van het enumeratietype
+  ?uriDomeinwaarde a ?uriEnumeratie ;
+                   skos:prefLabel ?labelDomeinwaarde .
+
+  OPTIONAL { ?uriDomeinwaarde skos:definition ?definitie }
+
+  # Optionele hierarchie tussen domeinwaarden
+  OPTIONAL {
+    ?uriDomeinwaarde skos:broader ?uriBovenliggend .
+    ?uriBovenliggend skos:prefLabel ?labelBovenliggend .
+  }
+}
+ORDER BY ?labelEnumeratie ?labelDomeinwaarde

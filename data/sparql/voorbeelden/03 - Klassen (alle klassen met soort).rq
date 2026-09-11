@@ -1,0 +1,39 @@
+# Alle KLASSEN in IMBOR, met per klasse de afgeleide soort.
+#
+# Deze query maakt het onderscheid tussen de soorten klasse in één resultaat
+# zichtbaar (zie ook query 02 voor alleen de objecttypen):
+#   - objecttype                  : concreet (dash:abstract = false) én (in)direct
+#                                   subklasse van nen2660:SpatialRegion of
+#                                   nen2660:RealObject (bijv. "Boom", "Lichtmast").
+#   - abstracte klasse            : dash:abstract = true; alleen generiek supertype
+#                                   (bijv. "Vegetatieobject").
+#   - enumeratietype              : subklasse van nen2660:EnumerationType; definieert
+#                                   een domeinwaardenlijst.
+#   - concrete materie-/functieklasse : concreet, maar geen ruimtelijk/reëel object
+#                                   (bijv. "Asfalt", "Cement", "Weren van vee").
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT ?uriKlasse ?labelKlasse ?soort ?definitie
+WHERE {
+  ?uriKlasse a rdfs:Class ;
+             skos:prefLabel ?labelKlasse .
+  FILTER(LANG(?labelKlasse) = "nl")
+
+  BIND(
+    IF(EXISTS { ?uriKlasse rdfs:subClassOf nen2660:EnumerationType }, "enumeratietype",
+    IF(EXISTS { ?uriKlasse dash:abstract true }, "abstracte klasse",
+    IF(EXISTS { ?uriKlasse dash:abstract false .
+                ?uriKlasse rdfs:subClassOf* ?super .
+                FILTER(?super IN (nen2660:SpatialRegion, nen2660:RealObject)) }, "objecttype",
+    "concrete materie-/functieklasse"))) AS ?soort)
+
+  OPTIONAL { ?uriKlasse skos:definition ?definitie }
+}
+ORDER BY ?soort ?labelKlasse

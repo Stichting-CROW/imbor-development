@@ -1,0 +1,38 @@
+# Alle OBJECTTYPEN in IMBOR met hun definitie.
+#
+# Onderscheid Klasse vs. Objecttype:
+#   Een KLASSE is elk rdfs:Class in het model. Een OBJECTTYPE is een klasse die:
+#     1. CONCREET is (dash:abstract = false), dus daadwerkelijk registreerbaar; én
+#     2. (in)direct subklasse is van nen2660:SpatialRegion of nen2660:RealObject,
+#        d.w.z. een ruimtelijk gebied of een reëel (fysiek) object beschrijft.
+#
+#   Klassen die hier NIET aan voldoen zijn dus geen objecttypen, bijvoorbeeld:
+#     - abstracte klassen (dash:abstract = true), zoals "Vegetatieobject";
+#     - enumeratietypen (subklasse van nen2660:EnumerationType);
+#     - concrete materie- en functieklassen die niet onder SpatialRegion/RealObject
+#       vallen, zoals "Asfalt", "Cement" (materiaal) of "Weren van vee" (functie).
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT ?uriObjecttype ?labelObjecttype ?definitie
+WHERE {
+  ?uriObjecttype a rdfs:Class ;
+                 dash:abstract false ;          # 1. concreet = registreerbaar
+                 skos:prefLabel ?labelObjecttype .
+
+  # 2. (in)direct een ruimtelijk gebied of reëel object
+  ?uriObjecttype rdfs:subClassOf* ?uriSuperklasse .
+  FILTER(?uriSuperklasse IN (nen2660:SpatialRegion, nen2660:RealObject))
+
+  # Alleen Nederlandstalige labels
+  FILTER(LANG(?labelObjecttype) = "nl")
+
+  OPTIONAL { ?uriObjecttype skos:definition ?definitie }
+}
+ORDER BY ?labelObjecttype

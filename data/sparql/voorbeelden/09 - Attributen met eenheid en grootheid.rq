@@ -1,0 +1,29 @@
+# Alle attributen die een fysieke eenheid en/of grootheid hebben (QUDT).
+#
+# Kwantitatieve attributen verwijzen via qudt:hasQuantityKind naar een grootheid
+# (bijv. Length, Mass) en de bijbehorende PropertyShape via qudt:hasUnit naar een
+# eenheid (bijv. unit:M, unit:KiloGM). Handig om alle meetbare attributen en hun
+# eenheden in beeld te brengen.
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+
+SELECT DISTINCT ?uriAttribuut ?labelAttribuut ?uriGrootheid ?uriEenheid ?uriDatatype
+WHERE {
+  ?uriAttribuut a rdf:Property ;
+                skos:prefLabel ?labelAttribuut ;
+                qudt:hasQuantityKind ?uriGrootheid .
+
+  # Eenheid en datatype staan op de PropertyShape die dit attribuut vastzet
+  OPTIONAL {
+    ?uriShape sh:path ?uriAttribuut .
+    OPTIONAL { ?uriShape qudt:hasUnit ?uriEenheid }
+    OPTIONAL { ?uriShape sh:datatype ?uriDatatype }
+  }
+}
+ORDER BY ?labelAttribuut

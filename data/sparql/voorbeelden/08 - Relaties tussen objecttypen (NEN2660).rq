@@ -1,0 +1,62 @@
+# Alle relaties tussen objecttypen, gebaseerd op de NEN2660-2 relatiesoorten.
+#
+# IMBOR is grotendeels een NEN2660-2 model. Relaties tussen objecten worden
+# gemodelleerd als PropertyShapes waarvan de sh:path een NEN2660-relatie is
+# (bijv. nen2660:isPartOf, nen2660:hasPart, nen2660:contains, nen2660:isConnectedTo,
+# nen2660:executes, nen2660:hasBoundary). Het doeltype van de relatie staat in de
+# bijbehorende sh:qualifiedValueShape via sh:class.
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT DISTINCT
+  ?uriBron
+  ?labelBron
+  ?uriRelatie
+  ?labelRelatie
+  ?uriDoeltype
+  ?labelDoeltype
+  ?labelMultipliciteit
+WHERE {
+  # Alle objecttypen als bron
+  ?uriBron a rdfs:Class ;
+           dash:abstract false ;
+           skos:prefLabel ?labelBron ;
+           rdfs:subClassOf* ?uriSuperklasse ;
+           sh:property ?uriShape .
+  FILTER(?uriSuperklasse IN (nen2660:SpatialRegion, nen2660:RealObject))
+
+  # Alleen shapes waarvan de path een NEN2660-relatie is
+  ?uriShape sh:path ?uriRelatie .
+  FILTER(STRSTARTS(STR(?uriRelatie), STR(nen2660:)))
+
+  # NEN2660-relaties hebben in deze graph niet altijd een skos:prefLabel;
+  # val daarom terug op de lokale naam uit de URI (deel na # of /).
+  OPTIONAL { ?uriRelatie skos:prefLabel ?prefLabelRelatie }
+  BIND(COALESCE(?prefLabelRelatie, REPLACE(STR(?uriRelatie), "^.*[#/]", "")) AS ?labelRelatie)
+
+  # Doeltype uit de qualified value shape (label afgeleid uit URI als er geen prefLabel is,
+  # bv. bij geometrieklassen als sf:Point)
+  OPTIONAL {
+    ?uriShape sh:qualifiedValueShape/sh:class ?uriDoeltype .
+    OPTIONAL { ?uriDoeltype skos:prefLabel ?prefLabelDoel }
+    BIND(COALESCE(?prefLabelDoel, REPLACE(STR(?uriDoeltype), "^.*[#/]", "")) AS ?labelDoeltype)
+  }
+
+  # Multipliciteit "min:max"
+  OPTIONAL { ?uriShape sh:qualifiedMinCount ?qMin }
+  OPTIONAL { ?uriShape sh:minCount ?min }
+  OPTIONAL { ?uriShape sh:qualifiedMaxCount ?qMax }
+  OPTIONAL { ?uriShape sh:maxCount ?max }
+  BIND(COALESCE(?qMin, ?min) AS ?minC)
+  BIND(COALESCE(?qMax, ?max) AS ?maxC)
+  BIND(CONCAT(IF(BOUND(?minC), STR(?minC), "0"), ":",
+              IF(BOUND(?maxC), STR(?maxC), "n")) AS ?labelMultipliciteit)
+}
+ORDER BY ?labelBron ?labelRelatie ?labelDoeltype

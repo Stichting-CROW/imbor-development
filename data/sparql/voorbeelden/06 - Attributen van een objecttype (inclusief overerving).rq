@@ -1,0 +1,68 @@
+# Alle attributen van álle objecttypen, inclusief de attributen die zij erven van
+# hun supertypen. Per attribuut worden herkomst, datatype, eenheid en multipliciteit
+# getoond.
+#
+# Model: een objecttype (rdfs:Class / sh:NodeShape) verwijst via sh:property naar
+# PropertyShapes. Elke PropertyShape legt via sh:path vast wélk attribuut wordt
+# vastgezet op de klasse, met o.a. sh:datatype, qudt:hasUnit en sh:min/maxCount.
+# Via rdfs:subClassOf* worden ook de shapes van supertypen meegenomen (overerving).
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT DISTINCT
+  ?uriObjecttype
+  ?labelObjecttype
+  ?uriAttribuut
+  ?labelAttribuut
+  ?uriHerkomst
+  ?labelHerkomst
+  ?uriDatatype
+  ?uriEenheid
+  ?labelMultipliciteit
+WHERE {
+  # Alle objecttypen
+  ?uriObjecttype a rdfs:Class ;
+                 dash:abstract false ;
+                 skos:prefLabel ?labelObjecttype ;
+                 rdfs:subClassOf* ?uriSuperklasse .
+  FILTER(?uriSuperklasse IN (nen2660:SpatialRegion, nen2660:RealObject))
+
+  # De klasse zelf én al zijn supertypen (rdfs:subClassOf* incl. de klasse zelf)
+  ?uriObjecttype rdfs:subClassOf* ?uriHerkomst .
+  ?uriHerkomst sh:property ?uriShape .
+
+  # Herkomst (op welk (super)type is het attribuut vastgezet)
+  OPTIONAL {
+    ?uriHerkomst skos:prefLabel ?labelHerkomst .
+    FILTER(LANG(?labelHerkomst) = "nl")
+  }
+
+  # Het attribuut waar de shape naar wijst
+  ?uriShape sh:path ?uriAttribuut .
+
+  # Alleen echte attributen: NEN2660-relaties eruit filteren (zie query 08 voor relaties)
+  FILTER(!STRSTARTS(STR(?uriAttribuut), STR(nen2660:)))
+
+  OPTIONAL { ?uriAttribuut skos:prefLabel ?labelAttribuut }
+  OPTIONAL { ?uriShape sh:datatype ?uriDatatype }
+  OPTIONAL { ?uriShape qudt:hasUnit ?uriEenheid }
+
+  # Multipliciteit "min:max": eerst qualified counts, dan gewone counts, anders 0/n
+  OPTIONAL { ?uriShape sh:qualifiedMinCount ?qMin }
+  OPTIONAL { ?uriShape sh:minCount ?min }
+  OPTIONAL { ?uriShape sh:qualifiedMaxCount ?qMax }
+  OPTIONAL { ?uriShape sh:maxCount ?max }
+  BIND(COALESCE(?qMin, ?min) AS ?minC)
+  BIND(COALESCE(?qMax, ?max) AS ?maxC)
+  BIND(CONCAT(IF(BOUND(?minC), STR(?minC), "0"), ":",
+              IF(BOUND(?maxC), STR(?maxC), "n")) AS ?labelMultipliciteit)
+}
+ORDER BY ?labelObjecttype ?labelHerkomst ?labelAttribuut

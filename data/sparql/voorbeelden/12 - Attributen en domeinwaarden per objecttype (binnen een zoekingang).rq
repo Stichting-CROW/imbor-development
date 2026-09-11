@@ -1,0 +1,107 @@
+# Attributen én domeinwaarden per objecttype, voor alle objecttypen binnen één
+# zoekingang, inclusief de overgeërfde attributen.
+#
+# Dit is de meest uitgebreide voorbeeldquery: hij combineert objecttype, herkomst
+# (op welk (super)type het attribuut is vastgezet), attribuut met datatype/eenheid/
+# grootheid/multipliciteit, en – wanneer het attribuut een enumeratie is – de
+# bijbehorende domeinwaarden.
+#
+# In de Volledig-CombiGraph zitten de domeinwaarden in dezelfde graph, dus – anders
+# dan in oudere versies van deze query – is er geen federatie (SERVICE) nodig.
+#
+# Dit is een parameterquery: de zoekingang staat in de BIND hieronder. Een lege
+# waarde ("") toont ALLE objecttypen (let op: dat zijn > 100.000 rijen). Zie query 01
+# voor het overzicht van zoekingangen; voor de definitie van "objecttype" en
+# "attribuut", zie de README.
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT DISTINCT
+  ?uriZoekingang
+  ?labelZoekingang
+  ?uriObjecttype
+  ?labelObjecttype
+  ?uriHerkomst
+  ?labelHerkomst
+  ?uriAttribuut
+  ?labelAttribuut
+  ?labelMultipliciteit
+  ?uriDatatype
+  ?uriEenheid
+  ?uriGrootheid
+  ?uriEnumeratie
+  ?labelEnumeratie
+  ?uriDomeinwaarde
+  ?labelDomeinwaarde
+WHERE {
+  # PARAMETER: zoekingang (leeg = ALLE objecttypen; let op: zeer grote query)
+  BIND("Bomen (zoekingang)" AS ?zoekingang)
+  ?uriZoekingang a rdfs:Container ;
+                 skos:prefLabel ?labelZoekingang ;
+                 rdfs:member ?uriObjecttype .
+  FILTER(?zoekingang = "" || STR(?labelZoekingang) = ?zoekingang)
+
+  # Alleen echte objecttypen (concreet + ruimtelijk/reëel object)
+  ?uriObjecttype a rdfs:Class ;
+                 dash:abstract false ;
+                 skos:prefLabel ?labelObjecttype ;
+                 rdfs:subClassOf* ?uriSpatialOfReal .
+  FILTER(?uriSpatialOfReal IN (nen2660:SpatialRegion, nen2660:RealObject))
+
+  # De klasse zelf én al zijn supertypen (herkomst van het attribuut), voor zover
+  # die een Nederlands prefLabel en een propertyshape hebben
+  ?uriObjecttype rdfs:subClassOf* ?uriHerkomst .
+  ?uriHerkomst skos:prefLabel ?labelHerkomst ;
+               sh:property ?uriShape .
+  FILTER(LANG(?labelHerkomst) = "nl")
+
+  # Het attribuut waar de shape naar wijst
+  ?uriShape sh:path ?uriAttribuut .
+
+  # Alleen echte attributen: NEN2660-relaties en NEN3610 registratiegegevens eruit
+  # (relaties tussen objecttypen: zie query 08)
+  FILTER(!STRSTARTS(STR(?uriAttribuut), STR(nen2660:)))
+  FILTER(?uriAttribuut != <http://modellen.geostandaarden.nl/def/nen3610-2022#registratiegegevens>)
+
+  OPTIONAL { ?uriAttribuut skos:prefLabel ?labelAttribuut }
+  OPTIONAL { ?uriShape sh:datatype ?uriDatatype }
+  OPTIONAL { ?uriShape qudt:hasUnit ?uriEenheid }
+  OPTIONAL { ?uriAttribuut qudt:hasQuantityKind ?uriGrootheid }
+
+  # Multipliciteit "min:max": eerst qualified counts, dan gewone counts, anders 0/n
+  OPTIONAL { ?uriShape sh:qualifiedMinCount ?qMin }
+  OPTIONAL { ?uriShape sh:minCount ?min }
+  OPTIONAL { ?uriShape sh:qualifiedMaxCount ?qMax }
+  OPTIONAL { ?uriShape sh:maxCount ?max }
+  BIND(COALESCE(?qMin, ?min) AS ?minC)
+  BIND(COALESCE(?qMax, ?max) AS ?maxC)
+  BIND(CONCAT(IF(BOUND(?minC), STR(?minC), "0"), ":",
+              IF(BOUND(?maxC), STR(?maxC), "n")) AS ?labelMultipliciteit)
+
+  # Enumeratie bepalen: eerst via sh:qualifiedValueShape/sh:class, dan via sh:class
+  OPTIONAL {
+    ?uriShape sh:qualifiedValueShape/sh:class ?uriEnumeratie1 .
+    ?uriEnumeratie1 skos:prefLabel ?labelEnumeratie1 .
+  }
+  OPTIONAL {
+    ?uriShape sh:class ?uriEnumeratie2 .
+    ?uriEnumeratie2 skos:prefLabel ?labelEnumeratie2 .
+  }
+  BIND(COALESCE(?uriEnumeratie1, ?uriEnumeratie2) AS ?uriEnumeratie)
+  BIND(COALESCE(?labelEnumeratie1, ?labelEnumeratie2) AS ?labelEnumeratie)
+
+  # Domeinwaarden ophalen wanneer er een enumeratie is (lokaal, geen SERVICE nodig)
+  OPTIONAL {
+    ?uriDomeinwaarde a ?uriEnumeratie ;
+                     skos:prefLabel ?labelDomeinwaarde .
+  }
+}
+ORDER BY ?labelObjecttype ?labelHerkomst ?labelAttribuut ?labelDomeinwaarde

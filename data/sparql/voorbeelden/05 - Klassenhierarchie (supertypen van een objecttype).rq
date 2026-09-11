@@ -1,0 +1,36 @@
+# De volledige overervingsketen (supertypen) van álle objecttypen.
+#
+# IMBOR is grotendeels een NEN2660-2 model: objecttypen erven via rdfs:subClassOf
+# van generiekere klassen (o.a. uit NEN2660 en NEN3610). Deze query volgt die keten
+# met de property path rdfs:subClassOf+ (directe én indirecte supertypen, niet de
+# klasse zelf) voor elk objecttype.
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT ?uriObjecttype ?labelObjecttype ?uriSupertype ?labelSupertype
+WHERE {
+  # Alle objecttypen
+  ?uriObjecttype a rdfs:Class ;
+                 dash:abstract false ;
+                 skos:prefLabel ?labelObjecttype ;
+                 rdfs:subClassOf* ?uriSuperklasse .
+  FILTER(?uriSuperklasse IN (nen2660:SpatialRegion, nen2660:RealObject))
+
+  # Alle directe en indirecte supertypen (niet de klasse zelf: + i.p.v. *)
+  ?uriObjecttype rdfs:subClassOf+ ?uriSupertype .
+
+  # Label ophalen waar beschikbaar (NEN2660/NEN3610-klassen hebben soms rdfs:label)
+  OPTIONAL {
+    ?uriSupertype skos:prefLabel ?prefLabel .
+    FILTER(LANG(?prefLabel) = "nl")
+  }
+  OPTIONAL { ?uriSupertype rdfs:label ?rdfsLabel }
+  BIND(COALESCE(?prefLabel, ?rdfsLabel) AS ?labelSupertype)
+}
+ORDER BY ?labelObjecttype ?labelSupertype

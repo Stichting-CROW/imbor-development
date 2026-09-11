@@ -1,0 +1,39 @@
+# Zoek vrij op tekst door alle IMBOR-begrippen heen (objecttypen, attributen,
+# enumeraties en domeinwaarden), op basis van hun label of definitie.
+#
+# Dit is een parameterquery: de zoekterm staat in de BIND hieronder. De zoekopdracht
+# is hoofdletterongevoelig (CONTAINS in combinatie met LCASE). Een lege zoekterm ("")
+# matcht alles. Het ?soort-veld geeft aan welk type begrip is gevonden.
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT DISTINCT ?uriBegrip ?labelBegrip ?soort ?definitie
+WHERE {
+  # PARAMETER: zoekterm (leeg = alles tonen)
+  BIND("verlichting" AS ?zoekterm)
+
+  ?uriBegrip skos:prefLabel ?labelBegrip .
+  OPTIONAL { ?uriBegrip skos:definition ?definitie }
+
+  # Match op label of definitie (hoofdletterongevoelig)
+  FILTER(
+    CONTAINS(LCASE(STR(?labelBegrip)), LCASE(?zoekterm)) ||
+    CONTAINS(LCASE(STR(COALESCE(?definitie, ""))), LCASE(?zoekterm))
+  )
+
+  # Soort begrip bepalen met EXISTS (voorkomt dubbele rijen bij meerdere types)
+  BIND(
+    IF(EXISTS { ?uriBegrip rdfs:subClassOf nen2660:EnumerationType }, "enumeratietype",
+    IF(EXISTS { ?uriBegrip a rdfs:Class },   "objecttype",
+    IF(EXISTS { ?uriBegrip a rdf:Property }, "attribuut",
+    IF(EXISTS { ?uriBegrip skos:inScheme [] }, "term (vocabulaire)",
+    "domeinwaarde")))) AS ?soort)
+}
+ORDER BY ?labelBegrip
+LIMIT 200

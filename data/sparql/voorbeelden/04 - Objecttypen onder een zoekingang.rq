@@ -1,0 +1,30 @@
+# Alle objecttypen per zoekingang (voor álle zoekingangen).
+#
+# Een objecttype is een concrete klasse (dash:abstract = false) die (in)direct
+# subklasse is van nen2660:SpatialRegion of nen2660:RealObject (zie query 02).
+# Leden die daar niet aan voldoen (bv. abstracte klassen) worden niet getoond.
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT ?uriZoekingang ?labelZoekingang ?uriObjecttype ?labelObjecttype ?definitie
+WHERE {
+  ?uriZoekingang a rdfs:Container ;
+                 skos:prefLabel ?labelZoekingang ;
+                 rdfs:member ?uriObjecttype .
+
+  # Alleen echte objecttypen
+  ?uriObjecttype a rdfs:Class ;
+                 dash:abstract false ;
+                 skos:prefLabel ?labelObjecttype ;
+                 rdfs:subClassOf* ?uriSuperklasse .
+  FILTER(?uriSuperklasse IN (nen2660:SpatialRegion, nen2660:RealObject))
+
+  OPTIONAL { ?uriObjecttype skos:definition ?definitie }
+}
+ORDER BY ?labelZoekingang ?labelObjecttype

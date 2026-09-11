@@ -1,0 +1,53 @@
+# Alle objecttypen met hun mogelijke verschijningsvormen.
+#
+# "verschijningsvorm" is een attribuut (imbor:e3e112b3-e46f-45c4-b2c9-b152e6f805a1)
+# met een waardenlijst: per objecttype is er een eigen enumeratietype (bijv.
+# "BankVerschijningsvorm") waarvan de domeinwaarden de mogelijke verschijningsvormen
+# zijn. Een objecttype koppelt aan dat attribuut via een PropertyShape (sh:path),
+# die via sh:class of sh:qualifiedValueShape/sh:class naar het enumeratietype wijst.
+# Het attribuut kan overgeërfd zijn van een supertype, daarom rdfs:subClassOf*.
+#
+# Kolommen: het objecttype, de verschijningsvormenlijst (het enumeratietype) en
+# elke mogelijke verschijningsvorm (domeinwaarde).
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT DISTINCT
+  ?uriObjecttype
+  ?labelObjecttype
+  ?uriVerschijningsvormLijst
+  ?labelVerschijningsvormLijst
+  ?uriVerschijningsvorm
+  ?labelVerschijningsvorm
+WHERE {
+  # Alle objecttypen
+  ?uriObjecttype a rdfs:Class ;
+                 dash:abstract false ;
+                 skos:prefLabel ?labelObjecttype ;
+                 rdfs:subClassOf* ?uriSuperklasse .
+  FILTER(?uriSuperklasse IN (nen2660:SpatialRegion, nen2660:RealObject))
+
+  # Het attribuut 'verschijningsvorm' (incl. overerving)
+  ?uriObjecttype rdfs:subClassOf* ?uriHerkomst .
+  ?uriHerkomst sh:property ?uriShape .
+  ?uriShape sh:path ?uriAttribuut .
+  ?uriAttribuut skos:prefLabel "verschijningsvorm"@nl .
+
+  # De waardenlijst (enumeratietype) achter het attribuut
+  { ?uriShape sh:class ?uriVerschijningsvormLijst }
+  UNION
+  { ?uriShape sh:qualifiedValueShape/sh:class ?uriVerschijningsvormLijst }
+  ?uriVerschijningsvormLijst skos:prefLabel ?labelVerschijningsvormLijst .
+
+  # De mogelijke verschijningsvormen (domeinwaarden van die lijst)
+  ?uriVerschijningsvorm a ?uriVerschijningsvormLijst ;
+                        skos:prefLabel ?labelVerschijningsvorm .
+}
+ORDER BY ?labelObjecttype ?labelVerschijningsvorm

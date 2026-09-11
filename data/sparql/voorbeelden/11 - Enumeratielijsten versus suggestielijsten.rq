@@ -1,0 +1,27 @@
+# Overzicht van alle enumeratietypen (domeinwaardenlijsten), met per lijst het
+# lijsttype (open suggestielijst of gesloten enumeratielijst) en het aantal
+# domeinwaarden.
+#
+# Model: enumeratietypen zijn rdfs:subClassOf nen2660:EnumerationType. Het
+# IMBOR-specifieke attribuut imbor:typeLijst geeft aan of de lijst een
+# "Enumeratielijst" (gesloten) of "Suggestielijst" (open) is. De domeinwaarden
+# zijn instanties van het enumeratietype.
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+PREFIX imbor: <https://data.crow.nl/imbor/def/>
+
+SELECT ?uriEnumeratie ?labelEnumeratie ?typeLijst (COUNT(DISTINCT ?uriDomeinwaarde) AS ?aantalDomeinwaarden)
+WHERE {
+  ?uriEnumeratie rdfs:subClassOf nen2660:EnumerationType ;
+                 skos:prefLabel ?labelEnumeratie .
+
+  OPTIONAL { ?uriEnumeratie imbor:typeLijst ?typeLijst }
+  OPTIONAL { ?uriDomeinwaarde a ?uriEnumeratie }
+}
+GROUP BY ?uriEnumeratie ?labelEnumeratie ?typeLijst
+ORDER BY ?labelEnumeratie
