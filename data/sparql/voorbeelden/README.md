@@ -17,13 +17,17 @@ Omdat alles in één graph zit, is er geen federatie (`SERVICE`) nodig – ook d
 domeinwaarden zijn direct bevraagbaar. Een overzicht van alle beschikbare endpoints
 (o.a. per deelbestand en per jaargang) staat in [`../SPARQL-Endpoints.md`](../SPARQL-Endpoints.md).
 
-Uitvoeren kan via een SPARQL-client, de webinterface van het endpoint, of met curl:
+Uitvoeren kan via een SPARQL-client, de webinterface van het endpoint, of met curl.
+In PowerShell (gebruik `curl.exe`, niet de `curl`-alias voor `Invoke-WebRequest`):
 
-```bash
-curl -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql" \
-  --data-urlencode "query@01 - Zoekingangen (overzicht met aantal objecttypen).rq" \
+```powershell
+curl.exe -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql" `
+  --data-urlencode "query@01 - Zoekingangen (overzicht met aantal objecttypen).rq" `
   -H "Accept: text/csv"
 ```
+
+De exacte commando's voor álle query's (elk verwijzend naar het bijbehorende
+`.rq`-bestand) staan in [`Uitvoeren-met-curl.md`](Uitvoeren-met-curl.md).
 
 ## Modelbegrippen
 
