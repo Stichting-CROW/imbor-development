@@ -45,6 +45,14 @@ Get-ChildItem *.rq | ForEach-Object {
 
 ## De commando's per query
 
+### 00 – Aantallen (sanity check)
+
+```powershell
+curl.exe -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql" `
+  --data-urlencode "query@00 - Aantallen (sanity check).rq" `
+  -H "Accept: text/csv"
+```
+
 ### 01 – Zoekingangen (overzicht met aantal objecttypen)
 
 ```powershell
@@ -101,23 +109,31 @@ curl.exe -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/spa
   -H "Accept: text/csv"
 ```
 
-### 08 – Relaties tussen objecttypen (NEN2660)
+### 08 – Alle semantische relaties (NEN2660 en NEN3610)
 
 ```powershell
 curl.exe -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql" `
-  --data-urlencode "query@08 - Relaties tussen objecttypen (NEN2660).rq" `
+  --data-urlencode "query@08 - Alle semantische relaties (NEN2660 en NEN3610).rq" `
   -H "Accept: text/csv"
 ```
 
-### 09 – Attributen met eenheid en grootheid
+### 09 – Relaties tussen objecttypen (object-naar-object)
 
 ```powershell
 curl.exe -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql" `
-  --data-urlencode "query@09 - Attributen met eenheid en grootheid.rq" `
+  --data-urlencode "query@09 - Relaties tussen objecttypen (object-naar-object).rq" `
   -H "Accept: text/csv"
 ```
 
-### 10 – Zoek een begrip (vrije tekst) — *parameter*
+### 10 – Attributen met hun veldtype (datatype, eenheid, grootheid of waardenlijst)
+
+```powershell
+curl.exe -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql" `
+  --data-urlencode "query@10 - Attributen met hun veldtype (datatype, eenheid, grootheid of waardenlijst).rq" `
+  -H "Accept: text/csv"
+```
+
+### 11 – Zoek een begrip (vrije tekst) — *parameter*
 
 Deze query heeft bovenaan een parameter `BIND("..." AS ?zoekterm)`. Laat je die leeg
 (`""`) dan krijg je alles (tot de `LIMIT`). Wil je een andere zoekterm, pas dan het
@@ -125,57 +141,57 @@ Deze query heeft bovenaan een parameter `BIND("..." AS ?zoekterm)`. Laat je die 
 
 ```powershell
 curl.exe -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql" `
-  --data-urlencode "query@10 - Zoek een begrip (vrije tekst).rq" `
+  --data-urlencode "query@11 - Zoek een begrip (vrije tekst).rq" `
   -H "Accept: text/csv"
 ```
 
-### 11 – Enumeratielijsten versus suggestielijsten
+### 12 – Enumeratielijsten versus suggestielijsten
 
 ```powershell
 curl.exe -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql" `
-  --data-urlencode "query@11 - Enumeratielijsten versus suggestielijsten.rq" `
+  --data-urlencode "query@12 - Enumeratielijsten versus suggestielijsten.rq" `
   -H "Accept: text/csv"
 ```
 
-### 12 – Attributen en domeinwaarden per objecttype (binnen een zoekingang) — *parameter*
+### 13 – Attributen en domeinwaarden per objecttype (binnen een zoekingang) — *parameter*
 
 Deze query heeft een parameter `BIND("..." AS ?zoekingang)`. **Let op:** leeg (`""`)
 levert > 100.000 rijen op; vul bij voorkeur een zoekingang in het `.rq`-bestand in.
 
 ```powershell
 curl.exe -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql" `
-  --data-urlencode "query@12 - Attributen en domeinwaarden per objecttype (binnen een zoekingang).rq" `
+  --data-urlencode "query@13 - Attributen en domeinwaarden per objecttype (binnen een zoekingang).rq" `
   -H "Accept: text/csv"
 ```
 
-### 13 – Geometrietypes per objecttype
+### 14 – Geometrietypes per objecttype
 
 ```powershell
 curl.exe -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql" `
-  --data-urlencode "query@13 - Geometrietypes per objecttype.rq" `
+  --data-urlencode "query@14 - Geometrietypes per objecttype.rq" `
   -H "Accept: text/csv"
 ```
 
-### 14 – Functies per objecttype
+### 15 – Functies per objecttype
 
 ```powershell
 curl.exe -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql" `
-  --data-urlencode "query@14 - Functies per objecttype.rq" `
+  --data-urlencode "query@15 - Functies per objecttype.rq" `
   -H "Accept: text/csv"
 ```
 
-### 15 – Domeinwaarden met bovenliggende domeinwaarde en herkomst-attribuut
+### 16 – Domeinwaarden met bovenliggende domeinwaarde en herkomst-attribuut
 
 ```powershell
 curl.exe -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql" `
-  --data-urlencode "query@15 - Domeinwaarden met bovenliggende domeinwaarde en herkomst-attribuut.rq" `
+  --data-urlencode "query@16 - Domeinwaarden met bovenliggende domeinwaarde en herkomst-attribuut.rq" `
   -H "Accept: text/csv"
 ```
 
-### 16 – Objecttypen en hun mogelijke verschijningsvormen
+### 17 – Objecttypen en hun mogelijke verschijningsvormen
 
 ```powershell
 curl.exe -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql" `
-  --data-urlencode "query@16 - Objecttypen en hun mogelijke verschijningsvormen.rq" `
+  --data-urlencode "query@17 - Objecttypen en hun mogelijke verschijningsvormen.rq" `
   -H "Accept: text/csv"
 ```

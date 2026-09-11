@@ -17,6 +17,7 @@
 # Aanbevolen endpoint (IMBOR 2025):
 #   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX sh: <http://www.w3.org/ns/shacl#>
@@ -63,13 +64,12 @@ WHERE {
                sh:property ?uriShape .
   FILTER(LANG(?labelHerkomst) = "nl")
 
-  # Het attribuut waar de shape naar wijst
+  # Het attribuut waar de shape naar wijst. Attributen zijn in IMBOR rdf:Property's;
+  # de semantische relaties (nen2660:hasPart, executes, nen3610:registratiegegevens,
+  # inspire net:Link.*, ...) zijn dat niet en vallen zo vanzelf af. Zie query 08/09
+  # voor de relaties.
   ?uriShape sh:path ?uriAttribuut .
-
-  # Alleen echte attributen: NEN2660-relaties en NEN3610 registratiegegevens eruit
-  # (relaties tussen objecttypen: zie query 08)
-  FILTER(!STRSTARTS(STR(?uriAttribuut), STR(nen2660:)))
-  FILTER(?uriAttribuut != <http://modellen.geostandaarden.nl/def/nen3610-2022#registratiegegevens>)
+  ?uriAttribuut a rdf:Property .
 
   OPTIONAL { ?uriAttribuut skos:prefLabel ?labelAttribuut }
   OPTIONAL { ?uriShape sh:datatype ?uriDatatype }
@@ -86,14 +86,18 @@ WHERE {
   BIND(CONCAT(IF(BOUND(?minC), STR(?minC), "0"), ":",
               IF(BOUND(?maxC), STR(?maxC), "n")) AS ?labelMultipliciteit)
 
-  # Enumeratie bepalen: eerst via sh:qualifiedValueShape/sh:class, dan via sh:class
+  # Enumeratie (waardenlijst) bepalen: eerst via sh:qualifiedValueShape/sh:class, dan
+  # via sh:class. Beperkt tot subklassen van nen2660:EnumerationType, zodat een
+  # sh:class naar een niet-enumeratieklasse hier niet ten onrechte meekomt.
   OPTIONAL {
     ?uriShape sh:qualifiedValueShape/sh:class ?uriEnumeratie1 .
-    ?uriEnumeratie1 skos:prefLabel ?labelEnumeratie1 .
+    ?uriEnumeratie1 rdfs:subClassOf nen2660:EnumerationType ;
+                    skos:prefLabel ?labelEnumeratie1 .
   }
   OPTIONAL {
     ?uriShape sh:class ?uriEnumeratie2 .
-    ?uriEnumeratie2 skos:prefLabel ?labelEnumeratie2 .
+    ?uriEnumeratie2 rdfs:subClassOf nen2660:EnumerationType ;
+                    skos:prefLabel ?labelEnumeratie2 .
   }
   BIND(COALESCE(?uriEnumeratie1, ?uriEnumeratie2) AS ?uriEnumeratie)
   BIND(COALESCE(?labelEnumeratie1, ?labelEnumeratie2) AS ?labelEnumeratie)

@@ -1,15 +1,22 @@
 # Alle attributen van álle objecttypen, inclusief de attributen die zij erven van
-# hun supertypen. Per attribuut worden herkomst, datatype, eenheid en multipliciteit
-# getoond.
+# hun supertypen. Per attribuut worden herkomst, datatype/eenheid óf waardenlijst
+# (enumeratie) en multipliciteit getoond.
 #
 # Model: een objecttype (rdfs:Class / sh:NodeShape) verwijst via sh:property naar
 # PropertyShapes. Elke PropertyShape legt via sh:path vast wélk attribuut wordt
 # vastgezet op de klasse, met o.a. sh:datatype, qudt:hasUnit en sh:min/maxCount.
 # Via rdfs:subClassOf* worden ook de shapes van supertypen meegenomen (overerving).
 #
+# Niet elk attribuut heeft een datatype/eenheid: sommige verwijzen juist naar een
+# waardenlijst (enumeratietype). Die koppeling loopt via sh:class of via
+# sh:qualifiedValueShape/sh:class naar een subklasse van nen2660:EnumerationType,
+# en staat hier in de kolommen uriEnumeratielijst/labelEnumeratielijst. Zie query 07
+# voor de domeinwaarden van zo'n lijst.
+#
 # Aanbevolen endpoint (IMBOR 2025):
 #   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX sh: <http://www.w3.org/ns/shacl#>
@@ -26,6 +33,8 @@ SELECT DISTINCT
   ?labelHerkomst
   ?uriDatatype
   ?uriEenheid
+  ?uriEnumeratielijst
+  ?labelEnumeratielijst
   ?labelMultipliciteit
 WHERE {
   # Alle objecttypen
@@ -45,15 +54,28 @@ WHERE {
     FILTER(LANG(?labelHerkomst) = "nl")
   }
 
-  # Het attribuut waar de shape naar wijst
+  # Het attribuut waar de shape naar wijst. In IMBOR zijn attributen én semantische
+  # relaties allebei properties, maar alleen attributen zijn een rdf:Property met een
+  # eigen prefLabel. De semantische relaties (nen2660:hasPart, executes, hasBoundary,
+  # nen3610:registratiegegevens, inspire net:Link.*, ...) zijn géén rdf:Property en
+  # vallen zo vanzelf af. Zie query 08 (alle relaties) en 09 (object-naar-object).
   ?uriShape sh:path ?uriAttribuut .
-
-  # Alleen echte attributen: NEN2660-relaties eruit filteren (zie query 08 voor relaties)
-  FILTER(!STRSTARTS(STR(?uriAttribuut), STR(nen2660:)))
+  ?uriAttribuut a rdf:Property .
 
   OPTIONAL { ?uriAttribuut skos:prefLabel ?labelAttribuut }
   OPTIONAL { ?uriShape sh:datatype ?uriDatatype }
   OPTIONAL { ?uriShape qudt:hasUnit ?uriEenheid }
+
+  # Waardenlijst (enumeratie) waar het attribuut naar verwijst, indien aanwezig.
+  # Kan direct via sh:class of via sh:qualifiedValueShape/sh:class; beperkt tot
+  # enumeratietypen zodat NEN2660-relatiedoeltypen hier niet meekomen.
+  OPTIONAL {
+    { ?uriShape sh:class ?uriEnumeratielijst }
+    UNION
+    { ?uriShape sh:qualifiedValueShape/sh:class ?uriEnumeratielijst }
+    ?uriEnumeratielijst rdfs:subClassOf nen2660:EnumerationType ;
+                        skos:prefLabel ?labelEnumeratielijst .
+  }
 
   # Multipliciteit "min:max": eerst qualified counts, dan gewone counts, anders 0/n
   OPTIONAL { ?uriShape sh:qualifiedMinCount ?qMin }

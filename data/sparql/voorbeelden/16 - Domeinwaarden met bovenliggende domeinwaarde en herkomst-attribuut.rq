@@ -5,7 +5,7 @@
 #   - de hiërarchie tussen domeinwaarden (skos:broader), zie ook query 07;
 #   - de herkomst van een enumeratie: welk attribuut (sh:path) op welk objecttype
 #     verwijst naar het enumeratietype (via sh:class of sh:qualifiedValueShape/
-#     sh:class), zie ook query 12.
+#     sh:class), zie ook query 13.
 #
 # Zo is per domeinwaarde zichtbaar tot welke bovenliggende waarde zij behoort én
 # vanuit welk attribuut/objecttype de lijst wordt gebruikt.

@@ -1,25 +1,42 @@
-# Alle relaties tussen objecttypen, gebaseerd op de NEN2660-2 relatiesoorten.
+# Alle semantische relaties van álle objecttypen.
 #
-# IMBOR is grotendeels een NEN2660-2 model. Relaties tussen objecten worden
-# gemodelleerd als PropertyShapes waarvan de sh:path een NEN2660-relatie is
-# (bijv. nen2660:isPartOf, nen2660:hasPart, nen2660:contains, nen2660:isConnectedTo,
-# nen2660:executes, nen2660:hasBoundary). Het doeltype van de relatie staat in de
-# bijbehorende sh:qualifiedValueShape via sh:class.
+# In IMBOR zijn attributen én semantische relaties allebei RDF-properties, maar ze
+# zijn iets verschillends:
+#   - een ATTRIBUUT is een rdf:Property met een eigen prefLabel en een datatype of
+#     waardenlijst (zie query 06/10);
+#   - een SEMANTISCHE RELATIE legt een verband naar een andere klasse en gebruikt
+#     als sh:path een generiek NEN2660/NEN3610-predicaat (nen2660:hasPart,
+#     nen2660:isConnectedTo, nen2660:contains, nen2660:executes, nen2660:hasBoundary,
+#     nen2660:isDescribedBy, nen3610:registratiegegevens, ...). Die predicaten zijn
+#     GEEN rdf:Property in dit model.
+#
+# Deze query pakt daarom precies het spiegelbeeld van een attribuut: alle
+# PropertyShapes waarvan de sh:path géén rdf:Property is. Zo komen alle semantische
+# relaties mee (inclusief geometrie via hasBoundary en functie via executes; zie
+# query 14 en 15 voor die twee apart). Voor alléén relaties naar een ander objecttype,
+# zie query 09.
+#
+# Het doeltype staat in de sh:qualifiedValueShape via sh:class. De officiële
+# NEN2660-relatielabels zitten niet in de Volledig-CombiGraph; daarom tonen we de
+# lokale naam uit de URI (?relatiesoort) plus een informele NL-benaming (?relatieNL).
 #
 # Aanbevolen endpoint (IMBOR 2025):
 #   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX dash: <http://datashapes.org/dash#>
 PREFIX nen2660: <https://w3id.org/nen2660/def#>
+PREFIX nen3610: <http://modellen.geostandaarden.nl/def/nen3610-2022#>
 
 SELECT DISTINCT
   ?uriBron
   ?labelBron
   ?uriRelatie
-  ?labelRelatie
+  ?relatiesoort
+  ?relatieNL
   ?uriDoeltype
   ?labelDoeltype
   ?labelMultipliciteit
@@ -32,16 +49,29 @@ WHERE {
            sh:property ?uriShape .
   FILTER(?uriSuperklasse IN (nen2660:SpatialRegion, nen2660:RealObject))
 
-  # Alleen shapes waarvan de path een NEN2660-relatie is
+  # Semantische relatie = PropertyShape waarvan de sh:path GEEN rdf:Property is
+  # (dat zijn juist de attributen). Zo blijft de volledige relatie-set over.
   ?uriShape sh:path ?uriRelatie .
-  FILTER(STRSTARTS(STR(?uriRelatie), STR(nen2660:)))
+  FILTER NOT EXISTS { ?uriRelatie a rdf:Property }
 
-  # NEN2660-relaties hebben in deze graph niet altijd een skos:prefLabel;
-  # val daarom terug op de lokale naam uit de URI (deel na # of /).
-  OPTIONAL { ?uriRelatie skos:prefLabel ?prefLabelRelatie }
-  BIND(COALESCE(?prefLabelRelatie, REPLACE(STR(?uriRelatie), "^.*[#/]", "")) AS ?labelRelatie)
+  # Relatiesoort = lokale naam uit de URI (bv. "hasPart")
+  BIND(REPLACE(STR(?uriRelatie), "^.*[#/]", "") AS ?relatiesoort)
 
-  # Doeltype uit de qualified value shape (label afgeleid uit URI als er geen prefLabel is,
+  # Informele NL-benaming (officiële NEN2660-termen zitten niet in de combigraph)
+  OPTIONAL {
+    VALUES (?uriRelatie ?relatieNL) {
+      (nen2660:hasPart        "heeft deel")
+      (nen2660:consistsOf     "bestaat uit")
+      (nen2660:contains       "bevat")
+      (nen2660:isConnectedTo  "is verbonden met")
+      (nen2660:isDescribedBy  "wordt beschreven door")
+      (nen2660:executes       "voert uit (functie)")
+      (nen2660:hasBoundary    "heeft begrenzing (geometrie)")
+      (nen3610:registratiegegevens "registratiegegevens")
+    }
+  }
+
+  # Doeltype uit de qualified value shape (label uit URI als er geen prefLabel is,
   # bv. bij geometrieklassen als sf:Point)
   OPTIONAL {
     ?uriShape sh:qualifiedValueShape/sh:class ?uriDoeltype .
@@ -59,4 +89,4 @@ WHERE {
   BIND(CONCAT(IF(BOUND(?minC), STR(?minC), "0"), ":",
               IF(BOUND(?maxC), STR(?maxC), "n")) AS ?labelMultipliciteit)
 }
-ORDER BY ?labelBron ?labelRelatie ?labelDoeltype
+ORDER BY ?labelBron ?relatiesoort ?labelDoeltype

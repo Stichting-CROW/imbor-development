@@ -11,6 +11,7 @@
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dash: <http://datashapes.org/dash#>
 PREFIX nen2660: <https://w3id.org/nen2660/def#>
 
 SELECT DISTINCT ?uriBegrip ?labelBegrip ?soort ?definitie
@@ -27,13 +28,20 @@ WHERE {
     CONTAINS(LCASE(STR(COALESCE(?definitie, ""))), LCASE(?zoekterm))
   )
 
-  # Soort begrip bepalen met EXISTS (voorkomt dubbele rijen bij meerdere types)
+  # Soort begrip bepalen met EXISTS (voorkomt dubbele rijen bij meerdere types).
+  # Zelfde afbakening als query 03: een klasse is alleen "objecttype" als hij concreet
+  # (dash:abstract false) én (in)direct ruimtelijk/reëel is; overige klassen zijn een
+  # abstracte klasse of een materie-/functieklasse.
   BIND(
     IF(EXISTS { ?uriBegrip rdfs:subClassOf nen2660:EnumerationType }, "enumeratietype",
-    IF(EXISTS { ?uriBegrip a rdfs:Class },   "objecttype",
+    IF(EXISTS { ?uriBegrip dash:abstract true }, "abstracte klasse",
+    IF(EXISTS { ?uriBegrip dash:abstract false .
+                ?uriBegrip rdfs:subClassOf* ?superK .
+                FILTER(?superK IN (nen2660:SpatialRegion, nen2660:RealObject)) }, "objecttype",
+    IF(EXISTS { ?uriBegrip a rdfs:Class },   "materie-/functieklasse",
     IF(EXISTS { ?uriBegrip a rdf:Property }, "attribuut",
     IF(EXISTS { ?uriBegrip skos:inScheme [] }, "term (vocabulaire)",
-    "domeinwaarde")))) AS ?soort)
+    "domeinwaarde")))))) AS ?soort)
 }
 ORDER BY ?labelBegrip
 LIMIT 200

@@ -1,0 +1,78 @@
+# Semantische relaties tussen objecttypen onderling.
+#
+# Dit is de deelverzameling van query 08 waarbij het doeltype zélf óók een objecttype
+# is (concreet + (in)direct subklasse van nen2660:SpatialRegion/RealObject). Daardoor
+# vallen relaties naar niet-objecttypen automatisch af:
+#   - nen2660:hasBoundary  -> geometrieklasse (zie query 14),
+#   - nen2660:executes     -> functieklasse   (zie query 15),
+#   - nen3610:registratiegegevens -> registratie-object,
+#   - inspire net:Link.*    -> netwerkknopen.
+# Wat overblijft zijn de "echte" object-naar-object relaties (hasPart, consistsOf,
+# contains, isConnectedTo, isDescribedBy, ...).
+#
+# Attributen (rdf:Property) blijven buiten beschouwing: relaties gebruiken een
+# generiek NEN2660/NEN3610-predicaat als sh:path, dat géén rdf:Property is.
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT DISTINCT
+  ?uriBron
+  ?labelBron
+  ?uriRelatie
+  ?relatiesoort
+  ?relatieNL
+  ?uriDoeltype
+  ?labelDoeltype
+  ?labelMultipliciteit
+WHERE {
+  # Alle objecttypen als bron
+  ?uriBron a rdfs:Class ;
+           dash:abstract false ;
+           skos:prefLabel ?labelBron ;
+           rdfs:subClassOf* ?uriSuperklasse ;
+           sh:property ?uriShape .
+  FILTER(?uriSuperklasse IN (nen2660:SpatialRegion, nen2660:RealObject))
+
+  # Semantische relatie = PropertyShape waarvan de sh:path GEEN rdf:Property is
+  ?uriShape sh:path ?uriRelatie .
+  FILTER NOT EXISTS { ?uriRelatie a rdf:Property }
+  BIND(REPLACE(STR(?uriRelatie), "^.*[#/]", "") AS ?relatiesoort)
+
+  # Informele NL-benaming (officiële NEN2660-termen zitten niet in de combigraph)
+  OPTIONAL {
+    VALUES (?uriRelatie ?relatieNL) {
+      (nen2660:hasPart        "heeft deel")
+      (nen2660:consistsOf     "bestaat uit")
+      (nen2660:contains       "bevat")
+      (nen2660:isConnectedTo  "is verbonden met")
+      (nen2660:isDescribedBy  "wordt beschreven door")
+    }
+  }
+
+  # Doeltype uit de qualified value shape, en dat moet zélf een objecttype zijn
+  ?uriShape sh:qualifiedValueShape/sh:class ?uriDoeltype .
+  ?uriDoeltype a rdfs:Class ;
+               dash:abstract false ;
+               skos:prefLabel ?labelDoeltype ;
+               rdfs:subClassOf* ?uriSuperDoel .
+  FILTER(?uriSuperDoel IN (nen2660:SpatialRegion, nen2660:RealObject))
+
+  # Multipliciteit "min:max"
+  OPTIONAL { ?uriShape sh:qualifiedMinCount ?qMin }
+  OPTIONAL { ?uriShape sh:minCount ?min }
+  OPTIONAL { ?uriShape sh:qualifiedMaxCount ?qMax }
+  OPTIONAL { ?uriShape sh:maxCount ?max }
+  BIND(COALESCE(?qMin, ?min) AS ?minC)
+  BIND(COALESCE(?qMax, ?max) AS ?maxC)
+  BIND(CONCAT(IF(BOUND(?minC), STR(?minC), "0"), ":",
+              IF(BOUND(?maxC), STR(?maxC), "n")) AS ?labelMultipliciteit)
+}
+ORDER BY ?labelBron ?relatiesoort ?labelDoeltype

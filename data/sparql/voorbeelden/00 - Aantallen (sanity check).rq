@@ -1,0 +1,83 @@
+# Sanity check: de belangrijkste aantallen in het model in één overzicht.
+#
+# Deze query telt de kern-"ankers" (klassen, objecttypen, attributen, relaties,
+# enumeratielijsten, ...) zodat je bij een nieuwe jaargang of modelwijziging in één
+# oogopslag ziet of een getal verschuift. Elk anker is een eigen sub-SELECT; de
+# afbakening (WHERE-patroon) is precies dezelfde als in de losse voorbeeldquery's,
+# zodat de aantallen daarmee overeenkomen.
+#
+# Referentiepeil IMBOR 2025 (Volledig-CombiGraph), september 2026:
+#   1. Klassen (rdfs:Class) .......................... 2867
+#   2. Objecttypen (concreet, ruimtelijk/reëel) ...... 1522
+#   3. Abstracte klassen ............................. 189
+#   4. Enumeratietypen (waardenlijsten) .............. 460
+#   5. Attributen (rdf:Property) ..................... 722
+#   6. Semantische relaties (rijen, totaal) .......... 1123
+#      waarvan executes 598, hasPart 347, isConnectedTo 87,
+#      hasBoundary 48, isDescribedBy 34, contains 9
+#   7. Objecttypen met een verschijningsvorm-lijst ... 201
+# Wijken de getallen af? Dat is het signaal om te kijken wat er in het model is
+# veranderd (of in de afbakening van een query).
+#
+# Aanbevolen endpoint (IMBOR 2025):
+#   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX dash: <http://datashapes.org/dash#>
+PREFIX imbor: <https://data.crow.nl/imbor/def/>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
+
+SELECT ?meting ?aantal WHERE {
+  # 1. Alle klassen
+  { SELECT ("1. Klassen (rdfs:Class)" AS ?meting) (COUNT(DISTINCT ?c) AS ?aantal) WHERE {
+      ?c a rdfs:Class .
+  } }
+  UNION
+  # 2. Objecttypen: concreet + (in)direct ruimtelijk/reëel object (zie query 02)
+  { SELECT ("2. Objecttypen (concreet, ruimtelijk/reeel)" AS ?meting) (COUNT(DISTINCT ?o) AS ?aantal) WHERE {
+      ?o a rdfs:Class ; dash:abstract false ; rdfs:subClassOf* ?s .
+      FILTER(?s IN (nen2660:SpatialRegion, nen2660:RealObject))
+  } }
+  UNION
+  # 3. Abstracte klassen
+  { SELECT ("3. Abstracte klassen (dash:abstract true)" AS ?meting) (COUNT(DISTINCT ?c) AS ?aantal) WHERE {
+      ?c a rdfs:Class ; dash:abstract true .
+  } }
+  UNION
+  # 4. Enumeratietypen / waardenlijsten (zie query 12)
+  { SELECT ("4. Enumeratietypen (waardenlijsten)" AS ?meting) (COUNT(DISTINCT ?e) AS ?aantal) WHERE {
+      ?e rdfs:subClassOf nen2660:EnumerationType .
+  } }
+  UNION
+  # 5. Attributen = rdf:Property (zie query 06/10). Verschijningsvorm zit hier bewust bij.
+  { SELECT ("5. Attributen (rdf:Property)" AS ?meting) (COUNT(DISTINCT ?a) AS ?aantal) WHERE {
+      ?a a rdf:Property .
+  } }
+  UNION
+  # 6. Semantische relaties (rijen, totaal): shapes op objecttypen met een sh:path die
+  #    GEEN rdf:Property is (zie query 08).
+  { SELECT ("6. Semantische relaties (rijen, totaal)" AS ?meting) (COUNT(*) AS ?aantal) WHERE {
+      ?bron a rdfs:Class ; dash:abstract false ; rdfs:subClassOf* ?s ; sh:property ?shape .
+      FILTER(?s IN (nen2660:SpatialRegion, nen2660:RealObject))
+      ?shape sh:path ?rel .
+      FILTER NOT EXISTS { ?rel a rdf:Property }
+  } }
+  UNION
+  # 6a-6f. Idem, uitgesplitst per relatiesoort
+  { SELECT (CONCAT("6. relatie: ", REPLACE(STR(?rel), "^.*[#/]", "")) AS ?meting) (COUNT(*) AS ?aantal) WHERE {
+      ?bron a rdfs:Class ; dash:abstract false ; rdfs:subClassOf* ?s ; sh:property ?shape .
+      FILTER(?s IN (nen2660:SpatialRegion, nen2660:RealObject))
+      ?shape sh:path ?rel .
+      FILTER NOT EXISTS { ?rel a rdf:Property }
+  } GROUP BY ?rel }
+  UNION
+  # 7. Objecttypen met een verschijningsvorm-lijst (zie query 17)
+  { SELECT ("7. Objecttypen met verschijningsvorm-lijst" AS ?meting) (COUNT(DISTINCT ?bron) AS ?aantal) WHERE {
+      ?bron a rdfs:Class ; dash:abstract false ; rdfs:subClassOf* ?s ; rdfs:subClassOf*/sh:property ?shape .
+      FILTER(?s IN (nen2660:SpatialRegion, nen2660:RealObject))
+      ?shape sh:path imbor:e3e112b3-e46f-45c4-b2c9-b152e6f805a1 .
+  } }
+}
+ORDER BY ?meting

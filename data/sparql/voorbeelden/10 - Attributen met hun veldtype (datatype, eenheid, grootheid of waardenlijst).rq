@@ -1,29 +1,55 @@
-# Alle attributen die een fysieke eenheid en/of grootheid hebben (QUDT).
+# Alle attributen met hun "veldtype": datatype, eenheid, grootheid én/óf waardenlijst.
 #
-# Kwantitatieve attributen verwijzen via qudt:hasQuantityKind naar een grootheid
-# (bijv. Length, Mass) en de bijbehorende PropertyShape via qudt:hasUnit naar een
-# eenheid (bijv. unit:M, unit:KiloGM). Handig om alle meetbare attributen en hun
-# eenheden in beeld te brengen.
+# Een attribuut (rdf:Property) krijgt zijn type via de PropertyShape(s) die het
+# vastzetten (sh:path). Dat type kan zijn:
+#   - een sh:datatype (bijv. xsd:string, xsd:decimal), eventueel met een QUDT-eenheid
+#     (qudt:hasUnit) en -grootheid (qudt:hasQuantityKind, bijv. Length/Mass); of
+#   - een verwijzing naar een waardenlijst (enumeratietype), via sh:class of
+#     sh:qualifiedValueShape/sh:class naar een subklasse van nen2660:EnumerationType.
+#
+# Sommige attributen hebben dus géén datatype/eenheid maar juist een enumeratielijst;
+# beide invalshoeken staan hier naast elkaar. Zie query 06 voor hetzelfde per
+# objecttype, en query 07 voor de domeinwaarden van een lijst.
 #
 # Aanbevolen endpoint (IMBOR 2025):
 #   https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX qudt: <http://qudt.org/schema/qudt/>
+PREFIX nen2660: <https://w3id.org/nen2660/def#>
 
-SELECT DISTINCT ?uriAttribuut ?labelAttribuut ?uriGrootheid ?uriEenheid ?uriDatatype
+SELECT DISTINCT
+  ?uriAttribuut
+  ?labelAttribuut
+  ?uriDatatype
+  ?uriEenheid
+  ?uriGrootheid
+  ?uriEnumeratielijst
+  ?labelEnumeratielijst
 WHERE {
   ?uriAttribuut a rdf:Property ;
-                skos:prefLabel ?labelAttribuut ;
-                qudt:hasQuantityKind ?uriGrootheid .
+                skos:prefLabel ?labelAttribuut .
 
-  # Eenheid en datatype staan op de PropertyShape die dit attribuut vastzet
+  # Grootheid staat op het attribuut zelf (indien kwantitatief)
+  OPTIONAL { ?uriAttribuut qudt:hasQuantityKind ?uriGrootheid }
+
+  # Datatype, eenheid en waardenlijst staan op de PropertyShape die dit attribuut
+  # vastzet. Alleen attributen die daadwerkelijk ergens worden vastgezet.
+  ?uriShape sh:path ?uriAttribuut .
+  OPTIONAL { ?uriShape sh:datatype ?uriDatatype }
+  OPTIONAL { ?uriShape qudt:hasUnit ?uriEenheid }
+
+  # Waardenlijst (enumeratie): via sh:class of sh:qualifiedValueShape/sh:class,
+  # beperkt tot subklassen van nen2660:EnumerationType.
   OPTIONAL {
-    ?uriShape sh:path ?uriAttribuut .
-    OPTIONAL { ?uriShape qudt:hasUnit ?uriEenheid }
-    OPTIONAL { ?uriShape sh:datatype ?uriDatatype }
+    { ?uriShape sh:class ?uriEnumeratielijst }
+    UNION
+    { ?uriShape sh:qualifiedValueShape/sh:class ?uriEnumeratielijst }
+    ?uriEnumeratielijst rdfs:subClassOf nen2660:EnumerationType ;
+                        skos:prefLabel ?labelEnumeratielijst .
   }
 }
 ORDER BY ?labelAttribuut
