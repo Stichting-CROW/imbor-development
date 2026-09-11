@@ -92,3 +92,15 @@ met een verschijningsvorm-lijst). Draai je die query tegen een nieuwe jaargang o
 een modelwijziging, dan zie je meteen of een getal is verschoven — en dus of een
 afbakening (of het model) is veranderd. De afbakening per anker is dezelfde als in de
 losse voorbeeldquery's, zodat de aantallen daarmee overeenkomen.
+
+### Tip: elke query in één keer draaien met Powershell
+
+Vanuit deze map, alle `.rq`-bestanden achter elkaar naar een CSV per query:
+
+```powershell
+Get-ChildItem *.rq | ForEach-Object {
+  curl.exe -s -G "https://hub.laces.tech/crow/imbor/2025/p/volledig-combigraph/sparql" `
+    --data-urlencode "query@$($_.Name)" `
+    -H "Accept: text/csv" | Set-Content -Encoding utf8 "$($_.BaseName).csv"
+}
+```
